@@ -2314,7 +2314,7 @@ Senaste granskade position: **56 656** av 77 656. Nästa position: **56 657**; *
 
 ## Sekventiell granskningsmarkör – 2026-11-27
 
-Senaste granskade position: **56 896** av 77 656. Nästa position: **56 897**; **20 760 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+Senaste granskade position: **57 016** av 77 656. Nästa position: **57 017**; **20 640 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
 
 
 ### Batch: 56 777–56 896
@@ -2323,4 +2323,12 @@ Senaste granskade position: **56 896** av 77 656. Nästa position: **56 897**; *
 
 ## Sekventiell granskningsmarkör – 2026-11-27
 
-Senaste granskade position: **56 896** av 77 656. Nästa position: **56 897**; **20 760 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+Senaste granskade position: **57 016** av 77 656. Nästa position: **57 017**; **20 640 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+
+### Batch: 56,897–57,016
+
+120 positioner radgranskades: 113 direkta aktuella strängar, två referenser och fem tidigare dokumenterade nycklar utan aktuell källväg. 66 ändringar sparades och API-lästes tillbaka. Referenserna matchar 2/2; platshållare 120/120, inga pluralnycklar. `svlang` hittade inga skrivregelfel. Freebox-källkod bekräftade betydelsen av `Cover`; SolarEdge- och Z-Wave JS-terminologi granskades i sammanhang. TMX validerar med 35 753 poster; manifestet innehåller 115 aktuella poster.
+
+## Sekventiell granskningsmarkör – 2026-11-27
+
+Senaste granskade position: **57 016** av 77 656. Nästa position: **57 017**; **20 640 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.

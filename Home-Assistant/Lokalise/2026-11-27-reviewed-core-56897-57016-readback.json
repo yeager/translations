@@ -1,0 +1,662 @@
+[
+  {
+    "key": "component::jewish_calendar::selector::yearly_events::options::weekly_portion",
+    "key_id": "856072697",
+    "translation_id": "8567711667",
+    "en": "Torah portion",
+    "before": "Torah-avsnitt",
+    "after": "Torah-läsning",
+    "readback": "Torah-läsning",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::solaredge::entity::sensor::grid_flow_direction::name",
+    "key_id": "856073029",
+    "translation_id": "8567718266",
+    "en": "Grid flow direction",
+    "before": "Nätets flödesriktning",
+    "after": "Effektflödesriktning mot elnätet",
+    "readback": "Effektflödesriktning mot elnätet",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::solaredge::entity::sensor::grid_flow_direction::state::export",
+    "key_id": "856073030",
+    "translation_id": "8567718330",
+    "en": "Export",
+    "before": "Export",
+    "after": "Export till elnätet",
+    "readback": "Export till elnätet",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::solaredge::entity::sensor::grid_flow_direction::state::import",
+    "key_id": "856073031",
+    "translation_id": "8567718394",
+    "en": "Import",
+    "before": "Import",
+    "after": "Import från elnätet",
+    "readback": "Import från elnätet",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::solaredge::entity::sensor::storage_flow_direction::name",
+    "key_id": "856073032",
+    "translation_id": "8567718458",
+    "en": "Storage flow direction",
+    "before": "Flödesriktning för lagring",
+    "after": "Batteriets effektflödesriktning",
+    "readback": "Batteriets effektflödesriktning",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::solaredge::entity::sensor::storage_flow_direction::state::charge",
+    "key_id": "856073033",
+    "translation_id": "8567718522",
+    "en": "Charge",
+    "before": "Laddning",
+    "after": "Laddar batteriet",
+    "readback": "Laddar batteriet",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::solaredge::entity::sensor::storage_flow_direction::state::discharge",
+    "key_id": "856073034",
+    "translation_id": "8567718586",
+    "en": "Discharge",
+    "before": "Urladdning",
+    "after": "Urladdar batteriet",
+    "readback": "Urladdar batteriet",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::homekit::options::step::bridged_device_triggers::description",
+    "key_id": "856103835",
+    "translation_id": "8568262129",
+    "en": "Programmable switches are created for each selected device. When a device trigger fires, HomeKit can be configured to run an automation or scene.",
+    "before": "Programmerbara brytare skapas för varje vald enhet. När en enhetsutlösare utlöses kan HomeKit konfigureras för att köra en automatisering eller scen.",
+    "after": "För varje vald enhet skapas programmerbara brytare. När en utlösare från en enhet aktiveras kan HomeKit konfigureras så att en automatisering eller scen körs.",
+    "readback": "För varje vald enhet skapas programmerbara brytare. När en utlösare från en enhet aktiveras kan HomeKit konfigureras så att en automatisering eller scen körs.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::homekit::options::step::bridged_device_triggers::title",
+    "key_id": "856103836",
+    "translation_id": "8568262193",
+    "en": "Bridged device triggers",
+    "before": "Bryggade enhetsutlösare",
+    "after": "Utlösare för bryggade enheter",
+    "readback": "Utlösare för bryggade enheter",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::homeassistant::issues::platform_config_not_supported::description",
+    "key_id": "856167439",
+    "translation_id": "8569105345",
+    "en": "Configuring the {integration_domain} integration by adding `{platform_key}` under the `{platform_domain}:` key is not supported. The {integration_domain} integration must be configured under its own `{integration_domain}:` key instead.\n\nTo resolve this:\n\n1. Remove the following from your YAML configuration file:\n\n{yaml_example}\n\n2. Move the configuration under the `{integration_domain}:` key instead.\n\n3. Restart Home Assistant.\n\nTo see the detailed documentation, select Learn more.",
+    "before": "Integreringen {integration_domain} kan inte konfigureras genom att lägga till `{platform_key}` under nyckeln `{platform_domain}:`. Integreringen måste i stället konfigureras under sin egen nyckel `{integration_domain}:`.\n\nSå här åtgärdar du problemet:\n\n1. Ta bort följande från YAML-konfigurationsfilen:\n\n{yaml_example}\n\n2. Flytta konfigurationen under nyckeln `{integration_domain}:`.\n\n3. Starta om Home Assistant.\n\nVälj Läs mer om du vill läsa den detaljerade dokumentationen.",
+    "after": "Integreringen {integration_domain} kan inte konfigureras genom att lägga till `{platform_key}` under nyckeln `{platform_domain}:`. Integreringen {integration_domain} måste i stället konfigureras under sin egen nyckel `{integration_domain}:`.\n\nSå här åtgärdar du problemet:\n\n1. Ta bort följande från YAML-konfigurationsfilen:\n\n{yaml_example}\n\n2. Flytta konfigurationen under nyckeln `{integration_domain}:`.\n\n3. Starta om Home Assistant.\n\nVälj Läs mer om du vill läsa den detaljerade dokumentationen.",
+    "readback": "Integreringen {integration_domain} kan inte konfigureras genom att lägga till `{platform_key}` under nyckeln `{platform_domain}:`. Integreringen {integration_domain} måste i stället konfigureras under sin egen nyckel `{integration_domain}:`.\n\nSå här åtgärdar du problemet:\n\n1. Ta bort följande från YAML-konfigurationsfilen:\n\n{yaml_example}\n\n2. Flytta konfigurationen under nyckeln `{integration_domain}:`.\n\n3. Starta om Home Assistant.\n\nVälj Läs mer om du vill läsa den detaljerade dokumentationen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::homeassistant::issues::platform_config_not_supported::title",
+    "key_id": "856167440",
+    "translation_id": "8569105409",
+    "en": "Unsupported YAML configuration for the {integration_domain} integration",
+    "before": "YAML-konfiguration som inte stöds för {integration_domain} -integrationen",
+    "after": "YAML-konfiguration för integreringen {integration_domain} stöds inte",
+    "readback": "YAML-konfiguration för integreringen {integration_domain} stöds inte",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::homeassistant::issues::platform_setup_not_supported::description",
+    "key_id": "856167441",
+    "translation_id": "8569105473",
+    "en": "It's not possible to configure {integration_domain} {platform_domain} by adding `{platform_key}` to the {platform_domain} configuration. Please check the documentation for more information on how to set up this integration.\n\nTo resolve this:\n\n1. Remove `{platform_key}` occurrences from the `{platform_domain}:` configuration in your YAML configuration file.\n\n2. Restart Home Assistant.",
+    "before": "Det går inte att konfigurera {integration_domain} {platform_domain} genom att lägga till `{platform_key}` i {platform_domain} -konfigurationen. Mer information om hur du konfigurerar den här integrationen finns i dokumentationen. \n\nSå här löser du problemet: \n\n1. Ta bort förekomster av `{platform_key}` från konfigurationen `{platform_domain}:` i din YAML-konfigurationsfil. \n\n2. Starta om Home Assistant.",
+    "after": "Det går inte att konfigurera {integration_domain} {platform_domain} genom att lägga till `{platform_key}` i konfigurationen för {platform_domain}. Mer information om hur integreringen konfigureras finns i dokumentationen.\n\nSå här åtgärdar du problemet:\n\n1. Ta bort förekomster av `{platform_key}` från konfigurationen `{platform_domain}:` i YAML-konfigurationsfilen.\n\n2. Starta om Home Assistant.",
+    "readback": "Det går inte att konfigurera {integration_domain} {platform_domain} genom att lägga till `{platform_key}` i konfigurationen för {platform_domain}. Mer information om hur integreringen konfigureras finns i dokumentationen.\n\nSå här åtgärdar du problemet:\n\n1. Ta bort förekomster av `{platform_key}` från konfigurationen `{platform_domain}:` i YAML-konfigurationsfilen.\n\n2. Starta om Home Assistant.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::homeassistant::issues::platform_setup_not_supported::title",
+    "key_id": "856167442",
+    "translation_id": "8569105537",
+    "en": "Unused YAML configuration for the {integration_domain} integration",
+    "before": "Oanvänd YAML-konfiguration för integrationen {integration_domain}",
+    "after": "Oanvänd YAML-konfiguration för integreringen {integration_domain}",
+    "readback": "Oanvänd YAML-konfiguration för integreringen {integration_domain}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::freebox::entity::binary_sensor::cover::name",
+    "key_id": "856175705",
+    "translation_id": "8569205018",
+    "en": "Cover",
+    "before": "Skydd",
+    "after": "Skyddskåpa",
+    "readback": "Skyddskåpa",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::freebox::entity::binary_sensor::raid_degraded::name",
+    "key_id": "856175706",
+    "translation_id": "8569205082",
+    "en": "RAID array {id} degraded",
+    "before": "RAID-matrisen {id} är degraderad",
+    "after": "RAID-arrayen {id} är degraderad",
+    "readback": "RAID-arrayen {id} är degraderad",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::freebox::entity::sensor::partition_free_space::name",
+    "key_id": "856175709",
+    "translation_id": "8569205274",
+    "en": "{partition} free space",
+    "before": "{partition} fritt utrymme",
+    "after": "Ledigt utrymme på {partition}",
+    "readback": "Ledigt utrymme på {partition}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::smlight::exceptions::not_supported_buzzer::message",
+    "key_id": "856175739",
+    "translation_id": "8569205773",
+    "en": "The selected SMLIGHT device does not support the buzzer feature. This feature is only available on Ultima models.",
+    "before": "Den valda SMLIGHT-enheten stöder inte summerfunktionen. Denna funktion finns endast på Ultima-modellerna.",
+    "after": "Den valda SMLIGHT-enheten stöder inte summerfunktionen. Funktionen finns endast på Ultima-modeller.",
+    "readback": "Den valda SMLIGHT-enheten stöder inte summerfunktionen. Funktionen finns endast på Ultima-modeller.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::smlight::services::play_rtttl::fields::duration::description",
+    "key_id": "856175746",
+    "translation_id": "8569206221",
+    "en": "Default note duration (1, 2, 4, 8, 16 or 32). Omit to use the RTTTL default of 4.",
+    "before": "Standardlängd för noter (1, 2, 4, 8, 16 eller 32). Lämna fältet tomt om du vill använda RTTTL-standardvärdet 4.",
+    "after": "Standardlängd för noter (1, 2, 4, 8, 16 eller 32). Lämna fältet tomt om du vill använda RTTTL:s standardvärde 4.",
+    "readback": "Standardlängd för noter (1, 2, 4, 8, 16 eller 32). Lämna fältet tomt om du vill använda RTTTL:s standardvärde 4.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::smlight::services::play_rtttl::fields::notes::description",
+    "key_id": "856175748",
+    "translation_id": "8569206349",
+    "en": "The note sequence in RTTTL format, e.g. 8d,8d#,8e,c6.",
+    "before": "Notföljden i RTTTL-format, t.ex. 8d, 8d#, 8e, c6.",
+    "after": "Tonsekvensen i RTTTL-format, till exempel 8d, 8d#, 8e, c6.",
+    "readback": "Tonsekvensen i RTTTL-format, till exempel 8d, 8d#, 8e, c6.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::smlight::services::play_rtttl::name",
+    "key_id": "856175752",
+    "translation_id": "8569206605",
+    "en": "Play RTTTL tone",
+    "before": "Spela RTTTL-ton",
+    "after": "Spela upp RTTTL-ton",
+    "readback": "Spela upp RTTTL-ton",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::speedtestdotnet::options::step::init::data_description::server_name",
+    "key_id": "856232973",
+    "translation_id": "8570286831",
+    "en": "The Speedtest.net server to use for tests. Select auto detect to automatically choose a server.",
+    "before": "Speedtest.net-servern som ska användas för testerna. Välj Automatisk identifiering om en server ska väljas automatiskt.",
+    "after": "Speedtest.net-servern som ska användas för testerna. Välj automatisk identifiering om en server ska väljas automatiskt.",
+    "readback": "Speedtest.net-servern som ska användas för testerna. Välj automatisk identifiering om en server ska väljas automatiskt.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::exceptions::credential_data_invalid_length::message",
+    "key_id": "856458184",
+    "translation_id": "8573776656",
+    "en": "Credential of type {credential_type} must be between {min_length} and {max_length} characters long.",
+    "before": "Autentiseringsuppgifter av typen {credential_type} måste vara mellan {min_length} och {max_length} tecken långa.",
+    "after": "En åtkomstuppgift av typen {credential_type} måste vara mellan {min_length} och {max_length} tecken lång.",
+    "readback": "En åtkomstuppgift av typen {credential_type} måste vara mellan {min_length} och {max_length} tecken lång.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::exceptions::credential_rejected_add_occupied::message",
+    "key_id": "856458186",
+    "translation_id": "8573776784",
+    "en": "Cannot add credential: the target slot is already in use.",
+    "before": "Det går inte att lägga till autentiseringsuppgifter: målplatsen används redan.",
+    "after": "Det går inte att lägga till åtkomstuppgiften: platsen används redan.",
+    "readback": "Det går inte att lägga till åtkomstuppgiften: platsen används redan.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::exceptions::credential_rejected_duplicate::message",
+    "key_id": "856458187",
+    "translation_id": "8573776848",
+    "en": "This credential is already registered on the device.",
+    "before": "Denna autentiseringsuppgift är redan registrerad på enheten.",
+    "after": "Åtkomstuppgiften är redan registrerad på enheten.",
+    "readback": "Åtkomstuppgiften är redan registrerad på enheten.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::exceptions::credential_rejected_manufacturer_rules::message",
+    "key_id": "856458188",
+    "translation_id": "8573776912",
+    "en": "The credential violates the device's manufacturer security rules (for example, it is too short, too long, or uses a disallowed pattern).",
+    "before": "Autentiseringsuppgifterna strider mot enhetstillverkarens säkerhetsregler (de är till exempel för korta, för långa eller följer ett otillåtet mönster).",
+    "after": "Åtkomstuppgiften strider mot enhetstillverkarens säkerhetsregler. Den kan till exempel vara för kort, för lång eller följa ett otillåtet mönster.",
+    "readback": "Åtkomstuppgiften strider mot enhetstillverkarens säkerhetsregler. Den kan till exempel vara för kort, för lång eller följa ett otillåtet mönster.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::exceptions::credential_rejected_modify_empty::message",
+    "key_id": "856458189",
+    "translation_id": "8573776976",
+    "en": "Cannot modify credential: the slot is empty.",
+    "before": "Det går inte att ändra autentiseringsuppgifterna: platsen är tom.",
+    "after": "Det går inte att ändra åtkomstuppgiften: platsen är tom.",
+    "readback": "Det går inte att ändra åtkomstuppgiften: platsen är tom.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::exceptions::credential_rejected_unknown::message",
+    "key_id": "856458190",
+    "translation_id": "8573777040",
+    "en": "The device rejected the credential without giving a reason.",
+    "before": "Enheten avvisade inloggningsuppgifterna utan att ange någon orsak.",
+    "after": "Enheten avvisade åtkomstuppgiften utan att ange någon orsak.",
+    "readback": "Enheten avvisade åtkomstuppgiften utan att ange någon orsak.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::exceptions::credential_rejected_wrong_uuid::message",
+    "key_id": "856458191",
+    "translation_id": "8573777104",
+    "en": "The device rejected the credential because the user unique identifier does not match.",
+    "before": "Enheten avvisade referensen eftersom den unika identifieraren för användaren inte stämmer överens.",
+    "after": "Enheten avvisade åtkomstuppgiften eftersom användarens unika identifierare inte stämmer.",
+    "readback": "Enheten avvisade åtkomstuppgiften eftersom användarens unika identifierare inte stämmer.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::exceptions::credential_type_not_supported::message",
+    "key_id": "856458193",
+    "translation_id": "8573777232",
+    "en": "Credential type {credential_type} is not supported on this device",
+    "before": "Denna autentiseringstyp ({credential_type}) stöds inte på den här enheten",
+    "after": "Typen av åtkomstuppgift ({credential_type}) stöds inte på den här enheten.",
+    "readback": "Typen av åtkomstuppgift ({credential_type}) stöds inte på den här enheten.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::exceptions::delete_all_credentials_failed::message",
+    "key_id": "856458194",
+    "translation_id": "8573777296",
+    "en": "Failed to delete all credentials for user {user_id}: {error}",
+    "before": "Misslyckades med att ta bort alla autentiseringsuppgifter för användaren {user_id}: {error}",
+    "after": "Det gick inte att ta bort alla åtkomstuppgifter för användaren {user_id}: {error}",
+    "readback": "Det gick inte att ta bort alla åtkomstuppgifter för användaren {user_id}: {error}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::exceptions::delete_all_credentials_partial_failure::message",
+    "key_id": "856458195",
+    "translation_id": "8573777360",
+    "en": "Failed to delete {failed_count} credentials for user {user_id}. See logs for details.",
+    "before": "Misslyckades med att ta bort {failed_count} -autentiseringsuppgifter för användaren {user_id}. Se loggar för detaljer.",
+    "after": "Det gick inte att ta bort {failed_count} åtkomstuppgifter för användaren {user_id}. Se loggarna för mer information.",
+    "readback": "Det gick inte att ta bort {failed_count} åtkomstuppgifter för användaren {user_id}. Se loggarna för mer information.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::exceptions::delete_all_users_failed::message",
+    "key_id": "856458196",
+    "translation_id": "8573777424",
+    "en": "Failed to delete all users: {error}",
+    "before": "Misslyckades med att ta bort alla användare: {error}",
+    "after": "Det gick inte att ta bort alla användare: {error}",
+    "readback": "Det gick inte att ta bort alla användare: {error}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::exceptions::delete_credential_failed::message",
+    "key_id": "856458197",
+    "translation_id": "8573777488",
+    "en": "Failed to delete credential: {error}",
+    "before": "Misslyckades med att ta bort inloggningsuppgifter: {error}",
+    "after": "Det gick inte att ta bort åtkomstuppgiften: {error}",
+    "readback": "Det gick inte att ta bort åtkomstuppgiften: {error}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::exceptions::delete_user_failed::message",
+    "key_id": "856458198",
+    "translation_id": "8573777552",
+    "en": "Failed to delete user {user_id}: {error}",
+    "before": "Misslyckades med att ta bort användaren {user_id}: {error}",
+    "after": "Det gick inte att ta bort användaren {user_id}: {error}",
+    "readback": "Det gick inte att ta bort användaren {user_id}: {error}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::exceptions::get_credential_capabilities_failed::message",
+    "key_id": "856458199",
+    "translation_id": "8573777616",
+    "en": "Failed to get credential capabilities: {error}",
+    "before": "Misslyckades med att hämta autentiseringsuppgifter: {error}",
+    "after": "Det gick inte att hämta information om låsets funktioner för hantering av åtkomstuppgifter: {error}",
+    "readback": "Det gick inte att hämta information om låsets funktioner för hantering av åtkomstuppgifter: {error}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::exceptions::get_users_failed::message",
+    "key_id": "856458200",
+    "translation_id": "8573777680",
+    "en": "Failed to get users: {error}",
+    "before": "Misslyckades med att hämta användare: {error}",
+    "after": "Det gick inte att hämta användarna: {error}",
+    "readback": "Det gick inte att hämta användarna: {error}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::exceptions::no_available_credential_slots::message",
+    "key_id": "856458201",
+    "translation_id": "8573777744",
+    "en": "No available {credential_type} credential slots on this device",
+    "before": "Inga tillgängliga {credential_type} autentiseringsuppgifter på den här enheten",
+    "after": "Det finns inga lediga platser för åtkomstuppgifter av typen {credential_type} på den här enheten.",
+    "readback": "Det finns inga lediga platser för åtkomstuppgifter av typen {credential_type} på den här enheten.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::exceptions::set_credential_failed::message",
+    "key_id": "856458203",
+    "translation_id": "8573777872",
+    "en": "Failed to set credential: {error}",
+    "before": "Misslyckades med att ange inloggningsuppgifter: {error}",
+    "after": "Det gick inte att ange åtkomstuppgiften: {error}",
+    "readback": "Det gick inte att ange åtkomstuppgiften: {error}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::delete_all_credentials::description",
+    "key_id": "856458208",
+    "translation_id": "8573778192",
+    "en": "Deletes all credentials for a user on a lock.",
+    "before": "Tar bort alla autentiseringsuppgifter för en användare på ett lås.",
+    "after": "Tar bort alla åtkomstuppgifter för en användare från ett lås.",
+    "readback": "Tar bort alla åtkomstuppgifter för en användare från ett lås.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::delete_all_credentials::fields::user_id::description",
+    "key_id": "856458209",
+    "translation_id": "8573778256",
+    "en": "User slot index to delete all credentials for.",
+    "before": "Användarplatsindex att ta bort alla autentiseringsuppgifter för.",
+    "after": "Index för den användarplats vars åtkomstuppgifter ska tas bort.",
+    "readback": "Index för den användarplats vars åtkomstuppgifter ska tas bort.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::delete_all_credentials::name",
+    "key_id": "856458211",
+    "translation_id": "8573778384",
+    "en": "Delete all credentials",
+    "before": "Ta bort alla inloggningsuppgifter",
+    "after": "Ta bort alla åtkomstuppgifter",
+    "readback": "Ta bort alla åtkomstuppgifter",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::delete_credential::description",
+    "key_id": "856458214",
+    "translation_id": "8573778576",
+    "en": "Deletes a single credential from a lock.",
+    "before": "Tar bort en enskild behörighet från ett lås.",
+    "after": "Tar bort en enskild åtkomstuppgift från ett lås.",
+    "readback": "Tar bort en enskild åtkomstuppgift från ett lås.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::delete_credential::fields::credential_slot::description",
+    "key_id": "856458215",
+    "translation_id": "8573778640",
+    "en": "Credential slot index to delete.",
+    "before": "Index för den autentiseringsplats som ska raderas.",
+    "after": "Index för platsen där åtkomstuppgiften som ska tas bort finns.",
+    "readback": "Index för platsen där åtkomstuppgiften som ska tas bort finns.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::delete_credential::fields::credential_slot::name",
+    "key_id": "856458216",
+    "translation_id": "8573778704",
+    "en": "Credential slot",
+    "before": "Plats för autentiseringsuppgift",
+    "after": "Plats för åtkomstuppgift",
+    "readback": "Plats för åtkomstuppgift",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::delete_credential::fields::credential_type::description",
+    "key_id": "856458217",
+    "translation_id": "8573778768",
+    "en": "The type of credential to delete (pin_code or password).",
+    "before": "Vilken typ av inloggningsuppgifter som ska raderas (PIN-kod eller lösenord).",
+    "after": "Typen av åtkomstuppgift som ska tas bort (PIN-kod eller lösenord).",
+    "readback": "Typen av åtkomstuppgift som ska tas bort (PIN-kod eller lösenord).",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::delete_credential::fields::credential_type::name",
+    "key_id": "856458218",
+    "translation_id": "8573778832",
+    "en": "Credential type",
+    "before": "Typ av autentiseringsuppgifter",
+    "after": "Typ av åtkomstuppgift",
+    "readback": "Typ av åtkomstuppgift",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::delete_credential::fields::user_id::description",
+    "key_id": "856458219",
+    "translation_id": "8573778896",
+    "en": "User slot index that owns the credential.",
+    "before": "Användarplatsindex som äger autentiseringsuppgifterna.",
+    "after": "Index för användarplatsen som åtkomstuppgiften tillhör.",
+    "readback": "Index för användarplatsen som åtkomstuppgiften tillhör.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::delete_credential::name",
+    "key_id": "856458221",
+    "translation_id": "8573779024",
+    "en": "Delete credential",
+    "before": "Radera inloggningsuppgift",
+    "after": "Ta bort åtkomstuppgift",
+    "readback": "Ta bort åtkomstuppgift",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::delete_user::description",
+    "key_id": "856458222",
+    "translation_id": "8573779088",
+    "en": "Deletes a single access-control user from a lock.",
+    "before": "Tar bort en enskild användare med åtkomstbehörighet från ett lås.",
+    "after": "Tar bort en enskild användare från åtkomstkontrollen på ett lås.",
+    "readback": "Tar bort en enskild användare från åtkomstkontrollen på ett lås.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::delete_user::fields::user_id::description",
+    "key_id": "856458223",
+    "translation_id": "8573779152",
+    "en": "User slot index to delete.",
+    "before": "Index för den användarplats som ska raderas.",
+    "after": "Index för användarplatsen som ska tas bort.",
+    "readback": "Index för användarplatsen som ska tas bort.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::get_credential_capabilities::description",
+    "key_id": "856458226",
+    "translation_id": "8573779344",
+    "en": "Queries the credential management capabilities of a lock.",
+    "before": "Hämtar information om ett lås funktioner för hantering av autentiseringsuppgifter.",
+    "after": "Hämtar de funktioner för hantering av åtkomstuppgifter som låset stöder.",
+    "readback": "Hämtar de funktioner för hantering av åtkomstuppgifter som låset stöder.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::get_credential_capabilities::name",
+    "key_id": "856458227",
+    "translation_id": "8573779408",
+    "en": "Get credential capabilities",
+    "before": "Hämta autentiseringsfunktioner",
+    "after": "Hämta funktioner för hantering av åtkomstuppgifter",
+    "readback": "Hämta funktioner för hantering av åtkomstuppgifter",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::get_users::description",
+    "key_id": "856458228",
+    "translation_id": "8573779472",
+    "en": "Lists all access-control users and their credential references on a lock.",
+    "before": "Visar alla användare med åtkomstbehörighet och deras åtkomstuppgifter på ett lås.",
+    "after": "Visar alla användare som är registrerade för åtkomstkontroll i ett lås och deras åtkomstuppgifter.",
+    "readback": "Visar alla användare som är registrerade för åtkomstkontroll i ett lås och deras åtkomstuppgifter.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::set_credential::description",
+    "key_id": "856458230",
+    "translation_id": "8573779600",
+    "en": "Adds or updates a credential (PIN code or password) for an existing user on a lock entity. Call `set_user` first to create a user if needed.",
+    "before": "Lägger till eller uppdaterar en inloggningsuppgift (PIN-kod eller lösenord) för en befintlig användare på en låsenhet. Använd först `set_user` för att skapa en användare om det behövs.",
+    "after": "Lägger till eller uppdaterar en åtkomstuppgift (PIN-kod eller lösenord) för en befintlig användare på en låsenhet. Anropa först `set_user` om du behöver skapa en användare.",
+    "readback": "Lägger till eller uppdaterar en åtkomstuppgift (PIN-kod eller lösenord) för en befintlig användare på en låsenhet. Anropa först `set_user` om du behöver skapa en användare.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::set_credential::fields::credential_data::description",
+    "key_id": "856458231",
+    "translation_id": "8573779664",
+    "en": "The credential data (e.g. PIN digits or password string).",
+    "before": "Autentiseringsuppgift (t.ex. PIN-siffror eller lösenordssträng).",
+    "after": "Åtkomstuppgiften, till exempel PIN-siffrorna eller lösenordssträngen.",
+    "readback": "Åtkomstuppgiften, till exempel PIN-siffrorna eller lösenordssträngen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::set_credential::fields::credential_data::name",
+    "key_id": "856458232",
+    "translation_id": "8573779728",
+    "en": "Credential data",
+    "before": "Autentiseringsuppgift",
+    "after": "Åtkomstuppgift",
+    "readback": "Åtkomstuppgift",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::set_credential::fields::credential_slot::description",
+    "key_id": "856458233",
+    "translation_id": "8573779792",
+    "en": "Credential slot index. If not specified, the first available slot is used.",
+    "before": "Index för autentiseringsuppgift. Om inget anges används den första tillgängliga platsen.",
+    "after": "Index för platsen där åtkomstuppgiften ska sparas. Om inget anges används den första lediga platsen.",
+    "readback": "Index för platsen där åtkomstuppgiften ska sparas. Om inget anges används den första lediga platsen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::set_credential::fields::credential_slot::name",
+    "key_id": "856458234",
+    "translation_id": "8573779856",
+    "en": "Credential slot",
+    "before": "Plats för autentiseringsuppgift",
+    "after": "Plats för åtkomstuppgift",
+    "readback": "Plats för åtkomstuppgift",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::set_credential::fields::credential_type::description",
+    "key_id": "856458235",
+    "translation_id": "8573779920",
+    "en": "The type of credential (pin_code or password).",
+    "before": "Typ av autentiseringsuppgift (PIN-kod eller lösenord).",
+    "after": "Typen av åtkomstuppgift (PIN-kod eller lösenord).",
+    "readback": "Typen av åtkomstuppgift (PIN-kod eller lösenord).",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::set_credential::fields::credential_type::name",
+    "key_id": "856458236",
+    "translation_id": "8573779984",
+    "en": "Credential type",
+    "before": "Typ av autentisering",
+    "after": "Typ av åtkomstuppgift",
+    "readback": "Typ av åtkomstuppgift",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::set_credential::fields::user_id::description",
+    "key_id": "856458237",
+    "translation_id": "8573780048",
+    "en": "User slot index to assign the credential to. Must refer to an existing user.",
+    "before": "Det användarplatsindex som autentiseringsuppgifterna ska tilldelas. Måste avse en befintlig användare.",
+    "after": "Index för användarplatsen som åtkomstuppgiften ska tilldelas. Platsen måste tillhöra en befintlig användare.",
+    "readback": "Index för användarplatsen som åtkomstuppgiften ska tilldelas. Platsen måste tillhöra en befintlig användare.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::set_credential::name",
+    "key_id": "856458239",
+    "translation_id": "8573780176",
+    "en": "Set credential",
+    "before": "Ställ in autentiseringsuppgifter",
+    "after": "Ange åtkomstuppgift",
+    "readback": "Ange åtkomstuppgift",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::set_user::description",
+    "key_id": "856458240",
+    "translation_id": "8573780240",
+    "en": "Creates or updates an access-control user on a lock entity. When no user_id is given, a new user is created. A credential (PIN code or password) can be written in the same call. Returns the allocated user_id, plus the credential_slot when a credential was written, for each targeted lock entity.",
+    "before": "Skapar eller uppdaterar en användare för åtkomstkontroll på en låsenhet. Om inget user_id anges skapas en ny användare. En autentiseringsuppgift (PIN-kod eller lösenord) kan anges i samma anrop. Returnerar det tilldelade user_id, samt credential_slot om en autentiseringsuppgift angivits, för varje berörd låsenhet.",
+    "after": "Skapar eller uppdaterar en användare med åtkomstbehörighet på en låsenhet. Om inget användar-ID (user_id) anges skapas en ny användare. En åtkomstuppgift (PIN-kod eller lösenord) kan också anges i samma anrop. För varje låsenhet som anropet gäller returneras det tilldelade användar-ID:t och, om en åtkomstuppgift har angetts, platsen där den sparats (credential_slot).",
+    "readback": "Skapar eller uppdaterar en användare med åtkomstbehörighet på en låsenhet. Om inget användar-ID (user_id) anges skapas en ny användare. En åtkomstuppgift (PIN-kod eller lösenord) kan också anges i samma anrop. För varje låsenhet som anropet gäller returneras det tilldelade användar-ID:t och, om en åtkomstuppgift har angetts, platsen där den sparats (credential_slot).",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::set_user::fields::credential_rule::description",
+    "key_id": "856458243",
+    "translation_id": "8573780432",
+    "en": "Credential rule for the user (single, dual, or triple).",
+    "before": "Autentiseringsregel för användaren (enkel, dubbel eller trippel).",
+    "after": "Regel för användarens åtkomstuppgifter (enkel, dubbel eller trippel).",
+    "readback": "Regel för användarens åtkomstuppgifter (enkel, dubbel eller trippel).",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::set_user::fields::credential_rule::name",
+    "key_id": "856458244",
+    "translation_id": "8573780496",
+    "en": "Credential rule",
+    "before": "Autentiseringsregel",
+    "after": "Regel för åtkomstuppgifter",
+    "readback": "Regel för åtkomstuppgifter",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::delete_all_users::description",
+    "key_id": "856458212",
+    "translation_id": "8573778448",
+    "en": "Deletes all access-control users from a lock.",
+    "before": "Tar bort alla användare med åtkomstbehörighet från ett lås.",
+    "after": "Tar bort alla användare som är registrerade för åtkomstkontroll i ett lås.",
+    "readback": "Tar bort alla användare som är registrerade för åtkomstkontroll i ett lås.",
+    "status": "saved-and-read-back"
+  }
+]
