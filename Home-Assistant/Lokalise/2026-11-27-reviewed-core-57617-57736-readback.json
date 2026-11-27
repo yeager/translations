@@ -1,0 +1,102 @@
+[
+  {
+    "key": "component::kitchen_sink::services::set_scanner_connected::description",
+    "key_id": "860703778",
+    "translation_id": "8643832019",
+    "en": "Sets the connected state of a demo scanner entity.",
+    "before": "Ställer in anslutningsstatusen för en demoskanner-enhet.",
+    "after": "Anger om demoskannern ska rapporteras som ansluten.",
+    "readback": "Anger om demoskannern ska rapporteras som ansluten.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::kitchen_sink::services::set_scanner_connected::name",
+    "key_id": "860703781",
+    "translation_id": "8643832211",
+    "en": "Set scanner connected",
+    "before": "Ställ in skanneranslutning",
+    "after": "Ange om demoskannern är ansluten",
+    "readback": "Ange om demoskannern är ansluten",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::kitchen_sink::services::set_tracker_location::description",
+    "key_id": "860703782",
+    "translation_id": "8643832275",
+    "en": "Sets the location and accuracy of a demo tracker entity.",
+    "before": "Anger plats och noggrannhet för en demospårningsentitet.",
+    "after": "Anger platsen och noggrannheten för en demospårare.",
+    "readback": "Anger platsen och noggrannheten för en demospårare.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::template::config::step::device_tracker::data_description::latitude",
+    "key_id": "860951929",
+    "translation_id": "8649344235",
+    "en": "Defines a template to get the latitude of the device tracker. Valid values are numbers between `-90` and `90`.",
+    "before": "Definierar en mall för att hämta latituden för enhetens spårare. Giltiga värden är siffror mellan `-90` och `90`.",
+    "after": "Definierar en mall som hämtar spårningsenhetens latitud. Giltiga värden är tal mellan `-90` och `90`.",
+    "readback": "Definierar en mall som hämtar spårningsenhetens latitud. Giltiga värden är tal mellan `-90` och `90`.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::template::config::step::device_tracker::data_description::longitude",
+    "key_id": "860951930",
+    "translation_id": "8649344299",
+    "en": "Defines a template to get the longitude of the device tracker. Valid values are numbers between `-180` and `180`.",
+    "before": "Definierar en mall för att hämta longitud för enhetens tracker. Giltiga värden är siffror mellan `-180` och `180`.",
+    "after": "Definierar en mall som hämtar spårningsenhetens longitud. Giltiga värden är tal mellan `-180` och `180`.",
+    "readback": "Definierar en mall som hämtar spårningsenhetens longitud. Giltiga värden är tal mellan `-180` och `180`.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zone::common::trigger_zone_description",
+    "key_id": "861797802",
+    "translation_id": "8659374535",
+    "en": "The zone to trigger on.",
+    "before": "Zon att utlösa på.",
+    "after": "Zonen som utlöser händelsen.",
+    "readback": "Zonen som utlöser händelsen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::homeassistant_sky_connect::issues::multi_pan_migration::fix_flow::step::uninstall_addon::description",
+    "key_id": "861156621",
+    "translation_id": "8652284766",
+    "en": "Multiprotocol support for the IEEE 802.15.4 radio in your {hardware_name} has been deprecated. Migrate the radio back to Zigbee-only firmware to keep it working in the future.\n\nDisabling multiprotocol support will disable Thread support provided by the {hardware_name}. Your Thread devices will continue working only if you have another Thread border router nearby.\n\nIt will take a few minutes to install the Zigbee firmware and restore a backup.",
+    "before": "Multiprotokollstödet för IEEE 802.15.4-radion i din {hardware_name} har tagits bort. Migrera radion tillbaka till enbart Zigbee-firmware för att den ska fungera i framtiden. \n\nOm du inaktiverar multiprotokollstödet inaktiveras Thread-stödet som tillhandahålls av {hardware_name}. Dina Thread-enheter fortsätter att fungera endast om du har en annan Thread border-router i närheten. \n\nDet tar några minuter att installera Zigbee-firmware och återställa en säkerhetskopia.",
+    "after": "Multiprotokollstödet för IEEE 802.15.4-radion i {hardware_name} har fasats ut. Återställ radion till fast programvara med enbart Zigbee för att den ska fortsätta fungera framöver.\n\nOm du inaktiverar multiprotokollstödet inaktiveras även Thread-stödet från {hardware_name}. Thread-enheterna fortsätter bara att fungera om det finns en annan Thread-gränsrouter i närheten.\n\nDet tar några minuter att installera Zigbee-programvaran och återställa en säkerhetskopia.",
+    "readback": "Multiprotokollstödet för IEEE 802.15.4-radion i {hardware_name} har fasats ut. Återställ radion till fast programvara med enbart Zigbee för att den ska fortsätta fungera framöver.\n\nOm du inaktiverar multiprotokollstödet inaktiveras även Thread-stödet från {hardware_name}. Thread-enheterna fortsätter bara att fungera om det finns en annan Thread-gränsrouter i närheten.\n\nDet tar några minuter att installera Zigbee-programvaran och återställa en säkerhetskopia.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::homeassistant_sky_connect::issues::multi_pan_migration::title",
+    "key_id": "861156623",
+    "translation_id": "8652284894",
+    "en": "Multiprotocol support is deprecated",
+    "before": "Stöd för flera protokoll är utfasat",
+    "after": "Stöd för multiprotokoll har fasats ut",
+    "readback": "Stöd för multiprotokoll har fasats ut",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::homeassistant_yellow::issues::multi_pan_migration::fix_flow::step::uninstall_addon::description",
+    "key_id": "861156638",
+    "translation_id": "8652285854",
+    "en": "Multiprotocol support for the IEEE 802.15.4 radio in your {hardware_name} has been deprecated. Migrate the radio back to Zigbee-only firmware to keep it working in the future.\n\nDisabling multiprotocol support will disable Thread support provided by the {hardware_name}. Your Thread devices will continue working only if you have another Thread border router nearby.\n\nIt will take a few minutes to install the Zigbee firmware and restore a backup.",
+    "before": "Multiprotokollstödet för IEEE 802.15.4-radion i din {hardware_name} har tagits bort. Migrera radion tillbaka till enbart Zigbee-firmware för att den ska fungera i framtiden. \n\nOm du inaktiverar multiprotokollstödet inaktiveras Thread-stödet som tillhandahålls av {hardware_name}. Dina Thread-enheter fortsätter att fungera endast om du har en annan Thread border-router i närheten. \n\nDet tar några minuter att installera Zigbee-firmware och återställa en säkerhetskopia.",
+    "after": "Multiprotokollstödet för IEEE 802.15.4-radion i {hardware_name} har fasats ut. Återställ radion till fast programvara med enbart Zigbee för att den ska fortsätta fungera framöver.\n\nOm du inaktiverar multiprotokollstödet inaktiveras även Thread-stödet från {hardware_name}. Thread-enheterna fortsätter bara att fungera om det finns en annan Thread-gränsrouter i närheten.\n\nDet tar några minuter att installera Zigbee-programvaran och återställa en säkerhetskopia.",
+    "readback": "Multiprotokollstödet för IEEE 802.15.4-radion i {hardware_name} har fasats ut. Återställ radion till fast programvara med enbart Zigbee för att den ska fortsätta fungera framöver.\n\nOm du inaktiverar multiprotokollstödet inaktiveras även Thread-stödet från {hardware_name}. Thread-enheterna fortsätter bara att fungera om det finns en annan Thread-gränsrouter i närheten.\n\nDet tar några minuter att installera Zigbee-programvaran och återställa en säkerhetskopia.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::homeassistant_yellow::issues::multi_pan_migration::title",
+    "key_id": "861156640",
+    "translation_id": "8652285982",
+    "en": "Multiprotocol support is deprecated",
+    "before": "Stöd för flera protokoll är föråldrat",
+    "after": "Stöd för multiprotokoll har fasats ut",
+    "readback": "Stöd för multiprotokoll har fasats ut",
+    "status": "saved-and-read-back"
+  }
+]

@@ -2366,3 +2366,9 @@ Senaste position: **57 496** av 77 656. Nästa: **57 497**; **20 160 återstår*
 120 positioner granskades: 85 direkta strängar, 14 referenser och 21 tidigare dokumenterade historiska nycklar utan aktuell källväg. 12 rättelser sparades och API-lästes tillbaka. Två tidigare osparade förslag från intervallet 57 377–57 496 rättades retroaktivt (Duco och OVHcloud). Alla referenser matchar; platshållare 120/120, inga pluralnycklar. `svlang` och Hunspell riktad kontroll passerade.
 
 Senaste position: **57 616** av 77 656. Nästa: **57 617**; **20 040 återstår**. Granskningen fortsätter.
+
+### Batch: 57 617–57 736
+
+120 positioner granskades: 53 aktuella direkta strängar, 43 referenser och 24 tidigare dokumenterade nycklar utan aktuell källväg. Tio rättelser sparades och lästes tillbaka. Alla referenser matchar; platshållare 120/120, inga pluralnycklar. `svlang` och Hunspell riktad kontroll passerade.
+
+Senaste position: **57 736** av 77 656. Nästa: **57 737**; **19 920 återstår**. Arbetet fortsätter.
