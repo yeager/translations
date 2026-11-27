@@ -3,7 +3,7 @@
 - GNOME-aktivitet: <https://l10n.gnome.org/vertimus/wildcard/main/po/sv/>
 - Ursprunglig granskning: 2026-11-23
 - Riktad Hunspell-korrigering: 2026-11-27
-- Aktuell POT: 64 aktiva strängar
+- Aktuell POT: 64 aktiva strängar; POT-datum 2026-11-06, verifierad direkt från Damned Lies 2026-11-27.
 - Nya översättningar: 0
 - Korrigerade befintliga översättningar: 13 (netto jämfört med originalfilen)
 
@@ -25,4 +25,4 @@ Undantagen dokumenteras därför i `hunspell-undantag.md` och ändras inte.
 `l10n-lint` rapporterar 0 fel och 0 varningar; två informationsnotiser gäller
 svenska citattecken där originalet saknar avslutande citattecken.
 
-Den granskade filen är komplett och fuzzy-fri. Ingen inskickning till GNOME har ännu gjorts.
+Den granskade filen är komplett och fuzzy-fri. Uppladdad till Damned Lies 2026-11-27 02:24 UTC med kommentaren ”Granskad och klar”; aktivitetssidan bekräftar sammanslagning 64/0/0.
