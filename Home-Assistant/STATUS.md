@@ -2552,3 +2552,9 @@ Senaste position: **61 216** av 77 656. Nästa: **61 217**; **16 440 återstår*
 120 positioner granskades: 77 aktuella strängar  39 referenser och 4 uppföljningar. 13 ändringar sparades och lästes tillbaka. Alla 39 referenser matchar. Platshållare 120/120; inga pluralnycklar.
 
 Senaste position: **61 336** av 77 656. Nästa: **61 337**; **16 320 återstår**. Granskningen fortsätter.
+
+### Batch: 61 337–61 456
+
+120 positioner granskades: 46 aktuella strängar  73 referenser och 1 uppföljning. 24 ändringar sparades och lästes tillbaka; dessutom uppdaterades 11 delade Home Connect-mål retroaktivt. Alla 73 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **61 456** av 77 656. Nästa: **61 457**; **16 200 återstår**. Granskningen fortsätter.
