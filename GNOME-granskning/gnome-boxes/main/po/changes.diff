@@ -1,0 +1,911 @@
+--- original.sv.po
++++ reviewed.sv.po
+@@ -12,8 +12,8 @@
+ "Project-Id-Version: gnome-boxes\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-boxes/issues\n"
+ "POT-Creation-Date: 2026-11-27 11:03+0000\n"
+-"PO-Revision-Date: 2026-08-21 09:21+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-27 18:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -31,13 +31,14 @@
+ 
+ #: data/org.gnome.Boxes.desktop.in:3
+ msgid "Virtual machine viewer/manager"
+-msgstr "Visare/hanterare för virtuella maskiner"
++msgstr "Visningsprogram och hanterare för virtuella maskiner"
+ 
+ #: data/org.gnome.Boxes.desktop.in:4
+ msgid "View and use virtual machines"
+ msgstr "Visa och använd virtuella maskiner"
+ 
+-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
++#. Translators: Search terms to find this application. Do NOT translate or
++#. localize the semicolons! The list MUST also end with a semicolon!
+ #: data/org.gnome.Boxes.desktop.in:6
+ msgid "virtual machine;vm;"
+ msgstr "virtuell maskin;vm;"
+@@ -80,18 +81,18 @@
+ "Limit the resources (memory and storage) your virtual machines consume from "
+ "your system"
+ msgstr ""
+-"Begränsa resurserna (minne och lagring) som dina virtuella maskiner "
+-"förbrukar på ditt system"
++"Begränsa hur mycket av datorns resurser (minne och lagring) som de virtuella"
++" maskinerna använder"
+ 
+ #: data/org.gnome.Boxes.metainfo.xml.in:22
+ msgid "Take snapshots of virtual machines to restore to previous states"
+ msgstr ""
+-"Ta ögonblicksbilder av virtuella maskiner för att återställa till tidigare "
+-"tillstånd"
++"Ta ögonblicksbilder av virtuella maskiner och återställ dem senare till "
++"tidigare tillstånd"
+ 
+ #: data/org.gnome.Boxes.metainfo.xml.in:23
+ msgid "Redirect USB devices from your physical machine into virtual machines"
+-msgstr "Omdirigera USB-enheter från din fysiska maskin till virtuella maskiner"
++msgstr "Omdirigera USB-enheter från datorn till virtuella maskiner"
+ 
+ #: data/org.gnome.Boxes.metainfo.xml.in:24
+ msgid "3D acceleration for some of the supported operating systems"
+@@ -100,20 +101,19 @@
+ #: data/org.gnome.Boxes.metainfo.xml.in:25
+ msgid "Automatically resize virtual machines displays to the window size"
+ msgstr ""
+-"Ändra automatiskt storlek på virtuella maskiners skärmar till "
+-"fönsterstorleken"
++"Anpassa automatiskt virtuella maskiners skärmstorlek till fönstrets storlek"
+ 
+ #: data/org.gnome.Boxes.metainfo.xml.in:26
+ msgid "Share clipboard between your system and virtual machines"
+-msgstr "Dela urklipp mellan ditt system och virtuella maskiner"
++msgstr "Dela urklipp mellan datorn och virtuella maskiner"
+ 
+ #: data/org.gnome.Boxes.metainfo.xml.in:27
+ msgid ""
+-"Share files to virtual machines by dropping them from your file manager into "
+-"the Boxes window"
++"Share files to virtual machines by dropping them from your file manager into"
++" the Boxes window"
+ msgstr ""
+-"Dela filer till virtuella maskiner genom att släppa dem från din "
+-"filhanterare till Boxes-fönstret"
++"Dela filer med virtuella maskiner genom att dra dem från filhanteraren och "
++"släppa dem i Boxes-fönstret"
+ 
+ #: data/org.gnome.Boxes.metainfo.xml.in:28
+ msgid "Setup Shared Folders between your system and virtual machines"
+@@ -121,19 +121,19 @@
+ 
+ #: data/org.gnome.Boxes.metainfo.xml.in:38
+ msgid "Virtual Machine View"
+-msgstr "Virtuell maskin-vy"
++msgstr "Vy för virtuell maskin"
+ 
+ #: data/org.gnome.Boxes.metainfo.xml.in:42
+ msgid "Display View"
+-msgstr "Display-vy"
++msgstr "Skärmvy"
+ 
+ #: data/org.gnome.Boxes.metainfo.xml.in:46
+ msgid "Preferences Dialog"
+-msgstr "Inställningsdialog"
++msgstr "Inställningsdialogruta"
+ 
+ #: data/org.gnome.Boxes.metainfo.xml.in:50
+ msgid "Virtual Machine Creation"
+-msgstr "Skapande av virtuell maskin"
++msgstr "Skapa virtuell maskin"
+ 
+ #. developer_name tag deprecated with Appstream 1.0
+ #: data/org.gnome.Boxes.metainfo.xml.in:96
+@@ -179,7 +179,7 @@
+ 
+ #: data/org.gnome.boxes.gschema.xml:46
+ msgid "Whether Boxes is running for the first time"
+-msgstr "Huruvida Boxes körs för första gången"
++msgstr "Om Boxes körs för första gången"
+ 
+ #: data/org.gnome.boxes.gschema.xml:53
+ msgid "Shared folders"
+@@ -203,7 +203,7 @@
+ 
+ #: data/ui/app-window.ui:82
+ msgid "Use the <b>+</b> button to create your first virtual machine."
+-msgstr "Tryck på knappen <b>+</b> för att skapa din första virtuella maskin."
++msgstr "Använd knappen <b>+</b> för att skapa din första virtuella maskin."
+ 
+ #: data/ui/assistant/assistant.ui:51
+ msgid "New Virtual Machine"
+@@ -257,11 +257,12 @@
+ 
+ #: data/ui/assistant/express-install-row.ui:5 data/ui/welcome-tutorial.ui:49
+ msgid "Express Installation"
+-msgstr "Expressinstallation"
++msgstr "Snabbinstallation"
+ 
+ #: data/ui/assistant/express-install-row.ui:6
+ msgid "Set credentials for an automatic install of the operating system."
+-msgstr "Ställ in uppgifter för automatisk installation av operativsystemet."
++msgstr ""
++"Ange inloggningsuppgifter för automatisk installation av operativsystemet."
+ 
+ #: data/ui/assistant/express-install-row.ui:16
+ msgid "Username"
+@@ -289,7 +290,7 @@
+ 
+ #: data/ui/assistant/media-entry.ui:8
+ msgid "Unknown media"
+-msgstr "Okänt media"
++msgstr "Okänt medium"
+ 
+ #: data/ui/assistant/os-chooser-row.ui:4
+ msgid "Select an Operating System"
+@@ -297,11 +298,11 @@
+ 
+ #: data/ui/assistant/os-chooser-row.ui:24
+ msgid "Search for an operating system…"
+-msgstr "Sök ett operativsystem…"
++msgstr "Sök efter ett operativsystem…"
+ 
+ #: data/ui/assistant/os-downloader.ui:4
+ msgid "Search for an Operating System"
+-msgstr "Sök ett operativsystem"
++msgstr "Sök efter ett operativsystem"
+ 
+ #: data/ui/assistant/os-downloader.ui:13
+ msgid "Download an Operating System"
+@@ -377,7 +378,7 @@
+ 
+ #: data/ui/downloads-hub-row.ui:54
+ msgid "Ready to install"
+-msgstr "Färdig att installera"
++msgstr "Redo att installera"
+ 
+ #: data/ui/kbd-shortcuts-window.ui:18
+ msgctxt "shortcut window"
+@@ -417,7 +418,7 @@
+ #: data/ui/kbd-shortcuts-window.ui:75
+ msgctxt "shortcut window"
+ msgid "Box Creation and Properties"
+-msgstr "Boxskapande och egenskaper"
++msgstr "Skapa virtuell maskin och hantera dess egenskaper"
+ 
+ #: data/ui/kbd-shortcuts-window.ui:84 data/ui/kbd-shortcuts-window.ui:103
+ msgctxt "shortcut window"
+@@ -432,12 +433,12 @@
+ #: data/ui/kbd-shortcuts-window.ui:122
+ msgctxt "shortcut window"
+ msgid "Box Display"
+-msgstr "Box-display"
++msgstr "Virtuell maskin"
+ 
+ #: data/ui/kbd-shortcuts-window.ui:129
+ msgctxt "shortcut window"
+ msgid "Grab/Ungrab keyboard"
+-msgstr "Fånga/släpp tangentbord"
++msgstr "Fånga/släpp tangentbordet"
+ 
+ #: data/ui/kbd-shortcuts-window.ui:139 data/ui/kbd-shortcuts-window.ui:149
+ msgctxt "shortcut window"
+@@ -463,7 +464,7 @@
+ 
+ #: data/ui/preferences/cdrom-row.ui:5
+ msgid "No CDROM/DVD image"
+-msgstr "Ingen cdrom/dvd-avbild"
++msgstr "Ingen CD-/DVD-avbild"
+ 
+ #: data/ui/preferences/cdrom-row.ui:15
+ msgid "Select"
+@@ -475,7 +476,7 @@
+ 
+ #: data/ui/preferences/devices-page.ui:7
+ msgid "Devices & Shares"
+-msgstr "Enheter & delningar"
++msgstr "Enheter och delningar"
+ 
+ #: data/ui/preferences/devices-page.ui:12
+ msgid "USB Devices"
+@@ -483,7 +484,7 @@
+ 
+ #: data/ui/preferences/devices-page.ui:33
+ msgid "CDROM/DVD Drive"
+-msgstr "Cdrom/dvd-enhet"
++msgstr "CD-/DVD-enhet"
+ 
+ #: data/ui/preferences/resources-page.ui:28
+ msgid "IP Address"
+@@ -511,7 +512,7 @@
+ 
+ #: data/ui/preferences/resources-page.ui:133
+ msgid "Diagnose problems with your box using the log file."
+-msgstr "Diagnostisera problem med din box med hjälp av loggfilen."
++msgstr "Felsök problem med den virtuella maskinen med hjälp av loggfilen."
+ 
+ #: data/ui/preferences/resources-page.ui:155
+ msgid "Edit Configuration"
+@@ -519,7 +520,7 @@
+ 
+ #: data/ui/preferences/resources-page.ui:156
+ msgid "Edit the Libvirt domain configuration for this box."
+-msgstr "Redigera Libvirt-domänkonfigurationen för denna box."
++msgstr "Redigera Libvirt-domänens konfiguration för den virtuella maskinen."
+ 
+ #: data/ui/preferences/shared-folder-popover.ui:29
+ #: data/ui/shared-folder-popover.ui:29
+@@ -529,7 +530,7 @@
+ #: data/ui/preferences/shared-folder-popover.ui:70
+ #: data/ui/shared-folder-popover.ui:70
+ msgid "Select Shared Folder"
+-msgstr "Välj delade mappar"
++msgstr "Välj delad mapp"
+ 
+ #: data/ui/preferences/shared-folder-popover.ui:111
+ #: data/ui/shared-folder-popover.ui:111
+@@ -577,7 +578,7 @@
+ 
+ #: data/ui/troubleshoot-view.ui:58
+ msgid "Boxes cannot access the virtualization backend."
+-msgstr "Boxes kan inte komma åt virtualiseringsgränssnittet."
++msgstr "Boxes kan inte komma åt virtualiseringssystemet."
+ 
+ #: data/ui/welcome-tutorial.ui:7
+ msgid "Welcome Tutorial"
+@@ -585,7 +586,7 @@
+ 
+ #: data/ui/welcome-tutorial.ui:41
+ msgid "Boxes makes it easy to install and run virtual machines."
+-msgstr "Boxes gör det lätt att installera och köra virtuella maskiner."
++msgstr "Med Boxes är det enkelt att installera och köra virtuella maskiner."
+ 
+ #: data/ui/welcome-tutorial.ui:50
+ msgid ""
+@@ -593,9 +594,8 @@
+ "virtual machine. Just start the installation and everything will be taken "
+ "care of for you."
+ msgstr ""
+-"Med expressinstallation kommer Boxes att konfigurera "
+-"installationsalternativen för en ny virtuell maskin. Starta bara "
+-"installationen så kommer allt att tas hand om åt dig."
++"Med snabbinstallation ställer Boxes in alternativen för den nya virtuella "
++"maskinen. Starta installationen så sköts resten automatiskt."
+ 
+ #: data/ui/welcome-tutorial.ui:58
+ msgid "Easy Downloads"
+@@ -607,9 +607,9 @@
+ "virtual machine. Instead, just pick the operating system you want to setup, "
+ "and Boxes will automatically download it for you."
+ msgstr ""
+-"Med Boxes behöver du inte hämta ett operativsystem för att skapa en virtuell "
+-"maskin. Välj bara i stället operativsystemet som du vill konfigurera så "
+-"kommer Boxes automatiskt att hämta det åt dig."
++"Med Boxes behöver du inte hämta ett operativsystem för att skapa en virtuell"
++" maskin. Välj bara vilket operativsystem du vill installera, så hämtar Boxes"
++" det automatiskt åt dig."
+ 
+ #: data/ui/welcome-tutorial.ui:67
+ msgid "Drag and Drop"
+@@ -620,13 +620,14 @@
+ "Sharing files is as simple as dropping them onto your virtual machine. They "
+ "will appear in your Downloads folder."
+ msgstr ""
+-"Att dela filer är helt enkelt att släppa dem på din virtuella maskin. De "
+-"kommer att dyka upp i din hämtningsmapp."
++"Du delar filer genom att släppa dem på den virtuella maskinen. De visas "
++"sedan i mappen Hämtningar."
+ 
+-#. Translators: Accessibility name for context menu with box-related actions (e.g Pause, Delete etc)
++#. Translators: Accessibility name for context menu with box-related actions
++#. (e.g Pause, Delete etc)
+ #: src/actions-popover.vala:29
+ msgid "Box actions"
+-msgstr "Boxåtgärder"
++msgstr "Åtgärder för virtuell maskin"
+ 
+ #. Open in new Window
+ #: src/actions-popover.vala:44
+@@ -665,7 +666,8 @@
+ msgid "Preferences"
+ msgstr "Inställningar"
+ 
+-#. Translators: name of the folder under ~/Pictures for screenshots. This is the same folder where GNOME Shell saves screenshots.
++#. Translators: name of the folder under ~/Pictures for screenshots. This is
++#. the same folder where GNOME Shell saves screenshots.
+ #: src/actions-popover.vala:109
+ msgid "Screenshots"
+ msgstr "Skärmbilder"
+@@ -709,7 +711,7 @@
+ 
+ #: src/app.vala:180
+ msgid "Open box with UUID"
+-msgstr "Öppna box med UUID"
++msgstr "Öppna virtuell maskin med UUID"
+ 
+ #: src/app.vala:180
+ msgid "UUID"
+@@ -723,23 +725,24 @@
+ msgid "TEXT"
+ msgstr "TEXT"
+ 
+-#. A 'broker' is a virtual-machine manager (local or remote). Currently only libvirt is supported.
++#. A 'broker' is a virtual-machine manager (local or remote). Currently only
++#. libvirt is supported.
+ #: src/app.vala:183
+ msgid "URL to display, broker or installer media"
+-msgstr "URL till display, agent eller installationsmedia"
++msgstr "URL att visa, hanterare eller installationsmedia"
+ 
+ #: src/app.vala:194
+ msgid "— A simple application to access virtual machines"
+-msgstr "— Ett enkelt program för att komma åt virtuella maskiner"
++msgstr "– Ett enkelt program för att komma åt virtuella maskiner"
+ 
+ #: src/app.vala:218
+ msgid "Too many command line arguments specified.\n"
+-msgstr "För många kommandoradsargument angivna.\n"
++msgstr "För många kommandoradsargument angavs.\n"
+ 
+ #: src/app.vala:458
+ #, c-format
+ msgid "Box “%s” installed and ready to use"
+-msgstr "Boxen ”%s” installerad och redo för användning"
++msgstr "Den virtuella maskinen ”%s” har installerats och är klar att användas"
+ 
+ #: src/app.vala:460
+ msgid "Launch"
+@@ -753,14 +756,14 @@
+ #: src/app.vala:571
+ #, c-format
+ msgid "Box “%s” has been deleted"
+-msgstr "Boxen ”%s” har tagits bort"
++msgstr "Den virtuella maskinen ”%s” har tagits bort"
+ 
+ #: src/app.vala:572
+ #, c-format
+ msgid "%u box has been deleted"
+ msgid_plural "%u boxes have been deleted"
+-msgstr[0] "%u box har tagits bort"
+-msgstr[1] "%u boxar har tagits bort"
++msgstr[0] "%u virtuell maskin har tagits bort"
++msgstr[1] "%u virtuella maskiner har tagits bort"
+ 
+ #: src/app.vala:643
+ msgid "Boxes is doing something"
+@@ -776,14 +779,15 @@
+ 
+ #: src/app-window.vala:276
+ msgid "_Open"
+-msgstr "_Öppna"
++msgstr "Öp_pna"
+ 
+ #: src/assistant/assistant.vala:140
+ #, c-format
+ msgid "Failed to prepare express installation: %s"
+ msgstr "Misslyckades med att förbereda expressinstallation: %s"
+ 
+-#. Translators: We show 'Live' tag next or below the name of live OS media or box based on such media.
++#. Translators: We show 'Live' tag next or below the name of live OS media or
++#. box based on such media.
+ #. http://en.wikipedia.org/wiki/Live_CD
+ #: src/assistant/media-entry.vala:18 src/util-app.vala:172
+ msgid "Live"
+@@ -797,7 +801,8 @@
+ msgid "64-bit x86 system"
+ msgstr "64-bitars x86-system"
+ 
+-#. Translator comment: %s is name of vendor here (e.g Canonical Ltd or Red Hat Inc)
++#. Translator comment: %s is name of vendor here (e.g Canonical Ltd or Red Hat
++#. Inc)
+ #: src/assistant/media-entry.vala:29
+ #, c-format
+ msgid " from %s"
+@@ -805,7 +810,7 @@
+ 
+ #: src/collection-toolbar.vala:54
+ msgid "Select a device or OS media file"
+-msgstr "Välj en enhet eller OS-mediafil"
++msgstr "Välj en enhet eller en avbild av ett operativsystem"
+ 
+ #: src/collection-toolbar.vala:57 src/preferences/cdrom-row.vala:65
+ msgid "Open"
+@@ -813,11 +818,11 @@
+ 
+ #: src/display-page.vala:127
+ msgid "Press (left) Ctrl+Alt to ungrab"
+-msgstr "Tryck (vänster) Ctrl+Alt för att släppa"
++msgstr "Tryck på (vänster) Ctrl+Alt för att släppa tangentbordet"
+ 
+ #: src/display-page.vala:129
+ msgid "Press & release (left) Ctrl+Alt to ungrab keyboard."
+-msgstr "Tryck och släpp (vänster) Ctrl+Alt för att släppa tangentbord."
++msgstr "Tryck på och släpp (vänster) Ctrl+Alt för att frigöra tangentbordet."
+ 
+ #. Translators: Showing size of widget as WIDTH×HEIGHT here.
+ #: src/display-page.vala:318
+@@ -886,7 +891,8 @@
+ msgid "Ctrl + Alt + F9"
+ msgstr "Ctrl + Alt + F9"
+ 
+-#. Translators: Accessibility name for context menu with a set of keyboard combos (that would normally be
++#. Translators: Accessibility name for context menu with a set of keyboard
++#. combos (that would normally be
+ #. intercepted by host/client, to send to the box.
+ #: src/keys-input-popover.vala:47
+ msgid "Send key combinations"
+@@ -896,7 +902,7 @@
+ #: src/libvirt-machine.vala:492
+ #, c-format
+ msgid "Restoring %s from disk"
+-msgstr "Återställ %s från disk"
++msgstr "Återställer %s från disk"
+ 
+ #. Translators: The %s will be expanded with the name of the vm
+ #: src/libvirt-machine.vala:495
+@@ -907,7 +913,8 @@
+ #: src/libvirt-machine.vala:568
+ #, c-format
+ msgid "Restart of “%s” is taking too long. Force it to shutdown?"
+-msgstr "Omstart av ”%s” tar för lång tid. Tvinga den att stänga ner?"
++msgstr ""
++"Omstarten av ”%s” tar för lång tid. Vill du tvinga den att stängas av?"
+ 
+ #: src/libvirt-machine.vala:571
+ msgid "Shutdown"
+@@ -940,7 +947,7 @@
+ 
+ #: src/list-view-row.vala:59
+ msgid "Powered Off"
+-msgstr "Avslagen"
++msgstr "Avstängd"
+ 
+ #. Translators: The %s will be expanded with the name of the vm
+ #: src/machine.vala:184
+@@ -955,13 +962,14 @@
+ 
+ #: src/machine.vala:254
+ msgid "Machine is under construction"
+-msgstr "Maskinen är under konstruktion"
++msgstr "Maskinen håller på att skapas"
+ 
+ #: src/machine.vala:407
+ msgid "Saving…"
+ msgstr "Sparar…"
+ 
+-#. Translators: The first %s is the name of the box, the second is the reason of the error
++#. Translators: The first %s is the name of the box, the second is the reason
++#. of the error
+ #: src/machine.vala:603
+ #, c-format
+ msgid "“%s” could not be restored from disk: %s"
+@@ -976,7 +984,8 @@
+ msgid "Troubleshooting Log"
+ msgstr "Felsökningslogg"
+ 
+-#. Translators: the first %s is the name of the box, the second is the reason of the error.
++#. Translators: the first %s is the name of the box, the second is the reason
++#. of the error.
+ #: src/machine.vala:641
+ #, c-format
+ msgid "Connection to “%s” failed: %s"
+@@ -1037,10 +1046,11 @@
+ #: src/preferences/devices-page.vala:37
+ msgid "Turn on your box to see the USB devices available for redirection."
+ msgstr ""
+-"Slå på din box för att se vilka USB-enheter som är tillgängliga för "
+-"omdirigering."
++"Starta den virtuella maskinen för att se vilka USB-enheter som kan "
++"omdirigeras."
+ 
+-#. Translators: %s is a recommended value for RAM/storage limit. For example "Recommended 4 GB."
++#. Translators: %s is a recommended value for RAM/storage limit. For example
++#. "Recommended 4 GB."
+ #: src/preferences/resources-page.vala:82
+ #, c-format
+ msgid "Recommended %s."
+@@ -1048,24 +1058,24 @@
+ 
+ #: src/preferences/resources-page.vala:154
+ msgid "Boxes wants to run VM in background"
+-msgstr "Boxes har vill köra VM i bakgrunden"
++msgstr "Boxes vill köra en virtuell maskin i bakgrunden"
+ 
+ #: src/preferences/resources-page.vala:161
+ msgid "Boxes is not authorized to run in background"
+-msgstr "Boxes har inte tillåtelse att köra i bakgrunden"
++msgstr "Boxes har inte behörighet att köras i bakgrunden"
+ 
+ #: src/preferences/resources-page.vala:167
+ msgid "Do you want to open Settings to manage application permissions?"
+-msgstr "Vill du öppna Inställningar för att hantera programrättigheter?"
++msgstr "Vill du öppna Inställningar och hantera programmets behörigheter?"
+ 
+ #: src/preferences/resources-page.vala:205
+ msgid ""
+ "Editing your box configuration can cause issues to the operating system of "
+ "your box. Would you like to create a snapshot to recover from your changes?"
+ msgstr ""
+-"Att redigera din boxkonfiguration kan orsaka problem med din box "
+-"operativsystem. Vill du skapa en ögonblicksbild för att kunna återställa "
+-"dina ändringar?"
++"Om du ändrar konfigurationen för den virtuella maskinen kan dess "
++"operativsystem sluta fungera. Vill du skapa en ögonblicksbild så att du kan "
++"återställa ändringarna?"
+ 
+ #: src/preferences/resources-page.vala:270
+ #, c-format
+@@ -1075,18 +1085,19 @@
+ #: src/preferences/resources-page.vala:279
+ msgid "Changes to the settings below take effect after you restart your box."
+ msgstr ""
+-"Ändringar av inställningarna nedan träder i kraft när du startar om din box."
++"Ändringarna i inställningarna nedan börjar gälla när du startar om den "
++"virtuella maskinen."
+ 
+-#. Translators: "spice-webdav" is a name and shouldn't be translated. %s is an URL.
++#. Translators: "spice-webdav" is a name and shouldn't be translated. %s is an
++#. URL.
+ #: src/preferences/shared-folders-widget.vala:76
+ #, c-format
+ msgid ""
+ "Use the button below to add your first shared folder. For file sharing to "
+ "work, the guest box needs to have <a href='%s'>spice-webdav</a> installed."
+ msgstr ""
+-"Använd knappen nedan för att lägga till din första delade mapp. För att "
+-"fildelning ska fungera måste gästboxen ha <a href='%s'>spice-webdav</a> "
+-"installerat."
++"Använd knappen nedan för att lägga till din första delade mapp. Fildelning "
++"kräver att <a href='%s'>spice-webdav</a> är installerat i gästsystemet."
+ 
+ #. Translators: %s is the reason why Boxes failed to rename the snapshot.
+ #: src/preferences/snapshot-list-row.vala:77
+@@ -1118,7 +1129,7 @@
+ #. we need to account for the "+" button
+ #: src/preferences/snapshots-page.vala:160
+ msgid "Revert to a previous state of your box."
+-msgstr "Återgå till ett tidigare tillstånd för din box."
++msgstr "Återställ den virtuella maskinen till ett tidigare tillstånd."
+ 
+ #: src/preferences/snapshots-page.vala:162
+ msgid "Use the button below to create your first snapshot."
+@@ -1134,8 +1145,8 @@
+ msgid ""
+ "There is not enough space on your machine to increase the maximum disk size."
+ msgstr ""
+-"Det finns för lite utrymme på din maskin för att öka den maximala storleken "
+-"på disken."
++"Det finns inte tillräckligt med utrymme på datorn för att öka den maximala "
++"diskstorleken."
+ 
+ #: src/preferences/storage-row.vala:68
+ msgid "Storage disk"
+@@ -1146,7 +1157,8 @@
+ msgid "Used %s"
+ msgstr "%s används"
+ 
+-#. Translators: "Unknown" is a placeholder for a box name when it could not be determined
++#. Translators: "Unknown" is a placeholder for a box name when it could not be
++#. determined
+ #: src/spice-display.vala:46
+ msgid "Unknown"
+ msgstr "Okänd"
+@@ -1162,15 +1174,18 @@
+ msgid "Copying “%s” to “Downloads”"
+ msgstr "Kopierar ”%s” till ”Hämtningar”"
+ 
+-#. An error occurred when trying to setup unattended installation, but it's likely that a non-unattended
+-#. installation will work. When this happens, just disable unattended installs, and let the caller decide
+-#. if it wants to retry a non-automatic install or to just abort the box creation..
++#. An error occurred when trying to setup unattended installation, but it's
++#. likely that a non-unattended
++#. installation will work. When this happens, just disable unattended
++#. installs, and let the caller decide
++#. if it wants to retry a non-automatic install or to just abort the box
++#. creation..
+ #: src/unattended-installer.vala:174
+ msgid ""
+ "An error occurred during installation preparation. Express Install disabled."
+ msgstr ""
+-"Ett fel inträffade under installationsförberedelserna. Snabbinstallation "
+-"inaktiverat."
++"Ett fel inträffade när installationen förbereddes. Snabbinstallationen har "
++"inaktiverats."
+ 
+ #: src/unattended-installer.vala:371
+ msgid "Downloading device drivers…"
+@@ -1182,8 +1197,7 @@
+ "Your SELinux context looks incorrect, you can try to fix it by running:\n"
+ "%s"
+ msgstr ""
+-"Din SELinux-kontext verkar vara felaktig, du kan försöka lösa det genom att "
+-"köra:\n"
++"Din SELinux-kontext verkar vara felaktig, du kan försöka lösa det genom att köra:\n"
+ "%s"
+ 
+ #: src/util-app.vala:418
+@@ -1192,17 +1206,18 @@
+ 
+ #: src/util-app.vala:512
+ msgid ""
+-"Could not get “gnome-boxes” storage pool information from libvirt. Make sure "
+-"“virsh -c qemu:///session pool-dumpxml gnome-boxes” is working."
++"Could not get “gnome-boxes” storage pool information from libvirt. Make sure"
++" “virsh -c qemu:///session pool-dumpxml gnome-boxes” is working."
+ msgstr ""
+-"Kunde inte hämta information för ”gnome-boxes” lagringspool från libvirt. "
+-"Säkerställ att ”virsh -c qemu:///session pool-dumpxml gnome-boxes” fungerar."
++"Kunde inte hämta information om lagringspoolen ”gnome-boxes” från libvirt. "
++"Kontrollera att ”virsh -c qemu:///session pool-dumpxml gnome-boxes” "
++"fungerar."
+ 
+ #: src/util-app.vala:517
+ #, c-format
+ msgid ""
+-"%s is known to libvirt as GNOME Boxes’s storage pool but this directory does "
+-"not exist"
++"%s is known to libvirt as GNOME Boxes’s storage pool but this directory does"
++" not exist"
+ msgstr ""
+ "%s är känt för libvirt som lagringspool för GNOME Boxes, men denna katalog "
+ "finns inte"
+@@ -1221,8 +1236,8 @@
+ "%s is known to libvirt as GNOME Boxes’s storage pool but is not user-"
+ "readable/writable"
+ msgstr ""
+-"%s är känt för libvirt som lagringspool för GNOME Boxes, men är inte läs-/"
+-"skrivbar för användare"
++"%s är känt för libvirt som lagringspool för GNOME Boxes, men är inte "
++"läs-/skrivbar för användare"
+ 
+ #: src/util.vala:334
+ msgid "yes"
+@@ -1238,11 +1253,13 @@
+ msgid "Incapable host system"
+ msgstr "Ej kapabelt värdsystem"
+ 
+-#. Translators: the first %s is a path, the second is the reason of the failure.
++#. Translators: the first %s is a path, the second is the reason of the
++#. failure.
+ #: src/vm-importer.vala:65
+ #, c-format
+ msgid "Box import from file “%s” failed: %s"
+-msgstr "Box-import från fil ”%s” misslyckades: %s"
++msgstr ""
++"Det gick inte att importera den virtuella maskinen från filen ”%s”: %s"
+ 
+ #~ msgid "No operating systems found"
+ #~ msgstr "Inga operativsystem hittades"
+@@ -1260,9 +1277,9 @@
+ #~ "It is not advised to try booting an unknown OS, but you may try your luck "
+ #~ "forcing a specific kind of OS from the list below:"
+ #~ msgstr ""
+-#~ "Det rekommenderas inte att försöka att starta ett okänt operativsystem, "
+-#~ "men du kan pröva med att tvinga en specifik operativsystemstyp från "
+-#~ "listan nedan:"
++#~ "Det rekommenderas inte att försöka att starta ett okänt operativsystem, men "
++#~ "du kan pröva med att tvinga en specifik operativsystemstyp från listan "
++#~ "nedan:"
+ 
+ #~ msgid "Template"
+ #~ msgstr "Mall"
+@@ -1274,17 +1291,16 @@
+ #~ msgstr "Sök ett operativsystem…"
+ 
+ #~ msgid ""
+-#~ "A new virtual machine will be created and an operating system installed "
+-#~ "into it. Select an operating system source to begin."
++#~ "A new virtual machine will be created and an operating system installed into"
++#~ " it. Select an operating system source to begin."
+ #~ msgstr ""
+-#~ "En ny virtuell maskin kommer att skapas och ett operativsystem "
+-#~ "installeras till den. Välj en operativsystemskälla för att börja."
++#~ "En ny virtuell maskin kommer att skapas och ett operativsystem installeras "
++#~ "till den. Välj en operativsystemskälla för att börja."
+ 
+ #~ msgid "Detected Sources"
+ #~ msgstr "Upptäckta källor"
+ 
+-#~ msgid ""
+-#~ "Create virtual machine from one of the medias detected in your system."
++#~ msgid "Create virtual machine from one of the medias detected in your system."
+ #~ msgstr ""
+ #~ "Skapa virtuella maskiner från ett av de media som upptäcks på ditt system."
+ 
+@@ -1334,8 +1350,8 @@
+ 
+ #~ msgid "Failed to analyze installer media. Corrupted or incomplete media?"
+ #~ msgstr ""
+-#~ "Misslyckades med att analysera installationsmedia. Skadat eller "
+-#~ "inkomplett media?"
++#~ "Misslyckades med att analysera installationsmedia. Skadat eller inkomplett "
++#~ "media?"
+ 
+ #~ msgid "Previous"
+ #~ msgstr "Föregående"
+@@ -1453,19 +1469,19 @@
+ #~ msgstr ""
+ #~ "Ett enkelt GNOME 3-program för att hantera virtuella system. Olikt andra "
+ #~ "program för att hantera virtuella maskiner, så är Boxes inriktat mot den "
+-#~ "typiska skrivbordsanvändaren. Av den anledningen tillhandahåller inte "
+-#~ "Boxes speciellt många avancerade inställningar för att finjustera "
+-#~ "virtuella maskiner. I stället fokuserar Boxes på att allt bara ska "
+-#~ "fungera, med så lite användarinteraktion som möjligt."
++#~ "typiska skrivbordsanvändaren. Av den anledningen tillhandahåller inte Boxes "
++#~ "speciellt många avancerade inställningar för att finjustera virtuella "
++#~ "maskiner. I stället fokuserar Boxes på att allt bara ska fungera, med så "
++#~ "lite användarinteraktion som möjligt."
+ 
+ #~ msgid ""
+-#~ "You want to install Boxes if you just want a very safe and easy way to "
+-#~ "try out new operating systems or new (potentially unstable) versions of "
+-#~ "your favorite operating system(s)."
++#~ "You want to install Boxes if you just want a very safe and easy way to try "
++#~ "out new operating systems or new (potentially unstable) versions of your "
++#~ "favorite operating system(s)."
+ #~ msgstr ""
+ #~ "Du vill installera Boxes om du vill ha ett väldigt säkert och enkelt sätt "
+-#~ "att testa nya operativsystem eller nya (potentiellt instabila) versioner "
+-#~ "av ditt/dina favoritoperativsystem."
++#~ "att testa nya operativsystem eller nya (potentiellt instabila) versioner av "
++#~ "ditt/dina favoritoperativsystem."
+ 
+ #~ msgid "Override theme"
+ #~ msgstr "Åsidosätt tema"
+@@ -1489,8 +1505,8 @@
+ #~ msgstr "Logga in"
+ 
+ #~ msgid ""
+-#~ "Boxes snapshots your virtual machine before applying changes allowing you "
+-#~ "to revert them."
++#~ "Boxes snapshots your virtual machine before applying changes allowing you to"
++#~ " revert them."
+ #~ msgstr ""
+ #~ "Boxes gör en ögonblicksbild av din virtuella maskin innan dina ändringar "
+ #~ "tillämpas så att du kan återställa dem."
+@@ -1621,9 +1637,9 @@
+ #~ "nedan."
+ 
+ #~ msgid ""
+-#~ "SPICE guest tools are not running. These tools improve user experience "
+-#~ "and enable host and box interactions, such as copy and paste. Please "
+-#~ "visit %s to download and install these tools from within the box."
++#~ "SPICE guest tools are not running. These tools improve user experience and "
++#~ "enable host and box interactions, such as copy and paste. Please visit %s to"
++#~ " download and install these tools from within the box."
+ #~ msgstr ""
+ #~ "SPICE-gästverktyg körs inte. Dessa verktyg förbättrar användarupplevelsen "
+ #~ "och möjliggör interaktion mellan värd och box, såsom kopiering och "
+@@ -1670,19 +1686,18 @@
+ 
+ #~ msgid ""
+ #~ "Any trademarks shown above are used merely for identification of software "
+-#~ "products you have already obtained and are the property of their "
+-#~ "respective owners."
++#~ "products you have already obtained and are the property of their respective "
++#~ "owners."
+ #~ msgstr ""
+-#~ "Alla registrerade varumärken som visas ovan används endast för "
+-#~ "identifiering av programprodukter som du redan har köpt och tillhör "
+-#~ "respektive ägare."
++#~ "Alla registrerade varumärken som visas ovan används endast för identifiering"
++#~ " av programprodukter som du redan har köpt och tillhör respektive ägare."
+ 
+ #~ msgid ""
+-#~ "Enter an address to connect to. Addresses can begin with spice://, "
+-#~ "rdp://, ssh://, or vnc://."
++#~ "Enter an address to connect to. Addresses can begin with spice://, rdp://, "
++#~ "ssh://, or vnc://."
+ #~ msgstr ""
+-#~ "Mata in en adress att ansluta till. Adresser kan börja med spice://, "
+-#~ "rdp://, ssh:// eller vnc://."
++#~ "Mata in en adress att ansluta till. Adresser kan börja med spice://, rdp://,"
++#~ " ssh:// eller vnc://."
+ 
+ #~ msgid "Create a Box"
+ #~ msgstr "Skapa en box"
+@@ -1716,11 +1731,11 @@
+ #~ msgstr "Anslut till en box"
+ 
+ #~ msgid ""
+-#~ "Enter an address to connect to. Addresses can begin with spice://, "
+-#~ "rdp://, ssh:// or vnc://."
++#~ "Enter an address to connect to. Addresses can begin with spice://, rdp://, "
++#~ "ssh:// or vnc://."
+ #~ msgstr ""
+-#~ "Mata in en adress att ansluta till. Adresser kan börja med spice://, "
+-#~ "rdp://, ssh:// eller vnc://."
++#~ "Mata in en adress att ansluta till. Adresser kan börja med spice://, rdp://,"
++#~ " ssh:// eller vnc://."
+ 
+ #~ msgid "Connect"
+ #~ msgstr "Anslut"
+@@ -1735,22 +1750,20 @@
+ #~ msgstr "_Spara"
+ 
+ #~ msgid ""
+-#~ "Modifying a virtual machine's configuration can cause an installed "
+-#~ "operating system to malfunction.\n"
++#~ "Modifying a virtual machine's configuration can cause an installed operating system to malfunction.\n"
+ #~ "Making a snapshot before performing major changes is advised."
+ #~ msgstr ""
+-#~ "Att ändra en virtuell maskins konfiguration kan få ett installerat "
+-#~ "operativsystem att fungera felaktigt.\n"
++#~ "Att ändra en virtuell maskins konfiguration kan få ett installerat operativsystem att fungera felaktigt.\n"
+ #~ "Du rekommenderas att göra en ögonblicksavbild innan större ändringar görs."
+ 
+ #~ msgid ""
+-#~ "Boxes makes it easy to install and run virtual machines. You can also use "
+-#~ "it to remotely access other computers, using SPICE, VNC, RDP or Secure "
+-#~ "Shell connections."
+-#~ msgstr ""
+-#~ "Boxes gör det lätt att installera och köra virtuella maskiner. Du kan "
+-#~ "också använda det för fjärråtkomst till andra datorer genom SPICE-, VNC-, "
+-#~ "RDP- eller Secure Shell-anslutningar."
++#~ "Boxes makes it easy to install and run virtual machines. You can also use it"
++#~ " to remotely access other computers, using SPICE, VNC, RDP or Secure Shell "
++#~ "connections."
++#~ msgstr ""
++#~ "Boxes gör det lätt att installera och köra virtuella maskiner. Du kan också "
++#~ "använda det för fjärråtkomst till andra datorer genom SPICE-, VNC-, RDP- "
++#~ "eller Secure Shell-anslutningar."
+ 
+ #~ msgid "Unable to backup original configuration. Aborting."
+ #~ msgstr "Kunde inte säkerhetskopiera ursprunglig konfiguration. Avbryter."
+@@ -1847,11 +1860,11 @@
+ #~ msgstr "A_npassa…"
+ 
+ #~ msgid ""
+-#~ "Enter an address to connect to. Addresses can begin with spice://, rdp:// "
+-#~ "or vnc://."
++#~ "Enter an address to connect to. Addresses can begin with spice://, rdp:// or"
++#~ " vnc://."
+ #~ msgstr ""
+-#~ "Mata in en adress att ansluta till. Adresser kan börja med spice://, "
+-#~ "rdp:// eller vnc://."
++#~ "Mata in en adress att ansluta till. Adresser kan börja med spice://, rdp:// "
++#~ "eller vnc://."
+ 
+ #~ msgctxt "shortcut window"
+ #~ msgid "Create a new box"
+@@ -1932,11 +1945,11 @@
+ #~ "Libvirt-agenter."
+ 
+ #~ msgid ""
+-#~ "Examples: http://download.com/image.iso, spice://somehost:5051, ovirt://"
+-#~ "host/path"
++#~ "Examples: http://download.com/image.iso, spice://somehost:5051, "
++#~ "ovirt://host/path"
+ #~ msgstr ""
+-#~ "Exempel: http://download.com/avbild.iso, spice://värd:5051, ovirt://värd/"
+-#~ "sökväg"
++#~ "Exempel: http://download.com/avbild.iso, spice://värd:5051, "
++#~ "ovirt://värd/sökväg"
+ 
+ #~ msgid "_Back"
+ #~ msgstr "_Bakåt"
+@@ -1970,18 +1983,13 @@
+ #~ msgstr "Skapa en genom att använda knappen längst upp till vänster."
+ 
+ #~ msgid ""
+-#~ "Creating a box will allow you to use another operating system directly "
+-#~ "from your existing login.\n"
++#~ "Creating a box will allow you to use another operating system directly from your existing login.\n"
+ #~ "\n"
+-#~ "You may connect to an existing machine <b><i>over the network</i></b> or "
+-#~ "create a <b><i>virtual machine</i></b> that runs locally on your own."
++#~ "You may connect to an existing machine <b><i>over the network</i></b> or create a <b><i>virtual machine</i></b> that runs locally on your own."
+ #~ msgstr ""
+-#~ "Att skapa en box kommer att låta dig använda ett annat operativsystem "
+-#~ "direkt från din befintliga inloggning.\n"
++#~ "Att skapa en box kommer att låta dig använda ett annat operativsystem direkt från din befintliga inloggning.\n"
+ #~ "\n"
+-#~ "Du kan ansluta till en befintlig maskin <b><i>över nätverket</i></b> "
+-#~ "eller skapa en <b><i>virtuell maskin</i></b> som körs lokalt på din egna "
+-#~ "dator."
++#~ "Du kan ansluta till en befintlig maskin <b><i>över nätverket</i></b> eller skapa en <b><i>virtuell maskin</i></b> som körs lokalt på din egna dator."
+ 
+ #~ msgid "Create a box (step %d/4)"
+ #~ msgstr "Skapa en box (steg %d/4)"

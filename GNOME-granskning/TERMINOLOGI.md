@@ -927,3 +927,16 @@ argumentet betyder i just det programmet.
 | hide buttons | knappar för att dölja panelen | Knappar som fäller in panelen vid skärmkanten. |
 | launcher | programstartare | Panelobjekt som startar ett program. |
 | panel alignment | paneljustering | Placering vid start, mitten eller slut av skärmkanten. |
+
+## GNOME Boxes — virtuella maskiner
+
+| Engelska | Svenska | Anmärkning |
+|---|---|---|
+| virtual machine | virtuell maskin | Används för en instans i Boxes; undvik ”box” i användartext. |
+| guest system | gästsystem | Operativsystemet i den virtuella maskinen. |
+| quick/express installation | snabbinstallation | Konsekvent produktterm. |
+| shared folder | delad mapp | Fildelning mellan värd och gäst. |
+| snapshot | ögonblicksbild | Sparat tillstånd för virtuell maskin. |
+| storage pool | lagringspool | Libvirt-term. |
+| credentials | inloggningsuppgifter | Användarnamn och lösenord. |
+| display view | skärmvy | Etikett för en vy i Boxes. |
