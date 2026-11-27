@@ -1,13 +1,10 @@
-# glib-networking — master/po
+# glib-networking — master — gränssnitt
 
-- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/glib-networking/master/po/sv/>
-- Granskad: 2026-11-24
-- Aktuell POT: 68 aktiva strängar; 68 översatta, 0 fuzzy och 0 oöversatta efter granskning.
-- Nya översättningar: 0
-- Rättade befintliga översättningar: 3
-
-## Validering
-
-`msgfmt --check`, `msgcmp --use-fuzzy` och `l10n-lint` har körts utan fel eller varningar. C-platshållare och pluralformer är kontrollerade.
-
-Insändning avvaktar: `nycklingsdata` i ”Unexpected error while exporting keying data” är språkligt tveksamt. Granskningen gjordes 2026-11-24; ingen ändring görs före 14-dagarsgränsen.
+- GNOME-katalog: https://l10n.gnome.org/vertimus/glib-networking/master/po/sv/
+- Källa: aktuell POT via API, 68 aktiva strängar.
+- Statistik före granskning: 68 översatta, 0 fuzzy, 0 oöversatta; 3 översättningar saknades i pluralformernas par och färdigställdes.
+- Radgranskning: alla 68 aktiva strängar granskade; 56 befintliga poster ändrade, varav 3 oöversatta pluraltabeller färdigställdes. 0 fuzzy och 0 oöversatta återstår. `Last-Translator` uppdaterad till Daniel Nylander <gnome@danielnylander.se>.
+- Terminologi: TLS-handskakning, certifikatarkiv, betrodd certifikatlista, kanalbindningsdata, chifferlista och nyckelmaterial.
+- Validering: `msgfmt --check --check-format`, `msgcmp`, `l10n-lint` (0 fel/0 varningar), pluralformskontroll, platshållar-/markup-kontroll och Hunspell-SV genomförda. Legitima tekniska stavningsundantag dokumenterade.
+- Inskickad via Damned Lies API 2026-11-27 med kommentaren `Granskad och klar`.
+- Efterkontroll: API-status `Translated`, 68/0/0. Aktivitetssidan visar kommentaren; nedladdad sammanfogad PO matchar granskningen exakt (68 aktiva strängar, 0 skillnader).

@@ -892,3 +892,15 @@ argumentet betyder i just det programmet.
 |---|---|---|
 | miner | indexerare | Bakgrundsprocess som indexerar innehåll; använd i sammansättningar, till exempel *chattloggsindexerare*. |
 | chat logs | chattloggar | Meddelandeloggar från chattprogram. |
+
+
+## glib-networking och TLS
+
+| Engelska | Svenska | Anmärkning |
+|---|---|---|
+| TLS handshake | TLS-handskakning | Förhandlingsfasen när TLS-anslutning upprättas. |
+| trust store | certifikatarkiv | Arkiv med betrodda certifikat. |
+| trust list | betrodd certifikatlista | Lista som används vid verifiering. |
+| channel binding data | kanalbindningsdata | Data som binder protokollkanal och autentisering. |
+| cipher list | chifferlista | Lista över kryptografiska chiffer. |
+| keying data | nyckelmaterial | Data som används för att härleda eller etablera kryptografiska nycklar. |
