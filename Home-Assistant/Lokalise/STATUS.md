@@ -2360,3 +2360,9 @@ Senaste position: **57 376** av 77 656. Nästa: **57 377**; **20 280 återstår*
 120 positioner granskades: 89 direkta strängar, 27 referenser och fyra tidigare dokumenterade nycklar utan aktuell källväg. 17 rättelser sparades och API-lästes tillbaka. Alla referenser matchar; platshållare 120/120, inga pluralnycklar. `svlang` hittade inga skrivregelfel. En Homematic IP-kammarsensor kvarstår som semantiskt osäker; fyra källvägar är historiska uppföljningar.
 
 Senaste position: **57 496** av 77 656. Nästa: **57 497**; **20 160 återstår**. Granskningen fortsätter.
+
+### Batch: 57 497–57 616
+
+120 positioner granskades: 85 direkta strängar, 14 referenser och 21 tidigare dokumenterade historiska nycklar utan aktuell källväg. 12 rättelser sparades och API-lästes tillbaka. Två tidigare osparade förslag från intervallet 57 377–57 496 rättades retroaktivt (Duco och OVHcloud). Alla referenser matchar; platshållare 120/120, inga pluralnycklar. `svlang` och Hunspell riktad kontroll passerade.
+
+Senaste position: **57 616** av 77 656. Nästa: **57 617**; **20 040 återstår**. Granskningen fortsätter.
