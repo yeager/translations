@@ -8,3 +8,7 @@
 - Validering: `msgfmt --check --check-format` godkänd; `msgcmp --use-fuzzy` godkänd mot senaste POT; l10n-lint: 0 fel och 0 varningar (20 informationsnotiser). DocBook-taggar, länkar, URL:er och platshållare kontrollerade. Hunspell-SV-undantag dokumenterade i `hunspell-undantag.md`.
 - Damned Lies-status: aktuell serverad PO-filsida visar fortfarande 12 translated / 35 fuzzy / 115 untranslated. Den tidigare uppladdningen 2026-11-26 registrerades som 136/0/26, alltså med de 26 bildreferenserna tomma; den ska därför inte betraktas som 100 % komplett. Den här rättade 162/0/0-filen är lokalt granskad men inte uppladdad. Rättelsekommentar publicerad på aktivitetssidan 2026-11-27 kl. 06:38 UTC; ingen ny filinsändning har gjorts.
 - Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>.
+
+## Uppladdning 2026-11-27
+
+Inskickad via Damned Lies API med kommentaren **Granskad och klar**. Senaste POT (2026-11-24) jämfördes före inskickning. Aktivitetssidan visar sammanslagen katalog med 162/0/0 och kommentaren. Den sammanslagna filens aktiva svenska texter matchar den granskade katalogen. Statistik-API:t kan visa den äldre baslinjen; aktivitetens sammanslagna fil är verifierad slutkälla.

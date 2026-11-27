@@ -997,3 +997,12 @@ argumentet betyder i just det programmet.
 | bluish | blåaktig | |
 
 Bevara standardiserade namn och identifierare som `sRGB`, `Adobe RGB`, `D50`, `D65`, `FOGRA`, `SMPTE-C` och `X11`.
+
+## Sushi och filförhandsvisning
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| file previewer | filförhandsvisare | Sushi. |
+| preview (noun) | förhandsvisning | Substantiv; verbet är *förhandsvisa*. |
+| full screen | helskärmsläge | `Toggle Fullscreen` → *Växla helskärmsläge*. |
+| remote content | fjärrinnehåll | |

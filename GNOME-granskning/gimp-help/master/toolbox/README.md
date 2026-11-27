@@ -17,3 +17,7 @@
 - `l10n-lint --language sv --reference <senaste POT> --disable source-equals-translation`: 0 fel, 0 varningar och 15 informationsnotiser om gränstecken runt giltig XML-markup. Regeln stängdes av enbart för de 50 källmarkerade metadataenheterna vars `msgstr` avsiktligt kopierats från `msgid`; `missing-translation` var aktiv och inga tomma poster återstod.
 - Egen kontroll: 0 saknade synliga texter; exakt POT-täckning; 0 avvikelser i XML-taggar, länkmål, platshållare, formateringsmarkörer och DocBook-placeholders.
 - Hunspell-SV 2026.11.27: varningar kontextgranskade; undantag finns i [hunspell-undantag.md](hunspell-undantag.md). Inga stavfel återstår.
+
+## Uppladdning 2026-11-27
+
+Inskickad via Damned Lies API med kommentaren **Granskad och klar**. Senaste POT (2026-11-24) jämfördes före inskickning. Aktivitetssidan visar sammanslagen katalog med 478/0/0 och kommentaren. Den sammanslagna filens aktiva svenska texter matchar den granskade katalogen. Statistik-API:t kan visa den äldre baslinjen; aktivitetens sammanslagna fil är verifierad slutkälla.

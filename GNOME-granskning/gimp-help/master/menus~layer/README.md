@@ -11,3 +11,7 @@
 - PO-metadata: Daniel Nylander <gnome@danielnylander.se>.
 
 Arkivet innehåller den aktuella server-PO-filen, den POT som granskningen bygger på, den granskade PO-filen, unified diff, lint- och Hunspell-resultat samt denna modulrapport. Den tidigare granskningen från 2026-11-24 finns kvar som daterad säkerhetskopia.
+
+## Uppladdning 2026-11-27
+
+Inskickad via Damned Lies API med kommentaren **Granskad och klar**. Senaste POT (2026-11-24) jämfördes före inskickning. Aktivitetssidan visar sammanslagen katalog med 585/0/0 och kommentaren. Den sammanslagna filens aktiva svenska texter matchar den granskade katalogen. Statistik-API:t kan visa den äldre baslinjen; aktivitetens sammanslagna fil är verifierad slutkälla.

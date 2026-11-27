@@ -10,3 +10,7 @@
 - Filen är komplett lokalt men **inte uppladdad till GNOME**. Upstream är ännu inte uppdaterad och visar 6/38/250; det motsvarar 239 synliga texter som inte är synkade (224 tomma och 15 fuzzy), utöver 49 bildreferensposter.
 
 Arkivet innehåller serverfilen före ändring, granskad PO, unified diff, aktuell POT, lint-resultat och Hunspell-resultat.
+
+## Uppladdning 2026-11-27
+
+Inskickad via Damned Lies API med kommentaren **Granskad och klar**. Senaste POT (2026-11-24) jämfördes före inskickning. Aktivitetssidan visar sammanslagen katalog med 294/0/0 och kommentaren. Den sammanslagna filens aktiva svenska texter matchar den granskade katalogen. Statistik-API:t kan visa den äldre baslinjen; aktivitetens sammanslagna fil är verifierad slutkälla.
