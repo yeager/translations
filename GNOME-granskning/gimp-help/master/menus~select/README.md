@@ -1,15 +1,22 @@
 # GIMP Help — master — menus~select — svenska
 
-- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/gimp-help/master/menus~select/sv/>.
-- Ursprunglig lokal katalog: 34 översatta, 1 fuzzy och 168 oöversatta poster.
-- Slutlig lokal katalog: 203 översatta, 0 fuzzy och 0 oöversatta poster.
-- Åtgärd: hela `menus~select` har radgranskats och kompletterats, inklusive banor, kanaler, markeringars storlek och kanter, flytande markeringar, snabbmask, markeringsredigeraren och dess avancerade baninställningar.
-- Befintlig svenska: bevarad eller rättad endast när betydelse, idiomatik, svensk GIMP-terminologi, markup eller skiljetecken krävde det.
-- Validering: `msgfmt --check --statistics` och `git diff --check` är godkända. `l10n-lint` gav 0 fel och 0 varningar med den etablerade dokumentationsinställningen för oöversatta bildhashposter och skyddat DocBook-innehåll. Informationsmärkningar gäller endast gränstecken kring markup. `hunspell-sv` kördes; återstående träffar är DocBook-markup, filnamn, länk-ID:n, produktnamn och tekniska termer som Bézierkurva, spline och omparametrisering.
-- Avsiktliga undantag: bildhashposter med `@@image:` följer källans egna kommentarer om att de inte används i översättningen. De är nu synkroniserade med källan och inte fuzzy.
-- Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-23.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
+- GNOME-aktivitet: [menus~select](https://l10n.gnome.org/vertimus/gimp-help/master/menus~select/sv/).
+- Senaste POT hämtades igen 2026-11-28; POT-huvudet anger 2026-11-24 22:41 UTC. SHA-256 finns i api-current.json.
+- Aktuell svensk Damned Lies-fil före granskningen: 12 översatta, 22 fuzzy, 255 oöversatta av 289 poster.
+- Slutlig lokal fil: 289 poster utan fuzzy eller tomma översättningar. Av dessa är 251 användarvisade texter och 38 @@image:-referenser som källan uttryckligen markerar som oanvända. Bildreferenserna kopierades exakt från aktuell POT; de är metadata, inte översatt text.
+- De 89 strängar vars källtext var identisk med den nyligen granskade 2026-11-23-versionen återanvändes utan ny granskning, med undantag för 15 tydliga termjusteringar mot aktuell GIMP-terminologi (bland annat Bana, Förstora och Ludd). De 162 övriga användarvisade strängarna radgranskades mot senaste POT.
+- Förändringar jämfört med aktuellt Damned Lies-original: 226 tidigare tomma användartexter ifyllda, 13 användartexter avfuzzy-markerade och granskade, 2 befintliga översättningar korrigerade, samt 38 bildmetadatareferenser synkroniserade. Av de 226 tomma texterna är 89 återanvända från den nyligen granskade filen.
+- Last-Translator: Daniel Nylander <gnome@danielnylander.se>.
+- Terminologi kontrollerades mot GIMP:s aktuella svenska gränssnitt och GNOME-TM. GIMP-termerna inkluderar markering, bana, luddning, snabbmask, flytande markering och kantutjämning.
 
-## Aktuell POT-kontroll (2026-11-27)
+## Validering
 
-Damned Lies senaste POT innehåller nu 289 poster, medan granskningen från 2026-11-23 avsåg en äldre mall med 203 poster. En separat sammanslagning utan fuzzy-matchning bevarar 90 exakta översättningar och lämnar 118 fuzzy samt 81 oöversatta poster. Därför är den äldre granskade filen inte aktuell och ska inte skickas in. Ingen ny radgranskning utförs inom 14 dagar från den tidigare granskningen. POT-filen är arkiverad som `latest.pot`.
+- msgcmp --use-fuzzy: aktuell POT och PO har samma 289 aktiva poster.
+- msgfmt --check --check-format: godkänd; 289 poster ifyllda, inklusive de 38 källmarkerade metadatareferenserna.
+- l10n-lint --language sv: 0 fel och 0 varningar. Kvarvarande notiser är enbart informativa gränsskillnader kring DocBook-markup och procenttecken.
+- Egen kontroll: 0 skillnader i platshållare, DocBook-taggar, radbrytningar eller acceleratorantal; samtliga bildreferenser matchar senaste POT.
+- Hunspell-sv-skriptet finns inte i miljön. Svenska ordlistan sv_SE kördes med hunspell; undantag och råa ordlisteträffar finns i hunspell-undantag.md och hunspell-unknown.txt.
+
+## GNOME-inskick
+
+Ingen uppladdning eller kommentar gjordes. Den färska aktivitetssidan visar **Reserved for translation** och anger att uppladdning kräver inloggning samt medlemskap i svenska GNOME-gruppen. Detta är den aktuella externa blockeraren.
