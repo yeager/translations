@@ -1,13 +1,14 @@
 # Home Assistant Core – granskningsstatus
 
-Uppdaterad: 2026-11-27
+Senast uppdaterad: 2026-11-27
 
-- Senast granskade intervallet: 68 057–68 176 (120/120).
-- Nästa position: 68 177.
-- Kvar enligt aktuell Lokalise-ordning: cirka 9 360 strängar.
-- Batchen: 10 värden ändrade i Lokalise; samtliga API-readback-verifierade.
-- Källstatus: 80 direkta matchningar, 40 referenser till 24 mål; alla referenser matchar. Platshållare 120/120; 0 pluralposter; 0 källfrånvarande nycklar.
-- HA TMX: 36 075 poster; validering godkänd.
-- Hunspell-sv: SmartyPlants, WiZ, Acmeda, Rejseplanen.dk och pollning tillagda; 19/19 tester godkända. Ingen release skapad i dag.
+Aktuell källrevision: `1d07105b760c73093145526a51758938e87cc658`
+Lokalise-projekt: `130246255a974bd3b5e8a1.51616605`
 
-Home Assistant Core-granskningen pågår.
+## Senaste batch: 68 177–68 296
+
+120/120 rader granskade: 67 direkta källmatchningar och 53 referenser till 38 mål. Alla engelska källor matchar. En svensk Hortimax-referens avvek; den och referensmålet synkades. 10 svenska texter i intervallet och ett delat referensmål sparades och lästes tillbaka via API. Platshållare 120/120; inga pluralposter eller källfrånvarande nycklar. `svlang skrivregler` och `svlang svengelska` utan flaggor; Hunspell-sv regressioner 19/19 godkända. TMX validerar med 36 086 poster (35 855 Lokalise-ID, 231 historiska), och 12 manifestposter matchar TMX.
+
+Nästa position: **68 297**. Cirka **9 240** Lokalise-positioner återstår. Granskningen pågår.
+
+Rapport: `2026-11-27-reviewed-core-68177-68296.md`; fullständiga nycklar, readback, referenser och TM-ändringar finns i JSON-underlagen med samma intervall.
