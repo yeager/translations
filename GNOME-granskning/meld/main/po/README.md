@@ -1,12 +1,13 @@
-# meld — main — svenska UI
+# Meld — main — svenska gränssnittet
 
-- GNOME-status före granskning: 560 översatta, 1 fuzzy, 1 oöversatt.
-- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/meld/main/po/sv/>
-- Granskad rad: Syntaxfärgmarkering i jämförelser; `Version control` → `Versionshantering`.
-- Åtgärd: Inställningsbeskrivningen översattes, den korrekta kontextuella genvägstexten bekräftades och en saknad radbrytning återställdes.
-- Ändringar: 1 ny(a) översättning(ar), 2 rättad(e) befintlig(a) sträng(ar).
-- Validering: `msgfmt --check`; inga platshållare, acceleratorer eller markup i ändringen.
-- Dokumenterade undantag: `number-range-dash` avser CLI-argumentet `0-3`; bindestrecket är en del av det tekniska argumentet och ska bevaras.
-- Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-22 00:00+0100.
-- GNOME-inskick: uppladdad till Damned Lies 2026-11-23 efter reservation, med kommentaren `Granskad och klar` (`{"result":"OK"}).
-- Slutlig lokal status: 562 översatta, 0 fuzzy, 0 oöversatta.
+- Katalog: [Meld main/po](https://l10n.gnome.org/vertimus/meld/main/po/sv/)
+- Granskad: 2026-11-27, mot senaste hämtade meld.main.pot (562 aktiva poster; POT-datum 2026-11-14).
+- Statistik före granskning: 560 översatta, 1 fuzzy, 1 oöversatt.
+- Statistik efter granskning: 562 översatta, 0 fuzzy, 0 oöversatta.
+- Ändringar: 1 ny översättning och 55 korrigerade poster. Genvägssträngen Version control behöll sin svenska formulering men avfuzzy-markerades efter kontextkontroll.
+- Validering: msgcmp --use-fuzzy, msgfmt --check --check-format och l10n-lint --language sv godkända. L10n-lint rapporterar endast informativa acceleratorgränser på befintliga menyalternativ; antal acceleratorer är bevarat.
+- Egen kontroll: alla 562 aktiva källnycklar matchar POT; 0 tomma/fuzzy; platshållare, acceleratorantal och radbrytningar kontrollerade.
+- Hunspell: körd med systemets sv_SE-ordlista. Rimliga undantag: produktnamnet Meld; Git/Bazaar/Mercurial/Subversion och Pango/GtkSourceView; kodvärden och tekniska termer såsom true, false, mtime, URI, UTF-8, @blank; filändelser, formatnamn och versionskontrollmarkörer. Se hunspell-undantag.md och hunspell-unknown.txt.
+- GNOME-uppladdning: blockerad. Den aktuella aktivitetssidan anger att användaren måste vara autentiserad och medlem i svenska GNOME-gruppen. Ingen uppladdning har gjorts.
+- Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>.
+- Filer: meld.main.sv.original.po, meld.main.sv.reviewed.po, meld.main.sv.review.diff, meld.main.pot, api-current.json, aktivitetssida och denna notering.

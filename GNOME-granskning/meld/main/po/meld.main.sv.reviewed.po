@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: meld\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/meld/issues\n"
 "POT-Creation-Date: 2026-11-14 20:43+0000\n"
-"PO-Revision-Date: 2026-11-22 00:00+0100\n"
-"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"PO-Revision-Date: 2026-09-11 20:56+0200\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -94,20 +94,19 @@ msgstr ""
 
 #: data/org.gnome.Meld.gschema.xml:79
 msgid "Width of an indentation step"
-msgstr "Bredden på ett indenteringssteg"
+msgstr "Bredden på ett indrag"
 
 #: data/org.gnome.Meld.gschema.xml:80
 msgid "The number of spaces to use for a single indent step"
-msgstr "Antalet blanksteg att använda för ett ensamt indenteringssteg"
+msgstr "Antalet blanksteg för ett enskilt indrag"
 
 #: data/org.gnome.Meld.gschema.xml:84
 msgid "Whether to indent using spaces or tabs"
-msgstr "Huruvida indentering sker med blanksteg eller tabb"
+msgstr "Om indrag görs med blanksteg eller tabb"
 
 #: data/org.gnome.Meld.gschema.xml:85
 msgid "If true, any new indentation will use spaces instead of tabs."
-msgstr ""
-"Om true kommer nya indenteringar att använda blanksteg i stället för tabbar."
+msgstr "Om detta är aktiverat används blanksteg i stället för tabbar för nya indrag."
 
 #: data/org.gnome.Meld.gschema.xml:89 meld/resources/ui/statusbar-menu.ui:5
 msgid "Show line numbers"
@@ -123,7 +122,7 @@ msgstr "Markera syntax"
 
 #: data/org.gnome.Meld.gschema.xml:95
 msgid "Whether to highlight syntax in comparisons."
-msgstr "Om syntax ska färgmarkeras i jämförelser."
+msgstr "Om syntaxmarkering ska användas i jämförelser."
 
 #: data/org.gnome.Meld.gschema.xml:99
 msgid "Color scheme to use for syntax highlighting"
@@ -136,15 +135,13 @@ msgstr ""
 
 #: data/org.gnome.Meld.gschema.xml:104
 msgid "Draw whitespace"
-msgstr "Rita ut tomrum"
+msgstr "Visa blanktecken"
 
 #: data/org.gnome.Meld.gschema.xml:105
 msgid ""
 "If true, whitespace characters will be drawn in comparisons even if they are "
 "not in a changed area."
-msgstr ""
-"Om true (sant), kommer tomrumstecken att ritas ut i jämförelser även om de "
-"inte är i ett ändrat område."
+msgstr "Om detta är aktiverat visas blanktecken i jämförelser även utanför ändrade områden."
 
 #: data/org.gnome.Meld.gschema.xml:114
 msgid "Wrap mode"
@@ -172,7 +169,7 @@ msgstr "Om true kommer raden med markören att bli markerad i filjämförelser."
 
 #: data/org.gnome.Meld.gschema.xml:127
 msgid "Use the system default monospace font"
-msgstr "Använd systemets standard typsnitt med fast breddsteg"
+msgstr "Använd systemets standardtypsnitt med fast teckenbredd"
 
 #: data/org.gnome.Meld.gschema.xml:128
 msgid ""
@@ -189,13 +186,11 @@ msgstr "Anpassat typsnitt"
 msgid ""
 "The custom font to use, stored as a string and parsed as a Pango font "
 "description."
-msgstr ""
-"Det anpassade typsnittet att använda, lagrat som en sträng och tolkat som en "
-"som en Pango typsnittsbeskrivning."
+msgstr "Det anpassade typsnittet som ska användas. Det lagras som en sträng och tolkas som en Pango-typsnittsbeskrivning."
 
 #: data/org.gnome.Meld.gschema.xml:139
 msgid "Show overview source map"
-msgstr "Visa översiktskällkodskarta"
+msgstr "Visa källkodsöversikt"
 
 #: data/org.gnome.Meld.gschema.xml:140
 msgid ""
@@ -254,7 +249,7 @@ msgstr "Kolumner att visa"
 msgid ""
 "List of column names in folder comparison and whether they should be "
 "displayed."
-msgstr "Lista av kolumnnamn vid mappjämförelse och huruvida de ska visas."
+msgstr "Lista över kolumnnamn i mappjämförelsen och om de ska visas."
 
 #: data/org.gnome.Meld.gschema.xml:177 meld/resources/ui/preferences.ui:241
 msgid "Ignore symbolic links"
@@ -323,15 +318,13 @@ msgstr ""
 
 #: data/org.gnome.Meld.gschema.xml:204
 msgid "Show the version control console output"
-msgstr "Visa versionshanterarens konsolutmatning"
+msgstr "Visa konsolutdata för versionshantering"
 
 #: data/org.gnome.Meld.gschema.xml:205
 msgid ""
 "If true, a console output section will be shown in version control views, "
 "showing the commands run for version control operations."
-msgstr ""
-"Om true kommer en konsolutmatning att visas i versionshanteringsvyer, "
-"visandes de kommandon som körs vid versionshanteringsåtgärder."
+msgstr "Om true visas ett avsnitt med konsolutdata i versionshanteringsvyerna. Där visas kommandona som körs vid versionshanteringsåtgärder."
 
 #: data/org.gnome.Meld.gschema.xml:209
 msgid "Version control pane position"
@@ -758,22 +751,22 @@ msgstr "Nästa konflikt"
 #: meld/resources/shortcuts-dialog.ui:261
 msgctxt "shortcut window"
 msgid "Push change to left"
-msgstr "Tryck över ändring till vänster"
+msgstr "Skicka ändringen åt vänster"
 
 #: meld/resources/shortcuts-dialog.ui:267
 msgctxt "shortcut window"
 msgid "Push change to right"
-msgstr "Tryck över ändring till höger"
+msgstr "Skicka ändringen åt höger"
 
 #: meld/resources/shortcuts-dialog.ui:273
 msgctxt "shortcut window"
 msgid "Pull change from left"
-msgstr "Dra ändring från vänster"
+msgstr "Hämta ändringen från vänster"
 
 #: meld/resources/shortcuts-dialog.ui:279
 msgctxt "shortcut window"
 msgid "Pull change from right"
-msgstr "Dra ändring från höger"
+msgstr "Hämta ändringen från höger"
 
 #: meld/resources/shortcuts-dialog.ui:285
 msgctxt "shortcut window"
@@ -839,7 +832,7 @@ msgstr "Kopiera till höger"
 #: meld/resources/shortcuts-dialog.ui:366
 msgctxt "shortcut window"
 msgid "Expand the current folder"
-msgstr "Expandera aktuell mapp"
+msgstr "Fäll ut aktuell mapp"
 
 #: meld/resources/shortcuts-dialog.ui:372
 msgctxt "shortcut window"
@@ -847,6 +840,7 @@ msgid "Collapse the current folder"
 msgstr "Fäll ihop aktuell mapp"
 
 #: meld/resources/shortcuts-dialog.ui:379
+#| msgid "Version control"
 msgctxt "shortcut window"
 msgid "Version control"
 msgstr "Versionshantering"
@@ -859,7 +853,7 @@ msgstr "Checka in i versionshanteraren"
 #: meld/resources/shortcuts-dialog.ui:389
 msgctxt "shortcut window"
 msgid "Show/hide console output"
-msgstr "Visa/dölj konsolutskrift"
+msgstr "Visa/dölj konsolutdata"
 
 #: meld/resources/ui/appwindow.ui:29
 msgid "Start a new comparison"
@@ -1040,7 +1034,7 @@ msgstr "Ignorerade"
 
 #: meld/resources/ui/appwindow.ui:360
 msgid "Flatten Folders"
-msgstr "Platta till mappar"
+msgstr "Platta ut mapphierarkin"
 
 #: meld/resources/ui/column-list.ui:8
 msgid "Move Up"
@@ -1097,7 +1091,7 @@ msgstr "Välj mapp"
 #: meld/resources/ui/dirdiff.ui:34 meld/resources/ui/dirdiff.ui:67
 #: meld/resources/ui/dirdiff.ui:100
 msgid "Select folder to open in this pane"
-msgstr "Välj mapp att öppna i denna panel"
+msgstr "Välj en mapp att öppna i den här panelen"
 
 #: meld/resources/ui/dirdiff.ui:41
 msgid "Folder 1"
@@ -1153,11 +1147,11 @@ msgstr "Sök textkodning…"
 
 #: meld/resources/ui/filediff-actions.ui:15
 msgid "Push current change to the left"
-msgstr "Tryck över aktuell ändring till vänster"
+msgstr "Skicka aktuell ändring åt vänster"
 
 #: meld/resources/ui/filediff-actions.ui:31
 msgid "Push current change to the right"
-msgstr "Tryck över aktuell ändring till höger"
+msgstr "Skicka aktuell ändring åt höger"
 
 #: meld/resources/ui/filediff-actions.ui:49
 msgid "Copy chunks"
@@ -1169,7 +1163,7 @@ msgstr "Ta bort ändring"
 
 #: meld/resources/ui/filediff-menus.ui:8
 msgid "Copy change above the left chunk"
-msgstr "Kopiera ändringar ovanför vänstra stycket"
+msgstr "Kopiera ändringen ovanför vänster avsnitt"
 
 #: meld/resources/ui/filediff-menus.ui:12
 msgid "Copy change below the left chunk"
@@ -1177,7 +1171,7 @@ msgstr "Kopiera ändringar under vänstra stycket"
 
 #: meld/resources/ui/filediff-menus.ui:16
 msgid "Copy change above the right chunk"
-msgstr "Kopiera ändringar ovanför högra stycket"
+msgstr "Kopiera ändringen ovanför höger avsnitt"
 
 #: meld/resources/ui/filediff-menus.ui:20
 msgid "Copy change below the right chunk"
@@ -1206,7 +1200,7 @@ msgstr "K_listra in"
 #: meld/resources/ui/filediff-menus.ui:55 meld/resources/ui/imagediff.ui:140
 #: meld/resources/ui/path-label.ui:53
 msgid "Open Containing Folder"
-msgstr "Öppna innehållande mapp"
+msgstr "Öppna överordnad mapp"
 
 #: meld/resources/ui/filediff-menus.ui:59 meld/resources/ui/imagediff.ui:144
 msgid "Copy Full Path"
@@ -1266,15 +1260,15 @@ msgstr "Öppna fil i denna panel"
 
 #: meld/resources/ui/filediff.ui:63
 msgid "File 3"
-msgstr "Fil tre"
+msgstr "Fil 3"
 
 #: meld/resources/ui/filediff.ui:119
 msgid "File 2"
-msgstr "Fil två"
+msgstr "Fil 2"
 
 #: meld/resources/ui/filediff.ui:175
 msgid "File 1"
-msgstr "Fil ett"
+msgstr "Fil 1"
 
 #: meld/resources/ui/filter-list.ui:34
 msgid "Active"
@@ -1413,7 +1407,7 @@ msgstr "Välj andra mappen"
 
 #: meld/resources/ui/new-diff-tab.ui:254
 msgid "Select Third Folder"
-msgstr "Välj tredje filen"
+msgstr "Välj tredje mappen"
 
 #: meld/resources/ui/new-diff-tab.ui:297
 msgid "Select Version-controlled Folder"
@@ -1489,8 +1483,7 @@ msgstr "Använd anpassat typsnitt"
 
 #: meld/resources/ui/preferences.ui:35
 msgid "Choose a font different to the system default monospace font"
-msgstr ""
-"Välj ett annat typsnitt än systemets standardtypsnitt med fast breddsteg"
+msgstr "Välj ett annat typsnitt än systemets standardtypsnitt med fast teckenbredd"
 
 #: meld/resources/ui/preferences.ui:43
 msgid "Font"
@@ -1534,7 +1527,7 @@ msgstr "Visa radnummer intill varje textrad"
 
 #: meld/resources/ui/preferences.ui:123 meld/resources/ui/statusbar-menu.ui:9
 msgid "Show whitespace"
-msgstr "Visa tomrum"
+msgstr "Visa blanktecken"
 
 #: meld/resources/ui/preferences.ui:130
 msgid "Indentation"
@@ -1693,15 +1686,15 @@ msgstr ""
 
 #: meld/resources/ui/push-dialog.ui:6
 msgid "Push local commits to remote?"
-msgstr "Sänd lokala incheckningar till fjärr?"
+msgstr "Skicka lokala incheckningar till fjärrförrådet?"
 
 #: meld/resources/ui/push-dialog.ui:7
 msgid "The commits to be pushed are determined by your version control system."
-msgstr "Incheckningar att sända bestäms av ditt versionshanteringssystem."
+msgstr "Vilka incheckningar som skickas avgörs av versionshanteringssystemet."
 
 #: meld/resources/ui/push-dialog.ui:13
 msgid "_Push commits"
-msgstr "_Sänd incheckningar"
+msgstr "_Skicka incheckningar"
 
 #: meld/resources/ui/recent-selector.ui:29
 msgid "Search recent comparisons…"
@@ -1759,7 +1752,7 @@ msgstr "Hämta fjärrändringar till det lokala förrådet"
 
 #: meld/resources/ui/vcview.ui:39
 msgid "Push local changes to remote"
-msgstr "Sänd lokala ändringar till fjärr"
+msgstr "Skicka lokala ändringar till fjärrförrådet"
 
 #: meld/resources/ui/vcview.ui:58
 msgid "Add to version control"
@@ -1803,7 +1796,7 @@ msgstr "Extra"
 
 #: meld/resources/ui/vcview.ui:236
 msgid "Console output"
-msgstr "Konsolutskrift"
+msgstr "Konsolutdata"
 
 #: meld/resources/ui/vcview.ui:265
 msgid "_Clear"
@@ -1931,7 +1924,7 @@ msgstr "En del filer hade en felaktig kodning. Namnen är ungefär:"
 
 #: meld/dirdiff.py:1198
 msgid "Files hidden by case insensitive comparison"
-msgstr "Filer dolda av skiftlägeskänslig jämförelse"
+msgstr "Filer dolda vid skiftlägesokänslig jämförelse"
 
 #: meld/dirdiff.py:1201
 msgid ""
@@ -2018,15 +2011,13 @@ msgstr "Extern öppning av filer av typen ”{file_type}” stöds ej"
 
 #: meld/filediff.py:1249
 msgid "Comparison results will be inaccurate"
-msgstr "Jämförelseresultat kommer att bli osäkra"
+msgstr "Jämförelseresultaten blir missvisande"
 
 #: meld/filediff.py:1251
 msgid ""
 "A filter changed the number of lines in the file, which is unsupported. The "
 "comparison will not be accurate."
-msgstr ""
-"Ett filter ändrade antalet rader i filen vilket inte stöds. Jämförelsen "
-"kommer att vara osäker."
+msgstr "Ett filter ändrade antalet rader i filen, vilket inte stöds. Jämförelsen blir missvisande."
 
 #: meld/filediff.py:1293
 msgid "Mark conflict as resolved?"
@@ -2056,12 +2047,7 @@ msgid ""
 "{LINE_LENGTH_LIMIT}).\n"
 "\n"
 "Loading files with very long lines may make Meld slow or unresponsive."
-msgstr ""
-"Rad {line_number} överskred maximal radlängd ({line_length} > "
-"{LINE_LENGTH_LIMIT}).\n"
-"\n"
-"Att läsa in filer med väldigt långa rader kan göra att Meld blir långsamt "
-"eller trögt att svara."
+msgstr "Rad {line_number} överskred den maximala radlängden ({line_length} > {LINE_LENGTH_LIMIT}).\n\nInläsning av filer med mycket långa rader kan göra Meld långsamt eller få det att sluta svara."
 
 #: meld/filediff.py:1775
 #, python-format
@@ -2126,11 +2112,11 @@ msgstr ""
 
 #: meld/filediff.py:2174
 msgid "Show without filters"
-msgstr "Visa utan filer"
+msgstr "Visa ofiltrerat"
 
 #: meld/filediff.py:2193
 msgid "Change highlighting incomplete"
-msgstr "Ändra markering av ofärdiga"
+msgstr "Ändringsmarkeringen är ofullständig"
 
 #: meld/filediff.py:2195
 msgid ""
@@ -2208,9 +2194,7 @@ msgstr ""
 msgid ""
 "Couldn’t save file due to:\n"
 "%s"
-msgstr ""
-"Kunde in spara fil beroende på:\n"
-"%s"
+msgstr "Det gick inte att spara filen på grund av:\n%s"
 
 #: meld/filediff.py:2328 meld/patchdialog.py:126
 #, python-format
@@ -2219,7 +2203,7 @@ msgstr "Kunde inte spara filen %s."
 
 #: meld/filediff.py:2746
 msgid "Live comparison updating disabled"
-msgstr "Inaktivera realtidsuppdateringar av jämförelser"
+msgstr "Realtidsuppdatering av jämförelser är inaktiverad"
 
 #: meld/filediff.py:2748
 msgid ""
@@ -2250,7 +2234,7 @@ msgstr "Växlande av paneler stöds inte i versionshanteringsläge."
 
 #: meld/iohelpers.py:43
 msgid "Deleting remote folders is not supported"
-msgstr "Att ta bort fjärrmappar stöds ej"
+msgstr "Det går inte att ta bort fjärrmappar"
 
 #: meld/iohelpers.py:45
 msgid "Not a file or directory"
@@ -2304,11 +2288,11 @@ msgstr "Starta en versionshanterad jämförelse"
 
 #: meld/meldapp.py:186
 msgid "Start a 2- or 3-way file comparison"
-msgstr "Starta med en två- eller trevägs filjämförelse"
+msgstr "Starta en 2- eller 3-vägs filjämförelse"
 
 #: meld/meldapp.py:190
 msgid "Start a 2- or 3-way folder comparison"
-msgstr "Starta med en två- eller trevägs mappjämförelse"
+msgstr "Starta en 2- eller 3-vägs mappjämförelse"
 
 #: meld/meldapp.py:197
 msgid ""
@@ -2361,16 +2345,16 @@ msgstr "Läs in en sparad jämförelse från en Meld jämförelsefil"
 
 #: meld/meldapp.py:307
 msgid "Create a diff tab for the supplied files or folders"
-msgstr "Skapar en diff-tabell för angivna filer eller mappar"
+msgstr "Skapa en diff-flik för de angivna filerna eller mapparna"
 
 #: meld/meldapp.py:328
 #, python-format
 msgid "too many arguments (wanted 0-3, got %d)"
-msgstr "för många argument (ville ha 0-3, fick %d)"
+msgstr "för många argument (förväntade 0–3, fick %d)"
 
 #: meld/meldapp.py:330
 msgid "can’t auto-merge less than 3 files"
-msgstr "kan inte automatiskt sammanfoga mindre är tre filer"
+msgstr "kan inte automatiskt sammanfoga färre än 3 filer"
 
 #: meld/meldapp.py:332
 msgid "can’t auto-merge directories"
@@ -2388,7 +2372,7 @@ msgstr "ogiltig sökväg eller URI ”%s”"
 #: meld/meldapp.py:405
 #, python-brace-format
 msgid "remote folder “{}” not supported"
-msgstr "fjärrmapp ”{}” stöds ej"
+msgstr "fjärrmappen ”{}” stöds inte"
 
 #. TRANSLATORS: This is the label of a new, currently-unnamed file.
 #: meld/meldbuffer.py:125
@@ -2573,8 +2557,8 @@ msgstr "{unpushed_commits} i {unpushed_branches}"
 #, python-format
 msgid "%d unpushed commit"
 msgid_plural "%d unpushed commits"
-msgstr[0] "%d ej sänd incheckning"
-msgstr[1] "%d ej sända incheckningar"
+msgstr[0] "%d oskickad incheckning"
+msgstr[1] "%d oskickade incheckningar"
 
 #: meld/vc/git.py:99
 #, python-format
@@ -2600,7 +2584,7 @@ msgstr "Köad"
 #. when no version control system is actually found.
 #: meld/vc/_null.py:37
 msgid "None"
-msgstr "Ingen"
+msgstr "Inget"
 
 #: meld/vc/svn.py:204
 #, python-format
@@ -2667,7 +2651,7 @@ msgstr "%(name)s (hittades inte)"
 #: meld/vcview.py:357
 #, python-format
 msgid "%(name)s (%(cmd)s not installed)"
-msgstr "%(name)s (%(cmd)s inte installerad)"
+msgstr "%(name)s (kommandot %(cmd)s är inte installerat)"
 
 #. Translators: This error message is shown when a version
 #. controlled repository is invalid.
