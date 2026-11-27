@@ -8,4 +8,4 @@
 - Alla 123 aktiva poster radgranskades.
 - Validering: `msgfmt --check --statistics` godkänd; `msgcmp` godkänd; `l10n-lint --language sv` 0 fel och 0 varningar; platshållare, markup, radbrytningar och acceleratorer utan avvikelser.
 - Hunspell-SV: endast tjänstenamnet Flathub och personnamnen Icaza/Federico i deras förekomster flaggades.
-- Ingen GNOME-inskickning har gjorts.
+- Uppladdad 2026-11-27 kl. 01:44 UTC med kommentaren ”Granskad och klar”; aktivitetssidan bekräftar sammanslagning 123/0/0.
