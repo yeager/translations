@@ -3,7 +3,7 @@
 - GNOME-aktivitet: <https://l10n.gnome.org/vertimus/manuals/main/po/sv/>
 - Granskad: 2026-11-24
 - Aktuell status hämtad: 2026-11-27
-- Aktuell POT: 51 aktiva strängar; 51 översatta, 0 fuzzy och 0 oöversatta efter granskning.
+- Aktuell POT: 51 aktiva strängar; POT-datum 2026-09-21, hämtad direkt från Damned Lies 2026-11-27; 51 översatta, 0 fuzzy och 0 oöversatta efter granskning.
 - Nya översättningar: 0
 - Rättade befintliga översättningar: 5
 
