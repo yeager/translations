@@ -1,0 +1,142 @@
+[
+  {
+    "key": "component::sofar::entity::binary_sensor::fault_combiner_box::name",
+    "key_id": "927700828",
+    "translation_id": "9656234834",
+    "en": "Combiner box fault",
+    "before": "Fel på kombineringslådan",
+    "after": "Fel på solcellssträngarnas kopplingsbox",
+    "readback": "Fel på solcellssträngarnas kopplingsbox",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::sofar::entity::binary_sensor::fault_insulation::name",
+    "key_id": "927700835",
+    "translation_id": "9656235282",
+    "en": "Insulation fault",
+    "before": "Isoleringsfel",
+    "after": "Isolationsfel",
+    "readback": "Isolationsfel",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::sofar::entity::binary_sensor::fault_pv::name",
+    "key_id": "927700837",
+    "translation_id": "9656235410",
+    "en": "PV fault",
+    "before": "Solcellsfel",
+    "after": "Fel i solcellssystemet",
+    "readback": "Fel i solcellssystemet",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::sofar::entity::binary_sensor::fault_string_fuse::name",
+    "key_id": "927700839",
+    "translation_id": "9656235538",
+    "en": "String fuse open",
+    "before": "Strängsäkring utlöst",
+    "after": "Utlöst säkring för solcellssträng",
+    "readback": "Utlöst säkring för solcellssträng",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::homeassistant::config::abort::already_in_progress",
+    "key_id": "927750327",
+    "translation_id": "9656789880",
+    "en": "This is already being configured. Finish the existing configuration before starting again.",
+    "before": "Detta konfigureras redan. Slutför den befintliga konfigurationen innan du börjar igen.",
+    "after": "Konfigurationen pågår redan. Slutför den innan du startar en ny.",
+    "readback": "Konfigurationen pågår redan. Slutför den innan du startar en ny.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::sofar::services::set_active_power_limit::fields::config_entry_id::description",
+    "key_id": "928093550",
+    "translation_id": "9659821148",
+    "en": "The Sofar inverter to send this to.",
+    "before": "Sofars växelriktare som det här ska skickas till.",
+    "after": "Växelriktaren från Sofar som inställningen ska skickas till.",
+    "readback": "Växelriktaren från Sofar som inställningen ska skickas till.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::sofar::services::set_feed_in_limit::fields::config_entry_id::description",
+    "key_id": "928093558",
+    "translation_id": "9659821660",
+    "en": "The Sofar inverter to send this to.",
+    "before": "Sofars växelriktare som det här ska skickas till.",
+    "after": "Växelriktaren från Sofar som inställningen ska skickas till.",
+    "readback": "Växelriktaren från Sofar som inställningen ska skickas till.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::sofar::services::set_feed_in_limit::fields::max_power::description",
+    "key_id": "928093560",
+    "translation_id": "9659821788",
+    "en": "The export ceiling in watts. The inverter only accepts multiples of 100 W.",
+    "before": "Inmatningsgränsen i watt. Växelriktaren accepterar bara multiplar av 100 W.",
+    "after": "Gräns för hur mycket effekt som får matas ut till elnätet, i watt. Växelriktaren accepterar bara multiplar av 100 W.",
+    "readback": "Gräns för hur mycket effekt som får matas ut till elnätet, i watt. Växelriktaren accepterar bara multiplar av 100 W.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::sofar::services::set_passive_mode_power::fields::config_entry_id::description",
+    "key_id": "928093570",
+    "translation_id": "9659822428",
+    "en": "The Sofar inverter to send this to.",
+    "before": "Den växelriktare från Sofar som detta ska skickas till.",
+    "after": "Växelriktaren från Sofar som inställningen ska skickas till.",
+    "readback": "Växelriktaren från Sofar som inställningen ska skickas till.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::sofar::services::set_passive_mode_timeout::fields::config_entry_id::description",
+    "key_id": "928093578",
+    "translation_id": "9659822940",
+    "en": "The Sofar inverter to send this to.",
+    "before": "Den växelriktare från Sofar som detta ska skickas till.",
+    "after": "Växelriktaren från Sofar som inställningen ska skickas till.",
+    "readback": "Växelriktaren från Sofar som inställningen ska skickas till.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::sofar::entity::sensor::feedin_limitation_mode::name",
+    "key_id": "928112786",
+    "translation_id": "9659894222",
+    "en": "Feed-in limitation mode",
+    "before": "Läge för begränsning av inmatning",
+    "after": "Läge för begränsning av uteffekt till elnätet",
+    "readback": "Läge för begränsning av uteffekt till elnätet",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::sofar::entity::sensor::feedin_limitation_mode::state::enabled_3_phase_limit",
+    "key_id": "928112788",
+    "translation_id": "9659894350",
+    "en": "Enabled, three-phase limit",
+    "before": "Aktiverad, trefasgräns",
+    "after": "Aktiverad med gräns per fas",
+    "readback": "Aktiverad med gräns per fas",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::sofar::entity::binary_sensor::active_power_limit_enabled::name",
+    "key_id": "928120416",
+    "translation_id": "9659922035",
+    "en": "Active power limit enabled",
+    "before": "Gräns för aktiv effekt aktiverad",
+    "after": "Gräns för aktiv effekt är aktiverad",
+    "readback": "Gräns för aktiv effekt är aktiverad",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::sofar::selector::feedin_limitation_mode::options::enabled_3_phase_limit",
+    "key_id": "928093545",
+    "translation_id": "9659820828",
+    "en": "Enabled, three-phase limit",
+    "before": "Aktiverad, trefasgräns",
+    "after": "Aktiverad med gräns per fas",
+    "readback": "Aktiverad med gräns per fas",
+    "status": "saved-and-read-back"
+  }
+]
