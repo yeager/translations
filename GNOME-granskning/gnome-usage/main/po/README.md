@@ -10,4 +10,4 @@
 
 `msgfmt --check`, `msgcmp --use-fuzzy` och `l10n-lint` har körts utan fel eller varningar. Pluralformen räknas korrekt som översatt. Informationsnotiser gäller enhetsträngar och en pluralform med avsiktligt olika singular/plural.
 
-Ingen GNOME-inskickning har gjorts.
+Insändning avvaktar en riktad grammatikkorrigering av meningsbyggnaden `upp till vilket som`. Granskningen gjordes 2026-11-24; ingen ändring görs före 14-dagarsgränsen.
