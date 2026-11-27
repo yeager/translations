@@ -1073,3 +1073,12 @@ Senaste granskade position: **52 696** av 77 656. Nästa position: **52 697**; *
 ## Aktuell status – 2026-11-27
 
 Senaste granskade position: **52 816** av 77 656. Nästa position: **52 817**; **24 840 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+
+
+### Senaste batch: 52 697–52 816
+
+120 positioner granskades: 50 direkta strängar, 19 alias och 51 tidigare dokumenterade, källfrånvarande nycklar. Tretton korrigeringar sparades och API-lästes tillbaka. Alla 19 alias och platshållare för 69 aktuella poster matchar. Den gamla förinstallerade `svlang`-versionen gav falsklarm; lokal aktuell version installerades och användes i slutkontrollen. TMX validerar med 35 748 poster (35 517 Lokalise-ID, 231 historiska).
+
+## Aktuell status – 2026-11-27
+
+Senaste granskade position: **52 816** av 77 656. Nästa position: **52 817**; **24 840 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
