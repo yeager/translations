@@ -32747,9 +32747,10 @@ Uppdatera ovanstående automatiseringar eller skript så de använder den nya va
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_error_code::state::battery_voltage_too_high</prop>
       <prop type="lokalise-key-id">828726280</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Battery voltage too high</seg>
       </tuv>
@@ -32761,9 +32762,10 @@ Uppdatera ovanstående automatiseringar eller skript så de använder den nya va
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_error_code::state::charger_temperature_too_high</prop>
       <prop type="lokalise-key-id">828726285</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Charger temperature too high</seg>
       </tuv>
@@ -180800,28 +180802,30 @@ Se till att du konfigurerar om mot samma enhet.</seg>
       <prop type="source">component::victron_gx::common::yield_yesterday</prop>
       <prop type="lokalise-key-id">836505226</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback; retroactive shared-term/reference synchronization</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Yield yesterday</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Avkastning i går</seg>
+        <seg>Solcellsproduktion i går</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8264150406">
       <prop type="source">component::victron_gx::common::yield_today</prop>
       <prop type="lokalise-key-id">836505225</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback; retroactive shared-term/reference synchronization</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Yield today</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Avkastning i dag</seg>
+        <seg>Solcellsproduktion i dag</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8264150342">
@@ -180913,14 +180917,15 @@ Se till att du konfigurerar om mot samma enhet.</seg>
       <prop type="source">component::victron_gx::common::total_yield</prop>
       <prop type="lokalise-key-id">836505218</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback; retroactive shared-term/reference synchronization</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Total yield</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Total avkastning</seg>
+        <seg>Total solcellsproduktion</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8264149894">
@@ -181171,14 +181176,15 @@ Se till att du konfigurerar om mot samma enhet.</seg>
       <prop type="source">component::victron_gx::common::power_phase</prop>
       <prop type="lokalise-key-id">836505197</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback; retroactive shared-term/reference synchronization</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Power {phase}</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Effekt {phase}</seg>
+        <seg>Effekt på fas {phase}</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8264148550">
@@ -199986,42 +199992,45 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_yield_yesterday::name</prop>
       <prop type="lokalise-key-id">828726351</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback; retroactive shared-term/reference synchronization</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Yield yesterday</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Avkastning i går</seg>
+        <seg>Solcellsproduktion i går</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123064867">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_yield_total::name</prop>
       <prop type="lokalise-key-id">828726350</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback; retroactive shared-term/reference synchronization</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Total yield</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Total avkastning</seg>
+        <seg>Total solcellsproduktion</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123064803">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_yield_today::name</prop>
       <prop type="lokalise-key-id">828726349</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback; retroactive shared-term/reference synchronization</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Yield today</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Avkastning i dag</seg>
+        <seg>Solcellsproduktion i dag</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123064739">
@@ -200183,79 +200192,85 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_tracker_tracker_max_voltage_today::name</prop>
       <prop type="lokalise-key-id">828726337</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Tracker {tracker} max voltage today</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Spårare {tracker} max spänning idag</seg>
+        <seg>Högsta spänning i dag på spårare {tracker}</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123063971">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_tracker_tracker_max_power_today::name</prop>
       <prop type="lokalise-key-id">828726336</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Tracker {tracker} max power today</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Spårare {tracker} max effekt idag</seg>
+        <seg>Högsta effekt i dag på spårare {tracker}</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123063907">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_time_in_float_today::name</prop>
       <prop type="lokalise-key-id">828726335</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Time in float today</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Tid i float idag</seg>
+        <seg>Tid i underhållsladdning i dag</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123063843">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_time_in_bulk_today::name</prop>
       <prop type="lokalise-key-id">828726334</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Time in bulk today</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Tid i bulk idag</seg>
+        <seg>Tid i bulkfas i dag</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123063779">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_time_in_absorption_today::name</prop>
       <prop type="lokalise-key-id">828726333</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Time in absorption today</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Tid i absorption idag</seg>
+        <seg>Tid i absorption i dag</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123063715">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_state::state::sustain_alt</prop>
       <prop type="lokalise-key-id">828726332</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Sustain alt</seg>
       </tuv>
@@ -200267,9 +200282,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_state::state::sustain</prop>
       <prop type="lokalise-key-id">828726331</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Sustain</seg>
       </tuv>
@@ -200281,9 +200297,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_state::state::storage</prop>
       <prop type="lokalise-key-id">828726330</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Storage</seg>
       </tuv>
@@ -200295,9 +200312,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_state::state::starting_up</prop>
       <prop type="lokalise-key-id">828726329</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Starting up</seg>
       </tuv>
@@ -200309,9 +200327,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_state::state::scheduled_recharging</prop>
       <prop type="lokalise-key-id">828726328</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Scheduled recharging</seg>
       </tuv>
@@ -200323,9 +200342,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_state::state::repeated_absorption</prop>
       <prop type="lokalise-key-id">828726327</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Repeated absorption</seg>
       </tuv>
@@ -200337,23 +200357,25 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_state::state::recharging</prop>
       <prop type="lokalise-key-id">828726326</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Recharging</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Uppladdar</seg>
+        <seg>Återladdar</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123063267">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_state::state::power_supply</prop>
       <prop type="lokalise-key-id">828726325</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Power supply</seg>
       </tuv>
@@ -200365,9 +200387,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_state::state::power_assist</prop>
       <prop type="lokalise-key-id">828726324</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Power Assist</seg>
       </tuv>
@@ -200379,9 +200402,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_state::state::passthrough</prop>
       <prop type="lokalise-key-id">828726323</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Passthrough</seg>
       </tuv>
@@ -200393,9 +200417,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_state::state::off</prop>
       <prop type="lokalise-key-id">828726322</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Off</seg>
       </tuv>
@@ -200407,51 +200432,55 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_state::state::low_power</prop>
       <prop type="lokalise-key-id">828726321</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Low power</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Låg ström</seg>
+        <seg>Låg effekt</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123062947">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_state::state::inverting</prop>
       <prop type="lokalise-key-id">828726320</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Inverting</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Växelriktar</seg>
+        <seg>Växelriktning</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123062883">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_state::state::float</prop>
       <prop type="lokalise-key-id">828726319</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Float</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Flytande</seg>
+        <seg>Underhållsladdning</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123062819">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_state::state::fault</prop>
       <prop type="lokalise-key-id">828726318</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Fault</seg>
       </tuv>
@@ -200463,9 +200492,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_state::state::external_control</prop>
       <prop type="lokalise-key-id">828726317</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>External control</seg>
       </tuv>
@@ -200477,23 +200507,25 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_state::state::equalize</prop>
       <prop type="lokalise-key-id">828726316</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Equalize</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Utjämna</seg>
+        <seg>Utjämningsladdning</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123062627">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_state::state::discharging</prop>
       <prop type="lokalise-key-id">828726315</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Discharging</seg>
       </tuv>
@@ -200505,37 +200537,40 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_state::state::bulk</prop>
       <prop type="lokalise-key-id">828726314</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Bulk</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Bulk</seg>
+        <seg>Bulkfas</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123062499">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_state::state::battery_safe</prop>
       <prop type="lokalise-key-id">828726313</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Battery Safe</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Batteri säkert</seg>
+        <seg>Battery Safe</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123062435">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_state::state::auto_equalize</prop>
       <prop type="lokalise-key-id">828726312</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Auto equalize / recondition</seg>
       </tuv>
@@ -200547,9 +200582,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_state::state::absorption</prop>
       <prop type="lokalise-key-id">828726311</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Absorption</seg>
       </tuv>
@@ -200561,9 +200597,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_state::name</prop>
       <prop type="lokalise-key-id">828726310</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>State</seg>
       </tuv>
@@ -200575,9 +200612,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_mppt_operation_mode::state::voltage_current_limited</prop>
       <prop type="lokalise-key-id">828726309</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Voltage/current limited</seg>
       </tuv>
@@ -200589,9 +200627,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_mppt_operation_mode::state::off</prop>
       <prop type="lokalise-key-id">828726308</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Off</seg>
       </tuv>
@@ -200603,9 +200642,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_mppt_operation_mode::state::not_available</prop>
       <prop type="lokalise-key-id">828726307</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Not available</seg>
       </tuv>
@@ -200617,9 +200657,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_mppt_operation_mode::state::mppt_active</prop>
       <prop type="lokalise-key-id">828726306</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>MPPT active</seg>
       </tuv>
@@ -200631,9 +200672,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_mppt_operation_mode::name</prop>
       <prop type="lokalise-key-id">828726305</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>MPPT operation mode</seg>
       </tuv>
@@ -200645,23 +200687,25 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_min_battery_voltage_today::name</prop>
       <prop type="lokalise-key-id">828726304</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Min battery voltage today</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Lägsta batterispänning idag</seg>
+        <seg>Lägsta batterispänning i dag</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123061859">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_max_power_yesterday::name</prop>
       <prop type="lokalise-key-id">828726303</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Max power yesterday</seg>
       </tuv>
@@ -200673,9 +200717,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_max_power_today::name</prop>
       <prop type="lokalise-key-id">828726302</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Max power today</seg>
       </tuv>
@@ -200687,37 +200732,40 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_max_battery_voltage_today::name</prop>
       <prop type="lokalise-key-id">828726301</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Max battery voltage today</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Högsta batterispänning idag</seg>
+        <seg>Högsta batterispänning i dag</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123061667">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_load_current::name</prop>
       <prop type="lokalise-key-id">828726300</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Load bus current</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Lastbusström</seg>
+        <seg>Ström på lastbussen</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123061603">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_error_code::state::user_settings_invalid</prop>
       <prop type="lokalise-key-id">828726299</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>User settings invalid</seg>
       </tuv>
@@ -200729,37 +200777,40 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_error_code::state::terminals_overheated</prop>
       <prop type="lokalise-key-id">828726298</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Terminals overheated</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Terminaler överhettade</seg>
+        <seg>Anslutningarna är överhettade</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123061475">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_error_code::state::synchronized_charging_config_issue</prop>
       <prop type="lokalise-key-id">828726297</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Synchronized charging config issue</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Problem med konfiguration av synkroniserad laddning</seg>
+        <seg>Problem med konfigurationen för synkroniserad laddning</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123061411">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_error_code::state::no_error</prop>
       <prop type="lokalise-key-id">828726296</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>No error</seg>
       </tuv>
@@ -200771,9 +200822,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_error_code::state::network_misconfigured</prop>
       <prop type="lokalise-key-id">828726295</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Network misconfigured</seg>
       </tuv>
@@ -200785,23 +200837,25 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_error_code::state::lost_communication_with_device</prop>
       <prop type="lokalise-key-id">828726294</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Lost communication with device</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Förlorade kommunikation med enheten</seg>
+        <seg>Kommunikationen med enheten har brutits</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123061219">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_error_code::state::invalid_incompatible_firmware</prop>
       <prop type="lokalise-key-id">828726293</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Invalid/incompatible firmware</seg>
       </tuv>
@@ -200813,9 +200867,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_error_code::state::input_voltage_too_high</prop>
       <prop type="lokalise-key-id">828726292</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Input voltage too high (solar panel)</seg>
       </tuv>
@@ -200827,37 +200882,40 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_error_code::state::input_shutdown_reverse_current</prop>
       <prop type="lokalise-key-id">828726291</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Input shutdown (reverse current)</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Ingångsavstängning (omvänd ström)</seg>
+        <seg>Ingången stängdes av på grund av omvänt strömflöde</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123061027">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_error_code::state::input_shutdown_battery_voltage_too_high</prop>
       <prop type="lokalise-key-id">828726290</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Input shutdown (battery voltage too high)</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Ingångsavstängning (överspänning i batteri)</seg>
+        <seg>Ingången stängdes av eftersom batterispänningen är för hög</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123060963">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_error_code::state::input_current_too_high</prop>
       <prop type="lokalise-key-id">828726289</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Input current too high (solar panel)</seg>
       </tuv>
@@ -200869,23 +200927,25 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_error_code::state::factory_calibration_data_lost</prop>
       <prop type="lokalise-key-id">828726288</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Factory calibration data lost</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Fabriksinställningarna har gått förlorade</seg>
+        <seg>Fabrikens kalibreringsdata har gått förlorade</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123060835">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_error_code::state::current_sensor_issue</prop>
       <prop type="lokalise-key-id">828726287</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Current sensor issue</seg>
       </tuv>
@@ -200897,79 +200957,85 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_error_code::state::converter_issue</prop>
       <prop type="lokalise-key-id">828726286</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Converter issue</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Problem med konverterare</seg>
+        <seg>Problem med omvandlaren</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123060643">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_error_code::state::charger_over_current</prop>
       <prop type="lokalise-key-id">828726284</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Charger over current</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Laddare överström</seg>
+        <seg>Överström i laddaren</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123060579">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_error_code::state::charger_current_reversed</prop>
       <prop type="lokalise-key-id">828726283</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Charger current reversed</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Laddström omvänd</seg>
+        <seg>Omvänt strömflöde genom laddaren</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123060515">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_error_code::state::bulk_time_limit_exceeded</prop>
       <prop type="lokalise-key-id">828726282</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Bulk time limit exceeded</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Tidsgränsen för bulköverföring har överskridits</seg>
+        <seg>Tidsgränsen för bulkladdning har överskridits</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123060451">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_error_code::state::bms_connection_lost</prop>
       <prop type="lokalise-key-id">828726281</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>BMS connection lost</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>BMS-anslutningen förlorad</seg>
+        <seg>Anslutningen till BMS har brutits</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123060323">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_error_code::name</prop>
       <prop type="lokalise-key-id">828726279</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Error code</seg>
       </tuv>
@@ -200981,23 +201047,25 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_device_off_reason::state::switched_off_power_switch</prop>
       <prop type="lokalise-key-id">828726278</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Switched off (power switch)</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Avstängd (strömbrytare)</seg>
+        <seg>Avstängd med strömbrytaren</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123060195">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_device_off_reason::state::switched_off_device_mode_register</prop>
       <prop type="lokalise-key-id">828726277</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Switched off (device mode register)</seg>
       </tuv>
@@ -201009,9 +201077,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_device_off_reason::state::signal_from_bms</prop>
       <prop type="lokalise-key-id">828726276</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Signal from BMS</seg>
       </tuv>
@@ -201023,9 +201092,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_device_off_reason::state::remote_input</prop>
       <prop type="lokalise-key-id">828726275</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Remote input</seg>
       </tuv>
@@ -201037,9 +201107,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_device_off_reason::state::protective_action</prop>
       <prop type="lokalise-key-id">828726274</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Protection active</seg>
       </tuv>
@@ -201051,9 +201122,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_device_off_reason::state::none</prop>
       <prop type="lokalise-key-id">828726273</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>-</seg>
       </tuv>
@@ -201065,23 +201137,25 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_device_off_reason::state::no_panel_power</prop>
       <prop type="lokalise-key-id">828726272</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>No/low panel power</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Ingen/låg strömförsörjning till panelen</seg>
+        <seg>Ingen eller för låg effekt från solpanelen</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123059811">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_device_off_reason::state::no_input_power</prop>
       <prop type="lokalise-key-id">828726271</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>No/low input power</seg>
       </tuv>
@@ -201093,23 +201167,25 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_device_off_reason::state::no_battery_power</prop>
       <prop type="lokalise-key-id">828726270</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>No/low battery power</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Ingen/låg batterinivå</seg>
+        <seg>Ingen eller för låg effekt från batteriet</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123059683">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_device_off_reason::state::need_token</prop>
       <prop type="lokalise-key-id">828726269</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Need token for operation</seg>
       </tuv>
@@ -201121,9 +201197,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_device_off_reason::state::low_temperature</prop>
       <prop type="lokalise-key-id">828726268</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Low temperature</seg>
       </tuv>
@@ -201135,23 +201212,25 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_device_off_reason::state::engine_shutdown</prop>
       <prop type="lokalise-key-id">828726267</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Engine shutdown on low input voltage</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Motoravstängning vid låg ingångsspänning</seg>
+        <seg>Motorn stängdes av vid låg ingångsspänning</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123059491">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_device_off_reason::state::analysing_input_voltage</prop>
       <prop type="lokalise-key-id">828726266</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Analysing input voltage</seg>
       </tuv>
@@ -201163,9 +201242,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_device_off_reason::state::active_alarm</prop>
       <prop type="lokalise-key-id">828726265</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Active alarm</seg>
       </tuv>
@@ -201177,9 +201257,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_device_off_reason::name</prop>
       <prop type="lokalise-key-id">828726264</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Device-off reason</seg>
       </tuv>
@@ -201191,93 +201272,100 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_dc_voltage::name</prop>
       <prop type="lokalise-key-id">828726263</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>DC (battery) bus voltage</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>DC (batteri) busspänning</seg>
+        <seg>Spänning på batteriets DC-buss</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123059235">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_dc_current::name</prop>
       <prop type="lokalise-key-id">828726262</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>DC (battery) bus current</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>DC (batteri) busström</seg>
+        <seg>Ström på batteriets DC-buss</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123059171">
       <prop type="source">component::victron_gx::entity::sensor::solarcharger_current::name</prop>
       <prop type="lokalise-key-id">828726261</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>PV bus current</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>PV busström</seg>
+        <seg>Ström på PV-bussen</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123059107">
       <prop type="source">component::victron_gx::entity::sensor::pvinverter_yield_total::name</prop>
       <prop type="lokalise-key-id">828726260</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback; synchronized to current live reference target</prop>
+      <prop type="status">reference-target-updated-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Total yield</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Total avkastning</seg>
+        <seg>Total solcellsproduktion</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123059043">
       <prop type="source">component::victron_gx::entity::sensor::pvinverter_yield_phase::name</prop>
       <prop type="lokalise-key-id">828726259</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Yield {phase}</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Avkastning {phase}</seg>
+        <seg>Solcellsproduktion på fas {phase}</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123058979">
       <prop type="source">component::victron_gx::entity::sensor::pvinverter_voltage_phase::name</prop>
       <prop type="lokalise-key-id">828726258</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Voltage {phase}</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Spänning {phase}</seg>
+        <seg>Spänning på fas {phase}</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123058915">
       <prop type="source">component::victron_gx::entity::sensor::pvinverter_power_total::name</prop>
       <prop type="lokalise-key-id">828726257</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Power total</seg>
       </tuv>
@@ -201289,37 +201377,40 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::pvinverter_power_phase::name</prop>
       <prop type="lokalise-key-id">828726256</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback; synchronized to current live reference target</prop>
+      <prop type="status">reference-target-updated-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Power {phase}</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Effekt {phase}</seg>
+        <seg>Effekt på fas {phase}</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123058787">
       <prop type="source">component::victron_gx::entity::sensor::pvinverter_current_phase::name</prop>
       <prop type="lokalise-key-id">828726255</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Current {phase}</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Ström {phase}</seg>
+        <seg>Ström på fas {phase}</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123058723">
       <prop type="source">component::victron_gx::entity::sensor::platform_venus_firmware_installed_version::name</prop>
       <prop type="lokalise-key-id">828726254</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Installed version</seg>
       </tuv>
@@ -201331,9 +201422,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::platform_venus_firmware_available_version::name</prop>
       <prop type="lokalise-key-id">828726253</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Available version</seg>
       </tuv>
@@ -201345,9 +201437,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::multiplus_assist_current_boost_factor::unit_of_measurement</prop>
       <prop type="lokalise-key-id">828726252</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live review; historical key previously documented; no current source path</prop>
+      <prop type="status">source-path-follow-up</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>factor</seg>
       </tuv>
@@ -201359,9 +201452,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::multiplus_assist_current_boost_factor::name</prop>
       <prop type="lokalise-key-id">828726251</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live review; historical key previously documented; no current source path</prop>
+      <prop type="status">source-path-follow-up</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Assist current boost factor</seg>
       </tuv>
@@ -201373,36 +201467,38 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::multi_yield_yesterday::name</prop>
       <prop type="lokalise-key-id">828726250</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback; synchronized to current live reference target</prop>
+      <prop type="status">reference-target-updated-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Yield yesterday</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Avkastning i går</seg>
+        <seg>Solcellsproduktion i går</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123058403">
       <prop type="source">component::victron_gx::entity::sensor::multi_yield_today::name</prop>
       <prop type="lokalise-key-id">828726249</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback; synchronized to current live reference target</prop>
+      <prop type="status">reference-target-updated-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Yield today</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Avkastning i dag</seg>
+        <seg>Solcellsproduktion i dag</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123058339">
       <prop type="source">component::victron_gx::entity::sensor::multi_total_pv_yield::name</prop>
       <prop type="lokalise-key-id">828726248</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT and GET readback; harmonized with reviewed Victron GX common term</prop>
-      <prop type="status">saved-and-read-back</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
+      <prop type="status">verified-existing</prop>
       <prop type="verified-date">2026-11-27</prop>
       <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
@@ -201416,9 +201512,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::multi_state::state::sustain_alt</prop>
       <prop type="lokalise-key-id">828726247</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Sustain alt</seg>
       </tuv>
@@ -201430,9 +201527,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::multi_state::state::sustain</prop>
       <prop type="lokalise-key-id">828726246</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Sustain</seg>
       </tuv>
@@ -201444,9 +201542,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::multi_state::state::storage</prop>
       <prop type="lokalise-key-id">828726245</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Storage</seg>
       </tuv>
@@ -201458,9 +201557,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::multi_state::state::starting_up</prop>
       <prop type="lokalise-key-id">828726244</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Starting up</seg>
       </tuv>
@@ -201472,9 +201572,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::multi_state::state::scheduled_recharging</prop>
       <prop type="lokalise-key-id">828726243</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Scheduled recharging</seg>
       </tuv>
@@ -201486,9 +201587,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::multi_state::state::repeated_absorption</prop>
       <prop type="lokalise-key-id">828726242</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Repeated absorption</seg>
       </tuv>
@@ -201500,23 +201602,25 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::multi_state::state::recharging</prop>
       <prop type="lokalise-key-id">828726241</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Recharging</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Uppladdar</seg>
+        <seg>Återladdar</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123057827">
       <prop type="source">component::victron_gx::entity::sensor::multi_state::state::power_supply</prop>
       <prop type="lokalise-key-id">828726240</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Power supply</seg>
       </tuv>
@@ -201528,9 +201632,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::multi_state::state::power_assist</prop>
       <prop type="lokalise-key-id">828726239</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Power Assist</seg>
       </tuv>
@@ -201542,9 +201647,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::multi_state::state::passthrough</prop>
       <prop type="lokalise-key-id">828726238</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Passthrough</seg>
       </tuv>
@@ -201556,9 +201662,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::multi_state::state::off</prop>
       <prop type="lokalise-key-id">828726237</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Off</seg>
       </tuv>
@@ -201570,51 +201677,55 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::multi_state::state::low_power</prop>
       <prop type="lokalise-key-id">828726236</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Low power</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Låg ström</seg>
+        <seg>Låg effekt</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123057507">
       <prop type="source">component::victron_gx::entity::sensor::multi_state::state::inverting</prop>
       <prop type="lokalise-key-id">828726235</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Inverting</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Växelriktar</seg>
+        <seg>Växelriktning</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123057443">
       <prop type="source">component::victron_gx::entity::sensor::multi_state::state::float</prop>
       <prop type="lokalise-key-id">828726234</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Float</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Flytande</seg>
+        <seg>Underhållsladdning</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123057379">
       <prop type="source">component::victron_gx::entity::sensor::multi_state::state::fault</prop>
       <prop type="lokalise-key-id">828726233</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Fault</seg>
       </tuv>
@@ -201626,9 +201737,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::multi_state::state::external_control</prop>
       <prop type="lokalise-key-id">828726232</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>External control</seg>
       </tuv>
@@ -201640,23 +201752,25 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::multi_state::state::equalize</prop>
       <prop type="lokalise-key-id">828726231</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Equalize</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Utjämna</seg>
+        <seg>Utjämningsladdning</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123057187">
       <prop type="source">component::victron_gx::entity::sensor::multi_state::state::discharging</prop>
       <prop type="lokalise-key-id">828726230</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Discharging</seg>
       </tuv>
@@ -201668,37 +201782,40 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::multi_state::state::bulk</prop>
       <prop type="lokalise-key-id">828726229</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Bulk</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Bulk</seg>
+        <seg>Bulkfas</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123057059">
       <prop type="source">component::victron_gx::entity::sensor::multi_state::state::battery_safe</prop>
       <prop type="lokalise-key-id">828726228</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Battery Safe</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Batteri säkert</seg>
+        <seg>Battery Safe</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123056995">
       <prop type="source">component::victron_gx::entity::sensor::multi_state::state::auto_equalize</prop>
       <prop type="lokalise-key-id">828726227</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Auto equalize / recondition</seg>
       </tuv>
@@ -201710,9 +201827,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::multi_state::state::absorption</prop>
       <prop type="lokalise-key-id">828726226</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Absorption</seg>
       </tuv>
@@ -201724,9 +201842,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::multi_state::name</prop>
       <prop type="lokalise-key-id">828726225</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>State</seg>
       </tuv>
@@ -201738,51 +201857,55 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::multi_solar_to_battery::name</prop>
       <prop type="lokalise-key-id">828726224</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Solar to battery</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Solenergi till batteri</seg>
+        <seg>Solenergi till batteriet</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123056739">
       <prop type="source">component::victron_gx::entity::sensor::multi_solar_to_acout::name</prop>
       <prop type="lokalise-key-id">828726223</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Solar to AC-out</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Solenergi till AC-ut</seg>
+        <seg>Solenergi till AC-utgången</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123056675">
       <prop type="source">component::victron_gx::entity::sensor::multi_solar_to_acin1::name</prop>
       <prop type="lokalise-key-id">828726222</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Solar to AC-in-1</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Solenergi till AC-in 1</seg>
+        <seg>Solenergi till AC-ingång 1</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123056611">
       <prop type="source">component::victron_gx::entity::sensor::multi_shore_current_limit::name</prop>
       <prop type="lokalise-key-id">828726221</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live review; historical key previously documented; no current source path</prop>
+      <prop type="status">source-path-follow-up</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Shore current limit</seg>
       </tuv>
@@ -201794,8 +201917,8 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::multi_pv_power_total::name</prop>
       <prop type="lokalise-key-id">828726220</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT and GET readback; harmonized with reviewed Victron GX common term</prop>
-      <prop type="status">saved-and-read-back</prop>
+      <prop type="verification-method">Lokalise API live read; source and Swedish reference target match</prop>
+      <prop type="status">verified-existing</prop>
       <prop type="verified-date">2026-11-27</prop>
       <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
@@ -201809,9 +201932,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::multi_phases::unit_of_measurement</prop>
       <prop type="lokalise-key-id">828726219</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>phases</seg>
       </tuv>
@@ -201823,9 +201947,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::multi_phases::name</prop>
       <prop type="lokalise-key-id">828726218</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Phases</seg>
       </tuv>
@@ -201942,30 +202067,30 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::victron_gx::entity::sensor::multi_mppt_mppt_id_yield_yesterday::name</prop>
       <prop type="lokalise-key-id">828726210</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live snapshot and source/reference review</prop>
-      <prop type="status">verified-existing</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback; retroactive shared-term/reference synchronization</prop>
+      <prop type="status">saved-and-read-back</prop>
       <prop type="verified-date">2026-11-27</prop>
       <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>MPPT {mppt_id} yield yesterday</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>MPPT {mppt_id} avkastning igår</seg>
+        <seg>Solcellsproduktion i går för MPPT {mppt_id}</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123055843">
       <prop type="source">component::victron_gx::entity::sensor::multi_mppt_mppt_id_yield_today::name</prop>
       <prop type="lokalise-key-id">828726209</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live snapshot and source/reference review</prop>
-      <prop type="status">verified-existing</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback; retroactive shared-term/reference synchronization</prop>
+      <prop type="status">saved-and-read-back</prop>
       <prop type="verified-date">2026-11-27</prop>
       <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>MPPT {mppt_id} yield today</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>MPPT {mppt_id} avkastning idag</seg>
+        <seg>Solcellsproduktion i dag för MPPT {mppt_id}</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8123055779">
@@ -203684,7 +203809,7 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       </tuv>
     </tu>
     <tu tuid="lokalise:8123045347"><prop type="source">component::victron_gx::entity::sensor::evcharger_session_cost::name</prop><prop type="lokalise-key-id">828726045</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; current source/referenced target checked</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Last session cost</seg></tuv><tuv xml:lang="sv"><seg>Kostnad för senaste sessionen</seg></tuv></tu>
-    <tu tuid="lokalise:8123045283"><prop type="source">component::victron_gx::entity::sensor::evcharger_power_phase::name</prop><prop type="lokalise-key-id">828726044</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; current source/referenced target checked</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Power {phase}</seg></tuv><tuv xml:lang="sv"><seg>Effekt {phase}</seg></tuv></tu>
+    <tu tuid="lokalise:8123045283"><prop type="source">component::victron_gx::entity::sensor::evcharger_power_phase::name</prop><prop type="lokalise-key-id">828726044</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT/GET readback; retroactive shared-term/reference synchronization</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Power {phase}</seg></tuv><tuv xml:lang="sv"><seg>Effekt på fas {phase}</seg></tuv></tu>
     <tu tuid="lokalise:8123045219"><prop type="source">component::victron_gx::entity::sensor::evcharger_power::name</prop><prop type="lokalise-key-id">828726043</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; current source/referenced target checked</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Power</seg></tuv><tuv xml:lang="sv"><seg>Effekt</seg></tuv></tu>
     <tu tuid="lokalise:8123045155"><prop type="source">component::victron_gx::entity::sensor::evcharger_position::state::ac_out</prop><prop type="lokalise-key-id">828726042</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; current source/referenced target checked</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>AC out</seg></tuv><tuv xml:lang="sv"><seg>AC-utgång</seg></tuv></tu>
     <tu tuid="lokalise:8123045091"><prop type="source">component::victron_gx::entity::sensor::evcharger_position::state::ac_input</prop><prop type="lokalise-key-id">828726041</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; current source/referenced target checked</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>AC input</seg></tuv><tuv xml:lang="sv"><seg>Växelströmsingång</seg></tuv></tu>
