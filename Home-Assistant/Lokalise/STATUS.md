@@ -2408,3 +2408,9 @@ Senaste position: **58 336** av 77 656. Nästa: **58 337**; **19 320 återstår*
 120 positioner granskades: 80 aktuella strängar  28 referenser och 12 äldre/flyttade sökvägar. 23 ändringar sparades i intervallet och ett delat BleBox-mål rättades retroaktivt. Referenser 28/28; platshållare 120/120. HA-TMX validerar.
 
 Senaste position: **58 456** av 77 656. Nästa: **58 457**; **19 200 återstår**. Granskningen fortsätter.
+
+### Batch: 58 457–58 576
+
+120 positioner granskades: 66 aktuella strängar  38 referenser och 16 tidigare dokumenterade saknade källvägar. 35 ändringar sparades och lästes tillbaka från Lokalise. Referenser 38/38; platshållare 120/120; inga pluralnycklar. HA-TMX validerad.
+
+Senaste position: **58 576** av 77 656. Nästa: **58 577**; **19 080 återstår**. Granskningen fortsätter.
