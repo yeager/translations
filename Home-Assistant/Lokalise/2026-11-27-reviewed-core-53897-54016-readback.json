@@ -1,0 +1,86 @@
+[
+  {
+    "position": 53929,
+    "key": "component::victron_gx::entity::sensor::system_grid_phases::name",
+    "key_id": "828726490",
+    "translation_id": "8123073827",
+    "en": "Grid phases",
+    "before": "Elnätsfaser",
+    "after": "Faser i elnätet",
+    "reason": "Gör relationen mellan elnätet och faserna tydlig.",
+    "readback": "Faser i elnätet",
+    "status": "saved-and-read-back"
+  },
+  {
+    "position": 53980,
+    "key": "component::victron_gx::entity::sensor::tank_fluid_type::state::waste_water",
+    "key_id": "828726541",
+    "translation_id": "8123077091",
+    "en": "Waste water",
+    "before": "Avloppsvatten",
+    "after": "Gråvatten",
+    "reason": "Victrons manual anger att Waste Water också benämns Grey Water; gråvatten är etablerat i båtsammanhang.",
+    "readback": "Gråvatten",
+    "status": "saved-and-read-back"
+  },
+  {
+    "position": 53983,
+    "key": "component::victron_gx::entity::sensor::tank_remaining::name",
+    "key_id": "828726544",
+    "translation_id": "8123077283",
+    "en": "Remaining",
+    "before": "Återstående",
+    "after": "Kvarvarande mängd",
+    "reason": "Gör den ensamma etiketten naturlig och tydlig i tankkontext.",
+    "readback": "Kvarvarande mängd",
+    "status": "saved-and-read-back"
+  },
+  {
+    "position": 53997,
+    "key": "component::victron_gx::entity::sensor::temperature_status::state::short_circuited",
+    "key_id": "828726558",
+    "translation_id": "8123078179",
+    "en": "Short circuited",
+    "before": "Kortsluten",
+    "after": "Kortslutning",
+    "reason": "Felstatusen blir tydligare som tillståndsnamn.",
+    "readback": "Kortslutning",
+    "status": "saved-and-read-back"
+  },
+  {
+    "position": 54012,
+    "key": "component::victron_gx::entity::sensor::vebus_device_device_number_inverted_power::name",
+    "key_id": "828726573",
+    "translation_id": "8123079139",
+    "en": "{device_number} inverted power",
+    "before": "{device_number} inverterad effekt",
+    "after": "Växelriktareffekt för enhet {device_number}",
+    "reason": "Återger effekten som hanteras av växelriktaren i stället för den missvisande kalkeringen inverterad effekt.",
+    "readback": "Växelriktareffekt för enhet {device_number}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "position": 54015,
+    "key": "component::victron_gx::entity::sensor::vebus_energy_ac_in1_to_ac_out::name",
+    "key_id": "828726576",
+    "translation_id": "8123079331",
+    "en": "Energy from AC-in-1 to AC-out",
+    "before": "Energi från AC-in 1 till AC-ut",
+    "after": "Energi från AC-ingång 1 till AC-utgång",
+    "reason": "Harmoniserar AC-in/AC-ut med etablerade svenska AC-ingång/AC-utgång.",
+    "readback": "Energi från AC-ingång 1 till AC-utgång",
+    "status": "saved-and-read-back"
+  },
+  {
+    "position": 54016,
+    "key": "component::victron_gx::entity::sensor::vebus_energy_ac_in1_to_inverter::name",
+    "key_id": "828726577",
+    "translation_id": "8123079395",
+    "en": "Energy from AC-in-1 to inverter",
+    "before": "Energi från AC-in 1 till växelriktare",
+    "after": "Energi från AC-ingång 1 till växelriktaren",
+    "reason": "Harmoniserar AC-in med svenska AC-ingång och kompletterar bestämd form.",
+    "readback": "Energi från AC-ingång 1 till växelriktaren",
+    "status": "saved-and-read-back"
+  }
+]
