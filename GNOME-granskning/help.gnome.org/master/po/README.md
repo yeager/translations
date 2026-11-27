@@ -8,3 +8,7 @@
 - Validering: `msgfmt --check --check-format --statistics`, `msgcmp --use-fuzzy` och taggjämförelse godkända. `l10n-lint`: 0 fel/varningar. `hunspell-sv` kördes; egennamn och sammansättningsfragment redovisas i `hunspell-undantag.md`.
 - Ingen GNOME-inskickning har gjorts.
 - Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-26.
+
+## Ny uppladdningskontroll — 2026-11-27
+
+Aktivitetssidan visar en tidigare uppladdning 2026-11-26 med 46/0/0. Den lokalt granskade filen skiljer sig från den aktuella GNOME-filen på 28 strängar; POT-filen är fortfarande samma 46-posterstemplate och den lokala PO-filen klarar `msgcmp`. Väntar på uppladdningsintervallet innan den här granskningen skickas.
