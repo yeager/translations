@@ -1091,3 +1091,12 @@ Senaste granskade position: **52 816** av 77 656. Nästa position: **52 817**; *
 ## Aktuell status – 2026-11-27
 
 Senaste granskade position: **52 936** av 77 656. Nästa position: **52 937**; **24 720 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+
+
+### Batch: 52 937–53 056
+
+120 positioner granskades: 86 direkta nycklar, 21 alias och 13 tidigare dokumenterade källfrånvarande nycklar. 31 översättningar rättades och API-lästes tillbaka, bland annat trasig länkmarkup i BMW-feltext och flera HTML5-/shell-/Evohome-termer. Alla 21 alias och platshållare för 107 aktuella nycklar matchar. Hunspell kompletterades med godkända svenska teknikord och testerna passerade 19/19; `svlang` gav 10/10. TMX validerar med 35 748 poster (35 517 Lokalise-ID, 231 historiska).
+
+## Aktuell status – 2026-11-27
+
+Senaste granskade position: **53 056** av 77 656. Nästa position: **53 057**; **24 600 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
