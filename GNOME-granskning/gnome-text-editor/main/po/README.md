@@ -14,10 +14,12 @@
 - Validering: `msgfmt --check`; `l10n-lint`-regeln `metavariable-translation` ger inga kvarvarande träffar i de 295 granskade huvudgrenarnas kataloger.
 - Ändringen är lokal och har inte skickats till GNOME.
 
-## Uppföljning efter tidigare uppladdning
+## Uppföljning och inskickning (2026-11-27)
 
-En kommandoradsmetavariabel korrigerades 2026-11-24 efter uppladdningen 2026-11-23. Den aktuella katalogen är komplett mot POT; uppföljningsändringen väntar på inskickning.
+Den 2026-11-24 rättades en kommandoradsmetavariabel efter uppladdningen 2026-11-23. Den uppdaterade filen granskades igen mot aktuell POT från Damned Lies; POT-hash är `e6c5db34c5246339b15c566972bc138261115c2e820a8d4082155c7c63b3a1e7`. Alla 292 aktiva poster matchar, och katalogen har 0 fuzzy och 0 oöversatta poster.
 
-`l10n-lint` ger 0 fel och 1 varning om identiska pluralformer för `About %u year(s) ago`; identiskt `år` är korrekt på svenska i singular och plural. Gränsnotiserna beror på giltigt flyttade ASCII-acceleratorer.
+Uppladdad 2026-11-27 kl. 21:20 UTC efter reservation med kommentaren `Granskad och klar`. Damned Lies aktivitet 1582107 visar 292/0/0. Den nedladdade sammanslagna PO-filen `gnome-text-editor.main.sv.merged-1582107.po` matchar den granskade filen post för post.
+
+Validering: `msgcmp` och `msgfmt --check --check-format` godkända. `l10n-lint` ger 0 fel och 1 varning om identiska pluralformer för `About %u year(s) ago`; identiskt `år` är korrekt på svenska i singular och plural. Acceleratorerna använder ASCII-bokstäver; gränsnotiserna gäller giltigt flyttade acceleratorer.
 
 - Hunspell: `hunspell-unknown.txt` innehåller stavningslexikonets okända token från den aktuella granskade filen. Träffarna är kontrollerade: tekniska namn/flaggar och svenska sammansättningar, acceleratorfragment samt i Ptyxis den avsiktliga fontprovstexten `hwila` (pangram med bokstaven w). För GNOME Text Editor är pluralvarningen för `år` dokumenterad; samma form är korrekt på svenska.

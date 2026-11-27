@@ -4,6 +4,7 @@ Färdiggranskade kataloger som laddats upp via API. Uppladdning verifieras mot a
 
 | Modul | Gren | Domän | Ändrade PO-poster | Verifiering |
 |---|---|---|---:|---|
+| gnome-text-editor | main | po | 57 | Uppladdad 21:20 UTC med ”Granskad och klar”; aktivitet 1582107 och sammanslagen PO bekräftar 292/0/0 och exakt filmatch. Statistik-API:t visar ännu 282/4/6. |
 | Ptyxis | main | po | 98 | Uppföljning uppladdad 21:09 UTC med ”Granskad och klar”; aktivitet 1582105 och sammanslagen PO bekräftar 473/0/0 och exakt filmatch. Statistikpanelen visar ännu 461/0/12. |
 | gnome-firmware | master | po | 50 | Uppladdad 20:47 UTC med ”Granskad och klar”; aktivitet 1582099 bekräftar sammanslagning 269/0/0 och kommentaren. Sammanslagen PO matchar granskad fil; statistikpanelen visar ännu 263/1/5. |
 | highscore | main | po | 211 | Uppladdad 20:24 UTC med ”Granskad och klar”; aktivitetsida och merged PO bekräftar 735/0/0 (åtgärd 1582097). Statistikpanelen visar ännu 655/56/24. |
@@ -35,5 +36,5 @@ Färdiggranskade kataloger som laddats upp via API. Uppladdning verifieras mot a
 
 ## Status
 
-- Uppladdade och verifierade händelser: **28**.
-- Samtliga 23 API-uppladdningar är verifierade på aktivitetssidorna; aktuell sammanslagningsstatistik anges per modul i tabellen.
+- Uppladdade och verifierade händelser: **29**.
+- Samtliga 24 API-uppladdningar är verifierade på aktivitetssidorna; aktuell sammanslagningsstatistik anges per modul i tabellen.
