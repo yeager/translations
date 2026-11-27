@@ -1,0 +1,92 @@
+[
+  {
+    "key": "component::music_assistant::services::play_media::fields::start_item::description",
+    "key_id": "949938600",
+    "translation_id": "9940793695",
+    "en": "Item to start playback from, instead of the first one. Use `latest` to play a podcast from its newest episode, or give the URI, ID or part of the name (at least 3 characters) of the track or episode to start from.",
+    "before": "Objekt att starta uppspelningen från i stället för det första. Använd `latest` för att spela upp en podcast från dess senaste avsnitt eller ange URI:n, ID:t eller en del av namnet med minst tre tecken för den låt eller det avsnitt som uppspelningen ska starta från.",
+    "after": "Innehåll som uppspelningen ska börja med i stället för det första. Använd `latest` för att spela upp en podd från det senaste avsnittet, eller ange URI, ID eller en del av namnet (minst tre tecken) på låten eller avsnittet.",
+    "readback": "Innehåll som uppspelningen ska börja med i stället för det första. Använd `latest` för att spela upp en podd från det senaste avsnittet, eller ange URI, ID eller en del av namnet (minst tre tecken) på låten eller avsnittet.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::music_assistant::services::play_media::fields::start_item::name",
+    "key_id": "949938601",
+    "translation_id": "9940793759",
+    "en": "Start item",
+    "before": "Startobjekt",
+    "after": "Startinnehåll",
+    "readback": "Startinnehåll",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::energy::issues::entity_gas_price_unit_mismatch::description",
+    "key_id": "950189559",
+    "translation_id": "9943443382",
+    "en": "Use a price per energy unit (such as kWh) for a gas sensor that measures energy, or a price per volume unit (such as m³) for a gas sensor that measures volume. Until then, the gas cost is not calculated. The following price entities do not match the unit of their gas sensor:",
+    "before": "Använd ett pris per energienhet, till exempel kWh, för en gassensor som mäter energi eller ett pris per volymenhet, till exempel m³, för en gassensor som mäter volym. Fram till dess beräknas inte gaskostnaden. Följande prisentiteter matchar inte enheten för sina gassensorer:",
+    "after": "Ange ett pris per energienhet (till exempel kWh) för en gassensor som mäter energi, eller ett pris per volymenhet (till exempel m³) för en gassensor som mäter volym. Gaskostnaden beräknas inte förrän enheten stämmer. Följande prisentiteter har en annan enhet än sina gassensorer:",
+    "readback": "Ange ett pris per energienhet (till exempel kWh) för en gassensor som mäter energi, eller ett pris per volymenhet (till exempel m³) för en gassensor som mäter volym. Gaskostnaden beräknas inte förrän enheten stämmer. Följande prisentiteter har en annan enhet än sina gassensorer:",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::loqed::config::step::reauth_confirm::description",
+    "key_id": "950272834",
+    "translation_id": "9944164591",
+    "en": "The LOQED credentials for {name} were rejected. Log in at LOQED's [personal access tokens portal]({config_url}), create a new access token and enter it here.",
+    "before": "LOQED-autentiseringsuppgifterna för {name} avvisades. Logga in på LOQEDs [portal för personliga åtkomsttoken]({config_url}), skapa en ny åtkomsttoken och ange den här.",
+    "after": "LOQED avvisade autentiseringsuppgifterna för {name}. Logga in på LOQEDs [portal för personliga åtkomsttoken]({config_url}), skapa en ny åtkomsttoken och ange den här.",
+    "readback": "LOQED avvisade autentiseringsuppgifterna för {name}. Logga in på LOQEDs [portal för personliga åtkomsttoken]({config_url}), skapa en ny åtkomsttoken och ange den här.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::nfandroidtv::issues::deprecated_notify_action::description",
+    "key_id": "950449301",
+    "translation_id": "9946829797",
+    "en": "The action `{action}` is deprecated and will be removed in a future release.\n\nPlease update your automations and scripts to use the notify entities with the `{new_action_1}` or `{new_action_2}` actions instead.\n\n## Example automation using `{new_action_1}` action:\n\n{example_yaml_1}\n\n## Example automation using `{new_action_2}` action:\n\n{example_yaml_2}",
+    "before": "Åtgärden `{action}` är föråldrad och tas bort i en framtida version.\n\nUppdatera dina automationer och skript så att de använder aviseringsentiteterna med åtgärderna `{new_action_1}` eller `{new_action_2}` i stället.\n\n## Exempel på automation som använder åtgärden `{new_action_1}`:\n\n{example_yaml_1}\n\n## Exempel på automation som använder åtgärden `{new_action_2}`:\n\n{example_yaml_2}",
+    "after": "Åtgärden `{action}` är föråldrad och tas bort i en framtida version.\n\nUppdatera dina automationer och skript så att de i stället använder aviseringsentiteterna med åtgärden `{new_action_1}` eller `{new_action_2}`.\n\n## Exempel på automation med åtgärden `{new_action_1}`:\n\n{example_yaml_1}\n\n## Exempel på automation med åtgärden `{new_action_2}`:\n\n{example_yaml_2}",
+    "readback": "Åtgärden `{action}` är föråldrad och tas bort i en framtida version.\n\nUppdatera dina automationer och skript så att de i stället använder aviseringsentiteterna med åtgärden `{new_action_1}` eller `{new_action_2}`.\n\n## Exempel på automation med åtgärden `{new_action_1}`:\n\n{example_yaml_1}\n\n## Exempel på automation med åtgärden `{new_action_2}`:\n\n{example_yaml_2}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::nfandroidtv::services::send_message::fields::interactive::description",
+    "key_id": "950449332",
+    "translation_id": "9946831781",
+    "en": "Interactive mode that enables manual dismissal or expansion for additional details via the remote control.",
+    "before": "Interaktivt läge som gör det möjligt att avvisa manuellt eller visa mer information med fjärrkontrollen.",
+    "after": "Interaktivt läge där du kan avvisa aviseringen eller visa fler uppgifter med fjärrkontrollen.",
+    "readback": "Interaktivt läge där du kan avvisa aviseringen eller visa fler uppgifter med fjärrkontrollen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::nfandroidtv::services::send_message::fields::position::description",
+    "key_id": "950449336",
+    "translation_id": "9946832037",
+    "en": "The screen location where the notification dialog appears.",
+    "before": "Skärmpositionen där aviseringsdialogen visas.",
+    "after": "Var på skärmen aviseringsdialogen visas.",
+    "readback": "Var på skärmen aviseringsdialogen visas.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::nfandroidtv::services::send_message::fields::transparency::description",
+    "key_id": "950449340",
+    "translation_id": "9946832293",
+    "en": "The transparency of the background, from 0% (solid) to 100% (invisible).",
+    "before": "Bakgrundens genomskinlighet från 0 % (heltäckande) till 100 % (osynlig).",
+    "after": "Bakgrundens genomskinlighet från 0 % (ogenomskinlig) till 100 % (genomskinlig).",
+    "readback": "Bakgrundens genomskinlighet från 0 % (ogenomskinlig) till 100 % (genomskinlig).",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::nfandroidtv::services::send_message::fields::title::description",
+    "key_id": "950449338",
+    "translation_id": "9946832165",
+    "en": "Title for your notification message.",
+    "before": "Rubrik för din avisering.",
+    "after": "Rubrik för aviseringsmeddelandet.",
+    "readback": "Rubrik för aviseringsmeddelandet.",
+    "status": "saved-and-read-back"
+  }
+]
