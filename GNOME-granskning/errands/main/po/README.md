@@ -30,4 +30,4 @@ Radgranskade de tre saknade posterna och de tre fuzzy-posterna. TM-stöd bekräf
 - [Granskad fil](errands.main.sv.reviewed.po)
 - [Diff](errands.main.sv.review.diff)
 
-Ändringarna är sparade lokalt och i GitHub-kopian. De har inte skickats till Damned Lies.
+Uppladdad 2026-11-27 kl. 00:43 UTC med kommentaren ”Granskad och klar”. Aktivitetssidan bekräftar sammanslagning 179/0/0; statistik-API:t visar ännu äldre 173/3/3.
