@@ -6,5 +6,5 @@
 - Alla 37 strängar radgranskades; 1 saknad upphovspersonssträng ifylldes och 9 befintliga översättningar förbättrades.
 - Beskrivningen av takt och tempo, nyckelorden och knackningsfunktionen rättades. Standardiserad BPM-förkortning bevarades.
 - Validering: `msgfmt --check --check-format --statistics`, `msgcmp --use-fuzzy` och platshållarkontroll godkända. `l10n-lint`: 0 fel/varningar. `hunspell-sv` kördes; rimliga undantag dokumenterade.
-- Ingen GNOME-inskickning har gjorts.
+- Uppladdad 2026-11-27 kl. 00:53 UTC med kommentaren ”Granskad och klar”. Aktivitetssidan bekräftar sammanslagning 37/0/0; statistik-API:t visar ännu 36/0/1.
 - Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-26.
