@@ -2354,3 +2354,9 @@ Senaste granskade position: **57 256** av 77 656. Nästa position: **57 257**; *
 120 positioner granskades: 78 aktuella direkta strängar, 36 referenser och sex tidigare dokumenterade nycklar utan aktuell källväg. 25 direkta rättelser sparades och API-lästes tillbaka. Alla referenser matchar; platshållare 120/120, inga pluralnycklar. `svlang` hittade inga skrivregelfel. TMX valideras efter tillägg; manifestet har 114 aktiva nycklar.
 
 Senaste position: **57 376** av 77 656. Nästa: **57 377**; **20 280 återstår**. Core-granskningen fortsätter.
+
+### Batch: 57,377–57,496
+
+120 positioner granskades: 89 direkta strängar, 27 referenser och fyra tidigare dokumenterade nycklar utan aktuell källväg. 17 rättelser sparades och API-lästes tillbaka. Alla referenser matchar; platshållare 120/120, inga pluralnycklar. `svlang` hittade inga skrivregelfel. En Homematic IP-kammarsensor kvarstår som semantiskt osäker; fyra källvägar är historiska uppföljningar.
+
+Senaste position: **57 496** av 77 656. Nästa: **57 497**; **20 160 återstår**. Granskningen fortsätter.
