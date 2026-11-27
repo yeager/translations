@@ -1,0 +1,257 @@
+ oppar över fil som inte känns igen ' '
+' ' känns inte igen; skapar ' .license'
+ oppade över filen ' ' eftersom den redan innehåller  information
+ el:  unde inte skapa kommentar för ' '
+ el:  en genererade kommentarrubriken för ' ' saknar upphovsrättsrader eller licensuttryck.  allen är troligen felaktig.  ågot nytt sidhuvud skrevs inte.
+ idhuvudet i   ändrades
+ lternativet '--copyright', '--license', eller '--contributor' krävs.
+ öljande filer har en filändelse som inte känns igen.  nvänd '--style', '--force-dot-license', '--fallback-dot-license' eller '--skip-unrecognised':
+' ' har inte stöd för kommentarer på en rad, vänligen använd inte '--single-line'.
+' ' har inte stöd för kommentarer över flera rader.  nvänd inte '--multi-line'.
+ allen ' ' kunde inte hittas.
+' ' är inte ett giltigt årsintervall.
+ itt operativsystems årtal är inställt på ' '.  etta är inte fyra siffror och stöds inte.
+ ägg till information om upphovsrätt och licens i filernas sidhuvuden.
+ enom att använda --copyright och --license kan du ange vilka upphovsrättsinnehavare och licenser som ska läggas till i filhuvuden på de givna filerna.
+ enom att använda --contributor kan du ange personer eller enheter som bidragit men inte är upphovsrättsinnehavare till de givna filerna.
+ 
+ pphovsrättsinnehavare, kan anges flera gånger.
+ 
+ licensidentifierare, kan anges flera gånger.
+ 
+ ilbidragsgivare, repeterbar.
+Å 
+Årtal i upphovsrättsmeddelandet.  u kan ange flera årtal eller ett intervall.
+ ommentarstilen att använda.
+ pphovsrättsprefix att använda.
+ 
+ amnet på mallen som ska användas.
+ nge inte årtal i upphovsrättsmeddelandet.
+ ammanfoga upphovsrättsmeddelanden om de är identiska förutom årtalen.
+ vinga fram enradig kommentarsstil.
+ vinga fram flerradig kommentarsstil.
+ ägg till huvuden i alla filer under angivna kataloger rekursivt.
+ rsätt inte den första rubriken i filen; lägg bara till en ny.
+ rsätt befintliga  icense- dentifier-taggar i stället för att lägga till nya.
+ kriv alltid informationen i en .license-fil i stället för i filens sidhuvud.
+ kriv en .license-fil för filer med kommentarstilar som inte känns igen.
+ oppa över filer med kommentarstilar som inte känns igen.
+ oppa över filer som redan innehåller  information.
+ oppa över filer som omfattas av  toml eller .reuse/dep5.
+ oppa över filer som omfattas av  toml eller .reuse/dep5 med en viss prioritetsnivå.  an anges flera gånger.
+ Ö Ä 
+ oppade över filen ' ' eftersom den redan omfattas av ' '
+' ' är en binärfil.  nvänder därför ' ' för sidhuvudet
+ unde inte tolka ' '.  elmeddelande:  
+' ' är ömsesidigt exklusivt med:  
+' ' är inte ett giltigt  uttryck.
+ onvertera .reuse/dep5 till en  toml-fil.  en genererade filen placeras i projektroten och är semantiskt identisk. .reuse/dep5-filen raderas därefter.
+ ngen '.reuse/dep5'-fil.
+' ' är inte en giltig  licensidentifierare.
+ enade du:
+ e   för en lista över giltiga  licensidentifierare.
+ el:   existerar redan.
+ el:   finns inte.
+ el:  ämtningen av licensen misslyckades.
+ ungerar internetanslutningen?
+ ämtningen av   lyckades.
+ ämta en licens och placera den i katalogen  
+  ska vara en giltig  licensidentifierare.  u kan ange   flera gånger för att ladda ner flera licenser.
+ m   börjar med  icense ef- skapas en motsvarande tom fil i katalogen  
+ ämta alla saknade licenser som upptäckts i projektet.
+ ökväg att hämta till.
+ älla från vilken licensfiler ska kopieras; antingen en katalog som innehåller filen eller själva filen.
+ 
+ rgumentet ' ' och alternativet '--all' kan inte användas samtidigt.
+ an inte använda '--output' tillsammans med fler än en licens.
+ int projektkatalogen för  efterlevnad.  en här versionen av verktyget kontrollerar mot version   av  specifikationen.  u hittar den senaste versionen av specifikationen på  .
+ er specifikt kontrolleras följande kriterier:
+-  inns det ogiltiga licenser i projektet (som inte känns igen eller inte följer  )?
+-  inns det några föråldrade licenser i projektet?
+-  inns det licensfiler utan filändelse i katalogen  ?
+-  änvisar projektet till licenser som inte finns i katalogen  ?
+-  inns det oanvända licenser i katalogen  ?
+-  inns det några läsfel?
+-  ar alla filer giltig information om upphovsrätt och licens?
+ örhindra utmatning.
+ ormatera utmatning som  
+ ormatera utmatningen som ren text. (standard)
+ ormatera utmatningen som fel per rad.
+ ontrollera enskilda filer mot  kraven.  e angivna   kontrolleras för upphovsrätts- och licensinformation samt för att se om licenserna finns i katalogen  
+ ormatera utmatningen som fel per rad. (standard)
+ 
+  är inte inuti ' '.
+%(prog)s, version %(version)s
+ etta program är fri programvara: du får sprida det vidare och/eller ändra det enligt villkoren i    eneral  ublic  icense, utgiven av  ree  oftware  oundation, antingen version 3 av licensen eller (om du vill) någon senare version.
+ rogrammet distribueras i hopp om att det ska vara användbart, men    Å   ; inte ens en underförstådd garanti om  Ä  eller  Ä   Ö      Ä Å   er information finns i    eneral  ublic  icense.
+ u bör ha fått en kopia av    eneral  ublic  icense tillsammans med det här programmet.  m inte, se  .
+reuse är ett verktyg för att följa  rekommendationerna.  er information finns på   och i dokumentationen på  .
+ en här versionen av reuse är kompatibel med version   av  specifikationen.
+ töd  s arbete:
+ onationer är avgörande för vår styrka och självständighet.  e gör att vi kan fortsätta arbeta för fri programvara där den behövs. Överväg att skänka ett bidrag på  .
+ ktivera felsökningsmeddelanden.
+ ölj varningar om utfasade funktioner.
+ oppa inte över  it-undermoduler.
+ oppa inte över  eson-underprojekt.
+ nvänd inte parallell bearbetning.
+ nge projektets rotkatalog.
+ kapa en  materialförteckning.
+ il att skriva till.
+ yll i fältet  icense oncluded.  bservera att verktyget reuse inte kan garantera att fältet är korrekt.
+ amn på personen som undertecknar  rapporten.
+ amn på organisationen som undertecknar  rapporten.
+'--creator-person' eller '--creator-organization' krävs när '--add-license-concluded' tillhandahålls.
+' ' matchar inte ett vanligt  filmönster.  itta de föreslagna namngivningskonventionerna här:  
+ ista alla licenser i    icense  ist.
+  måste ha ett värde i  ; det har ' '.  vbryter.
+ ngen modul som stöds och som kan identifiera kodningen av filer kunde importeras.  äs installationsanvisningarna för   paketet, eller prova följande:
+-  m du kör en  inuxdistribution kan du prova motsvarigheten till `apt install file` eller `dnf install file`.
+-  ör `pipx install reuse[charset-normalizer]`.  rsätt 'pipx' med 'pip' om du inte använder pipx.
+' ' identifierades som en binärfil.  nnehållet genomsöks därför inte efter  information.
+ ämtar  information från ' ' (teckenkodning  , kodningsmodul  , radslut  )
+  måste vara en   (fick   som är en  ).
+ bjektet i samlingen   måste vara av typen   (fick   som är av typen  ).
+  får inte vara tomt.
+  måste vara en   (fick   som är en  ).
+ ärdet för 'precedence' måste vara ett av   (fick  )
+ unde inte tolka ' '
+ en genererade kommentaren saknar upphovsrättsrader eller licensuttryck
+   
+ öljande licenser är inte giltiga  licenser:
+ Ö Å   
+ öljande licenser är föråldrade av  
+     Ä 
+ öljande licenser har ingen filändelse:
+   
+' ' hittades i:
+ Ä   
+ öljande licenser används inte:
+ Ä 
+ unde inte läsa:
+   
+' ' innehåller ogiltiga  licensuttryck:
+       Ä     
+ öljande filer saknar information om upphovsrätt och licens:
+ öljande filer saknar upphovsrättsinformation:
+ öljande filer saknar licensinformation:
+ 
+ giltiga licenser:
+ öråldrade licenser:
+ icenser utan filändelse:
+ aknade licenser:
+ använda licenser:
+ nvända licenser:
+ äsfel:
+ giltiga  licensuttryck:
+ iler med upphovsrättsinformation:
+ iler med licensinformation:
+ rojektet följer version   av  specifikationen. :-)
+ rojektet följer tyvärr inte version   av  specifikationen. :-(
+ 
+ icensen ' ' saknas
+läsfel
+ giltigt  licensuttryck ' '
+ icensidentifierare saknas
+ pphovsrättsmeddelande saknas
+ giltig licens ' '
+ öråldrad licens
+licens utan filändelse
+oanvänd licens
+' ' täckt av  
+' ' täcks exklusivt av  toml.  äser inte filinnehållet.
+'.reuse/dep5' är föråldrad.  u rekommenderas att istället använda  toml.  nvänd `reuse convert-dep5` för att konvertera.
+ ittade både ' ' och ' '.  u kan inte spara båda filerna samtidigt; de är inte kompatibla med varandra.
+  har ingen filändelse
+ unde inte matcha  licensidentifieraren för  , matchar till  .  ontrollera att licensen finns i licenslistan som finns på   eller att den börjar med ' icense ef-' och att den har ett filändelse.
+  är  licensidentifieraren för både   och  
+projektet ' ' är inte ett  arkiv eller så är inte nödvändig  programvara installerad
+ unde inte läsa ' '
+ tt oväntat fel inträffade när ' ' skulle tolkas
+Åtgärda felaktiga licenser:  inst en licens i  katalogen och/eller tillhandahållen av taggarna ' icense- dentifier' är ogiltig.  e är antingen inte giltiga  licensidentifierare eller börjar inte med ' icense ef-'.  anliga frågor om anpassade licenser:  
+Åtgärda föråldrade licenser:  inst en av licenserna i  katalogen och/eller som tillhandahålls av en ' icense- dentifier'-tagg eller i '.reuse/dep5' har blivit föråldrad av    en aktuella listan och deras respektive rekommenderade nya identifierare finns här:  
+Åtgärda licenser utan filändelse:  inst en licenstextfil i katalogen ' ' har inte filändelsen '.txt'.  yt namn på filen/filerna därefter.
+Åtgärda saknade licenser:  ör minst en av licensidentifierarna som tillhandahålls av taggarna ' icense- dentifier' finns det ingen motsvarande licenstextfil i katalogen ' '.  ör  licensidentifierare kan du helt enkelt köra 'reuse download --all' för att hämta eventuella saknade.  ör anpassade licenser (som börjar med ' icense ef-') måste du lägga till dessa filer själv.
+Åtgärda oanvända licenser:  inst en av licenstextfilerna i ' ' refereras inte av någon fil, t.ex. av en ' icense- dentifier'-tagg.  e till att du antingen taggar de licensierade filerna korrekt, eller tar bort den oanvända licenstexten om du är säker på att ingen fil eller kodavsnitt är licensierat som sådan.
+Åtgärda läsfel:  inst en av filerna i din katalog kan inte läsas av verktyget.  ontrollera filbehörigheterna.  u hittar de berörda filerna högst upp i utdata som en del av de loggade felmeddelandena.
+Åtgärda ogiltiga  licensuttryck:   en eller flera filer finns det  licensuttryck som inte kan tolkas.  ontrollera om värdet som följer ' icense- dentifier:' är korrekt.  m det upptäckta uttrycket inte är avsett att vara giltigt, placera det mellan kommentarerna ' gnore tart' och ' gnore nd'.
+Åtgärda saknad information om upphovsrätt/licens:  ör en eller flera filer kan verktyget inte hitta information om upphovsrätt och/eller licens.  u gör vanligtvis detta genom att lägga till taggarna ' ile opyright ext' och ' icense- dentifier' till varje fil.  andledningen förklarar ytterligare sätt att göra detta:  
+d
+ :  edigeringen misslyckades
+ :  edigeringen misslyckades:  
+ indows-fel:  
+ öråldrad
+ lternativ
+ ositionsargument
+ väntat extra argument ( )
+ väntade extra argument ( )
+ tfasningsvarning:  ommandot   är föråldrat. 
+ vbruten!
+ ommandon
+ ommando saknas.
+ ärdet måste vara upprepningsbart.
+ ar   värden, men bara 1 angavs.
+ ar   värden, men bara   angavs.
+ tfasningsvarning:     är föråldrad. 
+ amnet ” ” har definierats två gånger
+ et booleska alternativet   kan inte använda samma flagga för sant/falskt.
+ unde inte fastställa namnet för alternativet med deklarationerna  
+ nga alternativ har definierats men ett namn angavs ( ).  enade du att deklarera ett argument i stället?  enade du att ange ”-- ”?
+miljö-var:  
+standard:  
+(dynamiskt)
+ rgument tar exakt en parameterdeklaration, fick  :  .
+ ill du fortsätta?
+ ekräfta åtgärden utan att fråga.
+ isa versionsinformationen och avsluta.
+ isa det här meddelandet och avsluta.
+ enade du  ?
+( enade du något av följande:  ?)
+ el:  
+ rova '   ' för hjälp.
+ giltigt värde:  
+ giltigt värde för  :  
+ rgument saknas
+ lternativ saknas
+ arameter saknas
+ aknas  
+ arameter saknas:  
+ et finns inget alternativ  .
+ nget sådant kommando  .
+okänt fel
+ unde inte öppna filen  :  
+ nvändning:
+ giltigt starttecken för alternativet ( )
+ rgumentet   tar  -värden.
+ lternativet   tar inte emot något värde.
+ lternativet   kräver ett argument.
+ lternativen   kräver   argument.
+ hell-komplettering stöds inte för  ash-versioner äldre än 4.4.
+ unde inte upptäcka  ash-versionen, skalkomplettering stöds inte.
+ pprepa för bekräftelse
+ el:  e två värderna som ifylldes matchar inte.
+ el: ogiltig inmatning
+ känd färg  
+ ryck på en tangent för att fortsätta...
+ älj bland:
+	 
+ ärdet   är inte  .
+ ärdet   är inte något av följande alternativ:  .
+ al( )
+ ärdet   följer inte formatet  .
+ ärdet   följer inte något av formaten  .
+  är inte ett giltigt  .
+  är inte inom intervallet  .
+  är inte ett giltigt booleskt värde.  iltiga värden:  
+  är inte ett giltigt  
+fil
+katalog
+genväg
+    finns inte.
+    är en fil.
+    är en katalog.
+    är inte läsbart.
+    är inte skrivbart.
+    är inte kör-bart.
+ et krävs  -värden, men   angavs.
+ et krävs  -värden, men   angavs.
+ känd standardström ” ”
