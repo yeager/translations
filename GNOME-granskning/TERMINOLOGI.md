@@ -953,3 +953,13 @@ argumentet betyder i just det programmet.
 | patches of fog | dimfläckar | Väderfenomen. |
 | Beaufort force | Beaufortstyrka | Vindstyrka på Beaufortskalan. |
 | retrieval failed | hämtningen misslyckades | Felmeddelande för väderdata. |
+
+## libwnck — fönsterhantering
+
+| Engelska | Svenska | Anmärkning |
+|---|---|---|
+| workspace switcher / pager | arbetsyteväxlare | GNOME-termen för pager. |
+| viewport | visningsområde | Det område som kan visas i en vy; inte synonymt med arbetsyta. |
+| shade a window | rulla ihop ett fönster | Fönsterhanteringsåtgärd. |
+| unshade a window | fälla ut ett fönster | Motsats till att rulla ihop. |
+| sticky window | fönster som visas på alla arbetsytor | Beskriv i användartext; i tillståndsutskrift används kortformen *fäst på alla arbetsytor*. |
