@@ -1,0 +1,25 @@
+{
+  "memory": "yeager/swedish-tm, sv-gnome.po",
+  "lookups": [
+    {
+      "source": "Publisher",
+      "match": "Publicist",
+      "decision": "Rejected: this TM match comes from a general publishing context. The source key is an audio metadata tag; translated as Skivbolag."
+    },
+    {
+      "source": "Compilation",
+      "match": "Kompilering",
+      "decision": "Rejected: the TM match is from Gnumeric documentation. In Ear Tag this is the audio metadata flag for a compilation album; translated as Samlingsalbum."
+    },
+    {
+      "source": "MusicBrainz Artist ID / Album ID / Album Artist ID / Recording ID",
+      "match": "MusicBrainz artist-ID, album-ID, albumartist-ID and track-ID patterns in GNOME TM",
+      "decision": "Used as terminology support. Existing Eartag ID labels were retained where clear; MusicBrainz capitalization was corrected in prose."
+    },
+    {
+      "source": "MusicBrainz confidence / AcoustID confidence",
+      "match": "No exact match",
+      "decision": "Checked against current source code: the percentage is the minimum match score used to accept a result. Translated as matchningssäkerhet."
+    }
+  ]
+}

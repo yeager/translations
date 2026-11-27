@@ -1,0 +1,432 @@
+--- eartag.main.sv.original.po
++++ eartag.main.sv.reviewed.po
+@@ -9,8 +9,8 @@
+ "Project-Id-Version: eartag main\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/eartag/-/issues\n"
+ "POT-Creation-Date: 2026-08-20 16:14+0000\n"
+-"PO-Revision-Date: 2025-08-05 22:41+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-27 12:20+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -44,11 +44,11 @@
+ #. TRANSLATORS: App description.
+ #: data/app.drey.EarTag.desktop.in:4 data/app.drey.EarTag.metainfo.xml.in:6
+ msgid "Edit audio file tags"
+-msgstr "Redigera ljudfilstaggar"
++msgstr "Redigera taggar i ljudfiler"
+ 
+ #: data/app.drey.EarTag.desktop.in:12
+ msgid "music;audio;tag;tagging;tagger;"
+-msgstr "musik;ljud;tagg;taggning;taggare;"
++msgstr "musik;ljud;tagg;taggning;taggredigerare;"
+ 
+ #: data/app.drey.EarTag.metainfo.xml.in:116
+ msgid ""
+@@ -57,10 +57,10 @@
+ "tagging programs, Ear Tag does not require the user to set up a music "
+ "library folder. It can:"
+ msgstr ""
+-"Ear Tag är en enkel ljudfilstaggredigerare. Den är främst tänkt för att göra "
+-"snabba redigeringar eller massredigering av spår på album/EP-skivor. Till "
+-"skillnad från andra taggningsprogram så kräver inte Ear Tag att användaren "
+-"konfigurerar en musikbiblioteksmapp. Den kan:"
++"Ear Tag är ett enkelt program för att redigera taggar i ljudfiler. Det "
++"är främst avsett för snabba ändringar eller massredigering av spår på "
++"album och EP-skivor. Till skillnad från andra taggningsprogram behöver "
++"användaren inte skapa en mapp för ett musikbibliotek. Programmet kan:"
+ 
+ #: data/app.drey.EarTag.metainfo.xml.in:118
+ msgid "Edit tags of MP3, WAV, M4A, FLAC, OGG and WMA files"
+@@ -98,14 +98,14 @@
+ 
+ #: src/window.py:314
+ msgid "No supported files found in opened folder"
+-msgstr "Inga filer som stöds hittade i öppnad mapp"
++msgstr "Inga filer som stöds hittades i den öppnade mappen"
+ 
+ #: src/window.py:321
+ #, python-brace-format
+ msgid "Saved changes to 1 file"
+ msgid_plural "Saved changes to {n} files"
+-msgstr[0] "Sparade ändringar till 1 fil"
+-msgstr[1] "Sparade ändringar till {n} filer"
++msgstr[0] "Sparade ändringar i 1 fil"
++msgstr[1] "Sparade ändringar i {n} filer"
+ 
+ #: src/window.py:330
+ msgid "Some of the opened files are read-only; changes cannot be saved"
+@@ -114,8 +114,7 @@
+ 
+ #: src/window.py:335
+ msgid "Maximum folder depth reached, some files may not be loaded"
+-msgstr ""
+-"Maximalt mappdjup har uppnåtts, vissa filer kommer kanske inte läsas in"
++msgstr "Mappens maximala djup har nåtts, så vissa filer kanske inte läses in"
+ 
+ #: src/window.py:346
+ msgid "Unselect all files"
+@@ -146,7 +145,9 @@
+ 
+ #: src/window.py:527
+ msgid "Some of the opened files have invalid values; cannot save"
+-msgstr "Några av de öppnade filerna har ogiltiga värden. Kan inte spara"
++msgstr ""
++"Några av de öppnade filerna innehåller ogiltiga värden och kan därför "
++"inte sparas"
+ 
+ #: src/window.py:657
+ msgid "No files selected"
+@@ -192,8 +193,8 @@
+ #, python-brace-format
+ msgid "Undid tag removal in 1 file"
+ msgid_plural "Undid tag removal in {n} files"
+-msgstr[0] "Ångrade taggborttagning i 1 fil"
+-msgstr[1] "Ångrade taggborttagning i {n} filer"
++msgstr[0] "Ångrade borttagningen av taggar i 1 fil"
++msgstr[1] "Ångrade borttagningen av taggar i {n} filer"
+ 
+ #: src/ui/window.blp:78
+ msgid "Drop a file to add it to the opened file list"
+@@ -294,7 +295,7 @@
+ 
+ #: src/ui/nofile.blp:47 src/ui/settings.blp:11
+ msgid "When opening a folder, include files from its subfolders"
+-msgstr "När en mapp öppnas, inkludera filer från undermappar"
++msgstr "Inkludera filer från undermappar när en mapp öppnas"
+ 
+ #: src/backends/file.py:61
+ msgid "Length"
+@@ -351,7 +352,7 @@
+ 
+ #: src/backends/file.py:77
+ msgid "Compilation"
+-msgstr "Samling"
++msgstr "Samlingsalbum"
+ 
+ #: src/backends/file.py:78
+ msgid "Composer"
+@@ -384,7 +385,7 @@
+ 
+ #: src/backends/file.py:86
+ msgid "Publisher"
+-msgstr "Förlag"
++msgstr "Skivbolag"
+ 
+ #: src/backends/file.py:88
+ msgid "Language"
+@@ -392,7 +393,7 @@
+ 
+ #: src/backends/file.py:89
+ msgid "Disc subtitle"
+-msgstr "Undertitel för skiva"
++msgstr "Skivans undertitel"
+ 
+ #: src/backends/file.py:90
+ msgid "Website/URL"
+@@ -402,31 +403,31 @@
+ #. software should treat this tag when sorting.
+ #: src/backends/file.py:94
+ msgid "Album artist (sort)"
+-msgstr "Albumartist (sortering)"
++msgstr "Albumartist (sorteringsvärde)"
+ 
+ #. TRANSLATORS: This is a sort tag, as in, a tag that dictates how music
+ #. software should treat this tag when sorting.
+ #: src/backends/file.py:97
+ msgid "Album (sort)"
+-msgstr "Album (sortering)"
++msgstr "Album (sorteringsvärde)"
+ 
+ #. TRANSLATORS: This is a sort tag, as in, a tag that dictates how music
+ #. software should treat this tag when sorting.
+ #: src/backends/file.py:100
+ msgid "Composer (sort)"
+-msgstr "Kompositör (sortering)"
++msgstr "Kompositör (sorteringsvärde)"
+ 
+ #. TRANSLATORS: This is a sort tag, as in, a tag that dictates how music
+ #. software should treat this tag when sorting.
+ #: src/backends/file.py:103
+ msgid "Artist (sort)"
+-msgstr "Artist (sortering)"
++msgstr "Artist (sorteringsvärde)"
+ 
+ #. TRANSLATORS: This is a sort tag, as in, a tag that dictates how music
+ #. software should treat this tag when sorting.
+ #: src/backends/file.py:106
+ msgid "Title (sort)"
+-msgstr "Titel (sortering)"
++msgstr "Titel (sorteringsvärde)"
+ 
+ #: src/backends/file.py:108
+ msgid "MusicBrainz Artist ID"
+@@ -466,20 +467,20 @@
+ 
+ #: src/fileview.py:247
+ msgid "Save Album Cover To…"
+-msgstr "Spara albumomslag till…"
++msgstr "Spara albumomslag som…"
+ 
+ #. TRANSLATORS: {path} is a placeholder for the path.
+ #. **Do not change the text between the curly brackets!**
+ #: src/fileview.py:274
+ #, python-brace-format
+ msgid "Saved cover to {path}"
+-msgstr "Sparade omslag till {path}"
++msgstr "Omslaget sparades som {path}"
+ 
+ #: src/fileview.py:298
+ #, python-brace-format
+ msgid "Removed cover from file"
+ msgid_plural "Removed covers from {n} files"
+-msgstr[0] "Tog bort omslag från fil"
++msgstr[0] "Tog bort omslaget från filen"
+ msgstr[1] "Tog bort omslag från {n} filer"
+ 
+ #: src/fileview.py:411
+@@ -572,7 +573,7 @@
+ 
+ #: src/dialogs.py:115
+ msgid "Failed to Load Files"
+-msgstr "Misslyckades med att läsa in filer"
++msgstr "Det gick inte att läsa in filerna"
+ 
+ #: src/dialogs.py:116
+ msgid "Some files could not be loaded."
+@@ -580,15 +581,15 @@
+ 
+ #: src/dialogs.py:119
+ msgid "Failed to Rename Files"
+-msgstr "Misslyckades med att byta namn på filer"
++msgstr "Det gick inte att byta namn på filerna"
+ 
+ #: src/dialogs.py:120
+ msgid "Some files could not be renamed."
+-msgstr "Kunde inte byta namn på några filer."
++msgstr "Det gick inte att byta namn på några filer."
+ 
+ #: src/dialogs.py:123
+ msgid "Failed to Save Files"
+-msgstr "Misslyckades med att spara filer"
++msgstr "Det gick inte att spara filerna"
+ 
+ #: src/dialogs.py:124
+ msgid "Some files could not be saved."
+@@ -622,7 +623,7 @@
+ #: src/ui/dialogs/closewarning.blp:6 src/ui/dialogs/discardwarning.blp:6
+ #: src/ui/dialogs/removaldiscardwarning.blp:6
+ msgid "If you don't save your changes, they will be permanently lost."
+-msgstr "Om du inte sparar dina ändringar kommer de förloras för alltid."
++msgstr "Om du inte sparar ändringarna går de förlorade."
+ 
+ #: src/ui/dialogs/closewarning.blp:12 src/ui/dialogs/discardwarning.blp:12
+ #: src/ui/dialogs/removaldiscardwarning.blp:12
+@@ -650,13 +651,13 @@
+ 
+ #: src/ui/dialogs/savefailure.blp:5
+ msgid "Failed to Save File"
+-msgstr "Misslyckades med att spara fil"
++msgstr "Det gick inte att spara filen"
+ 
+ #. TRANSLATORS: {f} is a placeholder for the filename.
+ #. **Do not change the letter between the curly brackets!**
+ #: src/ui/dialogs/savefailure.blp:8
+ msgid "Could not save file {f}. Check the logs for more information."
+-msgstr "Kunde inte spara filen {f}. Se loggarna för mer information."
++msgstr "Det gick inte att spara filen {f}. Se loggarna för mer information."
+ 
+ #: src/ui/dialogs/savefailure.blp:14 src/ui/dialogs/loadingfailure.blp:14
+ #: src/ui/dialogs/renamefailure.blp:14
+@@ -665,7 +666,7 @@
+ 
+ #: src/ui/dialogs/loadingfailure.blp:5
+ msgid "Failed to Load File"
+-msgstr "Misslyckades med att läsa in fil"
++msgstr "Det gick inte att läsa in filen"
+ 
+ #. TRANSLATORS: {f} is a placeholder for the filename.
+ #. **Do not change the letter between the curly brackets!**
+@@ -675,7 +676,7 @@
+ 
+ #: src/ui/dialogs/renamefailure.blp:5
+ msgid "Failed to Rename File"
+-msgstr "Misslyckades med att byta namn på fil"
++msgstr "Det gick inte att byta namn på filen"
+ 
+ #. TRANSLATORS: {f} is a placeholder for the filename.
+ #. **Do not change the letter between the curly brackets!**
+@@ -749,7 +750,8 @@
+ #: src/ui/rename.blp:49
+ msgid "Ear Tag needs additional permissions to rename files in-place."
+ msgstr ""
+-"Ear Tag behöver ytterligare rättigheter för att byta namn på filer där de är."
++"Ear Tag behöver ytterligare behörighet för att byta namn på filer på "
++"plats."
+ 
+ #: src/ui/rename.blp:50
+ msgid "Learn More"
+@@ -757,8 +759,7 @@
+ 
+ #: src/ui/rename.blp:59
+ msgid "Failed to rename files. Check the logs for more information."
+-msgstr ""
+-"Misslyckades med att byta namn på filer. Se loggarna för mer information."
++msgstr "Det gick inte att byta namn på filerna. Se loggarna för mer information."
+ 
+ #: src/ui/rename.blp:88 src/ui/extract.blp:66
+ msgid "Preview"
+@@ -770,7 +771,7 @@
+ 
+ #: src/ui/rename.blp:105 src/ui/extract.blp:90
+ msgid "Insert tag placeholder"
+-msgstr "Infoga taggplatshållare"
++msgstr "Infoga platshållare för tagg"
+ 
+ #: src/ui/rename.blp:115
+ msgid "Move to folder"
+@@ -790,9 +791,9 @@
+ "gitlab.gnome.org/World/eartag/-/blob/main/src/backends/README.md#available-"
+ "tags\">list of available tags</a>."
+ msgstr ""
+-"För en lista över tillgängliga platshållare, se <a href=\"https://"
+-"gitlab.gnome.org/World/eartag/-/blob/main/src/backends/README.md#available-"
+-"tags\">listan över tillgängliga taggar</a>."
++"En lista över platshållare för taggar finns i <a "
++"href=\"https://gitlab.gnome.org/World/eartag/-/blob/main/src/backends/README.md#available-tags\">listan "
++"över tillgängliga taggar</a>."
+ 
+ #. TRANSLATORS: {extracted} is a placeholder for the number
+ #. of tracks the tags were succesfully extracted for.
+@@ -815,15 +816,16 @@
+ 
+ #: src/ui/extract.blp:100
+ msgid "Ignore common suffixes"
+-msgstr "Ignorera vanliga ändelser"
++msgstr "Ignorera vanliga suffix"
+ 
+ #: src/ui/extract.blp:101
+ msgid ""
+ "Automatically ignores ID suffixes often found in filenames of downloaded "
+ "files. Disable this option if it interferes with your filenames."
+ msgstr ""
+-"Ignorerar automatiskt ID-ändelser som ofta finns i filnamn för hämtade "
+-"filer. Inaktivera det här alternativet om det stör dina filnamn."
++"Ignorerar automatiskt vanliga ID-suffix i filnamn för hämtade filer. "
++"Stäng av det här alternativet om suffixhanteringen inte fungerar med "
++"dina filnamn."
+ 
+ #: src/ui/previewselectorbutton.blp:4
+ msgid "Select file to preview"
+@@ -865,8 +867,8 @@
+ #, python-brace-format
+ msgid "Applied changes to 1 track"
+ msgid_plural "Applied changes to {n} tracks"
+-msgstr[0] "Tillämpade taggar på 1 spår"
+-msgstr[1] "Tillämpade taggar på {n} spår"
++msgstr[0] "Ändringar tillämpades på 1 spår"
++msgstr[1] "Ändringar tillämpades på {n} spår"
+ 
+ #: src/ui/identify/identify.blp:5
+ msgid "Identify Selected Files"
+@@ -882,13 +884,13 @@
+ "musicbrainz.org\">Musicbrainz</a>. Files without metadata are identified "
+ "using the <a href=\"https://acoustid.org\">AcoustID</a> service."
+ msgstr ""
+-"Spårinformation tillhandahålls av <a href=\"https://"
+-"musicbrainz.org\">Musicbrainz</a>. Filer utan metadata identifieras med <a "
+-"href=\"https://acoustid.org\">AcoustID</a>-tjänsten."
++"Spårinformation tillhandahålls av <a "
++"href=\"https://musicbrainz.org\">MusicBrainz</a>. Filer utan metadata "
++"identifieras med <a href=\"https://acoustid.org\">AcoustID</a>-tjänsten."
+ 
+ #: src/ui/identify/filerow.blp:19 src/ui/identify/recordingrow.blp:28
+ msgid "Set recording manually"
+-msgstr "Ställ in inspelning manuellt"
++msgstr "Ange inspelning manuellt"
+ 
+ #: src/ui/identify/filerow.blp:30 src/ui/identify/recordingrow.blp:39
+ msgid ""
+@@ -896,9 +898,9 @@
+ "a>, then paste the MusicBrainz ID or a link to the MusicBrainz recording "
+ "page here."
+ msgstr ""
+-"Sök efter spåret på <a href=\"https://musicbrainz.org/\">MusicBrainz</a>, "
+-"klistra sedan in MusicBrainz-ID:t eller en länk till MusicBrainz-"
+-"inspelningssidan här."
++"Sök efter spåret på <a href=\"https://musicbrainz.org/\">MusicBrainz</a> "
++"och klistra sedan in MusicBrainz-ID:t eller en länk till sidan för "
++"inspelningen på MusicBrainz här."
+ 
+ #: src/ui/identify/filerow.blp:37 src/ui/identify/recordingrow.blp:46
+ msgid "Recording ID or URL"
+@@ -926,27 +928,27 @@
+ 
+ #: src/ui/settings.blp:19
+ msgid "MusicBrainz confidence treshold"
+-msgstr "MusicBrainz-konfidensgräns"
++msgstr "Lägsta matchningssäkerhet för MusicBrainz"
+ 
+ #: src/ui/settings.blp:20
+ msgid ""
+ "Minimum confidence percentage required for a MusicBrainz search result to be "
+ "evaluated"
+ msgstr ""
+-"Minsta konfidensprocent som krävs för att ett MusicBrainz-sökresultat ska "
+-"utvärderas"
++"Lägsta matchningssäkerhet i procent som krävs för att ett sökresultat "
++"från MusicBrainz ska godtas"
+ 
+ #: src/ui/settings.blp:32
+ msgid "AcoustID confidence treshold"
+-msgstr "AcoustID-konfidensgräns"
++msgstr "Lägsta matchningssäkerhet för AcoustID"
+ 
+ #: src/ui/settings.blp:33
+ msgid ""
+ "Minimum confidence percentage required for an AcoustID lookup result to be "
+ "evaluated"
+ msgstr ""
+-"Minsta konfidensprocent som krävs för att ett AcoustID-uppslagningsresultat "
+-"ska utvärderas"
++"Lägsta matchningssäkerhet i procent som krävs för att en träff från "
++"AcoustID ska godtas"
+ 
+ #: src/ui/settings.blp:45
+ msgid "Downloaded cover art size"
+@@ -958,15 +960,15 @@
+ 
+ #: src/ui/settings.blp:50
+ msgid "250 px"
+-msgstr "250 bildpunkter"
++msgstr "250 px"
+ 
+ #: src/ui/settings.blp:51
+ msgid "500 px"
+-msgstr "500 bildpunkter"
++msgstr "500 px"
+ 
+ #: src/ui/settings.blp:52
+ msgid "1200 px"
+-msgstr "1200 bildpunkter"
++msgstr "1200 px"
+ 
+ #: src/ui/settings.blp:53
+ msgid "Maximum size"
+@@ -1000,12 +1002,12 @@
+ #: src/ui/shortcuts.blp:29
+ msgctxt "shortcut window"
+ msgid "Select previous file in sidebar"
+-msgstr "Välj föregående fil i sidopanel"
++msgstr "Välj föregående fil i sidopanelen"
+ 
+ #: src/ui/shortcuts.blp:34
+ msgctxt "shortcut window"
+ msgid "Select next file in sidebar"
+-msgstr "Välj nästa fil i sidopanel"
++msgstr "Välj nästa fil i sidopanelen"
+ 
+ #: src/ui/shortcuts.blp:39
+ msgctxt "shortcut window"
