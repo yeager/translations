@@ -4,6 +4,7 @@ Färdiggranskade kataloger som laddats upp via API. Uppladdning verifieras mot a
 
 | Modul | Gren | Domän | Ändrade PO-poster | Verifiering |
 |---|---|---|---:|---|
+| donate.gnome.org | main | po | 103 | Uppladdad 19:54 UTC med ”Granskad och klar”; aktivitetssidan, sammanslagen PO och API bekräftar 246/0/0 (åtgärd 1582090). |
 | at-spi2-core | gnome-51 | po | 46 | Uppladdad 13:10 UTC med ”Granskad och klar”; API och aktivitetssidan bekräftar sammanfogad katalog 176/0/0. |
 | telegnome | master | po | 2 | Uppladdad 06:25 UTC med ”Granskad och klar”; aktivitetssidan bekräftar sammanslagning 68/0/0. |
 | fprintd | master | po | 5 | DL API accepterade filen 03:14 UTC med ”Granskad och klar”; aktivitetssidan visar 67/0/0, men varnar att repository-URL inte är skrivbar eftersom översättningen är externt hostad. |
@@ -29,5 +30,5 @@ Färdiggranskade kataloger som laddats upp via API. Uppladdning verifieras mot a
 
 ## Status
 
-- Uppladdade och verifierade händelser: **22**.
+- Uppladdade och verifierade händelser: **23**.
 - Samtliga 21 API-uppladdningar är verifierade på aktivitetssidorna; aktuell sammanslagningsstatistik anges per modul i tabellen.
