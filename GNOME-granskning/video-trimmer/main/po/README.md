@@ -22,5 +22,6 @@ metadataregeln.
 - `hunspell-sv`: tekniska undantag är Flatpak, Identity, ffmpeg-underprocess
   och den korrekta sammansättningen `standardutdatafilens`.
 
-Den granskade filen är komplett och fuzzy-fri. Ingen inskickning till GNOME
-har gjorts i detta steg.
+Den granskade filen är komplett och fuzzy-fri. Uppladdad 2026-11-27 kl. 01:55 UTC med kommentaren ”Granskad och klar”; aktivitetssidan bekräftar sammanslagning 69/0/0.
+
+- Senaste POT hämtades och kontrollerades igen 2026-11-27; SHA-256: `e376ebdf26b5410e2e630ec8c142eab36157be4bf336e4a1c60d2ed637a8c9e0`.
