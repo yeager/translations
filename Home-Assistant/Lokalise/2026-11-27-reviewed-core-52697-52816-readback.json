@@ -1,0 +1,119 @@
+[
+  {
+    "key": "component::water_heater::triggers::operation_mode_changed::description",
+    "key_id": "823059391",
+    "translation_id": "8037414842",
+    "before": "Utlöses när driftläget för en eller flera varmvattenberedare ändras till ett specifikt läge.",
+    "after": "Utlöses när driftläget för en eller flera varmvattenberedare ändras till ett visst läge.",
+    "en": "Triggers when the operation mode of one or more water heaters changes to a specific mode.",
+    "reason": "Rättar grammatik och återger betydelsen tydligare i svensk HA-UI-text; platshållare och format bevaras."
+  },
+  {
+    "key": "component::water_heater::triggers::operation_mode_changed::name",
+    "key_id": "823059396",
+    "translation_id": "8037415162",
+    "before": "Driftläge för varmvattenberedare har ändrats",
+    "after": "Varmvattenberedarens driftläge har ändrats",
+    "en": "Water heater operation mode changed",
+    "reason": "Rättar grammatik och återger betydelsen tydligare i svensk HA-UI-text; platshållare och format bevaras."
+  },
+  {
+    "key": "component::humidifier::triggers::mode_changed::description",
+    "key_id": "823247155",
+    "translation_id": "8040138038",
+    "before": "Utlöses när driftläget för en eller flera luftfuktare förändras.",
+    "after": "Utlöses när driftläget för en eller flera luftfuktare ändras.",
+    "en": "Triggers when the operation mode of one or more humidifiers changes.",
+    "reason": "Rättar grammatik och återger betydelsen tydligare i svensk HA-UI-text; platshållare och format bevaras."
+  },
+  {
+    "key": "component::humidifier::triggers::mode_changed::fields::mode::description",
+    "key_id": "823247158",
+    "translation_id": "8040138230",
+    "before": "De driftlägen att utlösa på.",
+    "after": "Välj vilka driftlägen som ska utlösa automatiseringen.",
+    "en": "The operation modes to trigger on.",
+    "reason": "Rättar grammatik och återger betydelsen tydligare i svensk HA-UI-text; platshållare och format bevaras."
+  },
+  {
+    "key": "component::battery::triggers::level_changed::description",
+    "key_id": "823405910",
+    "translation_id": "8042584865",
+    "before": "Utlöses när batterinivån för ett eller flera batterier förändras.",
+    "after": "Utlöses när batterinivån för ett eller flera batterier ändras.",
+    "en": "Triggers when the battery level of one or more batteries changes.",
+    "reason": "Rättar grammatik och återger betydelsen tydligare i svensk HA-UI-text; platshållare och format bevaras."
+  },
+  {
+    "key": "component::battery::triggers::level_changed::name",
+    "key_id": "823405913",
+    "translation_id": "8042585057",
+    "before": "Batterinivå ändras",
+    "after": "Batterinivån ändras",
+    "en": "Battery level changed",
+    "reason": "Rättar grammatik och återger betydelsen tydligare i svensk HA-UI-text; platshållare och format bevaras."
+  },
+  {
+    "key": "component::battery::triggers::started_charging::description",
+    "key_id": "823405928",
+    "translation_id": "8042586017",
+    "before": "Utlöses när ett eller flera batterier börjar att ladda.",
+    "after": "Utlöses när ett eller flera batterier börjar ladda.",
+    "en": "Triggers when one or more batteries start charging.",
+    "reason": "Rättar grammatik och återger betydelsen tydligare i svensk HA-UI-text; platshållare och format bevaras."
+  },
+  {
+    "key": "component::battery::triggers::started_charging::name",
+    "key_id": "823405931",
+    "translation_id": "8042586209",
+    "before": "Batteri börjar ladda",
+    "after": "Batteriet börjar laddas",
+    "en": "Battery started charging",
+    "reason": "Rättar grammatik och återger betydelsen tydligare i svensk HA-UI-text; platshållare och format bevaras."
+  },
+  {
+    "key": "component::battery::triggers::stopped_charging::description",
+    "key_id": "823405932",
+    "translation_id": "8042586273",
+    "before": "Utlöses när ett eller flera batterier slutar att ladda.",
+    "after": "Utlöses när ett eller flera batterier slutar ladda.",
+    "en": "Triggers when one or more batteries stop charging.",
+    "reason": "Rättar grammatik och återger betydelsen tydligare i svensk HA-UI-text; platshållare och format bevaras."
+  },
+  {
+    "key": "component::battery::triggers::stopped_charging::name",
+    "key_id": "823405935",
+    "translation_id": "8042586465",
+    "before": "Batteri slutar ladda",
+    "after": "Batteriet slutar laddas",
+    "en": "Battery stopped charging",
+    "reason": "Rättar grammatik och återger betydelsen tydligare i svensk HA-UI-text; platshållare och format bevaras."
+  },
+  {
+    "key": "component::tplink_lte::issues::integration_removed::description",
+    "key_id": "823722804",
+    "translation_id": "8045920003",
+    "before": "TP-Link LTE-integrationen har tagits bort från Home Assistant.\n\nIntegrationen har inte fungerat sedan Home Assistant 2023.6.0, har ingen underhållare och dess underliggande bibliotek är beroende av ett paket med en [kritisk säkerhetsbrist]({ghsa_url}).\n\nFör att lösa problemet tar du bort `tplink_lte`-konfigurationen från din `configuration.yaml`-fil och starta om Home Assistant.",
+    "after": "TP-Link LTE-integrationen har tagits bort från Home Assistant.\n\nIntegrationen har inte fungerat sedan Home Assistant 2023.6.0 och saknar underhållare. Den använder dessutom ett underliggande bibliotek som är beroende av ett paket med en [kritisk säkerhetssårbarhet]({ghsa_url}).\n\nTa bort `tplink_lte`-konfigurationen från din `configuration.yaml`-fil och starta om Home Assistant för att lösa problemet.",
+    "en": "The TP-Link LTE integration has been removed from Home Assistant.\n\nThe integration has not been working since Home Assistant 2023.6.0, has no maintainer, and its underlying library depends on a package with a [critical security vulnerability]({ghsa_url}).\n\nTo resolve this issue, remove the `tplink_lte` configuration from your `configuration.yaml` file and restart Home Assistant.",
+    "reason": "Rättar grammatik och återger betydelsen tydligare i svensk HA-UI-text; platshållare och format bevaras."
+  },
+  {
+    "key": "component::valve::conditions::is_closed::name",
+    "key_id": "823976278",
+    "translation_id": "8051432705",
+    "before": "Ventil är stängd",
+    "after": "Ventilen är stängd",
+    "en": "Valve is closed",
+    "reason": "Rättar grammatik och återger betydelsen tydligare i svensk HA-UI-text; platshållare och format bevaras."
+  },
+  {
+    "key": "component::water_heater::triggers::operation_mode_changed::fields::operation_mode::description",
+    "key_id": "823059394",
+    "translation_id": "8037415034",
+    "before": "De driftlägen som ska utlösa automatiseringen.",
+    "after": "Välj vilka driftlägen som ska utlösa automatiseringen.",
+    "en": "The operation modes to trigger on.",
+    "reason": "Rättar grammatik och återger betydelsen tydligare i svensk HA-UI-text; platshållare och format bevaras."
+  }
+]

@@ -1064,3 +1064,12 @@ Senaste granskade position: **52,576** av 77 656. Nästa position: **52,577**; *
 ## Aktuell status – 2026-11-27
 
 Senaste granskade position: **52 696** av 77 656. Nästa position: **52 697**; **24 960 positioner återstår**. 77 636 aktiva nycklar i totalomfånget. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+
+
+### Batch: 52 697–52 816
+
+120 positioner granskades: 50 direkta strängar, 19 alias och 51 tidigare dokumenterade, källfrånvarande nycklar. Tretton språkliga och grammatiska korrigeringar sparades och API-lästes tillbaka, bland annat retroaktiva rättelser av batteri-/luftfuktartermer och ett borttagningsmeddelande. Alla 19 alias och platshållare för 69 aktuella poster matchar. TMX validerar med 35 748 poster (35 517 Lokalise-ID, 231 historiska). Se `2026-11-27-reviewed-core-52697-52816.md`.
+
+## Aktuell status – 2026-11-27
+
+Senaste granskade position: **52 816** av 77 656. Nästa position: **52 817**; **24 840 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
