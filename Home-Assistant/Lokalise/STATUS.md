@@ -2255,3 +2255,11 @@ Senaste granskade position: **55 816** av 77 656. Nästa position: **55 817**; *
 ## Sekventiell granskningsmarkör – 2026-11-27
 
 Senaste granskade position: **55 936** av 77 656. Nästa position: **55 937**; **21 720 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+
+### Batch: 55 937–56 056
+
+120 positioner radgranskades: 53 direkta aktuella strängar, 59 referenser (29 unika mål) och åtta tidigare dokumenterade källfrånvarande nycklar. 25 rättelser sparades och API-lästes tillbaka. Alla referensmål matchar; platshållare 120/120, inga pluralnycklar. `svlang` hittade inga skrivregelfel; Hunspell-flaggor var produktnamn, platshållare eller tekniska förkortningar. TMX validerar med 35 753 poster (35 522 Lokalise-ID, 231 historiska). Liveverifiering passerade för samtliga 112 aktuella manifestposter.
+
+## Sekventiell granskningsmarkör – 2026-11-27
+
+Senaste granskade position: **56 056** av 77 656. Nästa position: **56 057**; **21 600 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
