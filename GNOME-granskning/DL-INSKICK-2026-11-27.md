@@ -4,6 +4,7 @@ Färdiggranskade kataloger som laddats upp via API. Uppladdning verifieras mot a
 
 | Modul | Gren | Domän | Ändrade PO-poster | Verifiering |
 |---|---|---|---:|---|
+| gnome-firmware | master | po | 50 | Uppladdad 20:47 UTC med ”Granskad och klar”; aktivitet 1582099 bekräftar sammanslagning 269/0/0 och kommentaren. Sammanslagen PO matchar granskad fil; statistikpanelen visar ännu 263/1/5. |
 | highscore | main | po | 211 | Uppladdad 20:24 UTC med ”Granskad och klar”; aktivitetsida och merged PO bekräftar 735/0/0 (åtgärd 1582097). Statistikpanelen visar ännu 655/56/24. |
 | Crosswords | main | po | 146 | Uppladdad 20:14 UTC med ”Granskad och klar”; aktivitetssida och sammanslagen PO bekräftar 653/0/0 (åtgärd 1582095). Statistikpanelen visar ännu 504/90/59. |
 | shotwell | master | po | 116 | Uppladdad 20:04 UTC med ”Granskad och klar”; aktivitetssida och sammanslagen PO bekräftar 1 254/0/0 (åtgärd 1582092). API-statistiken visar ännu 1 245/6/3. |
@@ -33,5 +34,5 @@ Färdiggranskade kataloger som laddats upp via API. Uppladdning verifieras mot a
 
 ## Status
 
-- Uppladdade och verifierade händelser: **26**.
-- Samtliga 21 API-uppladdningar är verifierade på aktivitetssidorna; aktuell sammanslagningsstatistik anges per modul i tabellen.
+- Uppladdade och verifierade händelser: **27**.
+- Samtliga 22 API-uppladdningar är verifierade på aktivitetssidorna; aktuell sammanslagningsstatistik anges per modul i tabellen.
