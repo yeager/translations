@@ -2314,7 +2314,7 @@ Senaste granskade position: **56 656** av 77 656. Nästa position: **56 657**; *
 
 ## Sekventiell granskningsmarkör – 2026-11-27
 
-Senaste granskade position: **57 136** av 77 656. Nästa position: **57 137**; **20 520 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+Senaste granskade position: **57 256** av 77 656. Nästa position: **57 257**; **20 400 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
 
 
 ### Batch: 56 777–56 896
@@ -2323,7 +2323,7 @@ Senaste granskade position: **57 136** av 77 656. Nästa position: **57 137**; *
 
 ## Sekventiell granskningsmarkör – 2026-11-27
 
-Senaste granskade position: **57 136** av 77 656. Nästa position: **57 137**; **20 520 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+Senaste granskade position: **57 256** av 77 656. Nästa position: **57 257**; **20 400 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
 
 ### Batch: 56,897–57,016
 
@@ -2331,7 +2331,7 @@ Senaste granskade position: **57 136** av 77 656. Nästa position: **57 137**; *
 
 ## Sekventiell granskningsmarkör – 2026-11-27
 
-Senaste granskade position: **57 136** av 77 656. Nästa position: **57 137**; **20 520 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+Senaste granskade position: **57 256** av 77 656. Nästa position: **57 257**; **20 400 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
 
 ### Batch: 57,017–57,136
 
@@ -2339,4 +2339,12 @@ Senaste granskade position: **57 136** av 77 656. Nästa position: **57 137**; *
 
 ## Sekventiell granskningsmarkör – 2026-11-27
 
-Senaste granskade position: **57 136** av 77 656. Nästa position: **57 137**; **20 520 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+Senaste granskade position: **57 256** av 77 656. Nästa position: **57 257**; **20 400 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+
+### Batch: 57,137–57,256
+
+120 positioner radgranskades: 77 direkta aktuella strängar, 42 referenser och en tidigare dokumenterad nyckel utan aktuell källväg. 29 direkta ändringar och två delade Victron-referensägare sparades och API-lästes tillbaka. Tre äldre förslag var redan korrekt sparade. Alla referenser matchar, platshållare 120/120, inga pluralnycklar. `svlang` hittade inga skrivregelfel. TMX validerar med 35 753 poster; manifestet innehåller 119 aktiva poster.
+
+## Sekventiell granskningsmarkör – 2026-11-27
+
+Senaste granskade position: **57 256** av 77 656. Nästa position: **57 257**; **20 400 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
