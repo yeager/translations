@@ -940,3 +940,16 @@ argumentet betyder i just det programmet.
 | storage pool | lagringspool | Libvirt-term. |
 | credentials | inloggningsuppgifter | Användarnamn och lösenord. |
 | display view | skärmvy | Etikett för en vy i Boxes. |
+
+## libgweather — väder och vind
+
+| Engelska | Svenska | Anmärkning |
+|---|---|---|
+| north-northeast | nordnordost | Svenskt väderstreck; använd sammansättning utan bindestreck. |
+| east-northeast | ostnordost | Svenskt väderstreck. |
+| overcast | mulet | Väderförhållande. |
+| hailstorm | hagelstorm | Nederbördsfenomen. |
+| shallow fog | grund dimma | Väderfenomen. |
+| patches of fog | dimfläckar | Väderfenomen. |
+| Beaufort force | Beaufortstyrka | Vindstyrka på Beaufortskalan. |
+| retrieval failed | hämtningen misslyckades | Felmeddelande för väderdata. |

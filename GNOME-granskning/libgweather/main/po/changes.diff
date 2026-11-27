@@ -1,0 +1,596 @@
+--- original.sv.po
++++ reviewed.sv.po
+@@ -14,8 +14,8 @@
+ "Project-Id-Version: libgweather\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libgweather/issues/\n"
+ "POT-Creation-Date: 2025-09-21 13:57+0000\n"
+-"PO-Revision-Date: 2021-11-06 12:23+0100\n"
+-"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
++"PO-Revision-Date: 2026-11-27 19:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -34,7 +34,7 @@
+ 
+ #: libgweather/gweather-info.c:109
+ msgid "north — northeast"
+-msgstr "nord-nordost"
++msgstr "nordnordost"
+ 
+ #: libgweather/gweather-info.c:109
+ msgid "northeast"
+@@ -42,7 +42,7 @@
+ 
+ #: libgweather/gweather-info.c:109
+ msgid "east — northeast"
+-msgstr "ost-nordost"
++msgstr "ostnordost"
+ 
+ #: libgweather/gweather-info.c:110
+ msgid "east"
+@@ -50,7 +50,7 @@
+ 
+ #: libgweather/gweather-info.c:110
+ msgid "east — southeast"
+-msgstr "ost-sydost"
++msgstr "ostsydost"
+ 
+ #: libgweather/gweather-info.c:110
+ msgid "southeast"
+@@ -58,7 +58,7 @@
+ 
+ #: libgweather/gweather-info.c:110
+ msgid "south — southeast"
+-msgstr "syd-sydost"
++msgstr "sydsydost"
+ 
+ #: libgweather/gweather-info.c:111
+ msgid "south"
+@@ -66,7 +66,7 @@
+ 
+ #: libgweather/gweather-info.c:111
+ msgid "south — southwest"
+-msgstr "syd-sydväst"
++msgstr "sydsydväst"
+ 
+ #: libgweather/gweather-info.c:111
+ msgid "southwest"
+@@ -74,7 +74,7 @@
+ 
+ #: libgweather/gweather-info.c:111
+ msgid "west — southwest"
+-msgstr "väst-sydväst"
++msgstr "västsydväst"
+ 
+ #: libgweather/gweather-info.c:112
+ msgid "west"
+@@ -82,7 +82,7 @@
+ 
+ #: libgweather/gweather-info.c:112
+ msgid "west — northwest"
+-msgstr "väst-nordväst"
++msgstr "västnordväst"
+ 
+ #: libgweather/gweather-info.c:112
+ msgid "northwest"
+@@ -90,7 +90,7 @@
+ 
+ #: libgweather/gweather-info.c:112
+ msgid "north — northwest"
+-msgstr "nord-nordväst"
++msgstr "nordnordväst"
+ 
+ #: libgweather/gweather-info.c:116
+ msgid "Variable"
+@@ -102,7 +102,7 @@
+ 
+ #: libgweather/gweather-info.c:117
+ msgid "North — Northeast"
+-msgstr "Nord-nordost"
++msgstr "Nordnordost"
+ 
+ #: libgweather/gweather-info.c:117
+ msgid "Northeast"
+@@ -110,7 +110,7 @@
+ 
+ #: libgweather/gweather-info.c:117
+ msgid "East — Northeast"
+-msgstr "Ost-nordost"
++msgstr "Ostnordost"
+ 
+ #: libgweather/gweather-info.c:118
+ msgid "East"
+@@ -118,7 +118,7 @@
+ 
+ #: libgweather/gweather-info.c:118
+ msgid "East — Southeast"
+-msgstr "Ost-sydost"
++msgstr "Ostsydost"
+ 
+ #: libgweather/gweather-info.c:118
+ msgid "Southeast"
+@@ -126,7 +126,7 @@
+ 
+ #: libgweather/gweather-info.c:118
+ msgid "South — Southeast"
+-msgstr "Syd-sydost"
++msgstr "Sydsydost"
+ 
+ #: libgweather/gweather-info.c:119
+ msgid "South"
+@@ -134,7 +134,7 @@
+ 
+ #: libgweather/gweather-info.c:119
+ msgid "South — Southwest"
+-msgstr "Syd-sydväst"
++msgstr "Sydsydväst"
+ 
+ #: libgweather/gweather-info.c:119
+ msgid "Southwest"
+@@ -142,7 +142,7 @@
+ 
+ #: libgweather/gweather-info.c:119
+ msgid "West — Southwest"
+-msgstr "Väst-sydväst"
++msgstr "Västsydväst"
+ 
+ #: libgweather/gweather-info.c:120
+ msgid "West"
+@@ -150,7 +150,7 @@
+ 
+ #: libgweather/gweather-info.c:120
+ msgid "West — Northwest"
+-msgstr "Väst-nordväst"
++msgstr "Västnordväst"
+ 
+ #: libgweather/gweather-info.c:120
+ msgid "Northwest"
+@@ -158,7 +158,7 @@
+ 
+ #: libgweather/gweather-info.c:120
+ msgid "North — Northwest"
+-msgstr "Nord-nordväst"
++msgstr "Nordnordväst"
+ 
+ #: libgweather/gweather-info.c:131
+ msgctxt "wind direction"
+@@ -188,7 +188,7 @@
+ 
+ #: libgweather/gweather-info.c:149
+ msgid "overcast"
+-msgstr "heltäckande moln"
++msgstr "mulet"
+ 
+ #: libgweather/gweather-info.c:153
+ msgid "Clear sky"
+@@ -208,7 +208,7 @@
+ 
+ #: libgweather/gweather-info.c:157
+ msgid "Overcast"
+-msgstr "Heltäckande moln"
++msgstr "Mulet"
+ 
+ #: libgweather/gweather-info.c:173 libgweather/gweather-info.c:290
+ msgctxt "sky conditions"
+@@ -297,7 +297,7 @@
+ 
+ #: libgweather/gweather-info.c:211
+ msgid "blowing snowfall"
+-msgstr "högt snödrev"
++msgstr "snö som driver högt upp"
+ 
+ #: libgweather/gweather-info.c:211
+ msgid "snow showers"
+@@ -305,7 +305,7 @@
+ 
+ #: libgweather/gweather-info.c:211
+ msgid "drifting snow"
+-msgstr "lågt snödrev"
++msgstr "snö som driver nära marken"
+ 
+ #. SNOW_GRAINS
+ #: libgweather/gweather-info.c:212
+@@ -336,7 +336,7 @@
+ 
+ #: libgweather/gweather-info.c:214
+ msgid "little sleet"
+-msgstr "lite snöblandat regn"
++msgstr "lätt snöblandat regn"
+ 
+ #: libgweather/gweather-info.c:214
+ msgid "moderate sleet"
+@@ -352,7 +352,7 @@
+ 
+ #: libgweather/gweather-info.c:214
+ msgid "showers of sleet"
+-msgstr "skurar med snöblandat regn"
++msgstr "skurar av snöblandat regn"
+ 
+ #. HAIL
+ #: libgweather/gweather-info.c:215
+@@ -361,7 +361,7 @@
+ 
+ #: libgweather/gweather-info.c:215
+ msgid "hailstorm"
+-msgstr "hagelby"
++msgstr "hagelstorm"
+ 
+ #: libgweather/gweather-info.c:215
+ msgid "hail showers"
+@@ -374,11 +374,11 @@
+ 
+ #: libgweather/gweather-info.c:216
+ msgid "small hailstorm"
+-msgstr "lätt småhagelby"
++msgstr "storm med småhagel"
+ 
+ #: libgweather/gweather-info.c:216
+ msgid "showers of small hail"
+-msgstr "skurar med småhagel"
++msgstr "skurar av småhagel"
+ 
+ #. PRECIPITATION
+ #: libgweather/gweather-info.c:217
+@@ -401,15 +401,15 @@
+ 
+ #: libgweather/gweather-info.c:219
+ msgid "shallow fog"
+-msgstr "låga bankar med dimma"
++msgstr "grund dimma"
+ 
+ #: libgweather/gweather-info.c:219
+ msgid "patches of fog"
+-msgstr "höga bankar med dimma"
++msgstr "dimfläckar"
+ 
+ #: libgweather/gweather-info.c:219
+ msgid "partial fog"
+-msgstr "partiella bankar med dimma"
++msgstr "delvis dimma"
+ 
+ #: libgweather/gweather-info.c:219
+ msgid "freezing fog"
+@@ -432,11 +432,11 @@
+ 
+ #: libgweather/gweather-info.c:222
+ msgid "blowing sand"
+-msgstr "högt sanddrev"
++msgstr "sand som yr högt upp"
+ 
+ #: libgweather/gweather-info.c:222
+ msgid "drifting sand"
+-msgstr "lågt sanddrev"
++msgstr "sand som driver nära marken"
+ 
+ #. HAZE
+ #: libgweather/gweather-info.c:223
+@@ -446,7 +446,7 @@
+ #. SPRAY
+ #: libgweather/gweather-info.c:224
+ msgid "blowing sprays"
+-msgstr "högt drev med vattendroppar i luften"
++msgstr "vinddrivet havsstänk"
+ 
+ #. DUST
+ #: libgweather/gweather-info.c:225
+@@ -455,11 +455,11 @@
+ 
+ #: libgweather/gweather-info.c:225
+ msgid "blowing dust"
+-msgstr "högt stoftdrev"
++msgstr "stoft som yr högt upp"
+ 
+ #: libgweather/gweather-info.c:225
+ msgid "drifting dust"
+-msgstr "lågt stoftdrev"
++msgstr "stoft som driver nära marken"
+ 
+ #. SQUALL
+ #: libgweather/gweather-info.c:226
+@@ -588,7 +588,7 @@
+ 
+ #: libgweather/gweather-info.c:247
+ msgid "Blowing snowfall"
+-msgstr "Högt snödrev"
++msgstr "Snö som driver högt upp"
+ 
+ #: libgweather/gweather-info.c:247
+ msgid "Snow showers"
+@@ -596,7 +596,7 @@
+ 
+ #: libgweather/gweather-info.c:247
+ msgid "Drifting snow"
+-msgstr "Lågt snödrev"
++msgstr "Snö som driver nära marken"
+ 
+ #. SNOW_GRAINS
+ #: libgweather/gweather-info.c:248
+@@ -627,7 +627,7 @@
+ 
+ #: libgweather/gweather-info.c:250
+ msgid "Little sleet"
+-msgstr "Lite snöblandat regn"
++msgstr "Lätt snöblandat regn"
+ 
+ #: libgweather/gweather-info.c:250
+ msgid "Moderate sleet"
+@@ -643,7 +643,7 @@
+ 
+ #: libgweather/gweather-info.c:250
+ msgid "Showers of sleet"
+-msgstr "Skurar med snöblandat regn"
++msgstr "Skurar av snöblandat regn"
+ 
+ #. HAIL
+ #: libgweather/gweather-info.c:251
+@@ -652,7 +652,7 @@
+ 
+ #: libgweather/gweather-info.c:251
+ msgid "Hailstorm"
+-msgstr "Hagelby"
++msgstr "Hagelstorm"
+ 
+ #: libgweather/gweather-info.c:251
+ msgid "Hail showers"
+@@ -665,11 +665,11 @@
+ 
+ #: libgweather/gweather-info.c:252
+ msgid "Small hailstorm"
+-msgstr "Lätt småhagelby"
++msgstr "Storm med småhagel"
+ 
+ #: libgweather/gweather-info.c:252
+ msgid "Showers of small hail"
+-msgstr "Skurar med småhagel"
++msgstr "Skurar av småhagel"
+ 
+ #. PRECIPITATION
+ #: libgweather/gweather-info.c:253
+@@ -692,15 +692,15 @@
+ 
+ #: libgweather/gweather-info.c:255
+ msgid "Shallow fog"
+-msgstr "Låga bankar med dimma"
++msgstr "Grund dimma"
+ 
+ #: libgweather/gweather-info.c:255
+ msgid "Patches of fog"
+-msgstr "Höga bankar med dimma"
++msgstr "Dimfläckar"
+ 
+ #: libgweather/gweather-info.c:255
+ msgid "Partial fog"
+-msgstr "Partiella bankar med dimma"
++msgstr "Delvis dimma"
+ 
+ #: libgweather/gweather-info.c:255
+ msgid "Freezing fog"
+@@ -723,11 +723,11 @@
+ 
+ #: libgweather/gweather-info.c:258
+ msgid "Blowing sand"
+-msgstr "Högt sanddrev"
++msgstr "Sand som yr högt upp"
+ 
+ #: libgweather/gweather-info.c:258
+ msgid "Drifting sand"
+-msgstr "Lågt sanddrev"
++msgstr "Sand som driver nära marken"
+ 
+ #. HAZE
+ #: libgweather/gweather-info.c:259
+@@ -737,7 +737,7 @@
+ #. SPRAY
+ #: libgweather/gweather-info.c:260
+ msgid "Blowing sprays"
+-msgstr "Högt drev med vattendroppar i luften"
++msgstr "Vinddrivet havsstänk"
+ 
+ #. DUST
+ #: libgweather/gweather-info.c:261
+@@ -746,11 +746,11 @@
+ 
+ #: libgweather/gweather-info.c:261
+ msgid "Blowing dust"
+-msgstr "Högt stoftdrev"
++msgstr "Stoft som yr högt upp"
+ 
+ #: libgweather/gweather-info.c:261
+ msgid "Drifting dust"
+-msgstr "Lågt stoftdrev"
++msgstr "Stoft som driver nära marken"
+ 
+ #. SQUALL
+ #: libgweather/gweather-info.c:262
+@@ -820,7 +820,6 @@
+ #. * want inches, otherwise translate to default:mm.
+ #. * Do *not* translate it to "predefinito:mm", if it
+ #. * it isn't default:mm or default:inch it will not work
+-#.
+ #: libgweather/gweather-info.c:864
+ msgid "default:mm"
+ msgstr "default:mm"
+@@ -828,7 +827,6 @@
+ #. TRANSLATOR: This is the temperature in degrees Fahrenheit
+ #. * with a non-break space (U+00A0) between the digits and the
+ #. * degrees sign (U+00B0), followed by the letter F
+-#.
+ #: libgweather/gweather-info.c:911
+ #, c-format
+ msgid "%.1f °F"
+@@ -837,7 +835,6 @@
+ #. TRANSLATOR: This is the temperature in degrees Fahrenheit
+ #. * with a non-break space (U+00A0) between the digits and the
+ #. * degrees sign (U+00B0), followed by the letter F
+-#.
+ #: libgweather/gweather-info.c:917
+ #, c-format
+ msgid "%d °F"
+@@ -846,7 +843,6 @@
+ #. TRANSLATOR: This is the temperature in degrees Celsius
+ #. * with a non-break space (U+00A0) between the digits and
+ #. * the degrees sign (U+00B0), followed by the letter C
+-#.
+ #: libgweather/gweather-info.c:926
+ #, c-format
+ msgid "%.1f °C"
+@@ -855,7 +851,6 @@
+ #. TRANSLATOR: This is the temperature in degrees Celsius
+ #. * with a non-break space (U+00A0) between the digits and
+ #. * the degrees sign (U+00B0), followed by the letter C
+-#.
+ #: libgweather/gweather-info.c:932
+ #, c-format
+ msgid "%d °C"
+@@ -864,7 +859,6 @@
+ #. TRANSLATOR: This is the temperature in kelvin (U+212A KELVIN SIGN)
+ #. * with a non-break space (U+00A0) between the digits and the degrees
+ #. * sign
+-#.
+ #: libgweather/gweather-info.c:941
+ #, c-format
+ msgid "%.1f K"
+@@ -873,7 +867,6 @@
+ #. TRANSLATOR: This is the temperature in kelvin (U+212A KELVIN SIGN)
+ #. * with a non-break space (U+00A0) between the digits and the degrees
+ #. * sign
+-#.
+ #: libgweather/gweather-info.c:947
+ #, c-format
+ msgid "%d K"
+@@ -927,11 +920,10 @@
+ 
+ #. TRANSLATOR: This is the wind speed as a Beaufort force factor
+ #. * (commonly used in nautical wind estimation).
+-#.
+ #: libgweather/gweather-info.c:1092
+ #, c-format
+ msgid "Beaufort force %.1f"
+-msgstr "Beaufort-kraft %.1f"
++msgstr "Beaufortstyrka %.1f"
+ 
+ #: libgweather/gweather-info.c:1109
+ msgctxt "wind speed"
+@@ -970,10 +962,9 @@
+ 
+ #. TRANSLATOR: This is the wind speed as a Beaufort force factor
+ #. * (commonly used in nautical wind estimation).
+-#.
+ #: libgweather/gweather-info.c:1154
+ msgid "Beaufort force"
+-msgstr "Beaufort-kraft"
++msgstr "Beaufortstyrka"
+ 
+ #: libgweather/gweather-info.c:1187
+ msgctxt "pressure"
+@@ -1045,7 +1036,7 @@
+ 
+ #: libgweather/gweather-info.c:1376
+ msgid "Retrieval failed"
+-msgstr "Mottagning misslyckades"
++msgstr "Hämtningen misslyckades"
+ 
+ #: libgweather/weather-owm.c:384
+ msgid ""
+@@ -1058,9 +1049,7 @@
+ #. The new (documented but not advertised) API is less strict in the
+ #. format of the attribution, and just requires a generic CC-BY compatible
+ #. attribution with a link to their service.
+-#.
+ #. That's very nice of them!
+-#.
+ #: libgweather/weather-metno.c:374
+ msgid ""
+ "Weather data from the <a href=\"https://www.met.no/\">Norwegian "
+@@ -1075,8 +1064,8 @@
+ 
+ #: schemas/org.gnome.GWeather4.gschema.xml:6
+ msgid ""
+-"The unit of temperature used for showing weather. Valid values are “kelvin”, "
+-"“centigrade” and “fahrenheit”."
++"The unit of temperature used for showing weather. Valid values are “kelvin”,"
++" “centigrade” and “fahrenheit”."
+ msgstr ""
+ "Enheten för temperatur som används för att visa väder. Giltiga värden är "
+ "”kelvin”, ”centigrade” och ”fahrenheit”."
+@@ -1087,12 +1076,12 @@
+ 
+ #: schemas/org.gnome.GWeather4.gschema.xml:14
+ msgid ""
+-"The unit of distance used for showing weather (for example for visibility or "
+-"for distance of important events). Valid values are “meters”, “km” and "
++"The unit of distance used for showing weather (for example for visibility or"
++" for distance of important events). Valid values are “meters”, “km” and "
+ "“miles”."
+ msgstr ""
+-"Enheten för avstånd som används för att visa väder (till exempel för sikt "
+-"eller för avstånd för viktiga händelser). Giltiga värden är ”meters”, ”km” "
++"Enheten för avstånd som används i väderinformationen, till exempel för sikt "
++"eller avstånd till viktiga väderhändelser. Giltiga värden är ”meters”, ”km” "
+ "och ”miles”."
+ 
+ #: schemas/org.gnome.GWeather4.gschema.xml:21
+@@ -1105,10 +1094,10 @@
+ "Valid values are “ms” (meters per second), “kph” (kilometers per hour), "
+ "“mph” (miles per hour), “knots” and “bft” (Beaufort scale)."
+ msgstr ""
+-"Enheten för hastighet som används för att visa väder (till exempel för "
+-"vindhastighet). Giltiga värden är ”ms” (meter per sekund), ”kph” (kilometer "
+-"per timme), ”mph” (engelska miles per timme), ”knots” (knop) och ”bft” "
+-"(Beaufort-skala)."
++"Enheten för hastighet som används i väderinformationen, till exempel "
++"vindhastighet. Giltiga värden är ”ms” (meter per sekund), ”kph” (kilometer "
++"per timme), ”mph” (engelska mil per timme), ”knots” (knop) och ”bft” "
++"(Beaufortskalan)."
+ 
+ #: schemas/org.gnome.GWeather4.gschema.xml:30
+ msgid "Pressure unit"
+@@ -1117,18 +1106,20 @@
+ #: schemas/org.gnome.GWeather4.gschema.xml:31
+ msgid ""
+ "The unit of pressure used for showing weather. Valid values are “kpa” "
+-"(kilopascal), “hpa” (hectopascal), “mb” (millibar, mathematically equivalent "
+-"to 1 hPa but shown differently), “mm-hg” (millimeters of mercury), “inch-hg” "
+-"(inches of mercury), “atm” (atmospheres)."
++"(kilopascal), “hpa” (hectopascal), “mb” (millibar, mathematically equivalent"
++" to 1 hPa but shown differently), “mm-hg” (millimeters of mercury), “inch-"
++"hg” (inches of mercury), “atm” (atmospheres)."
+ msgstr ""
+-"Enheten för lufttryck som används för att visa väder. Giltiga värden är "
++"Enheten för lufttryck som används i väderinformationen. Giltiga värden är "
+ "”kpa” (kilopascal), ”hpa” (hektopascal), ”mb” (millibar, matematiskt "
+-"likvärdig med 1 hPa men visas annorlunda), ”mm-hg” (millimeter kvicksilver), "
+-"”inch-hg” (tum av kvicksilver), ”atm” (atmosfärer)."
++"likvärdigt med 1 hPa men visas annorlunda), ”mm-hg” (millimeter "
++"kvicksilver), ”inch-hg” (tum kvicksilver) och ”atm” (atmosfärer)."
+ 
+ # ESSA = Arlanda airport
+-#. TRANSLATORS: pick a default location to use in the weather applet. This should
+-#. usually be the largest city or the capital of your country. If you're not picking
++#. TRANSLATORS: pick a default location to use in the weather applet. This
++#. should
++#. usually be the largest city or the capital of your country. If you're not
++#. picking
+ #. a <location> in the database, don't forget to set name and coordinates.
+ #. Do NOT change or localize the quotation marks!
+ #: schemas/org.gnome.GWeather4.gschema.xml:43
+@@ -1149,12 +1140,12 @@
+ "taken from the database. This is only used for sunrise and moon phase "
+ "calculations, not for weather forecast."
+ msgstr ""
+-"Standardplatsen för väderminiprogrammet. Första fältet är namnet som ska "
+-"visas. Om tom kommer den att tas från platsdatabasen. Det andra fältet är "
+-"METAR-koden för standardväderstationen. Det får inte vara tomt och måste "
+-"motsvara en <code>-tagg i filen Locations.xml. Det tredje fältet är en tupel "
+-"av (latitud, longitud), för att åsidosätta värdet som tas från databasen. "
+-"Detta används endast för soluppgång och beräkningar för månfaser, inte för "
++"Standardplatsen för väderminiprogrammet. Det första fältet anger namnet som "
++"visas. Om fältet är tomt hämtas namnet från platsdatabasen. Det andra fältet"
++" är METAR-koden för standardväderstationen. Det får inte vara tomt och måste"
++" motsvara en <code>-tagg i filen Locations.xml. Det tredje fältet är en "
++"tupel med (latitud, longitud) som åsidosätter värdet från databasen. Det "
++"används bara vid beräkning av soluppgång och månfas, inte för "
+ "väderprognoser."
+ 
+ #~ msgid "Greenwich Mean Time"
