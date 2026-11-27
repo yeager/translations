@@ -53774,37 +53774,40 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::tuya::entity::select::charger_work_mode::state::charge_schedule</prop>
       <prop type="lokalise-key-id">931719211</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback; retroactive option consistency</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Scheduled</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Schemalagd</seg>
+        <seg>Ladda enligt schema</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9697674032">
       <prop type="source">component::tuya::entity::select::charger_work_mode::state::charge_pct</prop>
       <prop type="lokalise-key-id">931719210</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback; retroactive option consistency</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Charge to percentage</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Laddning till procent</seg>
+        <seg>Ladda till en viss procent</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9697673968">
       <prop type="source">component::tuya::entity::select::charger_work_mode::state::charge_now</prop>
       <prop type="lokalise-key-id">931719209</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
+      <prop type="verification-method">Lokalise API live readback; retroactive option consistency</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Charge now</seg>
       </tuv>
@@ -53816,23 +53819,25 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::tuya::entity::select::charger_work_mode::state::charge_energy</prop>
       <prop type="lokalise-key-id">931719208</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Charge by energy</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Laddning med energi</seg>
+        <seg>Ladda efter energimängd</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9697673840">
       <prop type="source">component::tuya::entity::select::charger_work_mode::name</prop>
       <prop type="lokalise-key-id">931719207</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Charging mode</seg>
       </tuv>
@@ -53844,9 +53849,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::tuya::entity::number::charging_current::name</prop>
       <prop type="lokalise-key-id">931719186</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Charging current</seg>
       </tuv>
@@ -53858,121 +53864,130 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::midea::config::error::too_many_logged_in_devices</prop>
       <prop type="lokalise-key-id">931616193</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The Midea cloud account has too many active sign-ins. Sign out of the Midea app on other devices and try again. (err {error_code})</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Det finns för många aktiva inloggningar på Midea-molnkontot. Logga ut från Midea-appen på andra enheter och försök igen. (err {error_code})</seg>
+        <seg>Det finns för många aktiva inloggningar på Midea-molnkontot. Logga ut från Midea-appen på andra enheter och försök igen. (felkod {error_code})</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9696633614">
       <prop type="source">component::midea::config::error::invalid_cloud_server</prop>
       <prop type="lokalise-key-id">931616192</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>This account is not registered on the selected cloud server. Choose the server where the account was created. (err {error_code})</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Det här kontot är inte registrerat på den valda molnservern. Välj den server där kontot skapades. (err {error_code})</seg>
+        <seg>Det här kontot är inte registrerat på den valda molnservern. Välj den server där kontot skapades. (felkod {error_code})</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9696633550">
       <prop type="source">component::midea::config::error::invalid_auth</prop>
       <prop type="lokalise-key-id">931616191</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Invalid authentication (err {error_code})</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Ogiltig autentisering (err {error_code})</seg>
+        <seg>Ogiltig autentisering (felkod {error_code})</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9696633486">
       <prop type="source">component::midea::config::error::device_not_registered</prop>
       <prop type="lokalise-key-id">931616190</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>This Midea cloud account is not authorized for this device. The device is registered to a different account. (err {error_code})</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Detta Midea-molnkonto är inte auktoriserat för den här enheten. Enheten är registrerad på ett annat konto. (err {error_code})</seg>
+        <seg>Det här Midea-molnkontot saknar behörighet för den här enheten. Enheten är registrerad på ett annat konto. (felkod {error_code})</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9696633422">
       <prop type="source">component::midea::config::error::cloud_session_expired</prop>
       <prop type="lokalise-key-id">931616189</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The Midea cloud sign-in session is no longer valid. Try again. (err {error_code})</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Inloggningssessionen för Midea Cloud är inte längre giltig. Försök igen. (err {error_code})</seg>
+        <seg>Inloggningssessionen till Midea-molnet är inte längre giltig. Försök igen. (felkod {error_code})</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9696633358">
       <prop type="source">component::midea::config::error::cloud_error</prop>
       <prop type="lokalise-key-id">931616188</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The Midea cloud returned an error. Check the logs for details and try again. (err {error_code})</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Midea-molnet returnerade ett fel. Kontrollera loggarna för mer information och försök igen. (err {error_code})</seg>
+        <seg>Midea-molnet returnerade ett fel. Kontrollera loggarna för mer information och försök igen. (felkod {error_code})</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9696633294">
       <prop type="source">component::midea::config::error::account_locked</prop>
       <prop type="lokalise-key-id">931616187</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Too many failed sign-in attempts. Wait about five minutes before trying again. (err {error_code})</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>För många misslyckade inloggningsförsök. Vänta cirka fem minuter innan du försöker igen. (err {error_code})</seg>
+        <seg>För många misslyckade inloggningsförsök. Vänta cirka fem minuter innan du försöker igen. (felkod {error_code})</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9692020920">
       <prop type="source">component::scorpiontrack::entity::sensor::heading::name</prop>
       <prop type="lokalise-key-id">931080479</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Heading</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Riktning</seg>
+        <seg>Bäring</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9691320671">
       <prop type="source">component::pi_hole::exceptions::enable_failed::message</prop>
       <prop type="lokalise-key-id">931044174</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Failed to enable Pi-hole: {error}</seg>
       </tuv>
@@ -53984,9 +53999,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::pi_hole::exceptions::disable_failed::message</prop>
       <prop type="lokalise-key-id">931044173</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Failed to disable Pi-hole: {error}</seg>
       </tuv>
@@ -53998,9 +54014,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::unifiprotect::entity::event::smart_detection::state_attributes::event_source::name</prop>
       <prop type="lokalise-key-id">931043479</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Event source</seg>
       </tuv>
@@ -54012,9 +54029,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::unifiprotect::entity::event::package::state_attributes::event_source::name</prop>
       <prop type="lokalise-key-id">931043478</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Event source</seg>
       </tuv>
@@ -54026,9 +54044,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::litterrobot::entity::light::night_light::name</prop>
       <prop type="lokalise-key-id">931043434</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Night light</seg>
       </tuv>
@@ -54040,9 +54059,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::litterrobot::entity::sensor::hopper_status::state::ready</prop>
       <prop type="lokalise-key-id">930911302</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Ready</seg>
       </tuv>
@@ -54054,9 +54074,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::litterrobot::entity::sensor::hopper_status::state::offline</prop>
       <prop type="lokalise-key-id">930911301</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Offline</seg>
       </tuv>
@@ -54068,37 +54089,40 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::litterrobot::entity::sensor::hopper_status::state::litter_low</prop>
       <prop type="lokalise-key-id">930911300</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
       <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Litter low</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Låg nivå av kattsand</seg>
+        <seg>Lite kattsand kvar</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9689265171">
       <prop type="source">component::litterrobot::entity::sensor::hopper_status::state::jammed</prop>
       <prop type="lokalise-key-id">930911299</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Jammed</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Fastnat</seg>
+        <seg>Blockerad</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9689264946">
       <prop type="source">component::energyzero::selector::electricity_price_interval::options::quarter_hourly</prop>
       <prop type="lokalise-key-id">930911285</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Quarter-hourly</seg>
       </tuv>
@@ -54110,9 +54134,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::energyzero::selector::electricity_price_interval::options::hourly</prop>
       <prop type="lokalise-key-id">930911284</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Hourly</seg>
       </tuv>
@@ -54124,9 +54149,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::energyzero::options::step::init::data::electricity_price_interval</prop>
       <prop type="lokalise-key-id">930911283</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Electricity price interval</seg>
       </tuv>
@@ -54138,9 +54164,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::value_updated::name</prop>
       <prop type="lokalise-key-id">930901403</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Z-Wave JS value updated</seg>
       </tuv>
@@ -54152,9 +54179,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::value_updated::fields::to::name</prop>
       <prop type="lokalise-key-id">930901402</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>To</seg>
       </tuv>
@@ -54166,9 +54194,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::value_updated::fields::to::description</prop>
       <prop type="lokalise-key-id">930901401</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Only trigger when the value changes to this value, or to any value in this list.</seg>
       </tuv>
@@ -54180,9 +54209,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::value_updated::fields::property_key::name</prop>
       <prop type="lokalise-key-id">930901400</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Property key</seg>
       </tuv>
@@ -54194,9 +54224,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::value_updated::fields::property_key::description</prop>
       <prop type="lokalise-key-id">930901399</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Property key of the value.</seg>
       </tuv>
@@ -54208,9 +54239,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::value_updated::fields::property::name</prop>
       <prop type="lokalise-key-id">930901398</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Property</seg>
       </tuv>
@@ -54222,9 +54254,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::value_updated::fields::property::description</prop>
       <prop type="lokalise-key-id">930901397</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Property of the value.</seg>
       </tuv>
@@ -54236,9 +54269,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::value_updated::fields::from::name</prop>
       <prop type="lokalise-key-id">930901396</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>From</seg>
       </tuv>
@@ -54250,9 +54284,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::value_updated::fields::from::description</prop>
       <prop type="lokalise-key-id">930901395</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Only trigger when the value changes from this value, or from any value in this list.</seg>
       </tuv>
@@ -54264,9 +54299,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::value_updated::fields::entity_id::name</prop>
       <prop type="lokalise-key-id">930901394</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Entities</seg>
       </tuv>
@@ -54278,9 +54314,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::value_updated::fields::entity_id::description</prop>
       <prop type="lokalise-key-id">930901393</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Entities whose values to watch. At least one device or entity is required.</seg>
       </tuv>
@@ -54292,9 +54329,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::value_updated::fields::endpoint::name</prop>
       <prop type="lokalise-key-id">930901392</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Endpoint</seg>
       </tuv>
@@ -54306,9 +54344,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::value_updated::fields::endpoint::description</prop>
       <prop type="lokalise-key-id">930901391</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Endpoint of the value.</seg>
       </tuv>
@@ -54320,9 +54359,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::value_updated::fields::device_id::name</prop>
       <prop type="lokalise-key-id">930901390</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Devices</seg>
       </tuv>
@@ -54334,9 +54374,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::value_updated::fields::device_id::description</prop>
       <prop type="lokalise-key-id">930901389</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Devices whose values to watch. At least one device or entity is required.</seg>
       </tuv>
@@ -54348,9 +54389,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::value_updated::fields::command_class::name</prop>
       <prop type="lokalise-key-id">930901388</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Command class</seg>
       </tuv>
@@ -54362,9 +54404,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::value_updated::fields::command_class::description</prop>
       <prop type="lokalise-key-id">930901387</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Command class of the value.</seg>
       </tuv>
@@ -54376,9 +54419,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::value_updated::description</prop>
       <prop type="lokalise-key-id">930901386</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Triggers when a Z-Wave value on one or more nodes changes.</seg>
       </tuv>
@@ -54390,23 +54434,25 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::event::name</prop>
       <prop type="lokalise-key-id">930901385</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Z-Wave JS event received</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Z-Wave JS-händelse mottagen</seg>
+        <seg>Mottagen Z-Wave JS-händelse</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9688866465">
       <prop type="source">component::zwave_js::triggers::event::fields::partial_dict_match::name</prop>
       <prop type="lokalise-key-id">930901384</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Partial dictionary match</seg>
       </tuv>
@@ -54418,23 +54464,25 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::event::fields::partial_dict_match::description</prop>
       <prop type="lokalise-key-id">930901383</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Match nested dictionaries in the event data on the given keys only, instead of requiring an exact match.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Matcha kapslade ordböcker i händelsedatan endast mot de angivna nycklarna i stället för att kräva en exakt matchning.</seg>
+        <seg>Matcha bara de angivna nycklarna i kapslade ordböcker i händelsedatan i stället för att kräva en exakt matchning.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9688866337">
       <prop type="source">component::zwave_js::triggers::event::fields::event_source::name</prop>
       <prop type="lokalise-key-id">930901382</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Event source</seg>
       </tuv>
@@ -54446,9 +54494,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::event::fields::event_source::description</prop>
       <prop type="lokalise-key-id">930901381</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Whether the event is emitted by the controller, the driver, or a node.</seg>
       </tuv>
@@ -54460,9 +54509,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::event::fields::event_data::name</prop>
       <prop type="lokalise-key-id">930901380</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Event data</seg>
       </tuv>
@@ -54474,23 +54524,25 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::event::fields::event_data::description</prop>
       <prop type="lokalise-key-id">930901379</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Key-value pairs the event data must contain for the trigger to fire.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Nyckelvärdepar som händelsedatan måste innehålla för att utlösaren ska aktiveras.</seg>
+        <seg>Händelsedatan måste innehålla dessa nyckel/värde-par för att utlösaren ska aktiveras.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9688866081">
       <prop type="source">component::zwave_js::triggers::event::fields::event::name</prop>
       <prop type="lokalise-key-id">930901378</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Event</seg>
       </tuv>
@@ -54502,9 +54554,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::event::fields::event::description</prop>
       <prop type="lokalise-key-id">930901377</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Name of the Z-Wave JS event, for example `value notification`.</seg>
       </tuv>
@@ -54516,9 +54569,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::event::fields::entity_id::name</prop>
       <prop type="lokalise-key-id">930901376</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Entities</seg>
       </tuv>
@@ -54530,9 +54584,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::event::fields::entity_id::description</prop>
       <prop type="lokalise-key-id">930901375</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Entities whose node events to listen to. Node events need at least one device or entity, and controller or driver events must not have any.</seg>
       </tuv>
@@ -54544,9 +54599,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::event::fields::device_id::name</prop>
       <prop type="lokalise-key-id">930901374</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Devices</seg>
       </tuv>
@@ -54558,9 +54614,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::event::fields::device_id::description</prop>
       <prop type="lokalise-key-id">930901373</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Devices whose node events to listen to. Node events need at least one device or entity, and controller or driver events must not have any.</seg>
       </tuv>
@@ -54572,9 +54629,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::event::fields::config_entry_id::name</prop>
       <prop type="lokalise-key-id">930901372</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Config entry</seg>
       </tuv>
@@ -54586,23 +54644,25 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::triggers::event::fields::config_entry_id::description</prop>
       <prop type="lokalise-key-id">930901371</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The Z-Wave JS config entry to listen to. Required for controller and driver events.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Z-Wave JS-konfigurationsposten att lyssna på. Krävs för styrenhets- och drivrutinshändelser.</seg>
+        <seg>Z-Wave JS-konfigurationsposten vars händelser ska bevakas. Krävs för styrenhets- och drivrutinshändelser.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9688865569">
       <prop type="source">component::zwave_js::triggers::event::description</prop>
       <prop type="lokalise-key-id">930901370</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Triggers when a Z-Wave JS controller, driver, or node emits an event.</seg>
       </tuv>
@@ -54614,9 +54674,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::selector::event_source::options::node</prop>
       <prop type="lokalise-key-id">930901369</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Node</seg>
       </tuv>
@@ -54628,9 +54689,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::selector::event_source::options::driver</prop>
       <prop type="lokalise-key-id">930901368</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Driver</seg>
       </tuv>
@@ -54642,9 +54704,10 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::zwave_js::selector::event_source::options::controller</prop>
       <prop type="lokalise-key-id">930901367</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback after full-row review against HA Core source/references</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Controller</seg>
       </tuv>
@@ -299969,5 +300032,8 @@ Se [formateringsalternativen]({formatting_options_url}) för mer information.</s
 <tu tuid="lokalise:3682464078"><prop type="source">common::config_flow::abort::reconfigure_successful</prop><prop type="lokalise-key-id">459364584</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; reference target verified</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Reconfiguration was successful</seg></tuv><tuv xml:lang="sv"><seg>Omkonfigureringen lyckades</seg></tuv></tu>
 
 <tu tuid="lokalise:410036569"><prop type="source">common::config_flow::abort::reauth_successful</prop><prop type="lokalise-key-id">57330653</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; reference target verified</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Re-authentication was successful</seg></tuv><tuv xml:lang="sv"><seg>Återautentisering lyckades</seg></tuv></tu>
+
+<tu tuid="lokalise:1990763993"><prop type="source">component::litterrobot::entity::sensor::status_code::state::offline</prop><prop type="lokalise-key-id">248160477</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; reference target verified</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Offline</seg></tuv><tuv xml:lang="sv"><seg>Offline</seg></tuv></tu>
+<tu tuid="lokalise:1990764359"><prop type="source">component::litterrobot::entity::sensor::status_code::state::rdy</prop><prop type="lokalise-key-id">248160483</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback; reference target verified</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Ready</seg></tuv><tuv xml:lang="sv"><seg>Redo</seg></tuv></tu>
 </body>
 </tmx>

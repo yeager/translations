@@ -1,0 +1,152 @@
+[
+  {
+    "key": "component::zwave_js::triggers::event::fields::config_entry_id::description",
+    "key_id": "930901371",
+    "translation_id": "9688865633",
+    "en": "The Z-Wave JS config entry to listen to. Required for controller and driver events.",
+    "before": "Z-Wave JS-konfigurationsposten att lyssna på. Krävs för styrenhets- och drivrutinshändelser.",
+    "after": "Z-Wave JS-konfigurationsposten vars händelser ska bevakas. Krävs för styrenhets- och drivrutinshändelser.",
+    "readback": "Z-Wave JS-konfigurationsposten vars händelser ska bevakas. Krävs för styrenhets- och drivrutinshändelser.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::triggers::event::fields::event_data::description",
+    "key_id": "930901379",
+    "translation_id": "9688866145",
+    "en": "Key-value pairs the event data must contain for the trigger to fire.",
+    "before": "Nyckelvärdepar som händelsedatan måste innehålla för att utlösaren ska aktiveras.",
+    "after": "Händelsedatan måste innehålla dessa nyckel/värde-par för att utlösaren ska aktiveras.",
+    "readback": "Händelsedatan måste innehålla dessa nyckel/värde-par för att utlösaren ska aktiveras.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::triggers::event::fields::partial_dict_match::description",
+    "key_id": "930901383",
+    "translation_id": "9688866401",
+    "en": "Match nested dictionaries in the event data on the given keys only, instead of requiring an exact match.",
+    "before": "Matcha kapslade ordböcker i händelsedatan endast mot de angivna nycklarna i stället för att kräva en exakt matchning.",
+    "after": "Matcha bara de angivna nycklarna i kapslade ordböcker i händelsedatan i stället för att kräva en exakt matchning.",
+    "readback": "Matcha bara de angivna nycklarna i kapslade ordböcker i händelsedatan i stället för att kräva en exakt matchning.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::triggers::event::name",
+    "key_id": "930901385",
+    "translation_id": "9688866529",
+    "en": "Z-Wave JS event received",
+    "before": "Z-Wave JS-händelse mottagen",
+    "after": "Mottagen Z-Wave JS-händelse",
+    "readback": "Mottagen Z-Wave JS-händelse",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::litterrobot::entity::sensor::hopper_status::state::jammed",
+    "key_id": "930911299",
+    "translation_id": "9689265171",
+    "en": "Jammed",
+    "before": "Fastnat",
+    "after": "Blockerad",
+    "readback": "Blockerad",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::litterrobot::entity::sensor::hopper_status::state::litter_low",
+    "key_id": "930911300",
+    "translation_id": "9689265235",
+    "en": "Litter low",
+    "before": "Låg nivå av kattsand",
+    "after": "Lite kattsand kvar",
+    "readback": "Lite kattsand kvar",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::scorpiontrack::entity::sensor::heading::name",
+    "key_id": "931080479",
+    "translation_id": "9692020920",
+    "en": "Heading",
+    "before": "Riktning",
+    "after": "Bäring",
+    "readback": "Bäring",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::midea::config::error::account_locked",
+    "key_id": "931616187",
+    "translation_id": "9696633294",
+    "en": "Too many failed sign-in attempts. Wait about five minutes before trying again. (err {error_code})",
+    "before": "För många misslyckade inloggningsförsök. Vänta cirka fem minuter innan du försöker igen. (err {error_code})",
+    "after": "För många misslyckade inloggningsförsök. Vänta cirka fem minuter innan du försöker igen. (felkod {error_code})",
+    "readback": "För många misslyckade inloggningsförsök. Vänta cirka fem minuter innan du försöker igen. (felkod {error_code})",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::midea::config::error::cloud_error",
+    "key_id": "931616188",
+    "translation_id": "9696633358",
+    "en": "The Midea cloud returned an error. Check the logs for details and try again. (err {error_code})",
+    "before": "Midea-molnet returnerade ett fel. Kontrollera loggarna för mer information och försök igen. (err {error_code})",
+    "after": "Midea-molnet returnerade ett fel. Kontrollera loggarna för mer information och försök igen. (felkod {error_code})",
+    "readback": "Midea-molnet returnerade ett fel. Kontrollera loggarna för mer information och försök igen. (felkod {error_code})",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::midea::config::error::cloud_session_expired",
+    "key_id": "931616189",
+    "translation_id": "9696633422",
+    "en": "The Midea cloud sign-in session is no longer valid. Try again. (err {error_code})",
+    "before": "Inloggningssessionen för Midea Cloud är inte längre giltig. Försök igen. (err {error_code})",
+    "after": "Inloggningssessionen till Midea-molnet är inte längre giltig. Försök igen. (felkod {error_code})",
+    "readback": "Inloggningssessionen till Midea-molnet är inte längre giltig. Försök igen. (felkod {error_code})",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::midea::config::error::device_not_registered",
+    "key_id": "931616190",
+    "translation_id": "9696633486",
+    "en": "This Midea cloud account is not authorized for this device. The device is registered to a different account. (err {error_code})",
+    "before": "Detta Midea-molnkonto är inte auktoriserat för den här enheten. Enheten är registrerad på ett annat konto. (err {error_code})",
+    "after": "Det här Midea-molnkontot saknar behörighet för den här enheten. Enheten är registrerad på ett annat konto. (felkod {error_code})",
+    "readback": "Det här Midea-molnkontot saknar behörighet för den här enheten. Enheten är registrerad på ett annat konto. (felkod {error_code})",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::midea::config::error::invalid_auth",
+    "key_id": "931616191",
+    "translation_id": "9696633550",
+    "en": "Invalid authentication (err {error_code})",
+    "before": "Ogiltig autentisering (err {error_code})",
+    "after": "Ogiltig autentisering (felkod {error_code})",
+    "readback": "Ogiltig autentisering (felkod {error_code})",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::midea::config::error::invalid_cloud_server",
+    "key_id": "931616192",
+    "translation_id": "9696633614",
+    "en": "This account is not registered on the selected cloud server. Choose the server where the account was created. (err {error_code})",
+    "before": "Det här kontot är inte registrerat på den valda molnservern. Välj den server där kontot skapades. (err {error_code})",
+    "after": "Det här kontot är inte registrerat på den valda molnservern. Välj den server där kontot skapades. (felkod {error_code})",
+    "readback": "Det här kontot är inte registrerat på den valda molnservern. Välj den server där kontot skapades. (felkod {error_code})",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::midea::config::error::too_many_logged_in_devices",
+    "key_id": "931616193",
+    "translation_id": "9696633678",
+    "en": "The Midea cloud account has too many active sign-ins. Sign out of the Midea app on other devices and try again. (err {error_code})",
+    "before": "Det finns för många aktiva inloggningar på Midea-molnkontot. Logga ut från Midea-appen på andra enheter och försök igen. (err {error_code})",
+    "after": "Det finns för många aktiva inloggningar på Midea-molnkontot. Logga ut från Midea-appen på andra enheter och försök igen. (felkod {error_code})",
+    "readback": "Det finns för många aktiva inloggningar på Midea-molnkontot. Logga ut från Midea-appen på andra enheter och försök igen. (felkod {error_code})",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::tuya::entity::select::charger_work_mode::state::charge_energy",
+    "key_id": "931719208",
+    "translation_id": "9697673904",
+    "en": "Charge by energy",
+    "before": "Laddning med energi",
+    "after": "Ladda efter energimängd",
+    "readback": "Ladda efter energimängd",
+    "status": "saved-and-read-back"
+  }
+]
