@@ -826,3 +826,14 @@ argumentet betyder i just det programmet.
 | enclosure | bifogad fil | Fil som följer med en RSS-artikel. |
 | summary view | sammanfattningsvy | Kort UI-term i Evolution RSS. |
 | network proxy | proxyserver | Använd `proxyservern` i bestämd form. |
+
+## Evolution MAPI
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| Global Address List (GAL) | global adresslista (GAL) | Behåll den etablerade förkortningen efter första omnämnandet. |
+| Free/Busy | ledig/upptagen-information | Statusinformation om kalendern. |
+| memo | anteckning | Använd anteckning/anteckningar i gränssnittet. |
+| Kerberos realm | Kerberos-sfär | Realm-värdet är en sfär, inte en vanlig domän. |
+| offline mode | frånkopplat läge | Konsekvent med Evolution-terminologi. |
+| Editor (permission role) | redigerare | Roll med redigeringsbehörighet. |
