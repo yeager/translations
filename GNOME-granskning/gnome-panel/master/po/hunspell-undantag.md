@@ -1,0 +1,3 @@
+# Hunspell-undantag
+
+Hunspell-SV flaggar korrekta tekniska namn och strängar: `.desktop`, GTK+, Metacity, Xinerama, METAR, pixmap, `image-uri`, `pack-type`, `auto_hide`, `enable_program_list`, `OAFIID:GNOME_MiniCommanderApplet`, ClockAppletFactory och andra panel-/program-ID:n. Korrekta svenska sammansättningar som *fiskminiprogrammet*, *ikonavstånd* och *miniprogrammens IID* har granskats manuellt. Värdena `true`, `false`, `top`, `bottom`, `left`, `right`, `start`, `center`, `end`, `never`, `auto`, `always`, `none`, `stretch` och `fit` bevaras som inställningsvärden. Inga å/ä/ö används som acceleratorer.

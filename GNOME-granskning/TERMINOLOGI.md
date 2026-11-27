@@ -915,3 +915,15 @@ argumentet betyder i just det programmet.
 | crosshairs | hårkors | Siktesmarkering i Dasher-gränssnittet. |
 | canvas | arbetsyta | Ytan där Dasher visar textinmatningen. |
 | symbol (entered character) | tecken | Använd *tecken* i felmeddelanden om inmatade symboler. |
+
+
+## GNOME Panel
+
+| Engelska | Svenska | Anmärkning |
+|---|---|---|
+| tooltip | inforuta | Informationsruta som visas när pekaren hålls över ett objekt. |
+| workspace switcher | arbetsyteväxlare | Panelobjekt som byter mellan arbetsytor. |
+| applet | miniprogram | Programkomponent som körs i panelen. |
+| hide buttons | knappar för att dölja panelen | Knappar som fäller in panelen vid skärmkanten. |
+| launcher | programstartare | Panelobjekt som startar ett program. |
+| panel alignment | paneljustering | Placering vid start, mitten eller slut av skärmkanten. |
