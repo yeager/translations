@@ -1,18 +1,19 @@
 # GIMP Help — master — toolbox — svenska
 
 - GNOME-aktivitet: <https://l10n.gnome.org/vertimus/gimp-help/master/toolbox/sv/>.
-- Ursprunglig lokal katalog: 1 488 översatta och 168 oöversatta poster.
-- Slutlig lokal katalog: 1 656 översatta, 0 fuzzy och 0 oöversatta poster.
-- Åtgärd: hela verktygslådekatalogen har radgranskats och kompletterats, inklusive färgområde, pensel- och gradientverktyg samt justeringsverktyget.
-- Validering: `msgfmt --check --statistics`, `git diff --check` och `l10n-lint --language sv --check` är godkända. `hunspell-sv` kördes; träffar är DocBook-/PO-metadata, filnamn, XML-ID:n, produktnamn och etablerade tekniska termer.
-- Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-23.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
+- Källor hämtade direkt från GNOME den 2026-11-27; senaste POT skapades 2026-11-24 22:42 UTC. POT-storlek 90 289 byte, SHA-256 `230e60b5f356f4bda5fda4382f43dab6c86db2214fef5037fe361a237813cf9c`.
+- Senaste PO på servern: 155 814 byte; Last-Modified 2026-11-24 22:42:57 GMT; SHA-256 `b53cd9b57325a710326bc5faf018ea5718f716a62420f61a7705aae824c1d452`.
+- Upstream före granskningen, enligt GNOME API: 28 översatta, 42 fuzzy och 408 oöversatta av 478 PO-poster. Dessa servervärden är oförändrade; ingen inskickning har gjorts.
+- Genomgång: alla 428 användarvisade strängar i senaste POT radgranskades. 368 nya översättningar lades till, 32 fuzzy/befintliga texter rättades och 28 befintliga översättningar behölls. Resultat: 428/428 användarvisade strängar översatta, 0 tomma och 0 fuzzy. PO-diffen omfattar 400 ändrade översättningsposter.
+- POT-filen innehåller dessutom 50 `@@image:`-poster. Källkommentaren säger uttryckligen att deras textvärde inte används; de hålls tomma och undantas från översättningskravet. De 10 upstream-fuzzy-markeringarna på sådana poster är borttagna i den lokala granskade filen. Bildfilerna har inte bildredigerats.
+- Terminologi kontrollerades mot GIMP:s befintliga svenska UI och `swedish-tm`; TM-träffar användes som underlag och verifierades i sammanhang. `Miter` använder den etablerade GIMP-etiketten **Spetsig**.
+- Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-27.
+- GNOME-inskick: inget. Filen är färdig lokalt och inväntar fortsatt instruktion för upstream-inskick.
 
-## Riktad terminologikorrigering — 2026-11-26
+## Validering
 
-Tolv befintliga poster använder nu **Fyll** som verktygsnamn och **fyllnadsverktyg** i löptext. Katalogens tidigare radgranskning och statistik ändras inte; ingen GNOME-inskickning har gjorts.
-- Validering av termrättningen: `msgfmt --check --check-format` godkändes; l10n-lint rapporterade 0 fel och inga varningar i de ändrade posterna. Markup, platshållare, pluralformer och radbrytningar är oförändrade. Hunspell-SV markerade bara Wilber, GIMP-maskotens namn.
-
-## Kontroll mot senaste POT — 2026-11-26
-
-Senaste POT skapades 2026-11-24 och innehåller 478 poster. Den arkiverade granskningen från 2026-11-23 matchar inte längre POT:en; katalogen laddas inte upp och måste uppdateras mot aktuell mall. API-statistik vid kontrollen: 28 översatta, 42 fuzzy och 408 oöversatta.
+- `msgfmt --check`: godkänd.
+- `msgcmp`: godkänd för hela PO:n, inklusive exakt synkroniserade `@@image:`-poster.
+- `l10n-lint --language sv --reference <senaste POT> --disable source-equals-translation`: 0 fel, 0 varningar och 15 informationsnotiser om gränstecken runt giltig XML-markup. Regeln stängdes av enbart för de 50 källmarkerade metadataenheterna vars `msgstr` avsiktligt kopierats från `msgid`; `missing-translation` var aktiv och inga tomma poster återstod.
+- Egen kontroll: 0 saknade synliga texter; exakt POT-täckning; 0 avvikelser i XML-taggar, länkmål, platshållare, formateringsmarkörer och DocBook-placeholders.
+- Hunspell-SV 2026.11.27: varningar kontextgranskade; undantag finns i [hunspell-undantag.md](hunspell-undantag.md). Inga stavfel återstår.
