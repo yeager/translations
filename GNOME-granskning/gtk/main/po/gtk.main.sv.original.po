@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gtk\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gtk/-/issues/\n"
-"POT-Creation-Date: 2026-11-22 04:57+0000\n"
+"POT-Creation-Date: 2026-11-26 08:03+0000\n"
 "PO-Revision-Date: 2026-08-24 14:37+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -83,58 +83,58 @@ msgstr "Kan inte tillhandahålla innehåll som ”%s”"
 msgid "Cannot provide contents as %s"
 msgstr "Kan inte tillhandahålla innehåll som %s"
 
-#: gdk/gdkdisplay.c:179 gdk/gdkglcontext.c:482
+#: gdk/gdkdisplay.c:181 gdk/gdkglcontext.c:488
 msgid "The current backend does not support OpenGL"
 msgstr "Den aktuella bakänden stöder inte OpenGL"
 
-#: gdk/gdkdisplay.c:1024 gdk/gdkvulkancontext.c:2214
+#: gdk/gdkdisplay.c:1046 gdk/gdkvulkancontext.c:2353
 msgid "Vulkan support disabled via GDK_DISABLE"
 msgstr "Vulkan-stöd inaktiverat via GDK_DISABLE"
 
-#: gdk/gdkdisplay.c:1074
+#: gdk/gdkdisplay.c:1096
 msgid "OpenGL support disabled via GDK_DISABLE"
 msgstr "OpenGL-stöd inaktiverat via GDK_DISABLE"
 
-#: gdk/gdkdisplay.c:1386
+#: gdk/gdkdisplay.c:1424
 msgid "No EGL configuration available"
 msgstr "Ingen EGL-konfiguration tillgänglig"
 
-#: gdk/gdkdisplay.c:1394
+#: gdk/gdkdisplay.c:1432
 msgid "Failed to get EGL configurations"
 msgstr "Misslyckades med att hämta EGL-konfigurationer"
 
-#: gdk/gdkdisplay.c:1424
+#: gdk/gdkdisplay.c:1462
 msgid "No EGL configuration with required features found"
 msgstr "Ingen EGL-konfiguration med funktionerna som krävdes hittades"
 
-#: gdk/gdkdisplay.c:1431
+#: gdk/gdkdisplay.c:1469
 msgid "No perfect EGL configuration found"
 msgstr "Ingen perfekt EGL-konfiguration hittades"
 
-#: gdk/gdkdisplay.c:1473
+#: gdk/gdkdisplay.c:1511
 #, c-format
 msgid "EGL implementation is missing extension %s"
 msgid_plural "EGL implementation is missing %2$d extensions: %1$s"
 msgstr[0] "EGL-implementationen saknar tillägget %s"
 msgstr[1] "EGL-implementationen saknar %2$d tillägg: %1$s"
 
-#: gdk/gdkdisplay.c:1522
+#: gdk/gdkdisplay.c:1560
 msgid "libEGL not available in this sandbox"
 msgstr "libEGL är inte tillgängligt i denna sandlåda"
 
-#: gdk/gdkdisplay.c:1523
+#: gdk/gdkdisplay.c:1561
 msgid "libEGL not available"
 msgstr "libEGL inte tillgängligt"
 
-#: gdk/gdkdisplay.c:1533
+#: gdk/gdkdisplay.c:1571
 msgid "Failed to create EGL display"
 msgstr "Misslyckades med att skapa EGL-display"
 
-#: gdk/gdkdisplay.c:1542
+#: gdk/gdkdisplay.c:1580
 msgid "Could not initialize EGL display"
 msgstr "Kunde inte initiera EGL-display"
 
-#: gdk/gdkdisplay.c:1552
+#: gdk/gdkdisplay.c:1590
 #, c-format
 msgid "EGL version %d.%d is too old. GTK requires %d.%d"
 msgstr "EGL-version %d.%d är för gammal. GTK kräver %d.%d"
@@ -147,24 +147,24 @@ msgstr "Dra-och-släpp från andra program stöds inte."
 msgid "No compatible formats to transfer contents."
 msgstr "Inga kompatibla format för att överföra innehåll."
 
-#: gdk/gdkglcontext.c:442 gdk/x11/gdkglcontext-glx.c:656
+#: gdk/gdkglcontext.c:448 gdk/x11/gdkglcontext-glx.c:656
 msgid "No GL API allowed."
 msgstr "Inget GL-API tillåtet."
 
-#: gdk/gdkglcontext.c:465 gdk/win32/gdkglcontext-win32-wgl.c:656
+#: gdk/gdkglcontext.c:471 gdk/win32/gdkglcontext-win32-wgl.c:656
 #: gdk/win32/gdkglcontext-win32-wgl.c:779 gdk/x11/gdkglcontext-glx.c:702
 msgid "Unable to create a GL context"
 msgstr "Kan inte skapa en GL-kontext"
 
-#: gdk/gdkglcontext.c:1597
+#: gdk/gdkglcontext.c:1603
 msgid "OpenGL ES API disabled via GDK_DISABLE"
 msgstr "OpenGL ES-API inaktiverat via GDK_DISABLE"
 
-#: gdk/gdkglcontext.c:1609
+#: gdk/gdkglcontext.c:1615
 msgid "OpenGL API disabled via GDK_DISABLE"
 msgstr "OpenGL-API inaktiverat via GDK_DISABLE"
 
-#: gdk/gdkglcontext.c:1620
+#: gdk/gdkglcontext.c:1626
 #, c-format
 msgid "Application does not support %s API"
 msgstr "Programmet stöder inte %s-API"
@@ -172,12 +172,12 @@ msgstr "Programmet stöder inte %s-API"
 #. translators: This is about OpenGL backend names, like
 #. * "Trying to use X11 GLX, but EGL is already in use"
 #.
-#: gdk/gdkglcontext.c:2421
+#: gdk/gdkglcontext.c:2427
 #, c-format
 msgid "Trying to use %s, but %s is already in use"
 msgstr "Försöker använda %s, men %s används redan"
 
-#: gdk/gdkglcontext.c:2432
+#: gdk/gdkglcontext.c:2438
 #, c-format
 msgid "Trying to use %s, but it is disabled via GDK_DISABLE"
 msgstr "Försöker använda %s, men det är inaktiverat via GDK_DISABLE"
@@ -2339,7 +2339,7 @@ msgstr "Det finns redan en fil med det namnet"
 #: gtk/print/gtkpagesetupunixdialog.c:285 gtk/print/gtkprintbackend.c:656
 #: gtk/print/gtkprintunixdialog.c:671 gtk/print/gtkprintunixdialog.c:828
 #: gtk/gtkwindow.c:6462 gtk/ui/gtkappchooserdialog.ui:50
-#: gtk/ui/gtkassistant.ui:51 gtk/ui/gtkcolorchooserdialog.ui:43
+#: gtk/ui/gtkassistant.ui:51 gtk/ui/gtkcolorchooserdialog.ui:35
 #: gtk/ui/gtkfontchooserdialog.ui:28
 msgid "_Cancel"
 msgstr "_Avbryt"
@@ -2674,7 +2674,7 @@ msgid "Save a File"
 msgstr "Spara en fil"
 
 #: gtk/gtkfiledialog.c:899 gtk/ui/gtkappchooserdialog.ui:55
-#: gtk/ui/gtkcolorchooserdialog.ui:48 gtk/ui/gtkfontchooserdialog.ui:33
+#: gtk/ui/gtkcolorchooserdialog.ui:40 gtk/ui/gtkfontchooserdialog.ui:33
 msgid "_Select"
 msgstr "_Välj"
 
