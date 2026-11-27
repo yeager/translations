@@ -1,0 +1,594 @@
+--- original.sv.po
++++ reviewed.sv.po
+@@ -9,8 +9,8 @@
+ "Project-Id-Version: fragments main\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Fragments/issues\n"
+ "POT-Creation-Date: 2026-02-28 23:14+0000\n"
+-"PO-Revision-Date: 2025-08-10 19:46+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-27 20:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -26,17 +26,17 @@
+ #. General
+ #: data/de.haeckerfelix.Fragments.metainfo.xml.in.in:10
+ msgid "Manage torrents"
+-msgstr "Hantera torrentfiler"
++msgstr "Hantera torrenter"
+ 
+ #: data/de.haeckerfelix.Fragments.metainfo.xml.in.in:12
+ msgid ""
+ "An easy to use BitTorrent client. Fragments can be used to transfer files "
+-"via the BitTorrent peer-to-peer file-sharing protocol, such as videos, music "
+-"or installation images for Linux distributions."
++"via the BitTorrent peer-to-peer file-sharing protocol, such as videos, music"
++" or installation images for Linux distributions."
+ msgstr ""
+ "En lättanvänd BitTorrent-klient. Fragments kan användas för att överföra "
+-"filer med BitTorrent-protokollet för P2P-fildelning, såsom videoklipp, musik "
+-"eller installationsavbilder för Linux-distributioner."
++"filer med BitTorrent-protokollet för P2P-fildelning, såsom videoklipp, musik"
++" eller installationsavbilder för Linux-distributioner."
+ 
+ #: data/de.haeckerfelix.Fragments.metainfo.xml.in.in:16
+ #: data/de.haeckerfelix.Fragments.metainfo.xml.in.in:65
+@@ -45,18 +45,17 @@
+ 
+ #: data/de.haeckerfelix.Fragments.metainfo.xml.in.in:17
+ msgid "Schedule the order of downloads with a queue"
+-msgstr "Schemalägg hämtningars ordning med en kö"
++msgstr "Ordna hämtningskön"
+ 
+ #: data/de.haeckerfelix.Fragments.metainfo.xml.in.in:18
+ #: data/de.haeckerfelix.Fragments.metainfo.xml.in.in:73
+ msgid "Automatic detection of torrent or magnet links from the clipboard"
+-msgstr ""
+-"Automatisk identifiering av torrentfiler eller magnetlänkar från urklipp"
++msgstr "Hitta torrent- och magnetlänkar automatiskt i urklippet"
+ 
+ #: data/de.haeckerfelix.Fragments.metainfo.xml.in.in:19
+ #: data/de.haeckerfelix.Fragments.metainfo.xml.in.in:69
+ msgid "Manage and access individual files of a torrent"
+-msgstr "Hantera och kom åt enskilda filer i en torrent"
++msgstr "Hantera och öppna enskilda filer i en torrent"
+ 
+ #: data/de.haeckerfelix.Fragments.metainfo.xml.in.in:20
+ #: data/de.haeckerfelix.Fragments.metainfo.xml.in.in:77
+@@ -65,8 +64,7 @@
+ 
+ #: data/de.haeckerfelix.Fragments.metainfo.xml.in.in:22
+ msgid "Fragments uses the Transmission BitTorrent project under the hood."
+-msgstr ""
+-"Fragments använder sig under huven av BitTorrent-projektet Transmission."
++msgstr "Fragments bygger på BitTorrent-projektet Transmission."
+ 
+ #. Branding
+ #: data/de.haeckerfelix.Fragments.metainfo.xml.in.in:29
+@@ -91,7 +89,7 @@
+ "Enter the address of a remote Fragments or Transmission session to connect "
+ "to."
+ msgstr ""
+-"Ange adressen för en fjärran Fragments- eller Transmission-session att "
++"Ange adressen till en Fragments- eller Transmission-session som du vill "
+ "ansluta till."
+ 
+ #: data/gtk/add_connection_dialog.ui:60 data/gtk/torrent_row.ui:119
+@@ -124,23 +122,23 @@
+ 
+ #: data/gtk/connection_box.ui:53
+ msgid "Metered Network"
+-msgstr "Nätverk med datakvot"
++msgstr "Nätverk med datatak"
+ 
+ #: data/gtk/connection_box.ui:54
+ msgid ""
+-"Torrents have been paused to save data, as metered networks have data limits "
+-"or charges associated with them."
++"Torrents have been paused to save data, as metered networks have data limits"
++" or charges associated with them."
+ msgstr ""
+-"Torrentfiler har pausats för att spara data, då nätverk med datakvoter "
+-"medför databegränsningar eller kostnader."
++"Torrentöverföringar har pausats för att spara data. Nätverk med datatak kan "
++"begränsa dataanvändningen eller medföra extra kostnader."
+ 
+ #: data/gtk/connection_box.ui:58
+ msgid "Resume Torrents"
+-msgstr "Återuppta torrentfiler"
++msgstr "Återuppta överföringar"
+ 
+ #: data/gtk/connection_box.ui:76
+ msgid "Get Some Torrents"
+-msgstr "Skaffa några torrentfiler"
++msgstr "Lägg till torrenter"
+ 
+ #: data/gtk/connection_box.ui:143
+ msgid "Click a torrent link on a website"
+@@ -156,7 +154,7 @@
+ 
+ #: data/gtk/connection_box.ui:182
+ msgid "Drag and drop a torrent"
+-msgstr "Dra och släpp en torrent"
++msgstr "Dra och släpp en torrentfil"
+ 
+ #: data/gtk/connection_box.ui:212
+ msgid "Authentication required"
+@@ -192,7 +190,7 @@
+ 
+ #: data/gtk/file_page.ui:44
+ msgid "Open Containing Folder"
+-msgstr "Öppna innehållande mapp"
++msgstr "Öppna mappen som innehåller filen"
+ 
+ #: data/gtk/file_page.ui:61
+ msgid "Download"
+@@ -200,7 +198,7 @@
+ 
+ #: data/gtk/file_row.ui:55 data/gtk/status_header.ui:90
+ msgid "File progress"
+-msgstr "Filförlopp"
++msgstr "Filens förlopp"
+ 
+ #: data/gtk/folder_page_contents.ui:12
+ msgid "Sorting"
+@@ -212,7 +210,7 @@
+ 
+ #: data/gtk/folder_page_contents.ui:29
+ msgid "Search for files…"
+-msgstr "Sök filer…"
++msgstr "Sök efter filer…"
+ 
+ #: data/gtk/folder_page_contents.ui:36
+ msgid "Search files"
+@@ -265,16 +263,16 @@
+ #: data/gtk/preferences_dialog.ui:14
+ msgid ""
+ "Prevent the computer from suspending while torrents are being downloaded"
+-msgstr "Förhindra datorn från att gå in i vänteläge när torrentfiler hämtas"
++msgstr "Förhindra att datorn går in i vänteläge medan torrenter hämtas"
+ 
+ #: data/gtk/preferences_dialog.ui:26
+ msgid "_Trash Torrent Files"
+-msgstr "Stoppa torrentfiler i _papperskorgen"
++msgstr "Flytta torrentfiler till _papperskorgen"
+ 
+ #: data/gtk/preferences_dialog.ui:27
+ msgid "Automatically moves torrent files to the trash after adding them"
+ msgstr ""
+-"Flyttar automatiskt torrentfiler till papperskorgen efter att de lagts till"
++"Flyttar automatiskt torrentfiler till papperskorgen när de har lagts till"
+ 
+ #: data/gtk/preferences_dialog.ui:41
+ msgid "Notifications"
+@@ -282,11 +280,11 @@
+ 
+ #: data/gtk/preferences_dialog.ui:44
+ msgid "_New Torrent Added"
+-msgstr "_Ny torrent tillagd"
++msgstr "Ny torrent har _lagts till"
+ 
+ #: data/gtk/preferences_dialog.ui:56
+ msgid "_Torrent Completely Downloaded"
+-msgstr "_Torrent fullständigt hämtad"
++msgstr "Torrenten är helt _hämtad"
+ 
+ #: data/gtk/preferences_dialog.ui:70
+ msgid "Remote Control"
+@@ -301,12 +299,12 @@
+ "Allow other devices on the local network to access the local Fragments "
+ "session"
+ msgstr ""
+-"Tillåt andra enheter på det lokala nätverket att komma åt den lokala "
+-"sessionen av Fragments"
++"Tillåt andra enheter på det lokala nätverket att ansluta till den lokala "
++"Fragments-sessionen"
+ 
+ #: data/gtk/preferences_dialog.ui:86
+ msgid "Open Web Interface"
+-msgstr "Öppna webbgränssnitt"
++msgstr "Öppna webbgränssnittet"
+ 
+ #: data/gtk/preferences_dialog.ui:103
+ msgctxt "A page title of the preferences dialog"
+@@ -327,7 +325,7 @@
+ 
+ #: data/gtk/preferences_dialog.ui:131
+ msgid "Where to store downloaded torrents"
+-msgstr "Var hämtade torrenter ska lagras"
++msgstr "Var hämtade filer ska sparas"
+ 
+ #: data/gtk/preferences_dialog.ui:148
+ msgid "_Incomplete Torrents"
+@@ -335,15 +333,15 @@
+ 
+ #: data/gtk/preferences_dialog.ui:149
+ msgid "Store incomplete torrents in a different directory"
+-msgstr "Lagra ofullständiga torrenter i en annan katalog"
++msgstr "Lagra ofullständiga hämtningar i en annan katalog"
+ 
+ #: data/gtk/preferences_dialog.ui:154
+ msgid "_Incomplete Directory"
+-msgstr "_Ofullständig katalog"
++msgstr "Mapp för _ofullständiga hämtningar"
+ 
+ #: data/gtk/preferences_dialog.ui:155
+ msgid "Where to store incomplete torrents"
+-msgstr "Var ofullständiga torrenter ska lagras"
++msgstr "Var ofullständiga hämtningar ska sparas"
+ 
+ #: data/gtk/preferences_dialog.ui:176
+ msgid "Queue"
+@@ -355,7 +353,7 @@
+ 
+ #: data/gtk/preferences_dialog.ui:180
+ msgid "You can decide which torrents should be downloaded first"
+-msgstr "Du kan bestämma vilka torrenter som ska hämtas först"
++msgstr "Välj vilka torrenter som ska hämtas först"
+ 
+ #: data/gtk/preferences_dialog.ui:185
+ msgid "Maximum _Active Downloads"
+@@ -363,7 +361,7 @@
+ 
+ #: data/gtk/preferences_dialog.ui:186
+ msgid "Number of maximum parallel downloads at the same time"
+-msgstr "Maximala antalet parallella hämtningar vid ett tillfälle"
++msgstr "Högsta antal hämtningar som får pågå samtidigt"
+ 
+ #: data/gtk/preferences_dialog.ui:203
+ msgid "Automatically _Start Torrents"
+@@ -371,7 +369,7 @@
+ 
+ #: data/gtk/preferences_dialog.ui:204
+ msgid "Automatically start downloading torrents after adding them"
+-msgstr "Börja automatiskt hämta torrenter efter att de lagts till"
++msgstr "Börja hämta torrenter automatiskt när de har lagts till"
+ 
+ #: data/gtk/preferences_dialog.ui:221
+ msgid "Network"
+@@ -379,7 +377,7 @@
+ 
+ #: data/gtk/preferences_dialog.ui:241
+ msgid "Listening Port"
+-msgstr "Port att lyssna på"
++msgstr "Lyssningsport"
+ 
+ #: data/gtk/preferences_dialog.ui:242
+ msgid ""
+@@ -387,10 +385,9 @@
+ "important that the communication works, otherwise you will have a limited "
+ "ability to connect to other peers and suffer from slower download speeds."
+ msgstr ""
+-"Denna port används av motparter på internet för att ansluta till dig. Det är "
+-"viktigt att kommunikationen fungerar, annars kommer du ha begränsad förmåga "
+-"att ansluta till andra motparter och drabbas av långsammare "
+-"hämtningshastigheter."
++"Andra klienter på internet använder den här porten för att ansluta till dig."
++" Kommunikationen måste fungera för att du ska kunna ansluta till andra "
++"klienter och få bra hämtningshastighet."
+ 
+ #: data/gtk/preferences_dialog.ui:245
+ msgid "_Port"
+@@ -407,8 +404,7 @@
+ #: data/gtk/preferences_dialog.ui:262
+ msgid "Select a random port on each session startup, can improve privacy"
+ msgstr ""
+-"Välj en slumpmässig port vid uppstarten av varje session, kan förbättra "
+-"sekretessen"
++"Välj en slumpmässig port vid varje sessionsstart för bättre integritet"
+ 
+ #: data/gtk/preferences_dialog.ui:274
+ msgid "Port _Forwarding"
+@@ -416,9 +412,7 @@
+ 
+ #: data/gtk/preferences_dialog.ui:275
+ msgid "Try using UPnP/NAT-PMP for automatic port forwarding on your router"
+-msgstr ""
+-"Pröva använda UPnP/NAT-PMP för automatisk vidarebefordran av portar i din "
+-"router"
++msgstr "Prova UPnP/NAT-PMP för automatisk portvidarebefordran på routern"
+ 
+ #: data/gtk/preferences_dialog.ui:315
+ msgid "Internet"
+@@ -434,13 +428,13 @@
+ 
+ #: data/gtk/preferences_dialog.ui:386
+ msgid ""
+-"You can verify your connection by asking <a href=\"https://"
+-"transmissionbt.com\">transmissionbt.com</a> to test connecting to your "
+-"computer as peers would."
+-msgstr ""
+-"Du kan verifiera din anslutning genom att be <a href=\"https://"
+-"transmissionbt.com\">transmissionbt.com</a> att testa ansluta till din dator "
+-"på samma sätt som motparter skulle göra."
++"You can verify your connection by asking <a "
++"href=\"https://transmissionbt.com\">transmissionbt.com</a> to test "
++"connecting to your computer as peers would."
++msgstr ""
++"Testa anslutningen via <a "
++"href=\"https://transmissionbt.com\">transmissionbt.com</a>. Tjänsten "
++"försöker ansluta till datorn på samma sätt som andra klienter."
+ 
+ #: data/gtk/preferences_dialog.ui:398
+ msgid "Test"
+@@ -448,14 +442,15 @@
+ 
+ #: data/gtk/preferences_dialog.ui:413
+ msgid "Peer Limits"
+-msgstr "Motpartsgränser"
++msgstr "Gränser för motparter"
+ 
+ #: data/gtk/preferences_dialog.ui:414
+ msgid ""
+ "You may have to lower the limits if your router can't keep up with the "
+ "demands of P2P."
+ msgstr ""
+-"Du kan behöva sänka gränserna om din router inte hänger med i P2P-kraven."
++"Du kan behöva sänka gränserna om routern inte klarar belastningen från "
++"P2P-trafiken."
+ 
+ #: data/gtk/preferences_dialog.ui:417
+ msgid "Maximum Peers per _Torrent"
+@@ -471,14 +466,15 @@
+ 
+ #: data/gtk/preferences_dialog.ui:450
+ msgid ""
+-"<a href=\"https://en.wikipedia.org/wiki/"
+-"BitTorrent_protocol_encryption\">BitTorrent Protocol Encryption</a> can be "
+-"used to improve privacy. It also can help to bypass ISP filters."
+-msgstr ""
+-"<a href=\"https://en.wikipedia.org/wiki/"
+-"BitTorrent_protocol_encryption\">BitTorrent Protocol Encryption</a> kan "
+-"användas för att förbättra sekretessen. Det kan också hjälpa till att gå "
+-"runt ISP-filter."
++"<a "
++"href=\"https://en.wikipedia.org/wiki/BitTorrent_protocol_encryption\">BitTorrent"
++" Protocol Encryption</a> can be used to improve privacy. It also can help to"
++" bypass ISP filters."
++msgstr ""
++"<a "
++"href=\"https://en.wikipedia.org/wiki/BitTorrent_protocol_encryption\">Kryptering"
++" av BitTorrent-protokollet</a> kan förbättra integriteten och även hjälpa "
++"till att kringgå internetleverantörers filter."
+ 
+ #: data/gtk/preferences_dialog.ui:453
+ msgid "_Encryption"
+@@ -542,7 +538,7 @@
+ #. Transmission is the name of the torrent daemon. Don't translate it.
+ #: data/gtk/stats_dialog.ui:32
+ msgid "Transmission Daemon"
+-msgstr "Transmission-demon"
++msgstr "Transmission-demonen"
+ 
+ #: data/gtk/stats_dialog.ui:33
+ msgid "Version"
+@@ -558,11 +554,11 @@
+ 
+ #: data/gtk/stats_dialog.ui:66 data/gtk/torrent_dialog.ui:364
+ msgid "Upload Speed"
+-msgstr "Sändningshastighet"
++msgstr "Uppladdningshastighet"
+ 
+ #: data/gtk/stats_dialog.ui:82
+ msgid "Torrent Count"
+-msgstr "Torrentantal"
++msgstr "Antal torrenter"
+ 
+ #: data/gtk/stats_dialog.ui:85 data/gtk/stats_dialog.ui:211
+ msgid "Total"
+@@ -616,7 +612,7 @@
+ 
+ #: data/gtk/torrent_dialog.ui:87 data/gtk/torrent_row.ui:235
+ msgid "Pause"
+-msgstr "Pausad"
++msgstr "Pausa"
+ 
+ #: data/gtk/torrent_dialog.ui:114 data/gtk/torrent_row.ui:252
+ msgid "Continue"
+@@ -632,7 +628,7 @@
+ 
+ #: data/gtk/torrent_dialog.ui:215
+ msgid "A Problem Has Occurred"
+-msgstr "Ett problem har inträffat"
++msgstr "Ett problem har uppstått"
+ 
+ #: data/gtk/torrent_dialog.ui:290 data/gtk/torrent_dialog.ui:379
+ msgid "Peers"
+@@ -640,7 +636,7 @@
+ 
+ #: data/gtk/torrent_dialog.ui:413
+ msgid "Receiving Files Metadata…"
+-msgstr "Tar emot filmetadata…"
++msgstr "Tar emot metadata för filer…"
+ 
+ #: data/gtk/torrent_menu.ui:6
+ msgid "_Pause"
+@@ -652,15 +648,15 @@
+ 
+ #: data/gtk/torrent_menu.ui:18
+ msgid "Queue Move _Up"
+-msgstr "Flytta _upp i kö"
++msgstr "Flytta _upp i kön"
+ 
+ #: data/gtk/torrent_menu.ui:22
+ msgid "Queue Move _Down"
+-msgstr "Flytta _ner i kö"
++msgstr "Flytta _ned i kön"
+ 
+ #: data/gtk/torrent_menu.ui:28 src/app.rs:475
+ msgid "_Open"
+-msgstr "_Öppna"
++msgstr "Öp_pna"
+ 
+ #: data/gtk/torrent_menu.ui:32 src/actions.rs:402 src/app.rs:530
+ msgid "_Remove"
+@@ -684,7 +680,7 @@
+ 
+ #: data/gtk/torrent_menu.ui:50
+ msgid "_Ask Tracker for More Peers"
+-msgstr "_Fråga bevakare efter fler motparter"
++msgstr "Fråga _spåraren efter fler motparter"
+ 
+ #: data/gtk/torrent_menu.ui:57
+ msgid "_Properties"
+@@ -719,7 +715,7 @@
+ 
+ #: data/gtk/torrent_row.ui:163
+ msgid "Torrent progress"
+-msgstr "Torrentförlopp"
++msgstr "Torrentens förlopp"
+ 
+ #: data/gtk/torrent_row.ui:190
+ msgid "Delete"
+@@ -727,11 +723,11 @@
+ 
+ #: data/gtk/torrent_row.ui:211
+ msgid "Queue – Move up"
+-msgstr "Kö – Flytta upp"
++msgstr "Kö – flytta upp"
+ 
+ #: data/gtk/torrent_row.ui:219
+ msgid "Queue – Move down"
+-msgstr "Kö – Flytta ner"
++msgstr "Kö – flytta ned"
+ 
+ #: data/gtk/window.ui:20
+ msgid "Add New Torrent"
+@@ -747,11 +743,11 @@
+ 
+ #: data/gtk/window.ui:62
+ msgid "Search torrents…"
+-msgstr "Sök torrentfiler…"
++msgstr "Sök efter torrenter…"
+ 
+ #: data/gtk/window.ui:71
+ msgid "Search torrents"
+-msgstr "Sök torrentfiler"
++msgstr "Sök efter torrenter"
+ 
+ #: data/gtk/window.ui:87
+ msgid "_Resume All"
+@@ -802,8 +798,8 @@
+ "Once removed, continuing the transfer will require the torrent file or "
+ "magnet link."
+ msgstr ""
+-"Då den tagits bort kommer torrentfilen eller magnetlänken att krävas för att "
+-"fortsätta överföringen."
++"När torrenten har tagits bort behöver du torrentfilen eller magnetlänken för"
++" att fortsätta överföringen."
+ 
+ #: src/actions.rs:400 src/app.rs:528
+ msgid "_Cancel"
+@@ -816,7 +812,7 @@
+ 
+ #: src/actions.rs:447
+ msgid "Set Torrent Location"
+-msgstr "Ställ in torrentplats"
++msgstr "Ange lagringsplats för torrent"
+ 
+ #: src/actions.rs:451 src/utils.rs:170
+ msgid "_Select"
+@@ -831,8 +827,7 @@
+ "In order to continue using the torrent, the data must be available at the "
+ "new location."
+ msgstr ""
+-"För att fortsätta använda torrentfilen måste data finnas tillgängliga på den "
+-"nya platsen."
++"För att fortsätta använda torrenten måste data finnas på den nya platsen."
+ 
+ #: src/actions.rs:464
+ msgid "_Only Change Location"
+@@ -844,7 +839,7 @@
+ 
+ #: src/actions.rs:540
+ msgid "Unable to open file / folder"
+-msgstr "Kunde inte öppna fil/mapp"
++msgstr "Kunde inte öppna fil eller mapp"
+ 
+ #: src/actions.rs:547
+ msgid "Could not open file"
+@@ -873,15 +868,15 @@
+ #. NOTE: Title of the modal when the user removes all downloaded torrents
+ #: src/app.rs:519
+ msgid "Remove all Downloaded Torrents?"
+-msgstr "Ta bort alla hämtade torrentfiler?"
++msgstr "Ta bort alla hämtade torrenter?"
+ 
+ #: src/app.rs:523
+ msgid ""
+ "This will only remove torrents from Fragments, but will keep the downloaded "
+ "content."
+ msgstr ""
+-"Detta kommer endast ta bort torrentfiler från Fragments, men kommer bevara "
+-"det hämtade innehållet."
++"Detta tar bara bort torrenterna från Fragments. Det hämtade innehållet "
++"behålls."
+ 
+ #: src/backend/connection.rs:95
+ msgid "Local Fragments session"
+@@ -933,7 +928,7 @@
+ 
+ #: src/ui/connection_box.rs:291
+ msgid "Credentials could not be saved"
+-msgstr "Autentiseringsuppgifter kunde inte sparas"
++msgstr "Inloggningsuppgifterna kunde inte sparas"
+ 
+ #: src/ui/connection_box.rs:332
+ #, rust-format
+@@ -943,9 +938,7 @@
+ #: src/ui/connection_box.rs:377
+ #, rust-format
+ msgid "Failed to establish a connection with the Transmission service (“{}”)."
+-msgstr ""
+-"Misslyckades med att etablera en anslutning till Transmission-tjänsten "
+-"(”{}”)."
++msgstr "Kunde inte upprätta en anslutning till Transmission-tjänsten (”{}”)."
+ 
+ #: src/ui/connection_row.rs:85
+ msgid "This computer"
+@@ -972,7 +965,7 @@
+ 
+ #: src/ui/preferences_dialog.rs:177
+ msgid "Unable to restart Transmission daemon"
+-msgstr "Kunde inte starta om Transmission-demon"
++msgstr "Kunde inte starta om Transmission-demonen"
+ 
+ #: src/ui/preferences_dialog.rs:356
+ msgid "Testing…"
+@@ -980,21 +973,19 @@
+ 
+ #: src/ui/preferences_dialog.rs:367
+ msgid "Port is open. You can communicate with other peers."
+-msgstr "Porten är öppen. Du kan kommunicera med andra motparter."
++msgstr "Porten är öppen. Du kan kommunicera med andra klienter."
+ 
+ #: src/ui/preferences_dialog.rs:371
+ msgid ""
+ "Port is closed. Communication with other peers is limited.\n"
+-"Check your router or firewall if port forwarding is enabled for your "
+-"computer. "
++"Check your router or firewall if port forwarding is enabled for your computer. "
+ msgstr ""
+-"Porten är öppen. Kommunikation med andra motparter är begränsad.\n"
+-"Kontrollera din router eller brandvägg för att se om vidarebefordran av "
+-"portar är aktiverad för din dator. "
++"Porten är stängd. Kommunikationen med andra klienter är begränsad.\n"
++"Kontrollera routern eller brandväggen och se om portvidarebefordran är aktiverad för datorn. "
+ 
+ #: src/ui/preferences_dialog.rs:377
+ msgid "Test failed. Make sure you are connected to the internet."
+-msgstr "Test misslyckades. Försäkra dig om att du är ansluten till internet."
++msgstr "Testet misslyckades. Kontrollera att du är ansluten till internet."
+ 
+ #: src/ui/preferences_dialog.rs:408 src/ui/stats_dialog.rs:306
+ #, rust-format
+@@ -1060,7 +1051,7 @@
+ 
+ #: src/ui/window.rs:259
+ msgid "Torrent completely downloaded"
+-msgstr "Torrent fullständigt hämtad"
++msgstr "Torrenten har hämtats helt"
+ 
+ #: src/ui/window.rs:359
+ #, rust-format

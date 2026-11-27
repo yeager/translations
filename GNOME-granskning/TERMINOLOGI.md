@@ -963,3 +963,14 @@ argumentet betyder i just det programmet.
 | shade a window | rulla ihop ett fönster | Fönsterhanteringsåtgärd. |
 | unshade a window | fälla ut ett fönster | Motsats till att rulla ihop. |
 | sticky window | fönster som visas på alla arbetsytor | Beskriv i användartext; i tillståndsutskrift används kortformen *fäst på alla arbetsytor*. |
+
+## Fragments — BitTorrent
+
+| Engelska | Svenska | Anmärkning |
+|---|---|---|
+| torrent | torrent | En överföring eller post i klienten. |
+| torrent file | torrentfil | Själva metadatafilen som öppnas/importeras. |
+| magnet link | magnetlänk | Länk som identifierar en torrent. |
+| peer | motpart | Deltagare/klient i P2P-överföringen. |
+| metered network | nätverk med datatak | Nätverk med datagräns eller avgifter. |
+| tracker | spårare | BitTorrent-tjänst som hjälper till att hitta motparter. |
