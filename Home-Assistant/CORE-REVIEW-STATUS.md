@@ -2,11 +2,11 @@
 
 Uppdaterad: 2026-11-27
 
-- Senast granskade intervallet: 66 977–67 096 (120/120).
-- Nästa position: 67 097.
-- Kvar enligt aktuell Lokalise-ordning: cirka 10 440 strängar.
-- Batchen: 23 API-skrivningar readback-verifierade; 2 föreslagna värden var redan identiska.
-- Källstatus: 109 direkta matchningar, 9 referenser till 8 mål, 2 tidigare dokumenterade källfrånvarande Renault-poster. Alla referenser matchar; platshållare 120/120; 0 pluralposter.
-- HA TMX: 35 985 poster; format- och innehållsvalidering godkänd.
+- Senast granskade intervallet: 67 097–67 216 (120/120).
+- Nästa position: 67 217.
+- Kvar enligt aktuell Lokalise-ordning: cirka 10 320 strängar.
+- Batchen: 3 ändringar sparade och API-readback-verifierade.
+- Källstatus: 113 direkta matchningar, 6 referenser till 5 mål, 1 tidigare rapporterad källfrånvarande post. Alla referenser matchar; platshållare 120/120; 0 pluralposter.
+- HA TMX: 35 988 poster; validering godkänd.
 
 Home Assistant Core-granskningen pågår.
