@@ -1,0 +1,412 @@
+[
+  {
+    "key": "component::unifiprotect::issues::insecure_camera_removed::description",
+    "key_id": "877546441",
+    "translation_id": "8909926878",
+    "en": "The camera entity `{entity_id}` used plain RTSP, which is no longer available now that streams come from the UniFi Protect public API (RTSPS only). It has been removed; use `{replacement}` instead.\n\nUpdate the following automations and scripts:\n{items}",
+    "before": "Kameraentiteten `{entity_id}` använde vanlig RTSP, vilket inte längre är tillgängligt nu när strömmar kommer från UniFi Protects publika API (endast RTSPS). Den har nu tagits bort - använd `{replacement}` istället.\n\nUppdatera följande automatiseringar och skript:\n{items}",
+    "after": "Kameraentiteten `{entity_id}` använde okrypterad RTSP, som inte längre är tillgänglig eftersom strömmarna nu hämtas via UniFi Protects offentliga API (endast RTSPS). Entiteten har tagits bort. Använd `{replacement}` i stället.\n\nUppdatera följande automatiseringar och skript:\n{items}",
+    "readback": "Kameraentiteten `{entity_id}` använde okrypterad RTSP, som inte längre är tillgänglig eftersom strömmarna nu hämtas via UniFi Protects offentliga API (endast RTSPS). Entiteten har tagits bort. Använd `{replacement}` i stället.\n\nUppdatera följande automatiseringar och skript:\n{items}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::unifiprotect::issues::rtsp_disabled::fix_flow::step::confirm::description",
+    "key_id": "877546443",
+    "translation_id": "8909927006",
+    "en": "Home Assistant could not enable an RTSPS stream for {camera}. You may need to enable a stream manually on the camera, or disable the camera entity if you only need snapshots.",
+    "before": "Home Assistant kunde inte aktivera en RTSPS-ström för {camera}. Du kan behöva aktivera strömmen manuellt på kameran, eller inaktivera kameraentiteten om du endast behöver stillbilder.",
+    "after": "Home Assistant kunde inte aktivera en RTSPS-ström för {camera}. Du kan behöva aktivera en ström manuellt på kameran eller inaktivera kameraentiteten om du bara behöver stillbilder.",
+    "readback": "Home Assistant kunde inte aktivera en RTSPS-ström för {camera}. Du kan behöva aktivera en ström manuellt på kameran eller inaktivera kameraentiteten om du bara behöver stillbilder.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::unifiprotect::issues::rtsp_disabled::fix_flow::step::start::description",
+    "key_id": "877546445",
+    "translation_id": "8909927134",
+    "en": "No RTSPS stream is available for the camera {camera}, so it cannot live stream within Home Assistant. Until a stream is enabled, live views fall back to rapidly pulling snapshots (effectively a slideshow), which can put significant load on your UniFi Protect console. Confirm this repair and Home Assistant will create the highest quality RTSPS stream for you through the UniFi Protect public API.",
+    "before": "Det finns ingen RTSPS-ström tillgänglig för kameran {camera}, vilket innebär att den inte kan livestreamas i Home Assistant. Tills en ström aktiveras faller livevisningarna tillbaka till att snabbt hämta ögonblicksbilder (i praktiken ett bildspel), vilket kan belasta din UniFi Protect-konsol avsevärt. Om du bekräftar denna åtgärd så kommer Home Assistant att skapa en RTSPS-ström av högsta kvalitet åt dig via UniFi Protects offentliga API.",
+    "after": "Kameran {camera} saknar en RTSPS-ström och kan därför inte visa direktsänd video i Home Assistant. Innan en ström aktiveras hämtas stillbilder snabbt efter varandra i stället (som ett bildspel), vilket kan belasta UniFi Protect-konsolen avsevärt. Bekräfta åtgärden så skapar Home Assistant en RTSPS-ström med högsta kvalitet via UniFi Protects offentliga API.",
+    "readback": "Kameran {camera} saknar en RTSPS-ström och kan därför inte visa direktsänd video i Home Assistant. Innan en ström aktiveras hämtas stillbilder snabbt efter varandra i stället (som ett bildspel), vilket kan belasta UniFi Protect-konsolen avsevärt. Bekräfta åtgärden så skapar Home Assistant en RTSPS-ström med högsta kvalitet via UniFi Protects offentliga API.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::steam_online::config::step::user::data_description::account",
+    "key_id": "877884339",
+    "translation_id": "8918220465",
+    "en": "Your Steam account ID (SteamID64)",
+    "before": "Ditt Steam konto-ID (SteamID64)",
+    "after": "Ditt Steam-konto-ID (SteamID64)",
+    "readback": "Ditt Steam-konto-ID (SteamID64)",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::saj::config::step::device_credentials::description",
+    "key_id": "878111762",
+    "translation_id": "8921102249",
+    "en": "The inverter requires a Wi-Fi login. Enter or correct username and password.",
+    "before": "Växelriktaren krävde inloggning via Wi-Fi. Ange eller korrigera användarnamn och lösenord.",
+    "after": "Växelriktaren kräver Wi-Fi-inloggning. Ange eller korrigera användarnamn och lösenord.",
+    "readback": "Växelriktaren kräver Wi-Fi-inloggning. Ange eller korrigera användarnamn och lösenord.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::saj::config::step::device_credentials::title",
+    "key_id": "878111763",
+    "translation_id": "8921102313",
+    "en": "Device credentials",
+    "before": "Enhetsuppgifter",
+    "after": "Inloggningsuppgifter för enheten",
+    "readback": "Inloggningsuppgifter för enheten",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::saj::config::step::user::description",
+    "key_id": "878111768",
+    "translation_id": "8921102633",
+    "en": "Configure your SAJ solar inverter. Enter the IP address or hostname. If you use Wi-Fi, username and password are optional here (open networks); if login is required you can enter them now or on the next step after we detect the inverter.",
+    "before": "Konfigurera din SAJ-solcellsväxelriktare. Ange IP-adressen eller värdnamnet. Om du använder Wi-Fi är användarnamn och lösenord valfria här (öppna nätverk). Om inloggning krävs kan du ange dem nu eller i nästa steg, efter att vi har identifierat växelriktaren.",
+    "after": "Konfigurera din SAJ-solcellsväxelriktare. Ange IP-adressen eller värdnamnet. Om du använder Wi-Fi är användarnamn och lösenord valfria här (för öppna nätverk). Om inloggning krävs kan du ange dem nu eller i nästa steg när växelriktaren har identifierats.",
+    "readback": "Konfigurera din SAJ-solcellsväxelriktare. Ange IP-adressen eller värdnamnet. Om du använder Wi-Fi är användarnamn och lösenord valfria här (för öppna nätverk). Om inloggning krävs kan du ange dem nu eller i nästa steg när växelriktaren har identifierats.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::saj::issues::deprecated_yaml_import_issue_cannot_connect::description",
+    "key_id": "878111769",
+    "translation_id": "8921102697",
+    "en": "Configuring {integration_title} using the YAML sensor platform is deprecated.\n\nHome Assistant could not reach the inverter while importing your configuration. Check the host, network, and that the device is an SAJ inverter, then restart to retry the import, or remove the `sensor` / `saj` YAML and add the integration from the UI.",
+    "before": "Konfigurering av {integration_title} med YAML sensorplattformen är föråldrat.\n\nHome Assistant kunde inte nå växelriktaren när din konfiguration importerades. Kontrollera värd, nätverk och att enheten är en SAJ-växelriktare. Starta sedan om för att försöka importera igen, eller ta bort `sensor` / `saj` från YAML och lägg till integrationen via användargränssnittet istället.",
+    "after": "Konfiguration av {integration_title} med YAML-sensorplattformen är utfasad.\n\nHome Assistant kunde inte nå växelriktaren när konfigurationen importerades. Kontrollera värdnamnet och nätverket samt att enheten är en SAJ-växelriktare. Starta sedan om för att försöka importera igen, eller ta bort YAML-konfigurationen för `sensor` / `saj` och lägg till integrationen via användargränssnittet.",
+    "readback": "Konfiguration av {integration_title} med YAML-sensorplattformen är utfasad.\n\nHome Assistant kunde inte nå växelriktaren när konfigurationen importerades. Kontrollera värdnamnet och nätverket samt att enheten är en SAJ-växelriktare. Starta sedan om för att försöka importera igen, eller ta bort YAML-konfigurationen för `sensor` / `saj` och lägg till integrationen via användargränssnittet.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::saj::issues::deprecated_yaml_import_issue_cannot_connect::title",
+    "key_id": "878111770",
+    "translation_id": "8921102761",
+    "en": "{domain} YAML configuration import failed",
+    "before": "{domain} Import av YAML-konfiguration misslyckades",
+    "after": "Det gick inte att importera {domain}-konfigurationen från YAML",
+    "readback": "Det gick inte att importera {domain}-konfigurationen från YAML",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::saj::issues::deprecated_yaml_import_issue_invalid_auth::description",
+    "key_id": "878111771",
+    "translation_id": "8921102825",
+    "en": "Configuring {integration_title} using the YAML sensor platform is deprecated.\n\nThe username or password in your YAML was rejected. Update the credentials in YAML and restart, or remove the `sensor` / `saj` YAML and set up the integration from the UI.",
+    "before": "Konfigurering av {integration_title} med YAML sensorplattformen är föråldrat.\n\nAnvändarnamnet eller lösenordet i din YAML avvisades. Uppdatera inloggningsuppgifterna i YAML och starta om, eller ta bort `sensor` / `saj` från YAML och lägg till integrationen via användargränssnittet istället.",
+    "after": "Konfiguration av {integration_title} med YAML-sensorplattformen är utfasad.\n\nAnvändarnamnet eller lösenordet i YAML-konfigurationen avvisades. Uppdatera inloggningsuppgifterna i YAML och starta om, eller ta bort YAML-konfigurationen för `sensor` / `saj` och konfigurera integrationen via användargränssnittet.",
+    "readback": "Konfiguration av {integration_title} med YAML-sensorplattformen är utfasad.\n\nAnvändarnamnet eller lösenordet i YAML-konfigurationen avvisades. Uppdatera inloggningsuppgifterna i YAML och starta om, eller ta bort YAML-konfigurationen för `sensor` / `saj` och konfigurera integrationen via användargränssnittet.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::saj::issues::deprecated_yaml_import_issue_invalid_auth::title",
+    "key_id": "878111772",
+    "translation_id": "8921102889",
+    "en": "{domain} YAML configuration import failed",
+    "before": "{domain} Import av YAML-konfiguration misslyckades",
+    "after": "Det gick inte att importera {domain}-konfigurationen från YAML",
+    "readback": "Det gick inte att importera {domain}-konfigurationen från YAML",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::saj::issues::deprecated_yaml_import_issue_unknown::description",
+    "key_id": "878111773",
+    "translation_id": "8921102953",
+    "en": "Configuring {integration_title} using the YAML sensor platform is deprecated.\n\nAn unexpected error occurred while importing your configuration. Restart Home Assistant to try again, or remove the `sensor` / `saj` YAML and add the integration from the UI.",
+    "before": "Konfigurering av {integration_title} med YAML sensorplattformen är föråldrat.\n\nEtt oväntat fel uppstod när din konfiguration importerades. Starta om Home Assistant för att försöka igen, eller ta bort `sensor` / `saj` från YAML och lägg till integrationen via användargränssnittet istället.",
+    "after": "Konfiguration av {integration_title} med YAML-sensorplattformen är utfasad.\n\nEtt oväntat fel uppstod när konfigurationen importerades. Starta om Home Assistant för att försöka igen, eller ta bort YAML-konfigurationen för `sensor` / `saj` och lägg till integrationen via användargränssnittet.",
+    "readback": "Konfiguration av {integration_title} med YAML-sensorplattformen är utfasad.\n\nEtt oväntat fel uppstod när konfigurationen importerades. Starta om Home Assistant för att försöka igen, eller ta bort YAML-konfigurationen för `sensor` / `saj` och lägg till integrationen via användargränssnittet.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::yoto::entity::switch::day_mode_auto_brightness::name",
+    "key_id": "878422180",
+    "translation_id": "8924635564",
+    "en": "Day mode automatic brightness",
+    "before": "Dagläge automatisk ljusstyrka",
+    "after": "Automatisk ljusstyrka i dagläge",
+    "readback": "Automatisk ljusstyrka i dagläge",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::yoto::entity::switch::night_mode_auto_brightness::name",
+    "key_id": "878422182",
+    "translation_id": "8924635692",
+    "en": "Night mode automatic brightness",
+    "before": "Nattläge automatisk ljusstyrka",
+    "after": "Automatisk ljusstyrka i nattläge",
+    "readback": "Automatisk ljusstyrka i nattläge",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bsblan::exceptions::coordinator_state_error::message",
+    "key_id": "878422206",
+    "translation_id": "8924636249",
+    "en": "Error while fetching state data for heating circuit {circuit} from the BSB-LAN device at {host}",
+    "before": "Fel vid hämtning av tillståndsdata för värmekretsen {circuit} från BSB-LAN-enheten på {host}",
+    "after": "Det gick inte att hämta tillståndsdata för värmekrets {circuit} från BSB-LAN-enheten på {host}.",
+    "readback": "Det gick inte att hämta tillståndsdata för värmekrets {circuit} från BSB-LAN-enheten på {host}.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bsblan::exceptions::setup_outdated_firmware::message",
+    "key_id": "878422207",
+    "translation_id": "8924636313",
+    "en": "Your BSB-LAN device is running firmware {firmware_version}, which is no longer supported. Please update your BSB-LAN board firmware to a newer version to keep using this integration.",
+    "before": "Din BSB-LAN-enhet kör firmwareversionen {firmware_version}, som inte längre stöds. Uppdatera firmware på ditt BSB-LAN-kort till en nyare version för att kunna fortsätta använda denna integration.",
+    "after": "Din BSB-LAN-enhet kör den ej längre stödda versionen {firmware_version} av den inbyggda programvaran. Uppdatera BSB-LAN-kortets inbyggda programvara till en nyare version för att fortsätta använda integrationen.",
+    "readback": "Din BSB-LAN-enhet kör den ej längre stödda versionen {firmware_version} av den inbyggda programvaran. Uppdatera BSB-LAN-kortets inbyggda programvara till en nyare version för att fortsätta använda integrationen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bsblan::issues::outdated_firmware::description",
+    "key_id": "878422208",
+    "translation_id": "8924636377",
+    "en": "Your BSB-LAN device is running firmware {firmware_version}, which uses an older JSON-API version that only supports a reduced set of features. Update your BSB-LAN firmware to enable full support, including multiple heating circuits.",
+    "before": "Din BSB-LAN-enhet kör firmwareversionen {firmware_version}, som använder en äldre version av JSON-API som endast stöder en begränsad uppsättning funktioner. Uppdatera din BSB-LAN-firmware för att få fullt stöd, inklusive flera värmekretsar.",
+    "after": "Din BSB-LAN-enhet kör version {firmware_version} av den inbyggda programvaran, som använder en äldre version av JSON-API:t med begränsat funktionsstöd. Uppdatera den inbyggda programvaran för BSB-LAN för att få fullt stöd, inklusive stöd för flera värmekretsar.",
+    "readback": "Din BSB-LAN-enhet kör version {firmware_version} av den inbyggda programvaran, som använder en äldre version av JSON-API:t med begränsat funktionsstöd. Uppdatera den inbyggda programvaran för BSB-LAN för att få fullt stöd, inklusive stöd för flera värmekretsar.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bsblan::issues::outdated_firmware::title",
+    "key_id": "878422209",
+    "translation_id": "8924636441",
+    "en": "Update your BSB-LAN firmware",
+    "before": "Uppdatera firmware för BSB-LAN",
+    "after": "Uppdatera den inbyggda programvaran för BSB-LAN",
+    "readback": "Uppdatera den inbyggda programvaran för BSB-LAN",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::synology_dsm::entity::select::fan_speed_mode::name",
+    "key_id": "878430084",
+    "translation_id": "8924847045",
+    "en": "Fan speed mode",
+    "before": "Läge för fläkthastighet",
+    "after": "Fläkthastighetsläge",
+    "readback": "Fläkthastighetsläge",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::synology_dsm::entity::select::fan_speed_mode::state::full_speed",
+    "key_id": "878430086",
+    "translation_id": "8924847173",
+    "en": "Full-speed mode",
+    "before": "Fullhastighetsläge",
+    "after": "Läge för maximal hastighet",
+    "readback": "Läge för maximal hastighet",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::battery::triggers::became_low::description",
+    "key_id": "878500724",
+    "translation_id": "8925500477",
+    "en": "Triggers when one or more batteries become low.",
+    "before": "Utlöses när en eller flera batterinivåer börjar bli låga.",
+    "after": "Utlöses när laddningsnivån för ett eller flera batterier blir låg.",
+    "readback": "Utlöses när laddningsnivån för ett eller flera batterier blir låg.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::battery::triggers::became_low::name",
+    "key_id": "878500727",
+    "translation_id": "8925500669",
+    "en": "Battery became low",
+    "before": "Batterinivå blev låg",
+    "after": "Batterinivån blev låg",
+    "readback": "Batterinivån blev låg",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::battery::triggers::no_longer_low::description",
+    "key_id": "878500728",
+    "translation_id": "8925500733",
+    "en": "Triggers when one or more batteries are no longer low.",
+    "before": "Utlöses när en eller flera batterinivåer inte längre är låga.",
+    "after": "Utlöses när laddningsnivån för ett eller flera batterier inte längre är låg.",
+    "readback": "Utlöses när laddningsnivån för ett eller flera batterier inte längre är låg.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::battery::triggers::no_longer_low::name",
+    "key_id": "878500731",
+    "translation_id": "8925500925",
+    "en": "Battery no longer low",
+    "before": "Batterinivå är inte längre låg",
+    "after": "Batterinivån är inte längre låg",
+    "readback": "Batterinivån är inte längre låg",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::climate::conditions::is_target_humidity::description",
+    "key_id": "878500732",
+    "translation_id": "8925500989",
+    "en": "Tests the humidity setpoint of one or more thermostats.",
+    "before": "Testar börvärdet för luftfuktighet för en eller flera termostater.",
+    "after": "Kontrollerar börvärdet för luftfuktighet hos en eller flera termostater.",
+    "readback": "Kontrollerar börvärdet för luftfuktighet hos en eller flera termostater.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::climate::conditions::is_target_humidity::name",
+    "key_id": "878500736",
+    "translation_id": "8925501245",
+    "en": "Thermostat target humidity",
+    "before": "Termostatens målfuktighet",
+    "after": "Termostatens börvärde för luftfuktighet",
+    "readback": "Termostatens börvärde för luftfuktighet",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::climate::conditions::is_target_temperature::description",
+    "key_id": "878500737",
+    "translation_id": "8925501309",
+    "en": "Tests the temperature setpoint of one or more thermostats.",
+    "before": "Testar börvärdet för temperaturen för en eller flera termostater.",
+    "after": "Kontrollerar temperaturbörvärdet hos en eller flera termostater.",
+    "readback": "Kontrollerar temperaturbörvärdet hos en eller flera termostater.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::climate::conditions::is_target_temperature::name",
+    "key_id": "878500741",
+    "translation_id": "8925501565",
+    "en": "Thermostat target temperature",
+    "before": "Termostatens måltemperatur",
+    "after": "Termostatens temperaturbörvärde",
+    "readback": "Termostatens temperaturbörvärde",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::lawn_mower::triggers::returned_to_dock::description",
+    "key_id": "878500742",
+    "translation_id": "8925501629",
+    "en": "Triggers when one or more lawn mowers have returned to dock.",
+    "before": "Utlöses när en eller flera gräsklippare har återvänt till dockan.",
+    "after": "Utlöses när en eller flera gräsklippare har återvänt till laddstationen.",
+    "readback": "Utlöses när en eller flera gräsklippare har återvänt till laddstationen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::lawn_mower::triggers::returned_to_dock::name",
+    "key_id": "878500745",
+    "translation_id": "8925501821",
+    "en": "Lawn mower returned to dock",
+    "before": "Gräsklippare har återvänt till dockan",
+    "after": "Gräsklipparen återvände till laddstationen",
+    "readback": "Gräsklipparen återvände till laddstationen",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::schedule::triggers::block_ended::description",
+    "key_id": "878500746",
+    "translation_id": "8925501885",
+    "en": "Triggers when one or more schedule blocks end.",
+    "before": "Utlöses när ett eller flera schemablock slutar.",
+    "after": "Utlöses när ett eller flera schemablock avslutas.",
+    "readback": "Utlöses när ett eller flera schemablock avslutas.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::schedule::triggers::block_ended::name",
+    "key_id": "878500749",
+    "translation_id": "8925502077",
+    "en": "Schedule block ended",
+    "before": "Schemablock avslutat",
+    "after": "Schemablocket avslutades",
+    "readback": "Schemablocket avslutades",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::schedule::triggers::block_started::name",
+    "key_id": "878500753",
+    "translation_id": "8925502333",
+    "en": "Schedule block started",
+    "before": "Schemablock startat",
+    "after": "Schemablocket började",
+    "readback": "Schemablocket började",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::timer::triggers::remaining_time_reached::description",
+    "key_id": "878500754",
+    "translation_id": "8925502397",
+    "en": "Triggers when one or more timers reach a specific remaining time.",
+    "before": "Utlöses när en eller fler timers når en specifik kvarvarande tid.",
+    "after": "Utlöses när en eller flera timers når en viss återstående tid.",
+    "readback": "Utlöses när en eller flera timers når en viss återstående tid.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::timer::triggers::remaining_time_reached::name",
+    "key_id": "878500756",
+    "translation_id": "8925502525",
+    "en": "Timer remaining time reached",
+    "before": "Timer återstående tid uppnådd",
+    "after": "Timern nådde den angivna återstående tiden",
+    "readback": "Timern nådde den angivna återstående tiden",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::vacuum::triggers::returned_to_dock::description",
+    "key_id": "878500761",
+    "translation_id": "8925502845",
+    "en": "Triggers when one or more vacuum cleaners have returned to dock.",
+    "before": "Utlöses när en eller fler dammsugare har återvänt till dockan.",
+    "after": "Utlöses när en eller flera dammsugare har återvänt till laddstationen.",
+    "readback": "Utlöses när en eller flera dammsugare har återvänt till laddstationen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::vacuum::triggers::returned_to_dock::name",
+    "key_id": "878500764",
+    "translation_id": "8925503037",
+    "en": "Vacuum cleaner returned to dock",
+    "before": "Dammsugaren återvände till dockan",
+    "after": "Dammsugaren återvände till laddstationen",
+    "readback": "Dammsugaren återvände till laddstationen",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::renault::entity::sensor::charge_state::state::v2g_charging_normal",
+    "key_id": "878507213",
+    "translation_id": "8925560560",
+    "en": "Vehicle to grid charging",
+    "before": "Vehicle to grid-laddning",
+    "after": "Laddning från fordon till elnät (V2G)",
+    "readback": "Laddning från fordon till elnät (V2G)",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::renault::entity::sensor::charge_state::state::v2g_charging_waiting",
+    "key_id": "878507214",
+    "translation_id": "8925560624",
+    "en": "Vehicle to grid charging waiting",
+    "before": "Vehicle to grid-laddning väntar",
+    "after": "Laddning från fordon till elnät väntar (V2G)",
+    "readback": "Laddning från fordon till elnät väntar (V2G)",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::renault::entity::sensor::charge_state::state::v2g_discharging",
+    "key_id": "878507215",
+    "translation_id": "8925560688",
+    "en": "Vehicle to grid discharging",
+    "before": "Vehicle to grid-urladdning",
+    "after": "Urladdning från fordon till elnät (V2G)",
+    "readback": "Urladdning från fordon till elnät (V2G)",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::renault::entity::sensor::charge_state::state::v2l_connected",
+    "key_id": "878507216",
+    "translation_id": "8925560752",
+    "en": "Vehicle to load connected",
+    "before": "Vehicle to load anslutet",
+    "after": "Fordonet försörjer extern utrustning (V2L)",
+    "readback": "Fordonet försörjer extern utrustning (V2L)",
+    "status": "saved-and-read-back"
+  }
+]
