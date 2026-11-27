@@ -1,0 +1,422 @@
+[
+  {
+    "key": "component::google_health::exceptions::auth_error::message",
+    "key_id": "887909719",
+    "translation_id": "9055895228",
+    "en": "Authentication or permission error talking to Google Health.",
+    "before": "Autentiserings- eller behörighetsfel vid kommunikation med Google Health.",
+    "after": "Autentiserings- eller behörighetsfel vid kommunikation med Google Health.",
+    "readback": "Autentiserings- eller behörighetsfel vid kommunikation med Google Health.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::neopool::entity::sensor::measure_cl::name",
+    "key_id": "887804184",
+    "translation_id": "9054147040",
+    "en": "Salt level",
+    "before": "Saltnivå",
+    "after": "Salthalt",
+    "readback": "Salthalt",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::neopool::entity::sensor::measure_conductivity::name",
+    "key_id": "887804185",
+    "translation_id": "9054147104",
+    "en": "Conductivity level",
+    "before": "Konduktivitetsnivå",
+    "after": "Konduktivitet",
+    "readback": "Konduktivitet",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::neopool::entity::sensor::ph_pump_status::state::acid",
+    "key_id": "887804189",
+    "translation_id": "9054147360",
+    "en": "Acid pump",
+    "before": "Syrapump",
+    "after": "Syradoseringspump",
+    "readback": "Syradoseringspump",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::neopool::entity::sensor::ph_pump_status::state::base",
+    "key_id": "887804190",
+    "translation_id": "9054147424",
+    "en": "Base pump",
+    "before": "Baspump",
+    "after": "Basdoseringspump",
+    "readback": "Basdoseringspump",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::neopool::entity::sensor::ph_status_alarm::state::pump_stopped",
+    "key_id": "887804200",
+    "translation_id": "9054148064",
+    "en": "Pump stopped (exceeded working time)",
+    "before": "Pumpen stoppad (överskriden arbetstid)",
+    "after": "Pumpen har stannat (drifttiden har överskridits)",
+    "readback": "Pumpen har stannat (drifttiden har överskridits)",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::neopool::entity::sensor::ph_status_alarm::state::tank_level",
+    "key_id": "887804201",
+    "translation_id": "9054148128",
+    "en": "Tank level alarm",
+    "before": "Tanknivålarm",
+    "after": "Larm om tanknivå",
+    "readback": "Larm om tanknivå",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::neopool::issues::corrupted_gpio::description",
+    "key_id": "887804203",
+    "translation_id": "9054148256",
+    "en": "The following GPIO register(s) on your pool controller contain invalid values:\n\n{details}\n\nThis typically happens when the Modbus gateway framing mode does not match the integration's framer setting. The affected function(s) will not work correctly until the register(s) are restored to valid values.\n\nSee the integration documentation for repair instructions.",
+    "before": "Följande GPIO-register på din poolkontroller innehåller ogiltiga värden:\n\n{details}\n\nDetta händer vanligtvis när Modbus-gatewayens framing-läge inte matchar integrationens framer-inställning. De berörda funktionerna kommer inte att fungera korrekt förrän registret har återställts till giltiga värden.\n\nSe integrationsdokumentationen för reparationsinstruktioner.",
+    "after": "Följande GPIO-register på poolstyrenheten innehåller ogiltiga värden:\n\n{details}\n\nDetta beror vanligtvis på att Modbus-gatewayens inramningsläge inte överensstämmer med integrationens inställning för inramningsläge. De berörda funktionerna fungerar inte korrekt förrän registren har återställts till giltiga värden.\n\nSe integrationsdokumentationen för reparationsanvisningar.",
+    "readback": "Följande GPIO-register på poolstyrenheten innehåller ogiltiga värden:\n\n{details}\n\nDetta beror vanligtvis på att Modbus-gatewayens inramningsläge inte överensstämmer med integrationens inställning för inramningsläge. De berörda funktionerna fungerar inte korrekt förrän registren har återställts till giltiga värden.\n\nSe integrationsdokumentationen för reparationsanvisningar.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::neopool::issues::corrupted_gpio::title",
+    "key_id": "887804204",
+    "translation_id": "9054148320",
+    "en": "Corrupted GPIO register(s) detected",
+    "before": "Korrupta GPIO-register upptäckta",
+    "after": "Ogiltiga GPIO-register upptäcktes",
+    "readback": "Ogiltiga GPIO-register upptäcktes",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::google_health::application_credentials::description",
+    "key_id": "887909700",
+    "translation_id": "9055894012",
+    "en": "Follow the [instructions]({more_info_url}) for [OAuth consent screen]({oauth_consent_url}) to give Home Assistant access to your Google Health data. You also need to create Application Credentials linked to your account:\n1. Go to [Credentials]({oauth_creds_url}) and select **Create Credentials**.\n1. From the drop-down list select **OAuth client ID**.\n1. Select **Web application** for the Application Type.",
+    "before": "Följ [instruktionerna]({more_info_url}) för [OAuth-samtyckesskärmen]({oauth_consent_url}) för att ge Home Assistant åtkomst till Google Health-data. Du måste också skapa autentiseringsuppgifter för appen, kopplade till kontot:\n1. Gå till [Credentials]({oauth_creds_url}) och välj **Create Credentials**.\n1. Välj **OAuth client ID** i listrutan.\n1. Välj **Web application** som applikationstyp.",
+    "after": "Följ [anvisningarna]({more_info_url}) för [OAuth-medgivandeskärmen]({oauth_consent_url}) så att Home Assistant får åtkomst till dina Google Health-data. Du måste också skapa appautentiseringsuppgifter som är kopplade till ditt konto:\n1. Gå till [Credentials]({oauth_creds_url}) och välj **Create Credentials**.\n1. Välj **OAuth client ID** i listrutan.\n1. Välj **Web application** som applikationstyp.",
+    "readback": "Följ [anvisningarna]({more_info_url}) för [OAuth-medgivandeskärmen]({oauth_consent_url}) så att Home Assistant får åtkomst till dina Google Health-data. Du måste också skapa appautentiseringsuppgifter som är kopplade till ditt konto:\n1. Gå till [Credentials]({oauth_creds_url}) och välj **Create Credentials**.\n1. Välj **OAuth client ID** i listrutan.\n1. Välj **Web application** som applikationstyp.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::google_health::config::abort::missing_profile_scope",
+    "key_id": "887909706",
+    "translation_id": "9055894396",
+    "en": "Missing required Google Health profile read permission. Please try again and select the right permission.",
+    "before": "Saknar nödvändig läsbehörigheter för Google Hälsoprofilen. Försök igen och välj rätt behörighet.",
+    "after": "Nödvändig läsbehörighet till Google Health-profilen saknas. Försök igen och välj rätt behörighet.",
+    "readback": "Nödvändig läsbehörighet till Google Health-profilen saknas. Försök igen och välj rätt behörighet.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::google_health::exceptions::missing_profile_scope::message",
+    "key_id": "887909721",
+    "translation_id": "9055895356",
+    "en": "Missing required Google Health profile read permission.",
+    "before": "Det saknas nödvändiga läsbehörigheter för Google Health-profilen.",
+    "after": "Nödvändig läsbehörighet till Google Health-profilen saknas.",
+    "readback": "Nödvändig läsbehörighet till Google Health-profilen saknas.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::google_health::exceptions::communication_error::message",
+    "key_id": "887909720",
+    "translation_id": "9055895292",
+    "en": "Error communicating with Google Health.",
+    "before": "Fel vid kommunikation med Google Health.",
+    "after": "Det gick inte att kommunicera med Google Health.",
+    "readback": "Det gick inte att kommunicera med Google Health.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::google_health::config::abort::api_not_enabled",
+    "key_id": "888633946",
+    "translation_id": "9067006271",
+    "en": "The Google Health API is not enabled for your Google Cloud project. Enable it in the [Google Cloud Console]({url}), wait a few minutes for the change to propagate, then try again.",
+    "before": "Google Health API är inte aktiverat för ditt Google Cloud-projekt. Aktivera det i [Google Cloud Console]({url}), vänta några minuter tills ändringen har trätt i kraft och försök sedan igen.",
+    "after": "Google Health API är inte aktiverat för ditt Google Cloud-projekt. Aktivera det i [Google Cloud Console]({url}), vänta några minuter tills ändringen har börjat gälla och försök sedan igen.",
+    "readback": "Google Health API är inte aktiverat för ditt Google Cloud-projekt. Aktivera det i [Google Cloud Console]({url}), vänta några minuter tills ändringen har börjat gälla och försök sedan igen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::google_health::config::step::reauth_confirm::description",
+    "key_id": "888090342",
+    "translation_id": "9060108488",
+    "en": "The Google Health integration needs to re-authenticate your account",
+    "before": "Google Health-integrationen kräver att du autentiserar ditt konto på nytt",
+    "after": "Google Health-integrationen behöver autentisera ditt konto på nytt.",
+    "readback": "Google Health-integrationen behöver autentisera ditt konto på nytt.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::teslemetry::exceptions::update_failed_insufficient_credits::message",
+    "key_id": "888032772",
+    "translation_id": "9058476240",
+    "en": "Teslemetry account has insufficient command credits, pausing updates until credits are added",
+    "before": "Det finns inte tillräckligt med kommandokrediter på Teslemetry-kontot, vilket innebär att uppdateringarna pausas tills fler krediter har lagts till",
+    "after": "Teslemetry-kontot har för få kommandokrediter. Uppdateringarna pausas tills fler krediter har lagts till.",
+    "readback": "Teslemetry-kontot har för få kommandokrediter. Uppdateringarna pausas tills fler krediter har lagts till.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::luci::issues::yaml_import_cannot_connect::description",
+    "key_id": "888596805",
+    "translation_id": "9066435775",
+    "en": "The YAML configuration for OpenWrt (luci) at `{host}` could not be imported because the connection failed.\n\nPlease check that `{host}` is reachable, update your `configuration.yaml` if needed, and restart Home Assistant.",
+    "before": "YAML-konfigurationen för OpenWrt (luci) på `{host}` kunde inte importeras eftersom anslutningen misslyckades.\n\nKontrollera att `{host}` är nåbar, uppdatera din `configuration.yaml` om det behövs och starta om Home Assistant.",
+    "after": "YAML-konfigurationen för OpenWrt (luci) på `{host}` kunde inte importeras eftersom anslutningen misslyckades.\n\nKontrollera att `{host}` går att nå, uppdatera `configuration.yaml` vid behov och starta om Home Assistant.",
+    "readback": "YAML-konfigurationen för OpenWrt (luci) på `{host}` kunde inte importeras eftersom anslutningen misslyckades.\n\nKontrollera att `{host}` går att nå, uppdatera `configuration.yaml` vid behov och starta om Home Assistant.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::luci::issues::yaml_import_cannot_connect::title",
+    "key_id": "888596806",
+    "translation_id": "9066435839",
+    "en": "YAML configuration import failed: cannot connect",
+    "before": "Import av YAML-konfigurationen misslyckades: går inte att ansluta",
+    "after": "Det gick inte att importera YAML-konfigurationen: anslutningen misslyckades",
+    "readback": "Det gick inte att importera YAML-konfigurationen: anslutningen misslyckades",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::luci::issues::yaml_import_invalid_auth::description",
+    "key_id": "888596807",
+    "translation_id": "9066435903",
+    "en": "The YAML configuration for OpenWrt (luci) at `{host}` could not be imported because the credentials are invalid.\n\nPlease update your `configuration.yaml` with valid credentials and restart Home Assistant.",
+    "before": "YAML-konfigurationen för OpenWrt (luci) på `{host}` kunde inte importeras eftersom inloggningsuppgifterna är ogiltiga.\n\nUppdatera din `configuration.yaml` med giltiga inloggningsuppgifter och starta om Home Assistant.",
+    "after": "YAML-konfigurationen för OpenWrt (luci) på `{host}` kunde inte importeras eftersom inloggningsuppgifterna är ogiltiga.\n\nUppdatera `configuration.yaml` med giltiga inloggningsuppgifter och starta om Home Assistant.",
+    "readback": "YAML-konfigurationen för OpenWrt (luci) på `{host}` kunde inte importeras eftersom inloggningsuppgifterna är ogiltiga.\n\nUppdatera `configuration.yaml` med giltiga inloggningsuppgifter och starta om Home Assistant.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::luci::issues::yaml_import_invalid_auth::title",
+    "key_id": "888596808",
+    "translation_id": "9066435967",
+    "en": "YAML configuration import failed: invalid authentication",
+    "before": "Import av YAML-konfiguration misslyckades: ogiltig autentisering",
+    "after": "Det gick inte att importera YAML-konfigurationen: ogiltig autentisering",
+    "readback": "Det gick inte att importera YAML-konfigurationen: ogiltig autentisering",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::melcloud_home::entity::sensor::energy_consumed::name",
+    "key_id": "888691555",
+    "translation_id": "9068121166",
+    "en": "Energy consumed (monthly)",
+    "before": "Förbrukad energi (månadsvis)",
+    "after": "Energiförbrukning (månad)",
+    "readback": "Energiförbrukning (månad)",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::upnp::entity::sensor::download_speed_no_rollover_handling::name",
+    "key_id": "888718721",
+    "translation_id": "9068275148",
+    "en": "Download speed (no rollover handling)",
+    "before": "Nedladdningshastighet (utan rollover-hantering)",
+    "after": "Nedladdningshastighet (utan hantering av räknaröverslag)",
+    "readback": "Nedladdningshastighet (utan hantering av räknaröverslag)",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::upnp::entity::sensor::packet_download_speed_no_rollover_handling::name",
+    "key_id": "888718722",
+    "translation_id": "9068275212",
+    "en": "Packet download speed (no rollover handling)",
+    "before": "Nedladdningshastighet för paket (utan rollover-hantering)",
+    "after": "Paketnedladdningshastighet (utan hantering av räknaröverslag)",
+    "readback": "Paketnedladdningshastighet (utan hantering av räknaröverslag)",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::upnp::entity::sensor::packet_upload_speed_no_rollover_handling::name",
+    "key_id": "888718723",
+    "translation_id": "9068275276",
+    "en": "Packet upload speed (no rollover handling)",
+    "before": "Uppladdningshastighet för paket (utan rollover-hantering)",
+    "after": "Paketuppladdningshastighet (utan hantering av räknaröverslag)",
+    "readback": "Paketuppladdningshastighet (utan hantering av räknaröverslag)",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::upnp::entity::sensor::upload_speed_no_rollover_handling::name",
+    "key_id": "888718724",
+    "translation_id": "9068275340",
+    "en": "Upload speed (no rollover handling)",
+    "before": "Uppladdningshastighet (utan rollover-hantering)",
+    "after": "Uppladdningshastighet (utan hantering av räknaröverslag)",
+    "readback": "Uppladdningshastighet (utan hantering av räknaröverslag)",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::portainer::entity::update::container_image_update::name",
+    "key_id": "888747892",
+    "translation_id": "9068463572",
+    "en": "Image update available",
+    "before": "Avbildningsuppdatering tillgänglig",
+    "after": "Uppdatering av containeravbildning tillgänglig",
+    "readback": "Uppdatering av containeravbildning tillgänglig",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::wmspro::services::set_cover_position_and_tilt::description",
+    "key_id": "888748674",
+    "translation_id": "9068474396",
+    "en": "Moves the cover and tilt to the target position simultaneously, preventing cancellation of individual movements.",
+    "before": "Flyttar skyddet och ställer in lutningen samtidigt till de angivna mållägena, så att de enskilda rörelserna inte avbryter varandra.",
+    "after": "Flyttar solskyddet till målpositionen och ställer samtidigt in lutningen, så att rörelserna inte avbryter varandra.",
+    "readback": "Flyttar solskyddet till målpositionen och ställer samtidigt in lutningen, så att rörelserna inte avbryter varandra.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::wmspro::services::set_cover_position_and_tilt::fields::position::description",
+    "key_id": "888748675",
+    "translation_id": "9068474460",
+    "en": "Target vertical position. 0 means closed, 100 means fully open.",
+    "before": "Vertikalt målläge. 0 betyder stängt, 100 betyder helt öppet.",
+    "after": "Målposition i höjdled. 0 betyder stängt och 100 helt öppet.",
+    "readback": "Målposition i höjdled. 0 betyder stängt och 100 helt öppet.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::wmspro::services::set_cover_position_and_tilt::fields::tilt_position::description",
+    "key_id": "888748677",
+    "translation_id": "9068474588",
+    "en": "Target tilt position.",
+    "before": "Målposition för lutning.",
+    "after": "Målläge för lutningen.",
+    "readback": "Målläge för lutningen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::wmspro::services::set_cover_position_and_tilt::fields::tilt_position::name",
+    "key_id": "888748678",
+    "translation_id": "9068474652",
+    "en": "Tilt position",
+    "before": "Lutningsposition",
+    "after": "Lutningsläge",
+    "readback": "Lutningsläge",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::wmspro::services::set_cover_position_and_tilt::name",
+    "key_id": "888748679",
+    "translation_id": "9068474716",
+    "en": "Set cover position and tilt",
+    "before": "Ställ in skyddets position och lutning",
+    "after": "Ställ in solskyddets position och lutning",
+    "readback": "Ställ in solskyddets position och lutning",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::surepetcare::exceptions::invalid_flap_id::message",
+    "key_id": "888761586",
+    "translation_id": "9068544794",
+    "en": "Unknown Sure Petcare flap ID: {flap_id}",
+    "before": "Okänt Sure Petcare luck-ID: {flap_id}",
+    "after": "Okänt luck-ID för Sure Petcare: {flap_id}",
+    "readback": "Okänt luck-ID för Sure Petcare: {flap_id}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::surepetcare::exceptions::invalid_pet_name::message",
+    "key_id": "888761587",
+    "translation_id": "9068544858",
+    "en": "Unknown Sure Petcare pet: {pet_name}",
+    "before": "Okänt Sure Petcare-husdjur: {pet_name}",
+    "after": "Okänt husdjur hos Sure Petcare: {pet_name}",
+    "readback": "Okänt husdjur hos Sure Petcare: {pet_name}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::html5::issues::deprecated_event_bus::description",
+    "key_id": "888761595",
+    "translation_id": "9068544967",
+    "en": "Detected **{listeners}** listener(s) for the event `{event}`.\n\nThe HTML5 Push Notifications integration firing events on the event bus is deprecated and this functionality will be removed in a future release.\n\nPlease update your automations and scripts to use the event entities instead.\n\n## Example automation:\n\n{example_yaml}",
+    "before": "Upptäckte **{listeners}** lyssnare för händelse `{event}`.\n\nHTML5 Push Notifications-integrationen som utlöser händelser på händelsebussen är föråldrad och den här funktionen kommer att tas bort i en framtida version.\n\nUppdatera dina automatiseringar och skript för att använda händelseentiteterna istället.\n\n## Exempel på automatisering:\n\n{example_yaml}",
+    "after": "**{listeners}** lyssnare upptäcktes för händelsen `{event}`.\n\nDet är föråldrat att HTML5 Push Notifications-integrationen utlöser händelser på händelsebussen. Funktionen tas bort i en framtida version.\n\nÄndra dina automatiseringar och skript så att de använder händelseentiteter i stället.\n\n## Exempel på automatisering\n\n{example_yaml}",
+    "readback": "**{listeners}** lyssnare upptäcktes för händelsen `{event}`.\n\nDet är föråldrat att HTML5 Push Notifications-integrationen utlöser händelser på händelsebussen. Funktionen tas bort i en framtida version.\n\nÄndra dina automatiseringar och skript så att de använder händelseentiteter i stället.\n\n## Exempel på automatisering\n\n{example_yaml}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::lg_thinq::entity::climate::climate_air_conditioner::state_attributes::fan_mode::state::low_mid",
+    "key_id": "888761607",
+    "translation_id": "9068545281",
+    "en": "Low medium",
+    "before": "Låg medel",
+    "after": "Låg–medel",
+    "readback": "Låg–medel",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::lg_thinq::entity::climate::climate_air_conditioner::state_attributes::fan_mode::state::mid_high",
+    "key_id": "888761608",
+    "translation_id": "9068545345",
+    "en": "Medium high",
+    "before": "Medelhög",
+    "after": "Medel–hög",
+    "readback": "Medel–hög",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::lg_thinq::entity::climate::climate_air_conditioner::state_attributes::fan_mode::state::slow_low",
+    "key_id": "888761609",
+    "translation_id": "9068545409",
+    "en": "Super low",
+    "before": "Superlåg",
+    "after": "Extra låg",
+    "readback": "Extra låg",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::tessie::entity::text::navigation_destination::name",
+    "key_id": "888762369",
+    "translation_id": "9068580778",
+    "en": "Navigation destination",
+    "before": "Navigeringsdestination",
+    "after": "Navigationsmål",
+    "readback": "Navigationsmål",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::liebherr::entity::cover::auto_door_bottom_zone::name",
+    "key_id": "888762528",
+    "translation_id": "9068582948",
+    "en": "Bottom zone AutoDoor",
+    "before": "Bottenzon AutoDoor",
+    "after": "AutoDoor – nedre zon",
+    "readback": "AutoDoor – nedre zon",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::liebherr::entity::cover::auto_door_middle_zone::name",
+    "key_id": "888762529",
+    "translation_id": "9068583012",
+    "en": "Middle zone AutoDoor",
+    "before": "Mellanzon AutoDoor",
+    "after": "AutoDoor – mittzon",
+    "readback": "AutoDoor – mittzon",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::liebherr::entity::cover::auto_door_top_zone::name",
+    "key_id": "888762530",
+    "translation_id": "9068583076",
+    "en": "Top zone AutoDoor",
+    "before": "Övre zon AutoDoor",
+    "after": "AutoDoor – övre zon",
+    "readback": "AutoDoor – övre zon",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::liebherr::exceptions::cannot_connect::message",
+    "key_id": "888925628",
+    "translation_id": "9071423890",
+    "en": "Failed to connect to the Liebherr API",
+    "before": "Det gick inte att ansluta till Liebherr API",
+    "after": "Det gick inte att ansluta till Liebherr-API:t.",
+    "readback": "Det gick inte att ansluta till Liebherr-API:t.",
+    "status": "saved-and-read-back"
+  }
+]
