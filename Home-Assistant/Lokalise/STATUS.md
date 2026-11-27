@@ -2480,3 +2480,9 @@ Senaste position: **59 776** av 77 656. Nästa: **59 777**; **17 880 återstår*
 120 positioner granskades: 97 aktuella strängar  15 referenser och 8 uppföljningar. 55 ändringar sparades och lästes tillbaka. Alla 15 referenser matchar. Platshållare 120/120; inga pluralnycklar.
 
 Senaste position: **59 896** av 77 656. Nästa: **59 897**; **17 760 återstår**. Granskningen fortsätter.
+
+### Batch: 59 897–60 016
+
+120 positioner granskades: 79 aktuella strängar  37 referenser och 4 uppföljningar. 55 ändringar sparades och lästes tillbaka. Alla 37 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **60 016** av 77 656. Nästa: **60 017**; **17 640 återstår**. Granskningen fortsätter.
