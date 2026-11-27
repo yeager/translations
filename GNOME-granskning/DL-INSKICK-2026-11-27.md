@@ -4,6 +4,7 @@ Färdiggranskade kataloger som laddats upp via API. Uppladdning verifieras mot a
 
 | Modul | Gren | Domän | Ändrade PO-poster | Verifiering |
 |---|---|---|---:|---|
+| Errands | main | po | 6 | Uppladdad 00:43 UTC; aktivitetssidan bekräftar sammanslagning 179/0/0. Statistik-API:t visar ännu 173/3/3. |
 | libsoup | master | po | 19 | Uppladdad 00:32 UTC; aktivitetssidan bekräftar sammanslagning 40/0/0. Statistik-API:t visar ännu 37/1/2. |
 | realmd | master | po | 27 | Uppladdad 00:22 UTC; aktivitetssidan bekräftar sammanslagning 139/0/0. Statistik-API:t visar ännu 119/10/10. |
 | d-spy | main | po | 14 | Uppladdad 00:12 UTC med ”Granskad och klar”; aktivitetssidan bekräftar sammanslagning 79/0/0. API-statistiken är ännu 68/4/7. |
@@ -11,5 +12,5 @@ Färdiggranskade kataloger som laddats upp via API. Uppladdning verifieras mot a
 
 ## Status
 
-- Uppladdade och verifierade händelser: **4**.
-- Sammanslagna: `phodav/master/po` (32/0/0), `d-spy/main/po` (79/0/0) och `realmd/master/po` (139/0/0) och `libsoup/master/po` (40/0/0). Deras statistik-API visar ännu äldre värden.
+- Uppladdade och verifierade händelser: **5**.
+- Sammanslagna: `phodav/master/po` (32/0/0), `d-spy/main/po` (79/0/0) och `realmd/master/po` (139/0/0) `libsoup/master/po` (40/0/0) och `Errands/main/po` (179/0/0). Deras statistik-API visar ännu äldre värden.
