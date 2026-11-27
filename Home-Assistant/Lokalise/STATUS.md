@@ -2456,3 +2456,9 @@ Senaste position: **59 296** av 77 656. Nästa: **59 297**; **18 360 återstår*
 120 positioner granskades: 59 aktuella strängar  58 referenser och 3 uppföljningar. 18 ändringar i spannet och 2 retroaktiva SQL-måländringar sparades och lästes tillbaka; alla 58 referenser matchar efter skrivning. Platshållare 120/120; pluralnycklar 0.
 
 Senaste position: **59 416** av 77 656. Nästa: **59 417**; **18 240 återstår**. Granskningen fortsätter.
+
+### Batch: 59 417–59 536
+
+120 positioner granskades: 60 aktuella strängar  32 referenser och 28 uppföljningar. 24 ändringar i spannet och 7 retroaktiva Modbus-rättelser  totalt 31 poster  sparades och lästes tillbaka. Alla 32 referenser matchar. Platshållare 120/120; inga pluraler.
+
+Senaste position: **59 536** av 77 656. Nästa: **59 537**; **18 120 återstår**. Granskningen fortsätter.
