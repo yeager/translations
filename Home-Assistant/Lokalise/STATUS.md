@@ -2396,3 +2396,9 @@ Senaste position: **58 096** av 77 656. Nästa: **58 097**; **19 560 återstår*
 120 positioner granskades: 76 aktuella strängar  31 referenser och 13 dokumenterade äldre sökvägar (sju källor flyttade  sex saknar motsvarande nyckel). 16 rättelser sparades och API-lästes tillbaka. Referenser 31/31; flyttade källor 7/7; platshållare 120/120. HA-TMX validerar.
 
 Senaste position: **58 216** av 77 656. Nästa: **58 217**; **19 440 återstår**. Granskningen fortsätter.
+
+### Batch: 58 217–58 336
+
+120 positioner granskades: 92 aktuella strängar  20 referenser och åtta tidigare dokumenterade nycklar utan aktuell källväg. 19 rättelser sparades och API-lästes tillbaka. Referenser 20/20; platshållare 120/120. HA-TMX validerar.
+
+Senaste position: **58 336** av 77 656. Nästa: **58 337**; **19 320 återstår**. Granskningen fortsätter.
