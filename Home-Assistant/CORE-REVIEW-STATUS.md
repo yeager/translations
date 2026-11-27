@@ -2,12 +2,13 @@
 
 Uppdaterad: 2026-11-27
 
-- Senast granskade intervallet: 67 457–67 576 (120/120).
-- Nästa position: 67 577.
-- Kvar enligt aktuell Lokalise-ordning: cirka 9 960 strängar.
-- Batchen: 24 nya skrivningar i Lokalise; 7 redan korrekta värden; samtliga 31 readback-verifierade.
-- Källstatus: 82 direkta matchningar, 35 referenser till 35 mål; 15 referensrader synkade. Platshållare 120/120; 0 pluralposter; 3 historiska källfrånvarande nycklar dokumenterade.
-- HA TMX: 36 015 poster; validering godkänd.
-- Hunspell-sv: `Imou`/`Imous` och `apphemlighet` med böjningar tillagda; 19/19 tester godkända. Ingen ny release skapad i dag.
+- Senast granskade intervallet: 67 577–67 696 (120/120).
+- Nästa position: 67 697.
+- Kvar enligt aktuell Lokalise-ordning: cirka 9 840 strängar.
+- Batchen: 10 nya skrivningar i Lokalise; en föreslagen text var redan korrekt; alla 11 slutvärden API-readback-verifierade.
+- Källstatus: 104 direkta matchningar, 13 referenser till 11 mål; alla referenser matchar. Platshållare 120/120; 0 pluralposter; 3 historiska källfrånvarande nycklar dokumenterade.
+- Osäker uppföljning: verifiera Hydro-Québecs svenska term för “Peak event” och primär translitterering av “Tset Hakochavim”.
+- HA TMX: 36 026 poster; validering godkänd.
+- Hunspell-sv: datapunkttyp och böjningar tillagda; 19/19 tester godkända. Ingen ny release skapad i dag.
 
 Home Assistant Core-granskningen pågår.
