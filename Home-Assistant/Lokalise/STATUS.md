@@ -2314,7 +2314,7 @@ Senaste granskade position: **56 656** av 77 656. Nästa position: **56 657**; *
 
 ## Sekventiell granskningsmarkör – 2026-11-27
 
-Senaste granskade position: **57 016** av 77 656. Nästa position: **57 017**; **20 640 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+Senaste granskade position: **57 136** av 77 656. Nästa position: **57 137**; **20 520 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
 
 
 ### Batch: 56 777–56 896
@@ -2323,7 +2323,7 @@ Senaste granskade position: **57 016** av 77 656. Nästa position: **57 017**; *
 
 ## Sekventiell granskningsmarkör – 2026-11-27
 
-Senaste granskade position: **57 016** av 77 656. Nästa position: **57 017**; **20 640 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+Senaste granskade position: **57 136** av 77 656. Nästa position: **57 137**; **20 520 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
 
 ### Batch: 56,897–57,016
 
@@ -2331,4 +2331,12 @@ Senaste granskade position: **57 016** av 77 656. Nästa position: **57 017**; *
 
 ## Sekventiell granskningsmarkör – 2026-11-27
 
-Senaste granskade position: **57 016** av 77 656. Nästa position: **57 017**; **20 640 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+Senaste granskade position: **57 136** av 77 656. Nästa position: **57 137**; **20 520 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+
+### Batch: 57,017–57,136
+
+120 positioner radgranskades: 92 direkta aktuella strängar, 24 referenser och fyra tidigare dokumenterade nycklar utan aktuell källväg. 42 rättelser sparades och API-lästes tillbaka; alla 24 referenser matchar sina mål. Platshållare 120/120, inga pluralnycklar. `svlang` hittade inga skrivregelfel. Hunspell-sv uppdaterades med TLS och regressioner; testsviten passerade 19/19. Ingen ny release skapades. TMX validerar med 35 753 poster; manifestet innehåller 116 aktiva poster.
+
+## Sekventiell granskningsmarkör – 2026-11-27
+
+Senaste granskade position: **57 136** av 77 656. Nästa position: **57 137**; **20 520 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.

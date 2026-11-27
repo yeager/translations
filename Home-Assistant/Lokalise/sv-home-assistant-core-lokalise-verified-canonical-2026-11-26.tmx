@@ -13252,9 +13252,10 @@ F\u00f6r att l\u00f6sa problemet tar du bort de numera obrukbara integrationspos
       <prop type="source">component::openevse::exceptions::invalid_value::message</prop>
       <prop type="lokalise-key-id">856977886</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Value {value} is invalid for the charger.</seg>
       </tuv>
@@ -14031,9 +14032,10 @@ Vill du lägga till {name} i Home Assistant?</seg></tuv></tu>
       <prop type="source">component::pooldose::exceptions::connect_timeout::message</prop>
       <prop type="lokalise-key-id">857959052</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Timeout connecting to PoolDose device</seg>
       </tuv>
@@ -14045,9 +14047,10 @@ Vill du lägga till {name} i Home Assistant?</seg></tuv></tu>
       <prop type="source">component::pooldose::exceptions::connect_failed::message</prop>
       <prop type="lokalise-key-id">857959051</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Failed to connect to PoolDose device</seg>
       </tuv>
@@ -19112,9 +19115,10 @@ Avvecklingsdatum: {retirement_date}</seg></tuv></tu>
       <prop type="source">component::arcam_fmj::config::error::connection_refused</prop>
       <prop type="lokalise-key-id">857214680</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Host refused connection</seg>
       </tuv>
@@ -159020,65 +159024,70 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::system_bridge::entity::sensor::gpu_memory_used_percentage::name</prop>
       <prop type="lokalise-key-id">858114398</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>{gpu_name} memory usage</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>{gpu_name} minne använt %</seg>
+        <seg>Minnesanvändning för {gpu_name}</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8596625026">
       <prop type="source">component::system_bridge::entity::sensor::gpu_memory_used::name</prop>
       <prop type="lokalise-key-id">858114397</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>{gpu_name} memory used</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>{gpu_name} minne använt</seg>
+        <seg>Använt minne för {gpu_name}</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8596624962">
       <prop type="source">component::system_bridge::entity::sensor::gpu_memory_free::name</prop>
       <prop type="lokalise-key-id">858114396</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>{gpu_name} memory free</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>{gpu_name} minne ledigt</seg>
+        <seg>Tillgängligt minne för {gpu_name}</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8596624898">
       <prop type="source">component::system_bridge::entity::sensor::gpu_memory_clock_speed::name</prop>
       <prop type="lokalise-key-id">858114395</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>{gpu_name} memory clock speed</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>{gpu_name} minnesklockhastighet</seg>
+        <seg>Minnesklockfrekvens för {gpu_name}</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8596624834">
       <prop type="source">component::system_bridge::entity::sensor::gpu_fan_speed::name</prop>
       <prop type="lokalise-key-id">858114394</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>{gpu_name} fan speed</seg>
       </tuv>
@@ -159090,107 +159099,115 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::system_bridge::entity::sensor::gpu_core_clock_speed::name</prop>
       <prop type="lokalise-key-id">858114393</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>{gpu_name} clock speed</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>{gpu_name} klockhastighet</seg>
+        <seg>Klockfrekvens för {gpu_name}</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8596624706">
       <prop type="source">component::system_bridge::entity::sensor::display_resolution_y::name</prop>
       <prop type="lokalise-key-id">858114392</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Display {display_id} resolution y</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Skärm {display_id} upplösning y</seg>
+        <seg>Y-upplösning för skärm {display_id}</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8596624642">
       <prop type="source">component::system_bridge::entity::sensor::display_resolution_x::name</prop>
       <prop type="lokalise-key-id">858114391</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Display {display_id} resolution x</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Skärm {display_id} upplösning x</seg>
+        <seg>X-upplösning för skärm {display_id}</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8596624578">
       <prop type="source">component::system_bridge::entity::sensor::display_refresh_rate::name</prop>
       <prop type="lokalise-key-id">858114390</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Display {display_id} refresh rate</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Skärm {display_id} uppdateringsfrekvens</seg>
+        <seg>Uppdateringsfrekvens för skärm {display_id}</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8596624514">
       <prop type="source">component::system_bridge::entity::sensor::cpu_power_core::name</prop>
       <prop type="lokalise-key-id">858114389</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>CPU core {cpu_id} power</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>CPU-kärna {cpu_id} effekt</seg>
+        <seg>Effektförbrukning för CPU-kärna {cpu_id}</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8595805710">
       <prop type="source">component::webostv::exceptions::device_not_valid::message</prop>
       <prop type="lokalise-key-id">858095169</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Device {device_id} is not a valid LG webOS TV device.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Enheten {device_id} är inte en giltig LG webOS TV-enhet.</seg>
+        <seg>Enheten {device_id} är inte en giltig LG webOS-TV.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8595805646">
       <prop type="source">component::webostv::exceptions::device_config_entry_not_loaded::message</prop>
       <prop type="lokalise-key-id">858095168</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The LG webOS TV integration for device {device_id} is not loaded.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>LG webOS TV-integration för enhet {device_id} har inte laddats in.</seg>
+        <seg>Integreringen för LG webOS-TV-enheten {device_id} är inte inläst.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8595805582">
       <prop type="source">component::webostv::exceptions::auth_failed::message</prop>
       <prop type="lokalise-key-id">858095167</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Pairing for {device} failed, make sure to accept the pairing request on your TV.</seg>
       </tuv>
@@ -159202,9 +159219,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::portainer::services::recreate_container::name</prop>
       <prop type="lokalise-key-id">857979605</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Recreate container</seg>
       </tuv>
@@ -159216,9 +159234,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::portainer::services::recreate_container::fields::timeout::name</prop>
       <prop type="lokalise-key-id">857979604</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Timeout</seg>
       </tuv>
@@ -159230,23 +159249,25 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::portainer::services::recreate_container::fields::timeout::description</prop>
       <prop type="lokalise-key-id">857979603</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The time to wait for the container to stop before killing it. If not provided, a default of 5 minutes will be used.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Den tid man ska vänta på att containern ska stanna innan den avslutas. Om inget värde anges används standardvärdet 5 minuter.</seg>
+        <seg>Tiden som ska gå innan containern tvångsstoppas om den inte har stannat. Om inget värde anges används standardvärdet 5 minuter.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8592661829">
       <prop type="source">component::portainer::services::recreate_container::fields::pull_image::name</prop>
       <prop type="lokalise-key-id">857979602</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Pull image</seg>
       </tuv>
@@ -159258,23 +159279,25 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::portainer::services::recreate_container::fields::pull_image::description</prop>
       <prop type="lokalise-key-id">857979601</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Whether to pull the image before recreating the container. This can be used to update the container to the latest version of the image.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Om bilden ska hämtas innan Containern återskapas. Detta kan användas för att uppdatera Containern till den senaste versionen av bilden.</seg>
+        <seg>Anger om avbildningen ska hämtas innan containern skapas om. Det här kan användas för att uppdatera containern till den senaste versionen av avbildningen.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8592661701">
       <prop type="source">component::portainer::services::recreate_container::fields::container_device_id::name</prop>
       <prop type="lokalise-key-id">857979600</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Container</seg>
       </tuv>
@@ -159286,9 +159309,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::portainer::services::recreate_container::fields::container_device_id::description</prop>
       <prop type="lokalise-key-id">857979599</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The container to recreate.</seg>
       </tuv>
@@ -159300,37 +159324,40 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::portainer::services::recreate_container::description</prop>
       <prop type="lokalise-key-id">857979598</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Recreates a container on a Portainer endpoint. This is more disruptive than a restart as the container will be stopped, removed, and then re-created with the same configuration. Use with caution.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Skapar om en container på en Portainer-ändpunkt. Detta medför större avbrott än en omstart, eftersom containern stoppas, tas bort och sedan skapas om med samma konfiguration. Använd med försiktighet.</seg>
+        <seg>Skapar om en container på en Portainer-slutpunkt. Det här medför ett större avbrott än en omstart, eftersom containern stoppas, tas bort och sedan skapas igen med samma konfiguration. Använd med försiktighet.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8592557991">
       <prop type="source">component::pooldose::exceptions::update_timeout::message</prop>
       <prop type="lokalise-key-id">857959055</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Timeout fetching data from PoolDose device</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Timeout vid hämtning av data från PoolDose-enheten</seg>
+        <seg>Tidsgränsen överskreds när data hämtades från PoolDose-enheten.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8592557927">
       <prop type="source">component::pooldose::exceptions::update_connect_failed::message</prop>
       <prop type="lokalise-key-id">857959054</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Failed to connect to PoolDose device while fetching data</seg>
       </tuv>
@@ -159342,23 +159369,25 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::pooldose::exceptions::no_data_received::message</prop>
       <prop type="lokalise-key-id">857959053</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>No data received from API</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Ingen data mottagen från API:et</seg>
+        <seg>Inga data mottogs från API:et.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8592557671">
       <prop type="source">component::pooldose::exceptions::client_init_failed::message</prop>
       <prop type="lokalise-key-id">857959050</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Failed to initialize PoolDose client: {status}</seg>
       </tuv>
@@ -159370,9 +159399,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::pooldose::exceptions::api_status_error::message</prop>
       <prop type="lokalise-key-id">857959049</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>API returned status code: {status}</seg>
       </tuv>
@@ -159384,9 +159414,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::smhi::config::step::user::data_description::location</prop>
       <prop type="lokalise-key-id">857953572</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; current source, reference owner and target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Choose a location in Sweden.</seg>
       </tuv>
@@ -159398,9 +159429,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::smhi::config::step::user::data::location</prop>
       <prop type="lokalise-key-id">857953571</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; current source, reference owner and target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Location</seg>
       </tuv>
@@ -159412,9 +159444,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::smhi::config::step::reconfigure::data_description::location</prop>
       <prop type="lokalise-key-id">857953570</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Choose a location in Sweden.</seg>
       </tuv>
@@ -159426,9 +159459,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::smhi::config::step::reconfigure::data::location</prop>
       <prop type="lokalise-key-id">857953569</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; current source, reference owner and target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Location</seg>
       </tuv>
@@ -159440,9 +159474,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::samsungtv::exceptions::invalid_device::message</prop>
       <prop type="lokalise-key-id">857952113</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Device with ID {device_id} is invalid or not found.</seg>
       </tuv>
@@ -159454,9 +159489,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::downloader::config::step::user::data_description::download_dir</prop>
       <prop type="lokalise-key-id">857952112</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The directory where downloaded files will be stored. This can be an absolute path or a path relative to the Home Assistant configuration directory.</seg>
       </tuv>
@@ -159468,9 +159504,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::downloader::config::step::user::data::download_dir</prop>
       <prop type="lokalise-key-id">857952111</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Download directory</seg>
       </tuv>
@@ -159482,9 +159519,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::ecobee::entity::number::fan_min_on_time::name</prop>
       <prop type="lokalise-key-id">857944571</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Fan minimum on time</seg>
       </tuv>
@@ -159496,9 +159534,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::system_bridge::exceptions::send_message_failed::message</prop>
       <prop type="lokalise-key-id">857944175</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Failed to send message to {title} ({host}) due to a connection error</seg>
       </tuv>
@@ -159510,9 +159549,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::simplefin::config::step::user::data::access_url</prop>
       <prop type="lokalise-key-id">857938614</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Setup token</seg>
       </tuv>
@@ -159524,11 +159564,12 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::lunatone::exceptions::missing_device_info::message</prop>
       <prop type="lokalise-key-id">857809320</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Unable to read device information. Please verify the device's network connection.</seg>
+        <seg>Unable to read device information. Please verify the device&#x27;s network connection.</seg>
       </tuv>
       <tuv xml:lang="sv">
         <seg>Det gick inte att läsa enhetsinformationen. Kontrollera enhetens nätverksanslutning.</seg>
@@ -159538,9 +159579,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::homematicip_cloud::entity::binary_sensor::cloud_connection::name</prop>
       <prop type="lokalise-key-id">857626889</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Cloud connection</seg>
       </tuv>
@@ -159552,9 +159594,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::opendisplay::services::upload_image::sections::additional_fields::name</prop>
       <prop type="lokalise-key-id">857436864</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -159566,9 +159609,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::incomfort::exceptions::update_failed_with_error_message::message</prop>
       <prop type="lokalise-key-id">857434863</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Update failed, got {error}.</seg>
       </tuv>
@@ -159594,9 +159638,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::music_assistant::services::search::sections::search_options::name</prop>
       <prop type="lokalise-key-id">857418624</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Search options</seg>
       </tuv>
@@ -159608,9 +159653,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::music_assistant::services::get_library::sections::pagination::name</prop>
       <prop type="lokalise-key-id">857418623</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Pagination</seg>
       </tuv>
@@ -159622,9 +159668,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::mqtt::services::publish::sections::publish_options::name</prop>
       <prop type="lokalise-key-id">857418354</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Publish options</seg>
       </tuv>
@@ -159636,23 +159683,25 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::unifiprotect::exceptions::unknown_camera_id::message</prop>
       <prop type="lokalise-key-id">857357099</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Unknown camera ID: {camera_id}</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Okänt kamera-ID: {camera_id}</seg>
+        <seg>Okänt ID för kamera: {camera_id}</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8584413994">
       <prop type="source">component::unifiprotect::exceptions::unexpected_identifier::message</prop>
       <prop type="lokalise-key-id">857357098</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Unexpected identifier: {identifier}</seg>
       </tuv>
@@ -159664,9 +159713,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::unifiprotect::exceptions::event_ongoing::message</prop>
       <prop type="lokalise-key-id">857357097</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Event is still ongoing</seg>
       </tuv>
@@ -159678,79 +159728,85 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::unifiprotect::exceptions::entry_auth_failed::message</prop>
       <prop type="lokalise-key-id">857357096</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Authentication failed, please reauthenticate</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Autentisering misslyckades, autentisera igen</seg>
+        <seg>Autentiseringen misslyckades. Autentisera på nytt.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8582219731">
       <prop type="source">component::unifi_access::exceptions::update_failed_timeout::message</prop>
       <prop type="lokalise-key-id">857235867</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Timeout communicating with the UniFi Access API.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Timeout för kommunikation med UniFi Access API.</seg>
+        <seg>Tidsgränsen överskreds vid kommunikation med UniFi Access-API:t.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8582219667">
       <prop type="source">component::unifi_access::exceptions::update_failed_connection::message</prop>
       <prop type="lokalise-key-id">857235866</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Error connecting to the UniFi Access API.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Fel vid anslutning till UniFi Access API.</seg>
+        <seg>Det gick inte att ansluta till UniFi Access-API:t.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8582219603">
       <prop type="source">component::unifi_access::exceptions::update_failed_auth::message</prop>
       <prop type="lokalise-key-id">857235865</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Authentication failed while updating data.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Autentiseringen misslyckades vid uppdatering av data.</seg>
+        <seg>Autentiseringen misslyckades när data uppdaterades.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8582219539">
       <prop type="source">component::unifi_access::exceptions::update_failed_api::message</prop>
       <prop type="lokalise-key-id">857235864</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Error communicating with the UniFi Access API.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Fel vid kommunikation med UniFi Access API.</seg>
+        <seg>Kommunikationsfel med UniFi Access-API:t.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8582219475">
       <prop type="source">component::unifi_access::exceptions::cannot_connect::message</prop>
       <prop type="lokalise-key-id">857235863</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Unable to connect to UniFi Access at {host}.</seg>
       </tuv>
@@ -159762,23 +159818,25 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::unifi_access::exceptions::auth_failed::message</prop>
       <prop type="lokalise-key-id">857235862</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Authentication failed for UniFi Access at {host}.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Autentisering misslyckades för UniFi Access på {host}.</seg>
+        <seg>Autentiseringen för UniFi Access på {host} misslyckades.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8582144514">
       <prop type="source">component::indevolt::exceptions::update_failed::message</prop>
       <prop type="lokalise-key-id">857225166</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Device update failed: {error}</seg>
       </tuv>
@@ -159790,9 +159848,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::indevolt::exceptions::config_entry_not_ready::message</prop>
       <prop type="lokalise-key-id">857225165</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Device config retrieval failed: {error}</seg>
       </tuv>
@@ -159804,9 +159863,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::arcam_fmj::config::error::timeout_connect</prop>
       <prop type="lokalise-key-id">857214682</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; current source, reference owner and target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Timeout while establishing a connection</seg>
       </tuv>
@@ -159818,9 +159878,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::arcam_fmj::config::error::invalid_host</prop>
       <prop type="lokalise-key-id">857214681</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; current source, reference owner and target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Invalid hostname or IP address</seg>
       </tuv>
@@ -159832,9 +159893,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::arcam_fmj::config::error::cannot_connect</prop>
       <prop type="lokalise-key-id">857214679</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; current source, reference owner and target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Failed to connect</seg>
       </tuv>
@@ -159846,9 +159908,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::fritz::exceptions::error_upnp_disabled::message</prop>
       <prop type="lokalise-key-id">857205580</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>UPnP is disabled on the FRITZ!Box. Please enable UPnP to use this integration.</seg>
       </tuv>
@@ -159860,9 +159923,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::fritz::exceptions::error_connecting::message</prop>
       <prop type="lokalise-key-id">857205579</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Error connecting to the FRITZ!Box: {error}</seg>
       </tuv>
@@ -159902,37 +159966,40 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::backblaze_b2::exceptions::invalid_auth::message</prop>
       <prop type="lokalise-key-id">857205460</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Authentication failed using the provided key ID and application key.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Autentiseringen misslyckades med det angivna nyckel-ID:t och programnyckeln.</seg>
+        <seg>Autentiseringen med det angivna nyckel-ID:t och programnyckeln misslyckades.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8581484184">
       <prop type="source">component::sma::exceptions::invalid_auth::message</prop>
       <prop type="lokalise-key-id">857204938</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Invalid authentication for SMA device</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Ogiltig autentisering för SMA-enheten</seg>
+        <seg>Ogiltig autentisering för SMA-enheten.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8581484120">
       <prop type="source">component::sma::exceptions::cannot_connect::message</prop>
       <prop type="lokalise-key-id">857204937</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Could not connect to SMA device</seg>
       </tuv>
@@ -159944,11 +160011,12 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::mqtt::exceptions::mqtt_not_enabled_cannot_subscribe::message</prop>
       <prop type="lokalise-key-id">857204738</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Cannot subscribe to topic "{topic}" because MQTT is not enabled, make sure MQTT is set up correctly.</seg>
+        <seg>Cannot subscribe to topic &quot;{topic}&quot; because MQTT is not enabled, make sure MQTT is set up correctly.</seg>
       </tuv>
       <tuv xml:lang="sv">
         <seg>Det går inte att prenumerera på ämnet ”{topic}” eftersom MQTT inte är aktiverat. Kontrollera att MQTT är korrekt konfigurerat.</seg>
@@ -159958,23 +160026,25 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::mqtt::exceptions::invalid_platform_config_message::message</prop>
       <prop type="lokalise-key-id">857204737</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Reloading YAML config for manually configured MQTT `{domain}` item failed. Message: {message}</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Det gick inte att ladda om YAML-konfigurationen för det manuellt konfigurerade MQTT-objektet `{domain}`. Meddelande: {message}</seg>
+        <seg>Det gick inte att läsa in YAML-konfigurationen igen för det manuellt konfigurerade MQTT-objektet `{domain}`. Meddelande: {message}</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8581418275">
       <prop type="source">component::solarlog::exceptions::update_failed::message</prop>
       <prop type="lokalise-key-id">857198274</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Error while updating data from the API.</seg>
       </tuv>
@@ -159986,9 +160056,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::tankerkoenig::exceptions::connection_error::message</prop>
       <prop type="lokalise-key-id">857152353</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Failed to connect to the Tankerkoenig API. Please check your network connection.</seg>
       </tuv>
@@ -160000,23 +160071,25 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::isy994::config::step::user::data_description::verify_ssl</prop>
       <prop type="lokalise-key-id">857148153</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Verify the controller's TLS certificate. Leave disabled for ISY-994/eisy/Polisy controllers using their default self-signed certificate.</seg>
+        <seg>Verify the controller&#x27;s TLS certificate. Leave disabled for ISY-994/eisy/Polisy controllers using their default self-signed certificate.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Kontrollera styrenhetens TLS-certifikat. Lämna inställningen inaktiverad för ISY-994/eisy/Polisy-styrenheter som använder sitt standardsjälvsignerade certifikat.</seg>
+        <seg>Verifiera styrenhetens TLS-certifikat. Lämna inställningen inaktiverad för ISY-994-, eisy- och Polisy-styrenheter som använder standardcertifikat som är självsignerade.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8580588541">
       <prop type="source">component::isy994::config::step::user::data::verify_ssl</prop>
       <prop type="lokalise-key-id">857148152</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; current source, reference owner and target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Verify SSL certificate</seg>
       </tuv>
@@ -160028,14 +160101,15 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::isy994::config::error::ssl_error</prop>
       <prop type="lokalise-key-id">857148151</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>TLS handshake failed. The controller may require a newer TLS version, or SSL verification may be failing due to a self-signed certificate.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>TLS-handskakningen misslyckades. Styrenheten kan kräva en nyare TLS-version, eller så kan SSL-verifieringen misslyckas på grund av ett självsignerat certifikat.</seg>
+        <seg>TLS-handskakningen misslyckades. Styrenheten kan kräva en nyare TLS-version, eller också kan SSL-verifieringen misslyckas på grund av ett självsignerat certifikat.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8580149344">
@@ -160056,79 +160130,85 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::lyric::exceptions::failed_to_set_temperature::message</prop>
       <prop type="lokalise-key-id">857123521</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Failed to set temperature</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Misslyckades med att ställa in temperaturen</seg>
+        <seg>Det gick inte att ställa in måltemperaturen.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8580149216">
       <prop type="source">component::lyric::exceptions::failed_to_set_preset_mode::message</prop>
       <prop type="lokalise-key-id">857123520</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Failed to set preset mode</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Misslyckades med att ställa in förinställt läge</seg>
+        <seg>Det gick inte att ställa in det förinställda läget.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8580149152">
       <prop type="source">component::lyric::exceptions::failed_to_set_hvac_mode::message</prop>
       <prop type="lokalise-key-id">857123519</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Failed to set HVAC mode</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Misslyckades med att ställa in HVAC-läge</seg>
+        <seg>Det gick inte att ställa in HVAC-läget.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8580149088">
       <prop type="source">component::lyric::exceptions::failed_to_set_hold_time::message</prop>
       <prop type="lokalise-key-id">857123518</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Failed to set hold time</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Misslyckades med att ställa in väntetid</seg>
+        <seg>Det gick inte att ställa in hålltiden.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8580149024">
       <prop type="source">component::lyric::exceptions::failed_to_set_fan_mode::message</prop>
       <prop type="lokalise-key-id">857123517</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Failed to set fan mode</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Misslyckades med att ställa in fläktläge</seg>
+        <seg>Det gick inte att ställa in fläktläget.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8580063150">
       <prop type="source">component::openevse::exceptions::unsupported_feature::message</prop>
       <prop type="lokalise-key-id">856977887</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The charger does not support this feature.</seg>
       </tuv>
@@ -160140,23 +160220,25 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::openevse::exceptions::communication_error::message</prop>
       <prop type="lokalise-key-id">856977885</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Failed to communicate with the charger</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Misslyckades med att kommunicera med laddaren</seg>
+        <seg>Det gick inte att kommunicera med laddaren.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8580062958">
       <prop type="source">component::openevse::exceptions::authentication_error::message</prop>
       <prop type="lokalise-key-id">856977884</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Authentication failed</seg>
       </tuv>
@@ -160168,9 +160250,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::nfandroidtv::exceptions::connection_failed::message</prop>
       <prop type="lokalise-key-id">856959891</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Failed to connect to host: {host}</seg>
       </tuv>
@@ -160182,9 +160265,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::casper_glow::exceptions::device_not_found::message</prop>
       <prop type="lokalise-key-id">856779422</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Could not find Casper Glow device with address {address}: {reason}</seg>
       </tuv>
@@ -160196,65 +160280,70 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::google_air_quality::config_subentries::location::step::location::sections::custom_local_aqi_options::name</prop>
       <prop type="lokalise-key-id">856769319</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; current source, reference owner and target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Custom local AQI options</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Anpassade lokala AQI-inställningar</seg>
+        <seg>Inställningar för anpassat lokalt luftkvalitetsindex</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8579112974">
       <prop type="source">component::google_air_quality::config_subentries::location::step::location::sections::custom_local_aqi_options::description</prop>
       <prop type="lokalise-key-id">856769318</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; current source, reference owner and target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Country and custom local AQI must match. You can find the available combinations here: {air_quality_coverage_url}</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Land och anpassad lokal luftkvalitetsindex (AQI) måste stämma överens. Här hittar du de tillgängliga kombinationerna: {air_quality_coverage_url}</seg>
+        <seg>Landet och det anpassade lokala luftkvalitetsindexet måste stämma överens. Här hittar du tillgängliga kombinationer: {air_quality_coverage_url}</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8579112910">
       <prop type="source">component::google_air_quality::config_subentries::location::step::location::sections::custom_local_aqi_options::data_description::enable_custom_laqi</prop>
       <prop type="lokalise-key-id">856769317</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; current source, reference owner and target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Select to enable a custom local air quality index</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Markera för att aktivera ett anpassat lokalt luftkvalitetsindex</seg>
+        <seg>Markera om du vill använda ett anpassat lokalt luftkvalitetsindex</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8579112846">
       <prop type="source">component::google_air_quality::config_subentries::location::step::location::sections::custom_local_aqi_options::data_description::custom_laqi</prop>
       <prop type="lokalise-key-id">856769316</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; current source, reference owner and target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The target air quality index</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Målindexet för luftkvalitet</seg>
+        <seg>Luftkvalitetsindex att använda</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8579112782">
       <prop type="source">component::google_air_quality::config_subentries::location::step::location::sections::custom_local_aqi_options::data_description::country</prop>
       <prop type="lokalise-key-id">856769315</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; current source, reference owner and target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Country of the location</seg>
       </tuv>
@@ -160266,37 +160355,40 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::google_air_quality::config_subentries::location::step::location::sections::custom_local_aqi_options::data::enable_custom_laqi</prop>
       <prop type="lokalise-key-id">856769314</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; current source, reference owner and target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Enable custom local AQI</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Aktivera anpassad lokal AQI</seg>
+        <seg>Använd anpassat lokalt luftkvalitetsindex</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8579112654">
       <prop type="source">component::google_air_quality::config_subentries::location::step::location::sections::custom_local_aqi_options::data::custom_laqi</prop>
       <prop type="lokalise-key-id">856769313</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; current source, reference owner and target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Custom local AQI</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Anpassad lokal AQI</seg>
+        <seg>Anpassat lokalt luftkvalitetsindex</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8579112590">
       <prop type="source">component::google_air_quality::config_subentries::location::step::location::sections::custom_local_aqi_options::data::country</prop>
       <prop type="lokalise-key-id">856769312</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; current source, reference owner and target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Country</seg>
       </tuv>
@@ -160308,37 +160400,40 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::google_air_quality::config_subentries::location::error::missing_custom_laqi_options</prop>
       <prop type="lokalise-key-id">856769311</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; current source, reference owner and target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Please provide both country and custom local AQI when custom local AQI is enabled.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Ange både land och anpassad lokal AQI när anpassad lokal AQI är aktiverad.</seg>
+        <seg>Ange både land och ett anpassat lokalt luftkvalitetsindex om du aktiverar anpassat lokalt luftkvalitetsindex.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8579112462">
       <prop type="source">component::google_air_quality::config_subentries::location::error::mismatch_country_and_laqi</prop>
       <prop type="lokalise-key-id">856769310</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; current source, reference owner and target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>This local AQI is not available for the selected country. Please select an available combination.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Denna lokala AQI är inte tillgängligt för det valda landet. Vänligen välj en tillgänglig kombination.</seg>
+        <seg>Det lokala luftkvalitetsindexet finns inte för det valda landet. Välj en kombination som finns tillgänglig.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8579112398">
       <prop type="source">component::google_air_quality::config_subentries::location::error::cannot_connect</prop>
       <prop type="lokalise-key-id">856769309</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; current source, reference owner and target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Unable to connect to the Google Air Quality API:
 
@@ -160354,65 +160449,70 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::google_air_quality::config::step::user::sections::custom_local_aqi_options::name</prop>
       <prop type="lokalise-key-id">856769308</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Custom local AQI options</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Anpassade lokala AQI-inställningar</seg>
+        <seg>Inställningar för anpassat lokalt luftkvalitetsindex</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8579112270">
       <prop type="source">component::google_air_quality::config::step::user::sections::custom_local_aqi_options::description</prop>
       <prop type="lokalise-key-id">856769307</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Country and custom local AQI must match. You can find the available combinations here: {air_quality_coverage_url}</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Land och anpassad lokal luftkvalitetsindex (AQI) måste stämma överens. Här hittar du de tillgängliga kombinationerna: {air_quality_coverage_url}</seg>
+        <seg>Landet och det anpassade lokala luftkvalitetsindexet måste stämma överens. Här hittar du tillgängliga kombinationer: {air_quality_coverage_url}</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8579112206">
       <prop type="source">component::google_air_quality::config::step::user::sections::custom_local_aqi_options::data_description::enable_custom_laqi</prop>
       <prop type="lokalise-key-id">856769306</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Select to enable a custom local air quality index</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Markera för att aktivera ett anpassat lokalt luftkvalitetsindex</seg>
+        <seg>Markera om du vill använda ett anpassat lokalt luftkvalitetsindex</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8579112142">
       <prop type="source">component::google_air_quality::config::step::user::sections::custom_local_aqi_options::data_description::custom_laqi</prop>
       <prop type="lokalise-key-id">856769305</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The target air quality index</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Målindexet för luftkvalitet</seg>
+        <seg>Luftkvalitetsindex att använda</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8579112078">
       <prop type="source">component::google_air_quality::config::step::user::sections::custom_local_aqi_options::data_description::country</prop>
       <prop type="lokalise-key-id">856769304</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Country of the location</seg>
       </tuv>
@@ -160424,37 +160524,40 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::google_air_quality::config::step::user::sections::custom_local_aqi_options::data::enable_custom_laqi</prop>
       <prop type="lokalise-key-id">856769303</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Enable custom local AQI</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Aktivera anpassad lokal AQI</seg>
+        <seg>Använd anpassat lokalt luftkvalitetsindex</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8579111950">
       <prop type="source">component::google_air_quality::config::step::user::sections::custom_local_aqi_options::data::custom_laqi</prop>
       <prop type="lokalise-key-id">856769302</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Custom local AQI</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Anpassad lokal AQI</seg>
+        <seg>Anpassat lokalt luftkvalitetsindex</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8579111886">
       <prop type="source">component::google_air_quality::config::step::user::sections::custom_local_aqi_options::data::country</prop>
       <prop type="lokalise-key-id">856769301</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; current source, reference owner and target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Country</seg>
       </tuv>
@@ -160466,37 +160569,40 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::google_air_quality::config::error::missing_custom_laqi_options</prop>
       <prop type="lokalise-key-id">856769300</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Please provide both country and custom local AQI when custom local AQI is enabled.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Ange både land och anpassad lokal AQI när anpassad lokal AQI är aktiverad.</seg>
+        <seg>Ange både land och ett anpassat lokalt luftkvalitetsindex om du aktiverar anpassat lokalt luftkvalitetsindex.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8579111758">
       <prop type="source">component::google_air_quality::config::error::mismatch_country_and_laqi</prop>
       <prop type="lokalise-key-id">856769299</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>This local AQI is not available for the selected country. Please select an available combination.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Denna lokala AQI är inte tillgängligt för det valda landet. Vänligen välj en tillgänglig kombination.</seg>
+        <seg>Det lokala luftkvalitetsindexet finns inte för det valda landet. Välj en kombination som finns tillgänglig.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8579068473">
       <prop type="source">component::mastodon::exceptions::update_failed::message</prop>
       <prop type="lokalise-key-id">856765787</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Update failed.</seg>
       </tuv>
@@ -160508,9 +160614,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::mastodon::exceptions::failed_to_connect::message</prop>
       <prop type="lokalise-key-id">856765786</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Failed to connect.</seg>
       </tuv>
@@ -160522,9 +160629,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::light::services::turn_on::sections::additional_fields::name</prop>
       <prop type="lokalise-key-id">856554573</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; current source, reference owner and target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -160536,9 +160644,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::light::services::turn_off::sections::additional_fields::name</prop>
       <prop type="lokalise-key-id">856554572</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; current source, reference owner and target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -160550,9 +160659,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::light::services::toggle::sections::additional_fields::name</prop>
       <prop type="lokalise-key-id">856554571</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; current source, reference owner and target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -160564,9 +160674,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::light::common::section_additional_fields_name</prop>
       <prop type="lokalise-key-id">856554570</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -160578,9 +160689,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::fan::services::increase_speed::sections::additional_fields::name</prop>
       <prop type="lokalise-key-id">856551632</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; current source, reference owner and target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -160592,9 +160704,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::fan::services::decrease_speed::sections::additional_fields::name</prop>
       <prop type="lokalise-key-id">856551631</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; current source, reference owner and target match</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -160606,9 +160719,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::fan::common::section_additional_fields_name</prop>
       <prop type="lokalise-key-id">856551630</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -160620,9 +160734,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::climate::services::set_temperature::sections::temperature_range::name</prop>
       <prop type="lokalise-key-id">856551542</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Temperature range</seg>
       </tuv>
@@ -160634,9 +160749,10 @@ För att lösa problemet migrerar du dina Konnected-enheter till den ESPHome-bas
       <prop type="source">component::kitchen_sink::services::test_service_1::sections::additional_fields::name</prop>
       <prop type="lokalise-key-id">856520381</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
