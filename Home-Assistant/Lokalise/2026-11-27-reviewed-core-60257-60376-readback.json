@@ -1,0 +1,112 @@
+[
+  {
+    "key": "component::gatus::config::step::user::data_description::url",
+    "key_id": "892225527",
+    "translation_id": "9114513811",
+    "en": "The full base URL of your Gatus status page instance including protocol and port.",
+    "before": "Den fullständiga bas-URL:en för din Gatus-statussidesinstans, inklusive protokoll och port.",
+    "after": "Den fullständiga bas-URL:en till din Gatus-statussida, inklusive protokoll och port.",
+    "readback": "Den fullständiga bas-URL:en till din Gatus-statussida, inklusive protokoll och port.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::gatus::config::step::user::description",
+    "key_id": "892225528",
+    "translation_id": "9114513875",
+    "en": "Enter the network details for your Gatus status page instance. Make sure to include the protocol (e.g., `http://` or `https://`) and the port number if you are not using a standard port.",
+    "before": "Ange nätverksinformationen för din Gatus status sidans instans. Se till att inkludera protokollet (t.ex. `http://` eller `https://`) och portnumret om du inte använder en standardport.",
+    "after": "Ange nätverksuppgifterna för din Gatus-statussida. Ta med protokollet (t.ex. `http://` eller `https://`) och portnumret om du använder en annan port än standardporten.",
+    "readback": "Ange nätverksuppgifterna för din Gatus-statussida. Ta med protokollet (t.ex. `http://` eller `https://`) och portnumret om du använder en annan port än standardporten.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::gatus::exceptions::update_failed::message",
+    "key_id": "892225529",
+    "translation_id": "9114513939",
+    "en": "Error communicating with Gatus API",
+    "before": "Fel i kommunikationen med Gatus API",
+    "after": "Fel vid kommunikation med Gatus-API:t",
+    "readback": "Fel vid kommunikation med Gatus-API:t",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::sonos::exceptions::announcement_connection_error::message",
+    "key_id": "892875994",
+    "translation_id": "9122255581",
+    "en": "Failed to reach Sonos speaker for announcement: {error}",
+    "before": "Det gick inte att nå Sonos-högtalaren med meddelande: {error}",
+    "after": "Det gick inte att nå Sonos-högtalaren för att spela upp meddelandet: {error}",
+    "readback": "Det gick inte att nå Sonos-högtalaren för att spela upp meddelandet: {error}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::sonos::exceptions::cancel_announcement_error::message",
+    "key_id": "892875995",
+    "translation_id": "9122255645",
+    "en": "Cancelling announcement failed: {response}",
+    "before": "Misslyckades med att avbryta meddelande: {response}",
+    "after": "Det gick inte att avbryta meddelandet: {response}",
+    "readback": "Det gick inte att avbryta meddelandet: {response}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::moon::selector::phase::options::any",
+    "key_id": "892959804",
+    "translation_id": "9123039050",
+    "en": "Any",
+    "before": "Något",
+    "after": "Valfri",
+    "readback": "Valfri",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::moon::triggers::phase_changed::fields::phase::description",
+    "key_id": "892959814",
+    "translation_id": "9123039690",
+    "en": "Limit the trigger to a specific moon phase, or leave as Any to trigger on every phase change.",
+    "before": "Begränsa utlösaren till en specifik månfas, eller låt inställningen stå på ”Något” för att utlösa vid varje fasväxling.",
+    "after": "Begränsa utlösaren till en viss månfas eller lämna valet på ”Valfri” för att utlösa den vid varje fasväxling.",
+    "readback": "Begränsa utlösaren till en viss månfas eller lämna valet på ”Valfri” för att utlösa den vid varje fasväxling.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::whirlpool::issues::deprecated_oven_cook_mode::description",
+    "key_id": "893242135",
+    "translation_id": "9126296800",
+    "en": "The `{entity_id}` ({entity_name}) sensor is deprecated and has been replaced by the **Cook mode** select entity, which can both read and change the oven cook mode.\n\nUpdate any dashboards, templates, automations or scripts to use the new select entity, then disable `{entity_id}` to have it removed.",
+    "before": "Sensorentiteten `{entity_id}` ({entity_name}) är föråldrad och har ersatts av valentiteten **Tillagningsläge**, som både kan läsa och ändra ugnens tillagningsläge.\n\nUppdatera instrumentpaneler, mallar, automatiseringar och skript så att de använder den nya valenheten. Inaktivera sedan `{entity_id}` för att ta bort den.",
+    "after": "Sensorentiteten `{entity_id}` ({entity_name}) är föråldrad. Den har ersatts av entiteten **Tillagningsläge**, där du både kan läsa av och ändra ugnens tillagningsläge.\n\nUppdatera instrumentpaneler, mallar, automatiseringar och skript så att de använder den nya entiteten. Inaktivera sedan `{entity_id}` för att ta bort den.",
+    "readback": "Sensorentiteten `{entity_id}` ({entity_name}) är föråldrad. Den har ersatts av entiteten **Tillagningsläge**, där du både kan läsa av och ändra ugnens tillagningsläge.\n\nUppdatera instrumentpaneler, mallar, automatiseringar och skript så att de använder den nya entiteten. Inaktivera sedan `{entity_id}` för att ta bort den.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::whirlpool::issues::deprecated_oven_cook_mode_scripts::description",
+    "key_id": "893242137",
+    "translation_id": "9126296928",
+    "en": "The `{entity_id}` ({entity_name}) sensor is deprecated and has been replaced by the **Cook mode** select entity, which can both read and change the oven cook mode.\n\nIt is still used in the following automations or scripts:\n{items}\n\nUpdate them to use the new select entity, then disable `{entity_id}` to have it removed.",
+    "before": "Sensorentiteten `{entity_id}` ({entity_name}) är föråldrad och har ersatts av valentiteten **Tillagningsläge**, som både kan läsa och ändra ugnens tillagningsläge.\n\nDen används fortfarande i följande automatiseringar eller skript:\n{items}\n\nUppdatera dem så att de använder den nya valenheten. Inaktivera sedan `{entity_id}` för att ta bort den.",
+    "after": "Sensorentiteten `{entity_id}` ({entity_name}) är föråldrad. Den har ersatts av entiteten **Tillagningsläge**, där du både kan läsa av och ändra ugnens tillagningsläge.\n\nDen används fortfarande i följande automatiseringar eller skript:\n{items}\n\nUppdatera dem så att de använder den nya entiteten. Inaktivera sedan `{entity_id}` för att ta bort den.",
+    "readback": "Sensorentiteten `{entity_id}` ({entity_name}) är föråldrad. Den har ersatts av entiteten **Tillagningsläge**, där du både kan läsa av och ändra ugnens tillagningsläge.\n\nDen används fortfarande i följande automatiseringar eller skript:\n{items}\n\nUppdatera dem så att de använder den nya entiteten. Inaktivera sedan `{entity_id}` för att ta bort den.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::whirlpool::issues::deprecated_oven_target_temperature::description",
+    "key_id": "893987954",
+    "translation_id": "9135221503",
+    "en": "The `{entity_id}` ({entity_name}) sensor is deprecated and has been replaced by the **Target temperature** number entity, which can both read and change the oven target temperature.\n\nUpdate any dashboards, templates, automations or scripts to use the new number entity, then disable `{entity_id}` to have it removed.",
+    "before": "Sensorn `{entity_id}` ({entity_name}) är föråldrad och har ersatts av **Måltemperatur**-entiteten, som både kan läsa och ändra ugnens måltemperatur.\n\nUppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att använda den nya nummerentiteten och inaktivera sedan `{entity_id}` för att lösa problemet.",
+    "after": "Sensorentiteten `{entity_id}` ({entity_name}) är föråldrad. Den har ersatts av entiteten **Måltemperatur**, där du både kan läsa av och ändra ugnens måltemperatur.\n\nUppdatera instrumentpaneler, mallar, automatiseringar och skript så att de använder den nya entiteten. Inaktivera sedan `{entity_id}` för att ta bort den.",
+    "readback": "Sensorentiteten `{entity_id}` ({entity_name}) är föråldrad. Den har ersatts av entiteten **Måltemperatur**, där du både kan läsa av och ändra ugnens måltemperatur.\n\nUppdatera instrumentpaneler, mallar, automatiseringar och skript så att de använder den nya entiteten. Inaktivera sedan `{entity_id}` för att ta bort den.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::whirlpool::issues::deprecated_oven_target_temperature_scripts::description",
+    "key_id": "893987956",
+    "translation_id": "9135221631",
+    "en": "The `{entity_id}` ({entity_name}) sensor is deprecated and has been replaced by the **Target temperature** number entity, which can both read and change the oven target temperature.\n\nIt is still used in the following automations or scripts:\n{items}\n\nUpdate them to use the new number entity, then disable `{entity_id}` to have it removed.",
+    "before": "Sensorn `{entity_id}` ({entity_name}) är föråldrad och har ersatts av **Måltemperatur**-entiteten, som både kan läsa och ändra ugnens måltemperatur.\n\nSensorn används fortfarande i följande automatiseringar eller skript:\n{items}\n\nUppdatera dem för att använda den nya entiteten och inaktivera sedan `{entity_id}` för att lösa problemet.",
+    "after": "Sensorentiteten `{entity_id}` ({entity_name}) är föråldrad. Den har ersatts av entiteten **Måltemperatur**, där du både kan läsa av och ändra ugnens måltemperatur.\n\nDen används fortfarande i följande automatiseringar eller skript:\n{items}\n\nUppdatera dem så att de använder den nya entiteten. Inaktivera sedan `{entity_id}` för att ta bort den.",
+    "readback": "Sensorentiteten `{entity_id}` ({entity_name}) är föråldrad. Den har ersatts av entiteten **Måltemperatur**, där du både kan läsa av och ändra ugnens måltemperatur.\n\nDen används fortfarande i följande automatiseringar eller skript:\n{items}\n\nUppdatera dem så att de använder den nya entiteten. Inaktivera sedan `{entity_id}` för att ta bort den.",
+    "status": "saved-and-read-back"
+  }
+]
