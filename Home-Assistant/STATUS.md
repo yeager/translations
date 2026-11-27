@@ -2567,12 +2567,66 @@ Senaste position: **61 576** av 77 656. Nästa: **61 577**; **16 080 återstår*
 
 ### Batch: 61 577–61 696
 
+120 positioner granskades: 115 aktuella strängar  5 referenser och 0 uppföljningar. 8 ändringar sparades och lästes tillbaka. Alla 25 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **61 696** av 77 656. Nästa: **61 697**; **15 960 återstår**. Granskningen fortsätter.
+
+### Batch: 61 577–61 696
+
 120 positioner granskades: 115 aktuella strängar, 5 referenser och 0 uppföljningar. 10 ändringar sparades och lästes tillbaka. Alla 5 referenser matchar. Platshållare 120/120; inga pluralnycklar.
 
 Senaste position: **61 696** av 77 656. Nästa: **61 697**; **15 960 återstår**. Granskningen fortsätter.
 
 ### Batch: 61 697–61 816
 
-120 positioner granskades: 83 aktuella strängar, 37 referenser och inga uppföljningar. 17 ändringar sparades och lästes tillbaka. Alla 37 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+120 positioner granskades: 83 aktuella strängar  37 referenser och 0 uppföljningar. 17 ändringar sparades och lästes tillbaka. Alla 37 referenser matchar. Platshållare 120/120; inga pluralnycklar.
 
 Senaste position: **61 816** av 77 656. Nästa: **61 817**; **15 840 återstår**. Granskningen fortsätter.
+
+### Batch: 61 817–61 936
+
+120 positioner granskades: 87 aktuella strängar, 25 referenser och 8 nycklar utan aktuell källväg. 21 ändringar sparades och lästes tillbaka. Alla 25 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **61 936** av 77 656. Nästa: **61 937**; **15 720 återstår**. Granskningen fortsätter.
+
+### Batch: 61 937–62 056
+
+120 positioner granskades: 83 aktuella strängar  37 referenser och 0 uppföljningar. 19 ändringar sparades och lästes tillbaka. Alla 14 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **62 056** av 77 656. Nästa: **62 057**; **15 600 återstår**. Granskningen fortsätter.
+
+### Batch: 62 057–62 176
+
+120 positioner granskades: 96 aktuella strängar, 20 referenser och 4 nycklar utan aktuell källväg. 8 ändringar sparades och lästes tillbaka. Alla 20 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **62 176** av 77 656. Nästa: **62 177**; **15 480 återstår**. Granskningen fortsätter.
+
+### Batch: 62 177–62 296
+
+120 positioner granskades: 111 aktuella strängar, 5 referenser och 4 nycklar utan aktuell källväg. 27 ändringar sparades och lästes tillbaka. Alla 5 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **62 296** av 77 656. Nästa: **62 297**; **15 360 återstår**. Granskningen fortsätter.
+
+### Batch: 62 297–62 416
+
+120 positioner granskades: 84 aktuella strängar, 27 referenser och 9 nycklar utan aktuell källväg. 22 ändringar sparades och lästes tillbaka, varav 3 delade referensmål uppdaterades retroaktivt. Alla 27 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **62 416** av 77 656. Nästa: **62 417**; **15 240 återstår**. Granskningen fortsätter.
+
+### Batch: 62 417–62 536
+
+120 positioner granskades: 85 aktuella strängar, 23 referenser och 12 nycklar utan aktuell källväg. 14 ändringar sparades och lästes tillbaka. Alla 23 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **62 536** av 77 656. Nästa: **62 537**; **15 120 återstår**. Granskningen fortsätter.
+
+### Batch: 62 537–62 656
+
+120 positioner granskades: 59 aktuella strängar, inga referenser och 61 nycklar utan aktuell källväg. 28 ändringar sparades och lästes tillbaka. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **62 656** av 77 656. Nästa: **62 657**; **15 000 återstår**. Granskningen fortsätter.
+
+### Batch: 62 657–62 776
+
+120 positioner granskades: 87 aktuella strängar  1 referens och 32 nycklar utan aktuell källväg. 24 ändringar sparades och lästes tillbaka. Referensen matchar 1/1. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **62 776** av 77 656. Nästa: **62 777**; **14 880 återstår**. Granskningen fortsätter.

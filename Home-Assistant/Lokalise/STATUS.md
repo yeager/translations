@@ -2510,3 +2510,123 @@ Senaste position: **60 376** av 77 656. Nästa: **60 377**; **17 280 återstår*
 120 positioner granskades: 73 aktuella strängar  35 referenser och 12 uppföljningar. 17 ändringar sparades och lästes tillbaka. Alla 35 referenser matchar. Platshållare 120/120; inga pluralnycklar.
 
 Senaste position: **60 496** av 77 656. Nästa: **60 497**; **17 160 återstår**. Granskningen fortsätter.
+
+### Batch: 60 497–60 616
+
+120 positioner granskades: 60 aktuella strängar  5 referenser och 55 uppföljningar. 18 ändringar sparades och lästes tillbaka. Alla 5 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **60 616** av 77 656. Nästa: **60 617**; **17 040 återstår**. Granskningen fortsätter.
+
+### Batch: 60 617–60 736
+
+120 positioner granskades: 97 aktuella strängar  22 referenser och 1 uppföljning. 19 ändringar sparades och lästes tillbaka. Alla 22 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **60 736** av 77 656. Nästa: **60 737**; **16 920 återstår**. Granskningen fortsätter.
+
+### Batch: 60 737–60 856
+
+120 positioner granskades: 68 aktuella strängar  47 referenser och 5 uppföljningar. 23 ändringar sparades och lästes tillbaka. Alla 47 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **60 856** av 77 656. Nästa: **60 857**; **16 800 återstår**. Granskningen fortsätter.
+
+### Batch: 60 857–60 976
+
+120 positioner granskades: 89 aktuella strängar  29 referenser och 2 uppföljningar. 61 ändringar sparades och lästes tillbaka. Alla 29 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **60 976** av 77 656. Nästa: **60 977**; **16 680 återstår**. Granskningen fortsätter.
+
+### Batch: 60 977–61 096
+
+120 positioner granskades: 84 aktuella strängar  9 referenser och 27 uppföljningar. 28 ändringar sparades och lästes tillbaka. Alla 9 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **61 096** av 77 656. Nästa: **61 097**; **16 560 återstår**. Granskningen fortsätter.
+
+### Batch: 61 097–61 216
+
+120 positioner granskades: 79 aktuella strängar  29 referenser och 12 uppföljningar. 21 ändringar sparades och lästes tillbaka. Alla 29 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **61 216** av 77 656. Nästa: **61 217**; **16 440 återstår**. Granskningen fortsätter.
+
+### Batch: 61 217–61 336
+
+120 positioner granskades: 77 aktuella strängar  39 referenser och 4 uppföljningar. 13 ändringar sparades och lästes tillbaka. Alla 39 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **61 336** av 77 656. Nästa: **61 337**; **16 320 återstår**. Granskningen fortsätter.
+
+### Batch: 61 337–61 456
+
+120 positioner granskades: 46 aktuella strängar  73 referenser och 1 uppföljning. 24 ändringar sparades och lästes tillbaka; dessutom uppdaterades 11 delade Home Connect-mål retroaktivt. Alla 73 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **61 456** av 77 656. Nästa: **61 457**; **16 200 återstår**. Granskningen fortsätter.
+
+### Batch: 61 457–61 576
+
+120 positioner granskades: 7 aktuella strängar, 113 referenser och inga uppföljningar. 9 delade referensmål uppdaterades retroaktivt; de sju direkta strängarna behövde inga ändringar. Alla 113 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **61 576** av 77 656. Nästa: **61 577**; **16 080 återstår**. Granskningen fortsätter.
+
+### Batch: 61 577–61 696
+
+120 positioner granskades: 115 aktuella strängar  5 referenser och 0 uppföljningar. 8 ändringar sparades och lästes tillbaka. Alla 25 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **61 696** av 77 656. Nästa: **61 697**; **15 960 återstår**. Granskningen fortsätter.
+
+### Batch: 61 577–61 696
+
+120 positioner granskades: 115 aktuella strängar, 5 referenser och 0 uppföljningar. 10 ändringar sparades och lästes tillbaka. Alla 5 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **61 696** av 77 656. Nästa: **61 697**; **15 960 återstår**. Granskningen fortsätter.
+
+### Batch: 61 697–61 816
+
+120 positioner granskades: 83 aktuella strängar  37 referenser och 0 uppföljningar. 17 ändringar sparades och lästes tillbaka. Alla 37 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **61 816** av 77 656. Nästa: **61 817**; **15 840 återstår**. Granskningen fortsätter.
+
+### Batch: 61 817–61 936
+
+120 positioner granskades: 87 aktuella strängar, 25 referenser och 8 nycklar utan aktuell källväg. 21 ändringar sparades och lästes tillbaka. Alla 25 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **61 936** av 77 656. Nästa: **61 937**; **15 720 återstår**. Granskningen fortsätter.
+
+### Batch: 61 937–62 056
+
+120 positioner granskades: 83 aktuella strängar  37 referenser och 0 uppföljningar. 19 ändringar sparades och lästes tillbaka. Alla 14 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **62 056** av 77 656. Nästa: **62 057**; **15 600 återstår**. Granskningen fortsätter.
+
+### Batch: 62 057–62 176
+
+120 positioner granskades: 96 aktuella strängar, 20 referenser och 4 nycklar utan aktuell källväg. 8 ändringar sparades och lästes tillbaka. Alla 20 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **62 176** av 77 656. Nästa: **62 177**; **15 480 återstår**. Granskningen fortsätter.
+
+### Batch: 62 177–62 296
+
+120 positioner granskades: 111 aktuella strängar, 5 referenser och 4 nycklar utan aktuell källväg. 27 ändringar sparades och lästes tillbaka. Alla 5 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **62 296** av 77 656. Nästa: **62 297**; **15 360 återstår**. Granskningen fortsätter.
+
+### Batch: 62 297–62 416
+
+120 positioner granskades: 84 aktuella strängar, 27 referenser och 9 nycklar utan aktuell källväg. 22 ändringar sparades och lästes tillbaka, varav 3 delade referensmål uppdaterades retroaktivt. Alla 27 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **62 416** av 77 656. Nästa: **62 417**; **15 240 återstår**. Granskningen fortsätter.
+
+### Batch: 62 417–62 536
+
+120 positioner granskades: 85 aktuella strängar, 23 referenser och 12 nycklar utan aktuell källväg. 14 ändringar sparades och lästes tillbaka. Alla 23 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **62 536** av 77 656. Nästa: **62 537**; **15 120 återstår**. Granskningen fortsätter.
+
+### Batch: 62 537–62 656
+
+120 positioner granskades: 59 aktuella strängar, inga referenser och 61 nycklar utan aktuell källväg. 28 ändringar sparades och lästes tillbaka. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **62 656** av 77 656. Nästa: **62 657**; **15 000 återstår**. Granskningen fortsätter.
+
+### Batch: 62 657–62 776
+
+120 positioner granskades: 87 aktuella strängar  1 referens och 32 nycklar utan aktuell källväg. 24 ändringar sparades och lästes tillbaka. Referensen matchar 1/1. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **62 776** av 77 656. Nästa: **62 777**; **14 880 återstår**. Granskningen fortsätter.
