@@ -849,3 +849,16 @@ argumentet betyder i just det programmet.
 | Imperial | brittiskt måttsystem | Motsats till metriska måttenheter i appens val. |
 | mile (unit) | engelsk mil | Skilj från svensk mil. |
 | idle calories | kalorier i vila | Kaloriförbrukning när användaren vilar. |
+
+## Pika Backup
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| backup repository | lagringsplats för säkerhetskopior | Själva lagringen kan vara lokal eller fjärransluten. |
+| archive | arkiv | En enskild ögonblicksbild i en lagringsplats. |
+| deduplication | deduplicering | Funktion som återanvänder oförändrade data. |
+| removable drive | flyttbar enhet | Anslut enheten; undvik det bokstavliga ”mata in”. |
+| network share | nätverksresurs | Resurs som monteras via GNOME Filer. |
+| Monitor (process) | Övervakaren | Pika Backups process för schemalagda säkerhetskopior. |
+| Background Portal | Bakgrundsportal | Funktion i xdg-desktop-portal. |
+| shell command | skalkommando | Kommandon som körs före eller efter säkerhetskopiering. |
