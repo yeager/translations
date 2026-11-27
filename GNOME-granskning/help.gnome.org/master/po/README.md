@@ -11,4 +11,4 @@
 
 ## Ny uppladdningskontroll — 2026-11-27
 
-Aktivitetssidan visar en tidigare uppladdning 2026-11-26 med 46/0/0. Den lokalt granskade filen skiljer sig från den aktuella GNOME-filen på 28 strängar; POT-filen är fortfarande samma 46-posterstemplate och den lokala PO-filen klarar `msgcmp`. Väntar på uppladdningsintervallet innan den här granskningen skickas.
+Aktivitetssidan visar en tidigare uppladdning 2026-11-26 med 46/0/0. Den lokalt granskade filen skiljer sig från den aktuella GNOME-filen på 28 strängar; POT-filen är fortfarande samma 46-posterstemplate och den lokala PO-filen klarar `msgcmp`. Den uppdaterade filen laddades upp 2026-11-27 kl. 01:03 UTC med kommentaren ”Granskad och klar”; aktivitetssidan bekräftar sammanslagning 46/0/0. Statistik-API:t visar ännu äldre 32/2/12.
