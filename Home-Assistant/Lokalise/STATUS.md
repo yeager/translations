@@ -2348,3 +2348,9 @@ Senaste granskade position: **57 256** av 77 656. Nästa position: **57 257**; *
 ## Sekventiell granskningsmarkör – 2026-11-27
 
 Senaste granskade position: **57 256** av 77 656. Nästa position: **57 257**; **20 400 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+
+### Batch: 57,257–57,376
+
+120 positioner granskades: 78 aktuella direkta strängar, 36 referenser och sex tidigare dokumenterade nycklar utan aktuell källväg. 25 direkta rättelser sparades och API-lästes tillbaka. Alla referenser matchar; platshållare 120/120, inga pluralnycklar. `svlang` hittade inga skrivregelfel. TMX valideras efter tillägg; manifestet har 114 aktiva nycklar.
+
+Senaste position: **57 376** av 77 656. Nästa: **57 377**; **20 280 återstår**. Core-granskningen fortsätter.
