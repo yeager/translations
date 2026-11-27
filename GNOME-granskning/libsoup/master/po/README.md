@@ -6,5 +6,5 @@
 - Alla 40 strängar radgranskades; 2 nya översättningar och 17 befintliga rättningar.
 - Fuzzy-strängen ”Invalid chunk size” innehöll en felaktig gammal översättning (”Ogiltigt värdnamn”) och rättades. Public suffix-lista och WebSocket-/TLS-felmeddelanden fick tydligare svenska formuleringar.
 - Validering: `msgfmt --check --check-format --statistics` och `msgcmp --use-fuzzy` godkända (40 översatta). `l10n-lint`: 0 fel/varningar; en informativ avvikelse eftersom API-identifieraren `SoupBodyInputStream` bevaras ordagrant. `hunspell-sv` kördes; tekniska undantag dokumenterade.
-- Ingen GNOME-inskickning har gjorts.
+- Uppladdad 2026-11-27 kl. 00:32 UTC med kommentaren ”Granskad och klar”. Aktivitetssidan bekräftar sammanslagning 40/0/0; statistik-API:t visar ännu äldre 37/1/2.
 - Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-26.
