@@ -2247,3 +2247,11 @@ Senaste granskade position: **55 696** av 77 656. Nästa position: **55 697**; *
 ## Sekventiell granskningsmarkör – 2026-11-27
 
 Senaste granskade position: **55 816** av 77 656. Nästa position: **55 817**; **21 840 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+
+### Batch: 55 817–55 936
+
+120 positioner radgranskades: 78 direkta aktuella strängar, 33 referenser (19 unika mål) och nio tidigare dokumenterade källfrånvarande nycklar. 14 rättelser sparades och API-lästes tillbaka. Alla referensmål matchar; platshållare 120/120, inga pluralnycklar. `svlang` hittade inga skrivregelfel. FUMIS-termer kontrollerades mot tillverkarens fellista. TMX validerar med 35 753 poster (35 522 Lokalise-ID, 231 historiska); live-verifiering mot Lokalise passerade för samtliga 111 aktuella manifestposter.
+
+## Sekventiell granskningsmarkör – 2026-11-27
+
+Senaste granskade position: **55 936** av 77 656. Nästa position: **55 937**; **21 720 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
