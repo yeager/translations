@@ -7,6 +7,8 @@ Aktuell Home Assistant Core-källrevision: 1d07105b760c73093145526a51758938e87cc
 Lokalise-projekt: 130246255a974bd3b5e8a1.51616605
 
 ## Aktuellt läge
+- Batch 55,457–55,576: 94 direkta strängar, 20 referenser och sex tidigare dokumenterade källvägar utan aktuell skalär källtext kontrollerades. Alla 120 rader matchade aiemte tidigare granskat snapshot; inga ändringar behövdes. Referenser 20/20 och platshållare 120/120 verifierade. TM-manifest 114 poster. Nästa position 55 577; 22 080 återstår. Se `2026-11-27-reviewed-core-55457-55576.md` och JSON-underlagen.
+
 - Batch 55,337–55,456: 60 direkta strängar, 40 referenser och 20 tidigare dokumenterade rader utan aktuell skalär källväg radgranskades. Inga aktiva ändringar krävdes. Alla 40 referenser matchade; platshållare 120/120, inga pluraler. TM-manifest 100 aktiva poster. Victron Sustain/Sustain alt kvarstår som termuppföljning. Nästa position 55 457; 22 200 återstår. Se `2026-11-27-reviewed-core-55337-55456.md` och JSON-underlagen.
 
 - Batch 55,217–55,336: 48 direkta källsträngar, 26 referenser och 46 tidigare dokumenterade källvägar radgranskades. 17 korrigeringar sparades/lästes tillbaka och 47 gemensamma OAuth2-alias synkades retroaktivt. Platshållare 120/120; alias matchade före rättelserna. TM-manifest 140 poster live-verifierat. TMX validerar med 35 753 enheter (35 522 Lokalise-ID, 231 historiska). Nästa position 55 337; 22 320 återstår. Se `2026-11-27-reviewed-core-55217-55336.md` och JSON-underlagen.
