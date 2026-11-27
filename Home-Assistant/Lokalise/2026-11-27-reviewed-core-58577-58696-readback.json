@@ -1,0 +1,362 @@
+[
+  {
+    "key": "component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::expire_after",
+    "key_id": "875368054",
+    "translation_id": "8878611206",
+    "en": "If set, it defines the number of seconds after the sensor’s state expires, if it’s not updated. After expiry, the sensor’s state becomes unavailable. If not set, the sensor's state never expires. [Learn more.]({url}#expire_after)",
+    "before": "Om den är inställd definierar den antalet sekunder efter att sensorns tillstånd har löpt ut om det inte har uppdaterats. Efter utgången blir sensorns tillstånd otillgängligt. Om den inte anges upphör sensorns tillstånd aldrig att gälla. [Läs mer.]({url}#expire_after)",
+    "after": "Om värdet anges styr det hur många sekunder som ska gå innan sensorns tillstånd upphör att gälla, om det inte har uppdaterats. Därefter blir sensorns tillstånd otillgängligt. Om värdet inte anges upphör sensorns tillstånd aldrig att gälla. [Läs mer.]({url}#expire_after)",
+    "readback": "Om värdet anges styr det hur många sekunder som ska gå innan sensorns tillstånd upphör att gälla, om det inte har uppdaterats. Därefter blir sensorns tillstånd otillgängligt. Om värdet inte anges upphör sensorns tillstånd aldrig att gälla. [Läs mer.]({url}#expire_after)",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::flash",
+    "key_id": "875368055",
+    "translation_id": "8878611270",
+    "en": "Enable the flash feature for this light",
+    "before": "Stöd för blinkning",
+    "after": "Aktiverar blinkfunktionen för den här lampan.",
+    "readback": "Aktiverar blinkfunktionen för den här lampan.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::flash_time_long",
+    "key_id": "875368056",
+    "translation_id": "8878611334",
+    "en": "The duration, in seconds, of a \"long\" flash.",
+    "before": "Lång blinktid",
+    "after": "Hur länge en ”lång” blinkning varar, i sekunder.",
+    "readback": "Hur länge en ”lång” blinkning varar, i sekunder.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::flash_time_short",
+    "key_id": "875368057",
+    "translation_id": "8878611398",
+    "en": "The duration, in seconds, of a \"short\" flash.",
+    "before": "Kort blinktid",
+    "after": "Hur länge en ”kort” blinkning varar, i sekunder.",
+    "readback": "Hur länge en ”kort” blinkning varar, i sekunder.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::max_kelvin",
+    "key_id": "875368058",
+    "translation_id": "8878611462",
+    "en": "The maximum color temperature in Kelvin.",
+    "before": "Max. färgtemperatur",
+    "after": "Den högsta färgtemperaturen i kelvin.",
+    "readback": "Den högsta färgtemperaturen i kelvin.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::min_kelvin",
+    "key_id": "875368059",
+    "translation_id": "8878611526",
+    "en": "The minimum color temperature in Kelvin.",
+    "before": "Min. färgtemperatur",
+    "after": "Den lägsta färgtemperaturen i kelvin.",
+    "readback": "Den lägsta färgtemperaturen i kelvin.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::off_delay",
+    "key_id": "875368060",
+    "translation_id": "8878611590",
+    "en": "For sensors that only send \"on\" state updates (like PIRs), this variable sets a delay in seconds after which the sensor’s state will be updated back to \"off\".",
+    "before": "För sensorer som endast skickar \"på\"-tillståndsändringar (t.ex. PIR-sensorer) ställer den här variabeln in en fördröjning i sekunder, varefter sensorns tillstånd automatiskt ändras tillbaka till \"av\".",
+    "after": "För sensorer som bara skickar uppdateringar med tillståndet ”på”, till exempel PIR-sensorer, anger den här variabeln hur många sekunder det ska dröja innan sensorns tillstånd ändras tillbaka till ”av”.",
+    "readback": "För sensorer som bara skickar uppdateringar med tillståndet ”på”, till exempel PIR-sensorer, anger den här variabeln hur många sekunder det ska dröja innan sensorns tillstånd ändras tillbaka till ”av”.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::siren_other_settings::data_description::command_off_template",
+    "key_id": "875368064",
+    "translation_id": "8878611846",
+    "en": "The [template]({command_templating_url}) for \"off\" state changes. By default the \"[Command template]({url}#command_template)\" will be used. [Learn more.]({url}#command_off_template)",
+    "before": "[Mallen]({command_templating_url}) för när tillståndet \"av\" ändras. Som standard används \"[Kommandomall]({url}#command_template)\". [Läs mer.]({url}#command_off_template)",
+    "after": "[Mallen]({command_templating_url}) som används när tillståndet ändras till ”av”. Som standard används [Kommandomall]({url}#command_template). [Läs mer.]({url}#command_off_template)",
+    "readback": "[Mallen]({command_templating_url}) som används när tillståndet ändras till ”av”. Som standard används [Kommandomall]({url}#command_template). [Läs mer.]({url}#command_off_template)",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::text_other_settings::data_description::max",
+    "key_id": "875368070",
+    "translation_id": "8878612230",
+    "en": "Maximum length of the text input",
+    "before": "Maximal längd på den inmatade texten",
+    "after": "Textinmatningens maximala längd",
+    "readback": "Textinmatningens maximala längd",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::text_other_settings::data_description::min",
+    "key_id": "875368071",
+    "translation_id": "8878612294",
+    "en": "Minimum length of the text input",
+    "before": "Minsta längd på den inmatade texten",
+    "after": "Textinmatningens minsta längd",
+    "readback": "Textinmatningens minsta längd",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::text_other_settings::data_description::mode",
+    "key_id": "875368072",
+    "translation_id": "8878612358",
+    "en": "Mode of the text input",
+    "before": "Läge för textinmatning",
+    "after": "Textinmatningens läge",
+    "readback": "Textinmatningens läge",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::text_other_settings::data_description::pattern",
+    "key_id": "875368073",
+    "translation_id": "8878612422",
+    "en": "A valid regex pattern",
+    "before": "Ett giltigt regex-mönster",
+    "after": "Ett giltigt reguljärt uttryck",
+    "readback": "Ett giltigt reguljärt uttryck",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::text_other_settings::name",
+    "key_id": "875368074",
+    "translation_id": "8878612486",
+    "en": "Other text entity settings",
+    "before": "Andra inställningar för textentiteter",
+    "after": "Övriga inställningar för textentiteten",
+    "readback": "Övriga inställningar för textentiteten",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::wmspro::entity::cover::valance::name",
+    "key_id": "875759478",
+    "translation_id": "8885040521",
+    "en": "Valance",
+    "before": "Kappa",
+    "after": "Volang",
+    "readback": "Volang",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::wmspro::entity::number::rotation-raw::name",
+    "key_id": "875759482",
+    "translation_id": "8885040777",
+    "en": "Raw rotation",
+    "before": "Rå rotation",
+    "after": "Oavrundad rotation",
+    "readback": "Oavrundad rotation",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::rpi_power::exceptions::under_voltage_not_supported::message",
+    "key_id": "876055431",
+    "translation_id": "8888596507",
+    "en": "Under-voltage monitoring is not supported on this device.",
+    "before": "Övervakning av underspänning stöds inte på den här enheten.",
+    "after": "Enheten stöder inte övervakning av underspänning.",
+    "readback": "Enheten stöder inte övervakning av underspänning.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::homeassistant::issues::deprecated_trigger_behavior::description",
+    "key_id": "876293919",
+    "translation_id": "8894244267",
+    "en": "An automation, script or template entity uses the trigger behavior option `{deprecated_behavior}`, which has been renamed to `{new_behavior}`. The old value still works for now, but support for it will be removed in a future release.\n\nTo fix this issue, open each affected automation or script in the editor and save it again; Home Assistant will automatically detect and update the deprecated option. Alternatively, edit your configuration files (for example `automations.yaml`) directly and change `behavior: {deprecated_behavior}` to `behavior: {new_behavior}` in the options of your triggers. Leave the `behavior` option of conditions unchanged, as conditions still use `any` and `all`. Restart Home Assistant afterwards.",
+    "before": "En automatisering, ett skript eller en mall använder utlösarbeteendet `{deprecated_behavior}`, som har bytt namn till `{new_behavior}`. Det gamla värdet fungerar fortfarande för tillfället, men stödet för det kommer att tas bort i en framtida version.\n\nFör att åtgärda detta problem öppnar du varje berörd automatisering och/eller skript i redigeraren och sparar det på nytt. Home Assistant kommer automatiskt att upptäcka och uppdatera det utfasade alternativet. Alternativt kan du redigera dina konfigurationsfiler (till exempel `automations.yaml`) direkt och ändra `behavior: {deprecated_behavior}` till `behavior: {new_behavior}`. Starta sedan om Home Assistant.",
+    "after": "En automatisering, ett skript eller en mallentitet använder alternativet för utlösarbeteende `{deprecated_behavior}`, som har bytt namn till `{new_behavior}`. Det gamla värdet fungerar fortfarande, men stödet för det tas bort i en kommande version.\n\nÅtgärda problemet genom att öppna varje berörd automatisering eller varje berört skript i redigeraren och spara det igen. Home Assistant identifierar då automatiskt det utfasade alternativet och uppdaterar det. Du kan också ändra konfigurationsfilerna, till exempel `automations.yaml`, direkt: ändra `behavior: {deprecated_behavior}` till `behavior: {new_behavior}` bland utlösarens alternativ. Låt villkorens `behavior`-alternativ vara oförändrat, eftersom villkor fortfarande använder `any` och `all`. Starta sedan om Home Assistant.",
+    "readback": "En automatisering, ett skript eller en mallentitet använder alternativet för utlösarbeteende `{deprecated_behavior}`, som har bytt namn till `{new_behavior}`. Det gamla värdet fungerar fortfarande, men stödet för det tas bort i en kommande version.\n\nÅtgärda problemet genom att öppna varje berörd automatisering eller varje berört skript i redigeraren och spara det igen. Home Assistant identifierar då automatiskt det utfasade alternativet och uppdaterar det. Du kan också ändra konfigurationsfilerna, till exempel `automations.yaml`, direkt: ändra `behavior: {deprecated_behavior}` till `behavior: {new_behavior}` bland utlösarens alternativ. Låt villkorens `behavior`-alternativ vara oförändrat, eftersom villkor fortfarande använder `any` och `all`. Starta sedan om Home Assistant.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::homeassistant::issues::deprecated_trigger_behavior::title",
+    "key_id": "876293920",
+    "translation_id": "8894244331",
+    "en": "Deprecated trigger behavior option in use",
+    "before": "Föråldrat alternativ för utlösarbeteende används",
+    "after": "Det utfasade alternativet för utlösarbeteende används",
+    "readback": "Det utfasade alternativet för utlösarbeteende används",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::switchbot_cloud::services::upload_art_frame_image::description",
+    "key_id": "876592180",
+    "translation_id": "8897447353",
+    "en": "Upload web images to the device.",
+    "before": "Ladda upp webbbilder till enheten.",
+    "after": "Ladda upp bilder från webben till enheten.",
+    "readback": "Ladda upp bilder från webben till enheten.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::switchbot_cloud::services::upload_art_frame_image::fields::device_id::description",
+    "key_id": "876592181",
+    "translation_id": "8897447417",
+    "en": "The target AI Art Frame device.",
+    "before": "Målenheten för AI Art Frame.",
+    "after": "Målenheten av typen AI Art Frame.",
+    "readback": "Målenheten av typen AI Art Frame.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::switchbot_cloud::services::upload_art_frame_image::fields::image_url::description",
+    "key_id": "876592183",
+    "translation_id": "8897447545",
+    "en": "The URL of the image to upload.",
+    "before": "URL-adressen till bilden som ska laddas upp.",
+    "after": "Bildens URL-adress.",
+    "readback": "Bildens URL-adress.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::switchbot_cloud::services::upload_art_frame_image::fields::image_url::name",
+    "key_id": "876592184",
+    "translation_id": "8897447609",
+    "en": "Image URL",
+    "before": "Bild-URL",
+    "after": "Bildens URL",
+    "readback": "Bildens URL",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::switchbot_cloud::services::upload_art_frame_image::name",
+    "key_id": "876592185",
+    "translation_id": "8897447673",
+    "en": "Upload AI Art Frame image",
+    "before": "Ladda upp en bild till AI Art Frame",
+    "after": "Ladda upp bild till AI Art Frame",
+    "readback": "Ladda upp bild till AI Art Frame",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::melcloud_home::config::abort::unique_id_mismatch",
+    "key_id": "876743383",
+    "translation_id": "8899233930",
+    "en": "The login details correspond to a different account. Please re-authenticate to the previously configured account.",
+    "before": "Inloggningsuppgifterna hör till ett annat konto. Autentisera det tidigare konfigurerade kontot på nytt.",
+    "after": "Inloggningsuppgifterna tillhör ett annat konto. Autentisera det tidigare konfigurerade kontot på nytt.",
+    "readback": "Inloggningsuppgifterna tillhör ett annat konto. Autentisera det tidigare konfigurerade kontot på nytt.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::melcloud_home::config::step::reauth_confirm::description",
+    "key_id": "876743388",
+    "translation_id": "8899234250",
+    "en": "The credentials for your MELCloud Home account are no longer valid. Enter your current credentials to reauthenticate.",
+    "before": "Inloggningsuppgifterna för ditt MELCloud Home-konto är inte längre giltiga. Ange dina nuvarande inloggningsuppgifter för att autentisera igen.",
+    "after": "Inloggningsuppgifterna till ditt MELCloud Home-konto är inte längre giltiga. Ange de aktuella inloggningsuppgifterna för att autentisera på nytt.",
+    "readback": "Inloggningsuppgifterna till ditt MELCloud Home-konto är inte längre giltiga. Ange de aktuella inloggningsuppgifterna för att autentisera på nytt.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::nws::config::step::entity::data_description::location_entity",
+    "key_id": "876746738",
+    "translation_id": "8899350691",
+    "en": "Select a person, device tracker, or zone to dynamically track weather for its location.",
+    "before": "Välj en person, enhetsspårare eller zon för att dynamiskt spåra vädret för dess plats.",
+    "after": "Välj en person, en enhetsspårare eller en zon för att följa vädret för den plats där den befinner sig.",
+    "readback": "Välj en person, en enhetsspårare eller en zon för att följa vädret för den plats där den befinner sig.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::nws::config::step::entity::description",
+    "key_id": "876746739",
+    "translation_id": "8899350755",
+    "en": "Track weather for a person, device, or zone. The weather station will update automatically as the entity moves. For now, the API key can be anything. It is recommended to use a valid email address.",
+    "before": "Spåra väder för en person, enhet eller zon. Väderstationen uppdateras automatiskt när enheten rör sig. För närvarande kan API-nyckeln vara vad som helst. Det rekommenderas att använda en giltig e-postadress.",
+    "after": "Följ vädret för en person, enhet eller zon. Väderstationen uppdateras automatiskt när entiteten förflyttas. För närvarande kan API-nyckeln innehålla vad som helst. Vi rekommenderar att du använder en giltig e-postadress.",
+    "readback": "Följ vädret för en person, enhet eller zon. Väderstationen uppdateras automatiskt när entiteten förflyttas. För närvarande kan API-nyckeln innehålla vad som helst. Vi rekommenderar att du använder en giltig e-postadress.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::nws::config::step::location::description",
+    "key_id": "876746745",
+    "translation_id": "8899351139",
+    "en": "If a METAR station code is not specified, the specified location will be used to find the closest station. For now, the API key can be anything. It is recommended to use a valid email address.",
+    "before": "Om ingen METAR-stationskod anges används den angivna platsen för att hitta närmaste station. För närvarande kan API-nyckeln vara vad som helst. En giltig e-postadress rekommenderas.",
+    "after": "Om ingen METAR-stationskod anges används platsen för att hitta närmaste station. För närvarande kan API-nyckeln innehålla vad som helst. Vi rekommenderar att du använder en giltig e-postadress.",
+    "readback": "Om ingen METAR-stationskod anges används platsen för att hitta närmaste station. För närvarande kan API-nyckeln innehålla vad som helst. Vi rekommenderar att du använder en giltig e-postadress.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::nws::exceptions::entity_disabled::message",
+    "key_id": "876746749",
+    "translation_id": "8899351395",
+    "en": "The location entity is disabled. Please enable it or remove this integration entry and set it up again.",
+    "before": "Platsentiteten är inaktiverad. Aktivera den eller ta bort integrationsposten och konfigurera den på nytt.",
+    "after": "Platsentiteten är inaktiverad. Aktivera den eller ta bort den här integrationsposten och konfigurera integrationen på nytt.",
+    "readback": "Platsentiteten är inaktiverad. Aktivera den eller ta bort den här integrationsposten och konfigurera integrationen på nytt.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::nws::exceptions::entity_not_found::message",
+    "key_id": "876746750",
+    "translation_id": "8899351459",
+    "en": "The location entity could not be found. Please remove this integration entry and set it up again.",
+    "before": "Platsentiteten kunde inte hittas. Ta bort den här integrationsposten och konfigurera den på nytt.",
+    "after": "Platsentiteten hittades inte. Ta bort den här integrationsposten och konfigurera integrationen på nytt.",
+    "readback": "Platsentiteten hittades inte. Ta bort den här integrationsposten och konfigurera integrationen på nytt.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::nws::exceptions::entity_unavailable::message",
+    "key_id": "876746751",
+    "translation_id": "8899351523",
+    "en": "The location entity {entity_id} is not available or does not have location coordinates. Setup will be retried.",
+    "before": "Platsentiteten {entity_id} är inte tillgänglig eller saknar platskoordinater. Konfigurationen kommer att försöka igen.",
+    "after": "Platsentiteten {entity_id} är inte tillgänglig eller saknar platskoordinater. Ett nytt konfigurationsförsök görs.",
+    "readback": "Platsentiteten {entity_id} är inte tillgänglig eller saknar platskoordinater. Ett nytt konfigurationsförsök görs.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::rpi_power::issues::under_voltage_detected::fix_flow::step::confirm::description",
+    "key_id": "876762161",
+    "translation_id": "8899461484",
+    "en": "Your device has reported a low-voltage condition. The Raspberry Pi monitors its power input and records an under-voltage event when the supply voltage drops below approximately 4.63V. This can lead to instability, unexpected reboots, poor performance, storage corruption, or unreliable operation of Home Assistant.\n\nCommon causes include:\n\n- A power supply that cannot provide sufficient current.\n- A low-quality or damaged USB power cable causing voltage drop.\n- High-demand USB devices connected to the system.\n- Loose power connections.\n\nTo resolve this issue:\n\n- Switch to a higher quality power supply and cable.\n- Disconnect unnecessary USB devices and check whether the warning stops.\n\nAfter correcting the power issue, monitor the system to ensure no additional under-voltage events are reported.",
+    "before": "Din enhet har rapporterat för låg spänning. Raspberry Pi övervakar sin strömtillförsel och registrerar en underspänningshändelse när matningsspänningen sjunker under cirka 4,63 V. Detta kan leda till instabilitet, oväntade omstarter, försämrad prestanda, skadade lagringsdata eller opålitlig drift av Home Assistant.\n\nVanliga orsaker är:\n\n- En strömförsörjning som inte kan leverera tillräckligt med ström.\n- En USB-strömkabel av låg kvalitet eller som är skadad, vilket orsakar spänningsfall.\n- USB-enheter med hög strömförbrukning anslutna till systemet.\n- Lösa/glappande anslutningar.\n\nSå här åtgärdar du problemet:\n\n- Byt till en strömförsörjning och kabel av högre kvalitet.\n- Koppla bort onödiga USB-enheter och kontrollera om varningen upphör.\n\nEfter att du har åtgärdat problemet bör du övervaka systemet för att säkerställa att inga ytterligare underspänningshändelser rapporteras.",
+    "after": "Enheten har rapporterat underspänning. Raspberry Pi övervakar sin strömförsörjning och registrerar en underspänningshändelse när matningsspänningen sjunker under cirka 4,63 V. Det kan leda till instabilitet, oväntade omstarter, försämrad prestanda, skadade lagringsdata eller instabil drift av Home Assistant.\n\nVanliga orsaker:\n\n- Strömförsörjningen kan inte leverera tillräckligt med ström.\n- En USB-strömkabel av låg kvalitet eller med en skada orsakar spänningsfall.\n- USB-enheter med hög strömförbrukning är anslutna till systemet.\n- Strömanslutningar sitter löst.\n\nSå här åtgärdar du problemet:\n\n- Byt till en strömförsörjning och kabel av högre kvalitet.\n- Koppla bort onödiga USB-enheter och kontrollera om varningen försvinner.\n\nNär du har åtgärdat strömförsörjningen bör du övervaka systemet och kontrollera att inga fler underspänningshändelser rapporteras.",
+    "readback": "Enheten har rapporterat underspänning. Raspberry Pi övervakar sin strömförsörjning och registrerar en underspänningshändelse när matningsspänningen sjunker under cirka 4,63 V. Det kan leda till instabilitet, oväntade omstarter, försämrad prestanda, skadade lagringsdata eller instabil drift av Home Assistant.\n\nVanliga orsaker:\n\n- Strömförsörjningen kan inte leverera tillräckligt med ström.\n- En USB-strömkabel av låg kvalitet eller med en skada orsakar spänningsfall.\n- USB-enheter med hög strömförbrukning är anslutna till systemet.\n- Strömanslutningar sitter löst.\n\nSå här åtgärdar du problemet:\n\n- Byt till en strömförsörjning och kabel av högre kvalitet.\n- Koppla bort onödiga USB-enheter och kontrollera om varningen försvinner.\n\nNär du har åtgärdat strömförsörjningen bör du övervaka systemet och kontrollera att inga fler underspänningshändelser rapporteras.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::teslemetry::issues::key::fix_flow::error::not_resolved",
+    "key_id": "876851286",
+    "translation_id": "8900088134",
+    "en": "The virtual key still appears to be unpaired. Please complete the pairing at {link}, then try again.",
+    "before": "Den virtuella nyckeln verkar fortfarande vara oparad. Slutför parkopplingen på {link}, försök sedan igen.",
+    "after": "Den virtuella nyckeln verkar fortfarande inte vara parkopplad. Slutför parkopplingen på {link} och försök sedan igen.",
+    "readback": "Den virtuella nyckeln verkar fortfarande inte vara parkopplad. Slutför parkopplingen på {link} och försök sedan igen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::teslemetry::issues::key::fix_flow::step::confirm::description",
+    "key_id": "876851287",
+    "translation_id": "8900088198",
+    "en": "Home Assistant cannot receive data from or send commands to {vehicle} because the Teslemetry virtual key is not paired with the vehicle. Until it is paired, the vehicle's data will not update and commands such as locking, climate control and charging will not work.\n\n1. Open {link}.\n2. Follow the prompts to add the virtual key to {vehicle}.\n3. Select **Submit** below to re-check.",
+    "before": "Home Assistant kan inte skicka kommandon till {vehicle} eftersom den virtuella nyckeln för Teslemetry inte är kopplad till fordonet. Tills den är kopplad kommer kommandon som låsning, klimatkontroll och laddning inte att fungera.\n\n1. Öppna {link}.\n2. Följ anvisningarna för att lägga till den virtuella nyckeln till {vehicle}.\n3. Välj **Bekräfta** nedan för att kontrollera igen.",
+    "after": "Home Assistant kan varken ta emot data från eller skicka kommandon till {vehicle}, eftersom Teslemetrys virtuella nyckel inte är parkopplad med fordonet. Innan den har parkopplats uppdateras inte fordonsdata, och kommandon som att låsa fordonet, styra klimatanläggningen och ladda det fungerar inte.\n\n1. Öppna {link}.\n2. Följ anvisningarna för att lägga till den virtuella nyckeln till {vehicle}.\n3. Välj **Skicka** nedan för att kontrollera igen.",
+    "readback": "Home Assistant kan varken ta emot data från eller skicka kommandon till {vehicle}, eftersom Teslemetrys virtuella nyckel inte är parkopplad med fordonet. Innan den har parkopplats uppdateras inte fordonsdata, och kommandon som att låsa fordonet, styra klimatanläggningen och ladda det fungerar inte.\n\n1. Öppna {link}.\n2. Följ anvisningarna för att lägga till den virtuella nyckeln till {vehicle}.\n3. Välj **Skicka** nedan för att kontrollera igen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::teslemetry::issues::key::fix_flow::step::confirm::title",
+    "key_id": "876851288",
+    "translation_id": "8900088262",
+    "en": "Pair the virtual key for {vehicle}",
+    "before": "Koppla den virtuella nyckeln till {vehicle}",
+    "after": "Parkoppla den virtuella nyckeln med {vehicle}",
+    "readback": "Parkoppla den virtuella nyckeln med {vehicle}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::teslemetry::issues::streaming_toggle::fix_flow::error::not_resolved",
+    "key_id": "876851290",
+    "translation_id": "8900088390",
+    "en": "Data streaming still appears to be disabled. Please enable \"Allow Third-Party App Data Streaming\" in the vehicle's Safety settings, then try again.",
+    "before": "Dataströmning verkar fortfarande vara inaktiverad. Aktivera alternativet ”Tillåt dataströmning från tredjepartsappar” i fordonets säkerhetsinställningar och försök sedan igen.",
+    "after": "Dataströmningen verkar fortfarande vara inaktiverad. Aktivera ”Tillåt dataströmning från tredjepartsappar” under fordonets säkerhetsinställningar och försök sedan igen.",
+    "readback": "Dataströmningen verkar fortfarande vara inaktiverad. Aktivera ”Tillåt dataströmning från tredjepartsappar” under fordonets säkerhetsinställningar och försök sedan igen.",
+    "status": "saved-and-read-back"
+  }
+]

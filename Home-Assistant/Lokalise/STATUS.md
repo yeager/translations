@@ -2414,3 +2414,9 @@ Senaste position: **58 456** av 77 656. Nästa: **58 457**; **19 200 återstår*
 120 positioner granskades: 66 aktuella strängar  38 referenser och 16 tidigare dokumenterade saknade källvägar. 35 ändringar sparades och lästes tillbaka från Lokalise. Referenser 38/38; platshållare 120/120; inga pluralnycklar. HA-TMX validerad.
 
 Senaste position: **58 576** av 77 656. Nästa: **58 577**; **19 080 återstår**. Granskningen fortsätter.
+
+### Batch: 58 577–58 696
+
+120 positioner granskades: 99 aktuella strängar  16 referenser och 5 tidigare dokumenterade saknade källvägar. 36 ändringar sparades och lästes tillbaka från Lokalise. Referenser 16/16; platshållare 120/120; inga pluralnycklar. HA-TMX validerad.
+
+Senaste position: **58 696** av 77 656. Nästa: **58 697**; **18 960 återstår**. Granskningen fortsätter.
