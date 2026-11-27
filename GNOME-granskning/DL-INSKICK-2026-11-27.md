@@ -4,6 +4,7 @@ Färdiggranskade kataloger som laddats upp via API. Uppladdning verifieras mot a
 
 | Modul | Gren | Domän | Ändrade PO-poster | Verifiering |
 |---|---|---|---:|---|
+| Manuals | main | po | 5 | Uppladdad 02:14 UTC med ”Granskad och klar”; aktivitetssidan bekräftar sammanslagning 51/0/0. |
 | vocalis | main | po | 10 | Uppladdad 02:03 UTC med ”Granskad och klar”; aktivitetssidan bekräftar sammanslagning 73/0/0. |
 | video-trimmer | main | po | 7 | Uppladdad 01:55 UTC; aktivitetssidan bekräftar sammanslagning 69/0/0. |
 | www-gnome-org | main | po | 29 | Uppladdad 01:44 UTC; aktivitetssidan bekräftar sammanslagning 123/0/0. |
@@ -20,5 +21,5 @@ Färdiggranskade kataloger som laddats upp via API. Uppladdning verifieras mot a
 
 ## Status
 
-- Uppladdade och verifierade händelser: **13**.
+- Uppladdade och verifierade händelser: **14**.
 - Sammanslagna: `phodav/master/po` (32/0/0), `d-spy/main/po` (79/0/0) och `realmd/master/po` (139/0/0) `libsoup/master/po` (40/0/0), `Errands/main/po` (179/0/0), `metronome/main/po` (37/0/0), `help.gnome.org/master/po` (46/0/0), `libipuz/main/po` (39/0/0), `gcab/master/po` (34/0/0), `showtime/main/po` (80/0/0), `www-gnome-org/main/po` (123/0/0), `video-trimmer/main/po` (69/0/0), `vocalis/main/po` (73/0/0). Deras statistik-API visar ännu äldre värden.
