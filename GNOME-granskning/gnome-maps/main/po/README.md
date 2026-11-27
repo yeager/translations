@@ -1,11 +1,12 @@
-# GNOME Maps — main — svenska UI
+# gnome-maps — main — svenska UI
 
-- **GNOME-aktivitet:** <https://l10n.gnome.org/vertimus/gnome-maps/main/po/sv/>
-- **Källunderlag:** senaste POT från Damned Lies, skapad 2026-11-24 08:49+0000; sha256 `3c32757ef658f156b0cbf089a9ba3802dd692d0dd4ea79b494d3602cf1b3ef31`.
-- **Statistik före granskning:** 535 översatta, 7 fuzzy, 16 oöversatta av 558.
-- **Slutlig lokal status:** 558/558 översatta, 0 fuzzy och 0 oöversatta.
-- **Ändringar:** 16 nya översättningar, 7 fuzzy-strängar omarbetade och 89 befintliga översättningar rättade; 112 aktiva PO-poster ändrade totalt.
-- **Validering:** `msgcmp` mot senaste POT och `msgfmt --check --check-format` godkända. Platshållare och acceleratorantal matchar; inga nordiska acceleratorer används. En radbrytningsskillnad i `translator-credits` är avsiktlig eftersom källan är specialmarkören och målet innehåller översättarlistan. `l10n-lint`: 0 fel och 2 varningar för korrekt svensk gemenform `fm`/`em`. Hunspell med `sv_SE` kördes på alla mål; okända egennamn, tekniska termer och acceleratorfragment dokumenteras i `hunspell-exceptions.md`.
-- **TM-stöd:** GNOME TM användes för att kontrollera bland annat `Timezone` → `Tidszon`, `Current timezone` → `Aktuell tidszon`, `Map color scheme` → `Kartans färgschema` och `Plus Code` → `Plus Code`. Tidigare dåliga träffar rättades där sammanhanget visade att de var fel, exempelvis `Light` → `Ljust` (inte `Flyg`) och `Imperial` → `Brittiskt`.
-- **Inskickning:** ingen. Den här granskningen är lokal; inget har skickats till Damned Lies.
-- **Översättarmetadata:** Daniel Nylander <gnome@danielnylander.se>, 2026-11-27 12:00+0100.
+- GNOME-status före granskning: 535 översatta, 6 fuzzy, 13 oöversatta.
+- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/gnome-maps/main/po/sv/>
+- Granskad rad: `No entry` → `Ingen påstigning`; `No exit` → `Ingen avstigning`.
+- Åtgärd: Färgteman, offlinekartornas förloppstexter, kollektivtrafikstatus och Plus Code-stöd översattes.
+- Ändringar: 13 ny(a) översättning(ar), 7 rättad(e) befintlig(a) sträng(ar).
+- Validering: `msgfmt --check`; inställningsvärdena `system`, `light` och `dark` kontrollerade.
+- Dokumenterade undantag: `Plus Code` och de interna färgtemavärdena bevaras som tekniska identifierare. `fm` och `em` är svenska tidsförkortningar och behåller sina gemener.
+- Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-22 00:00+0100.
+- GNOME-inskick: uppladdad till Damned Lies 2026-11-23 efter reservation, med kommentaren `Granskad och klar` (`{"result":"OK"}`).
+- Slutlig lokal status: 554 översatta, 0 fuzzy, 0 oöversatta.
