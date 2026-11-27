@@ -1,0 +1,770 @@
+--- original.sv.po
++++ reviewed.sv.po
+@@ -10,8 +10,8 @@
+ "Project-Id-Version: dasher\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/dasher/issues/\n"
+ "POT-Creation-Date: 2023-03-04 16:14+0000\n"
+-"PO-Revision-Date: 2018-03-11 19:43+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-27 18:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -20,393 +20,306 @@
+ "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+ "X-Generator: Poedit 2.0.6\n"
+ 
+-#: Data/dasher.desktop.in.in:2 Data/GUI/dasher.traditional.ui:196
+ msgid "Dasher"
+ msgstr "Dasher"
+ 
+-#: Data/dasher.desktop.in.in:3
+ msgid "Predictive text entry"
+ msgstr "Prediktiv textinmatning"
+ 
+-#: Data/dasher.desktop.in.in:4
+ msgid "Enter text without a keyboard"
+ msgstr "Mata in text utan ett tangentbord"
+ 
+-#: Data/GUI/dasher.preferences.ui:26
+ msgid "Centre circle"
+-msgstr "Centrumcirkel"
+-
+-#: Data/GUI/dasher.preferences.ui:29
++msgstr "Mittcirkel"
++
+ msgid "Two box"
+ msgstr "Två rutor"
+ 
+-#: Data/GUI/dasher.preferences.ui:34
+ msgid "Dasher Preferences"
+ msgstr "Inställningar för Dasher"
+ 
+-#: Data/GUI/dasher.preferences.ui:58
+ msgid "Alphabet Selection"
+ msgstr "Val av alfabet"
+ 
+-#: Data/GUI/dasher.preferences.ui:107
+ msgid "Language Model"
+ msgstr "Språkmodell"
+ 
+ #. PPM = Prediction by Partial Match, a statistical language model.
+-#: Data/GUI/dasher.preferences.ui:128
+ msgid "Standard letter-based PPM"
+-msgstr "Standard bokstavsbaserad PPM"
+-
+-#: Data/GUI/dasher.preferences.ui:142
++msgstr "Standardmodell med bokstavsbaserad PPM"
++
+ msgid "Word-based model"
+ msgstr "Ordbaserad modell"
+ 
+ #. PPM = Prediction by Partial Match, a statistical language model.
+-#: Data/GUI/dasher.preferences.ui:158
+ msgid "Mixture model (PPM/dictionary)"
+-msgstr "Blandningsmodell (PPM/ordbok)"
+-
+-#: Data/GUI/dasher.preferences.ui:174
++msgstr "Blandad modell (PPM/ordbok)"
++
+ msgid "Japanese"
+ msgstr "Japanska"
+ 
+-#: Data/GUI/dasher.preferences.ui:205
+ msgid "Adaptation"
+ msgstr "Anpassning"
+ 
+-#: Data/GUI/dasher.preferences.ui:226
+ msgid "Language model adapts as you write."
+ msgstr "Språkmodellen anpassas när du skriver."
+ 
+-#: Data/GUI/dasher.preferences.ui:257
+ msgid "Smoothing"
+ msgstr "Utjämning"
+ 
+ #. Line wrapping not necessary, but looks better for English
+-#: Data/GUI/dasher.preferences.ui:280
+ msgid ""
+ "Use this control to adjust the relative sizes of the\n"
+ "letter boxes. Note that selecting high values will slow\n"
+ "your writing speed."
+ msgstr ""
+-"Använd denna styrning för att justera de relativa\n"
+-"storlekarna för bokstavsrutor. Observera att höga värden\n"
+-"kommer att sänka farten på din skrivhastighet."
+-
+-#: Data/GUI/dasher.preferences.ui:322
++"Använd det här reglaget för att justera bokstavsrutornas\n"
++"relativa storlek. Observera att höga värden gör att du\n"
++"skriver långsammare."
++
+ msgid "Direction"
+ msgstr "Riktning"
+ 
+-#. The default display orientation for the selected alphabet, i.e., left to right for English, right to left for Arabic, etc.
+-#: Data/GUI/dasher.preferences.ui:344
++#. The default display orientation for the selected alphabet, i.e., left to
++#. right for English, right to left for Arabic, etc.
+ msgid "Alphabet Default"
+ msgstr "Standardalfabet"
+ 
+-#. This means that you always want to write left-to-right regardless of the normal direction for the alphabet you are using
+-#: Data/GUI/dasher.preferences.ui:359
++#. This means that you always want to write left-to-right regardless of the
++#. normal direction for the alphabet you are using
+ msgid "Always Left-to-Right"
+-msgstr "Alltid vänster-till-höger"
+-
+-#: Data/GUI/dasher.preferences.ui:376
++msgstr "Alltid från vänster till höger"
++
+ msgid "Always Right-to-Left"
+-msgstr "Alltid höger-till-vänster"
+-
+-#: Data/GUI/dasher.preferences.ui:393
++msgstr "Alltid från höger till vänster"
++
+ msgid "Always Top-to-Bottom"
+-msgstr "Alltid uppifrån-och-ned"
+-
+-#: Data/GUI/dasher.preferences.ui:410
++msgstr "Alltid uppifrån och ned"
++
+ msgid "Always Bottom-to-Top"
+-msgstr "Alltid nedifrån-och-upp"
+-
+-#: Data/GUI/dasher.preferences.ui:444
++msgstr "Alltid nedifrån och upp"
++
+ msgid "_Language"
+-msgstr "Språ_k"
+-
+-#. The way in which you would like to control dasher, e.g., using buttons for up/down, buttons for select, etc.
+-#: Data/GUI/dasher.preferences.ui:463
++msgstr "_Språk"
++
++#. The way in which you would like to control dasher, e.g., using buttons for
++#. up/down, buttons for select, etc.
+ msgid "Control Style"
+-msgstr "Styrningsstil"
+-
+-#: Data/GUI/dasher.preferences.ui:510 Data/GUI/dasher.preferences.ui:588
++msgstr "Styrmetod"
++
+ msgid "Options"
+ msgstr "Alternativ"
+ 
+-#: Data/GUI/dasher.preferences.ui:541
+ msgid "Input Device"
+ msgstr "Inmatningsenhet"
+ 
+-#: Data/GUI/dasher.preferences.ui:615
+ msgid "Speed"
+ msgstr "Hastighet"
+ 
+-#: Data/GUI/dasher.preferences.ui:645
+ msgid "Adapt speed automatically"
+ msgstr "Anpassa hastighet automatiskt"
+ 
+-#: Data/GUI/dasher.preferences.ui:677
+ msgid "Starting and Stopping"
+ msgstr "Start och stopp"
+ 
+-#: Data/GUI/dasher.preferences.ui:699
+ msgid "Start on left mouse button"
+-msgstr "Starta på vänster musknapp"
+-
+-#: Data/GUI/dasher.preferences.ui:714
++msgstr "Starta med vänster musknapp"
++
+ msgid "Start on space bar"
+-msgstr "Starta på mellanslagstangent"
+-
+-#: Data/GUI/dasher.preferences.ui:730
++msgstr "Starta med mellanslagstangenten"
++
+ msgid "Start with mouse position:"
+-msgstr "Starta med musposition:"
+-
+-#: Data/GUI/dasher.preferences.ui:771
++msgstr "Starta vid muspekarens position:"
++
+ msgid "Pause outside of canvas"
+-msgstr "Gör paus utanför fönster"
++msgstr "Pausa utanför arbetsytan"
+ 
+ #. Abbreviation for Control Style
+-#: Data/GUI/dasher.preferences.ui:805
+ msgid "C_ontrol"
+-msgstr "St_yrning"
+-
+-#: Data/GUI/dasher.preferences.ui:825
++msgstr "_Styrning"
++
+ msgid "Colour Scheme"
+ msgstr "Färgschema"
+ 
+-#: Data/GUI/dasher.preferences.ui:846
+ msgid "Custom colour scheme:"
+ msgstr "Anpassat färgschema:"
+ 
+-#: Data/GUI/dasher.preferences.ui:898
+ msgid "Appearance Options"
+ msgstr "Utseendealternativ"
+ 
+-#: Data/GUI/dasher.preferences.ui:920
+ msgid "Show mouse position"
+-msgstr "Visa musposition"
+-
+-#: Data/GUI/dasher.preferences.ui:935
++msgstr "Visa muspekarens position"
++
+ msgid "Draw line between crosshairs and mouse"
+-msgstr "Rita linje mellan hårkors och mus"
+-
+-#: Data/GUI/dasher.preferences.ui:955
++msgstr "Rita en linje mellan hårkorset och muspekaren"
++
+ msgid "Increase line thickness"
+-msgstr "Öka linjetjocklek"
+-
+-#: Data/GUI/dasher.preferences.ui:973
++msgstr "Öka linjebredden"
++
+ msgid "Draw box outlines"
+-msgstr "Rita rutkonturer"
+-
+-#: Data/GUI/dasher.preferences.ui:1003
++msgstr "Visa rutornas konturer"
++
+ msgid "Dasher Font"
+ msgstr "Dasher-typsnitt"
+ 
+-#: Data/GUI/dasher.preferences.ui:1024
+ msgid "Select Dasher Font"
+ msgstr "Välj typsnitt för Dasher"
+ 
+-#: Data/GUI/dasher.preferences.ui:1039
+ msgid "Small font"
+ msgstr "Litet typsnitt"
+ 
+-#: Data/GUI/dasher.preferences.ui:1055
+ msgid "Large font "
+ msgstr "Stort typsnitt "
+ 
+-#: Data/GUI/dasher.preferences.ui:1072
+ msgid "Very large font"
+ msgstr "Mycket stort typsnitt"
+ 
+-#: Data/GUI/dasher.preferences.ui:1107
+ msgid "_Appearance"
+ msgstr "_Utseende"
+ 
+-#: Data/GUI/dasher.preferences.ui:1135
+ msgid "Application Options"
+ msgstr "Programalternativ"
+ 
+-#: Data/GUI/dasher.preferences.ui:1157
+ msgid "Timestamp new files"
+ msgstr "Tidsstämpla nya filer"
+ 
+-#: Data/GUI/dasher.preferences.ui:1172
+ msgid "Show toolbar"
+ msgstr "Visa verktygsfält"
+ 
+-#: Data/GUI/dasher.preferences.ui:1188
+ msgid "Show speed slider"
+-msgstr "Visa hastighetsskjutreglage"
+-
+-#: Data/GUI/dasher.preferences.ui:1204
++msgstr "Visa hastighetsreglage"
++
+ msgid "Control mode"
+ msgstr "Styrningsläge"
+ 
+-#: Data/GUI/dasher.preferences.ui:1235
+ msgid "Copy All on stop"
+-msgstr "Kopiera allt vid stopp"
+-
+-#: Data/GUI/dasher.preferences.ui:1251
++msgstr "Kopiera allt när du stoppar"
++
+ msgid "Speak All on stop"
+-msgstr "Läs upp allt vid stopp"
+-
+-#: Data/GUI/dasher.preferences.ui:1267
++msgstr "Läs upp allt när du stoppar"
++
+ msgid "Speak words as you write"
+-msgstr "Läs upp ord när du skriver"
+-
+-#: Data/GUI/dasher.preferences.ui:1283
++msgstr "Läs upp orden medan du skriver"
++
+ msgid "Confirm unsaved files"
+-msgstr "Bekräfta filer som ej sparats"
+-
+-#: Data/GUI/dasher.preferences.ui:1314
++msgstr "Bekräfta osparade filer"
++
+ msgid "Editor Font"
+-msgstr "Redigerartypsnitt"
+-
+-#: Data/GUI/dasher.preferences.ui:1332
++msgstr "Typsnitt i redigeraren"
++
+ msgid "Select Editor Font"
+-msgstr "Välj typsnitt för redigerare"
+-
+-#: Data/GUI/dasher.preferences.ui:1360
++msgstr "Välj typsnitt för redigeraren"
++
+ msgid "Application Style"
+ msgstr "Programstil"
+ 
+-#: Data/GUI/dasher.preferences.ui:1382
+ msgid "Stand-alone"
+ msgstr "Fristående"
+ 
+-#: Data/GUI/dasher.preferences.ui:1397
+ msgid "Composition"
+-msgstr "Komposition"
+-
+-#: Data/GUI/dasher.preferences.ui:1414
++msgstr "Kompositionsläge"
++
+ msgid "Direct entry"
+-msgstr "Direktpost"
+-
+-#: Data/GUI/dasher.preferences.ui:1431
++msgstr "Direktinmatning"
++
+ msgid "Full Screen"
+ msgstr "Helskärm"
+ 
+-#: Data/GUI/dasher.preferences.ui:1471
+ msgid "A_pplication"
+-msgstr "P_rogram"
+-
+-#: Data/GUI/dasher.traditional.ui:17
++msgstr "_Program"
++
+ msgid "_File"
+ msgstr "_Arkiv"
+ 
+-#: Data/GUI/dasher.traditional.ui:23
+ msgid "New file"
+ msgstr "Ny fil"
+ 
+-#: Data/GUI/dasher.traditional.ui:30
+ msgid "Open file"
+ msgstr "Öppna fil"
+ 
+-#: Data/GUI/dasher.traditional.ui:37
+ msgid "Save file"
+ msgstr "Spara fil"
+ 
+-#: Data/GUI/dasher.traditional.ui:44
+ msgid "Save file as"
+ msgstr "Spara fil som"
+ 
+-#: Data/GUI/dasher.traditional.ui:51
+ msgid "A_ppend to file…"
+-msgstr "Lä_gg till i fil…"
+-
+-#: Data/GUI/dasher.traditional.ui:58
++msgstr "_Lägg till i fil…"
++
+ msgid "_Import Training Text…"
+ msgstr "_Importera träningstext…"
+ 
+-#: Data/GUI/dasher.traditional.ui:65
+ msgid "Quit"
+ msgstr "Avsluta"
+ 
+-#: Data/GUI/dasher.traditional.ui:71
+ msgid "_Edit"
+-msgstr "R_edigera"
+-
+-#: Data/GUI/dasher.traditional.ui:77
++msgstr "_Redigera"
++
+ msgid "Cut"
+ msgstr "Klipp ut"
+ 
+-#: Data/GUI/dasher.traditional.ui:84
+ msgid "Copy"
+ msgstr "Kopiera"
+ 
+-#: Data/GUI/dasher.traditional.ui:90
+ msgid "Copy _All"
+ msgstr "Kopiera _alla"
+ 
+-#: Data/GUI/dasher.traditional.ui:97
+ msgid "Paste"
+ msgstr "Klistra in"
+ 
+-#: Data/GUI/dasher.traditional.ui:104
+ msgid "Pr_eferences…"
+-msgstr "Instä_llningar…"
+-
+-#: Data/GUI/dasher.traditional.ui:105
++msgstr "_Inställningar…"
++
+ msgid "Preferences"
+ msgstr "Inställningar"
+ 
+-#: Data/GUI/dasher.traditional.ui:112
+ msgid "_Help"
+ msgstr "_Hjälp"
+ 
+-#: Data/GUI/dasher.traditional.ui:118
+ msgid "_Contents…"
+ msgstr "_Innehåll…"
+ 
+-#: Data/GUI/dasher.traditional.ui:119
+ msgid "Help"
+ msgstr "Hjälp"
+ 
+-#: Data/GUI/dasher.traditional.ui:127
+ msgid "_About…"
+ msgstr "_Om…"
+ 
+-#: Data/GUI/dasher.traditional.ui:134
+ msgid "Direct Mode"
+ msgstr "Direktläge"
+ 
+-#: Data/GUI/dasher.traditional.ui:135
+ msgid "_Direct Mode"
+ msgstr "_Direktläge"
+ 
+-#: Data/GUI/dasher.traditional.ui:141
+ msgid "_Game Mode"
+ msgstr "_Spelläge"
+ 
+-#: Data/GUI/dasher.traditional.ui:296
+ msgid "Speed:"
+ msgstr "Hastighet:"
+ 
+-#: Data/GUI/dasher.traditional.ui:342
+ msgid "Alphabet:"
+ msgstr "Alfabet:"
+ 
+-#: Data/GUI/dasher.traditional.ui:392
+ msgid "Please Wait…"
+ msgstr "Vänta…"
+ 
+-#: Src/DasherCore/MandarinAlphMgr.cpp:247
+ #, c-format
+ msgid ""
+ "In file %s, the following %i symbol appeared without annotations saying how "
+-"it should be entered, but it can be entered in several ways. Dasher will not "
+-"be able to learn how you want to enter this symbol:"
++"it should be entered, but it can be entered in several ways. Dasher will not"
++" be able to learn how you want to enter this symbol:"
+ msgid_plural ""
+-"In file %s, the following %i symbols appeared without annotations saying how "
+-"they should be entered, but each can be entered in several ways. Dasher will "
+-"not be able to learn how you want to enter these symbols:"
++"In file %s, the following %i symbols appeared without annotations saying how"
++" they should be entered, but each can be entered in several ways. Dasher "
++"will not be able to learn how you want to enter these symbols:"
+ msgstr[0] ""
+ "I filen %s fanns %i symbol utan kommentarer som beskrev hur den skulle "
+ "anges, men den kan anges på flera sätt. Dasher kommer inte att kunna lära "
+ "sig hur du vill ange denna symbol:"
+ msgstr[1] ""
+ "I filen %s fanns %i symboler utan kommentarer som beskrev hur de skulle "
+-"anges, men de kan anges på flera sätt. Dasher kommer inte att kunna lära sig "
+-"hur du vill ange dessa symboler:"
++"anges, men de kan anges på flera sätt. Dasher kommer inte att kunna lära sig"
++" hur du vill ange dessa symboler:"
+ 
+ #~ msgid "dasher"
+ #~ msgstr "dasher"
+@@ -492,11 +405,11 @@
+ 
+ #, c-format
+ #~ msgid ""
+-#~ "File ends with incomplete UTF-8 character beginning 0x%x (expecting %i "
+-#~ "bytes but only %i)"
+-#~ msgstr ""
+-#~ "Filen slutar med inkompletta UTF-8-tecken som börjar på 0x%x (förväntade "
+-#~ "sig %i byte men fann bara %i)"
++#~ "File ends with incomplete UTF-8 character beginning 0x%x (expecting %i bytes"
++#~ " but only %i)"
++#~ msgstr ""
++#~ "Filen slutar med inkompletta UTF-8-tecken som börjar på 0x%x (förväntade sig"
++#~ " %i byte men fann bara %i)"
+ 
+ #, c-format
+ #~ msgid "Read invalid UTF-8 character 0x%x"
+@@ -504,11 +417,11 @@
+ 
+ #, c-format
+ #~ msgid ""
+-#~ "Note: GameTextFile setting specifies game sentences file '%s' but this "
+-#~ "does not exist"
+-#~ msgstr ""
+-#~ "Observera: GameTextFile-inställning specificerar spelmeningsfilen ”%s” "
+-#~ "men den hittas inte"
++#~ "Note: GameTextFile setting specifies game sentences file '%s' but this does "
++#~ "not exist"
++#~ msgstr ""
++#~ "Observera: GameTextFile-inställning specificerar spelmeningsfilen ”%s” men "
++#~ "den hittas inte"
+ 
+ #~ msgid "Frames over which to perform zoom"
+ #~ msgstr "Bildrutor för vilka zoom ska ske"
+@@ -536,8 +449,8 @@
+ 
+ #~ msgid "Draw guides on screen to show area into which a click will zoom"
+ #~ msgstr ""
+-#~ "Rita ut hjälplinjer på skärmen för att visa området i vilket ett klick "
+-#~ "ska zooma"
++#~ "Rita ut hjälplinjer på skärmen för att visa området i vilket ett klick ska "
++#~ "zooma"
+ 
+ #~ msgid "Curve lines to follow the non-linearity of the view transform"
+ #~ msgstr "Böj linjer för att följa icke-linjärheten i vytransformationen"
+@@ -581,8 +494,8 @@
+ #~ "Screen geometry (mostly for tall thin screens) - 0=old-style, 1=square no-"
+ #~ "xhair, 2=squish, 3=squish+log"
+ #~ msgstr ""
+-#~ "Skärmgeometri (mest för avlånga tunna skärmar) - 0=gammal-stil, "
+-#~ "1=fyrkantig inget-hårkors, 2=pressad, 3=pressad+logg"
++#~ "Skärmgeometri (mest för avlånga tunna skärmar) - 0=gammal-stil, 1=fyrkantig "
++#~ "inget-hårkors, 2=pressad, 3=pressad+logg"
+ 
+ #~ msgid ""
+ #~ "Shape type: 0=disjoint rects, 1=overlapping, 2=triangles, 3=trunc-tris, "
+@@ -611,8 +524,7 @@
+ 
+ #~ msgid "Distance of sentence from center to decide user needs help"
+ #~ msgstr ""
+-#~ "Avstånd för mening från centrum för att bestämma om användare behöver "
+-#~ "hjälp"
++#~ "Avstånd för mening från centrum för att bestämma om användare behöver hjälp"
+ 
+ #~ msgid "Time for which user must need help before help drawn"
+ #~ msgstr "Tid för vilken användare måste använda hjälp innan hjälp ritas"
+@@ -622,59 +534,57 @@
+ 
+ #, c-format
+ #~ msgid ""
+-#~ "Warning: faulty alphabet definition: training-start delimiter %s must be "
+-#~ "a single unicode character. May be unable to process training file."
+-#~ msgstr ""
+-#~ "Varning: felaktig alfabetsdefinition: startavgränsaren %s för träning "
+-#~ "måste vare ett enskilt unicode-tecken. Kan kanske inte bearbeta "
+-#~ "träningsfil."
+-
+-#, c-format
+-#~ msgid ""
+-#~ "Warning: training file contains character '%s' as member of group '%s', "
+-#~ "but no group of that name contains the character; ignoring group specifier"
+-#~ msgstr ""
+-#~ "Varning: träningsfilen innehåller tecknet ”%s” som medlem av grupp ”%s” "
+-#~ "men ingen grupp med det namnet innehåller tecknet; ignorerar "
+-#~ "gruppspecificeraren"
+-
+-#, c-format
+-#~ msgid ""
+-#~ "Warning: training file contains character '%s' as member of group '%s', "
+-#~ "but no group of that name contains the character. Dasher will not be able "
+-#~ "to learn how you want to write this character."
+-#~ msgstr ""
+-#~ "Varning: träningsfilen innehåller tecknet ”%s” som medlem av grupp ”%s”, "
+-#~ "men ingen grupp med det namnet innehåller tecknet. Dasher kommer inte att "
+-#~ "kunna lära sig hur du vill skriva detta tecken."
+-
+-#, c-format
+-#~ msgid ""
+-#~ "Warning: training file contains character '%s' as member of group '%s', "
+-#~ "but alphabet contains several such groups. Dasher will not be able to "
++#~ "Warning: faulty alphabet definition: training-start delimiter %s must be a "
++#~ "single unicode character. May be unable to process training file."
++#~ msgstr ""
++#~ "Varning: felaktig alfabetsdefinition: startavgränsaren %s för träning måste "
++#~ "vare ett enskilt unicode-tecken. Kan kanske inte bearbeta träningsfil."
++
++#, c-format
++#~ msgid ""
++#~ "Warning: training file contains character '%s' as member of group '%s', but "
++#~ "no group of that name contains the character; ignoring group specifier"
++#~ msgstr ""
++#~ "Varning: träningsfilen innehåller tecknet ”%s” som medlem av grupp ”%s” men "
++#~ "ingen grupp med det namnet innehåller tecknet; ignorerar gruppspecificeraren"
++
++#, c-format
++#~ msgid ""
++#~ "Warning: training file contains character '%s' as member of group '%s', but "
++#~ "no group of that name contains the character. Dasher will not be able to "
+ #~ "learn how you want to write this character."
+ #~ msgstr ""
+-#~ "Varning: träningsfilen innehåller tecknet ”%s” som medlem av grupp ”%s”, "
+-#~ "men alfabetet innehåller flera sådana grupper. Dasher kommer inte att "
+-#~ "kunna lära sig hur du vill skriva detta tecken."
++#~ "Varning: träningsfilen innehåller tecknet ”%s” som medlem av grupp ”%s”, men"
++#~ " ingen grupp med det namnet innehåller tecknet. Dasher kommer inte att kunna"
++#~ " lära sig hur du vill skriva detta tecken."
++
++#, c-format
++#~ msgid ""
++#~ "Warning: training file contains character '%s' as member of group '%s', but "
++#~ "alphabet contains several such groups. Dasher will not be able to learn how "
++#~ "you want to write this character."
++#~ msgstr ""
++#~ "Varning: träningsfilen innehåller tecknet ”%s” som medlem av grupp ”%s”, men"
++#~ " alfabetet innehåller flera sådana grupper. Dasher kommer inte att kunna "
++#~ "lära sig hur du vill skriva detta tecken."
+ 
+ #, c-format
+ #~ msgid ""
+ #~ "Warning: in training file, annotation '<%s>' is followed by another "
+ #~ "annotation and will be ignored"
+ #~ msgstr ""
+-#~ "Varning: i träningsfilen följs kommentaren ”<%s>” av en annan kommentar "
+-#~ "och kommer att ignoreras"
+-
+-#, c-format
+-#~ msgid ""
+-#~ "In file %s, the following %i symbols appeared without annotations saying "
+-#~ "how they should be entered, but each can be entered in several ways. "
+-#~ "Dasher will not be able to learn how you want to enter these symbols:"
++#~ "Varning: i träningsfilen följs kommentaren ”<%s>” av en annan kommentar och "
++#~ "kommer att ignoreras"
++
++#, c-format
++#~ msgid ""
++#~ "In file %s, the following %i symbols appeared without annotations saying how"
++#~ " they should be entered, but each can be entered in several ways. Dasher "
++#~ "will not be able to learn how you want to enter these symbols:"
+ #~ msgstr ""
+ #~ "I filen %s fanns %i symboler utan kommentarer som beskrev hur de skulle "
+-#~ "anges, men de kan anges på flera sätt. Dasher kommer inte att kunna lära "
+-#~ "sig hur du vill ange dessa symboler:"
++#~ "anges, men de kan anges på flera sätt. Dasher kommer inte att kunna lära sig"
++#~ " hur du vill ange dessa symboler:"
+ 
+ #~ msgid "Training on User Text"
+ #~ msgstr "Träna på användartext"
+@@ -687,18 +597,18 @@
+ #~ "No user training text found - if you have written in \"%s\" before, this "
+ #~ "means Dasher may not be learning from previous sessions"
+ #~ msgstr ""
+-#~ "Ingen träningsanvändartext hittades - om du har skrivit i ”%s” förut "
+-#~ "betyder detta att Dasher kanske inte lär sig från tidigare sessioner"
+-
+-#, c-format
+-#~ msgid ""
+-#~ "No training text (user or system) found for \"%s\". Dasher will still "
+-#~ "work but entry will be slower. We suggest downloading a training text "
+-#~ "file from the Dasher website, or constructing your own."
++#~ "Ingen träningsanvändartext hittades - om du har skrivit i ”%s” förut betyder"
++#~ " detta att Dasher kanske inte lär sig från tidigare sessioner"
++
++#, c-format
++#~ msgid ""
++#~ "No training text (user or system) found for \"%s\". Dasher will still work "
++#~ "but entry will be slower. We suggest downloading a training text file from "
++#~ "the Dasher website, or constructing your own."
+ #~ msgstr ""
+ #~ "Ingen träningstext (eller systemtext) hittades för ”%s”. Dasher kommer "
+-#~ "fortfarande att fungera men bli långsammare. Vi rekommenderar att hämta "
+-#~ "en träningstextfil från Dashers webbplats eller att du skapar din egna."
++#~ "fortfarande att fungera men bli långsammare. Vi rekommenderar att hämta en "
++#~ "träningstextfil från Dashers webbplats eller att du skapar din egna."
+ 
+ #, c-format
+ #~ msgid ""
+@@ -750,12 +660,11 @@
+ 
+ #, c-format
+ #~ msgid ""
+-#~ "Warning: training file contains character '%s' as member of group '%s', "
+-#~ "but no group of that name contains the character. Ignoring group "
+-#~ "specifier."
+-#~ msgstr ""
+-#~ "Varning: träningsfilen innehåller tecknet ”%s” som medlem av grupp ”%s” "
+-#~ "men ingen grupp med det namnet innehåller tecknet; ignorerar "
++#~ "Warning: training file contains character '%s' as member of group '%s', but "
++#~ "no group of that name contains the character. Ignoring group specifier."
++#~ msgstr ""
++#~ "Varning: träningsfilen innehåller tecknet ”%s” som medlem av grupp ”%s” men "
++#~ "ingen grupp med det namnet innehåller tecknet; ignorerar "
+ #~ "gruppspecificeraren."
+ 
+ #~ msgid "true"
+@@ -876,8 +785,8 @@
+ #~ "Use push and release times of single press rather than push times of two "
+ #~ "presses"
+ #~ msgstr ""
+-#~ "Använd tryck-och-släpptider för ett enskilt tryck istället för "
+-#~ "trycktiderna för två tryck"
++#~ "Använd tryck-och-släpptider för ett enskilt tryck istället för trycktiderna "
++#~ "för två tryck"
+ 
+ #~ msgid "Slow startup time"
+ #~ msgstr "Långsam uppstartstid"
+@@ -925,8 +834,8 @@
+ #~ "Welcome to Dasher Game Mode! Game Mode is a fun way to practice entering "
+ #~ "text in Dasher. Please select a training text to play with:"
+ #~ msgstr ""
+-#~ "Välkommen till Dashers spelläge! Spelläge är ett roligt sätt att öva på "
+-#~ "att ange text i Dasher. Välj en träningstext att spela med:"
++#~ "Välkommen till Dashers spelläge! Spelläge är ett roligt sätt att öva på att "
++#~ "ange text i Dasher. Välj en träningstext att spela med:"
+ 
+ #~ msgid "Use Default"
+ #~ msgstr "Använd standard"
+@@ -941,8 +850,8 @@
+ #~ "Are you sure you wish to turn off game mode? All unsaved changes will be "
+ #~ "lost."
+ #~ msgstr ""
+-#~ "Är du säker på att du vill slå av spelläge? Alla osparade ändringar "
+-#~ "kommer att gå förlorade."
++#~ "Är du säker på att du vill slå av spelläge? Alla osparade ändringar kommer "
++#~ "att gå förlorade."
+ 
+ #~ msgid "No"
+ #~ msgstr "Nej"
+@@ -1218,12 +1127,10 @@
+ 
+ #~ msgid ""
+ #~ "<i>gconf-editor Not Found</i>\n"
+-#~ "You must have gconf-editor installed and available in your path in order "
+-#~ "to access these settings."
++#~ "You must have gconf-editor installed and available in your path in order to access these settings."
+ #~ msgstr ""
+ #~ "<i>gconf-editor hittades inte</i>\n"
+-#~ "Du måste ha gconf-editor installerad och tillgänglig i din sökväg för att "
+-#~ "kunna komma åt dessa inställningar."
++#~ "Du måste ha gconf-editor installerad och tillgänglig i din sökväg för att kunna komma åt dessa inställningar."
+ 
+ #~ msgid "Advanced Settings:"
+ #~ msgstr "Avancerade inställningar:"
+@@ -1253,15 +1160,15 @@
+ #~ msgstr "Y-koordinat"
+ 
+ #~ msgid ""
+-#~ "Additional settings can be accessed directly using the GConf "
+-#~ "configuration database. Please note that these settings are intended for "
+-#~ "advanced users only, and by changing these settings it is possible to put "
+-#~ "Dasher into an unusable state."
++#~ "Additional settings can be accessed directly using the GConf configuration "
++#~ "database. Please note that these settings are intended for advanced users "
++#~ "only, and by changing these settings it is possible to put Dasher into an "
++#~ "unusable state."
+ #~ msgstr ""
+ #~ "Ytterligare inställningar kan kommas åt direkt med GConfs "
+-#~ "konfigurationsdatabas. Notera att dessa inställningar är tänkta endast "
+-#~ "för erfarna användare och genom att ändra dessa inställningar är det "
+-#~ "möjligt att försätta Dasher i ett oanvändbart tillstånd."
++#~ "konfigurationsdatabas. Notera att dessa inställningar är tänkta endast för "
++#~ "erfarna användare och genom att ändra dessa inställningar är det möjligt att"
++#~ " försätta Dasher i ett oanvändbart tillstånd."
+ 
+ #~ msgid "Advanced Settings"
+ #~ msgstr "Avancerade inställningar"

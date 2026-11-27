@@ -904,3 +904,14 @@ argumentet betyder i just det programmet.
 | channel binding data | kanalbindningsdata | Data som binder protokollkanal och autentisering. |
 | cipher list | chifferlista | Lista över kryptografiska chiffer. |
 | keying data | nyckelmaterial | Data som används för att härleda eller etablera kryptografiska nycklar. |
+
+
+## Dasher
+
+| Engelska | Svenska | Anmärkning |
+|---|---|---|
+| control style | styrmetod | Metod för att styra textinmatningen. |
+| direct entry | direktinmatning | Läget för direkt textinmatning. |
+| crosshairs | hårkors | Siktesmarkering i Dasher-gränssnittet. |
+| canvas | arbetsyta | Ytan där Dasher visar textinmatningen. |
+| symbol (entered character) | tecken | Använd *tecken* i felmeddelanden om inmatade symboler. |
