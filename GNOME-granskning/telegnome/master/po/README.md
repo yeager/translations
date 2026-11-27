@@ -10,4 +10,4 @@
 
 `msgfmt --check`, `msgcmp --use-fuzzy` och `l10n-lint` har körts utan fel eller varningar. Informationsnotiserna gäller avsiktligt svenska acceleratorer.
 
-Hunspell-undantag för produktnamn, GPL-namn, tekniska nycklar, svenska acceleratorer och korrekta sammansättningar dokumenteras i `hunspell-undantag.md`. Ingen inskickning till GNOME har ännu gjorts.
+Hunspell-undantag för produktnamn, GPL-namn, tekniska nycklar, svenska acceleratorer och korrekta sammansättningar dokumenteras i `hunspell-undantag.md`. Uppladdad till Damned Lies 2026-11-27 06:25 UTC med kommentaren ”Granskad och klar”; aktivitetssidan bekräftar 68/0/0.
