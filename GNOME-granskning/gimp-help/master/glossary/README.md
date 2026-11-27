@@ -11,3 +11,7 @@
 - Ingen GNOME-inskickning har gjorts.
 
 Filerna `*.original.po`, `*.master.pot`, `*.reviewed.po` och `*.review.diff` innehåller baslinje, senaste källmall, granskad katalog och unified diff.
+
+## Inskickningsstatus — 2026-11-27
+
+Katalogen är komplett mot senaste POT. Damned Lies API erbjuder för närvarande endast `WriteAComment`; `ReserveForTranslation` och `UploadTranslation` saknas. Därför har ingen uppladdning gjorts.
