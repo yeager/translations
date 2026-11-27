@@ -1,0 +1,132 @@
+[
+  {
+    "key": "component::portainer::entity::sensor::container_started_at::name",
+    "key_id": "945294534",
+    "translation_id": "9888396330",
+    "en": "Started",
+    "before": "Startad",
+    "after": "Starttid",
+    "readback": "Starttid",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::portainer::entity::binary_sensor::container_out_of_memory::name",
+    "key_id": "945295333",
+    "translation_id": "9888403635",
+    "en": "Out of memory",
+    "before": "Slut på minne",
+    "after": "Minnesbrist",
+    "readback": "Minnesbrist",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bosch_shc::entity::number::bypass_timeout::name",
+    "key_id": "945474635",
+    "translation_id": "9891943563",
+    "en": "Break function timeout",
+    "before": "Tidsgräns för brytfunktion",
+    "after": "Tidsgräns för förbikoppling",
+    "readback": "Tidsgräns för förbikoppling",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bosch_shc::entity::select::siren_sound_level::state::low",
+    "key_id": "945725550",
+    "translation_id": "9895390461",
+    "en": "Reduced",
+    "before": "Reducerad",
+    "after": "Sänkt",
+    "readback": "Sänkt",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bosch_shc::entity::switch::camera_ambientlight::name",
+    "key_id": "945725552",
+    "translation_id": "9895390589",
+    "en": "Ambient light",
+    "before": "Omgivningsljus",
+    "after": "Omgivningsbelysning",
+    "readback": "Omgivningsbelysning",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bosch_shc::entity::switch::camera_frontlight::name",
+    "key_id": "945805662",
+    "translation_id": "9895993882",
+    "en": "Front light",
+    "before": "Främre ljus",
+    "after": "Frontbelysning",
+    "readback": "Frontbelysning",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::peblar::entity::event::session_authorization::name",
+    "key_id": "945813902",
+    "translation_id": "9896070173",
+    "en": "Session authorization",
+    "before": "Sessionsauktorisering",
+    "after": "Auktorisering av session",
+    "readback": "Auktorisering av session",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::peblar::entity::event::session_authorization::state_attributes::event_type::state::session_authorized",
+    "key_id": "945813903",
+    "translation_id": "9896070237",
+    "en": "Session authorized",
+    "before": "Session auktoriserad",
+    "after": "Sessionen auktoriserad",
+    "readback": "Sessionen auktoriserad",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zha::entity::switch::extra_button_commands::name",
+    "key_id": "945366294",
+    "translation_id": "9889330591",
+    "en": "Extra button commands",
+    "before": "Extra knappkommandon",
+    "after": "Ytterligare knappkommandon",
+    "readback": "Ytterligare knappkommandon",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::collection_image::exceptions::invalid_media_type::message",
+    "key_id": "945463168",
+    "translation_id": "9891571891",
+    "en": "Selected media {id} has type {mime_type}, which is not an image, and cannot be shown by {entity}.",
+    "before": "Det valda mediet {id} har typen {mime_type}, som inte är en bild och inte kan visas av {entity}.",
+    "after": "Det valda mediet {id} är av typen {mime_type}, som inte är ett bildformat och därför inte kan visas av {entity}.",
+    "readback": "Det valda mediet {id} är av typen {mime_type}, som inte är ett bildformat och därför inte kan visas av {entity}.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::command_line::issues::shell_command_template_deprecation::description",
+    "key_id": "946087029",
+    "translation_id": "9900419155",
+    "en": "The `command_line` `{platform}` `{name}` runs a command (`{program}`) that uses a template. For security, commands that use a template will run without a shell in Home Assistant 2027.4, so shell features (pipes, redirects, globbing, etc.) anywhere in the command will no longer work.\n\nUpdate the command to avoid shell features, or move the logic into a script the command calls.",
+    "before": "`command_line` `{platform}` `{name}` kör ett kommando (`{program}`) som använder en mall. Av säkerhetsskäl körs kommandon som använder en mall utan skal i Home Assistant 2027.4. Därför fungerar skalfunktioner som rör, omdirigeringar, globbning och liknande inte längre någonstans i kommandot.\n\nUppdatera kommandot så att det inte använder skalfunktioner eller flytta logiken till ett skript som kommandot anropar.",
+    "after": "`command_line` `{platform}` `{name}` kör ett kommando (`{program}`) som använder en mall. Av säkerhetsskäl körs kommandon som använder en mall utan skal i Home Assistant 2027.4. Därför fungerar funktioner i skalet, som rör, omdirigeringar, mönsterexpansion med jokertecken och liknande, inte längre någonstans i kommandot.",
+    "readback": "`command_line` `{platform}` `{name}` kör ett kommando (`{program}`) som använder en mall. Av säkerhetsskäl körs kommandon som använder en mall utan skal i Home Assistant 2027.4. Därför fungerar funktioner i skalet, som rör, omdirigeringar, mönsterexpansion med jokertecken och liknande, inte längre någonstans i kommandot.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::peblar::entity::select::smart_charging::state::custom_solar",
+    "key_id": "945050544",
+    "translation_id": "9886351573",
+    "en": "Custom solar",
+    "before": "Anpassad solenergi",
+    "after": "Anpassat solnätsmål",
+    "readback": "Anpassat solnätsmål",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::indi_allsky::entity::image::latest_keogram::name",
+    "key_id": "945723406",
+    "translation_id": "9895364803",
+    "en": "Latest keogram",
+    "before": "Senaste keogram",
+    "after": "Senaste keogram-bilden",
+    "readback": "Senaste keogram-bilden",
+    "status": "saved-and-read-back"
+  }
+]
