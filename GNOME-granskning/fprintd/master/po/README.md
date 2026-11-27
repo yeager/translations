@@ -13,5 +13,4 @@ tekniskt korrekta formuleringar. Samtliga 67 strängar är översatta; 0
 oöversatta och 0 fuzzy återstår.
 
 `msgfmt --check`, `msgcmp --use-fuzzy`, `l10n-lint`, Hunspell och
-formatsträngskontrollen är godkända utan fel eller varningar. Ingen inskickning
-till GNOME har gjorts i detta steg.
+formatsträngskontrollen är godkända utan fel eller varningar. Uppladdad via Damned Lies API 2026-11-27 03:14 UTC med kommentaren ”Granskad och klar”; aktivitetssidan visar 67/0/0. Damned Lies anger att översättningen är externt hostad och att dess repository-URL inte är skrivbar. Upstream-incheckning kräver den externa plattformen.
