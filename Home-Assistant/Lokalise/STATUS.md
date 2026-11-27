@@ -2648,3 +2648,9 @@ Senaste position: **63 016** av 77 656. Nästa: **63 017**; **14 640 återstår*
 120 positioner granskades: 112 aktuella strängar och 8 referenser; ingen källväg saknades. 39 ändringar inom intervallet och 4 delade Sun-referenser i nästa intervall sparades och lästes tillbaka. Alla 12 referenser matchar. Platshållare 124/124; inga pluralnycklar.
 
 Senaste fullständigt granskade position: **63 136** av 77 656. Nästa: **63 137**; **14 520 återstår**. Fyra referensägare är synkroniserade men ska radgranskas i sitt sammanhang. Granskningen fortsätter.
+
+### Batch: 63 137–63 256
+
+120 positioner granskades: 63 aktuella strängar  39 referenser och 18 äldre nycklar utan källväg. 18 ändringar sparades och lästes tillbaka. Alla 39 referenser matchar. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **63 256** av 77 656. Nästa: **63 257**; **14 400 återstår**. Granskningen fortsätter.
