@@ -1,0 +1,341 @@
+--- apostrophe.main.sv.original.po
++++ apostrophe.main.sv.reviewed.po
+@@ -1,10 +1,11 @@
++#
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: Apostrophe\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/apostrophe/issues\n"
+ "POT-Creation-Date: 2026-10-08 17:19+0000\n"
+-"PO-Revision-Date: 2026-10-10 15:28+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-27 13:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -18,14 +19,17 @@
+ msgid "Apostrophe"
+ msgstr "Apostrophe"
+ 
+-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! Do NOT translate "uberwriter" or "apostrophe"! The list MUST also end with a semicolon!
++#. Translators: Search terms to find this application. Do NOT translate or
++#. localize the semicolons! Do NOT translate "uberwriter" or "apostrophe"! The
++#. list MUST also end with a semicolon!
+ #: data/org.gnome.gitlab.somas.Apostrophe.desktop.in.in:4
+ msgid "uberwriter;UberWriter;apostrophe;markdown;editor;text;write;"
+-msgstr "uberwriter;UberWriter;apostrophe;markdown;redigerare;editor;text;skriv;"
++msgstr ""
++"uberwriter;UberWriter;apostrophe;Markdown;redigerare;editor;text;skriv;"
+ 
+ #: data/org.gnome.gitlab.somas.Apostrophe.desktop.in.in:5
+ msgid "Apostrophe, an elegant, distraction-free markdown editor"
+-msgstr "Apostrophe, en elegant, distraktionsfri markdown-redigerare"
++msgstr "Apostrophe, en elegant Markdown-redigerare utan distraktioner"
+ 
+ #: data/org.gnome.gitlab.somas.Apostrophe.desktop.in.in:18
+ msgid "New Window"
+@@ -33,7 +37,7 @@
+ 
+ #: data/org.gnome.gitlab.somas.Apostrophe.metainfo.xml.in.in:5
+ msgid "Edit Markdown in style"
+-msgstr "Redigera markdown med stil"
++msgstr "Redigera Markdown med stil"
+ 
+ #. developer_name tag deprecated with Appstream 1.0
+ #: data/org.gnome.gitlab.somas.Apostrophe.metainfo.xml.in.in:9
+@@ -44,7 +48,7 @@
+ #: data/org.gnome.gitlab.somas.Apostrophe.metainfo.xml.in.in:14
+ msgid "Focus on your writing with a clean, distraction-free markdown editor."
+ msgstr ""
+-"Fokusera på ditt skrivande i en elegant, distraktionsfri markdown-redigerare."
++"Fokusera på skrivandet i en ren Markdown-redigerare utan distraktioner."
+ 
+ #: data/org.gnome.gitlab.somas.Apostrophe.metainfo.xml.in.in:15
+ msgid "Features:"
+@@ -79,8 +83,8 @@
+ "Export to all kind of formats: PDF, Word/Libreoffice, LaTeX, or even HTML "
+ "slideshows"
+ msgstr ""
+-"Export till alla sorters format: PDF, Word/Libreoffice, LaTeX eller till och "
+-"med HTML-bildspel"
++"Exportera till många format: PDF, Word/LibreOffice, LaTeX och till och med "
++"HTML-bildspel"
+ 
+ #: data/org.gnome.gitlab.somas.Apostrophe.metainfo.xml.in.in:55
+ msgid "Main window"
+@@ -97,11 +101,11 @@
+ #: data/org.gnome.gitlab.somas.Apostrophe.metainfo.xml.in.in:67
+ msgid "The preview lets you see a live rendered version of your document"
+ msgstr ""
+-"Förhandsgranskningen låter dig direkt se en renderad version av ditt dokument"
++"I förhandsgranskningen ser du en direktuppdaterad version av dokumentet"
+ 
+ #: data/org.gnome.gitlab.somas.Apostrophe.metainfo.xml.in.in:71
+ msgid "The focus mode allow for a more distraction-free experience"
+-msgstr "Fokusläget möjliggör en mer störningsfri upplevelse"
++msgstr "Fokusläget ger en mer ostörd skrivupplevelse"
+ 
+ #: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:47
+ msgid "Color scheme"
+@@ -109,7 +113,8 @@
+ 
+ #: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:48
+ msgid "Use the color scheme in the application's UI and in the text area."
+-msgstr "Använd färgschemat i programmets användargränssnitt och i textområdet."
++msgstr ""
++"Använd färgschemat i programmets användargränssnitt och i textområdet."
+ 
+ #: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:54
+ msgid "Check spelling while typing"
+@@ -121,11 +126,12 @@
+ 
+ #: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:61
+ msgid "Synchronize editor/preview scrolling"
+-msgstr "Synkronisera skrollning i redigerare/förhandsgranskning"
++msgstr "Synkronisera rullningen i redigeraren och förhandsgranskningen"
+ 
+ #: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:62
+ msgid "Keep the editor and preview scroll positions in sync."
+-msgstr "Håll skrollning i förhandsgranskare och redigerare synkroniserad."
++msgstr ""
++"Håll redigerarens och förhandsgranskningens rullpositioner synkroniserade."
+ 
+ #: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:68
+ msgid "Input format"
+@@ -133,7 +139,8 @@
+ 
+ #: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:69
+ msgid "Input format to use when previewing and exporting using Pandoc."
+-msgstr "Indataformat att använda vid förhandsgranskning och export med Pandoc."
++msgstr ""
++"Indataformat att använda vid förhandsgranskning och export med Pandoc."
+ 
+ #: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:75
+ msgid "Autohide Headerbar"
+@@ -166,15 +173,15 @@
+ 
+ #: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:97
+ msgid "Whether the user can delete text or not."
+-msgstr "Huruvida användaren kan ta bort text eller inte."
++msgstr "Anger om användaren kan ta bort text."
+ 
+ #: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:103
+ msgid "Hemingway Toast Count"
+-msgstr "Antal Hemingway-meddelanden"
++msgstr "Antal Hemingway-notiser"
+ 
+ #: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:104
+ msgid "Number of times the Hemingway Toast has been shown"
+-msgstr "Antalet gånger Hemingway-meddelandet har visats"
++msgstr "Antalet gånger Hemingway-notisen har visats"
+ 
+ #: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:110
+ msgid "Preview mode"
+@@ -187,7 +194,7 @@
+ #: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:117
+ #: data/ui/Preferences.ui:64
+ msgid "Preview Security"
+-msgstr "Förhandsgranskningssäkerhet"
++msgstr "Säkerhet för förhandsgranskningen"
+ 
+ #: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:118
+ msgid "Security policy to apply when rendering files."
+@@ -199,9 +206,7 @@
+ 
+ #: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:125
+ msgid "Whether showing of preview is active when launching a new window."
+-msgstr ""
+-"Huruvida visning av förhandsgranskning är aktiv vid öppnande av ett nytt "
+-"fönster."
++msgstr "Anger om förhandsgranskningen visas när ett nytt fönster öppnas."
+ 
+ #: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:131
+ msgid "Text size"
+@@ -209,7 +214,7 @@
+ 
+ #: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:132
+ msgid "Preferred relative size for the text."
+-msgstr "Föredragen relativ storlek för texten."
++msgstr "Önskad relativ textstorlek."
+ 
+ #: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:138
+ msgid "Toolbar"
+@@ -238,20 +243,14 @@
+ 
+ #: data/ui/AboutHemingway.ui:7
+ msgid ""
+-"The Hemingway Mode mimics the experience of writing on a typewriter, not "
+-"allowing you to delete any text or doing any kind of editing. \n"
++"The Hemingway Mode mimics the experience of writing on a typewriter, not allowing you to delete any text or doing any kind of editing. \n"
+ "\n"
+-"Only being able to move forward may be frustrating, but can be an "
+-"interesting exercise for improving your writing skills, gaining focus or "
+-"facing the task on hand with a different mindset.\n"
++"Only being able to move forward may be frustrating, but can be an interesting exercise for improving your writing skills, gaining focus or facing the task on hand with a different mindset.\n"
+ "  "
+ msgstr ""
+-"Hemingway-läget härmar upplevelsen av att skriva på en skrivmaskin, och "
+-"låter dig inte ta bort någon text eller redigera något. \n"
++"Hemingway-läget härmar upplevelsen av att skriva på en skrivmaskin, och låter dig inte ta bort någon text eller redigera något. \n"
+ "\n"
+-"Att endast kunna gå framåt kan vara frustrerande, men det kan vara en "
+-"intressant övning för att förbättra dig som skribent, med ökat fokus eller "
+-"genom att ta dig an uppgiften ur ett annat perspektiv.\n"
++"Att endast kunna gå framåt kan vara frustrerande, men det kan vara en intressant övning för att förbättra dig som skribent, med ökat fokus eller genom att ta dig an uppgiften ur ett annat perspektiv.\n"
+ "  "
+ 
+ #: data/ui/AboutHemingway.ui:13
+@@ -472,7 +471,7 @@
+ 
+ #: data/ui/Preferences.ui:47
+ msgid "Markdown Flavor Documentation"
+-msgstr "Dokumentation för markdown-typen"
++msgstr "Dokumentation om Markdown-varianten"
+ 
+ #: data/ui/Preferences.ui:65
+ msgid "Desired level of security when rendering the preview"
+@@ -503,7 +502,8 @@
+ msgid "Next Match"
+ msgstr "Nästa träff"
+ 
+-#. Translators: This indicates case sensitivity, so it should be the first vowel of the language in lowercase and uppercase
++#. Translators: This indicates case sensitivity, so it should be the first
++#. vowel of the language in lowercase and uppercase
+ #: data/ui/SearchBar.ui:55
+ msgid "aA"
+ msgstr "aA"
+@@ -694,7 +694,7 @@
+ 
+ #: data/ui/TexliveWarning.ui:25 data/ui/TexliveWarning.ui:79
+ msgid "TexLive Required"
+-msgstr "TexLive krävs"
++msgstr "TeX Live krävs"
+ 
+ #: data/ui/TexliveWarning.ui:33
+ msgid ""
+@@ -704,11 +704,11 @@
+ "Install it from Apostrophe's page in Software\n"
+ "or by running the following command in a terminal:"
+ msgstr ""
+-"Apostrophe behöver TeXLive-tillägget\n"
+-"för att kunna exportera PDF- eller LaTeX-filer.\n"
++"Apostrophe behöver tillägget TeX Live\n"
++"för att kunna exportera PDF- och LaTeX-filer.\n"
+ "\n"
+ "Installera det från Apostrophes sida i Programvara\n"
+-"eller genom att köra följande kommando i en terminal:"
++"eller kör följande kommando i en terminal:"
+ 
+ #: data/ui/TexliveWarning.ui:53
+ msgid "Copy to Clipboard"
+@@ -721,10 +721,10 @@
+ "\n"
+ "Install it from your distribution repositories."
+ msgstr ""
+-"Apostrophe behöver TeXLive\n"
+-"för att kunna exportera PDF- eller LaTeX-filer.\n"
++"Apostrophe behöver TeX Live\n"
++"för att kunna exportera PDF- och LaTeX-filer.\n"
+ "\n"
+-"Installera det från din distributions förråd."
++"Installera det från distributionens paketförråd."
+ 
+ #: data/ui/ThemeSwitcher.ui:17
+ msgid "Use System Colors"
+@@ -809,7 +809,7 @@
+ 
+ #: data/ui/Toolbar.ui:88
+ msgid "Check List"
+-msgstr "Krysslista"
++msgstr "Checklista"
+ 
+ #: data/ui/Window.ui:64
+ msgid "This file may be insecure"
+@@ -818,12 +818,10 @@
+ #: data/ui/Window.ui:65
+ msgid ""
+ "Previewing files from untrusted sources can be dangerous.\n"
+-"If you're unsure about the contents of this file, open it in the Restricted "
+-"Preview where javascript and HTML are disabled."
+-msgstr ""
+-"Förhandsgranskning från ej betrodda källor kan vara farligt.\n"
+-"Om du är osäker på innehållet i denna fil kan du öppna den i den begränsade "
+-"förhandsgranskningen där javascript och HTML har inaktiverats."
++"If you're unsure about the contents of this file, open it in the Restricted Preview where javascript and HTML are disabled."
++msgstr ""
++"Det kan vara farligt att förhandsgranska filer från källor som du inte litar på.\n"
++"Om du är osäker på filens innehåll kan du öppna den i den begränsade förhandsgranskningen, där JavaScript och HTML är inaktiverade."
+ 
+ #: data/ui/Window.ui:75
+ msgid "Load Preview"
+@@ -835,10 +833,10 @@
+ 
+ #: data/ui/Window.ui:180
+ msgid ""
+-"Apostrophe closed unexpectedly. This file has been recovered from an autosave"
+-msgstr ""
+-"Apostrophe stängdes oväntat. Denna fil har återhämtats från en automatisk "
+-"sparning"
++"Apostrophe closed unexpectedly. This file has been recovered from an "
++"autosave"
++msgstr ""
++"Apostrophe stängdes oväntat. Filen har återställts från autosparningen"
+ 
+ #: data/ui/Window.ui:196
+ msgid "File Has Changed on Disk"
+@@ -966,7 +964,7 @@
+ 
+ #: apostrophe/main_window.py:526
+ msgid "Plain Text Files"
+-msgstr "Oformaterade text-filer"
++msgstr "Oformaterade textfiler"
+ 
+ #: apostrophe/main_window.py:529
+ msgid "Open a .md file"
+@@ -985,7 +983,7 @@
+ "The error was:\n"
+ "{err_msg}"
+ msgstr ""
+-"Kunde inte identifiera kodning för fil:\n"
++"Det gick inte att identifiera teckenkodningen för filen:\n"
+ "{file}\n"
+ "\n"
+ "Felet var:\n"
+@@ -1001,8 +999,8 @@
+ "“%s” contains unsaved changes. If you don’t save, all your changes will be "
+ "permanently lost."
+ msgstr ""
+-"”%s” innehåller osparade ändringar. Om du inte sparar kommer dina ändringar "
+-"förloras permanent."
++"”%s” innehåller osparade ändringar. Om du inte sparar går alla ändringar "
++"förlorade."
+ 
+ #: apostrophe/main_window.py:657
+ msgid "Discard"
+@@ -1291,18 +1289,17 @@
+ 
+ #~ msgid ""
+ #~ "Apostrophe is a GTK based distraction free Markdown editor, originally "
+-#~ "created by Wolf Vollprecht and maintained by Manuel Genovés. It uses "
+-#~ "pandoc as backend for markdown parsing and offers a very clean and sleek "
+-#~ "user interface."
++#~ "created by Wolf Vollprecht and maintained by Manuel Genovés. It uses pandoc "
++#~ "as backend for markdown parsing and offers a very clean and sleek user "
++#~ "interface."
+ #~ msgstr ""
+ #~ "Apostrophe är en GTK-baserad distraktionsfri Markdown-redigerare, "
+-#~ "ursprungligen skapad av Wolf Vollprecht och underhållen av Manuel "
+-#~ "Genovés. Den använder pandoc som bakgrundsprogram för markdown-tolkning "
+-#~ "och erbjuder ett mycket rent och elegant användargränssnitt."
++#~ "ursprungligen skapad av Wolf Vollprecht och underhållen av Manuel Genovés. "
++#~ "Den använder pandoc som bakgrundsprogram för markdown-tolkning och erbjuder "
++#~ "ett mycket rent och elegant användargränssnitt."
+ 
+ #~ msgid "You can install the recommended TexLive extension with the command:"
+-#~ msgstr ""
+-#~ "Du kan installera det rekommenderade TexLive-insticket med kommandot:"
++#~ msgstr "Du kan installera det rekommenderade TexLive-insticket med kommandot:"
+ 
+ #~ msgid ""
+ #~ "flatpak install flathub org.gnome.gitlab.somas.Apostrophe.Plugin.TexLive"
