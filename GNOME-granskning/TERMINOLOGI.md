@@ -884,3 +884,11 @@ argumentet betyder i just det programmet.
 |---|---|---|
 | debug output | felsökningsutdata | Data som skrivs ut för felsökning. |
 | options (CLI) | alternativ | Kommandoradsalternativ; använd inte *flaggor* i denna hjälptext. |
+
+
+## Tracker
+
+| Engelska | Svenska | Anmärkning |
+|---|---|---|
+| miner | indexerare | Bakgrundsprocess som indexerar innehåll; använd i sammansättningar, till exempel *chattloggsindexerare*. |
+| chat logs | chattloggar | Meddelandeloggar från chattprogram. |

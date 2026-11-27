@@ -1,10 +1,8 @@
-# tracker-miner-chatlog — master/po
+# tracker-miner-chatlog — master — gränssnitt
 
-- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/tracker-miner-chatlog/master/po/sv/>
-- Aktuell POT: 2 aktiva strängar, 0 oöversatta och 0 fuzzy.
-- Granskning: samtliga rader är radgranskade. `miner` betecknar här en Tracker-indexerare, inte en datainsamlare; översättningen har därför rättats till ”Chattloggsindexerare”.
-- Ändringar: en aktiv översättning samt granskaruppgifterna i PO-huvudet har uppdaterats.
-- Validering: `msgfmt --check` och `l10n-lint --check --language sv` utan fel. `hunspell -d sv_SE` rapporterar den tekniska sammansättningen `Chattloggsindexerare`, som har kontrollerats manuellt.
-- GNOME-inskick: inget.
-
-- Status: externt blockerad för inskickning. Damned Lies anger att modulen är arkiverad och inte längre ska översättas. POT: 2023-06-30; äldre än två år. Inget har skickats in.
+- GNOME-modul: https://l10n.gnome.org/module/tracker-miner-chatlog/
+- Källa: aktuell POT via API, 2 aktiva strängar.
+- Statistik före granskning: 2 översatta, 0 fuzzy, 0 oöversatta.
+- Radgranskning: båda strängarna granskade; 1 befintlig översättning rättad, 0 nya, 0 fuzzy och 0 oöversatta. `Chat logs miner` blev `Chattloggsindexerare` för att beskriva processens funktion. `Last-Translator` uppdaterad till Daniel Nylander <gnome@danielnylander.se>.
+- Validering: `msgfmt --check --check-format`, `msgcmp` och `l10n-lint` godkända; Hunspell-SV flaggar endast den projektspecifika sammansättningen `Chattloggsindexerare`.
+- Inskickning blockerad: Damned Lies API `available_actions` returnerar tom lista (`actions: []`), så uppladdning/kommentar är inte tillgänglig. Katalogen är komplett lokalt men inte inskickad.
