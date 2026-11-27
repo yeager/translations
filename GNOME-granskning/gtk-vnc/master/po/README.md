@@ -1,14 +1,10 @@
-# gtk-vnc — master/po — svensk granskning
+# gtk-vnc — master — gränssnitt
 
-- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/gtk-vnc/master/po/sv/>
-- Granskad: 2026-11-24
-- Aktuell POT: 3 aktiva strängar
-- Nya översättningar: 0
-- Korrigerade befintliga översättningar: 2
-
-Hela katalogen är radgranskad mot POT-filen från 2026-11-05. Den felaktiga
-UI-termen `Flaggor` är ersatt med `Alternativ`. Alla 3 strängar är översatta;
-0 oöversatta och 0 fuzzy återstår.
-
-`msgfmt --check`, `msgcmp --use-fuzzy` och `l10n-lint` är godkända utan fel
-eller varningar. Ingen inskickning till GNOME har gjorts i detta steg.
+- GNOME-katalog: https://l10n.gnome.org/vertimus/gtk-vnc/master/po/sv/
+- Källa: aktuell POT via API, 3 aktiva strängar.
+- Statistik före granskning: 3 översatta, 0 fuzzy, 0 oöversatta.
+- Radgranskning: alla 3 strängar granskade; 3 befintliga översättningar rättade, 0 nya, 0 fuzzy, 0 oöversatta. `Last-Translator` uppdaterad till Daniel Nylander <gnome@danielnylander.se>.
+- Terminologi: `Options` → alternativ i kommandoradshjälp; `debug output` → felsökningsutdata.
+- Validering: `msgfmt --check --check-format`, `msgcmp`, `l10n-lint` och platshållarkontroll utan fel. Hunspell-SV flaggade endast produktnamnet GTK-VNC.
+- Inskickad via Damned Lies API 2026-11-27 med kommentaren `Granskad och klar`.
+- Efterkontroll: API-status `Translated`, 3/0/0. Aktivitetssidan visar kommentaren och uppladdningen; nedladdad sammanfogad PO matchar granskningen exakt (3 aktiva strängar, 0 skillnader).

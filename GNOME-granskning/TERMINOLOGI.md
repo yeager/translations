@@ -876,3 +876,11 @@ argumentet betyder i just det programmet.
 | snapshot | ögonblicksbild | Ögonblicksbild av filer vid en viss tidpunkt. |
 | volume (Duplicity) | volym | Del av en Duplicity-säkerhetskopia. |
 | removable media | flyttbara medier | Exempelvis USB-minnen och externa diskar. |
+
+
+## gtk-vnc
+
+| Engelska | Svenska | Anmärkning |
+|---|---|---|
+| debug output | felsökningsutdata | Data som skrivs ut för felsökning. |
+| options (CLI) | alternativ | Kommandoradsalternativ; använd inte *flaggor* i denna hjälptext. |
