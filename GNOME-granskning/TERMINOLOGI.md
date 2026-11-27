@@ -817,3 +817,12 @@ argumentet betyder i just det programmet.
 | Catalog No. / Catalog Nos. | Katalognummer | Samma svenska form i singular och plural. |
 | Lieder | konstsång | Musikgenre. |
 | Spoken Word | talad poesi | Musikgenre. |
+
+## Evolution RSS
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| RSS feed | RSS-flöde | Böj som `RSS-flödet`, plural `RSS-flöden`. |
+| enclosure | bifogad fil | Fil som följer med en RSS-artikel. |
+| summary view | sammanfattningsvy | Kort UI-term i Evolution RSS. |
+| network proxy | proxyserver | Använd `proxyservern` i bestämd form. |

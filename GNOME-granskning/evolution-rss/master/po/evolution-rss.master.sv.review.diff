@@ -1,0 +1,773 @@
+--- original.sv.po
++++ reviewed.sv.po
+@@ -10,8 +10,8 @@
+ "Project-Id-Version: evolution-rss\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/evolution-rss/issues\n"
+ "POT-Creation-Date: 2023-01-24 19:37+0000\n"
+-"PO-Revision-Date: 2019-02-05 21:07+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-27 14:41+0000\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -26,7 +26,7 @@
+ 
+ #: ../evolution-rss.desktop.in.in.h:2
+ msgid "Evolution plugin that enables Evolution Mail to display RSS feeds."
+-msgstr "Insticksmodul för Evolution som låter Evolution visa RSS-kanaler."
++msgstr "Insticksmodul som lägger till stöd för RSS-flöden i Evolution Mail."
+ 
+ #: ../evolution-rss.metainfo.xml.in.h:1
+ msgid "RSS Reader"
+@@ -34,17 +34,17 @@
+ 
+ #: ../evolution-rss.metainfo.xml.in.h:2
+ msgid "Read RSS feeds"
+-msgstr "Läs RSS-kanaler"
++msgstr "Läs RSS-flöden"
+ 
+ #: ../src/dbus.c:108 ../src/rss.c:2036 ../src/rss-config-factory.c:1200
+ #: ../src/rss-config-factory.c:1766 ../src/rss-config-factory.c:1945
+ msgid "Error adding feed."
+-msgstr "Fel när kanal lades till."
++msgstr "Fel när flödet lades till."
+ 
+ #: ../src/dbus.c:109 ../src/rss.c:2037 ../src/rss-config-factory.c:1201
+ #: ../src/rss-config-factory.c:1767 ../src/rss-config-factory.c:1946
+ msgid "Feed already exists!"
+-msgstr "Kanalen finns redan!"
++msgstr "Flödet finns redan!"
+ 
+ #: ../src/dbus.c:116
+ #, c-format
+@@ -53,12 +53,12 @@
+ 
+ #: ../src/e-mail-formatter-evolution-rss.c:224
+ msgid "Posted under"
+-msgstr "Postad under"
++msgstr "Publicerad under"
+ 
+ #: ../src/e-mail-formatter-evolution-rss.c:412
+ #: ../src/e-mail-formatter-evolution-rss.c:418
+ msgid "Show Summary"
+-msgstr "Visa sammandrag"
++msgstr "Visa sammanfattning"
+ 
+ #: ../src/e-mail-formatter-evolution-rss.c:413
+ #: ../src/e-mail-formatter-evolution-rss.c:419
+@@ -71,35 +71,35 @@
+ 
+ #: ../src/e-mail-formatter-evolution-rss.c:438
+ msgid "Displaying RSS feed articles"
+-msgstr "Visa RSS-kanalartiklar"
++msgstr "Visa RSS-artiklar"
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:1
+ msgid "Proxy requires authentication"
+-msgstr "Proxyserver kräver autentisering"
++msgstr "Proxyservern kräver autentisering"
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:2
+ msgid "Network proxy requires authentication."
+-msgstr "Nätverksproxyserver kräver autentisering."
++msgstr "Proxyservern kräver autentisering."
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:3
+ msgid "Display article’s summary"
+-msgstr "Visa artikelsammandrag"
++msgstr "Visa artikelsammanfattningen"
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:4
+ msgid ""
+-"Evolution will show article’s summary instead of article’s web page. Summary "
+-"can also be HTML."
++"Evolution will show article’s summary instead of article’s web page. Summary"
++" can also be HTML."
+ msgstr ""
+-"Evolution kommer att visa artikelns sammandrag istället för artikelns "
+-"webbplats. Sammandrag kan också vara HTML."
++"Evolution visar artikelsammanfattningen i stället för artikelns webbsida. "
++"Sammanfattningen kan även innehålla HTML."
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:5
+ msgid "Feeds list"
+-msgstr "Kanallista"
++msgstr "Flödeslista"
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:6
+ msgid "Contains list of the currently setup feeds."
+-msgstr "Innehåller lista över aktuella konfigurerade kanaler."
++msgstr "Innehåller en lista över de flöden som har konfigurerats."
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:7
+ msgid "Hostname of the proxy server"
+@@ -107,7 +107,7 @@
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:8
+ msgid "Hostname of the proxy server used for feeds and content."
+-msgstr "Värdnamn för proxyservern som ska användas för kanaler och innehåll."
++msgstr "Värdnamn för proxyservern som används för flöden och innehåll."
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:9
+ msgid "HTML render"
+@@ -115,7 +115,7 @@
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:10
+ msgid "Type HTML Render used to display HTML pages."
+-msgstr "Ange HTML-renderare att använda för att visa HTML-sidor."
++msgstr "Typ av HTML-renderare som används för att visa HTML-sidor."
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:11
+ msgid "Use custom font"
+@@ -124,21 +124,20 @@
+ #: ../src/evolution-rss.schemas.in.in.h:12
+ msgid "Use a custom font size instead of system defaults."
+ msgstr ""
+-"Använd en anpassad typsnittsstorlek istället för systemets "
++"Använd en anpassad teckenstorlek i stället för systemets "
+ "standardinställning."
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:13
+ msgid "Minimum font size"
+-msgstr "Minsta typsnittsstorlek"
++msgstr "Minsta teckenstorlek"
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:14
+ msgid "The size of the font used in full text preview."
+-msgstr ""
+-"Storleken på typsnittet som används i fullständig förhandsgranskning av text."
++msgstr "Teckenstorleken som används i förhandsvisningen av hela texten."
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:15
+ msgid "Network timeout"
+-msgstr "Nätverkstidsgräns överstegs"
++msgstr "Tidsgräns för nätverksanslutning"
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:16
+ msgid "Interval in seconds before a connection is dropped."
+@@ -146,11 +145,11 @@
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:17
+ msgid "Network queue size"
+-msgstr "Storlek för nätverkskö"
++msgstr "Storlek på nätverkskön"
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:18
+ msgid "How many simultaneous downloads."
+-msgstr "Hur många samtidiga hämtningar."
++msgstr "Antal samtidiga hämtningar."
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:19
+ msgid "JavaScript Enabled"
+@@ -176,8 +175,8 @@
+ msgid ""
+ "Evolution RSS will automatically resize images larger than displayed area."
+ msgstr ""
+-"Evolution RSS kommer automatiskt att ändra storlek på bilder som är större "
+-"än den visade ytan."
++"Evolution RSS ändrar automatiskt storlek på bilder som är större än "
++"visningsytan."
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:25
+ msgid "Scan web pages for RSS"
+@@ -185,29 +184,30 @@
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:26
+ msgid "Evolution RSS will scan web pages for RSS content"
+-msgstr "Evolution RSS kommer att skanna webbsidor efter RSS-innehåll"
++msgstr "Evolution RSS söker efter RSS-innehåll på webbsidor"
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:27
+ msgid "Download enclosures"
+-msgstr "Hämta inkapslingar"
++msgstr "Hämta bifogade filer"
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:28
+-msgid "Evolution will download all feed enclosures a feed article may contain."
++msgid ""
++"Evolution will download all feed enclosures a feed article may contain."
+ msgstr ""
+-"Evolution kommer att hämta alla kanalinkapslingar en kanalartikel kan "
+-"innehålla."
++"Evolution hämtar alla bifogade filer som en artikel i flödet kan innehålla."
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:29
+ msgid "Limit enclosure size"
+-msgstr "Begränsa inkapslingsstorlek"
++msgstr "Begränsa storleken på bifogade filer"
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:30
+ msgid "Limit maximum enclosure size Evolution will download."
+-msgstr "Begränsa maximal inkapslingsstorlek som Evolution kommer att hämta."
++msgstr ""
++"Begränsa den maximala storleken på de bifogade filer som Evolution hämtar."
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:31
+ msgid "Max enclosure size"
+-msgstr "Max inkapslingsstorlek"
++msgstr "Maximal storlek på bifogade filer"
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:32
+ msgid "Enable Status Icon"
+@@ -227,11 +227,11 @@
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:36
+ msgid "Enable Feed Icon"
+-msgstr "Aktivera kanalikon"
++msgstr "Aktivera flödesikon"
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:37
+ msgid "Display feed icon on feed folder"
+-msgstr "Visa kanalikon på kanalmapp"
++msgstr "Visa flödesikonen i flödesmappen"
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:38
+ msgid "Password for proxy server"
+@@ -240,7 +240,8 @@
+ #: ../src/evolution-rss.schemas.in.in.h:39
+ msgid ""
+ "If the proxy server requires authentication, this is the password field."
+-msgstr "Om proxyservern kräver autentisering är detta lösenordsfältet."
++msgstr ""
++"Detta är lösenordsfältet som används om proxyservern kräver autentisering."
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:40
+ msgid "Proxy server port"
+@@ -248,15 +249,15 @@
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:41
+ msgid "The port number for proxy server used for feeds and content."
+-msgstr "Portnumret för proxyservern som ska användas för kanaler och innehåll."
++msgstr "Portnumret för proxyservern som används för flöden och innehåll."
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:42
+ msgid "Remove feed folder"
+-msgstr "Ta bort kanalmapp"
++msgstr "Ta bort flödesmapp"
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:43
+ msgid "Deleting feed entry will also remove feed folder."
+-msgstr "Borttagning av kanalposten kommer även att ta bort kanalmappen."
++msgstr "Om du tar bort flödesposten tas även flödesmappen bort."
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:44
+ msgid "Check New articles"
+@@ -268,11 +269,11 @@
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:46
+ msgid "New articles timeout"
+-msgstr "Tidsgräns för nya artiklar överstegs"
++msgstr "Intervall för nya artiklar"
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:47
+ msgid "Frequency to check for new articles (in minutes)."
+-msgstr "Frekvens för att leta efter nya artiklar (i minuter)."
++msgstr "Intervall för att leta efter nya artiklar (i minuter)."
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:48
+ msgid "Checks articles on startup"
+@@ -285,12 +286,12 @@
+ # sebras: https://bugzilla.gnome.org/show_bug.cgi?id=764108
+ #: ../src/evolution-rss.schemas.in.in.h:50
+ msgid "Show articles comments"
+-msgstr "Visa artikelns kommentarer"
++msgstr "Visa kommentarer till artiklar"
+ 
+ # sebras: https://bugzilla.gnome.org/show_bug.cgi?id=764108
+ #: ../src/evolution-rss.schemas.in.in.h:51
+ msgid "If a feed article has comments, it will be displayed."
+-msgstr "Om en kanalartikel har kommentarer kommer de att visas."
++msgstr "Om en artikel i flödet har kommentarer visas de."
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:52
+ msgid "Use proxy server"
+@@ -306,21 +307,20 @@
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:55
+ msgid "The username to use for proxy server authentication."
+-msgstr "Användarnamnet att använda för autentisering mot proxyserver."
++msgstr "Användarnamnet för autentisering via proxyservern."
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:56
+ msgid "How to handle RSS URLs"
+-msgstr "Hur man hanterar RSS-URL:er"
++msgstr "Hantering av RSS-URL:er"
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:57
+ msgid "Set to true to have a program specified in command handle RSS URLs"
+ msgstr ""
+-"Sätt till true för att få ett program angivet i kommandot att hantera RSS-"
+-"URL:er"
++"Sätt till true om programmet som anges i kommandot ska hantera RSS-URL:er"
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:58
+ msgid "URL handler for RSS feed URIs"
+-msgstr "URL-hanterare för RSS-kanal-URI:er"
++msgstr "URI-hanterare för RSS-flöden"
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:59
+ msgid "Run program in terminal"
+@@ -328,44 +328,34 @@
+ 
+ #: ../src/evolution-rss.schemas.in.in.h:60
+ msgid "True if the program to handle this URL should be run in a terminal"
+-msgstr "True om programmet som hanterar denna URL ska köras i en terminal"
++msgstr "True om programmet som hanterar URL:en ska köras i en terminal"
+ 
+ #: ../src/notification.c:291 ../src/rss.c:2205
+ #, c-format
+ msgid "Fetching Feeds (%d enabled)"
+-msgstr "Hämtar kanaler (%d aktiverad)"
++msgstr "Hämtar flöden (%d aktiverade)"
+ 
+ #: ../src/org-gnome-evolution-rss.eplug.xml.h:1
+ msgid ""
+ "Evolution RSS Reader Plugin.\n"
+ "\n"
+-"This plugin adds RSS Feeds support for Evolution mail. RSS support was built "
+-"upon the somewhat existing RSS support in evolution-1.4 branch. The "
+-"motivation behind this was to have RSS in same place as mails, at this "
+-"moment I do not see the point in having a separate RSS reader since a RSS "
+-"Article is like an email message.\n"
++"This plugin adds RSS Feeds support for Evolution mail. RSS support was built upon the somewhat existing RSS support in evolution-1.4 branch. The motivation behind this was to have RSS in same place as mails, at this moment I do not see the point in having a separate RSS reader since a RSS Article is like an email message.\n"
+ "\n"
+ "Evolution RSS can display article using summary view or HTML view.\n"
+ "\n"
+-"HTML can be displayed using the following engines: gtkHTML, Apple’s Webkit "
+-"or Firefox/Gecko.\n"
++"HTML can be displayed using the following engines: gtkHTML, Apple’s Webkit or Firefox/Gecko.\n"
+ "\n"
+ "<b>Version: evolution-rss +VERSION+</b>\n"
+ "\n"
+ "+URL+"
+ msgstr ""
+-"RSS-läsare för Evolution som insticksmodul.\n"
++"Insticksmodul för RSS-läsaren i Evolution.\n"
+ "\n"
+-"Denna insticksmodul lägger till stöd för RSS-kanaler i Evolution. RSS-stödet "
+-"byggdes ovanpå ett partiellt stöd som fanns på grenen evolution-1.4. "
+-"Motiveringen bakom detta var att ha RSS på samma plats som e-post. Jag kan "
+-"för närvarande inte kan se någon mening i att ha en separat RSS-läsare "
+-"eftersom en RSS-artikel är mycket lik ett e-postmeddelande.\n"
++"Den här insticksmodulen lägger till stöd för RSS-flöden i Evolution Mail. Stödet bygger på det begränsade RSS-stöd som redan fanns i grenen evolution-1.4. Målet var att samla RSS-flöden och e-post på samma plats. Jag ser ingen anledning att ha en separat RSS-läsare eftersom en RSS-artikel liknar ett e-postmeddelande.\n"
+ "\n"
+-"Evolution RSS kan visa artiklar i sammandragsvy eller HTML-vy. \n"
++"Evolution RSS kan visa artiklar i en sammanfattningsvy eller HTML-vy.\n"
+ "\n"
+-"HTML kan visas med följande motorer: gtkHTML, Apples Webkit eller Firefox/"
+-"Gecko.\n"
++"HTML kan visas med följande motorer: gtkHTML, Apple WebKit eller Firefox/Gecko.\n"
+ "\n"
+ "<b>Version: evolution-rss +VERSION+</b>\n"
+ "\n"
+@@ -377,11 +367,11 @@
+ 
+ #: ../src/org-gnome-evolution-rss.error.xml.h:1
+ msgid "Reading RSS Feeds…"
+-msgstr "Läser RSS-kanaler…"
++msgstr "Läser RSS-flöden…"
+ 
+ #: ../src/org-gnome-evolution-rss.error.xml.h:2
+ msgid "Updating Feeds…"
+-msgstr "Uppdaterar kanaler…"
++msgstr "Uppdaterar flöden…"
+ 
+ #: ../src/org-gnome-evolution-rss.error.xml.h:3
+ msgid "_Dismiss"
+@@ -393,11 +383,11 @@
+ 
+ #: ../src/org-gnome-evolution-rss.error.xml.h:5
+ msgid "Really delete feed “{0}”?"
+-msgstr "Vill du verkligen ta bort kanalen ”{0}”?"
++msgstr "Vill du verkligen ta bort flödet ”{0}”?"
+ 
+ #: ../src/org-gnome-evolution-rss.xml.h:1
+ msgid "Update RSS feeds"
+-msgstr "Uppdatera RSS-kanaler"
++msgstr "Uppdatera RSS-flöden"
+ 
+ #: ../src/org-gnome-evolution-rss.xml.h:2
+ msgid "_Read RSS"
+@@ -405,7 +395,7 @@
+ 
+ #: ../src/org-gnome-evolution-rss.xml.h:3
+ msgid "Setup RSS feeds"
+-msgstr "Konfigurera RSS-kanaler"
++msgstr "Konfigurera RSS-flöden"
+ 
+ #: ../src/org-gnome-evolution-rss.xml.h:4
+ msgid "Setup RSS"
+@@ -422,7 +412,7 @@
+ 
+ #: ../src/rss.c:430 ../src/rss.c:2391
+ msgid "Feed"
+-msgstr "Kanal"
++msgstr "Flöde"
+ 
+ #: ../src/rss.c:495 ../src/rss-config-factory.c:2873
+ #: ../src/rss-config-factory.c:3047
+@@ -432,7 +422,7 @@
+ 
+ #: ../src/rss.c:642
+ msgid "Enter Username/Password for feed"
+-msgstr "Ange användarnamn/lösenord för kanal"
++msgstr "Ange användarnamn och lösenord för flödet"
+ 
+ #: ../src/rss.c:644
+ msgid "_Cancel"
+@@ -484,7 +474,7 @@
+ 
+ #: ../src/rss.c:1207
+ msgid "_Open Link"
+-msgstr "_Öppna länk"
++msgstr "Ö_ppna länk"
+ 
+ #: ../src/rss.c:1208 ../src/rss.c:1222
+ msgid "_Copy Link Location"
+@@ -500,32 +490,32 @@
+ 
+ #: ../src/rss.c:1221
+ msgid "_Open Link in Browser"
+-msgstr "_Öppna länk i webbläsare"
++msgstr "Ö_ppna länk i webbläsaren"
+ 
+ #: ../src/rss.c:1528
+ msgid "Fetching feed"
+-msgstr "Hämtar kanal"
++msgstr "Hämtar flöde"
+ 
+ #: ../src/rss.c:1840 ../src/rss.c:2117
+ msgid "Unnamed feed"
+-msgstr "Namnlös kanal"
++msgstr "Namnlöst flöde"
+ 
+ #: ../src/rss.c:1841
+ msgid "Error while setting up feed."
+-msgstr "Fel vid inställning av kanal."
++msgstr "Fel när flödet konfigurerades."
+ 
+ #: ../src/rss.c:2048 ../src/rss.c:2118
+ msgid "Error while fetching feed."
+-msgstr "Fel vid hämtning av kanal."
++msgstr "Fel när flödet hämtades."
+ 
+ #: ../src/rss.c:2049
+ msgid "Invalid Feed"
+-msgstr "Ogiltig kanal"
++msgstr "Ogiltigt flöde"
+ 
+ #: ../src/rss.c:2091
+ #, c-format
+ msgid "Adding feed %s"
+-msgstr "Lägger till kanal %s"
++msgstr "Lägger till flödet %s"
+ 
+ #: ../src/rss.c:2132 ../src/rss.c:2140
+ #, c-format
+@@ -540,7 +530,7 @@
+ #: ../src/rss.c:3282
+ #, c-format
+ msgid "Error fetching feed: %s"
+-msgstr "Fel vid hämtning av kanal: %s"
++msgstr "Fel vid hämtning av flödet: %s"
+ 
+ #: ../src/rss.c:2278 ../src/rss.c:2282
+ msgid "Canceled."
+@@ -549,11 +539,11 @@
+ #: ../src/rss.c:2335
+ #, c-format
+ msgid "Error while parsing feed: %s"
+-msgstr "Fel vid tolkning av kanal: %s"
++msgstr "Fel vid tolkning av flödet: %s"
+ 
+ #: ../src/rss.c:2339
+ msgid "illegal content type!"
+-msgstr "felaktig innehållstyp!"
++msgstr "Ogiltig innehållstyp!"
+ 
+ #: ../src/rss.c:2399 ../src/rss.c:2402
+ msgid "Complete"
+@@ -561,7 +551,7 @@
+ 
+ #: ../src/rss.c:3603
+ msgid "No RSS feeds configured!"
+-msgstr "Inga RSS-kanaler har konfigurerats!"
++msgstr "Inga RSS-flöden har konfigurerats!"
+ 
+ #: ../src/rss.c:3655
+ msgid "Waiting…"
+@@ -603,16 +593,16 @@
+ 
+ #: ../src/rss-config-factory.c:723
+ msgid "Edit Feed"
+-msgstr "Redigera kanal"
++msgstr "Redigera flöde"
+ 
+ #: ../src/rss-config-factory.c:725
+ msgid "Add Feed"
+-msgstr "Lägg till kanal"
++msgstr "Lägg till flöde"
+ 
+ #: ../src/rss-config-factory.c:1179 ../src/rss-config-factory.c:1738
+ #, no-c-format
+ msgid "0% done"
+-msgstr "0% färdigt"
++msgstr "0 % klart"
+ 
+ #: ../src/rss-config-factory.c:1567
+ msgid "Disable"
+@@ -632,13 +622,14 @@
+ 
+ #: ../src/rss-config-factory.c:2011
+ msgid "Invalid file or this file does not contain any feeds."
+-msgstr "Ogiltig fil eller så innehåller denna fil inte några kanaler."
++msgstr "Ogiltig fil eller filen innehåller inga RSS-flöden."
+ 
+ #: ../src/rss-config-factory.c:2016
+ msgid "Importing"
+ msgstr "Importerar"
+ 
+-#. g_signal_connect(import_dialog, "response", G_CALLBACK(import_dialog_response), NULL);
++#. g_signal_connect(import_dialog, "response",
++#. G_CALLBACK(import_dialog_response), NULL);
+ #: ../src/rss-config-factory.c:2039 ../src/rss-config-factory.c:2922
+ #: ../src/rss-config-factory.c:3082
+ msgid "Please wait"
+@@ -663,11 +654,11 @@
+ 
+ #: ../src/rss-config-factory.c:2408
+ msgid "Feed Enabled"
+-msgstr "Kanal aktiverad"
++msgstr "Flödet är aktiverat"
+ 
+ #: ../src/rss-config-factory.c:2421
+ msgid "Validate feed"
+-msgstr "Validera kanal"
++msgstr "Validera flöde"
+ 
+ #: ../src/rss-config-factory.c:2477 ../src/rss-main.ui.h:38
+ msgid "Select import file"
+@@ -679,11 +670,11 @@
+ 
+ #: ../src/rss-config-factory.c:2905
+ msgid "Exporting feeds…"
+-msgstr "Exporterar kanaler…"
++msgstr "Exporterar flöden…"
+ 
+ #: ../src/rss-config-factory.c:2969 ../src/rss-config-factory.c:2977
+ msgid "Error exporting feeds!"
+-msgstr "Fel vid export av kanaler!"
++msgstr "Fel vid export av flöden!"
+ 
+ #: ../src/rss-config-factory.c:3058
+ msgid "Importing cookies…"
+@@ -706,8 +697,8 @@
+ "No RSS feeds configured!\n"
+ "Unable to export."
+ msgstr ""
+-"Inga RSS-kanaler konfigurerade!\n"
+-"Kan inte exportera."
++"Inga RSS-flöden har konfigurerats!\n"
++"Det går inte att exportera."
+ 
+ #: ../src/rss-config-factory.c:3489
+ msgid ""
+@@ -715,9 +706,10 @@
+ "as renders you need firefox or webkit devel package \n"
+ "installed and evolution-rss should be recompiled to see those packages."
+ msgstr ""
+-"Observera: För att kunna använda Mozilla (Firefox) eller Apple Webkit \n"
+-"som renderare så behöver du ha utvecklingspaketen för firefox eller webkit \n"
+-"installerade och evolution-rss bör kompileras om för att se dessa paket."
++"Observera: För att kunna använda Mozilla (Firefox) eller Apple WebKit som "
++"renderare behöver utvecklingspaketen för Firefox eller WebKit vara "
++"installerade. Kompilera sedan om evolution-rss så att dessa paket "
++"identifieras."
+ 
+ #: ../src/rss-config-factory.c:4082 ../src/rss-main.ui.h:45
+ msgid "Enabled"
+@@ -725,7 +717,7 @@
+ 
+ #: ../src/rss-config-factory.c:4109
+ msgid "Feed Name"
+-msgstr "Kanalnamn"
++msgstr "Flödesnamn"
+ 
+ #: ../src/rss-config-factory.c:4122
+ msgid "Type"
+@@ -737,7 +729,7 @@
+ 
+ #: ../src/rss.h:64
+ msgid "Untitled channel"
+-msgstr "Namnlös kanal"
++msgstr "Namnlöst flöde"
+ 
+ #: ../src/rss-html-rendering.ui.h:1 ../src/rss-main.ui.h:12
+ msgid "Engine: "
+@@ -793,16 +785,17 @@
+ 
+ #: ../src/rss-html-rendering.ui.h:14
+ msgid "Show feed icon"
+-msgstr "Visa kanalikon"
++msgstr "Visa flödesikon"
+ 
+ #: ../src/rss-html-rendering.ui.h:15
+ msgid "Article Notification"
+ msgstr "Artikelavisering"
+ 
+-#. to translators: label part of Check for new articles every X minutes" message
++#. to translators: label part of Check for new articles every X minutes"
++#. message
+ #: ../src/rss-main.ui.h:2
+ msgid "minutes"
+-msgstr "minut"
++msgstr "minuter"
+ 
+ #: ../src/rss-main.ui.h:3
+ msgid "hours"
+@@ -810,7 +803,7 @@
+ 
+ #: ../src/rss-main.ui.h:4
+ msgid "days"
+-msgstr "dygn"
++msgstr "dagar"
+ 
+ #: ../src/rss-main.ui.h:5
+ msgid "Certificates Table"
+@@ -834,7 +827,7 @@
+ 
+ #: ../src/rss-main.ui.h:10
+ msgid "Feeds"
+-msgstr "Kanaler"
++msgstr "Flöden"
+ 
+ #: ../src/rss-main.ui.h:14
+ msgid "Enable Plugins"
+@@ -850,7 +843,7 @@
+ 
+ #: ../src/rss-main.ui.h:17
+ msgid "Check for new articles every"
+-msgstr "Kontrollera nya artiklar var"
++msgstr "Leta efter nya artiklar var"
+ 
+ #: ../src/rss-main.ui.h:18
+ msgid "Check for new articles at startup"
+@@ -858,31 +851,31 @@
+ 
+ #: ../src/rss-main.ui.h:19
+ msgid "Feed display"
+-msgstr "Kanalvisning"
++msgstr "Flödesvisning"
+ 
+ #: ../src/rss-main.ui.h:20
+ msgid "By default show article summary instead of webpage"
+-msgstr "Visa artikelsammandrag som standard istället för webbsida"
++msgstr "Visa artikelsammanfattningen i stället för webbsidan som standard"
+ 
+ #: ../src/rss-main.ui.h:21
+ msgid "Scan for feed inside webpages"
+-msgstr "Skanna efter kanal inuti webbsidor"
++msgstr "Sök efter RSS-flöden på webbsidor"
+ 
+ #: ../src/rss-main.ui.h:22
+ msgid "Feed enclosures"
+-msgstr "Kanalinkapslingar"
++msgstr "Bifogade filer i flöden"
+ 
+ #: ../src/rss-main.ui.h:23
+ msgid "Show article comments"
+-msgstr "Visa artikelns kommentarer"
++msgstr "Visa kommentarer till artiklar"
+ 
+ #: ../src/rss-main.ui.h:24
+ msgid "Download feed enclosures"
+-msgstr "Hämta kanalinkapslingar"
++msgstr "Hämta bifogade filer från flöden"
+ 
+ #: ../src/rss-main.ui.h:25
+ msgid "Do not download enclosures that exceeds"
+-msgstr "Hämta inte inkapslingar som överstiger"
++msgstr "Hämta inte bifogade filer som är större än"
+ 
+ #: ../src/rss-main.ui.h:26
+ msgid "KB"
+@@ -930,15 +923,15 @@
+ 
+ #: ../src/rss-main.ui.h:39
+ msgid "Delete feed?"
+-msgstr "Ta bort kanal?"
++msgstr "Ta bort flöde?"
+ 
+ #: ../src/rss-main.ui.h:42
+ msgid "Feed Name: "
+-msgstr "Kanalnamn: "
++msgstr "Flödesnamn: "
+ 
+ #: ../src/rss-main.ui.h:43
+ msgid "Feed URL:"
+-msgstr "Kanalens URL:"
++msgstr "Flödets URL:"
+ 
+ #: ../src/rss-main.ui.h:44
+ msgid "Location:"
+@@ -950,7 +943,7 @@
+ 
+ #: ../src/rss-main.ui.h:47
+ msgid "Show feed full text"
+-msgstr "Visa fullständig kanaltext"
++msgstr "Visa hela artikeltexten"
+ 
+ #: ../src/rss-main.ui.h:48
+ msgid "General"
+@@ -966,7 +959,7 @@
+ 
+ #: ../src/rss-main.ui.h:51
+ msgid "Do not update feed"
+-msgstr "Uppdatera inte kanal"
++msgstr "Uppdatera inte flödet"
+ 
+ #: ../src/rss-main.ui.h:52
+ msgid "Update"
+@@ -974,11 +967,11 @@
+ 
+ #: ../src/rss-main.ui.h:53
+ msgid "Do not delete feeds"
+-msgstr "Ta inte bort kanaler"
++msgstr "Ta inte bort flöden"
+ 
+ #: ../src/rss-main.ui.h:54
+ msgid "Delete all but the last"
+-msgstr "Ta bort alla utom sista"
++msgstr "Ta bort alla utom den senaste"
+ 
+ #: ../src/rss-main.ui.h:55
+ msgid "Delete articles older than"
+@@ -986,7 +979,7 @@
+ 
+ #: ../src/rss-main.ui.h:56
+ msgid "Delete articles that are no longer in the feed"
+-msgstr "Ta bort artiklar som inte längre finns i kanalen"
++msgstr "Ta bort artiklar som inte längre finns i flödet"
+ 
+ #: ../src/rss-main.ui.h:57
+ msgid "Always delete unread articles"
+@@ -1032,8 +1025,7 @@
+ #~ msgstr "Ny kanal importerad: %s"
+ 
+ #~ msgid "It will display article's comments by default if present."
+-#~ msgstr ""
+-#~ "Den kommer att visa artiklarnas kommentar som standard (om de finns)."
++#~ msgstr "Den kommer att visa artiklarnas kommentar som standard (om de finns)."
+ 
+ #~ msgid "Formatting Message..."
+ #~ msgstr "Formaterar meddelande..."
+@@ -1121,7 +1113,7 @@
+ #~ "kanaler."
+ 
+ #~ msgid "Evolution RSS Reader Plugin."
+-#~ msgstr "Evolution-insticksmodul för RSS-läsare."
++#~ msgstr "Insticksmodul för RSS-läsaren i Evolution.tion."
+ 
+ #~ msgid "checkbutton8"
+ #~ msgstr "checkbutton8"
