@@ -1,0 +1,212 @@
+[
+  {
+    "key": "component::hassio::issues::issue_addon_app_port_conflict::fix_flow::step::addon_execute_start::description",
+    "key_id": "901931429",
+    "translation_id": "9252533180",
+    "en": "App {addon} has a port conflict on port {port}. The app cannot change this in settings. Please uninstall the app or stop and reconfigure the other service using port {port}. Once unblocked, select this option again to start the app.",
+    "before": "Appen {addon} har en portkonflikt på port {port}. Appen kan inte ändra detta i inställningarna. Avinstallera appen eller stoppa och konfigurera om den andra tjänsten på port {port}. När blockeringen är löst, välj det här alternativet igen för att starta appen.",
+    "after": "Appen {addon} har en konflikt på port {port}. Porten kan inte ändras i appens inställningar. Avinstallera appen eller stoppa och konfigurera om den andra tjänsten som använder port {port}. När porten har frigjorts väljer du det här alternativet igen för att starta appen.",
+    "readback": "Appen {addon} har en konflikt på port {port}. Porten kan inte ändras i appens inställningar. Avinstallera appen eller stoppa och konfigurera om den andra tjänsten som använder port {port}. När porten har frigjorts väljer du det här alternativet igen för att starta appen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::hassio::issues::issue_addon_app_port_conflict::fix_flow::step::fix_menu::description",
+    "key_id": "901931430",
+    "translation_id": "9252533244",
+    "en": "App {addon} has a port conflict on port {port}. You can clear the port configuration in the app settings to automatically resolve this and start the app, or you can manually unblock the port by stopping or reconfiguring the other service using it.",
+    "before": "Appen {addon} har en portkonflikt på port {port}. Du kan rensa portkonfigurationen i appinställningarna för att lösa detta automatiskt och starta appen, eller så kan du manuellt avblockera porten genom att stoppa eller konfigurera om den andra tjänsten som använder porten.",
+    "after": "Appen {addon} har en konflikt på port {port}. Du kan ta bort portinställningen i appens inställningar för att lösa konflikten automatiskt och starta appen, eller frigöra porten manuellt genom att stoppa eller konfigurera om den andra tjänsten som använder porten.",
+    "readback": "Appen {addon} har en konflikt på port {port}. Du kan ta bort portinställningen i appens inställningar för att lösa konflikten automatiskt och starta appen, eller frigöra porten manuellt genom att stoppa eller konfigurera om den andra tjänsten som använder porten.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::hassio::issues::issue_addon_app_port_conflict::fix_flow::step::fix_menu::menu_options::addon_clear_port_config",
+    "key_id": "901931431",
+    "translation_id": "9252533308",
+    "en": "Clear port configuration",
+    "before": "Rensa portkonfigurationen",
+    "after": "Ta bort portinställningen",
+    "readback": "Ta bort portinställningen",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::hassio::issues::issue_addon_app_port_conflict::fix_flow::step::fix_menu::menu_options::addon_execute_start",
+    "key_id": "901931432",
+    "translation_id": "9252533372",
+    "en": "Start after manual unblock",
+    "before": "Starta efter manuell avblockering",
+    "after": "Starta när porten har frigjorts",
+    "readback": "Starta när porten har frigjorts",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::hassio::issues::issue_addon_app_port_conflict::title",
+    "key_id": "901931433",
+    "translation_id": "9252533436",
+    "en": "App port conflict",
+    "before": "Portkonflikt för app",
+    "after": "Portkonflikt i app",
+    "readback": "Portkonflikt i app",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::vizio::exceptions::command_error::message",
+    "key_id": "901980824",
+    "translation_id": "9253053280",
+    "en": "Failed to send command to the device: {error}",
+    "before": "Misslyckades med att skicka kommando till enheten: {error}",
+    "after": "Det gick inte att skicka kommandot till enheten: {error}",
+    "readback": "Det gick inte att skicka kommandot till enheten: {error}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::eurotronic_cometblue::exceptions::device_not_found::message",
+    "key_id": "902022766",
+    "translation_id": "9253777616",
+    "en": "Could not find Comet Blue device with address {address}: {reason}",
+    "before": "Kunde inte hitta Comet Blue-enheten med adress {address}: {reason}",
+    "after": "Hittade ingen Comet Blue-enhet med adressen {address}: {reason}",
+    "readback": "Hittade ingen Comet Blue-enhet med adressen {address}: {reason}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::roborock::services::set_vacuum_zoned_cleaning::fields::repeats::description",
+    "key_id": "902027779",
+    "translation_id": "9253831233",
+    "en": "The number of times the zone cleaning is repeated. '0' is just cleaning once.",
+    "before": "Antalet gånger zonrengöringen upprepas. '0' är bara en rengöring.",
+    "after": "Antalet gånger zonstädningen ska upprepas. Värdet 0 innebär att zonen städas en gång.",
+    "readback": "Antalet gånger zonstädningen ska upprepas. Värdet 0 innebär att zonen städas en gång.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::roborock::services::set_vacuum_zoned_cleaning::description",
+    "key_id": "902027778",
+    "translation_id": "9253831169",
+    "en": "Starts cleaning the specified zone.",
+    "before": "Börjar rengöra den angivna zonen.",
+    "after": "Startar städning av den angivna zonen.",
+    "readback": "Startar städning av den angivna zonen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::harbor::exceptions::switch_turn_off_failed::message",
+    "key_id": "902235446",
+    "translation_id": "9256142537",
+    "en": "Failed to turn off {switch}.",
+    "before": "Misslyckades med att stänga av {switch}.",
+    "after": "Det gick inte att stänga av {switch}.",
+    "readback": "Det gick inte att stänga av {switch}.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::harbor::exceptions::switch_turn_on_failed::message",
+    "key_id": "902235447",
+    "translation_id": "9256142601",
+    "en": "Failed to turn on {switch}.",
+    "before": "Misslyckades med att slå på {switch}.",
+    "after": "Det gick inte att slå på {switch}.",
+    "readback": "Det gick inte att slå på {switch}.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::ecovacs::entity::button::reset_lifespan_water_sink::name",
+    "key_id": "902235476",
+    "translation_id": "9256143166",
+    "en": "Reset water sink lifespan",
+    "before": "Återställ vattenvaskens livslängd",
+    "after": "Återställ vattenbehållarens livslängd",
+    "readback": "Återställ vattenbehållarens livslängd",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::ecovacs::entity::sensor::lifespan_water_sink::name",
+    "key_id": "902235479",
+    "translation_id": "9256143358",
+    "en": "Water sink lifespan",
+    "before": "Livslängd för vattenvask",
+    "after": "Vattenbehållarens livslängd",
+    "readback": "Vattenbehållarens livslängd",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::music_assistant::services::search::fields::username::description",
+    "key_id": "903354201",
+    "translation_id": "9273090925",
+    "en": "Music Assistant username used for searching. Searches respect the user's configured provider filters. Defaults to the Music Assistant user linked to the Home Assistant user making the request. If there is no linked user, the request runs as the default account.",
+    "before": "Music Assistant-användarnamnet som ska användas för sökningen. Sökningar följer användarens konfigurerade leverantörsfilter. Som standard används den Music Assistant-användare som är kopplad till Home Assistant-användaren som gör begäran. Om ingen användare är kopplad används standardkontot.",
+    "after": "Användarnamnet i Music Assistant som ska användas vid sökning. Sökningen följer användarens konfigurerade leverantörsfilter. Som standard används det Music Assistant-konto som är kopplat till Home Assistant-användaren som gör begäran. Om ingen användare är kopplad används standardkontot.",
+    "readback": "Användarnamnet i Music Assistant som ska användas vid sökning. Sökningen följer användarens konfigurerade leverantörsfilter. Som standard används det Music Assistant-konto som är kopplat till Home Assistant-användaren som gör begäran. Om ingen användare är kopplad används standardkontot.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::green_planet_energy::services::get_prices::description",
+    "key_id": "903873933",
+    "translation_id": "9279568321",
+    "en": "Returns raw 15-minute electricity price slots for the next N hours. Slots beyond the API horizon are omitted.",
+    "before": "Returnerar obearbetade 15-minutersintervaller för elpriset för de kommande N timmarna. Intervaller som ligger utanför API:ets tidshorisont utelämnas.",
+    "after": "Returnerar råa 15-minuterspriser för de kommande N timmarna. Intervall utanför API:ets prognoshorisont utelämnas.",
+    "readback": "Returnerar råa 15-minuterspriser för de kommande N timmarna. Intervall utanför API:ets prognoshorisont utelämnas.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::green_planet_energy::services::get_prices::fields::config_entry_id::description",
+    "key_id": "903873934",
+    "translation_id": "9279568385",
+    "en": "The Green Planet Energy integration instance to use.",
+    "before": "Den Green Planet Energy-integrationsinstans som ska användas.",
+    "after": "Integreringen Green Planet Energy som ska användas.",
+    "readback": "Integreringen Green Planet Energy som ska användas.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::switchbot::entity::select::night_light::state::bright",
+    "key_id": "903135460",
+    "translation_id": "9269164400",
+    "en": "Bright",
+    "before": "Ljus",
+    "after": "Starkt ljus",
+    "readback": "Starkt ljus",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::switchbot::entity::select::night_light::state::soft",
+    "key_id": "903135461",
+    "translation_id": "9269164464",
+    "en": "Soft",
+    "before": "Mjuk",
+    "after": "Mjukt ljus",
+    "readback": "Mjukt ljus",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::ecovacs::entity::sensor::lifespan_cleaning_solution::name",
+    "key_id": "902235477",
+    "translation_id": "9256143230",
+    "en": "Cleaning solution lifespan",
+    "before": "Rengöringslösningens livslängd",
+    "after": "Rengöringsmedlets livslängd",
+    "readback": "Rengöringsmedlets livslängd",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::ecovacs::entity::button::reset_lifespan_cleaning_solution::name",
+    "key_id": "902235474",
+    "translation_id": "9256143038",
+    "en": "Reset cleaning solution lifespan",
+    "before": "Återställ rengöringslösningens livslängd",
+    "after": "Återställ rengöringsmedlets livslängd",
+    "readback": "Återställ rengöringsmedlets livslängd",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::unifiprotect::entity::event::sound_detection::state_attributes::event_type::state::car_horn",
+    "key_id": "902261188",
+    "translation_id": "9256728042",
+    "en": "Car horn",
+    "before": "Biltuta",
+    "after": "Bilhorn",
+    "readback": "Bilhorn",
+    "status": "saved-and-read-back"
+  }
+]
