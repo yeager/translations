@@ -4,6 +4,8 @@ Färdiggranskade kataloger som laddats upp via API. Uppladdning verifieras mot a
 
 | Modul | Gren | Domän | Ändrade PO-poster | Verifiering |
 |---|---|---|---:|---|
+| elastic | main | po | 14 | Uppladdad 02:44 UTC med ”Granskad och klar”; aktivitetssidan bekräftar sammanslagning 64/0/0. |
+| tali | master | po | 6 | Uppladdad 02:34 UTC med ”Granskad och klar”; aktivitetssidan bekräftar sammanslagning 100/0/0. |
 | Wildcard | main | po | 13 | Uppladdad 02:24 UTC med ”Granskad och klar”; aktivitetssidan bekräftar sammanslagning 64/0/0. |
 | Manuals | main | po | 5 | Uppladdad 02:14 UTC med ”Granskad och klar”; aktivitetssidan bekräftar sammanslagning 51/0/0. |
 | vocalis | main | po | 10 | Uppladdad 02:03 UTC med ”Granskad och klar”; aktivitetssidan bekräftar sammanslagning 73/0/0. |
@@ -22,5 +24,5 @@ Färdiggranskade kataloger som laddats upp via API. Uppladdning verifieras mot a
 
 ## Status
 
-- Uppladdade och verifierade händelser: **15**.
-- Samtliga 15 uppladdningar är verifierade på aktivitetssidorna; aktuell sammanslagningsstatistik anges per modul i tabellen.
+- Uppladdade och verifierade händelser: **17**.
+- Samtliga 17 uppladdningar är verifierade på aktivitetssidorna; aktuell sammanslagningsstatistik anges per modul i tabellen.
