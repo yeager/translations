@@ -2288,3 +2288,12 @@ Senaste granskade position: **56 296** av 77 656. Nästa position: **56 297**; *
 ## Sekventiell granskningsmarkör – 2026-11-27
 
 Senaste granskade position: **56 416** av 77 656. Nästa position: **56 417**; **21 240 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+
+
+### Batch: 56 417–56 536
+
+120 positioner radgranskades: 92 direkta aktuella strängar, 22 referenser (15 unika mål) och sex tidigare dokumenterade nycklar utan aktuell källväg. Alla referensägare matchar målens engelska och svenska texter. 27 rättelser sparades i Lokalise och lästes tillbaka via API. Platshållare 120/120; inga pluralnycklar. `svlang` hittade inga skrivregelfel. Hunspell-flaggor var produktnamn eller tekniska identifierare. Inga nya osäkra fall eller olösta referenser identifierades. TMX validerar med 35 753 poster; live-manifestverifiering passerade 114/114.
+
+## Sekventiell granskningsmarkör – 2026-11-27
+
+Senaste granskade position: **56 536** av 77 656. Nästa position: **56 537**; **21 120 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
