@@ -1,0 +1,132 @@
+{
+  "component::abrp::config::abort::wrong_account": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-abrp-batch-162/candidates.json",
+    "source": "The account you signed in with does not match the account being re-authenticated. Please sign in with the same A Better Routeplanner account.",
+    "target": "Kontot du loggade in med stämmer inte överens med kontot som autentiseras igen. Logga in med samma A Better Routeplanner-konto."
+  },
+  "component::abrp::config::step::reauth_confirm::description": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-abrp-batch-162/candidates.json",
+    "source": "The A Better Routeplanner integration needs to re-authenticate your account.",
+    "target": "A Better Routeplanner-integrationen måste autentisera ditt konto igen."
+  },
+  "component::abrp::config::step::reauth_confirm::title": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-abrp-batch-162/candidates.json",
+    "source": "Authentication expired for {name}",
+    "target": "Autentiseringen för {name} har upphört"
+  },
+  "component::powerfox::config::error::no_devices": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-device-errors-batch-261/candidates.json",
+    "source": "No devices were found in this Powerfox account.",
+    "target": "Inga enheter hittades i det här Powerfox-kontot."
+  },
+  "component::e3dc::entity::sensor::active_power_failsafe_timeout::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-e3dc-batch-150/candidates.json",
+    "source": "Active power failsafe timeout",
+    "target": "Tidsgräns för felsäker aktiv effekt"
+  },
+  "component::e3dc::entity::sensor::reactive_power_failsafe_timeout::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-e3dc-batch-151/candidates.json",
+    "source": "Reactive power failsafe timeout",
+    "target": "Tidsgräns för felsäker reaktiv effekt"
+  },
+  "component::e3dc::entity::sensor::sg_ready_status::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-e3dc-batch-151/candidates.json",
+    "source": "SG Ready status",
+    "target": "SG Ready-status"
+  },
+  "component::shelly::entity::sensor::humidity_level::state::very_high": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-shelly-batch-182/candidates.json",
+    "source": "Very high",
+    "target": "Mycket hög"
+  },
+  "component::shelly::entity::sensor::humidity_level_with_channel_name::state::very_high": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-shelly-batch-182/candidates.json",
+    "source": "Very high",
+    "target": "Mycket hög"
+  },
+  "component::sofar::exceptions::charge_cutoff_unsupported::message": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-sofar-batch-179/candidates.json",
+    "source": "{title} does not support setting the charge cut-off.",
+    "target": "{title} har inte stöd för att ange laddningens frånkopplingsgräns."
+  },
+  "component::sofar::services::set_battery_cutoffs::description": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-sofar-batch-179/candidates.json",
+    "source": "Sets the battery's cut-off levels, as shown on the SofarCloud app's battery parameters page. The inverter stores each change, so avoid calling this often. Only for inverters with battery storage.",
+    "target": "Anger batteriets frånkopplingsgränser enligt sidan med batteriparametrar i SofarCloud-appen. Växelriktaren sparar varje ändring, så använd inte detta ofta. Endast för växelriktare med batterilagring."
+  },
+  "component::sofar::services::set_battery_cutoffs::fields::charge_cutoff_soc::description": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-sofar-batch-179/candidates.json",
+    "source": "The charge level at which the battery stops charging. 60 to 100%. Left unchanged when omitted. Not every inverter supports it.",
+    "target": "Laddningsnivån då batteriet slutar ladda. 60 till 100 %. Lämnas oförändrad om den utelämnas. Stöds inte av alla växelriktare."
+  },
+  "component::sofar::services::set_battery_cutoffs::fields::charge_cutoff_soc::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-sofar-batch-179/candidates.json",
+    "source": "Charge cut-off state of charge",
+    "target": "Laddningens frånkopplingsgräns"
+  },
+  "component::sofar::services::set_battery_cutoffs::fields::off_grid_discharge_cutoff_soc::description": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-sofar-batch-179/candidates.json",
+    "source": "The charge level at which the battery stops discharging during a grid outage. 10 to 30%, at most the on-grid cut-off.",
+    "target": "Laddningsnivån då batteriet slutar ladda ur vid ett elnätsavbrott. 10 till 30 %, högst frånkopplingsgränsen med elnät."
+  },
+  "component::sofar::services::set_battery_cutoffs::fields::off_grid_discharge_cutoff_soc::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-sofar-batch-179/candidates.json",
+    "source": "Off-grid discharge cut-off state of charge",
+    "target": "Urladdningens frånkopplingsgräns utan elnät"
+  },
+  "component::sofar::services::set_battery_cutoffs::fields::off_grid_recovery_soc::description": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-sofar-batch-179/candidates.json",
+    "source": "The charge level the battery recharges to before it discharges off-grid again. 15 to 100%, at least 5% above the off-grid cut-off.",
+    "target": "Laddningsnivån som batteriet laddas till innan det laddar ur utan elnät igen. 15 till 100 %, minst 5 % över frånkopplingsgränsen utan elnät."
+  },
+  "component::sofar::services::set_battery_cutoffs::fields::off_grid_recovery_soc::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-sofar-batch-179/candidates.json",
+    "source": "Off-grid discharge recovery state of charge",
+    "target": "Återhämtningsnivå för urladdning utan elnät"
+  },
+  "component::sofar::services::set_battery_cutoffs::fields::on_grid_discharge_cutoff_soc::description": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-sofar-batch-179/candidates.json",
+    "source": "The charge level at which the battery stops discharging while the grid is up. 10 to 100%.",
+    "target": "Laddningsnivån då batteriet slutar ladda ur medan elnätet är tillgängligt. 10 till 100 %."
+  },
+  "component::sofar::services::set_battery_cutoffs::fields::on_grid_discharge_cutoff_soc::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-sofar-batch-179/candidates.json",
+    "source": "On-grid discharge cut-off state of charge",
+    "target": "Urladdningens frånkopplingsgräns med elnät"
+  },
+  "component::sofar::services::set_battery_cutoffs::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-sofar-batch-179/candidates.json",
+    "source": "Set battery cut-offs",
+    "target": "Ange batteriets frånkopplingsgränser"
+  },
+  "component::zha::entity::sensor::hvac_action::state::cooling": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-zha-batch-180/candidates.json",
+    "source": "Cooling",
+    "target": "Kylning"
+  },
+  "component::zha::entity::sensor::hvac_action::state::defrosting": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-zha-batch-180/candidates.json",
+    "source": "Defrosting",
+    "target": "Avfrostning"
+  },
+  "component::zha::entity::sensor::hvac_action::state::drying": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-zha-batch-180/candidates.json",
+    "source": "Drying",
+    "target": "Avfuktning"
+  },
+  "component::zha::entity::sensor::hvac_action::state::heating": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-zha-batch-180/candidates.json",
+    "source": "Heating",
+    "target": "Uppvärmning"
+  },
+  "component::zha::entity::sensor::hvac_action::state::idle": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-zha-batch-180/candidates.json",
+    "source": "Idle",
+    "target": "Viloläge"
+  },
+  "component::zha::entity::sensor::hvac_action::state::preheating": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-zha-batch-180/candidates.json",
+    "source": "Preheating",
+    "target": "Förvärmning"
+  }
+}
