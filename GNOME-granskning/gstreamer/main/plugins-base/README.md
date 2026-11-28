@@ -1,12 +1,6 @@
-# gstreamer — main — svenska UI
+# GStreamer Base plugins — main — svenska
 
-- GNOME-status före granskning: 236 översatta, 1 fuzzy, 1 oöversatt.
-- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/gstreamer/main/plugins-base/sv/>
-- Granskad rad: `OGM text` → `OGM-text`; fångstmetadata för ljuskälla.
-- Åtgärd: Den tekniska OGM-etiketten fylldes i och en fuzzy kamerametadata-sträng fick naturlig svenska.
-- Ändringar: 5 ny(a) översättning(ar), 9 rättad(e) befintlig(a) sträng(ar).
-- Validering: `msgfmt --check`; teknisk formatetikett och betydelse jämförda mot källan.
-- Dokumenterade undantag: `OGM` är formatnamn och ska inte översättas; bindestrecket i `OGM-text` är svensk sammansättningsform.
-- Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-22 00:00+0100.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
-- Slutlig lokal status: 238 översatta, 0 fuzzy, 0 oöversatta.
+- GNOME-aktivitet: https://l10n.gnome.org/vertimus/gstreamer/main/plugins-base/sv/
+- Kontrollerad 2026-11-28 via Damned Lies API. POT har 238 poster; statistik-API visar 236 översatta, 1 fuzzy och 1 oöversatt.
+- Aktivitetssidan säger att modulen är skrivskyddad i Damned Lies och att översättningar hanteras externt. Exakt blockeringsorsak och statistik finns i blocker-2026-11-28.json.
+- Ingen lokal katalog har markerats färdig och ingen ändring har skickats. Aktivitetssidan säger att plattformskoordinatorerna behöver uppdatera arkivets URL och hänvisar till den externa plattformen utan att namnge den.

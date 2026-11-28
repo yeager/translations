@@ -1,8 +1,5 @@
-# Niepce — main — svenska gränssnittet
+# Niepce — main — svenska
 
-- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/niepce/main/po/sv/>.
-- Utgångsläge: 58 aktiva strängar, 3 oöversatta och 0 fuzzy.
-- Ändringar: 7 strängar, inklusive Python-redigerarens kommandon, idiomatisk bildredigeringsterminologi och en ASCII-kompatibel accelerator.
-- Validering: `msgfmt --check`, `msgcmp --use-fuzzy` och `l10n-lint` är felfria.
-- Slutlig lokal status: 58 översatta, 0 fuzzy och 0 oöversatta.
-- Extern blockerare: Damned Lies API returnerade 2026-11-23 `state: None` med en tom åtgärdslista för `niepce/main/po/sv`; varken reservation, uppladdning eller kommentar kan skickas.
+- GNOME-aktivitet: https://l10n.gnome.org/vertimus/niepce/main/po/sv/
+- API-statistik 2026-11-28: 55 översatta, 0 fuzzy, 3 oöversatta av 58.
+- Aktivitetssidan anger uttryckligen att modulen har arkiverats och inte längre ska översättas. Ingen katalog har granskats eller ändrats. Exakt text finns i blocker-2026-11-28.json.
