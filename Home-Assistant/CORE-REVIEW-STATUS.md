@@ -5,10 +5,12 @@ Senast uppdaterad: 2026-11-28
 Aktuell källrevision: `1d07105b760c73093145526a51758938e87cc658`
 Lokalise-projekt: `130246255a974bd3b5e8a1.51616605`
 
-## Senaste batch: 70 217–70 336
+## Senaste batch: 70 337–70 456
 
-120 poster kontrollerade: 74 direkta källmatchningar, 45 referenser till 35 mål och 1 källsaknad post. Alla referenser matchar efter korrigering. 16 ändringar (14 inom intervallet och 2 kanoniska referensmål) sparades och API-lästes tillbaka. Inga plural- eller platshållarproblem. svlang skrivregler passerade; de fyra svengelska-träffarna är falska positiva på produktnamnet Nettigo Air Monitors. Hunspell hittade inga bekräftade stavfel. TMX validerar med 36 323 poster (36 092 Lokalise-ID, 231 historiska).
+120 nycklar verifierade mot tidigare granskning och aktuell Lokalise-readback: 113 direkta källmatchningar och 7 referenser till 6 mål. Alla nycklar var redan granskade; ingen översättning ändrades. 120 befintliga par har nu spårbar `verified-existing`-post i Home Assistant-TMX. Inga plural- eller platshållarproblem. svlang passerade. Hunspell kompletterades med `aktiveringslås` och två böjningar; 19 verktygstester passerade.
 
-Nästa position: **70 337**. Cirka **7 320** positioner återstår; granskningen pågår.
+TMX validerar med 36,442 poster (36,211 Lokalise-ID, 231 historiska).
 
-Rapport: `2026-11-28-reviewed-core-70217-70336.md` med QA-, readback-, referens- och TMX-underlag.
+Nästa position: **70 457**. Cirka **7 200** positioner återstår; granskningen pågår.
+
+Rapport: `2026-11-28-reviewed-core-70337-70456.md`.
