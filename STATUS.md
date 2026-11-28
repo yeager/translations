@@ -2139,3 +2139,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-26 — Blender UI: separat XLIFF-delta med 99 radgranskade svenska ändringar. Formatkontroll (`msgfmt --check --check-format`) och l10n-lint: 0 fel.
 
 - **Home Assistant Core:** Radgranskning pågår till position 72 976 av 77 656; 4 680 positioner återstår. Senaste batchrapport och API-verifiering finns i [Home-Assistant](Home-Assistant/CORE-REVIEW-STATUS.md).
+
+- **Home Assistant Core:** Radgranskning pågår till position 73 096 av 77 656; 4 560 positioner återstår. Senaste batchrapport och API-verifiering finns i [Home-Assistant](Home-Assistant/CORE-REVIEW-STATUS.md).
