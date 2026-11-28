@@ -12,3 +12,4 @@ Färdiggranskade kataloger som verifierats på Damned Lies. Uppladdningar kontro
 ## Status
 
 - Uppladdat och verifierat i denna logg: **4**.
+| snapshot | gnome-51 | po | 97/0/0 | 7 | Uppladdad och verifierad; ”Granskad och klar” synlig.
