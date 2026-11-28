@@ -1,4 +1,39 @@
 {
+  "component::system_bridge::exceptions::entry_not_loaded::message": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-system-bridge-batch-132/candidates.json",
+    "source": "System Bridge entry {entry_id} isn't loaded",
+    "target": "System Bridge-posten {entry_id} har inte lästs in"
+  },
+  "component::shelly::entity::sensor::runtime_above_power_threshold::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-shelly-batch-182/candidates.json",
+    "source": "Runtime above power threshold",
+    "target": "Drifttid över effektgränsen"
+  },
+  "component::shelly::entity::sensor::runtime_above_power_threshold_with_channel_name::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-shelly-batch-182/candidates.json",
+    "source": "{channel_name} runtime above power threshold",
+    "target": "{channel_name}: drifttid över effektgränsen"
+  },
+  "component::shelly::entity::sensor::switching_cycles::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-shelly-batch-182/candidates.json",
+    "source": "Switching cycles",
+    "target": "Brytarcykler"
+  },
+  "component::shelly::entity::sensor::switching_cycles_with_channel_name::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-shelly-batch-182/candidates.json",
+    "source": "{channel_name} switching cycles",
+    "target": "{channel_name}: brytarcykler"
+  },
+  "component::shelly::entity::sensor::total_runtime::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-shelly-batch-182/candidates.json",
+    "source": "Total runtime",
+    "target": "Total drifttid"
+  },
+  "component::shelly::entity::sensor::total_runtime_with_channel_name::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-shelly-batch-182/candidates.json",
+    "source": "{channel_name} total runtime",
+    "target": "{channel_name}: total drifttid"
+  },
   "component::abrp::config::abort::wrong_account": {
     "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-abrp-batch-162/candidates.json",
     "source": "The account you signed in with does not match the account being re-authenticated. Please sign in with the same A Better Routeplanner account.",
@@ -14,15 +49,60 @@
     "source": "Authentication expired for {name}",
     "target": "Autentiseringen för {name} har upphört"
   },
-  "component::powerfox::config::error::no_devices": {
-    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-device-errors-batch-261/candidates.json",
-    "source": "No devices were found in this Powerfox account.",
-    "target": "Inga enheter hittades i det här Powerfox-kontot."
+  "component::shelly::entity::sensor::illuminance_level_with_channel_name::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-shelly-batch-182/candidates.json",
+    "source": "{channel_name} illuminance level",
+    "target": "{channel_name}: belysningsnivå"
+  },
+  "component::shelly::entity::sensor::illuminance_level_with_channel_name::state::bright": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-shelly-batch-182/candidates.json",
+    "source": "Bright",
+    "target": "Ljust"
+  },
+  "component::shelly::entity::sensor::illuminance_level_with_channel_name::state::dark": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-shelly-batch-182/candidates.json",
+    "source": "Dark",
+    "target": "Mörkt"
+  },
+  "component::shelly::entity::sensor::illuminance_level_with_channel_name::state::twilight": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-shelly-batch-182/candidates.json",
+    "source": "Twilight",
+    "target": "Skymning"
   },
   "component::e3dc::entity::sensor::active_power_failsafe_timeout::name": {
     "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-e3dc-batch-150/candidates.json",
     "source": "Active power failsafe timeout",
     "target": "Tidsgräns för felsäker aktiv effekt"
+  },
+  "component::e3dc::entity::sensor::full_charge_energy::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-e3dc-batch-150/candidates.json",
+    "source": "Battery capacity",
+    "target": "Batterikapacitet"
+  },
+  "component::e3dc::entity::sensor::inverter_mode::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-e3dc-batch-150/candidates.json",
+    "source": "Inverter mode",
+    "target": "Växelriktarläge"
+  },
+  "component::e3dc::entity::sensor::inverter_mode::state::idle_off_grid_power_save": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-e3dc-batch-150/candidates.json",
+    "source": "Idle, off-grid power save",
+    "target": "Viloläge, energisparläge utan elnät"
+  },
+  "component::e3dc::entity::sensor::inverter_mode::state::normal": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-e3dc-batch-150/candidates.json",
+    "source": "Normal operation",
+    "target": "Normal drift"
+  },
+  "component::e3dc::entity::sensor::max_charge_power::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-e3dc-batch-150/candidates.json",
+    "source": "Maximum charge power",
+    "target": "Maximal laddningseffekt"
+  },
+  "component::e3dc::entity::sensor::max_discharge_power::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-e3dc-batch-150/candidates.json",
+    "source": "Maximum discharge power",
+    "target": "Maximal urladdningseffekt"
   },
   "component::e3dc::entity::sensor::reactive_power_failsafe_timeout::name": {
     "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-e3dc-batch-151/candidates.json",
@@ -34,15 +114,350 @@
     "source": "SG Ready status",
     "target": "SG Ready-status"
   },
+  "component::e3dc::entity::sensor::sg_ready_status::state::blocked": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-e3dc-batch-151/candidates.json",
+    "source": "Blocked",
+    "target": "Blockerad"
+  },
+  "component::e3dc::entity::sensor::sg_ready_status::state::forced_on": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-e3dc-batch-151/candidates.json",
+    "source": "Forced on",
+    "target": "Tvångsaktiverad"
+  },
+  "component::e3dc::entity::sensor::sg_ready_status::state::normal": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-e3dc-batch-151/candidates.json",
+    "source": "Normal operation",
+    "target": "Normal drift"
+  },
+  "component::e3dc::entity::sensor::sg_ready_status::state::switch_on_recommended": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-e3dc-batch-151/candidates.json",
+    "source": "Switch-on recommended",
+    "target": "Aktivering rekommenderas"
+  },
+  "component::shelly::entity::sensor::humidity_level::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-shelly-batch-182/candidates.json",
+    "source": "Humidity level",
+    "target": "Fuktnivå"
+  },
+  "component::shelly::entity::sensor::humidity_level::state::high": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-shelly-batch-182/candidates.json",
+    "source": "High",
+    "target": "Hög"
+  },
+  "component::shelly::entity::sensor::humidity_level::state::low": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-shelly-batch-182/candidates.json",
+    "source": "Low",
+    "target": "Låg"
+  },
+  "component::shelly::entity::sensor::humidity_level::state::medium": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-shelly-batch-182/candidates.json",
+    "source": "Medium",
+    "target": "Medel"
+  },
   "component::shelly::entity::sensor::humidity_level::state::very_high": {
     "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-shelly-batch-182/candidates.json",
     "source": "Very high",
     "target": "Mycket hög"
   },
+  "component::shelly::entity::sensor::humidity_level_with_channel_name::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-shelly-batch-182/candidates.json",
+    "source": "{channel_name} humidity level",
+    "target": "{channel_name}: fuktnivå"
+  },
+  "component::shelly::entity::sensor::humidity_level_with_channel_name::state::high": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-shelly-batch-182/candidates.json",
+    "source": "High",
+    "target": "Hög"
+  },
+  "component::shelly::entity::sensor::humidity_level_with_channel_name::state::low": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-shelly-batch-182/candidates.json",
+    "source": "Low",
+    "target": "Låg"
+  },
+  "component::shelly::entity::sensor::humidity_level_with_channel_name::state::medium": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-shelly-batch-182/candidates.json",
+    "source": "Medium",
+    "target": "Medel"
+  },
   "component::shelly::entity::sensor::humidity_level_with_channel_name::state::very_high": {
     "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-shelly-batch-182/candidates.json",
     "source": "Very high",
     "target": "Mycket hög"
+  },
+  "component::system_bridge::exceptions::connection_lost::message": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-system-bridge-batch-132/candidates.json",
+    "source": "Connection lost while registering for {title}",
+    "target": "Anslutningen bröts när {title} registrerades"
+  },
+  "component::system_bridge::exceptions::waiting_for_sleep::message": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-system-bridge-batch-132/candidates.json",
+    "source": "Waiting for {title} to sleep or shut down",
+    "target": "Väntar på att {title} ska försättas i vila eller stängas av"
+  },
+  "component::accuweather::config::step::user::data_description::location": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-weather-location-batch-226/candidates.json",
+    "source": "The location to get the weather data for. Defaults to the home location configured in Home Assistant.",
+    "target": "Platsen som väderdata ska hämtas för. Standardvärdet är hemplatsen som är konfigurerad i Home Assistant."
+  },
+  "component::tuya::entity::switch::eco_mode::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-tuya-batch-186/candidates.json",
+    "source": "Eco mode",
+    "target": "Ekoläge"
+  },
+  "component::vicare::entity::sensor::heating_rod_runtime_level_one::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-vicare-batch-161/candidates.json",
+    "source": "Heating rod runtime level 1",
+    "target": "Drifttid för värmestav, nivå 1"
+  },
+  "component::vicare::entity::sensor::heating_rod_runtime_level_two::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-vicare-batch-161/candidates.json",
+    "source": "Heating rod runtime level 2",
+    "target": "Drifttid för värmestav, nivå 2"
+  },
+  "component::chirpstack::config::error::http2_error": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-final-actual-batch-263/candidates.json",
+    "source": "Unable to connect using HTTP/2. Check that the server and reverse proxy support gRPC.",
+    "target": "Det går inte att ansluta med HTTP/2. Kontrollera att servern och den omvända proxyn stöder gRPC."
+  },
+  "component::chirpstack::config::error::tls_certificate_error": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-final-actual-batch-263/candidates.json",
+    "source": "Unable to verify the server's TLS certificate. Check that it is trusted and matches the server address.",
+    "target": "Det går inte att verifiera serverns TLS-certifikat. Kontrollera att det är betrott och stämmer överens med serveradressen."
+  },
+  "component::ifttt::services::trigger::fields::target::description": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-final-actual-batch-263/candidates.json",
+    "source": "The names of the configured API keys to send the event to. Sends the event to all keys if this field is omitted.",
+    "target": "Namnen på de konfigurerade API-nycklar som händelsen ska skickas till. Händelsen skickas till alla nycklar om fältet utelämnas."
+  },
+  "component::ifttt::services::trigger::fields::target::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-final-actual-batch-263/candidates.json",
+    "source": "Target",
+    "target": "Mål"
+  },
+  "component::powerfox::config::error::no_devices": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-device-errors-batch-261/candidates.json",
+    "source": "No devices were found in this Powerfox account.",
+    "target": "Inga enheter hittades i det här Powerfox-kontot."
+  },
+  "component::powerfox::exceptions::no_devices::message": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-device-errors-batch-261/candidates.json",
+    "source": "No devices were found in the Powerfox account.",
+    "target": "Inga enheter hittades i Powerfox-kontot."
+  },
+  "component::music_assistant::services::play_media::fields::shuffle::description": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-music-assistant-batch-221/candidates.json",
+    "source": "Whether to play the content in randomized order. Only applies when the content starts playing right away. If omitted, the queue's shuffle setting and the type of content decide.",
+    "target": "Om innehållet ska spelas i slumpmässig ordning. Gäller endast när innehållet börjar spelas direkt. Om det utelämnas avgör köns slumpinställning och innehållstypen."
+  },
+  "component::music_assistant::services::play_media::fields::shuffle::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-music-assistant-batch-221/candidates.json",
+    "source": "Shuffle",
+    "target": "Blanda"
+  },
+  "component::hassio::entity::sensor::disk_life_time::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-misc-core-batch-254/candidates.json",
+    "source": "Disk lifetime",
+    "target": "Disklivslängd"
+  },
+  "component::synology_dsm::config::step::2sa::data_description::otp_code": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-synology-dsm-batch-163/candidates.json",
+    "source": "The current code from your two-step authentication app.",
+    "target": "Den aktuella koden från appen för tvåstegsautentisering."
+  },
+  "component::synology_dsm::config::step::link::data_description::password": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-synology-dsm-batch-163/candidates.json",
+    "source": "The password of the DSM user.",
+    "target": "Lösenordet för DSM-användaren."
+  },
+  "component::synology_dsm::config::step::link::data_description::port": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-synology-dsm-batch-163/candidates.json",
+    "source": "The port of the DSM web interface. Leave empty to use the default port (5000, or 5001 when using SSL).",
+    "target": "Porten för DSM:s webbgränssnitt. Lämna tomt för att använda standardporten (5000 eller 5001 med SSL)."
+  },
+  "component::synology_dsm::config::step::link::data_description::ssl": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-synology-dsm-batch-163/candidates.json",
+    "source": "Connect to DSM over HTTPS.",
+    "target": "Anslut till DSM via HTTPS."
+  },
+  "component::synology_dsm::config::step::link::data_description::username": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-synology-dsm-batch-163/candidates.json",
+    "source": "The DSM user Home Assistant uses to connect. The user must be a member of the administrators group.",
+    "target": "DSM-användaren som Home Assistant använder för anslutning. Användaren måste tillhöra administratörsgruppen."
+  },
+  "component::synology_dsm::config::step::link::data_description::verify_ssl": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-synology-dsm-batch-163/candidates.json",
+    "source": "Verify the SSL certificate of the NAS. Disable this when the NAS uses a self-signed certificate.",
+    "target": "Verifiera NAS:ens SSL-certifikat. Inaktivera detta när NAS:en använder ett självsignerat certifikat."
+  },
+  "component::synology_dsm::config::step::reauth_confirm::data_description::password": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-synology-dsm-batch-163/candidates.json",
+    "source": "The password of the DSM user.",
+    "target": "Lösenordet för DSM-användaren."
+  },
+  "component::synology_dsm::config::step::reauth_confirm::data_description::username": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-synology-dsm-batch-163/candidates.json",
+    "source": "The DSM user Home Assistant uses to connect. The user must be a member of the administrators group.",
+    "target": "DSM-användaren som Home Assistant använder för anslutning. Användaren måste tillhöra administratörsgruppen."
+  },
+  "component::synology_dsm::config::step::reconfigure::data_description::password": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-synology-dsm-batch-163/candidates.json",
+    "source": "The password of the DSM user.",
+    "target": "Lösenordet för DSM-användaren."
+  },
+  "component::synology_dsm::config::step::reconfigure::data_description::port": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-synology-dsm-batch-163/candidates.json",
+    "source": "The port of the DSM web interface. Leave empty to use the default port (5000, or 5001 when using SSL).",
+    "target": "Porten för DSM:s webbgränssnitt. Lämna tomt för att använda standardporten (5000 eller 5001 med SSL)."
+  },
+  "component::synology_dsm::config::step::reconfigure::data_description::ssl": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-synology-dsm-batch-163/candidates.json",
+    "source": "Connect to DSM over HTTPS.",
+    "target": "Anslut till DSM via HTTPS."
+  },
+  "component::synology_dsm::config::step::reconfigure::data_description::username": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-synology-dsm-batch-163/candidates.json",
+    "source": "The DSM user Home Assistant uses to connect. The user must be a member of the administrators group.",
+    "target": "DSM-användaren som Home Assistant använder för anslutning. Användaren måste tillhöra administratörsgruppen."
+  },
+  "component::synology_dsm::config::step::reconfigure::data_description::verify_ssl": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-synology-dsm-batch-163/candidates.json",
+    "source": "Verify the SSL certificate of the NAS. Disable this when the NAS uses a self-signed certificate.",
+    "target": "Verifiera NAS:ens SSL-certifikat. Inaktivera detta när NAS:en använder ett självsignerat certifikat."
+  },
+  "component::synology_dsm::config::step::user::data_description::password": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-synology-dsm-batch-163/candidates.json",
+    "source": "The password of the DSM user.",
+    "target": "Lösenordet för DSM-användaren."
+  },
+  "component::synology_dsm::config::step::user::data_description::port": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-synology-dsm-batch-163/candidates.json",
+    "source": "The port of the DSM web interface. Leave empty to use the default port (5000, or 5001 when using SSL).",
+    "target": "Porten för DSM:s webbgränssnitt. Lämna tomt för att använda standardporten (5000 eller 5001 med SSL)."
+  },
+  "component::synology_dsm::config::step::user::data_description::ssl": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-synology-dsm-batch-163/candidates.json",
+    "source": "Connect to DSM over HTTPS.",
+    "target": "Anslut till DSM via HTTPS."
+  },
+  "component::synology_dsm::config::step::user::data_description::username": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-synology-dsm-batch-163/candidates.json",
+    "source": "The DSM user Home Assistant uses to connect. The user must be a member of the administrators group.",
+    "target": "DSM-användaren som Home Assistant använder för anslutning. Användaren måste tillhöra administratörsgruppen."
+  },
+  "component::synology_dsm::config::step::user::data_description::verify_ssl": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-synology-dsm-batch-163/candidates.json",
+    "source": "Verify the SSL certificate of the NAS. Disable this when the NAS uses a self-signed certificate.",
+    "target": "Verifiera NAS:ens SSL-certifikat. Inaktivera detta när NAS:en använder ett självsignerat certifikat."
+  },
+  "component::synology_dsm::options::step::init::data_description::snap_profile_type": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-synology-dsm-batch-163/candidates.json",
+    "source": "The quality of the snapshots taken from Surveillance Station cameras.",
+    "target": "Kvaliteten på ögonblicksbilderna från Surveillance Station-kameror."
+  },
+  "component::synology_dsm::exceptions::entry_not_loaded::message": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-synology-dsm-batch-163/candidates.json",
+    "source": "DSM with serial {serial} is not loaded.",
+    "target": "DSM med serienumret {serial} är inte inläst."
+  },
+  "component::zha::entity::sensor::hvac_action::state::cooling": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-zha-batch-180/candidates.json",
+    "source": "Cooling",
+    "target": "Kylning"
+  },
+  "component::zha::entity::sensor::hvac_action::state::defrosting": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-zha-batch-180/candidates.json",
+    "source": "Defrosting",
+    "target": "Avfrostning"
+  },
+  "component::zha::entity::sensor::hvac_action::state::drying": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-zha-batch-180/candidates.json",
+    "source": "Drying",
+    "target": "Avfuktning"
+  },
+  "component::zha::entity::sensor::hvac_action::state::fan": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-zha-batch-180/candidates.json",
+    "source": "Fan",
+    "target": "Fläkt"
+  },
+  "component::zha::entity::sensor::hvac_action::state::heating": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-zha-batch-180/candidates.json",
+    "source": "Heating",
+    "target": "Uppvärmning"
+  },
+  "component::zha::entity::sensor::hvac_action::state::idle": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-zha-batch-180/candidates.json",
+    "source": "Idle",
+    "target": "Viloläge"
+  },
+  "component::zha::entity::sensor::hvac_action::state::off": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-zha-batch-180/candidates.json",
+    "source": "Off",
+    "target": "Av"
+  },
+  "component::zha::entity::sensor::hvac_action::state::preheating": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-zha-batch-180/candidates.json",
+    "source": "Preheating",
+    "target": "Förvärmning"
+  },
+  "component::agent_dvr::config::abort::cannot_connect": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-hardware-weather-agent-batch-260/candidates.json",
+    "source": "Failed to connect",
+    "target": "Det gick inte att ansluta"
+  },
+  "component::agent_dvr::config::step::hassio_confirm::description": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-hardware-weather-agent-batch-260/candidates.json",
+    "source": "Do you want to configure Home Assistant to connect to the Agent DVR server provided by the app: {addon}?",
+    "target": "Vill du konfigurera Home Assistant så att den ansluter till Agent DVR-servern som tillhandahålls av appen {addon}?"
+  },
+  "component::agent_dvr::config::step::hassio_confirm::title": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-hardware-weather-agent-batch-260/candidates.json",
+    "source": "Agent DVR via Home Assistant app",
+    "target": "Agent DVR via Home Assistant-appen"
+  },
+  "component::foreca::entity::sensor::precipitation_probability::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-foreca-batch-195/candidates.json",
+    "source": "Precipitation probability",
+    "target": "Sannolikhet för nederbörd"
+  },
+  "component::foreca::entity::sensor::thunderstorm_probability::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-foreca-batch-195/candidates.json",
+    "source": "Thunderstorm probability",
+    "target": "Sannolikhet för åska"
+  },
+  "component::sofar::device::battery_pack::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-sofar-batch-179/candidates.json",
+    "source": "Battery pack {group}.{pack}",
+    "target": "Batteripaket {group}.{pack}"
+  },
+  "component::sofar::entity::sensor::cell_voltage_max::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-sofar-batch-179/candidates.json",
+    "source": "Highest cell voltage",
+    "target": "Högsta cellspänning"
+  },
+  "component::sofar::entity::sensor::cell_voltage_min::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-sofar-batch-179/candidates.json",
+    "source": "Lowest cell voltage",
+    "target": "Lägsta cellspänning"
+  },
+  "component::sofar::entity::sensor::full_charge_capacity::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-sofar-batch-179/candidates.json",
+    "source": "Full charge capacity",
+    "target": "Kapacitet vid full laddning"
+  },
+  "component::sofar::entity::sensor::internal_temperature::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-sofar-batch-179/candidates.json",
+    "source": "Internal temperature",
+    "target": "Intern temperatur"
+  },
+  "component::sofar::entity::sensor::mosfet_temperature::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-sofar-batch-179/candidates.json",
+    "source": "MOSFET temperature",
+    "target": "MOSFET-temperatur"
+  },
+  "component::sofar::entity::sensor::remaining_capacity::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-sofar-batch-179/candidates.json",
+    "source": "Remaining capacity",
+    "target": "Återstående kapacitet"
   },
   "component::sofar::exceptions::charge_cutoff_unsupported::message": {
     "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-sofar-batch-179/candidates.json",
@@ -63,6 +478,16 @@
     "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-sofar-batch-179/candidates.json",
     "source": "Charge cut-off state of charge",
     "target": "Laddningens frånkopplingsgräns"
+  },
+  "component::sofar::services::set_battery_cutoffs::fields::config_entry_id::description": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-sofar-batch-179/candidates.json",
+    "source": "The Sofar inverter to send this to.",
+    "target": "Sofar-växelriktaren som detta ska skickas till."
+  },
+  "component::sofar::services::set_battery_cutoffs::fields::config_entry_id::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-sofar-batch-179/candidates.json",
+    "source": "Inverter",
+    "target": "Växelriktare"
   },
   "component::sofar::services::set_battery_cutoffs::fields::off_grid_discharge_cutoff_soc::description": {
     "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-sofar-batch-179/candidates.json",
@@ -99,34 +524,79 @@
     "source": "Set battery cut-offs",
     "target": "Ange batteriets frånkopplingsgränser"
   },
-  "component::zha::entity::sensor::hvac_action::state::cooling": {
-    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-zha-batch-180/candidates.json",
-    "source": "Cooling",
-    "target": "Kylning"
+  "component::foreca::selector::forecast_type::options::daily": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-foreca-batch-195/candidates.json",
+    "source": "Daily",
+    "target": "Dagligen"
   },
-  "component::zha::entity::sensor::hvac_action::state::defrosting": {
-    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-zha-batch-180/candidates.json",
-    "source": "Defrosting",
-    "target": "Avfrostning"
+  "component::foreca::selector::forecast_type::options::hourly": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-foreca-batch-195/candidates.json",
+    "source": "Hourly",
+    "target": "Varje timme"
   },
-  "component::zha::entity::sensor::hvac_action::state::drying": {
-    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-zha-batch-180/candidates.json",
-    "source": "Drying",
-    "target": "Avfuktning"
+  "component::foreca::services::get_forecasts_extra::description": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-foreca-batch-195/candidates.json",
+    "source": "Retrieves the forecast values that weather.get_forecasts has no place for, such as precipitation type, snow, solar radiation, sunshine, sunrise and the ensemble range of the daily forecast. They come from the forecast already fetched, so the action makes no API requests.",
+    "target": "Hämtar de prognosvärden som weather.get_forecasts saknar plats för, till exempel nederbördstyp, snö, solstrålning, solsken, soluppgång och ensembleintervallet för dygnsprognosen. Värdena kommer från den prognos som redan har hämtats, så åtgärden gör inga API-anrop."
   },
-  "component::zha::entity::sensor::hvac_action::state::heating": {
-    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-zha-batch-180/candidates.json",
-    "source": "Heating",
-    "target": "Uppvärmning"
+  "component::foreca::services::get_forecasts_extra::fields::type::description": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-foreca-batch-195/candidates.json",
+    "source": "The forecast to return the values for.",
+    "target": "Prognosen som värdena ska returneras för."
   },
-  "component::zha::entity::sensor::hvac_action::state::idle": {
-    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-zha-batch-180/candidates.json",
-    "source": "Idle",
-    "target": "Viloläge"
+  "component::foreca::services::get_forecasts_extra::fields::type::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-foreca-batch-195/candidates.json",
+    "source": "Forecast type",
+    "target": "Prognostyp"
   },
-  "component::zha::entity::sensor::hvac_action::state::preheating": {
-    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-zha-batch-180/candidates.json",
-    "source": "Preheating",
-    "target": "Förvärmning"
+  "component::foreca::services::get_forecasts_extra::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-foreca-batch-195/candidates.json",
+    "source": "Get extra forecast values",
+    "target": "Hämta extra prognosvärden"
+  },
+  "component::system_bridge::exceptions::notification_failed::message": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-system-bridge-batch-132/candidates.json",
+    "source": "Failed to send the notification: {error}",
+    "target": "Kunde inte skicka aviseringen: {error}"
+  },
+  "component::button::triggers::held::description": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-button-batch-227/candidates.json",
+    "source": "Triggers when one or more buttons are held, optionally repeating at a set interval for as long as they stay held.",
+    "target": "Utlöses när en eller flera knappar hålls nedtryckta och kan upprepas med ett angivet intervall så länge de hålls nedtryckta."
+  },
+  "component::button::triggers::held::fields::interval::description": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-button-batch-227/candidates.json",
+    "source": "How often to trigger again while the button stays held. Leave empty to trigger once per hold.",
+    "target": "Hur ofta den ska utlösas igen medan knappen hålls nedtryckt. Lämna tomt för att utlösa en gång per nedtryckning."
+  },
+  "component::button::triggers::held::fields::interval::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-button-batch-227/candidates.json",
+    "source": "Interval",
+    "target": "Intervall"
+  },
+  "component::button::triggers::held::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-button-batch-227/candidates.json",
+    "source": "Button held",
+    "target": "Knapp nedtryckt"
+  },
+  "component::velbus::entity::light::button_light::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-velbus-batch-252/candidates.json",
+    "source": "LED {channel_name}",
+    "target": "LED {channel_name}"
+  },
+  "component::velbus::entity::select::select_program::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-velbus-batch-252/candidates.json",
+    "source": "Program",
+    "target": "Program"
+  },
+  "component::velbus::entity::sensor::counter::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-velbus-batch-252/candidates.json",
+    "source": "{channel_name} counter",
+    "target": "{channel_name}-räknare"
+  },
+  "component::velbus::exceptions::no_modules::message": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-16/core-velbus-batch-252/candidates.json",
+    "source": "No Velbus modules found, please check your VLP file.",
+    "target": "Inga Velbus-moduler hittades. Kontrollera VLP-filen."
   }
 }
