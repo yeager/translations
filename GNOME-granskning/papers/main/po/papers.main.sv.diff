@@ -1,0 +1,1157 @@
+--- papers.main.sv.original.po
++++ papers.main.sv.reviewed.po
+@@ -15,8 +15,8 @@
+ "Project-Id-Version: papers\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/papers/issues/\n"
+ "POT-Creation-Date: 2026-11-25 21:24+0000\n"
+-"PO-Revision-Date: 2026-08-24 15:33+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-28 14:44+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -38,7 +38,8 @@
+ msgid "View multi-page documents"
+ msgstr "Visa dokument med flera sidor"
+ 
+-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
++#. Translators: Search terms to find this application. Do NOT translate or
++#. localize the semicolons! The list MUST also end with a semicolon!
+ #: data/org.gnome.Papers.desktop.in.in:5
+ msgid "pdf;djvu;tiff;document;presentation;viewer;papers;"
+ msgstr "pdf;djvu;tiff;dokument;presentation;visare;papers;"
+@@ -54,29 +55,27 @@
+ #: data/org.gnome.Papers.gschema.xml:15
+ msgid "Override document restrictions, like restriction to copy or to print."
+ msgstr ""
+-"Åsidosätt dokumentbegränsningar, som till exempel begränsning i att kopiera "
+-"eller att skriva ut."
++"Åsidosätt dokumentbegränsningar, till exempel för kopiering eller utskrift."
+ 
+ #: data/org.gnome.Papers.gschema.xml:19
+ msgid "The URI of the directory last used to open or save a document"
+ msgstr ""
+-"URI på katalogen som senast användes för att öppna eller spara ett dokument"
++"URI till katalogen som senast användes för att öppna eller spara dokument"
+ 
+ #: data/org.gnome.Papers.gschema.xml:23
+ msgid "The URI of the directory last used to save a picture"
+-msgstr "URI på katalogen som senast användes för att spara en bild"
++msgstr "URI till katalogen som senast användes för att spara bilder"
+ 
+ #: data/org.gnome.Papers.gschema.xml:27
+ msgid "Page cache size in MiB"
+-msgstr "Sidans cachestorlek i MiB"
++msgstr "Sidcache i MiB"
+ 
+ #: data/org.gnome.Papers.gschema.xml:28
+ msgid ""
+ "The maximum size that will be used to cache rendered pages, limits maximum "
+ "zoom level."
+ msgstr ""
+-"Den maximala storleken som kommer att användas för att cacha renderade "
+-"sidor, vilket begränsar den maximala zoomnivån."
++"Den maximala storleken på sidcachen begränsar också den högsta zoomnivån."
+ 
+ #: data/org.gnome.Papers.gschema.xml:32
+ msgid "Allow links to change the zoom level."
+@@ -85,25 +84,24 @@
+ #: data/org.gnome.Papers.gschema.xml:44
+ msgid "Check spelling when writing annotation notes or filling text forms."
+ msgstr ""
+-"Kontrollera stavning vid skrivande av kommentarer eller ifyllande av "
++"Kontrollera stavningen när du skriver anteckningar eller fyller i "
+ "textformulär."
+ 
+ #: data/org.gnome.Papers.gschema.xml:48
+ msgid "Show a side bar next to the document to help navigate the document."
+-msgstr ""
+-"Visa en sidopanel intill dokumentet för hjälp med att navigera dokumentet."
++msgstr "Visa en sidopanel intill dokumentet för att underlätta navigeringen."
+ 
+ #: data/org.gnome.Papers.gschema.xml:61
+ msgid "Set the default zoom level to display a document."
+-msgstr "Ställ in standardzoomnivån för att visa dokument."
++msgstr "Ange standardzoomnivån för dokument."
+ 
+ #: data/org.gnome.Papers.gschema.xml:65
+ msgid ""
+ "Display the document as a continuous stream of pages instead of page at a "
+ "time."
+ msgstr ""
+-"Visa dokumentet som en kontinuerlig ström av sidor i stället för en sida åt "
+-"gången."
++"Visa dokumentet som en sammanhängande följd av sidor i stället för en sida i"
++" taget."
+ 
+ #: data/org.gnome.Papers.gschema.xml:69
+ msgid "Show two pages side by side."
+@@ -114,8 +112,8 @@
+ "Show the first page (odd page) on the left (when displaying two pages side "
+ "by side)"
+ msgstr ""
+-"Visa den första sidan (udda) till vänster (vid visning av två sidor bredvid "
+-"varandra)"
++"Visa den första sidan (udda sida) till vänster när två sidor visas bredvid "
++"varandra"
+ 
+ #: data/org.gnome.Papers.gschema.xml:110
+ msgid "Last used signature ID"
+@@ -123,23 +121,23 @@
+ 
+ #: data/org.gnome.Papers.gschema.xml:111
+ msgid "ID of the signature most recently used for manual signing"
+-msgstr "ID för signaturen som senast användes för manuell signering"
++msgstr "ID för den signatur som senast användes vid manuell signering"
+ 
+ #: data/org.gnome.Papers.gschema.xml:115
+ msgid "Last placed signature scale"
+-msgstr "Skala för senast placerade signatur"
++msgstr "Skala för den senast placerade signaturen"
+ 
+ #: data/org.gnome.Papers.gschema.xml:122
+ msgid "Previewer window height"
+-msgstr "Höjden på förhandsgranskningsfönster"
++msgstr "Höjd på förhandsgranskningsfönstret"
+ 
+ #: data/org.gnome.Papers.gschema.xml:126
+ msgid "Previewer window width"
+-msgstr "Bredden på förhandsgranskningsfönster"
++msgstr "Bredd på förhandsgranskningsfönstret"
+ 
+ #: data/org.gnome.Papers.gschema.xml:130
+ msgid "Previewer window maximized state"
+-msgstr "Maximeringstillstånd för förhandsgranskningsfönster"
++msgstr "Om förhandsgranskningsfönstret är maximerat"
+ 
+ #: data/org.gnome.Papers.metainfo.xml.in.in:10
+ msgid "Read documents"
+@@ -150,7 +148,7 @@
+ "A document viewer for the GNOME desktop. You can view, search or annotate "
+ "documents in many different formats."
+ msgstr ""
+-"En dokumentvisare för GNOME-skrivbordet. Du kan visa, söka eller kommentera "
++"En dokumentvisare för GNOME-skrivbordet. Du kan visa, söka i och kommentera "
+ "dokument i många olika format."
+ 
+ #: data/org.gnome.Papers.metainfo.xml.in.in:13
+@@ -158,8 +156,8 @@
+ "Papers supports documents in: PDF, DjVu, TIFF, and Comic Books archives "
+ "(CBR, CBT, CBZ, CB7)."
+ msgstr ""
+-"Papers stöder dokument i: PDF, DjVu, TIFF och serietidningsarkiv (CBR, CBT, "
+-"CBZ, CB7)."
++"Papers har stöd för följande dokumentformat: PDF, DjVu och TIFF samt "
++"serietidningsarkiv (CBR, CBT, CBZ och CB7)."
+ 
+ #: data/org.gnome.Papers.metainfo.xml.in.in:18
+ msgid "PDF"
+@@ -203,7 +201,7 @@
+ 
+ #: data/org.gnome.Papers.metainfo.xml.in.in:28
+ msgid "annotating"
+-msgstr "kommenterande"
++msgstr "annoteringar"
+ 
+ #: data/org.gnome.Papers.metainfo.xml.in.in:29
+ msgid "digital signing"
+@@ -287,7 +285,7 @@
+ 
+ #: data/org.gnome.Papers.metainfo.xml.in.in:65
+ msgid "A clear, simple, and modern UI"
+-msgstr "Ett rent, enkelt och modernt användargränssnitt"
++msgstr "Ett tydligt, enkelt och modernt användargränssnitt"
+ 
+ #: data/org.gnome.Papers.metainfo.xml.in.in:69
+ msgid "A mobile-friendly UI"
+@@ -295,7 +293,7 @@
+ 
+ #: data/org.gnome.Papers.metainfo.xml.in.in:73
+ msgid "A modern and colorful annotation list"
+-msgstr "En modern och färggrann kommentarslista"
++msgstr "En modern och färgglad kommentarslista"
+ 
+ #: data/org.gnome.Papers.metainfo.xml.in.in:77
+ msgid "Big thumbnails in the sidebar"
+@@ -324,7 +322,7 @@
+ 
+ #: libdocument/backend/comics/comics-document.c:238
+ msgid "Archive is encrypted"
+-msgstr "Arkiv är krypterat"
++msgstr "Arkivet är krypterat"
+ 
+ #: libdocument/backend/comics/comics-document.c:243
+ msgid "No supported images in archive"
+@@ -337,19 +335,19 @@
+ #: libdocument/backend/comics/comics-document.c:302
+ #, c-format
+ msgid "Not a comic book MIME type: %s"
+-msgstr "Inte en MIME-typ för en serietidning: %s"
++msgstr "Filen har inte en MIME-typ för serietidningar: %s"
+ 
+ #: libdocument/backend/comics/comics-document.c:309
+ msgid ""
+ "libarchive lacks support for this comic book’s compression, please contact "
+ "your distributor"
+ msgstr ""
+-"libarchive saknar stöd för den här serietidningens komprimering, kontakta "
+-"din distributör"
++"libarchive stöder inte komprimeringen i den här serietidningen. Kontakta "
++"programvarans distributör"
+ 
+ #: libdocument/backend/comics/comics-document.c:348
+ msgid "Can not get local path for archive"
+-msgstr "Kan inte hitta lokal sökväg för arkiv"
++msgstr "Det går inte att hitta arkivets lokala sökväg"
+ 
+ #: libdocument/backend/comics/org.gnome.Papers.ComicsDocument.papers-backend.desktop.in.in:3
+ #: libdocument/backend/comics/org.gnome.Papers.ComicsDocument.metainfo.xml.in.in:5
+@@ -366,11 +364,10 @@
+ 
+ #: libdocument/backend/djvu/djvu-document.c:263
+ msgid ""
+-"The document is composed of several files. One or more of these files cannot "
+-"be accessed."
++"The document is composed of several files. One or more of these files cannot"
++" be accessed."
+ msgstr ""
+-"Dokumentet består av flera filer. En eller flera av dessa filer går inte "
+-"komma åt."
++"Dokumentet består av flera filer. Det går inte att nå en eller flera av dem."
+ 
+ #: libdocument/backend/djvu/org.gnome.Papers.DjvuDocument.papers-backend.desktop.in.in:3
+ #: libdocument/backend/djvu/org.gnome.Papers.DjvuDocument.metainfo.xml.in.in:5
+@@ -418,7 +415,7 @@
+ 
+ #: libdocument/backend/pdf/pps-poppler.c:856
+ msgid "TrueType"
+-msgstr "Truetype"
++msgstr "TrueType"
+ 
+ #: libdocument/backend/pdf/pps-poppler.c:858
+ msgid "Type 1 (CID)"
+@@ -430,26 +427,26 @@
+ 
+ #: libdocument/backend/pdf/pps-poppler.c:862
+ msgid "TrueType (CID)"
+-msgstr "Truetype (CID)"
++msgstr "TrueType (CID)"
+ 
+ #: libdocument/backend/pdf/pps-poppler.c:864
+ msgid "Unknown font type"
+-msgstr "Okänd typsnittstyp"
++msgstr "Okänd typ av typsnitt"
+ 
+ #: libdocument/backend/pdf/pps-poppler.c:908
+ msgid ""
+-"This document contains non-embedded fonts that are not from the PDF Standard "
+-"14 fonts. If the substitute fonts selected by fontconfig are not the same as "
+-"the fonts used to create the PDF, the rendering may not be correct."
++"This document contains non-embedded fonts that are not from the PDF Standard"
++" 14 fonts. If the substitute fonts selected by fontconfig are not the same "
++"as the fonts used to create the PDF, the rendering may not be correct."
+ msgstr ""
+-"Detta dokument innehåller ej inbäddade typsnitt som ej är del av PDF-"
+-"standardens 14 typsnitt.  Om de ersättande typsnitten som är valda av "
+-"fontconfig inte är desamma som typsnitten som användes när PDF-filen "
+-"skapades så kan renderingen bli felaktig."
++"Dokumentet innehåller typsnitt som inte är inbäddade och som inte ingår "
++"bland PDF-formatets 14 standardtypsnitt. Om typsnitten som fontconfig väljer"
++" som ersättning skiljer sig från dem som användes när PDF-filen skapades kan"
++" återgivningen bli felaktig."
+ 
+ #: libdocument/backend/pdf/pps-poppler.c:913
+ msgid "All fonts are either standard or embedded."
+-msgstr "Alla typsnitten är antingen standard eller inbäddade."
++msgstr "Alla typsnitt är antingen standardtypsnitt eller inbäddade."
+ 
+ #: libdocument/backend/pdf/pps-poppler.c:949
+ msgid "No name"
+@@ -458,10 +455,9 @@
+ #. translators: When a font type does not have
+ #. encoding information or it is unknown.  Example:
+ #. Encoding: None
+-#.
+-#: libdocument/backend/pdf/pps-poppler.c:958 libview/pps-print-operation.c:1879
+-#: shell/src/properties_general.rs:85 shell/src/properties_general.rs:235
+-#: shell/src/properties_general.rs:370
++#: libdocument/backend/pdf/pps-poppler.c:958
++#: libview/pps-print-operation.c:1879 shell/src/properties_general.rs:85
++#: shell/src/properties_general.rs:235 shell/src/properties_general.rs:370
+ msgid "None"
+ msgstr "Ingen"
+ 
+@@ -481,7 +477,6 @@
+ #. * because it is directly appended to the font
+ #. * type. Example:
+ #. * "Type 1 (One of the Standard 14 Fonts)"
+-#.
+ #: libdocument/backend/pdf/pps-poppler.c:977
+ msgid " (One of the Standard 14 Fonts)"
+ msgstr " (Ett av de 14 standardtypsnitten)"
+@@ -490,7 +485,6 @@
+ #. * because it is directly appended to the font
+ #. * type. Example:
+ #. * "TrueType (Not one of the Standard 14 Fonts)"
+-#.
+ #: libdocument/backend/pdf/pps-poppler.c:984
+ msgid " (Not one of the Standard 14 Fonts)"
+ msgstr " (Inte ett av de 14 standardtypsnitten)"
+@@ -504,7 +498,6 @@
+ #. * Not embedded
+ #. * Substituting with TeXGyreTermes-Regular
+ #. * (/usr/share/textmf/.../texgyretermes-regular.otf)
+-#.
+ #: libdocument/backend/pdf/pps-poppler.c:1003
+ #, c-format
+ msgid ""
+@@ -528,7 +521,6 @@
+ #. * TrueType (CID)
+ #. * Encoding: Custom
+ #. * Embedded subset
+-#.
+ #: libdocument/backend/pdf/pps-poppler.c:1021
+ #, c-format
+ msgid ""
+@@ -587,20 +579,22 @@
+ #. * want inches, otherwise translate to default:mm.
+ #. * Do *not* translate it to "predefinito:mm", if it
+ #. * it isn't default:mm or default:inch it will not work
+-#.
+ #: libdocument/pps-document-info.c:200
+ msgid "default:mm"
+ msgstr "default:mm"
+ 
+-#. Note to translators: this string makes a range of pages that have a certain size,
+-#. * the first and the second placeholders %i are the start and the end of this range
++#. Note to translators: this string makes a range of pages that have a certain
++#. size,
++#. * the first and the second placeholders %i are the start and the end of
++#. this range
+ #. * (e.g. 1-5), and the minus sign separates them
+ #: libdocument/pps-document-info.c:258
+ #, c-format
+ msgid "%i-%i"
+ msgstr "%i-%i"
+ 
+-#. Note to translators: this is a separator that separates two or more page ranges,
++#. Note to translators: this is a separator that separates two or more page
++#. ranges,
+ #. * or individual page numbers (e.g. 1, 3-7, 9, 11-12)
+ #: libdocument/pps-document-info.c:264
+ msgid ", "
+@@ -636,9 +630,11 @@
+ msgid "%s, Landscape (%s)"
+ msgstr "%s, Liggande (%s)"
+ 
+-#. Note to translators: the first placeholder %s is the singular or plural form of the word "Page",
++#. Note to translators: the first placeholder %s is the singular or plural
++#. form of the word "Page",
+ #. * the second placeholder is a page number or range(e.g. "1, 5-12"),
+-#. * the third placeholder is the page format (e.g. US Letter, Portrait (8.50 × 11.00 inch))
++#. * the third placeholder is the page format (e.g. US Letter, Portrait (8.50
++#. × 11.00 inch))
+ #: libdocument/pps-document-info.c:397
+ #, c-format
+ msgid "%s %s: %s"
+@@ -653,7 +649,7 @@
+ #: libdocument/pps-file-helpers.c:131
+ #, c-format
+ msgid "Failed to create a temporary file: %s"
+-msgstr "Misslyckades med att skapa en temporärfil: %s"
++msgstr "Det gick inte att skapa en temporär fil: %s"
+ 
+ #: libdocument/pps-file-helpers.c:337 libdocument/pps-file-helpers.c:374
+ #: libdocument/pps-file-helpers.c:381 libdocument/pps-file-helpers.c:463
+@@ -663,7 +659,7 @@
+ 
+ #: libdocument/pps-xmp.c:188
+ msgid "This work is in the Public Domain"
+-msgstr "Detta är ett publikt verk"
++msgstr "Detta verk är allmän egendom"
+ 
+ #: libview/context/pps-attachment-context.c:350
+ msgid "Save Attachment"
+@@ -684,22 +680,22 @@
+ #: libview/pps-jobs.c:399
+ #, c-format
+ msgid "Failed to render page %d: %s"
+-msgstr "Misslyckades med att rendera sida %d: %s"
++msgstr "Det gick inte att återge sida %d: %s"
+ 
+ #: libview/pps-jobs.c:406
+ #, c-format
+ msgid "Failed to render page %d"
+-msgstr "Misslyckades med att rendera sida %d"
++msgstr "Det gick inte att återge sida %d"
+ 
+ #: libview/pps-jobs.c:625
+ #, c-format
+ msgid "Failed to create thumbnail for page %d"
+-msgstr "Misslyckades med att skapa en miniatyrbild för sida %d"
++msgstr "Det gick inte att skapa en miniatyrbild av sida %d"
+ 
+ #: libview/pps-jobs.c:1602
+ #, c-format
+ msgid "Failed to print page %d: %s"
+-msgstr "Misslyckades med att skriva ut sida %d: %s"
++msgstr "Det gick inte att skriva ut sida %d: %s"
+ 
+ #. Initial state
+ #: libview/pps-print-operation.c:331
+@@ -713,7 +709,7 @@
+ #: libview/pps-print-operation.c:335
+ #, c-format
+ msgid "Generating preview: page %d of %d"
+-msgstr "Genererar förhandsgranskning: sida %d av %d"
++msgstr "Skapar förhandsvisning: sida %d av %d"
+ 
+ #. Initial state
+ #: libview/pps-print-operation.c:341
+@@ -731,12 +727,12 @@
+ 
+ #: libview/pps-print-operation.c:1335
+ msgid "Your print range selection does not include any pages"
+-msgstr "Ditt val av utskriftsintervall inkluderar inte några sidor"
++msgstr "Utskriftsintervallet innehåller inga sidor"
+ 
+ #. show close if the certificate is null, or if no cert is found
+ #: libview/pps-print-operation.c:1336 previewer/pps-previewer-window.blp:83
+-#: shell/resources/pps-document-view.blp:791 shell/resources/pps-window.blp:138
+-#: shell/src/document_view/io.rs:572
++#: shell/resources/pps-document-view.blp:791
++#: shell/resources/pps-window.blp:138 shell/src/document_view/io.rs:572
+ msgid "_Close"
+ msgstr "S_täng"
+ 
+@@ -759,29 +755,21 @@
+ 
+ #: libview/pps-print-operation.c:1888
+ msgid ""
+-"Scale document pages to fit the selected printer page. Select from one of "
+-"the following:\n"
++"Scale document pages to fit the selected printer page. Select from one of the following:\n"
+ "\n"
+ "• “None”: No page scaling is performed.\n"
+ "\n"
+-"• “Shrink to Printable Area”: Document pages larger than the printable area "
+-"are reduced to fit the printable area of the printer page.\n"
++"• “Shrink to Printable Area”: Document pages larger than the printable area are reduced to fit the printable area of the printer page.\n"
+ "\n"
+-"• “Fit to Printable Area”: Document pages are enlarged or reduced as "
+-"required to fit the printable area of the printer page.\n"
++"• “Fit to Printable Area”: Document pages are enlarged or reduced as required to fit the printable area of the printer page.\n"
+ msgstr ""
+-"Skala dokumentsidor för att passa den valda skrivarsidan. Välj från en av "
+-"följande:\n"
++"Skala dokumentsidorna så att de passar på utskriftspappret. Välj ett av följande alternativ:\n"
+ "\n"
+-"• ”Ingen”: Ingen sidskalning genomförs.\n"
++"• ”Ingen”: Sidorna skalas inte.\n"
+ "\n"
+-"• ”Förminska till utskrivningsbart område”: Dokumentsidor större än det "
+-"utskrivningsbara området minskas för att passa det utskrivningsbara området "
+-"för skrivarsidan.\n"
++"• ”Förminska till utskrivbart område”: Sidor som är större än det utskrivbara området förminskas så att de ryms på pappret.\n"
+ "\n"
+-"• ”Anpassa till utskrivningsbart område”: Dokumentsidor förstoras eller "
+-"förminskas enligt vad som krävs för att passa det utskrivningsbara området "
+-"för skrivarsidan.\n"
++"• ”Anpassa till utskrivbart område”: Sidorna förstoras eller förminskas så att de ryms på pappret.\n"
+ 
+ #: libview/pps-print-operation.c:1899
+ msgid "Auto Rotate and Center"
+@@ -792,28 +780,28 @@
+ "Rotate printer page orientation of each page to match orientation of each "
+ "document page. Document pages will be centered within the printer page."
+ msgstr ""
+-"Rotera skrivarens sidorientering för varje sida för att matcha orienteringen "
+-"för varje dokumentsida. Dokumentsidor kommer att centreras inom skrivarsidan."
++"Rotera varje utskriftssida så att den får samma orientering som "
++"dokumentsidan. Dokumentsidorna centreras på utskriftssidan."
+ 
+ #: libview/pps-print-operation.c:1906
+ msgid "Select page size using document page size"
+-msgstr "Välj sidstorlek med sidstorlek för dokument"
++msgstr "Välj sidstorlek utifrån dokumentets sidstorlek"
+ 
+ #: libview/pps-print-operation.c:1908
+ msgid ""
+ "When enabled, each page will be printed on the same size paper as the "
+ "document page."
+ msgstr ""
+-"När aktiverat kommer varje sida att skrivas ut med samma pappersstorlek som "
++"När detta är aktiverat skrivs varje sida ut på papper med samma storlek som "
+ "dokumentsidan."
+ 
+ #: libview/pps-print-operation.c:1912
+ msgid "Draw border around pages"
+-msgstr "Rita ram runt sidor"
++msgstr "Rita en ram runt sidorna"
+ 
+ #: libview/pps-print-operation.c:1914
+ msgid "When enabled, a border will be drawn around each page."
+-msgstr "När aktiverat kommer en ram ritas runt varje sida."
++msgstr "När detta är aktiverat ritas en ram runt varje sida."
+ 
+ #: libview/pps-print-operation.c:2011
+ msgid "Page Handling"
+@@ -837,7 +825,7 @@
+ 
+ #: libview/pps-view.c:2196
+ msgid "Go to page"
+-msgstr "Gå till sidan"
++msgstr "Gå till sida"
+ 
+ #: libview/pps-view.c:2198
+ msgid "Find"
+@@ -874,7 +862,7 @@
+ 
+ #: libview/pps-view-presentation.c:875
+ msgid "End of presentation. Press Esc or click to exit."
+-msgstr "Slut på presentationen. Tryck Esc eller klicka för att avsluta."
++msgstr "Presentationen är slut. Tryck på Esc eller klicka för att avsluta."
+ 
+ #: libview/pps-view-presentation.blp:49
+ msgid "Jump to page:"
+@@ -886,7 +874,7 @@
+ msgstr "(%d av %d)"
+ 
+ # Borde buggrapporteras.
+-#
++# 
+ #: previewer/pps-page-selector.c:67 previewer/pps-page-selector.c:108
+ #, c-format
+ msgid "of %d"
+@@ -898,7 +886,7 @@
+ 
+ #: previewer/pps-previewer.c:32
+ msgid "Delete the temporary file"
+-msgstr "Ta bort temporära filen"
++msgstr "Ta bort den temporära filen"
+ 
+ #: previewer/pps-previewer.c:34
+ msgid "File specifying print settings"
+@@ -910,7 +898,7 @@
+ 
+ #: previewer/pps-previewer.c:36
+ msgid "File descriptor of input file"
+-msgstr "Filhandtag för indatafil"
++msgstr "Filbeskrivare för indatafilen"
+ 
+ #: previewer/pps-previewer.c:36 previewer/pps-previewer.c:40
+ msgid "FD"
+@@ -926,7 +914,7 @@
+ 
+ #: previewer/pps-previewer.c:40
+ msgid "File descriptor of print settings file"
+-msgstr "Filhandtag för utskriftsinställningsfil"
++msgstr "Filbeskrivare för filen med utskriftsinställningar"
+ 
+ #: previewer/pps-previewer.c:263 previewer/pps-previewer.c:279
+ msgid "GNOME Document Previewer"
+@@ -1116,7 +1104,7 @@
+ 
+ #: shell/resources/pps-annotation-properties-dialog.blp:70
+ msgid "_Markup Type"
+-msgstr "_Märkningstyp"
++msgstr "_Annoteringstyp"
+ 
+ #: shell/resources/pps-annotation-properties-dialog.blp:75
+ #: shell/resources/pps-document-view.blp:490
+@@ -1145,9 +1133,10 @@
+ 
+ #: shell/resources/pps-annotation-properties-dialog.blp:96
+ msgid "Pop up note while scrolling the document"
+-msgstr "Poppa upp anteckning vid rullning av dokumentet"
+-
+-#. Translators: Translators: This is an action (a verb in English) that opens the sidebar to start a search
++msgstr "Visa anteckningen medan du rullar i dokumentet"
++
++#. Translators: Translators: This is an action (a verb in English) that opens
++#. the sidebar to start a search
+ #: shell/resources/pps-document-view.blp:79
+ msgid "Search"
+ msgstr "Sök"
+@@ -1208,7 +1197,7 @@
+ 
+ #: shell/resources/pps-document-view.blp:399
+ msgid "Highlight Stroke Size"
+-msgstr "Storlek för färgmarkeringsstreck"
++msgstr "Storlek på markeringsstreck"
+ 
+ #: shell/resources/pps-document-view.blp:432
+ msgid "Pencil Size"
+@@ -1220,7 +1209,7 @@
+ 
+ #: shell/resources/pps-document-view.blp:460
+ msgid "Change Eraser Radius"
+-msgstr "Ändra suddradie"
++msgstr "Ändra suddets radie"
+ 
+ #: shell/resources/pps-document-view.blp:478
+ msgid "Insert Text"
+@@ -1241,7 +1230,7 @@
+ 
+ #: shell/resources/pps-document-view.blp:760
+ msgid "Selection too Small"
+-msgstr "Markering för liten"
++msgstr "Markeringen är för liten"
+ 
+ #: shell/resources/pps-document-view.blp:761
+ msgid ""
+@@ -1249,9 +1238,8 @@
+ "create a potentially more readable signature, press `Start over` and draw a "
+ "bigger rectangle."
+ msgstr ""
+-"En signatur av den här storleken kan vara för liten för att kunna läsas. Om "
+-"du vill skapa en potentiellt mer läsbar signatur, tryck på ”Börja om” och "
+-"rita en större rektangel."
++"Signaturen kan vara för liten för att gå att läsa. Om du vill göra den "
++"lättare att läsa trycker du på ”Börja om” och ritar en större rektangel."
+ 
+ #: shell/resources/pps-document-view.blp:768
+ msgid "Start _Over"
+@@ -1270,8 +1258,8 @@
+ "There is one or more active print jobs. If the window is closed, pending "
+ "print jobs will not be printed."
+ msgstr ""
+-"Det finns ett eller flera aktiva utskriftsjobb. Om du stänger fönstret så "
+-"kommer väntande utskriftsjobb inte att skrivas ut."
++"Ett eller flera utskriftsjobb pågår. Om du stänger fönstret skrivs väntande "
++"jobb inte ut."
+ 
+ #: shell/resources/pps-document-view.blp:781
+ msgid "Abort _Print and Close"
+@@ -1295,15 +1283,18 @@
+ msgid "Ni_ght Mode"
+ msgstr "Nattlä_ge"
+ 
+-#: shell/resources/pps-document-view.blp:812 shell/resources/pps-window.blp:145
++#: shell/resources/pps-document-view.blp:812
++#: shell/resources/pps-window.blp:145
+ msgid "_Keyboard Shortcuts"
+-msgstr "_Tangentbordsgenvägar"
+-
+-#: shell/resources/pps-document-view.blp:817 shell/resources/pps-window.blp:150
++msgstr "_Kortkommandon"
++
++#: shell/resources/pps-document-view.blp:817
++#: shell/resources/pps-window.blp:150
+ msgid "_Help"
+ msgstr "_Hjälp"
+ 
+-#: shell/resources/pps-document-view.blp:822 shell/resources/pps-window.blp:155
++#: shell/resources/pps-document-view.blp:822
++#: shell/resources/pps-window.blp:155
+ msgid "_About Document Viewer"
+ msgstr "_Om Dokumentvisare"
+ 
+@@ -1354,7 +1345,7 @@
+ 
+ #: shell/resources/pps-document-view.blp:892
+ msgid "Right to Left Document"
+-msgstr "Höger till vänster-dokument"
++msgstr "Dokument med höger-till-vänster-läsriktning"
+ 
+ #: shell/resources/pps-document-view.blp:899
+ msgid "Ro_tate ⤵"
+@@ -1450,29 +1441,40 @@
+ msgid "Add Signature"
+ msgstr "Lägg till signatur"
+ 
+-#. Translators: As a noun, this is describing the type of text marking annotation, as are squiggly, strikethrough, and underline. An adjective could also make sense as a translation. The letter in parenthesis marks the keyboard shortcut and should not be translated.
++#. Translators: As a noun, this is describing the type of text marking
++#. annotation, as are squiggly, strikethrough, and underline. An adjective
++#. could also make sense as a translation. The letter in parenthesis marks the
++#. keyboard shortcut and should not be translated.
+ #: shell/resources/pps-document-view.blp:1509
+ msgid "Highlight (h)"
+ msgstr "Färgmarkering (h)"
+ 
+-#. Translators: As a noun or adjective, this is describing the type of text marking annotation, as are highlight, squiggly, and underline. The letter in parenthesis marks the keyboard shortcut and should not be translated.
++#. Translators: As a noun or adjective, this is describing the type of text
++#. marking annotation, as are highlight, squiggly, and underline. The letter
++#. in parenthesis marks the keyboard shortcut and should not be translated.
+ #: shell/resources/pps-document-view.blp:1525
+ msgid "Strikethrough (k)"
+ msgstr "Genomstrykning (k)"
+ 
+-#. Translators: As a noun, this is describing the type of text marking annotation, as are highlight, squiggly, and strikethrough. An adjective could also make sense as a translation. The letter in parenthesis marks the keyboard shortcut and should not be translated.
++#. Translators: As a noun, this is describing the type of text marking
++#. annotation, as are highlight, squiggly, and strikethrough. An adjective
++#. could also make sense as a translation. The letter in parenthesis marks the
++#. keyboard shortcut and should not be translated.
+ #: shell/resources/pps-document-view.blp:1541
+ msgid "Underline (u)"
+ msgstr "Understrykning (u)"
+ 
+-#. Translators: As an adjective, this is describing the type of text marking annotation, as are highlight, strikethrough, and underline. A noun could also make sense as a translation. The letter in parenthesis marks the keyboard shortcut and should not be translated.
++#. Translators: As an adjective, this is describing the type of text marking
++#. annotation, as are highlight, strikethrough, and underline. A noun could
++#. also make sense as a translation. The letter in parenthesis marks the
++#. keyboard shortcut and should not be translated.
+ #: shell/resources/pps-document-view.blp:1557
+ msgid "Squiggly (q)"
+ msgstr "Vågig (q)"
+ 
+ #: shell/resources/pps-document-view.blp:1648
+ msgid "_Open Link"
+-msgstr "_Öppna länk"
++msgstr "Ö_ppna länk"
+ 
+ #: shell/resources/pps-document-view.blp:1654
+ msgid "Send an Email"
+@@ -1546,7 +1548,7 @@
+ 
+ #: shell/resources/pps-find-sidebar.blp:75
+ msgid "The search results will appear here"
+-msgstr "Sökresultaten kommer visas här"
++msgstr "Sökresultaten visas här"
+ 
+ #: shell/resources/pps-loader-view.blp:15
+ msgid "Loading Document"
+@@ -1580,7 +1582,7 @@
+ 
+ #: shell/resources/pps-password-dialog.blp:53
+ msgid "Forget password _immediately"
+-msgstr "Glöm lösenordet _omedelbart"
++msgstr "Glöm lösenordet _direkt"
+ 
+ #: shell/resources/pps-password-dialog.blp:60
+ msgid "Remember _forever"
+@@ -1588,8 +1590,10 @@
+ 
+ #: shell/resources/pps-password-view.blp:18
+ msgid ""
+-"This document is locked and can only be read by entering the correct password"
+-msgstr "Detta dokument är låst och kan endast läsas om rätt lösenord anges"
++"This document is locked and can only be read by entering the correct "
++"password"
++msgstr ""
++"Det här dokumentet är låst och kan bara läsas om du anger rätt lösenord"
+ 
+ #: shell/resources/pps-password-view.blp:23
+ msgid "_Unlock Document"
+@@ -1641,7 +1645,7 @@
+ 
+ #: shell/resources/pps-search-box.blp:58
+ msgid "C_ase Sensitive"
+-msgstr "_Gör skillnad på gemener/VERSALER"
++msgstr "S_kiftlägeskänslig"
+ 
+ #: shell/resources/pps-shortcuts-dialog.blp:6
+ msgctxt "shortcut window"
+@@ -1726,12 +1730,12 @@
+ #: shell/resources/pps-shortcuts-dialog.blp:81
+ msgctxt "shortcut window"
+ msgid "Rotate Page 90 Degrees Counter-Clockwise"
+-msgstr "Rotera sida 90 grader moturs"
++msgstr "Rotera sidan 90 grader moturs"
+ 
+ #: shell/resources/pps-shortcuts-dialog.blp:86
+ msgctxt "shortcut window"
+ msgid "Rotate Page 90 Degrees Clockwise"
+-msgstr "Rotera sida 90 grader medurs"
++msgstr "Rotera sidan 90 grader medurs"
+ 
+ #: shell/resources/pps-shortcuts-dialog.blp:91
+ msgctxt "shortcut window"
+@@ -1776,12 +1780,12 @@
+ #: shell/resources/pps-shortcuts-dialog.blp:130
+ msgctxt "shortcut window"
+ msgid "Move Around Page"
+-msgstr "Flytta runt på sida"
++msgstr "Navigera runt på sidan"
+ 
+ #: shell/resources/pps-shortcuts-dialog.blp:135
+ msgctxt "shortcut window"
+ msgid "Move Up/Down Page Several Lines"
+-msgstr "Gå flera rader upp/ned på sida"
++msgstr "Rulla flera rader uppåt eller nedåt på sidan"
+ 
+ #: shell/resources/pps-shortcuts-dialog.blp:140
+ msgctxt "shortcut window"
+@@ -1821,17 +1825,17 @@
+ #: shell/resources/pps-shortcuts-dialog.blp:175
+ msgctxt "shortcut window"
+ msgid "Go to Page Beginning/End"
+-msgstr "Gå till början/slutet på sida"
++msgstr "Gå till början eller slutet av sidan"
+ 
+ #: shell/resources/pps-shortcuts-dialog.blp:180
+ msgctxt "shortcut window"
+ msgid "Go to Document Start"
+-msgstr "Gå till början på dokument"
++msgstr "Gå till början av dokumentet"
+ 
+ #: shell/resources/pps-shortcuts-dialog.blp:185
+ msgctxt "shortcut window"
+ msgid "Go to Document End"
+-msgstr "Gå till slutet på dokument"
++msgstr "Gå till slutet av dokumentet"
+ 
+ #: shell/resources/pps-shortcuts-dialog.blp:191
+ msgctxt "shortcut window"
+@@ -1861,7 +1865,7 @@
+ #: shell/resources/pps-shortcuts-dialog.blp:214
+ msgctxt "shortcut window"
+ msgid "Dual Page"
+-msgstr "Dubbla sidor"
++msgstr "Dubbelsida"
+ 
+ #: shell/resources/pps-shortcuts-dialog.blp:219
+ msgctxt "shortcut window"
+@@ -1881,7 +1885,7 @@
+ #: shell/resources/pps-shortcuts-dialog.blp:234
+ msgctxt "shortcut window"
+ msgid "Highlight Text"
+-msgstr "Färgmarkerad text"
++msgstr "Färgmarkera text"
+ 
+ #: shell/resources/pps-shortcuts-dialog.blp:239
+ msgctxt "shortcut window"
+@@ -1891,7 +1895,7 @@
+ #: shell/resources/pps-shortcuts-dialog.blp:244
+ msgctxt "shortcut window"
+ msgid "Wavy/Squiggly Underline Text"
+-msgstr "Vågig understruken text"
++msgstr "Vågig understrykning"
+ 
+ #: shell/resources/pps-shortcuts-dialog.blp:249
+ msgctxt "shortcut window"
+@@ -1941,7 +1945,7 @@
+ #: shell/resources/pps-shortcuts-dialog.blp:293
+ msgctxt "shortcut window"
+ msgid "Keyboard Shortcuts"
+-msgstr "Tangentbordsgenvägar"
++msgstr "Kortkommandon"
+ 
+ #: shell/resources/pps-shortcuts-dialog.blp:298
+ msgctxt "shortcut window"
+@@ -1982,11 +1986,11 @@
+ 
+ #: shell/resources/pps-sidebar-links.blp:48
+ msgid "Collapse all tree"
+-msgstr "Fäll ihop alla träd"
++msgstr "Fäll ihop hela trädet"
+ 
+ #: shell/resources/pps-sidebar-links.blp:53
+ msgid "Expand all tree"
+-msgstr "Expandera alla träd"
++msgstr "Expandera hela trädet"
+ 
+ #: shell/resources/pps-sidebar-links.blp:58
+ msgid "Expand all under this element"
+@@ -1994,67 +1998,60 @@
+ 
+ #: shell/resources/pps-sidebar-links.blp:65
+ msgid "Print this section…"
+-msgstr "Skriv ut denna del…"
++msgstr "Skriv ut det här avsnittet…"
+ 
+ #: shell/resources/pps-sidebar-thumbnails.blp:47
+ msgid "Previews"
+-msgstr "Förhandsvyer"
++msgstr "Förhandsvisningar"
+ 
+ #: shell/resources/pps-signature-drawing-widget.blp:19
+-#, fuzzy
+ #| msgid "Last used signature ID"
+ msgid "Draw your signature here"
+-msgstr "Senast använda signatur-ID"
++msgstr "Rita din signatur här"
+ 
+ #: shell/resources/pps-signature-drawing-widget.blp:47
+ #: shell/src/visual_signature_chooser.rs:374
+-#, fuzzy
+ #| msgid "_Undo"
+ msgid "Undo"
+-msgstr "Å_ngra"
++msgstr "Ångra"
+ 
+ #: shell/resources/pps-signature-drawing-widget.blp:58
+ msgid "Redo"
+-msgstr ""
++msgstr "Gör om"
+ 
+ #: shell/resources/pps-signature-drawing-widget.blp:70
+-#, fuzzy
+ #| msgid "No Signatures Yet"
+ msgid "Import signature image"
+-msgstr "Inga signaturer ännu"
++msgstr "Importera signaturbild"
+ 
+ #: shell/resources/pps-signature-drawing-widget.blp:86
+ msgid "Import"
+-msgstr ""
++msgstr "Importera"
+ 
+ #: shell/resources/pps-signature-drawing-widget.blp:93
+-#, fuzzy
+ #| msgid "Insert"
+ msgid "_Insert"
+-msgstr "Infoga"
++msgstr "_Infoga"
+ 
+ #: shell/resources/pps-sign-manually-dialog.blp:5
+ #: shell/resources/pps-sign-manually-dialog.blp:12
+-#, fuzzy
+ #| msgid "Manage Signatures…"
+ msgid "Manage Signatures"
+-msgstr "Hantera signaturer…"
++msgstr "Hantera signaturer"
+ 
+ #: shell/resources/pps-sign-manually-dialog.blp:32
+-#, fuzzy
+ #| msgid "Add Signature"
+ msgid "Edit Signature"
+-msgstr "Lägg till signatur"
++msgstr "Redigera signatur"
+ 
+ #: shell/resources/pps-visual-signature-chooser.blp:21
+-#, fuzzy
+ #| msgid "No Signatures Yet"
+ msgid "No Signatures"
+-msgstr "Inga signaturer ännu"
++msgstr "Inga signaturer"
+ 
+ #: shell/resources/pps-visual-signature-chooser.blp:22
+ msgid "Create a signature by drawing or opening an image"
+-msgstr ""
++msgstr "Skapa en signatur genom att rita den eller öppna en bild"
+ 
+ #: shell/resources/pps-window.blp:43
+ msgid "Open a Document"
+@@ -2083,7 +2080,7 @@
+ 
+ #: shell/src/application.rs:216
+ msgid "© 1996–2025 The Papers authors"
+-msgstr "© 1996–2025 Upphovsmännen bakom Papers"
++msgstr "© 1996–2025 Upphovspersonerna bakom Papers"
+ 
+ #: shell/src/application.rs:217
+ msgid "translator-credits"
+@@ -2099,7 +2096,7 @@
+ 
+ #: shell/src/application.rs:389
+ msgid "The page label of the document to display."
+-msgstr "Sidetiketten i dokumentet att visa."
++msgstr "Sidetiketten i dokumentet som ska visas."
+ 
+ #: shell/src/application.rs:390
+ msgid "PAGE"
+@@ -2107,7 +2104,7 @@
+ 
+ #: shell/src/application.rs:398
+ msgid "The page number of the document to display."
+-msgstr "Sidnumret i dokumentet att visa."
++msgstr "Sidnumret i dokumentet som ska visas."
+ 
+ #: shell/src/application.rs:399
+ msgid "NUMBER"
+@@ -2115,7 +2112,7 @@
+ 
+ #: shell/src/application.rs:407
+ msgid "Named destination to display."
+-msgstr "Namngivet mål att visa."
++msgstr "Namngivet mål som ska visas."
+ 
+ #: shell/src/application.rs:408
+ msgid "DEST"
+@@ -2123,11 +2120,11 @@
+ 
+ #: shell/src/application.rs:416
+ msgid "Run papers in fullscreen mode."
+-msgstr "Kör papers i helskärmsläge."
++msgstr "Kör Papers i helskärmsläge."
+ 
+ #: shell/src/application.rs:425
+ msgid "Run papers in presentation mode."
+-msgstr "Kör papers i presentationsläge."
++msgstr "Kör Papers i presentationsläge."
+ 
+ #: shell/src/application.rs:434
+ msgid "Show the version of the program."
+@@ -2143,15 +2140,15 @@
+ 
+ #: shell/src/document_view.rs:809 shell/src/window.rs:237
+ msgid ""
+-"Document contains new or modified annotations and form fields that have been "
+-"filled out."
++"Document contains new or modified annotations and form fields that have been"
++" filled out."
+ msgstr ""
+-"Dokumentet innehåller nya eller ändrade kommentarer och formulärfält som har "
+-"fyllts i."
++"Dokumentet innehåller nya eller ändrade kommentarer och ifyllda "
++"formulärfält."
+ 
+ #: shell/src/document_view.rs:812 shell/src/window.rs:240
+ msgid "Document contains form fields that have been filled out."
+-msgstr "Dokumentet innehåller formulärfält som har fyllts i."
++msgstr "Dokumentet innehåller ifyllda formulärfält."
+ 
+ #: shell/src/document_view.rs:814 shell/src/window.rs:242
+ msgid "Document contains new or modified annotations."
+@@ -2159,8 +2156,7 @@
+ 
+ #: shell/src/document_view.rs:822
+ msgid "If you don’t save a copy, changes will be permanently lost."
+-msgstr ""
+-"Om du inte sparar en kopia så kommer ändringarna att förloras permanent."
++msgstr "Om du inte sparar en kopia går ändringarna förlorade permanent."
+ 
+ #: shell/src/document_view.rs:823
+ msgid "Save Changes to a Copy?"
+@@ -2180,11 +2176,13 @@
+ 
+ #: shell/src/document_view/actions.rs:1165
+ msgid "Caret navigation mode is now enabled, press F7 to disable."
+-msgstr "Markörnavigeringsläge är nu aktiverat, tryck F7 för att inaktivera."
++msgstr ""
++"Textmarkörsnavigering är aktiverad. Tryck på F7 för att inaktivera den."
+ 
+ #: shell/src/document_view/actions.rs:1167
+ msgid "Caret navigation mode is now disabled, press F7 to enable."
+-msgstr "Markörnavigeringsläge är nu inaktiverat, tryck F7 för att aktivera."
++msgstr ""
++"Textmarkörsnavigering är inaktiverad. Tryck på F7 för att aktivera den."
+ 
+ #: shell/src/document_view/actions.rs:1255
+ msgid "Add _Visual Signature"
+@@ -2261,7 +2259,7 @@
+ #: shell/src/document_view/print.rs:46
+ #, rust-format
+ msgid "Printing job “{}”"
+-msgstr "Skriver ut jobbet ”{}”"
++msgstr "Utskriftsjobb ”{}”"
+ 
+ #: shell/src/document_view/print.rs:84
+ msgid "No pending jobs in queue"
+@@ -2279,7 +2277,8 @@
+ msgid ""
+ "Security alert: this document has been prevented from opening the file “{}”"
+ msgstr ""
+-"Säkerhetsvarning: detta dokument har hindrats från att öppna filen ”{}”"
++"Säkerhetsvarning: dokumentet försökte öppna filen ”{}”, men försöket "
++"stoppades"
+ 
+ #: shell/src/document_view/signals.rs:454 shell/src/page_selector.rs:91
+ #: shell/src/sidebar_annotations_row.rs:83
+@@ -2305,7 +2304,7 @@
+ #, rust-format
+ msgid ""
+ "The document “{}” is locked and requires a password before it can be opened"
+-msgstr "Dokumentet ”{}” är låst och kräver ett lösenord för att öppnas"
++msgstr "Dokumentet ”{}” är låst och kräver lösenord för att öppnas"
+ 
+ #: shell/src/properties_general.rs:50
+ msgid "Copy to Clipboard"
+@@ -2340,41 +2339,35 @@
+ msgstr "Datum och tid"
+ 
+ #: shell/src/signature_drawing_widget.rs:113
+-#, fuzzy
+ #| msgid "No Signatures Yet"
+ msgid "Choose Signature Image"
+-msgstr "Inga signaturer ännu"
++msgstr "Välj signaturbild"
+ 
+ #: shell/src/signature_drawing_widget.rs:121
+-#, fuzzy
+ #| msgid "Save Image"
+ msgid "Images"
+-msgstr "Spara bild"
++msgstr "Bilder"
+ 
+ #: shell/src/visual_signature_chooser.rs:288
+-#, fuzzy
+ #| msgid "digital signatures"
+ msgid "Edit signature"
+-msgstr "digitala signaturer"
++msgstr "Redigera signatur"
+ 
+ #: shell/src/visual_signature_chooser.rs:314
+-#, fuzzy
+ #| msgid "Add Signature"
+ msgid "Remove signature"
+-msgstr "Lägg till signatur"
++msgstr "Ta bort signatur"
+ 
+ #: shell/src/visual_signature_chooser.rs:373
+-#, fuzzy
+ #| msgid "No Signatures Yet"
+ msgid "Signature Deleted"
+-msgstr "Inga signaturer ännu"
++msgstr "Signaturen har tagits bort"
+ 
+ #: shell/src/window.rs:252
+ msgid "If you reload the document, changes will be permanently lost."
+-msgstr "Om du läser om dokumentet kommer ändringarna att förloras permanent."
++msgstr "Om du läser in dokumentet igen går ändringarna förlorade permanent."
+ 
+ #: shell/src/window.rs:253
+-#, fuzzy
+ #| msgid "File changed outside Papers. Reload document?"
+ msgid "File changed outside Document Viewer. Reload document?"
+ msgstr "Filen ändrades utanför Papers. Läs in dokumentet igen?"
+@@ -2389,11 +2382,11 @@
+ 
+ #: shell/src/window.rs:559
+ msgid "Failed to Load Remote File."
+-msgstr "Misslyckades med att läsa in fjärrfil."
++msgstr "Det gick inte att läsa in fjärrfilen."
+ 
+ #: shell/src/window.rs:728
+ msgid "Failed to Reload Document."
+-msgstr "Misslyckades med att läsa in dokumentet igen."
++msgstr "Det gick inte att läsa in dokumentet igen."
+ 
+ #~ msgid "Producer"
+ #~ msgstr "Producent"
+@@ -2651,12 +2644,12 @@
+ 
+ #~ msgid ""
+ #~ "Pressing F7 turns the caret navigation on or off. This feature places a "
+-#~ "moveable cursor in text pages, allowing you to move around and select "
+-#~ "text with your keyboard."
++#~ "moveable cursor in text pages, allowing you to move around and select text "
++#~ "with your keyboard."
+ #~ msgstr ""
+ #~ "Att trycka F7 aktiverar / inaktiverar markörnavigering. Denna funktion "
+-#~ "placerar en pekare på textsidor vilket låter dig flytta runt i dokument "
+-#~ "och markera text med ditt tangentbord."
++#~ "placerar en pekare på textsidor vilket låter dig flytta runt i dokument och "
++#~ "markera text med ditt tangentbord."
+ 
+ #~ msgid "Don’t show this message again"
+ #~ msgstr "Visa inte detta meddelande igen"
+@@ -2752,11 +2745,11 @@
+ #~ msgid_plural ""
+ #~ "There are %d print jobs active. Wait until print finishes before closing?"
+ #~ msgstr[0] ""
+-#~ "Det finns %d aktivt utskriftsjobb. Vänta med att stänga tills utskriften "
+-#~ "är färdig?"
++#~ "Det finns %d aktivt utskriftsjobb. Vänta med att stänga tills utskriften är "
++#~ "färdig?"
+ #~ msgstr[1] ""
+-#~ "Det finns %d aktiva utskriftsjobb. Vänta med att stänga tills utskriften "
+-#~ "är färdig?"
++#~ "Det finns %d aktiva utskriftsjobb. Vänta med att stänga tills utskriften är "
++#~ "färdig?"
+ 
+ #~ msgid "Warning"
+ #~ msgstr "Varning"
+@@ -3149,8 +3142,8 @@
+ #~ msgid ""
+ #~ "Error launching the command “%s” in order to decompress the comic book: %s"
+ #~ msgstr ""
+-#~ "Fel vid start av kommandot ”%s” för att kunna dekomprimera "
+-#~ "serietidningen: %s"
++#~ "Fel vid start av kommandot ”%s” för att kunna dekomprimera serietidningen: "
++#~ "%s"
+ 
+ #~ msgid "The command “%s” failed at decompressing the comic book."
+ #~ msgstr "Kommandot ”%s” misslyckades med att dekomprimera serietidningen."
