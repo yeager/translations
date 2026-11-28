@@ -27,7 +27,6 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | p11-kit | master | po | 1 |
 | template-glib | main | po | 3 |
 | oo7 | main | oo7-server | 3 |
-| tecla | gnome-50 | po | 1 |
 | pan | master | po | 2 |
 | cantarell-fonts | master | appstream | 2 |
 | vte | master | po | 1 |
@@ -92,7 +91,6 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | libcall-ui | main | po | 1 |
 | libshumate | main | po | 1 |
 | tecla | main | po | 1 |
-| tecla | gnome-50 | po | 1 |
 
 ## Kompletta granskningar utan ändrade översättningssträngar
 
@@ -118,7 +116,6 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 
 ## DL-blockerare
 
-- `gfeeds/master/po` och `solitaire/gnome-50/po`: DL gav status `None` utan några tillgängliga åtgärder.
 - `tracker-miner-chatlog/master/po` och `niepce/main/po`: DL gav status `None` utan reservation eller uppladdning.
 - `goffice/master/po`: Damned Lies aktuella POT innehåller två källmeddelanden som den lokalt granskade filen saknar och filen har äldre meddelanden som inte längre används. Den är därför inte längre verifierbart komplett och skickades inte in.
 

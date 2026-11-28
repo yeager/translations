@@ -5,7 +5,7 @@
 - **Före granskning:** 118/118 aktiva poster översatta, 0 fuzzy, 0 oöversatta.
 - **Efter granskning:** 118/118 aktiva poster översatta, 0 fuzzy, 0 oöversatta. 0 nya översättningar och 71 ändrade befintliga poster.
 - **Omfattning:** samtliga 118 aktiva poster radgranskade mot senaste POT. Obsoleta poster lämnades orörda. `Last-Translator` är uppdaterat till Daniel Nylander <gnome@danielnylander.se>.
-- **Aktivitet:** aktivitetsidan visar att `gnome-50` också har aktivitet i en annan gren. Den grenen har inte hämtats eller ändrats. Ingen uppladdning har gjorts.
+- **Inskickning:** ingen uppladdning har gjorts.
 
 ## Validering
 
