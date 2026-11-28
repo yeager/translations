@@ -1,0 +1,234 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp docs 2.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-27 23:28+0000\n"
+"PO-Revision-Date: 2009-02-17 02:58+0100\n"
+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"Language-Team: Swedish <sv@li.org>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/dialogs/prefs-window-management.xml:13(title)
+msgid "Window Management"
+msgstr "Fönsterhantering"
+
+#: src/dialogs/prefs-window-management.xml:17(tertiary)
+msgid "Window management"
+msgstr "Fönsterhantering"
+
+#: src/dialogs/prefs-window-management.xml:20(primary)
+#: src/dialogs/prefs-image-window.xml:8(title)
+#: src/dialogs/prefs-image-window.xml:13(tertiary)
+#: src/dialogs/prefs-image-window.xml:16(primary)
+#: src/dialogs/prefs-image-window-appearance.xml:12(tertiary)
+#: src/dialogs/prefs-image-window-appearance.xml:15(primary)
+msgid "Image Windows"
+msgstr "Bildfönster"
+
+#: src/dialogs/prefs-window-management.xml:25(title)
+msgid "Window Management Preferences"
+msgstr "Inställningar för fönsterhantering"
+
+#: src/dialogs/prefs-window-management.xml:33(para)
+msgid ""
+"This page lets you customize the way windows are handled in GIMP. You should"
+" note that GIMP does not manipulate windows directly, instead it sends "
+"requests to the window manager (i.e., to Windows if you are running in "
+"Windows; to Mutter if you are running in a standard GNOME setup in Linux; "
+"etc). Because there are many window managers, and not all of them are well "
+"behaved, it cannot be guaranteed that the functions described here will "
+"actually work as described. However, if you are using a modern, standards-"
+"compliant window manager, they ought to."
+msgstr ""
+"På den här sidan kan du anpassa hur GIMP:s fönster hanteras. GIMP styr inte "
+"fönstren direkt utan skickar begäranden till fönsterhanteraren, till exempel"
+" till Windows om du kör GIMP i Windows eller till Mutter i en vanlig GNOME-"
+"miljö i Linux. Eftersom det finns många fönsterhanterare och alla inte "
+"fungerar korrekt kan vi inte garantera att de beskrivna funktionerna "
+"fungerar som de ska. Om du använder en modern fönsterhanterare som följer "
+"standarder bör de dock fungera."
+
+#: src/dialogs/prefs-window-management.xml:46(para)
+#: src/dialogs/prefs-toolbox.xml:36(para)
+#: src/dialogs/prefs-tool-options.xml:36(para)
+#: src/dialogs/prefs-theme.xml:28(para)
+#: src/dialogs/prefs-system-resources.xml:35(para)
+#: src/dialogs/prefs-playground.xml:27(para)
+#: src/dialogs/prefs-interface.xml:44(para)
+#: src/dialogs/prefs-input-devices.xml:28(para)
+#: src/dialogs/prefs-input-controllers.xml:31(para)
+#: src/dialogs/prefs-import-export.xml:34(para)
+#: src/dialogs/prefs-image-window.xml:36(para)
+#: src/dialogs/prefs-image-window-title.xml:43(para)
+#: src/dialogs/prefs-image-window-appearance.xml:38(para)
+#: src/dialogs/prefs-icon-theme.xml:34(para)
+#: src/dialogs/prefs-help.xml:33(para) src/dialogs/prefs-folders.xml:38(para)
+#: src/dialogs/prefs-folders-data.xml:89(para)
+#: src/dialogs/prefs-display.xml:44(para)
+#: src/dialogs/prefs-dialog-defaults.xml:30(para)
+#: src/dialogs/prefs-default-image.xml:37(para)
+#: src/dialogs/prefs-default-grid.xml:38(para)
+#: src/dialogs/prefs-debugging.xml:33(para)
+#: src/dialogs/prefs-color-management.xml:46(para)
+#: src/dialogs/prefs-canvas-interaction.xml:33(para)
+#: src/dialogs/prefs-canvas-interaction-snapping.xml:39(para)
+#: src/dialogs/prefs-canvas-interaction-modifiers.xml:35(para)
+msgid ""
+"The preferences dialog can be accessed from the main menu, through "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></menuchoice>."
+msgstr ""
+"Du kommer åt inställningsdialogrutan från huvudmenyn via "
+"<menuchoice><guimenu>Redigera</guimenu><guimenuitem>Inställningar</guimenuitem></menuchoice>."
+
+#: src/dialogs/prefs-window-management.xml:58(title)
+msgid "Window Manager Hints"
+msgstr "Anvisningar till fönsterhanteraren"
+
+#. TO TRANSLATORS: This is for Window Manager Hints, not general hints
+#: src/dialogs/prefs-window-management.xml:61(term)
+msgid "Hint for docks and toolbox"
+msgstr "Anvisning för dockor och verktygslåda"
+
+#: src/dialogs/prefs-window-management.xml:63(para)
+msgid ""
+"The choices you make here determine how the Toolbox, and the docks that hold"
+" dialogs, will be treated. You have three possibilities for them:"
+msgstr ""
+"Valen här styr hur verktygslådan och dockorna med dialogrutor hanteras. Du "
+"kan välja mellan tre alternativ:"
+
+#: src/dialogs/prefs-window-management.xml:70(para)
+msgid ""
+"If you choose <guilabel>Normal Window</guilabel>, they will be treated like "
+"any other windows."
+msgstr ""
+"Om du väljer <guilabel>Vanligt fönster</guilabel> hanteras de som alla andra"
+" fönster."
+
+#: src/dialogs/prefs-window-management.xml:76(para)
+msgid ""
+"If you choose <guilabel>Utility Window</guilabel>, the reduce button in the "
+"title bar is absent and the docks will remain permanently on your screen."
+msgstr ""
+"Om du väljer <guilabel>Verktygsfönster</guilabel> visas ingen "
+"minimeringsknapp i namnlisten, och dockorna ligger kvar på skärmen hela "
+"tiden."
+
+#: src/dialogs/prefs-window-management.xml:82(title)
+msgid "Utility window title bar"
+msgstr "Namnlist för verktygsfönster"
+
+#: src/dialogs/prefs-window-management.xml:89(para)
+msgid "Normal title bar"
+msgstr "Vanlig namnlist"
+
+#: src/dialogs/prefs-window-management.xml:100(para)
+msgid "The title bar in a utility window"
+msgstr "Namnlisten i ett verktygsfönster"
+
+#: src/dialogs/prefs-window-management.xml:108(para)
+msgid ""
+"If you choose <guilabel>Keep above</guilabel>, they will be kept in front of"
+" every other window at all times."
+msgstr ""
+"Om du väljer <guilabel>Behåll ovanpå</guilabel> visas fönstren alltid "
+"framför alla andra fönster."
+
+#: src/dialogs/prefs-window-management.xml:114(para)
+msgid ""
+"Note that changes you make here will not take effect until the next time you"
+" start <acronym>GIMP</acronym>."
+msgstr ""
+"Observera att ändringarna börjar gälla först nästa gång du startar "
+"<acronym>GIMP</acronym>."
+
+#: src/dialogs/prefs-window-management.xml:122(title)
+msgid "Focus"
+msgstr "Fokus"
+
+#: src/dialogs/prefs-window-management.xml:124(term)
+msgid "Activate the focused image"
+msgstr "Aktivera den fokuserade bilden"
+
+#: src/dialogs/prefs-window-management.xml:126(para)
+msgid ""
+"Normally, when you focus an image window (usually indicated by a change in "
+"the color of the frame), it becomes the <quote>active image</quote> for "
+"GIMP, and therefore the target for any image-related actions you perform. "
+"Some people, though, prefer to set up their window managers such that any "
+"window entered by the pointer is automatically focused. If you do this, you "
+"may find that it is inconvenient for focused images to automatically become "
+"active, and may be happier if you uncheck this option."
+msgstr ""
+"När ett bildfönster får fokus (vanligen märks det genom att ramens färg "
+"ändras) blir det GIMP:s <quote>aktiva bild</quote> och därmed målet för alla"
+" bildrelaterade åtgärder. En del föredrar dock att ställa in "
+"fönsterhanteraren så att fönstret som pekaren förs in i automatiskt får "
+"fokus. Då kan det vara opraktiskt att bildfönstret automatiskt blir aktivt "
+"när det får fokus. Avmarkera i så fall det här alternativet."
+
+#: src/dialogs/prefs-window-management.xml:141(title)
+msgid "Window Positions"
+msgstr "Fönsterpositioner"
+
+#: src/dialogs/prefs-window-management.xml:143(term)
+msgid "Save window positions on exit"
+msgstr "Spara fönsterpositioner vid avslutning"
+
+#: src/dialogs/prefs-window-management.xml:145(para)
+msgid ""
+"If this option is checked, the next time you start GIMP, you will see the "
+"same set of dialog windows, in the same positions they occupied when you "
+"last exited."
+msgstr ""
+"Om det här alternativet är markerat visas samma uppsättning dialogfönster "
+"nästa gång du startar GIMP, på samma platser som när du senast avslutade "
+"programmet."
+
+#: src/dialogs/prefs-window-management.xml:153(term)
+msgid "Open windows on the same monitor they were open before"
+msgstr "Öppna fönster på samma bildskärm som tidigare"
+
+#: src/dialogs/prefs-window-management.xml:155(para)
+msgid ""
+"When enabled, <acronym>GIMP</acronym> will try to restore windows on the "
+"same monitor they were used previously. When disabled, windows will appear "
+"on the currently used monitor."
+msgstr ""
+"När alternativet är aktiverat försöker <acronym>GIMP</acronym> återställa "
+"fönstren på samma bildskärm som de användes på tidigare. När det är "
+"inaktiverat visas fönstren på den bildskärm som används för närvarande."
+
+#: src/dialogs/prefs-window-management.xml:163(term)
+msgid "Save Window Positions Now"
+msgstr "Spara fönsterpositioner nu"
+
+#: src/dialogs/prefs-window-management.xml:165(para)
+msgid ""
+"This button is only useful if <quote>Save window positions on exit</quote> "
+"is unchecked. It allows you to set up your windows they way you like, click "
+"the button, and then have them come up in that arrangement each time you "
+"start GIMP."
+msgstr ""
+"Den här knappen är bara användbar om <quote>Spara fönsterpositioner vid "
+"avslutning</quote> inte är markerat. Ordna fönstren som du vill ha dem och "
+"klicka på knappen. Därefter visas fönstren i samma läge varje gång du "
+"startar GIMP."
+
+#: src/dialogs/prefs-window-management.xml:174(term)
+msgid "Reset Saved Window Positions to Default Values"
+msgstr "Återställ sparade fönsterpositioner till standardvärden"
+
+#: src/dialogs/prefs-window-management.xml:176(para)
+msgid ""
+"If you decide that you are unhappy with the arrangement of windows you have "
+"saved, and would rather go back to the default arrangement than spend time "
+"moving them around, you can do so by pressing this button."
+msgstr ""
+"Om du inte är nöjd med den sparade fönsterlayouten kan du återställa "
+"standardlayouten med den här knappen, i stället för att flytta runt fönstren"
+" själv."

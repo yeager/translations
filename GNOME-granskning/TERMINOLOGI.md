@@ -388,7 +388,7 @@ argumentet betyder i just det programmet.
 | move (in the puzzle) | drag | Ett drag i spelet, inte ett steg. |
 | move a block | flytta ett block | I instruktioner: *dra blocket* när musgesten beskrivs. |
 | header bar | rubrikrad | GNOME-gränssnittets header bar. |
-| titlebar | titellist | Fönstrets namnlist i dokumentation och bildtext. |
+| title bar / titlebar | namnlist | Fönstrets namnlist; *titellist* förekommer i äldre översättningar. |
 | patterned block | mönstrat block | Spelets särskilda block. |
 | markers | markeringar | De gröna markeringarna som visar målytan. |
 | puzzle | pussel | En spelbrädesvariant. |
