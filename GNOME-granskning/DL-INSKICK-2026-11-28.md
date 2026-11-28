@@ -9,7 +9,9 @@ Färdiggranskade kataloger som verifierats på Damned Lies. Uppladdningar kontro
 | almanah | master | po | 7 | Uppladdad 00:45 UTC med ”Granskad och klar” (åtgärd 1582143); aktivitetssida och API bekräftar 141/0/0. Sammanslagen PO matchar granskad fil exakt. |
 | addwater | main | po | 13 | Daniel Nylander laddade upp 00:32 UTC med ”Granskad och klar” (åtgärd 1582141). Aktivitetssida, API och sammanslagen PO bekräftar 101/0/0. Filen matchar granskad PO exakt. |
 
+| snapshot | gnome-51 | po | 7 | Uppladdad och verifierad, 97/0/0; ”Granskad och klar” synlig. |
+| gnome-taquin | master | help | 42 | Uppladdad 2026-11-28 med ”Granskad och klar”; API, aktivitetssida och statistik bekräftar 66/0/0. |
+
 ## Status
 
-- Uppladdat och verifierat i denna logg: **4**.
-| snapshot | gnome-51 | po | 97/0/0 | 7 | Uppladdad och verifierad; ”Granskad och klar” synlig.
+- Uppladdat och verifierat i denna logg: **6**.
