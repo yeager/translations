@@ -61,6 +61,12 @@ källtextens sammanhang.
 
 | NAD IR Remote | IR-styrning för NAD-enhet | Home Assistant-integrationen styr NAD-utrustning med en vald infraröd sändare; det är inte en fysisk fjärrkontroll. |
 
+| Tile device | Tile-enhet | Tile BLE: Tile är produktnamnet på en spårningsbricka; håll produktnamnet oförändrat i svenska sammansättningar. |
+
+| backup location | säkerhetskopieringskatalog | SFTP Storage: fjärrkatalogen där säkerhetskopior lagras. |
+
+| Switcher sensor | Switcher-sensor | Switcher är produktnamn; bindestreck tydliggör sammansättningen före den svenska böjningen. |
+
 ## Status
 
 De två molnstatusetiketterna, `scanner_jams`, fem räknaretiketter, tre

@@ -4,11 +4,11 @@ Senast uppdaterad: 2026-11-28
 Källrevision: `1d07105b760c73093145526a51758938e87cc658`
 Lokalise-projekt: `130246255a974bd3b5e8a1.51616605`
 
-## Senaste batch: 74 777–74 896
+## Senaste batch: 74 897–75 016
 
-120 strängar radgranskade, inklusive 20 referenser. Sju översättningar rättades och sparades via API. Se [2026-11-28-reviewed-core-74777-74896.md](2026-11-28-reviewed-core-74777-74896.md). Terminologirapporten har uppdaterats.
+120 strängar radgranskade, inklusive 30 referenser. Sex översättningar rättades och sparades via API. Se [2026-11-28-reviewed-core-74897-75016.md](2026-11-28-reviewed-core-74897-75016.md). Terminologirapporten har uppdaterats.
 
-Nästa position: **74 897**. **2 760** positioner återstår av aktuell nyckelinventering; granskningen pågår.
+Nästa position: **75 017**. **2 640** positioner återstår av aktuell nyckelinventering; granskningen pågår.
 
 ## Öppna uppföljningar
 
