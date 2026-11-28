@@ -24,6 +24,7 @@ Datum: 2026-11-14
 | relative volume increase | relativ volymökning | Ökar spelarens aktuella volym med ett absolut belopp. |
 | volume increase by fixed percentage | volymökning med fast procentsats | Ökar spelarens aktuella volym proportionellt. |
 | plugin | insticksmodul | Används för utbyggnadskomponenter i gränssnitt och dokumentation. |
+| Done | Klar | Används för exakt källsträngen `Done` som avslutad åtgärd i MA-gränssnittet; gäller inte automatiskt alla grammatiska former eller andra kontexter. |
 | offset | förskjutning | Sendspin: justering för synkronisering i millisekunder. |
 | static playback delay | fast uppspelningsfördröjning | Sendspin: bestående, manuellt angiven fördröjning. |
 | scan genre mappings | sök igenom genremappningar | Bakgrundsåtgärd; undviker det onödiga lånet *skanna*. |

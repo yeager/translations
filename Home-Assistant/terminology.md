@@ -1,6 +1,6 @@
 # Home Assistant: svenska termer
 
-Senast uppdaterad: 2026-11-14
+Senast uppdaterad: 2026-11-28
 
 Listan innehåller beslut som är kontrollerade i Home Assistants konkreta
 entitets- och UI-kontext. Den är inte en generell ordlista och ersätter inte
@@ -40,6 +40,14 @@ källtextens sammanhang.
 | outdoor temperature | utomhustemperatur | Helty Cloud och andra klimatentiteter; egenskapsnamn. |
 | thinking type | typ av resonemang | Anthropic, val för hur Claude använder ytterligare token. |
 | effort | ansträngning | Anthropic, val för hur många token Claude använder vid svar. |
+
+| Honeywell temporary hold | tillfällig temperaturhållning | Honeywell-termostat: håller en vald temperatur till ett angivet klockslag innan schemat återupptas. |
+| RF timing | RF-puls eller RF-paus (med längd) | Broadlink: källkoden använder växlande pulser och pauser; termen avser längden på en enskild del, inte en generell ”RF-timing”. |
+| Cooking end | sluttid för tillagningen | VeSync: tidsstämpelsensor för när airfryerns tillagning slutar. |
+| Substream | sekundär videoström | Hikvision-kamera: alternativ videoström. |
+| Total carbohydrates | totala kolhydrater | Google Health: etikett för näringsvärde. |
+| Sync baskets | synkronisering av korgar | VeSync: binär statussensor som visar om airfryerns korgar synkroniseras. |
+| Standby | viloläge | VeSync-status; följer Home Assistants gemensamma översättning och ersätter en tidigare avvikande term. |
 
 ## Status
 

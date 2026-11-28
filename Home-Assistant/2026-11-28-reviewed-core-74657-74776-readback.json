@@ -1,0 +1,142 @@
+[
+  {
+    "key": "component::broadlink::exceptions::timing_too_long::message",
+    "key_id": "981319551",
+    "translation_id": "10355451633",
+    "en": "Broadlink devices cannot transmit an RF timing of {duration} s; the maximum is about 2 s",
+    "before": "Broadlink-enheter kan inte sända en RF-puls eller -paus på {duration} s. Maxlängden är cirka 2 s.",
+    "after": "Broadlink-enheter kan inte sända en RF-puls eller RF-paus som är längre än {duration} s. Maxlängden är cirka 2 s.",
+    "readback": "Broadlink-enheter kan inte sända en RF-puls eller RF-paus som är längre än {duration} s. Maxlängden är cirka 2 s.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::honeywell::exceptions::hold_until_invalid_mode::message",
+    "key_id": "981363062",
+    "translation_id": "10356839527",
+    "en": "Honeywell cannot set a temporary hold while the system mode is {mode}",
+    "before": "Honeywell kan inte ställa in en tillfällig temperatur när systemläget är {mode}",
+    "after": "Honeywell kan inte aktivera tillfällig temperaturhållning när systemläget är {mode}.",
+    "readback": "Honeywell kan inte aktivera tillfällig temperaturhållning när systemläget är {mode}.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::honeywell::exceptions::hold_until_invalid_temperature::message",
+    "key_id": "981363063",
+    "translation_id": "10356839592",
+    "en": "Honeywell temporary hold temperature {temperature} is not valid. Accepted range is {min_temp} to {max_temp}.",
+    "before": "Den tillfälliga temperaturen {temperature} i Honeywell är ogiltig. Tillåtet intervall är {min_temp} till {max_temp}.",
+    "after": "Temperaturen {temperature} kan inte användas för tillfällig temperaturhållning i Honeywell. Tillåtet intervall är {min_temp} till {max_temp}.",
+    "readback": "Temperaturen {temperature} kan inte användas för tillfällig temperaturhållning i Honeywell. Tillåtet intervall är {min_temp} till {max_temp}.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::honeywell::exceptions::hold_until_invalid_time::message",
+    "key_id": "981363064",
+    "translation_id": "10356839657",
+    "en": "Honeywell temporary hold must end on a quarter hour",
+    "before": "Den tillfälliga temperaturinställningen i Honeywell måste upphöra vid en hel kvart",
+    "after": "Honeywells tillfälliga temperaturhållning måste avslutas på en hel kvart.",
+    "readback": "Honeywells tillfälliga temperaturhållning måste avslutas på en hel kvart.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::honeywell::exceptions::hold_until_temperature_mode::message",
+    "key_id": "981363065",
+    "translation_id": "10356839722",
+    "en": "Honeywell cannot set a temporary hold temperature while the system mode is {mode}",
+    "before": "Honeywell kan inte ställa in en tillfällig temperatur när systemläget är {mode}",
+    "after": "Honeywell kan inte ställa in tillfällig temperaturhållning när systemläget är {mode}.",
+    "readback": "Honeywell kan inte ställa in tillfällig temperaturhållning när systemläget är {mode}.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::honeywell::exceptions::set_hold_until_failed::message",
+    "key_id": "981363066",
+    "translation_id": "10356839787",
+    "en": "Honeywell could not set temporary hold",
+    "before": "Honeywell kunde inte ställa in den tillfälliga temperaturen",
+    "after": "Honeywell kunde inte aktivera den tillfälliga temperaturhållningen.",
+    "readback": "Honeywell kunde inte aktivera den tillfälliga temperaturhållningen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::honeywell::services::set_hold_until::description",
+    "key_id": "981363067",
+    "translation_id": "10356839852",
+    "en": "Sets a temporary hold that ends at a given time.",
+    "before": "Ställer in en tillfällig temperatur som gäller till ett angivet klockslag.",
+    "after": "Håller temperaturen tillfälligt fram till ett angivet klockslag.",
+    "readback": "Håller temperaturen tillfälligt fram till ett angivet klockslag.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::honeywell::services::set_hold_until::fields::temperature::description",
+    "key_id": "981363068",
+    "translation_id": "10356839917",
+    "en": "Target temperature during the hold. If omitted, the current target temperature is kept. Cannot be used while the system mode is auto.",
+    "before": "Måltemperatur under den tillfälliga inställningen. Om den utelämnas behålls den aktuella måltemperaturen. Kan inte användas när systemet är i automatiskt läge.",
+    "after": "Måltemperatur under den tillfälliga temperaturhållningen. Om värdet utelämnas behålls den aktuella måltemperaturen. Kan inte användas när systemläget är automatiskt.",
+    "readback": "Måltemperatur under den tillfälliga temperaturhållningen. Om värdet utelämnas behålls den aktuella måltemperaturen. Kan inte användas när systemläget är automatiskt.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::honeywell::services::set_hold_until::fields::until::description",
+    "key_id": "981363070",
+    "translation_id": "10356840047",
+    "en": "Time of day on the thermostat's clock at which the hold ends. Must be on a quarter hour.",
+    "before": "Klockslaget enligt termostatens klocka då den tillfälliga inställningen upphör. Måste anges i hela kvartar.",
+    "after": "Klockslaget enligt termostatens klocka då den tillfälliga temperaturhållningen upphör. Måste vara på en hel kvart.",
+    "readback": "Klockslaget enligt termostatens klocka då den tillfälliga temperaturhållningen upphör. Måste vara på en hel kvart.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::honeywell::services::set_hold_until::name",
+    "key_id": "981363072",
+    "translation_id": "10356840177",
+    "en": "Set hold until",
+    "before": "Ställ in tillfällig temperatur till och med",
+    "after": "Ställ in tillfällig temperaturhållning till och med",
+    "readback": "Ställ in tillfällig temperaturhållning till och med",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::vesync::entity::sensor::cook_end_time::name",
+    "key_id": "981347468",
+    "translation_id": "10356399801",
+    "en": "Cooking end",
+    "before": "Tillagningen avslutas",
+    "after": "Sluttid för tillagningen",
+    "readback": "Sluttid för tillagningen",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::vesync::entity::sensor::cook_end_time_basket::name",
+    "key_id": "981347469",
+    "translation_id": "10356399866",
+    "en": "Basket {basket} cooking end",
+    "before": "Tillagningen avslutas för korg {basket}",
+    "after": "Sluttid för tillagningen i korg {basket}",
+    "readback": "Sluttid för tillagningen i korg {basket}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::hikvision::entity::camera::substream::name",
+    "key_id": "981319699",
+    "translation_id": "10355453165",
+    "en": "Substream",
+    "before": "Sekundär ström",
+    "after": "Sekundär videoström",
+    "readback": "Sekundär videoström",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::google_health::entity::sensor::total_carbohydrate::name",
+    "key_id": "981362818",
+    "translation_id": "10356836387",
+    "en": "Total carbohydrates",
+    "before": "Kolhydrater totalt",
+    "after": "Totala kolhydrater",
+    "readback": "Totala kolhydrater",
+    "status": "saved-and-read-back"
+  }
+]
