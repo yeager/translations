@@ -49,6 +49,18 @@ källtextens sammanhang.
 | Sync baskets | synkronisering av korgar | VeSync: binär statussensor som visar om airfryerns korgar synkroniseras. |
 | Standby | viloläge | VeSync-status; följer Home Assistants gemensamma översättning och ersätter en tidigare avvikande term. |
 
+| Scratch status | klådfrekvens | Tractive: visar hur ofta hunden kliar sig; produktens hälsokort jämför kliandet med normalnivån. |
+
+| Fan request | begäran om fläktdrift | AeroSmart: diagnostisk signal från värmepumpen eller zonstyrningen som begär fläktdrift. |
+
+| Hot water electric heater request | begäran om elvärme för varmvatten | AeroSmart: begäran om att elvärmaren värmer bruksvatten; inte en begäran om varmvatten från elvärmaren. |
+
+| Hot water heat pump request | begäran om varmvattenuppvärmning med värmepump | AeroSmart: begäran om bruksvattenuppvärmning via värmepump. |
+
+| Outdoor brine temperature sensor fault | fel på köldbärarens utetemperaturgivare | AeroSmart: brine avser vätskan i värmepumpens köldbärarkrets, inte uteluften. |
+
+| NAD IR Remote | IR-styrning för NAD-enhet | Home Assistant-integrationen styr NAD-utrustning med en vald infraröd sändare; det är inte en fysisk fjärrkontroll. |
+
 ## Status
 
 De två molnstatusetiketterna, `scanner_jams`, fem räknaretiketter, tre
