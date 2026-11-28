@@ -1017,3 +1017,16 @@ Bevara standardiserade namn och identifierare som `sRGB`, `Adobe RGB`, `D50`, `D
 | select all | markera alla | Menyobjekt under menyn *Markera*. |
 | backreference (regular expression) | bakåtreferens (reguljärt uttryck) | Exempelsträngen `\number` är kodsyntax och ska stå kvar exakt. |
 | tilde | tilde (~) | Filnamnssuffix som markerar en säkerhetskopia. |
+
+
+## Swell Foop — speltermer
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| game board (Swell Foop) | bräde / spelbräde | Håll samma term genom hela hjälpen; den granskade texten använder *bräde*. |
+| object (Swell Foop) | objekt | Ett spelobjekt med en färg; använd inte *brick(a)* om källan avser själva objektet. |
+| group (Swell Foop) | grupp | Intilliggande objekt av samma färg. |
+| adjacent (Swell Foop) | intilliggande / ligger intill | I löptext är *ligger intill* ofta naturligare. |
+| move (Swell Foop) | drag | Spelhandling, inte fysisk förflyttning. |
+| clear the board | tömma brädet | När alla spelobjekt tas bort. |
+| score | poäng | Använd *poäng* för resultatet och *poängsättning* om beräkningssättet. |
