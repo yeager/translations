@@ -4,11 +4,11 @@ Senast uppdaterad: 2026-11-28
 Källrevision: `1d07105b760c73093145526a51758938e87cc658`
 Lokalise-projekt: `130246255a974bd3b5e8a1.51616605`
 
-## Senaste batch: 74 297–74 416
+## Senaste batch: 74 417–74 536
 
-120 direkta LIFX-temaetiketter radgranskade; alla befintliga översättningar verifierades mot källan, ingen Lokalise-text behövde ändras. Hunspell-sv uppdaterades med verifierade termer. Se [2026-11-28-reviewed-core-74297-74416.md](2026-11-28-reviewed-core-74297-74416.md).
+120 poster radgranskade: 119 direkta källträffar och en referensverifiering. En kontextfelaktig VeSync-sensoröversättning korrigerades, sparades och återlästes via API. TMX och backup uppdaterades. Se [2026-11-28-reviewed-core-74417-74536.md](2026-11-28-reviewed-core-74417-74536.md).
 
-Nästa position: **74 417**. **3 240** positioner återstår av aktuell nyckelinventering; granskningen pågår.
+Nästa position: **74 537**. **3 120** positioner återstår av aktuell nyckelinventering; granskningen pågår.
 
 ## Öppna uppföljningar
 
@@ -19,4 +19,4 @@ Nästa position: **74 417**. **3 240** positioner återstår av aktuell nyckelin
 - LIFX `Holidays > Independence`: kontrollera om det avsedda scenamnet syftar på USA:s självständighetsdag innan eventuell precisering.
 - LIFX `Archives > Old Glory`: kontrollera om namnet avser amerikanska flaggan eller en namngiven färgscen.
 
-Senaste rapport: `2026-11-28-reviewed-core-74297-74416.md`.
+Senaste rapport: `2026-11-28-reviewed-core-74417-74536.md`.
