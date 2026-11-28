@@ -1039,3 +1039,16 @@ Bevara standardiserade namn och identifierare som `sRGB`, `Adobe RGB`, `D50`, `D
 | Quick Mask | snabbmask | GIMP-funktion för att skapa och redigera markeringar tillfälligt i en kanal. Skriv *snabbmasken* i bestämd form. |
 | Selection Mask | markeringsmask | Skilj från *lagermask*; gäller en mask för en markering. |
 | feathering (selection) | luddning | GIMP-term för mjuka övergångar vid markeringskanter. |
+
+
+## GIMP Help — verktygslådan
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| Toolbox | verktygslåda | GIMP-panelen med verktygsikoner och aktiva resurser; skriv med stor begynnelsebokstav som UI-etikett. |
+| Color area (Toolbox) | färgområde | Området med förgrunds- och bakgrundsfärger i verktygslådan. |
+| active image | aktiv bild | Bilden som tar emot bildrelaterade åtgärder i GIMP. |
+| context information | kontextinformation | Samlingsnamn för information som visas längst ned i verktygslådan. |
+| tool group | verktygsgrupp | Grupp av verktyg i verktygslådan. |
+| drag-and-drop | dra och släpp | Beskriver hur en bild eller ett objekt flyttas med pekaren. |
+| long-click | långklicka | Håll musknappen nedtryckt en stund, till exempel för att välja ett verktyg i en grupp. |
