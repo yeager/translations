@@ -1,0 +1,421 @@
+--- quadrapassel.gnome-51.sv.original.po
++++ quadrapassel.gnome-51.sv.reviewed.po
+@@ -12,8 +12,8 @@
+ "Project-Id-Version: quadrapassel\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/quadrapassel/issues/\n"
+ "POT-Creation-Date: 2026-10-10 20:12+0000\n"
+-"PO-Revision-Date: 2026-08-17 15:51+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-28 14:34+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -33,7 +33,8 @@
+ msgid "Fit falling blocks together"
+ msgstr "Passa ihop fallande klossar"
+ 
+-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
++#. Translators: Search terms to find this application. Do NOT translate or
++#. localize the semicolons! The list MUST also end with a semicolon!
+ #: data/org.gnome.Quadrapassel.desktop.in.in:11
+ msgid "tetris;"
+ msgstr "tetris;"
+@@ -43,15 +44,15 @@
+ "Quadrapassel is a derivative of a classic Russian falling-block game. "
+ "Reposition and rotate the blocks as they fall, and attempt to fit them "
+ "together. When you form a complete horizontal row of blocks, the row will "
+-"disappear and you score points. The game is over when the blocks get stacked "
+-"too high. As your score gets higher, you level up and the blocks fall faster."
+-msgstr ""
+-"Quadrapassel är inspirerat av det klassiska ryska spelet med fallande "
+-"klossar. Flytta och rotera klossarna under tiden de faller, och försök att "
+-"passa ihop dem. När du samlat en komplett horisontell rad med klossar så "
+-"försvinner raden och du får poäng. Spelet tar slut då klossarna staplats för "
+-"högt. Allt eftersom du samlar mer poäng kommer du till högre nivåer och "
+-"klossarnas hastighet ökar."
++"disappear and you score points. The game is over when the blocks get stacked"
++" too high. As your score gets higher, you level up and the blocks fall "
++"faster."
++msgstr ""
++"Quadrapassel är en variant av det klassiska ryska spelet med fallande "
++"klossar. Flytta och rotera klossarna medan de faller och försök passa ihop "
++"dem. När du fyller en hel vågrät rad försvinner den och du får poäng. Spelet"
++" är slut när klossarna staplas för högt. Ju fler poäng du får, desto högre "
++"nivå når du och desto snabbare faller klossarna."
+ 
+ #: data/org.gnome.Quadrapassel.metainfo.xml.in.in:18
+ msgid ""
+@@ -60,14 +61,13 @@
+ "of the rows. Or, instead of allowing the blocks to fall randomly, it can "
+ "select blocks that will be hard for you to place."
+ msgstr ""
+-"Om du är ute efter en utmaning tillåter Quadrapassel dig att öka den "
+-"ursprungliga hastigheten på klossar, eller börja spelet med partiella "
+-"klossar på några av raderna. Eller så kan det, i stället för att klossarna "
+-"faller slumpmässigt, välja klossar som kommer vara svåra för dig att placera."
++"Om du vill ha en större utmaning kan du öka klossarnas hastighet från start "
++"eller börja med några delvis fyllda rader. Du kan också låta spelet välja "
++"svårplacerade klossar i stället för att låta dem falla slumpmässigt."
+ 
+ #: data/org.gnome.Quadrapassel.metainfo.xml.in.in:36
+ msgid "The Quadrapassel window, with a game playing."
+-msgstr "Quadrapassel-fönstret då ett spel körs."
++msgstr "Quadrapassel-fönstret med ett pågående spel."
+ 
+ #: data/org.gnome.Quadrapassel.metainfo.xml.in.in:215
+ msgid "The Quadrapassel developers"
+@@ -75,43 +75,44 @@
+ 
+ #: data/org.gnome.Quadrapassel.gschema.xml:5
+ msgid "Image to use for drawing blocks"
+-msgstr "Bild att använda för uppritning av klossar"
++msgstr "Bild som används för att rita klossarna"
+ 
+ #: data/org.gnome.Quadrapassel.gschema.xml:6
+ msgid "Image to use for drawing blocks."
+-msgstr "Bild att använda för uppritning av klossar."
++msgstr "Bild som används för att rita klossarna."
+ 
+ #: data/org.gnome.Quadrapassel.gschema.xml:15
+ msgid "The theme used for rendering the blocks"
+-msgstr "Temat som används för rendering av klossarna"
++msgstr "Temat som används för att visa klossarna"
+ 
+ #: data/org.gnome.Quadrapassel.gschema.xml:16
+-msgid "The name of the theme used for rendering the blocks and the background."
+-msgstr "Namnet på temat som används för rendering av klossarna och bakgrunden."
++msgid ""
++"The name of the theme used for rendering the blocks and the background."
++msgstr "Namnet på temat som används för att visa klossarna och bakgrunden."
+ 
+ #: data/org.gnome.Quadrapassel.gschema.xml:20
+ msgid "Whether to preview the next block"
+-msgstr "Huruvida nästa kloss ska förhandsgranskas"
++msgstr "Om nästa kloss ska förhandsvisas"
+ 
+ #: data/org.gnome.Quadrapassel.gschema.xml:21
+ msgid "Whether to preview the next block."
+-msgstr "Huruvida nästa kloss ska förhandsgranskas."
++msgstr "Om nästa kloss ska förhandsvisas."
+ 
+ #: data/org.gnome.Quadrapassel.gschema.xml:25
+ msgid "Whether to show where the moving block will land"
+-msgstr "Huruvida var den flyttade klossen kommer att landa ska visas"
++msgstr "Om den fallande klossens landningsplats ska visas"
+ 
+ #: data/org.gnome.Quadrapassel.gschema.xml:26
+ msgid "Whether to show where the moving block will land."
+-msgstr "Huruvida var den flyttade klossen kommer att landa ska visas."
++msgstr "Om den fallande klossens landningsplats ska visas."
+ 
+ #: data/org.gnome.Quadrapassel.gschema.xml:30
+ msgid "Whether to rotate counter clock wise"
+-msgstr "Huruvida rotation ska ske moturs"
++msgstr "Om klossen ska roteras moturs"
+ 
+ #: data/org.gnome.Quadrapassel.gschema.xml:31
+ msgid "Whether to rotate counter clock wise."
+-msgstr "Huruvida rotation ska ske moturs."
++msgstr "Om klossen ska roteras moturs."
+ 
+ #: data/org.gnome.Quadrapassel.gschema.xml:36
+ msgid "The difficulty of the game"
+@@ -119,15 +120,15 @@
+ 
+ #: data/org.gnome.Quadrapassel.gschema.xml:37
+ msgid "How difficult the game is, 0 is a normal difficulty."
+-msgstr "Hur svårt spelet är, 0 är normal svårighetsgrad."
++msgstr "Hur svårt spelet är. 0 motsvarar normal svårighetsgrad."
+ 
+ #: data/org.gnome.Quadrapassel.gschema.xml:41
+ msgid "Whether to use the custom seed"
+-msgstr "Huruvida det anpassade fröet ska användas"
++msgstr "Om det anpassade fröet ska användas"
+ 
+ #: data/org.gnome.Quadrapassel.gschema.xml:42
+ msgid "Whether to use the custom seed."
+-msgstr "Huruvida det anpassade fröet ska användas."
++msgstr "Om det anpassade fröet ska användas."
+ 
+ #: data/org.gnome.Quadrapassel.gschema.xml:46
+ msgid "The seed used for the game"
+@@ -135,31 +136,31 @@
+ 
+ #: data/org.gnome.Quadrapassel.gschema.xml:47
+ msgid "Used to determine which blocks are given in a game."
+-msgstr "Används för att avgöra vilka block som ges i ett spel."
++msgstr "Används för att avgöra vilka klossar som dyker upp i spelet."
+ 
+ #: data/org.gnome.Quadrapassel.gschema.xml:51
+ msgid "Whether to play sounds"
+-msgstr "Huruvida ljud ska spelas upp"
++msgstr "Om ljud ska spelas upp"
+ 
+ #: data/org.gnome.Quadrapassel.gschema.xml:52
+ msgid "Whether to play sounds."
+-msgstr "Huruvida ljud ska spelas upp."
++msgstr "Om ljud ska spelas upp."
+ 
+ #: data/org.gnome.Quadrapassel.gschema.xml:56
+ msgid "Whether to pick blocks that are hard to place"
+-msgstr "Huruvida klossar ska väljas som är svåra att placera ut"
++msgstr "Om klossar som är svåra att placera ska väljas"
+ 
+ #: data/org.gnome.Quadrapassel.gschema.xml:57
+ msgid "Whether to pick blocks that are hard to place."
+-msgstr "Huruvida klossar ska väljas som är svåra att placera ut."
++msgstr "Om klossar som är svåra att placera ska väljas."
+ 
+ #: data/org.gnome.Quadrapassel.gschema.xml:61
+ msgid "Width of the window in pixels"
+-msgstr "Bredden på fönstret i bildpunkter"
++msgstr "Fönstrets bredd i pixlar"
+ 
+ #: data/org.gnome.Quadrapassel.gschema.xml:65
+ msgid "Height of the window in pixels"
+-msgstr "Höjden på fönstret i bildpunkter"
++msgstr "Fönstrets höjd i pixlar"
+ 
+ #: data/org.gnome.Quadrapassel.gschema.xml:69
+ msgid "true if the window is maximized"
+@@ -184,26 +185,26 @@
+ #: src/rules-dialog.blp:11
+ msgctxt "game rules"
+ msgid "Rotate and Move pieces to fill rows"
+-msgstr "Rotera och flytta pjäser för att fylla rader"
++msgstr "Rotera och flytta klossar för att fylla rader"
+ 
+ #: src/rules-dialog.blp:12
+ msgctxt "game rules"
+ msgid "Rows explode when they are completely filled"
+-msgstr "Rader exploderar då de fyllts fullständigt"
++msgstr "Helt fyllda rader exploderar"
+ 
+ #: src/rules-dialog.blp:17
+ msgctxt "game rules"
+ msgid "You gain points for each row destroyed"
+-msgstr "Du får poäng för varje förstörd rad"
++msgstr "Du får poäng för varje rensad rad"
+ 
+ #: src/rules-dialog.blp:18
+ msgctxt "game rules"
+ msgid ""
+-"You can also get a bonus of 100 × level × rows destroyed if the bottom layer "
+-"is destroyed."
+-msgstr ""
+-"Du kan också få en bonus på 100 × nivå × förstörda rader om det nedersta "
+-"lagret förstörs."
++"You can also get a bonus of 100 × level × rows destroyed if the bottom layer"
++" is destroyed."
++msgstr ""
++"Du kan också få en bonus på 100 × nivå × antalet rensade rader om det "
++"nedersta lagret rensas."
+ 
+ #: src/rules-dialog.blp:25
+ msgctxt "game rules"
+@@ -213,12 +214,12 @@
+ #: src/rules-dialog.blp:26
+ msgctxt "game rules"
+ msgid "The next piece and the game view will be hidden"
+-msgstr "Nästa pjäs och spelvyn kommer döljas"
++msgstr "Nästa kloss och spelplanen döljs"
+ 
+ #: src/rules-dialog.blp:33
+ msgctxt "game rules"
+ msgid "You can change how the game works using the preferences"
+-msgstr "Du kan ändra hur spelet fungerar med inställningarna"
++msgstr "Du kan ändra hur spelet fungerar i inställningarna"
+ 
+ #: src/rules-dialog.blp:34
+ msgctxt "game rules"
+@@ -227,7 +228,7 @@
+ 
+ #: src/rules-dialog.blp:49
+ msgid "Rows Destroyed"
+-msgstr "Förstörda rader"
++msgstr "Rensade rader"
+ 
+ #: src/rules-dialog.blp:61
+ msgctxt "points calculation"
+@@ -267,7 +268,7 @@
+ #: src/shortcuts-dialog.blp:14
+ msgctxt "shortcut window"
+ msgid "Pause the game"
+-msgstr "Gör paus i spelet"
++msgstr "Pausa spelet"
+ 
+ #: src/shortcuts-dialog.blp:17
+ msgctxt "shortcut window"
+@@ -277,7 +278,7 @@
+ #: src/shortcuts-dialog.blp:21
+ msgctxt "shortcut window"
+ msgid "Open primary menu"
+-msgstr "Öppna primär meny"
++msgstr "Öppna huvudmenyn"
+ 
+ #: src/shortcuts-dialog.blp:25
+ msgctxt "shortcut window"
+@@ -302,22 +303,22 @@
+ #: src/shortcuts-dialog.blp:41
+ msgctxt "shortcut window"
+ msgid "Rotate Left"
+-msgstr "Rotera vänster"
++msgstr "Rotera åt vänster"
+ 
+ #: src/shortcuts-dialog.blp:45
+ msgctxt "shortcut window"
+ msgid "Rotate Right"
+-msgstr "Rotera höger"
++msgstr "Rotera åt höger"
+ 
+ #: src/shortcuts-dialog.blp:49
+ msgctxt "shortcut window"
+ msgid "Move right"
+-msgstr "Flytta höger"
++msgstr "Flytta åt höger"
+ 
+ #: src/shortcuts-dialog.blp:53
+ msgctxt "shortcut window"
+ msgid "Move left"
+-msgstr "Flytta vänster"
++msgstr "Flytta åt vänster"
+ 
+ #: src/shortcuts-dialog.blp:57
+ msgctxt "shortcut window"
+@@ -327,12 +328,12 @@
+ #: src/shortcuts-dialog.blp:61
+ msgctxt "shortcut window"
+ msgid "Drop"
+-msgstr "Släpp"
++msgstr "Släpp ned"
+ 
+ #: src/shortcuts-dialog.blp:65
+ msgctxt "shortcut window"
+ msgid "Hold the active piece"
+-msgstr "Håll den aktiva pjäsen"
++msgstr "Lagra den aktiva klossen"
+ 
+ #: src/quadrapassel.vala:56
+ msgid "Next"
+@@ -340,7 +341,7 @@
+ 
+ #: src/quadrapassel.vala:57
+ msgid "Hold"
+-msgstr "Lager"
++msgstr "Reservkloss"
+ 
+ #: src/quadrapassel.vala:190 src/quadrapassel.vala:257
+ msgid "Start a new game"
+@@ -356,7 +357,7 @@
+ 
+ #: src/quadrapassel.vala:201
+ msgid "_Keyboard Shortcuts"
+-msgstr "_Tangentbordsgenvägar"
++msgstr "_Kortkommandon"
+ 
+ #: src/quadrapassel.vala:202
+ msgid "Game _Rules"
+@@ -405,19 +406,19 @@
+ 
+ #: src/quadrapassel.vala:486
+ msgid "Game Difficulty"
+-msgstr "Svårighetsgrad på spelet"
++msgstr "Spelets svårighetsgrad"
+ 
+ #: src/quadrapassel.vala:487
+ msgid "Change how difficult the game is"
+-msgstr "Ändra hur svårt spelet är"
++msgstr "Ändra spelets svårighetsgrad"
+ 
+ #: src/quadrapassel.vala:489
+ msgid ""
+ "The Difficulty affects the level you start at and how many rows are pre-"
+ "filled."
+ msgstr ""
+-"Svårighetsgraden påverkar nivån du startar på och hur många rader som är "
+-"förifyllda."
++"Svårighetsgraden påverkar vilken nivå du börjar på och hur många rader som "
++"redan är delvis fyllda."
+ 
+ #: src/quadrapassel.vala:496
+ msgid "_Difficulty"
+@@ -457,11 +458,11 @@
+ 
+ #: src/quadrapassel.vala:564
+ msgid ""
+-"The seed is used to determine which blocks you get. While a seed is set, the "
+-"game will be the same every time."
+-msgstr ""
+-"Fröet används för att avgöra vilka block du får. Då ett frö har ställts in "
+-"kommer spelet vara detsamma varje gång."
++"The seed is used to determine which blocks you get. While a seed is set, the"
++" game will be the same every time."
++msgstr ""
++"Fröet avgör vilka klossar du får. När du har angett ett frö blir spelet "
++"likadant varje gång."
+ 
+ #: src/quadrapassel.vala:568
+ msgid "_Use a custom seed for the game"
+@@ -469,11 +470,11 @@
+ 
+ #: src/quadrapassel.vala:993
+ msgid "Unpause the game"
+-msgstr "Fortsätt spelet"
++msgstr "Återuppta spelet"
+ 
+ #: src/quadrapassel.vala:999
+ msgid "Pause the game"
+-msgstr "Gör paus i spelet"
++msgstr "Pausa spelet"
+ 
+ #: src/quadrapassel.vala:1040
+ msgid "Start the game"
+@@ -490,15 +491,15 @@
+ #: src/quadrapassel.vala:1157
+ msgctxt "game rules"
+ msgid "Points are calculated based on how many rows are destroyed."
+-msgstr "Poäng beräknas baserat på hur många rader som förstörs."
++msgstr "Poängen beräknas utifrån antalet rader som rensas."
+ 
+ #: src/quadrapassel.vala:1180
+ msgid ""
+-"A classic game where you rotate blocks to make complete rows, but don't pile "
+-"your blocks too high or it's game over!"
+-msgstr ""
+-"Ett klassiskt spel där du roterar fallande klossar för att skapa rader, men "
+-"stapla inte klossarna för högt så spelet tar slut!"
++"A classic game where you rotate blocks to make complete rows, but don't pile"
++" your blocks too high or it's game over!"
++msgstr ""
++"Ett klassiskt spel där du roterar klossar för att fylla hela rader. Stapla "
++"dem inte för högt, annars tar spelet slut!"
+ 
+ #: src/quadrapassel.vala:1183
+ msgid "translator-credits"
+@@ -515,8 +516,7 @@
+ 
+ #~ msgid ""
+ #~ "The Quadrapassel window, with a game playing, in small form factor mode."
+-#~ msgstr ""
+-#~ "Quadrapassel-fönstret då ett spel körs i läget för liten formfaktor."
++#~ msgstr "Quadrapassel-fönstret då ett spel körs i läget för liten formfaktor."
+ 
+ #~ msgid "The Quadrapassel window, before starting a game."
+ #~ msgstr "Quadrapassel-fönstret innan ett spel startas."
+@@ -571,11 +571,11 @@
+ #~ msgstr "Densiteten för ifyllda rader"
+ 
+ #~ msgid ""
+-#~ "The density of blocks in rows filled at the start of the game. The value "
+-#~ "is between 0 (for no blocks) and 10 (for a completely filled row)."
++#~ "The density of blocks in rows filled at the start of the game. The value is "
++#~ "between 0 (for no blocks) and 10 (for a completely filled row)."
+ #~ msgstr ""
+-#~ "Densiteten för klossar i rader som är ifyllda i början av spelet. Värdet "
+-#~ "är mellan 0 (för inga klossar) och 10 (för en helt ifylld rad)."
++#~ "Densiteten för klossar i rader som är ifyllda i början av spelet. Värdet är "
++#~ "mellan 0 (för inga klossar) och 10 (för en helt ifylld rad)."
+ 
+ #~ msgid "Pre-Game"
+ #~ msgstr "Före spelet"
