@@ -10,4 +10,6 @@
 
 `msgfmt --check`, `msgcmp --use-fuzzy` och `l10n-lint` har körts utan fel eller varningar. Informationsnotisen gäller den avsiktligt svenska acceleratorn i Öppna. Platshållarkontrollen är ren.
 
-Ingen GNOME-inskickning har gjorts.
+## Inskickning
+
+Senaste POT hämtades igen 2026-11-28 och var oförändrad (60 poster). Granskningen är från 2026-11-24 och återanvändes enligt 14-dagarsregeln. Uppladdad 2026-11-28 med kommentaren `Granskad och klar`. Aktivitet 1582139 visar 60/0/0; den nedladdade sammanslagna PO-filen har samma msgstr-innehåll som den granskade filen. Statistik-API:t rapporterar 60/0/0 och tillståndet `Translated`.
