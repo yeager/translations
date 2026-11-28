@@ -4,11 +4,11 @@ Senast uppdaterad: 2026-11-28
 Källrevision: `1d07105b760c73093145526a51758938e87cc658`
 Lokalise-projekt: `130246255a974bd3b5e8a1.51616605`
 
-## Senaste batch: 71 777–71 896
+## Senaste batch: 72 497–72 616
 
-120 nycklar granskade: 86 direkta och 34 referenser till 28 mål. Alla referenser matchar efter korrigering. Platshållare 120/120; inga pluraler eller källsaknade nycklar. Sju ändringar i intervallet och ett delat AdGuard-referensmål sparades och lästes tillbaka via Lokalise API. `svlang` passerade. HA-TMX validerar med 37 889 enheter.
+120 poster radgranskade: 116 direkta strängar och 4 referenser. Alla 4 referenser matchar sina mål; platshållare och källtext kontrollerades. Inga säkra textändringar identifierades. Sex Midea-firmwareetiketter är dokumenterade som osäkra och väntar på modellmanual/appkontext. HA-TMX validerar med 38 626 enheter. Se [batchrapporten](2026-11-28-reviewed-core-72497-72616.md).
 
-Nästa position: **71 897**. **5 760** positioner återstår i aktuell nyckelinventering; granskningen pågår.
+Nästa position: **72 617**. **5 040** positioner återstår i aktuell nyckelinventering; granskningen pågår.
 
 ## Öppna uppföljningar
 
@@ -17,4 +17,4 @@ Nästa position: **71 897**. **5 760** positioner återstår i aktuell nyckelinv
 - Victron `start`-status saknar aktiv källtext; Alexa äldre nyckel behöver historikkontroll.
 - Govee `Marquee`-leverantörskontext; SOFAR-dubbla mjukstartsetiketter; Teslemetry saknad källtext.
 
-Senaste rapport: `2026-11-28-reviewed-core-71777-71896.md`.
+Senaste rapport: `2026-11-28-reviewed-core-72497-72616.md`.
