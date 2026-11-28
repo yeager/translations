@@ -4,16 +4,16 @@ Senast uppdaterad: 2026-11-28
 Källrevision: `1d07105b760c73093145526a51758938e87cc658`  
 Lokalise-projekt: `130246255a974bd3b5e8a1.51616605`
 
-## Senaste batch: 70 937–71 056
+## Senaste batch: 71 057–71 176
 
-120 poster omgranskade: 109 direkta källmatchningar och 11 referenser till 10 mål. Alla referenser matchar, och tidigare bedömningar bekräftades. Inga Lokalise-ändringar krävdes. Inga plural- eller platshållarproblem; svlang passerade. TMX validerar med 37 045 poster (36 814 Lokalise-ID, 231 historiska).
+120 poster omgranskade; samtliga matchar aktuell källa och tidigare svensk granskning. Inga Lokalise-ändringar. Inga platshållarproblem, referenser eller pluralformer. svlang passerade. TMX: 37 164 poster (36 933 Lokalise-ID, 231 historiska).
 
-Nästa position: **71 057**. Cirka **6 600** positioner återstår; granskningen pågår.
+Nästa position: **71 177**. Cirka **6 480** positioner återstår; granskningen pågår.
 
 ## Öppna uppföljningar
 
 - `component::teslemetry::exceptions::no_local_powerwall::message` saknar aktiv källtext.
 - Govee-effekten `Marquee` väntar på leverantörskontext.
-- SOFAR:s två `inverter_soft_start_failure` etiketter kan kontrolleras mot faktisk UI-visning om det finns en visad skillnad.
+- SOFAR:s dubbla `inverter_soft_start_failure` etiketter kräver UI-kontext om man ska skilja dem åt.
 
-Rapport: `2026-11-28-reviewed-core-70937-71056.md`.
+Rapport: `2026-11-28-reviewed-core-71057-71176.md`.
