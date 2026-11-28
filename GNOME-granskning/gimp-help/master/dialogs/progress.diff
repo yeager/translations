@@ -2312,7 +2312,7 @@
  msgstr ""
  "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
  "flik</guimenu><guimenuitem>Paletter</guimenuitem></menuchoice>."
-@@ -2154,6 +2517,11 @@
+@@ -2154,20 +2517,27 @@
  "intersect. You can see its coordinates in the lower left corner of the "
  "status area at the bottom. Release the mouse button."
  msgstr ""
@@ -2324,7 +2324,13 @@
  
  #: src/dialogs/sample-points.xml:84(para)
  msgid ""
-@@ -2165,9 +2533,9 @@
+ "The image shows four already defined sample points and the reticle when you "
+ "press <keycap>Ctrl</keycap> on a measure ruler and then click and drag."
+ msgstr ""
++"Bilden visar fyra redan definierade samplingspunkter och markören när du "
++"håller ned <keycap>Ctrl</keycap>, klickar på en måttlinjal och drar."
+ 
+ #: src/dialogs/sample-points.xml:92(para)
  #, fuzzy
  msgid ""
  "Sample points are shown as a round mark with an order number. You can hide "
@@ -2337,7 +2343,7 @@
  msgstr ""
  "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
  "flik</guimenu><guimenuitem>Paletter</guimenuitem></menuchoice>."
-@@ -2175,20 +2543,21 @@
+@@ -2175,33 +2545,43 @@
  #: src/dialogs/sample-points.xml:100(para)
  #, fuzzy
  msgid ""
@@ -2354,45 +2360,90 @@
 +"Using the <link linkend=\"gimp-tool-color-picker\">Color Picker</link> tool,"
 +" click-and-drag the sample point up to a measure ruler to delete it."
  msgstr ""
++"Dra samplingspunkten med verktyget <link linkend=\"gimp-tool-color-"
++"picker\">Färgväljare</link> upp till en måttlinjal om du vill ta bort den."
  
  #: src/dialogs/sample-points.xml:116(para)
  msgid ""
 -"Using a <link linkend=\"gimp-tool-brush\">paint tool</link>, <keycap>Ctrl</"
 -"keycap> + click-and-drag the sample point up to a measure ruler to delete it."
+-msgstr ""
 +"Using a <link linkend=\"gimp-tool-brush\">paint tool</link>, "
 +"<keycap>Ctrl</keycap> + click-and-drag the sample point up to a measure "
 +"ruler to delete it."
- msgstr ""
++msgstr ""
++"Dra samplingspunkten upp till en måttlinjal med ett <link linkend=\"gimp-"
++"tool-brush\">målarverktyg</link> och <keycap>Ctrl</keycap> nedtryckt om du "
++"vill ta bort den."
  
  #: src/dialogs/sample-points.xml:105(para)
-@@ -2198,9 +2567,9 @@
+ msgid "To move or delete a sample point: <placeholder-1/>"
+-msgstr ""
++msgstr "Så här flyttar eller tar du bort en samplingspunkt: <placeholder-1/>"
+ 
  #: src/dialogs/sample-points.xml:126(para)
  msgid ""
  "By default, sampling is performed on all layers. If you want to sample on "
 -"the active layer only, uncheck <menuchoice><guimenu>Sample Point Menu</"
 -"guimenu><guimenuitem>Sample Merged</guimenuitem></menuchoice> from the tab "
 -"menu."
+-msgstr ""
 +"the active layer only, uncheck <menuchoice><guimenu>Sample Point "
 +"Menu</guimenu><guimenuitem>Sample Merged</guimenuitem></menuchoice> from the"
 +" tab menu."
- msgstr ""
++msgstr ""
++"Som standard samplas alla lager. Om du bara vill sampla det aktiva lagret "
++"avmarkerar du "
++"<menuchoice><guimenu>Samplingspunktsmeny</guimenu><guimenuitem>Sampla "
++"sammanfogade</guimenuitem></menuchoice> på flikmenyn."
  
  #: src/dialogs/sample-points.xml:137(title)
-@@ -2231,9 +2600,10 @@
+ #, fuzzy
+@@ -2210,19 +2590,19 @@
+ 
+ #: src/dialogs/sample-points.xml:139(title)
+ msgid "Sample points dialog"
+-msgstr ""
++msgstr "Dialogrutan Samplingspunkter"
+ 
+ #: src/dialogs/sample-points.xml:147(para)
+ msgid "Information about all sample points is displayed in this window."
+-msgstr ""
++msgstr "I det här fönstret visas information om alla samplingspunkter."
+ 
+ #: src/dialogs/sample-points.xml:150(para)
+ msgid "The color of the sampled point is displayed in a swatch box."
+-msgstr ""
++msgstr "Färgen på den samplade punkten visas i en färgruta."
+ 
+ #: src/dialogs/sample-points.xml:153(para)
+ msgid "In the drop-down list, you can choose between:"
+-msgstr ""
++msgstr "I listrutan kan du välja mellan:"
+ 
+ #: src/dialogs/sample-points.xml:158(term)
+ #: src/dialogs/pointer-dialog.xml:133(term)
+@@ -2231,34 +2611,46 @@
  
  #: src/dialogs/sample-points.xml:160(para)
  msgid ""
 -"This choice displays the <emphasis>Red</emphasis>, <emphasis>Green</"
 -"emphasis>, <emphasis>Blue</emphasis> and <emphasis>Alpha</emphasis> values "
 -"of the pixel, as numbers between 0 and 255."
+-msgstr ""
 +"This choice displays the <emphasis>Red</emphasis>, "
 +"<emphasis>Green</emphasis>, <emphasis>Blue</emphasis> and "
 +"<emphasis>Alpha</emphasis> values of the pixel, as numbers between 0 and "
 +"255."
- msgstr ""
++msgstr ""
++"Det här alternativet visar pixelns värden för <emphasis>Röd</emphasis>, "
++"<emphasis>Grön</emphasis>, <emphasis>Blå</emphasis> och "
++"<emphasis>Alfa</emphasis> som tal mellan 0 och 255."
  
  #: src/dialogs/sample-points.xml:169(term)
-@@ -2242,10 +2612,10 @@
+ msgid "RGB (%)"
+-msgstr ""
++msgstr "RGB (%)"
  
  #: src/dialogs/sample-points.xml:171(para)
  msgid ""
@@ -2400,14 +2451,21 @@
 -"emphasis>, <emphasis>Blue</emphasis> and <emphasis>Alpha</emphasis> values "
 -"of the pixel, as percentages. It also shows the hexadecimal value of the "
 -"pixel's color."
+-msgstr ""
 +"This choice displays the <emphasis>Red</emphasis>, "
 +"<emphasis>Green</emphasis>, <emphasis>Blue</emphasis> and "
 +"<emphasis>Alpha</emphasis> values of the pixel, as percentages. It also "
 +"shows the hexadecimal value of the pixel's color."
- msgstr ""
++msgstr ""
++"Det här alternativet visar pixelns värden för <emphasis>Röd</emphasis>, "
++"<emphasis>Grön</emphasis>, <emphasis>Blå</emphasis> och "
++"<emphasis>Alfa</emphasis> i procent. Det visar också färgens hexadecimala "
++"värde."
  
  #: src/dialogs/sample-points.xml:180(term)
-@@ -2254,10 +2624,10 @@
+ msgid "RGB (0..255)"
+-msgstr ""
++msgstr "RGB (0..255)"
  
  #: src/dialogs/sample-points.xml:182(para)
  msgid ""
@@ -2415,28 +2473,69 @@
 -"emphasis>, <emphasis>Blue</emphasis> and <emphasis>Alpha</emphasis> values "
 -"of the pixel, as hexadecimal values. It also shows the hexadecimal value of "
 -"the pixel's color."
+-msgstr ""
 +"This choice displays the <emphasis>Red</emphasis>, "
 +"<emphasis>Green</emphasis>, <emphasis>Blue</emphasis> and "
 +"<emphasis>Alpha</emphasis> values of the pixel, as hexadecimal values. It "
 +"also shows the hexadecimal value of the pixel's color."
- msgstr ""
++msgstr ""
++"Det här alternativet visar pixelns värden för <emphasis>Röd</emphasis>, "
++"<emphasis>Grön</emphasis>, <emphasis>Blå</emphasis> och "
++"<emphasis>Alfa</emphasis> som hexadecimala tal. Det visar också färgens "
++"hexadecimala värde."
  
  #: src/dialogs/sample-points.xml:191(term)
-@@ -2301,9 +2671,10 @@
+ #, fuzzy
+@@ -2276,22 +2668,25 @@
+ "the <emphasis>Saturation</emphasis>, <emphasis>Value</emphasis> and "
+ "<emphasis>Alpha</emphasis> of the pixel, as percentages."
+ msgstr ""
++"Det här alternativet visar <emphasis>nyansen</emphasis> i grader samt "
++"bildpunktens <emphasis>mättnad</emphasis>, <emphasis>värde</emphasis> och "
++"<emphasis>alfa</emphasis> i procent."
+ 
+ #: src/dialogs/sample-points.xml:210(term)
+ msgid "CIE LCh"
+-msgstr ""
++msgstr "CIE LCh"
+ 
+ #: src/dialogs/sample-points.xml:218(term)
+ msgid "CIE LAB"
+-msgstr ""
++msgstr "CIE LAB"
+ 
+ #: src/dialogs/sample-points.xml:226(term)
+ msgid "CIE xyY"
+-msgstr ""
++msgstr "CIE xyY"
+ 
+ #: src/dialogs/sample-points.xml:234(term)
+ msgid "CIE Yu'v'"
+-msgstr ""
++msgstr "CIE Yu'v'"
+ 
+ #: src/dialogs/sample-points.xml:242(term)
+ #: src/dialogs/pointer-dialog.xml:170(term)
+@@ -2301,10 +2696,14 @@
  
  #: src/dialogs/sample-points.xml:244(para)
  msgid ""
 -"This choice displays the <emphasis>Cyan</emphasis>, <emphasis>Magenta</"
 -"emphasis>, <emphasis>Yellow</emphasis>, <emphasis>Black</emphasis> and "
 -"<emphasis>Alpha</emphasis> values of the pixel, as percentages."
+-msgstr ""
 +"This choice displays the <emphasis>Cyan</emphasis>, "
 +"<emphasis>Magenta</emphasis>, <emphasis>Yellow</emphasis>, "
 +"<emphasis>Black</emphasis> and <emphasis>Alpha</emphasis> values of the "
 +"pixel, as percentages."
- msgstr ""
++msgstr ""
++"Det här alternativet visar pixelns värden för <emphasis>Cyan</emphasis>, "
++"<emphasis>Magenta</emphasis>, <emphasis>Gul</emphasis>, "
++"<emphasis>Svart</emphasis> och <emphasis>Alfa</emphasis> i procent."
  
  #: src/dialogs/sample-points.xml:253(para)
-@@ -2314,12 +2685,13 @@
+ msgid ""
+@@ -2314,12 +2713,13 @@
  
  #: src/dialogs/sample-points.xml:257(para)
  msgid ""
@@ -2453,7 +2552,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/qmask.xml:20(None)
  #, fuzzy
-@@ -2329,7 +2701,8 @@
+@@ -2329,7 +2729,8 @@
  msgstr ""
  "@@image: 'images/dialogs/channel-quickmask.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -2463,7 +2562,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/qmask.xml:57(None) src/dialogs/qmask.xml:84(None)
  #: src/dialogs/channel-selection-mask.xml:84(None)
-@@ -2338,7 +2711,8 @@
+@@ -2338,7 +2739,8 @@
  "md5=94ff9ea6e134cd60da58d4b44bcd05f0"
  msgstr ""
  
@@ -2473,7 +2572,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/qmask.xml:102(None) src/dialogs/path-dialog.xml:184(None)
  #: src/dialogs/layer-dialog.xml:194(None)
-@@ -2349,7 +2723,8 @@
+@@ -2349,7 +2751,8 @@
  "md5=604690bf5f3c33f04262d9d6e959fc64"
  msgstr ""
  
@@ -2483,7 +2582,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/qmask.xml:131(None)
  #, fuzzy
-@@ -2360,7 +2735,8 @@
+@@ -2360,7 +2763,8 @@
  "@@image: 'images/dialogs/channel-masks-gradient.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -2493,7 +2592,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/qmask.xml:145(None)
  #, fuzzy
-@@ -2371,7 +2747,8 @@
+@@ -2371,7 +2775,8 @@
  "@@image: 'images/dialogs/channel-masks-gradient.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -2503,7 +2602,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/qmask.xml:159(None)
  #, fuzzy
-@@ -2396,10 +2773,10 @@
+@@ -2396,10 +2801,10 @@
  "mask\">Selection Mask</link> intended to be used temporarily to paint a "
  "selection. Temporarily means that, unlike a normal selection mask, it will "
  "be deleted from the channel list after its transformation to selection. The "
@@ -2518,7 +2617,7 @@
  msgstr ""
  
  #: src/dialogs/qmask.xml:38(para)
-@@ -2409,11 +2786,11 @@
+@@ -2409,11 +2814,11 @@
  #: src/dialogs/qmask.xml:43(para)
  #, fuzzy
  msgid ""
@@ -2534,7 +2633,7 @@
  
  #: src/dialogs/qmask.xml:52(para)
  msgid ""
-@@ -2456,15 +2833,15 @@
+@@ -2456,15 +2861,15 @@
  "the area limited by the mask and black to increase it. The area painted in "
  "light or dark gray will be transition areas for the selection like "
  "feathering. When your mask is ready, click again on the bottom-left button "
@@ -2554,7 +2653,7 @@
  "only have to remove its content (or inverse if the subject is in the "
  "selection)."
  msgstr ""
-@@ -2484,25 +2861,25 @@
+@@ -2484,25 +2889,25 @@
  #: src/dialogs/qmask.xml:148(para)
  msgid ""
  "The Quick Mask is now disabled. The selection occupies the right half part "
@@ -2590,7 +2689,7 @@
  "the selection on the Quick Mask. They should use only grayscale color, "
  "conforming the channel properties, white enabling to define the future "
  "selected place. The selection will be displayed as soon as the Quick Mask "
-@@ -2513,11 +2890,11 @@
+@@ -2513,11 +2918,11 @@
  #, fuzzy
  msgid ""
  "To save in a channel the selection done with the Quick Mask select in the "
@@ -2606,7 +2705,7 @@
  
  #: src/dialogs/qmask.xml:196(title)
  msgid "Usage"
-@@ -2532,12 +2909,12 @@
+@@ -2532,12 +2937,12 @@
  #: src/dialogs/qmask.xml:205(para)
  #, fuzzy
  #| msgid ""
@@ -2623,7 +2722,7 @@
  "selection."
  msgstr ""
  "Aktivera snabbmask genom att klicka på ikonen för snabbmask i bildfönstret. "
-@@ -2553,8 +2930,8 @@
+@@ -2553,8 +2958,8 @@
  #: src/dialogs/qmask.xml:218(para)
  #, fuzzy
  #| msgid ""
@@ -2634,7 +2733,7 @@
  #| "selection."
  msgid ""
  "Deactivate the Quick Mask using the left-bottom button in the image window."
-@@ -2563,7 +2940,8 @@
+@@ -2563,7 +2968,8 @@
  "Om det redan finns en markering kommer snabbmask att följa denna och inte "
  "lägga någon mask i markeringen;"
  
@@ -2644,7 +2743,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-window-management.xml:29(None)
  #, fuzzy
-@@ -2574,7 +2952,8 @@
+@@ -2574,7 +2980,8 @@
  "@@image: 'images/preferences/prefs-window-management.png'; md5=THIS FILE "
  "DOESN'T EXIST"
  
@@ -2654,7 +2753,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-window-management.xml:86(None)
  msgid ""
-@@ -2582,7 +2961,8 @@
+@@ -2582,7 +2989,8 @@
  "md5=fa077cce338c9825cb19e35431fdb280"
  msgstr ""
  
@@ -2664,7 +2763,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-window-management.xml:97(None)
  msgid ""
-@@ -2664,8 +3044,8 @@
+@@ -2664,8 +3072,8 @@
  
  #: src/dialogs/prefs-window-management.xml:33(para)
  msgid ""
@@ -2675,7 +2774,7 @@
  "requests to the window manager (i.e., to Windows if you are running in "
  "Windows; to Mutter if you are running in a standard GNOME setup in Linux; "
  "etc). Because there are many window managers, and not all of them are well "
-@@ -2702,11 +3082,10 @@
+@@ -2702,11 +3110,10 @@
  #, fuzzy
  msgid ""
  "The preferences dialog can be accessed from the main menu, through "
@@ -2690,7 +2789,7 @@
  
  #: src/dialogs/prefs-window-management.xml:58(title)
  msgid "Window Manager Hints"
-@@ -2719,8 +3098,8 @@
+@@ -2719,8 +3126,8 @@
  
  #: src/dialogs/prefs-window-management.xml:63(para)
  msgid ""
@@ -2701,7 +2800,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-window-management.xml:70(para)
-@@ -2751,14 +3130,14 @@
+@@ -2751,14 +3158,14 @@
  
  #: src/dialogs/prefs-window-management.xml:108(para)
  msgid ""
@@ -2720,7 +2819,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-window-management.xml:122(title)
-@@ -2830,7 +3209,8 @@
+@@ -2830,7 +3237,8 @@
  "moving them around, you can do so by pressing this button."
  msgstr ""
  
@@ -2730,7 +2829,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-toolbox.xml:24(None)
  #, fuzzy
-@@ -2840,7 +3220,8 @@
+@@ -2840,7 +3248,8 @@
  msgstr ""
  "@@image: 'images/preferences/prefs-toolbox.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -2740,7 +2839,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-toolbox.xml:51(None)
  #, fuzzy
-@@ -2906,7 +3287,8 @@
+@@ -2906,7 +3315,8 @@
  msgstr "Spara bakgrundsfärg"
  
  #: src/dialogs/prefs-toolbox.xml:81(para)
@@ -2750,7 +2849,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-toolbox.xml:88(term)
-@@ -2958,8 +3340,8 @@
+@@ -2958,8 +3368,8 @@
  
  #: src/dialogs/prefs-toolbox.xml:140(para)
  msgid ""
@@ -2761,7 +2860,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-toolbox.xml:147(para)
-@@ -2971,11 +3353,12 @@
+@@ -2971,11 +3381,12 @@
  
  #: src/dialogs/prefs-toolbox.xml:136(para)
  msgid ""
@@ -2777,7 +2876,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-tool-options.xml:25(None)
  #, fuzzy
-@@ -3108,8 +3491,8 @@
+@@ -3108,8 +3519,8 @@
  
  #: src/dialogs/prefs-tool-options.xml:115(para)
  msgid ""
@@ -2788,7 +2887,7 @@
  "(pencil, paintbrush, airbrush, etc) should remember the item that was last "
  "used for it specifically."
  msgstr ""
-@@ -3125,11 +3508,12 @@
+@@ -3125,11 +3536,12 @@
  #: src/dialogs/prefs-tool-options.xml:130(para)
  msgid ""
  "By default, the <link linkend=\"gimp-tool-move\">Move Tool</link> does not "
@@ -2804,7 +2903,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-theme.xml:21(None)
  #, fuzzy
-@@ -3155,8 +3539,8 @@
+@@ -3155,8 +3567,8 @@
  
  #: src/dialogs/prefs-theme.xml:44(para)
  msgid ""
@@ -2815,7 +2914,7 @@
  "like, click on one of the themes in the list. It will update the interface "
  "using the chosen theme as a preview."
  msgstr ""
-@@ -3167,16 +3551,16 @@
+@@ -3167,16 +3579,16 @@
  
  #: src/dialogs/prefs-theme.xml:56(para)
  msgid ""
@@ -2836,7 +2935,7 @@
  "setting is available on your system."
  msgstr ""
  
-@@ -3191,15 +3575,16 @@
+@@ -3191,15 +3603,16 @@
  #: src/dialogs/prefs-theme.xml:78(para)
  msgid ""
  "Each theme sets the sizes of icons used by <acronym>GIMP</acronym>. Enable "
@@ -2858,7 +2957,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-theme.xml:103(term)
-@@ -3210,7 +3595,8 @@
+@@ -3210,7 +3623,8 @@
  msgid "Clicking this button reloads the current theme."
  msgstr ""
  
@@ -2868,7 +2967,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-system-resources.xml:23(None)
  #, fuzzy
-@@ -3242,8 +3628,8 @@
+@@ -3242,8 +3656,8 @@
  #: src/dialogs/prefs-system-resources.xml:27(para)
  msgid ""
  "This page lets you customize the amount of system memory allocated for "
@@ -2879,7 +2978,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-system-resources.xml:47(title)
-@@ -3256,12 +3642,12 @@
+@@ -3256,12 +3670,12 @@
  
  #: src/dialogs/prefs-system-resources.xml:51(para)
  msgid ""
@@ -2898,7 +2997,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-system-resources.xml:64(term)
-@@ -3272,7 +3658,8 @@
+@@ -3272,7 +3686,8 @@
  msgid ""
  "This is the amount of undo memory allocated for each image. If the Undo "
  "History size exceeds this, the oldest points are deleted, unless this would "
@@ -2908,7 +3007,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-system-resources.xml:75(term)
-@@ -3282,9 +3669,9 @@
+@@ -3282,9 +3697,9 @@
  #: src/dialogs/prefs-system-resources.xml:77(para)
  msgid ""
  "This is the amount of system RAM allocated for GIMP image data. If GIMP "
@@ -2921,7 +3020,7 @@
  "linkend=\"gimp-using-setup-tile-cache\">How to Set Your Tile Cache</link> "
  "for more information."
  msgstr ""
-@@ -3310,10 +3697,10 @@
+@@ -3310,10 +3725,10 @@
  msgid ""
  "This sets the compression method used for tile data stored in the swap. "
  "Compression can both reduce the swap size, and increase its speed, by "
@@ -2936,7 +3035,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-system-resources.xml:115(term)
-@@ -3325,8 +3712,8 @@
+@@ -3325,8 +3740,8 @@
  msgid ""
  "Multi-threading allows making use of multiple cores for processing. Not all "
  "features make use of that for the moment. A point of interest is that multi-"
@@ -2947,7 +3046,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-system-resources.xml:129(title)
-@@ -3358,8 +3745,8 @@
+@@ -3358,8 +3773,8 @@
  #: src/dialogs/prefs-system-resources.xml:149(para)
  msgid ""
  "This options allows you to set the size of the thumbnails shown in the File "
@@ -2958,7 +3057,7 @@
  "<quote>Large (256x256)</quote>."
  msgstr ""
  
-@@ -3370,8 +3757,8 @@
+@@ -3370,8 +3785,8 @@
  #: src/dialogs/prefs-system-resources.xml:161(para)
  msgid ""
  "If an image file is larger than the specified maximum size, GIMP will not "
@@ -2969,7 +3068,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-system-resources.xml:172(title)
-@@ -3391,13 +3778,14 @@
+@@ -3391,13 +3806,14 @@
  "When checked, files you have opened will be saved in the Document history. "
  "You can access the list of files with the <link linkend=\"gimp-document-"
  "dialog\">Document history dialog</link> from the main menu: "
@@ -2989,7 +3088,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-playground.xml:20(None)
  #, fuzzy
-@@ -3438,10 +3826,10 @@
+@@ -3438,10 +3854,10 @@
  
  #: src/dialogs/prefs-playground.xml:50(para)
  msgid ""
@@ -3004,7 +3103,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-playground.xml:58(para)
-@@ -3493,7 +3881,8 @@
+@@ -3493,7 +3909,8 @@
  "work on improving it, and don't forget that you enabled it."
  msgstr ""
  
@@ -3014,7 +3113,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-interface.xml:33(None)
  #, fuzzy
-@@ -3568,15 +3957,16 @@
+@@ -3568,15 +3985,16 @@
  msgid ""
  "<acronym>GIMP</acronym>'s default language is that of your system. You can "
  "select another language in the drop-down list. You have to start GIMP again "
@@ -3036,7 +3135,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-interface.xml:88(term)
-@@ -3585,10 +3975,10 @@
+@@ -3585,10 +4003,10 @@
  
  #: src/dialogs/prefs-interface.xml:90(para)
  msgid ""
@@ -3051,7 +3150,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-interface.xml:100(term)
-@@ -3598,8 +3988,8 @@
+@@ -3598,8 +4016,8 @@
  #: src/dialogs/prefs-interface.xml:102(para)
  msgid ""
  "When enabled and the previous setting is also enabled, previews are also "
@@ -3062,7 +3161,7 @@
  "with a lot of layer groups."
  msgstr ""
  
-@@ -3644,18 +4034,19 @@
+@@ -3644,18 +4062,19 @@
  
  #: src/dialogs/prefs-interface.xml:149(para)
  msgid ""
@@ -3088,7 +3187,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-interface.xml:179(term)
-@@ -3702,8 +4093,8 @@
+@@ -3702,8 +4121,8 @@
  
  #: src/dialogs/prefs-interface.xml:211(para)
  msgid ""
@@ -3099,7 +3198,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-interface.xml:218(term)
-@@ -3716,7 +4107,8 @@
+@@ -3716,7 +4135,8 @@
  msgid "This removes all keyboard shortcuts from <acronym>GIMP</acronym>."
  msgstr ""
  
@@ -3109,7 +3208,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-input-devices.xml:21(None)
  #, fuzzy
-@@ -3726,7 +4118,8 @@
+@@ -3726,7 +4146,8 @@
  msgstr ""
  "@@image: 'images/preferences/input-devices.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -3119,7 +3218,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-input-devices.xml:148(None)
  #, fuzzy
-@@ -3765,12 +4158,12 @@
+@@ -3765,12 +4186,12 @@
  
  #: src/dialogs/prefs-input-devices.xml:47(para)
  msgid ""
@@ -3138,7 +3237,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-input-devices.xml:59(term)
-@@ -3791,10 +4184,10 @@
+@@ -3791,10 +4212,10 @@
  #: src/dialogs/prefs-input-devices.xml:72(para)
  msgid ""
  "If this option is checked, then when you use a paint tool, the outline of "
@@ -3153,7 +3252,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-input-devices.xml:83(term)
-@@ -3804,8 +4197,8 @@
+@@ -3804,8 +4225,8 @@
  #: src/dialogs/prefs-input-devices.xml:85(para)
  msgid ""
  "This requires <guilabel>Show brush outline</guilabel> to be enabled. When "
@@ -3164,7 +3263,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-input-devices.xml:94(term)
-@@ -3814,8 +4207,8 @@
+@@ -3814,8 +4235,8 @@
  
  #: src/dialogs/prefs-input-devices.xml:96(para)
  msgid ""
@@ -3175,7 +3274,7 @@
  "determined by the next option."
  msgstr ""
  
-@@ -3830,8 +4223,8 @@
+@@ -3830,8 +4251,8 @@
  #: src/dialogs/prefs-input-devices.xml:110(para)
  msgid ""
  "<emphasis role=\"bold\">This setting is only present on Windows.</emphasis> "
@@ -3186,7 +3285,7 @@
  "which one to use."
  msgstr ""
  
-@@ -3872,8 +4265,8 @@
+@@ -3872,8 +4293,8 @@
  "For each of the input devices you can set its <guilabel>Mode</guilabel>. "
  "This decides how <acronym>GIMP</acronym> translates the input from the "
  "device to your screen. For a mouse this is usually set to "
@@ -3197,7 +3296,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-input-devices.xml:159(para)
-@@ -3909,7 +4302,8 @@
+@@ -3909,7 +4330,8 @@
  msgid "Delete your settings and restore default settings."
  msgstr ""
  
@@ -3207,7 +3306,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-input-controllers.xml:21(None)
  #, fuzzy
-@@ -3920,7 +4314,8 @@
+@@ -3920,7 +4342,8 @@
  "@@image: 'images/preferences/input-controllers.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -3217,7 +3316,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-input-controllers.xml:67(None)
  #, fuzzy
-@@ -3931,7 +4326,8 @@
+@@ -3931,7 +4354,8 @@
  "@@image: 'images/preferences/input-controllers-wheel.png'; md5=THIS FILE "
  "DOESN'T EXIST"
  
@@ -3227,7 +3326,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-input-controllers.xml:138(None)
  #, fuzzy
-@@ -3942,7 +4338,8 @@
+@@ -3942,7 +4366,8 @@
  "@@image: 'images/preferences/input-controllers-action.png'; md5=THIS FILE "
  "DOESN'T EXIST"
  
@@ -3237,7 +3336,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-input-controllers.xml:172(None)
  #, fuzzy
-@@ -4028,8 +4425,8 @@
+@@ -4028,8 +4453,8 @@
  #: src/dialogs/prefs-input-controllers.xml:114(para)
  msgid ""
  "This window shows the available scroll wheel events on the left, and on the "
@@ -3248,7 +3347,7 @@
  "button."
  msgstr ""
  
-@@ -4086,7 +4483,8 @@
+@@ -4086,7 +4511,8 @@
  "a variable size brush</link>."
  msgstr ""
  
@@ -3258,7 +3357,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-import-export.xml:23(None)
  #, fuzzy
-@@ -4136,8 +4534,8 @@
+@@ -4136,8 +4562,8 @@
  msgid ""
  "When the previous setting is enabled, this setting allows you to choose "
  "whether <link linkend=\"gimp-image-convert-dithering\">dithering</link> "
@@ -3269,7 +3368,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-import-export.xml:74(term)
-@@ -4176,8 +4574,8 @@
+@@ -4176,8 +4602,8 @@
  
  #: src/dialogs/prefs-import-export.xml:104(para)
  msgid ""
@@ -3280,7 +3379,7 @@
  "rotate the image according to the metadata."
  msgstr ""
  
-@@ -4204,11 +4602,11 @@
+@@ -4204,11 +4630,11 @@
  
  #: src/dialogs/prefs-import-export.xml:139(para)
  msgid ""
@@ -3297,7 +3396,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-import-export.xml:146(para)
-@@ -4221,8 +4619,8 @@
+@@ -4221,8 +4647,8 @@
  msgid ""
  "It is good to be aware of the implications of including certain metadata. "
  "Metadata can contain sensitive personal information that you may want to "
@@ -3308,7 +3407,7 @@
  "image."
  msgstr ""
  
-@@ -4289,16 +4687,16 @@
+@@ -4289,16 +4715,16 @@
  msgid ""
  "When enabled, <acronym>GIMP</acronym> adds and updates metadata "
  "automatically. When disabled, only the minimum necessary metadata changes "
@@ -3329,7 +3428,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-import-export.xml:234(title)
-@@ -4314,9 +4712,9 @@
+@@ -4314,9 +4740,9 @@
  
  #: src/dialogs/prefs-import-export.xml:242(para)
  msgid ""
@@ -3342,7 +3441,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-import-export.xml:247(para)
-@@ -4337,13 +4735,14 @@
+@@ -4337,13 +4763,14 @@
  
  #: src/dialogs/prefs-import-export.xml:266(para)
  msgid ""
@@ -3362,7 +3461,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-image-window.xml:25(None)
  #, fuzzy
-@@ -4394,8 +4793,8 @@
+@@ -4394,8 +4821,8 @@
  
  #: src/dialogs/prefs-image-window.xml:76(para)
  msgid ""
@@ -3373,7 +3472,7 @@
  "applied, and can then be overridden from the View menu when needed."
  msgstr ""
  
-@@ -4409,8 +4808,8 @@
+@@ -4409,8 +4836,8 @@
  "Using <quote>Dot for dot</quote> means that at 1:1 zoom, each pixel in the "
  "image is scaled to one pixel on the display. If <quote>Dot for dot</quote> "
  "is not used, the size is determined by the X and Y resolution of the "
@@ -3384,7 +3483,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-image-window.xml:100(para)
-@@ -4418,8 +4817,8 @@
+@@ -4418,8 +4845,8 @@
  "When you create a selection, the edge of it is shown as a dashed line with "
  "dashes that appear to move, marching slowly along the boundary: they are "
  "jokingly called <link linkend=\"glossary-marching-ants\"><quote>marching "
@@ -3395,7 +3494,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-image-window.xml:112(title)
-@@ -4473,7 +4872,8 @@
+@@ -4473,7 +4900,8 @@
  "be able to scroll to other parts)."
  msgstr ""
  
@@ -3405,7 +3504,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-image-window-title.xml:27(None)
  #, fuzzy
-@@ -4512,8 +4912,8 @@
+@@ -4512,8 +4940,8 @@
  msgid ""
  "This page lets you customize the text that appears in two places: the title "
  "bar of an image, and the status bar. The title bar should appear above the "
@@ -3416,7 +3515,7 @@
  "image. See the <link linkend=\"gimp-image-window\">Image Window</link> "
  "section for more information."
  msgstr ""
-@@ -4525,11 +4925,11 @@
+@@ -4525,11 +4953,11 @@
  #: src/dialogs/prefs-image-window-title.xml:54(para)
  msgid ""
  "You can choose among several predesigned formats, or you can create one of "
@@ -3433,7 +3532,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-image-window-title.xml:64(segtitle)
-@@ -4719,10 +5119,9 @@
+@@ -4719,10 +5147,9 @@
  msgstr ""
  
  #: src/dialogs/prefs-image-window-title.xml:161(seg)
@@ -3445,7 +3544,7 @@
  
  #: src/dialogs/prefs-image-window-title.xml:162(seg)
  msgid "Active layer width in pixels"
-@@ -4760,7 +5159,8 @@
+@@ -4760,7 +5187,8 @@
  msgid "A literal <quote>%</quote> symbol"
  msgstr ""
  
@@ -3455,7 +3554,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-image-window-appearance.xml:23(None)
  #, fuzzy
-@@ -4771,7 +5171,8 @@
+@@ -4771,7 +5199,8 @@
  "@@image: 'images/preferences/prefs-image-window-appearance.png'; md5=THIS "
  "FILE DOESN'T EXIST"
  
@@ -3465,7 +3564,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-image-window-appearance.xml:70(None)
  msgid ""
-@@ -4779,7 +5180,8 @@
+@@ -4779,7 +5208,8 @@
  "md5=dcb57dd8477495174618d72a69248e60"
  msgstr ""
  
@@ -3475,7 +3574,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-image-window-appearance.xml:82(None)
  msgid ""
-@@ -4825,7 +5227,8 @@
+@@ -4825,7 +5255,8 @@
  msgstr ""
  
  #: src/dialogs/prefs-image-window-appearance.xml:85(para)
@@ -3485,7 +3584,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-image-window-appearance.xml:58(para)
-@@ -4834,11 +5237,12 @@
+@@ -4834,11 +5265,12 @@
  "(<xref linkend=\"gimp-view-show-all\"/>), you can see pixels outside the "
  "canvas. When this option is not checked, the area outside the canvas is "
  "filled with a checkerboard pattern, even if you have selected a custom "
@@ -3501,7 +3600,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-icon-theme.xml:22(None)
  #, fuzzy
-@@ -4875,8 +5279,8 @@
+@@ -4875,8 +5307,8 @@
  "highlighted icon theme is the one that is currently active. An icon theme "
  "defines the look of all the icons used in <acronym>GIMP</acronym>'s user "
  "interface. To see what another icon theme looks like, click on one of the "
@@ -3512,7 +3611,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-icon-theme.xml:64(para)
-@@ -4887,7 +5291,8 @@
+@@ -4887,7 +5319,8 @@
  "symbolic icons are available."
  msgstr ""
  
@@ -3522,7 +3621,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-help.xml:22(None)
  #, fuzzy
-@@ -4946,15 +5351,15 @@
+@@ -4946,15 +5379,15 @@
  #: src/dialogs/prefs-help.xml:69(para)
  msgid ""
  "If one or more manuals are installed locally on your system, then a second "
@@ -3542,7 +3641,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-help.xml:80(para)
-@@ -4975,7 +5380,7 @@
+@@ -4975,7 +5408,7 @@
  
  #: src/dialogs/prefs-help.xml:96(para)
  msgid "Default value is 100 (0-1000) items in the history."
@@ -3551,7 +3650,7 @@
  
  #: src/dialogs/prefs-help.xml:102(term)
  #, fuzzy
-@@ -4986,7 +5391,8 @@
+@@ -4986,7 +5419,8 @@
  msgid "This will remove all previous help searches from the history list."
  msgstr ""
  
@@ -3561,7 +3660,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-folders.xml:22(None)
  #, fuzzy
-@@ -5031,11 +5437,11 @@
+@@ -5031,11 +5465,11 @@
  
  #: src/dialogs/prefs-folders.xml:59(para)
  msgid ""
@@ -3578,7 +3677,7 @@
  "you can change it to a different directory. The directory must exist and be "
  "writable by you, or bad things will happen."
  msgstr ""
-@@ -5053,7 +5459,8 @@
+@@ -5053,7 +5487,8 @@
  "there. The directory must exist and be writable by you."
  msgstr ""
  
@@ -3588,7 +3687,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-folders-data.xml:40(None)
  #, fuzzy
-@@ -5061,10 +5468,11 @@
+@@ -5061,10 +5496,11 @@
  "@@image: 'images/preferences/prefs-folders-brush.png'; "
  "md5=dfcc02864e93503812086a4863147970"
  msgstr ""
@@ -3603,7 +3702,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-folders-data.xml:119(None)
  #: src/dialogs/patterns-dialog.xml:285(None)
-@@ -5075,7 +5483,8 @@
+@@ -5075,7 +5511,8 @@
  "md5=e35e3b1ca16709ed519491bf898802f6"
  msgstr ""
  
@@ -3613,7 +3712,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-folders-data.xml:140(None)
  msgid ""
-@@ -5083,7 +5492,8 @@
+@@ -5083,7 +5520,8 @@
  "md5=8650167d7af2392c97a7a5d92c632b24"
  msgstr ""
  
@@ -3623,7 +3722,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-folders-data.xml:147(None)
  msgid ""
-@@ -5091,20 +5501,25 @@
+@@ -5091,20 +5529,25 @@
  "md5=334091b3c094a3e129547cb9f1b4fad0"
  msgstr ""
  
@@ -3654,7 +3753,7 @@
  #: src/dialogs/layer-dialog.xml:712(None)
  #: src/dialogs/channel-dialog.xml:527(None)
  msgid ""
-@@ -5129,13 +5544,13 @@
+@@ -5129,13 +5572,13 @@
  
  #: src/dialogs/prefs-folders-data.xml:44(para)
  msgid ""
@@ -3674,7 +3773,7 @@
  "example."
  msgstr ""
  
-@@ -5150,8 +5565,8 @@
+@@ -5150,8 +5593,8 @@
  
  #: src/dialogs/prefs-folders-data.xml:61(para)
  msgid ""
@@ -3685,7 +3784,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-folders-data.xml:69(term)
-@@ -5191,8 +5606,8 @@
+@@ -5191,8 +5634,8 @@
  
  #: src/dialogs/prefs-folders-data.xml:113(para)
  msgid ""
@@ -3696,7 +3795,7 @@
  "<placeholder-2/> button, this will replace the selected folder with the one "
  "you have specified. If nothing in the list is selected, the folder will be "
  "added to the list."
-@@ -5230,7 +5645,8 @@
+@@ -5230,7 +5673,8 @@
  "a bad idea, but nothing prevents you from doing it."
  msgstr ""
  
@@ -3706,7 +3805,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-display.xml:32(None)
  #, fuzzy
-@@ -5240,7 +5656,8 @@
+@@ -5240,7 +5684,8 @@
  msgstr ""
  "@@image: 'images/preferences/prefs-display.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -3716,7 +3815,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-display.xml:128(None)
  #, fuzzy
-@@ -5320,9 +5737,9 @@
+@@ -5320,9 +5765,9 @@
  
  #: src/dialogs/prefs-display.xml:88(para)
  msgid ""
@@ -3729,7 +3828,7 @@
  "lowering the quality of the display."
  msgstr ""
  
-@@ -5380,7 +5797,8 @@
+@@ -5380,7 +5825,8 @@
  msgid "Some monitors can be impressively off. You will need a soft ruler."
  msgstr ""
  
@@ -3739,7 +3838,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-dialog-defaults.xml:20(None)
  #, fuzzy
-@@ -5410,7 +5828,8 @@
+@@ -5410,7 +5856,8 @@
  msgid "This page lets you customize the default parameters of dialogs."
  msgstr ""
  
@@ -3749,7 +3848,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-default-image.xml:26(None)
  #, fuzzy
-@@ -5484,7 +5903,8 @@
+@@ -5484,7 +5931,8 @@
  "quick-mask\">Quick mask</link> selection."
  msgstr ""
  
@@ -3759,7 +3858,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-default-grid.xml:22(None)
  #, fuzzy
-@@ -5518,23 +5938,25 @@
+@@ -5518,23 +5966,25 @@
  #, fuzzy
  msgid ""
  "This page lets you customize the default properties of GIMP's grid, which "
@@ -3794,7 +3893,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-debugging.xml:26(None)
  #, fuzzy
-@@ -5607,10 +6029,12 @@
+@@ -5607,10 +6057,12 @@
  msgstr ""
  
  #: src/dialogs/prefs-debugging.xml:85(para)
@@ -3809,7 +3908,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-color-management.xml:36(None)
  #, fuzzy
-@@ -5631,14 +6055,14 @@
+@@ -5631,14 +6083,14 @@
  
  #: src/dialogs/prefs-color-management.xml:10(para)
  msgid ""
@@ -3828,7 +3927,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-color-management.xml:29(primary)
-@@ -5689,8 +6113,8 @@
+@@ -5689,8 +6141,8 @@
  #: src/dialogs/prefs-color-management.xml:91(para)
  msgid ""
  "<guilabel>Color managed display</guilabel>: This enables GIMP color "
@@ -3839,7 +3938,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-color-management.xml:99(para)
-@@ -5704,9 +6128,9 @@
+@@ -5704,9 +6156,9 @@
  #: src/dialogs/prefs-color-management.xml:107(para)
  msgid ""
  "Please note, that GIMP color management is used to enhance the display of "
@@ -3852,7 +3951,7 @@
  "that is not part of GIMP."
  msgstr ""
  
-@@ -5746,16 +6170,16 @@
+@@ -5746,16 +6198,16 @@
  #: src/dialogs/prefs-color-management.xml:153(para)
  msgid ""
  "This option is about how colors are converted from the color space of your "
@@ -3875,7 +3974,7 @@
  "linkend=\"glossary-rendering-intent\"/>."
  msgstr ""
  
-@@ -5809,10 +6233,10 @@
+@@ -5809,10 +6261,10 @@
  
  #: src/dialogs/prefs-color-management.xml:213(para)
  msgid ""
@@ -3890,7 +3989,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-color-management.xml:225(title)
-@@ -5908,11 +6332,12 @@
+@@ -5908,11 +6360,12 @@
  
  #: src/dialogs/prefs-color-management.xml:306(para)
  msgid ""
@@ -3906,7 +4005,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-canvas-interaction.xml:22(None)
  #, fuzzy
-@@ -5992,11 +6417,12 @@
+@@ -5992,11 +6445,12 @@
  
  #: src/dialogs/prefs-canvas-interaction.xml:91(para)
  msgid ""
@@ -3922,7 +4021,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-canvas-interaction-snapping.xml:22(None)
  #, fuzzy
-@@ -6031,8 +6457,8 @@
+@@ -6031,8 +6485,8 @@
  
  #: src/dialogs/prefs-canvas-interaction-snapping.xml:50(para)
  msgid ""
@@ -3933,7 +4032,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-canvas-interaction-snapping.xml:56(para)
-@@ -6065,18 +6491,20 @@
+@@ -6065,18 +6519,20 @@
  #: src/dialogs/prefs-canvas-interaction-snapping.xml:82(para)
  #, fuzzy
  msgid ""
@@ -3958,7 +4057,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/prefs-canvas-interaction-modifiers.xml:22(None)
  #, fuzzy
-@@ -6135,10 +6563,10 @@
+@@ -6135,10 +6591,10 @@
  msgid ""
  "To change what a modifier does, click on the list, which will show you all "
  "available choices. To change the modifier that performs a command click on "
@@ -3973,7 +4072,7 @@
  msgstr ""
  
  #: src/dialogs/prefs-canvas-interaction-modifiers.xml:76(term)
-@@ -6151,7 +6579,8 @@
+@@ -6151,7 +6607,8 @@
  "default values."
  msgstr ""
  
@@ -3983,7 +4082,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/pointer-dialog.xml:24(None)
  #, fuzzy
-@@ -6184,21 +6613,21 @@
+@@ -6184,21 +6641,21 @@
  #: src/dialogs/pointer-dialog.xml:47(para)
  #, fuzzy
  msgid ""
@@ -4016,7 +4115,7 @@
  msgstr ""
  "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
  "flik</guimenu><guimenuitem>Paletter</guimenuitem></menuchoice>."
-@@ -6235,8 +6664,8 @@
+@@ -6235,8 +6692,8 @@
  msgid ""
  "This information is active when a selection exists. X and Y are the "
  "coordinates of the upper left corner of the rectangular frame that bounds "
@@ -4027,7 +4126,7 @@
  msgstr ""
  
  #: src/dialogs/pointer-dialog.xml:107(para)
-@@ -6258,9 +6687,9 @@
+@@ -6258,9 +6715,9 @@
  #: src/dialogs/pointer-dialog.xml:121(para)
  msgid ""
  "The channel values for the selected <link linkend=\"glossary-"
@@ -4040,7 +4139,7 @@
  "the <link linkend=\"glossary-html-notation\">HTML Notation</link> of the "
  "pixel color, in hexadecimal. The choices on the pulldown menus are "
  "(<guilabel>Pixel</guilabel> is the default):"
-@@ -6303,8 +6732,8 @@
+@@ -6303,8 +6760,8 @@
  msgid ""
  "The <link linkend=\"glossary-cmyk\">CMYK</link> channel values. This choice "
  "displays the <emphasis>Cyan</emphasis>, <emphasis>Magenta</emphasis>, "
@@ -4051,7 +4150,7 @@
  msgstr ""
  
  #: src/dialogs/pointer-dialog.xml:185(term)
-@@ -6325,7 +6754,8 @@
+@@ -6325,7 +6782,8 @@
  "samplemerge\">Glossary entry</link>."
  msgstr "Se <link linkend=\"gimp-palette-editor-new\">nedan</link>"
  
@@ -4061,7 +4160,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/patterns-dialog.xml:149(None)
  #, fuzzy
-@@ -6336,7 +6766,8 @@
+@@ -6336,7 +6794,8 @@
  "@@image: 'images/dialogs/patterns-dialog-list.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -4071,7 +4170,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/patterns-dialog.xml:158(None)
  #, fuzzy
-@@ -6347,7 +6778,8 @@
+@@ -6347,7 +6806,8 @@
  "@@image: 'images/dialogs/patterns-dialog-list.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -4081,7 +4180,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/patterns-dialog.xml:396(None)
  #, fuzzy
-@@ -6380,15 +6812,15 @@
+@@ -6380,15 +6840,15 @@
  #: src/dialogs/patterns-dialog.xml:31(para)
  msgid ""
  "You can use them with the <link linkend=\"gimp-tool-bucket-fill\">Bucket "
@@ -4101,7 +4200,7 @@
  "randomly chosen patterns are supplied with GIMP, and you can easily add new "
  "patterns of your own."
  msgstr ""
-@@ -6397,29 +6829,29 @@
+@@ -6397,29 +6857,29 @@
  msgid ""
  "From the Toolbox, by clicking on the pattern symbol in the <link "
  "linkend=\"gimp-toolbox-indicator-area\">Brush/Pattern/Gradient area</link> "
@@ -4144,7 +4243,7 @@
  msgstr ""
  "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
  "flik</guimenu><guimenuitem>Paletter</guimenuitem></menuchoice>."
-@@ -6428,9 +6860,9 @@
+@@ -6428,9 +6888,9 @@
  msgid ""
  "From the Tool Options dialog of the <link linkend=\"gimp-tool-clone\">Clone "
  "tool</link> and the <link linkend=\"gimp-tool-bucket-fill\">Bucket Fill "
@@ -4157,7 +4256,7 @@
  "the pop-up, you open the real pattern dialog. Note that, depending on your "
  "Preferences, a pattern selected with the pop-up may only apply to the "
  "currently active tool, not to other paint tools. See the <link "
-@@ -6444,11 +6876,11 @@
+@@ -6444,11 +6904,11 @@
  
  #: src/dialogs/patterns-dialog.xml:118(para)
  msgid ""
@@ -4174,7 +4273,7 @@
  msgstr ""
  
  #: src/dialogs/patterns-dialog.xml:128(para)
-@@ -6515,8 +6947,8 @@
+@@ -6515,8 +6975,8 @@
  "If you <emphasis>double-click</emphasis> on the name of a pattern, you will "
  "be able to edit the name. Note that you are only allowed to rename patterns "
  "that you have added yourself, not the ones that are supplied with GIMP. If "
@@ -4185,7 +4284,7 @@
  "previous value."
  msgstr ""
  
-@@ -6568,10 +7000,10 @@
+@@ -6568,10 +7028,10 @@
  
  #: src/dialogs/patterns-dialog.xml:271(para)
  msgid ""
@@ -4200,7 +4299,7 @@
  msgstr ""
  
  #: src/dialogs/patterns-dialog.xml:289(phrase)
-@@ -6712,9 +7144,9 @@
+@@ -6712,9 +7172,9 @@
  
  #: src/dialogs/patterns-dialog.xml:385(para)
  msgid ""
@@ -4213,7 +4312,7 @@
  msgstr ""
  
  #: src/dialogs/patterns-dialog.xml:392(title)
-@@ -6724,16 +7156,18 @@
+@@ -6724,16 +7184,18 @@
  #: src/dialogs/patterns-dialog.xml:401(para)
  #, fuzzy
  msgid ""
@@ -4241,7 +4340,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/path-dialog.xml:33(None)
  #, fuzzy
-@@ -6743,16 +7177,19 @@
+@@ -6743,16 +7205,19 @@
  msgstr ""
  "@@image: 'images/dialogs/paths-dialog.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -4264,7 +4363,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/path-dialog.xml:233(None)
  msgid ""
-@@ -6760,25 +7197,30 @@
+@@ -6760,25 +7225,30 @@
  "md5=85e481189b9b37fdb716b03e08c46d54"
  msgstr ""
  
@@ -4300,7 +4399,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/path-dialog.xml:416(None)
  #: src/dialogs/indexed-palette-dialog.xml:270(None)
-@@ -6789,7 +7231,8 @@
+@@ -6789,7 +7259,8 @@
  "md5=037e0db3cd91b6fa7d98ad87dc8896b7"
  msgstr ""
  
@@ -4310,7 +4409,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/path-dialog.xml:465(None) src/dialogs/path-dialog.xml:716(None)
  #: src/dialogs/path-dialog.xml:741(None)
-@@ -6798,7 +7241,8 @@
+@@ -6798,7 +7269,8 @@
  "md5=20984d5c7ad3815897db2f106c3d8a1a"
  msgstr ""
  
@@ -4320,7 +4419,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/path-dialog.xml:485(None) src/dialogs/path-dialog.xml:824(None)
  msgid ""
-@@ -6831,20 +7275,20 @@
+@@ -6831,20 +7303,20 @@
  #: src/dialogs/path-dialog.xml:50(para)
  #, fuzzy
  msgid ""
@@ -4351,7 +4450,7 @@
  msgstr ""
  "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
  "flik</guimenu><guimenuitem>Paletter</guimenuitem></menuchoice>."
-@@ -6855,8 +7299,7 @@
+@@ -6855,8 +7327,7 @@
  "linkend=\"gimp-dockable-menu\">detached windows</link> which exists only if "
  "at least one dialog remains open. In this case, you can raise the "
  "<quote>Paths</quote> dialog from the main menu: "
@@ -4361,7 +4460,7 @@
  msgstr ""
  
  #: src/dialogs/path-dialog.xml:90(title)
-@@ -6866,8 +7309,8 @@
+@@ -6866,8 +7337,8 @@
  
  #: src/dialogs/path-dialog.xml:95(para)
  msgid ""
@@ -4372,7 +4471,7 @@
  "actions using the <link linkend=\"gimp-path-dialog-buttons\">buttons</link> "
  "at the bottom of the dialog, or using the <link linkend=\"gimp-paths-"
  "menu\">context menu</link>."
-@@ -6889,6 +7332,10 @@
+@@ -6889,6 +7360,10 @@
  "the active path is shown highlighted in the list. Clicking on any of the "
  "entries will make it the active path."
  msgstr ""
@@ -4383,7 +4482,7 @@
  
  #: src/dialogs/path-dialog.xml:117(para)
  msgid ""
-@@ -6908,7 +7355,8 @@
+@@ -6908,7 +7383,8 @@
  "<acronym>GIMP</acronym> allows you to select multiple paths and perform "
  "actions on them, like stroking or filling. Selecting multiple paths is done "
  "by using the mouse and <keycap>Shift</keycap> key, for adding a range of "
@@ -4393,7 +4492,7 @@
  msgstr ""
  
  #: src/dialogs/path-dialog.xml:141(term)
-@@ -6919,8 +7367,8 @@
+@@ -6919,8 +7395,8 @@
  msgid ""
  "Directly above the list of paths is the header bar. On the left you see the "
  "icons that identify the visibility and lock columns. In the middle a text "
@@ -4404,7 +4503,7 @@
  msgstr ""
  
  #: src/dialogs/path-dialog.xml:168(phrase)
-@@ -6932,8 +7380,8 @@
+@@ -6932,8 +7408,8 @@
  #: src/dialogs/path-dialog.xml:171(para)
  msgid ""
  "Every path is shown in the list with its own attributes, which are very "
@@ -4415,7 +4514,7 @@
  msgstr ""
  
  #: src/dialogs/path-dialog.xml:188(phrase)
-@@ -6943,11 +7391,11 @@
+@@ -6943,11 +7419,11 @@
  #: src/dialogs/path-dialog.xml:191(para)
  msgid ""
  "By default, paths are not visible. This icon is shown when the path is "
@@ -4431,7 +4530,7 @@
  msgstr ""
  
  #: src/dialogs/path-dialog.xml:213(phrase)
-@@ -6991,7 +7439,8 @@
+@@ -6991,7 +7467,8 @@
  msgid ""
  "This icon shows when <quote>lock path position</quote> is enabled for the "
  "current path. When this is enabled, the path is locked for any action that "
@@ -4441,7 +4540,7 @@
  msgstr ""
  
  #: src/dialogs/path-dialog.xml:283(phrase)
-@@ -7027,8 +7476,8 @@
+@@ -7027,8 +7504,8 @@
  
  #: src/dialogs/path-dialog.xml:313(para)
  msgid ""
@@ -4452,7 +4551,7 @@
  "exists, a number will be appended (e.g., <quote>#1</quote>) to make it "
  "unique."
  msgstr ""
-@@ -7149,8 +7598,8 @@
+@@ -7149,8 +7626,8 @@
  #: src/dialogs/path-dialog.xml:472(para)
  msgid ""
  "<keycap>Shift</keycap>-clicking this button brings up the <link "
@@ -4463,7 +4562,7 @@
  msgstr ""
  
  #: src/dialogs/path-dialog.xml:489(phrase)
-@@ -7172,7 +7621,8 @@
+@@ -7172,7 +7649,8 @@
  msgstr "Ta bort slinga"
  
  #: src/dialogs/path-dialog.xml:511(para) src/dialogs/path-dialog.xml:627(para)
@@ -4473,7 +4572,7 @@
  msgstr ""
  
  #: src/dialogs/path-dialog.xml:524(title)
-@@ -7183,8 +7633,8 @@
+@@ -7183,8 +7661,8 @@
  #: src/dialogs/path-dialog.xml:525(para)
  msgid ""
  "The Paths menu can be brought up by right-clicking on a path entry in the "
@@ -4484,7 +4583,7 @@
  "operations that affect paths."
  msgstr ""
  
-@@ -7226,17 +7676,17 @@
+@@ -7226,17 +7704,17 @@
  
  #: src/dialogs/path-dialog.xml:573(para)
  msgid ""
@@ -4508,7 +4607,7 @@
  msgstr ""
  
  #: src/dialogs/path-dialog.xml:591(para) src/dialogs/path-dialog.xml:605(para)
-@@ -7267,8 +7717,8 @@
+@@ -7267,8 +7745,8 @@
  msgid ""
  "<guilabel>Merge Visible Paths</guilabel> takes all the paths in the image "
  "that are visible (that is, all that show <quote>open eye</quote> symbols in "
@@ -4519,7 +4618,7 @@
  msgstr ""
  
  #: src/dialogs/path-dialog.xml:647(term)
-@@ -7310,10 +7760,10 @@
+@@ -7310,10 +7788,10 @@
  msgid ""
  "These commands all convert the active paths into a selection, and then "
  "combine it with the existing selection in the specified ways. "
@@ -4534,7 +4633,7 @@
  "marching-ants\"><quote>marching ants</quote></link> for the resulting "
  "selection should closely follow the path, but don't expect the "
  "correspondence to be perfect."
-@@ -7330,8 +7780,8 @@
+@@ -7330,8 +7808,8 @@
  "From the main menu, as <menuchoice><guimenu>Select</guimenu><guimenuitem>To "
  "Path</guimenuitem></menuchoice>"
  msgstr ""
@@ -4545,7 +4644,7 @@
  
  #: src/dialogs/path-dialog.xml:704(para)
  msgid ""
-@@ -7358,12 +7808,12 @@
+@@ -7358,12 +7836,12 @@
  "involves some rather tricky algorithms: you can alter the way it is done "
  "using the <guilabel>Advanced Options</guilabel>, which are accessed by "
  "holding down the <keycap>Shift</keycap> key while pressing the "
@@ -4564,7 +4663,7 @@
  msgstr ""
  
  #: src/dialogs/path-dialog.xml:755(term)
-@@ -7377,15 +7827,15 @@
+@@ -7377,15 +7855,15 @@
  "From the main menu, as <menuchoice><guimenu>Edit</guimenu><guimenuitem>Fill "
  "Paths…</guimenuitem></menuchoice>"
  msgstr ""
@@ -4584,7 +4683,7 @@
  
  #: src/dialogs/path-dialog.xml:778(para)
  msgid ""
-@@ -7409,11 +7859,12 @@
+@@ -7409,11 +7887,12 @@
  #: src/dialogs/path-dialog.xml:803(para)
  #, fuzzy
  msgid ""
@@ -4601,7 +4700,7 @@
  
  #: src/dialogs/path-dialog.xml:812(para)
  msgid ""
-@@ -7437,8 +7888,8 @@
+@@ -7437,8 +7916,8 @@
  "<guilabel>Stroke Paths</guilabel> renders the selected paths on the active "
  "layer of the image, permitting a wide variety of line styles and stroking "
  "options. See the sections about <link linkend=\"gimp-path-stroke\">Stroke "
@@ -4612,7 +4711,7 @@
  msgstr ""
  
  #: src/dialogs/path-dialog.xml:849(term)
-@@ -7491,8 +7942,8 @@
+@@ -7491,8 +7970,8 @@
  "<guilabel>Import Path</guilabel> command. The format used for saving paths "
  "is SVG: this means that vector-graphics programs such as "
  "<application>Inkscape</application> will also be able to import the paths "
@@ -4623,7 +4722,7 @@
  msgstr ""
  
  #: src/dialogs/path-dialog.xml:902(term)
-@@ -7507,7 +7958,8 @@
+@@ -7507,7 +7986,8 @@
  "information on SVG files and how they relate to GIMP paths."
  msgstr ""
  
@@ -4633,7 +4732,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/palettes-dialog.xml:120(None)
  #, fuzzy
-@@ -7518,7 +7970,8 @@
+@@ -7518,7 +7998,8 @@
  "@@image: 'images/dialogs/palettes-grid-dialog.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -4643,7 +4742,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/palettes-dialog.xml:129(None)
  #, fuzzy
-@@ -7528,7 +7981,8 @@
+@@ -7528,7 +8009,8 @@
  msgstr ""
  "@@image: 'images/dialogs/palettes-dialog.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -4653,7 +4752,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/palettes-dialog.xml:357(None)
  #, fuzzy
-@@ -7539,7 +7993,8 @@
+@@ -7539,7 +8021,8 @@
  "@@image: 'images/dialogs/palette-import-dialog.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -4663,7 +4762,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/palettes-dialog.xml:616(None)
  #, fuzzy
-@@ -7550,7 +8005,8 @@
+@@ -7550,7 +8033,8 @@
  "@@image: 'images/dialogs/examples/palettes-offset.png'; md5=THIS FILE "
  "DOESN'T EXIST"
  
@@ -4673,7 +4772,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/palettes-dialog.xml:663(None)
  #, fuzzy
-@@ -7561,7 +8017,8 @@
+@@ -7561,7 +8045,8 @@
  "@@image: 'images/dialogs/examples/palettes-repeat-gradient.png'; md5=THIS "
  "FILE DOESN'T EXIST"
  
@@ -4683,7 +4782,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/palettes-dialog.xml:699(None)
  #, fuzzy
-@@ -7571,7 +8028,8 @@
+@@ -7571,7 +8056,8 @@
  msgstr ""
  "@@image: 'images/dialogs/palettes-sort.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -4693,7 +4792,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/palettes-dialog.xml:813(None)
  #, fuzzy
-@@ -7582,7 +8040,8 @@
+@@ -7582,7 +8068,8 @@
  "@@image: 'images/dialogs/palette-editor-dialog.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -4703,7 +4802,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/palettes-dialog.xml:948(None)
  #: src/dialogs/navigation-dialog.xml:144(None)
-@@ -7594,7 +8053,8 @@
+@@ -7594,7 +8081,8 @@
  "md5=406aaf83df4dc1623cdbeee04c13623e"
  msgstr ""
  
@@ -4713,7 +4812,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/palettes-dialog.xml:966(None)
  #: src/dialogs/navigation-dialog.xml:152(None)
-@@ -7606,7 +8066,8 @@
+@@ -7606,7 +8094,8 @@
  "md5=a162ef7b7b884fbdfd72291a3e2a8847"
  msgstr ""
  
@@ -4723,7 +4822,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/palettes-dialog.xml:985(None)
  #: src/dialogs/navigation-dialog.xml:180(None)
-@@ -7643,8 +8104,8 @@
+@@ -7643,8 +8132,8 @@
  
  #: src/dialogs/palettes-dialog.xml:29(para)
  msgid ""
@@ -4734,7 +4833,7 @@
  "section for basic information on palettes and how they can be created and "
  "used."
  msgstr ""
-@@ -7653,8 +8114,8 @@
+@@ -7653,8 +8142,8 @@
  msgid ""
  "The <quote>Palettes</quote> dialog is used to select a palette, by clicking "
  "on it in a list or grid view. A few dozen more or less randomly chosen "
@@ -4745,7 +4844,7 @@
  "operations for creating new palettes or manipulating the ones that already "
  "exist."
  msgstr ""
-@@ -7669,21 +8130,21 @@
+@@ -7669,21 +8158,21 @@
  #: src/dialogs/palettes-dialog.xml:64(para)
  #, fuzzy
  msgid ""
@@ -4778,7 +4877,7 @@
  msgstr ""
  "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
  "flik</guimenu><guimenuitem>Paletter</guimenuitem></menuchoice>."
-@@ -7726,17 +8187,18 @@
+@@ -7726,17 +8215,18 @@
  
  #: src/dialogs/palettes-dialog.xml:136(para)
  msgid ""
@@ -4804,7 +4903,7 @@
  msgstr ""
  
  #: src/dialogs/palettes-dialog.xml:157(para)
-@@ -7757,8 +8219,7 @@
+@@ -7757,8 +8247,7 @@
  
  #: src/dialogs/palettes-dialog.xml:182(para)
  #, fuzzy
@@ -4814,7 +4913,7 @@
  msgstr ""
  "Denna knapp tar fram <link linkend=\"gimp-palette-editor-"
  "dialog\">Palettredigeraren</link>."
-@@ -7832,19 +8293,20 @@
+@@ -7832,19 +8321,20 @@
  #: src/dialogs/palettes-dialog.xml:285(para)
  msgid ""
  "The <quote>Palettes</quote> context menu can be accessed by right-clicking "
@@ -4843,7 +4942,7 @@
  msgstr ""
  
  #: src/dialogs/palettes-dialog.xml:313(term)
-@@ -7855,8 +8317,8 @@
+@@ -7855,8 +8345,8 @@
  #: src/dialogs/palettes-dialog.xml:315(para)
  msgid ""
  "<quote>Edit Palette</quote> is an alternative way of activating the <link "
@@ -4854,7 +4953,7 @@
  "pressing the <quote>Edit Palette</quote><placeholder-1/> button at the "
  "bottom of the dialog."
  msgstr ""
-@@ -7870,8 +8332,8 @@
+@@ -7870,8 +8360,8 @@
  "<quote>New Palette</quote> creates a new, untitled palette, initially "
  "containing no color entries, and pops up the Palette Editor so that you can "
  "add colors to the palette. The result will automatically be saved in your "
@@ -4865,7 +4964,7 @@
  msgstr ""
  
  #: src/dialogs/palettes-dialog.xml:346(term)
-@@ -8005,16 +8467,16 @@
+@@ -8005,16 +8495,16 @@
  msgid ""
  "Even setting <quote>Number of colors</quote> to maximum, the number of "
  "colors can't exceed 10000 in the palette. RGB images have much more colors. "
@@ -4886,7 +4985,7 @@
  "folder when you quit <acronym>GIMP</acronym>, so it will be available in "
  "future sessions."
  msgstr ""
-@@ -8026,8 +8488,8 @@
+@@ -8026,8 +8516,8 @@
  #: src/dialogs/palettes-dialog.xml:515(para)
  msgid ""
  "Duplicate Palette creates a new palette by copying the palette that is "
@@ -4897,7 +4996,7 @@
  "<filename>palettes</filename> folder when you quit GIMP, so it will be "
  "available from the Palettes dialog in future sessions."
  msgstr ""
-@@ -8066,10 +8528,10 @@
+@@ -8066,10 +8556,10 @@
  #: src/dialogs/palettes-dialog.xml:557(para)
  msgid ""
  "Delete Palette removes the palette from the <quote>Palettes </quote>dialog, "
@@ -4912,7 +5011,7 @@
  msgstr ""
  
  #: src/dialogs/palettes-dialog.xml:568(term)
-@@ -8078,9 +8540,9 @@
+@@ -8078,9 +8568,9 @@
  
  #: src/dialogs/palettes-dialog.xml:570(para)
  msgid ""
@@ -4925,7 +5024,7 @@
  "them into one of your palettes folders, and want to make them available "
  "during the current session."
  msgstr ""
-@@ -8094,12 +8556,13 @@
+@@ -8094,12 +8584,13 @@
  msgid ""
  "The <guisubmenu>Export as</guisubmenu> submenu gives several choices to "
  "export the current palette in external formats. At this time, exporting to "
@@ -4945,7 +5044,7 @@
  msgstr ""
  
  #: src/dialogs/palettes-dialog.xml:599(term)
-@@ -8115,15 +8578,15 @@
+@@ -8115,15 +8606,15 @@
  
  #: src/dialogs/palettes-dialog.xml:602(para)
  msgid ""
@@ -4965,7 +5064,7 @@
  msgstr ""
  
  #: src/dialogs/palettes-dialog.xml:612(title)
-@@ -8148,8 +8611,8 @@
+@@ -8148,8 +8639,8 @@
  #: src/dialogs/palettes-dialog.xml:635(para)
  msgid ""
  "With this command, all the colors of the palette are used to form the "
@@ -4976,7 +5075,7 @@
  "palette."
  msgstr ""
  
-@@ -8183,8 +8646,8 @@
+@@ -8183,8 +8674,8 @@
  #: src/dialogs/palettes-dialog.xml:678(para)
  msgid ""
  "This command opens a dialog window which allows you to sort the colors of "
@@ -4987,7 +5086,7 @@
  msgstr ""
  
  #: src/dialogs/palettes-dialog.xml:684(para)
-@@ -8208,8 +8671,8 @@
+@@ -8208,8 +8699,8 @@
  msgid ""
  "<guilabel>Selections</guilabel>: This option determines how the palette is "
  "going to be sorted. How to use this has not been well documented by its "
@@ -4998,7 +5097,7 @@
  msgstr ""
  
  #: src/dialogs/palettes-dialog.xml:713(para)
-@@ -8275,8 +8738,8 @@
+@@ -8275,8 +8766,8 @@
  #: src/dialogs/palettes-dialog.xml:761(para)
  #: src/dialogs/palettes-dialog.xml:774(para)
  msgid ""
@@ -5009,7 +5108,7 @@
  msgstr ""
  
  #: src/dialogs/palettes-dialog.xml:767(para)
-@@ -8320,12 +8783,12 @@
+@@ -8320,12 +8811,12 @@
  "The Palette Editor is used mainly for two purposes: first, for setting "
  "GIMP's foreground or background colors (as shown in the Color Area of the "
  "Toolbox) to selected colors from the palette; second, for modifying the "
@@ -5028,7 +5127,7 @@
  msgstr ""
  
  #: src/dialogs/palettes-dialog.xml:830(title)
-@@ -8354,15 +8817,15 @@
+@@ -8354,15 +8845,15 @@
  #: src/dialogs/palettes-dialog.xml:853(para)
  msgid ""
  "If you click on a color box in the palette display, GIMP's foreground color "
@@ -5048,7 +5147,7 @@
  "the selected palette entry."
  msgstr ""
  
-@@ -8385,8 +8848,8 @@
+@@ -8385,8 +8876,8 @@
  msgid ""
  "To the right of the name entry is a spinbutton that allows you to set the "
  "number of columns used to display the palette. This only affects the "
@@ -5059,7 +5158,7 @@
  msgstr ""
  
  #: src/dialogs/palettes-dialog.xml:883(para)
-@@ -8479,15 +8942,15 @@
+@@ -8479,15 +8970,15 @@
  msgid ""
  "The Palette Editor Menu can be accessed by right-clicking on the palette "
  "display in the Palette Editor, or by choosing the top entry from the dialog "
@@ -5080,7 +5179,7 @@
  "then the menu entry will be disabled."
  msgstr ""
  
-@@ -8498,8 +8961,8 @@
+@@ -8498,8 +8989,8 @@
  #: src/dialogs/palettes-dialog.xml:1028(para)
  msgid ""
  "These commands each create a new palette entry, using either GIMP's current "
@@ -5091,7 +5190,7 @@
  msgstr ""
  
  #: src/dialogs/palettes-dialog.xml:1038(para)
-@@ -8537,7 +9000,8 @@
+@@ -8537,7 +9028,8 @@
  "clicking on it in the <quote>Palettes</quote> dialog."
  msgstr ""
  
@@ -5101,7 +5200,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/open-file-dialog.xml:54(None)
  #, fuzzy
-@@ -8547,7 +9011,8 @@
+@@ -8547,7 +9039,8 @@
  msgstr ""
  "@@image: 'images/dialogs/images-dialog.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -5111,7 +5210,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/open-file-dialog.xml:93(None)
  #, fuzzy
-@@ -8558,7 +9023,8 @@
+@@ -8558,7 +9051,8 @@
  "@@image: 'images/dialogs/buffers-context-menu.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -5121,7 +5220,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/open-file-dialog.xml:195(None)
  #, fuzzy
-@@ -8569,7 +9035,8 @@
+@@ -8569,7 +9063,8 @@
  "@@image: 'images/dialogs/palette-editor-context-menu.png'; md5=THIS FILE "
  "DOESN'T EXIST"
  
@@ -5131,7 +5230,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/open-file-dialog.xml:391(None)
  #, fuzzy
-@@ -8579,7 +9046,8 @@
+@@ -8579,7 +9074,8 @@
  msgstr ""
  "@@image: 'images/dialogs/patterns-dialog.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -5141,7 +5240,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/open-file-dialog.xml:404(None)
  #, fuzzy
-@@ -8607,19 +9075,19 @@
+@@ -8607,19 +9103,19 @@
  
  #: src/dialogs/open-file-dialog.xml:18(para)
  msgid ""
@@ -5167,7 +5266,7 @@
  
  #: src/dialogs/open-file-dialog.xml:38(para)
  msgid ""
-@@ -8640,8 +9108,8 @@
+@@ -8640,8 +9136,8 @@
  #: src/dialogs/open-file-dialog.xml:59(para)
  msgid ""
  "This file selection dialog should look familiar when you have worked with "
@@ -5178,7 +5277,7 @@
  "this dialog based on the numbers in the red circles."
  msgstr ""
  
-@@ -8649,9 +9117,9 @@
+@@ -8649,9 +9145,9 @@
  #: src/dialogs/open-file-dialog.xml:67(para)
  msgid ""
  "This area gives you access to your main folders and your storage devices. "
@@ -5191,7 +5290,7 @@
  msgstr ""
  
  #: src/dialogs/open-file-dialog.xml:74(para)
-@@ -8736,9 +9204,9 @@
+@@ -8736,9 +9232,9 @@
  msgid ""
  "If you need to navigate to another location not available by clicking, you "
  "can open a text field where you can type or paste the desired location. To "
@@ -5204,7 +5303,7 @@
  msgstr ""
  
  #: src/dialogs/open-file-dialog.xml:159(para)
-@@ -8752,8 +9220,8 @@
+@@ -8752,8 +9248,8 @@
  #: src/dialogs/open-file-dialog.xml:168(para)
  msgid ""
  "The contents of the selected folder is displayed here. Change your current "
@@ -5215,7 +5314,7 @@
  "clicking on the <guibutton>Open</guibutton> button. A double left click "
  "opens the file directly. Please note that you can open image files only."
  msgstr ""
-@@ -8761,8 +9229,8 @@
+@@ -8761,8 +9257,8 @@
  #: src/dialogs/open-file-dialog.xml:177(para)
  msgid ""
  "By default, the list of image files is sorted alphabetically based on the "
@@ -5226,7 +5325,7 @@
  "sort the list. A small triangle in the column name shows that it is "
  "currently being used to sort the list. If the triangle is pointing up, "
  "sorting is done ascending. Clicking again on the same column, will changing "
-@@ -8834,8 +9302,8 @@
+@@ -8834,8 +9330,8 @@
  
  #: src/dialogs/open-file-dialog.xml:251(para)
  msgid ""
@@ -5237,7 +5336,7 @@
  msgstr ""
  
  #: src/dialogs/open-file-dialog.xml:258(term)
-@@ -8863,8 +9331,8 @@
+@@ -8863,8 +9359,8 @@
  #. 4
  #: src/dialogs/open-file-dialog.xml:281(para)
  msgid ""
@@ -5248,7 +5347,7 @@
  "format recognized by <acronym>GIMP</acronym>, file size, dimensions and "
  "image composition are displayed below the preview window."
  msgstr ""
-@@ -8880,8 +9348,8 @@
+@@ -8880,8 +9376,8 @@
  #: src/dialogs/open-file-dialog.xml:300(para)
  msgid ""
  "This part of the list shows the folders that you have bookmarked. You can "
@@ -5259,7 +5358,7 @@
  msgstr ""
  
  #: src/dialogs/open-file-dialog.xml:306(para)
-@@ -8904,8 +9372,8 @@
+@@ -8904,8 +9400,8 @@
  #. 7
  #: src/dialogs/open-file-dialog.xml:326(para)
  msgid ""
@@ -5270,7 +5369,7 @@
  "of only the image files that GIMP recognizes."
  msgstr ""
  
-@@ -8921,8 +9389,8 @@
+@@ -8921,8 +9417,8 @@
  
  #: src/dialogs/open-file-dialog.xml:341(para)
  msgid ""
@@ -5281,7 +5380,7 @@
  "correct format."
  msgstr ""
  
-@@ -8936,9 +9404,9 @@
+@@ -8936,9 +9432,9 @@
  #: src/dialogs/open-file-dialog.xml:354(para)
  msgid ""
  "Explicitly selecting the file type can be useful in certain cases. You can "
@@ -5294,7 +5393,7 @@
  msgstr ""
  
  #: src/dialogs/open-file-dialog.xml:368(title)
-@@ -8957,7 +9425,8 @@
+@@ -8957,7 +9453,8 @@
  msgid ""
  "You can search in <guilabel>Recent</guilabel> or any folder that you "
  "navigate to. Only the contents of the selected location are included in the "
@@ -5304,7 +5403,7 @@
  msgstr ""
  
  #: src/dialogs/open-file-dialog.xml:381(para)
-@@ -8985,27 +9454,28 @@
+@@ -8985,27 +9482,28 @@
  #: src/dialogs/open-file-dialog.xml:409(para)
  msgid ""
  "When you open a non XCF image that has a color profile attached to it, GIMP "
@@ -5340,7 +5439,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/navigation-dialog.xml:18(None)
  #, fuzzy
-@@ -9015,7 +9485,8 @@
+@@ -9015,7 +9513,8 @@
  msgstr ""
  "@@image: 'images/dialogs/icon-navigation.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -5350,7 +5449,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/navigation-dialog.xml:110(None)
  #, fuzzy
-@@ -9025,7 +9496,8 @@
+@@ -9025,7 +9524,8 @@
  msgstr ""
  "@@image: 'images/dialogs/icon-navigation.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -5360,7 +5459,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/navigation-dialog.xml:162(None)
  msgid ""
-@@ -9033,7 +9505,8 @@
+@@ -9033,7 +9533,8 @@
  "md5=3ef83799e953ea1177122adad95b52ce"
  msgstr ""
  
@@ -5370,7 +5469,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/navigation-dialog.xml:199(None)
  msgid ""
-@@ -9041,7 +9514,8 @@
+@@ -9041,7 +9542,8 @@
  "md5=509e79d6148a7f0c11c3cafb80e959f5"
  msgstr ""
  
@@ -5380,7 +5479,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/navigation-dialog.xml:218(None)
  msgid ""
-@@ -9058,8 +9532,8 @@
+@@ -9058,8 +9560,8 @@
  msgid ""
  "The Navigation dialog is designed to offer easy movement around the active "
  "image if the zoom is set higher than what the image window can display. If "
@@ -5391,7 +5490,7 @@
  "mouse pointer takes the form of a grabbing hand; outside this rectangle, it "
  "takes the form of a hand with pointing fore-finger."
  msgstr ""
-@@ -9088,21 +9562,21 @@
+@@ -9088,21 +9590,21 @@
  #: src/dialogs/navigation-dialog.xml:65(para)
  #, fuzzy
  msgid ""
@@ -5424,7 +5523,7 @@
  msgstr ""
  "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
  "flik</guimenu><guimenuitem>Bilder</guimenuitem></menuchoice>."
-@@ -9110,18 +9584,19 @@
+@@ -9110,18 +9612,19 @@
  #: src/dialogs/navigation-dialog.xml:93(para)
  #, fuzzy
  msgid ""
@@ -5452,7 +5551,7 @@
  msgstr ""
  
  #: src/dialogs/navigation-dialog.xml:122(title)
-@@ -9142,8 +9617,8 @@
+@@ -9142,8 +9645,8 @@
  
  #: src/dialogs/navigation-dialog.xml:140(term)
  msgid ""
@@ -5463,7 +5562,7 @@
  msgstr ""
  
  #: src/dialogs/navigation-dialog.xml:169(para)
-@@ -9181,7 +9656,8 @@
+@@ -9181,7 +9684,8 @@
  "available. See <xref linkend=\"gimp-view-shrink-wrap\"/> for the details."
  msgstr ""
  
@@ -5473,7 +5572,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/mypaint-brushes-dialog.xml:23(None)
  #, fuzzy
-@@ -9191,7 +9667,8 @@
+@@ -9191,7 +9695,8 @@
  msgstr ""
  "@@image: 'images/dialogs/brushes-dialog.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -5483,7 +5582,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/mypaint-brushes-dialog.xml:88(None)
  #, fuzzy
-@@ -9202,7 +9679,8 @@
+@@ -9202,7 +9707,8 @@
  "@@image: 'images/dialogs/brushes-dialog-simple.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -5493,7 +5592,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/mypaint-brushes-dialog.xml:127(None)
  #: src/dialogs/brushes-dialog.xml:149(None)
-@@ -9211,7 +9689,8 @@
+@@ -9211,7 +9717,8 @@
  "md5=70e21560c8e3675876f0ed1dd39ba34e"
  msgstr ""
  
@@ -5503,7 +5602,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/mypaint-brushes-dialog.xml:139(None)
  #: src/dialogs/brushes-dialog.xml:161(None)
-@@ -9220,7 +9699,8 @@
+@@ -9220,7 +9727,8 @@
  "md5=614ed6660c1785b5595b60d34e307801"
  msgstr ""
  
@@ -5513,7 +5612,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/mypaint-brushes-dialog.xml:151(None)
  msgid ""
-@@ -9251,8 +9731,8 @@
+@@ -9251,8 +9759,8 @@
  
  #: src/dialogs/mypaint-brushes-dialog.xml:27(para)
  msgid ""
@@ -5524,7 +5623,7 @@
  "brush\">MyPaint Brush</link> tool section for more information on MyPaint "
  "brushes and how they are used in GIMP. The dialog also gives you access to "
  "several functions for manipulating brushes. You can select a brush by "
-@@ -9264,19 +9744,19 @@
+@@ -9264,19 +9772,19 @@
  #: src/dialogs/mypaint-brushes-dialog.xml:51(para)
  #, fuzzy
  msgid ""
@@ -5553,7 +5652,7 @@
  "Brushes</guimenuitem></menuchoice>."
  msgstr ""
  "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
-@@ -9334,8 +9814,8 @@
+@@ -9334,8 +9842,8 @@
  msgid ""
  "Note that, depending on your Preferences, a brush selected with the popup "
  "may only apply to the currently active tool, not to other paint tools. See "
@@ -5564,7 +5663,7 @@
  msgstr ""
  
  #: src/dialogs/mypaint-brushes-dialog.xml:170(title)
-@@ -9350,11 +9830,11 @@
+@@ -9350,11 +9858,11 @@
  
  #: src/dialogs/mypaint-brushes-dialog.xml:174(para)
  msgid ""
@@ -5581,7 +5680,7 @@
  msgstr ""
  
  #: src/dialogs/mypaint-brushes-dialog.xml:182(para)
-@@ -9373,8 +9853,8 @@
+@@ -9373,8 +9881,8 @@
  #: src/dialogs/mypaint-brushes-dialog.xml:195(para)
  msgid ""
  "In the center a grid view of all available brushes is shown, with the "
@@ -5592,7 +5691,7 @@
  msgstr ""
  
  #: src/dialogs/mypaint-brushes-dialog.xml:203(term)
-@@ -9397,9 +9877,12 @@
+@@ -9397,9 +9905,12 @@
  #: src/dialogs/mypaint-brushes-dialog.xml:217(para)
  msgid ""
  "When you click on a brush preview, it becomes the current brush and it gets "
@@ -5607,7 +5706,7 @@
  
  #: src/dialogs/mypaint-brushes-dialog.xml:226(para)
  msgid ""
-@@ -9450,9 +9933,9 @@
+@@ -9450,9 +9961,9 @@
  #: src/dialogs/mypaint-brushes-dialog.xml:322(para)
  msgid ""
  "Some of functions performed by these buttons can also be accessed from the "
@@ -5620,7 +5719,7 @@
  msgstr ""
  
  #: src/dialogs/mypaint-brushes-dialog.xml:331(title)
-@@ -9463,8 +9946,8 @@
+@@ -9463,8 +9974,8 @@
  #: src/dialogs/mypaint-brushes-dialog.xml:332(para)
  #: src/dialogs/brushes-dialog.xml:519(para)
  msgid ""
@@ -5631,7 +5730,7 @@
  msgstr ""
  
  #: src/dialogs/mypaint-brushes-dialog.xml:339(term)
-@@ -9483,7 +9966,8 @@
+@@ -9483,7 +9994,8 @@
  "brush in the default File Manager on your system."
  msgstr ""
  
@@ -5641,7 +5740,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/layer-mask.xml:24(None)
  #, fuzzy
-@@ -9493,7 +9977,8 @@
+@@ -9493,7 +10005,8 @@
  msgstr ""
  "@@image: 'images/dialogs/layer-mask-add.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -5651,7 +5750,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/layer-mask.xml:136(None)
  #, fuzzy
-@@ -9504,7 +9989,8 @@
+@@ -9504,7 +10017,8 @@
  "@@image: 'images/dialogs/examples/layer-mask-2.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -5661,7 +5760,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/layer-mask.xml:147(None)
  #, fuzzy
-@@ -9515,7 +10001,8 @@
+@@ -9515,7 +10029,8 @@
  "@@image: 'images/dialogs/examples/layer-mask-2.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -5671,7 +5770,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/layer-mask.xml:164(None)
  #, fuzzy
-@@ -9526,7 +10013,8 @@
+@@ -9526,7 +10041,8 @@
  "@@image: 'images/dialogs/examples/layer-mask-2.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -5681,7 +5780,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/layer-mask.xml:175(None)
  #, fuzzy
-@@ -9561,8 +10049,8 @@
+@@ -9561,8 +10077,8 @@
  #: src/dialogs/layer-mask.xml:33(para)
  msgid ""
  "A transparency mask can be added to each layer, which defines what parts of "
@@ -5692,7 +5791,7 @@
  "attached. Every pixel of the mask can then be coupled with a pixel at the "
  "same location in the layer. The mask is a set of pixels in grayscale. The "
  "pixels with a value 0 are black and give a full transparency to the coupled "
-@@ -9602,8 +10090,8 @@
+@@ -9602,8 +10118,8 @@
  #: src/dialogs/layer-mask.xml:75(para)
  msgid ""
  "<guilabel>Transfer layer's alpha channel</guilabel>: Does the same thing as "
@@ -5703,7 +5802,7 @@
  msgstr ""
  
  #: src/dialogs/layer-mask.xml:81(para)
-@@ -9620,8 +10108,8 @@
+@@ -9620,8 +10136,8 @@
  
  #: src/dialogs/layer-mask.xml:92(para)
  msgid ""
@@ -5714,7 +5813,7 @@
  msgstr ""
  
  #: src/dialogs/layer-mask.xml:98(para)
-@@ -9647,14 +10135,14 @@
+@@ -9647,14 +10163,14 @@
  
  #: src/dialogs/layer-mask.xml:114(para)
  msgid ""
@@ -5737,7 +5836,7 @@
  msgstr ""
  
  #: src/dialogs/layer-mask.xml:129(term)
-@@ -9691,7 +10179,8 @@
+@@ -9691,7 +10207,8 @@
  "the underlying layer becomes visible."
  msgstr ""
  
@@ -5747,7 +5846,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/layer-dialog.xml:26(None)
  #, fuzzy
-@@ -9701,7 +10190,8 @@
+@@ -9701,7 +10218,8 @@
  msgstr ""
  "@@image: 'images/dialogs/layer-dialog.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -5757,7 +5856,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/layer-dialog.xml:150(None)
  msgid ""
-@@ -9709,7 +10199,8 @@
+@@ -9709,7 +10227,8 @@
  "md5=3b7ae2e90580ab0fd7ed39bb54aaa68a"
  msgstr ""
  
@@ -5767,7 +5866,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/layer-dialog.xml:253(None)
  #: src/dialogs/channel-dialog.xml:344(None)
-@@ -9718,9 +10209,11 @@
+@@ -9718,9 +10237,11 @@
  "@@image: 'images/stock-icons/gimp-lock-content.svg'; "
  "md5=ce54ed3f858a637f8cdc547d9b454d67"
  msgstr ""
@@ -5781,7 +5880,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/layer-dialog.xml:316(None)
  msgid ""
-@@ -9728,7 +10221,8 @@
+@@ -9728,7 +10249,8 @@
  "md5=5da016100d62c3ef97bb07ae4efac960"
  msgstr ""
  
@@ -5791,7 +5890,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/layer-dialog.xml:339(None)
  #, fuzzy
-@@ -9739,7 +10233,8 @@
+@@ -9739,7 +10261,8 @@
  "@@image: 'images/dialogs/examples/layer-lock-1.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -5801,7 +5900,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/layer-dialog.xml:354(None)
  #, fuzzy
-@@ -9750,7 +10245,8 @@
+@@ -9750,7 +10273,8 @@
  "@@image: 'images/dialogs/examples/layer-lock-2.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -5811,7 +5910,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/layer-dialog.xml:378(None)
  msgid ""
-@@ -9758,7 +10254,8 @@
+@@ -9758,7 +10282,8 @@
  "md5=a3cc86b54156fba96ad6fad4effb6fc1"
  msgstr ""
  
@@ -5821,7 +5920,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/layer-dialog.xml:518(None)
  #: src/dialogs/layer-dialog.xml:762(None)
-@@ -9768,7 +10265,8 @@
+@@ -9768,7 +10293,8 @@
  "md5=bb05f514074f3277374e17160d4b9def"
  msgstr ""
  
@@ -5831,7 +5930,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/layer-dialog.xml:669(None)
  #, fuzzy
-@@ -9777,7 +10275,8 @@
+@@ -9777,7 +10303,8 @@
  "md5=a2dce97d57bafd8f8471e969146f33f2"
  msgstr "@@image: 'images/dialogs/navigation.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -5841,7 +5940,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/layer-dialog.xml:770(None)
  #, fuzzy
-@@ -9787,7 +10286,8 @@
+@@ -9787,7 +10314,8 @@
  msgstr ""
  "@@image: 'images/dialogs/stock-anchor-16.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -5851,7 +5950,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/layer-dialog.xml:829(None)
  #, fuzzy
-@@ -9820,29 +10320,29 @@
+@@ -9820,29 +10348,29 @@
  #: src/dialogs/layer-dialog.xml:47(para)
  #, fuzzy
  msgid ""
@@ -5894,7 +5993,7 @@
  msgstr ""
  
  #: src/dialogs/layer-dialog.xml:82(para)
-@@ -9851,8 +10351,7 @@
+@@ -9851,8 +10379,7 @@
  "linkend=\"gimp-dockable-menu\">detached windows</link> which exists only if "
  "at least one dialog remains open. In this case, you can raise the "
  "<quote>Layers</quote> dialog from the main menu: "
@@ -5904,7 +6003,7 @@
  msgstr ""
  
  #: src/dialogs/layer-dialog.xml:95(title)
-@@ -9863,12 +10362,12 @@
+@@ -9863,12 +10390,12 @@
  #: src/dialogs/layer-dialog.xml:100(para)
  msgid ""
  "Every layer appears in the dialog in the form of a thumbnail. When an image "
@@ -5921,7 +6020,7 @@
  msgstr ""
  
  #: src/dialogs/layer-dialog.xml:113(term)
-@@ -9880,16 +10379,16 @@
+@@ -9880,16 +10407,16 @@
  #: src/dialogs/layer-dialog.xml:115(para)
  msgid ""
  "<acronym>GIMP</acronym> allows you to select multiple layers and perform "
@@ -5943,7 +6042,7 @@
  "show up telling you that you can't do that and that you have to select a "
  "single layer."
  msgstr ""
-@@ -9902,11 +10401,11 @@
+@@ -9902,11 +10429,11 @@
  
  #: src/dialogs/layer-dialog.xml:135(para)
  msgid ""
@@ -5960,7 +6059,7 @@
  msgstr ""
  
  #: src/dialogs/layer-dialog.xml:154(phrase)
-@@ -9925,8 +10424,8 @@
+@@ -9925,8 +10452,8 @@
  msgid ""
  "Below the search bar you will see a plus icon. Clicking this allows you to "
  "add the current search as a new named set. This search, and previously "
@@ -5971,7 +6070,7 @@
  "search has a close icon in the right corner, which can be used to remove "
  "that saved search."
  msgstr ""
-@@ -9956,10 +10455,11 @@
+@@ -9956,10 +10483,11 @@
  #: src/dialogs/layer-dialog.xml:201(para)
  msgid ""
  "Clicking this icon toggles whether the layer is visible or not. "
@@ -5987,7 +6086,7 @@
  msgstr ""
  
  #: src/dialogs/layer-dialog.xml:220(phrase)
-@@ -9993,8 +10493,8 @@
+@@ -9993,8 +10521,8 @@
  "with the following options. (<keycap>Shift</keycap>-clicking on an icon "
  "causes all <emphasis>other same-level</emphasis> layers to be locked or "
  "unlocked alternatively. <keycap>Alt</keycap>-clicking on an icon causes all "
@@ -5998,7 +6097,7 @@
  msgstr ""
  
  #: src/dialogs/layer-dialog.xml:260(para)
-@@ -10007,8 +10507,8 @@
+@@ -10007,8 +10535,8 @@
  
  #: src/dialogs/layer-dialog.xml:281(para)
  msgid ""
@@ -6009,7 +6108,7 @@
  "transform tool (Rotate, Shear, Perspective and others) or move it."
  msgstr ""
  
-@@ -10035,8 +10535,8 @@
+@@ -10035,8 +10563,8 @@
  msgid ""
  "The active layer has three horizontal, opaque, green stripes on a "
  "transparent background. We paint a vertical red stripe. <quote>Lock</quote> "
@@ -6020,7 +6119,7 @@
  msgstr ""
  
  #: src/dialogs/layer-dialog.xml:357(para)
-@@ -10093,8 +10593,8 @@
+@@ -10093,8 +10621,8 @@
  
  #: src/dialogs/layer-dialog.xml:413(para)
  msgid ""
@@ -6031,7 +6130,7 @@
  "the effect at the bottom of the list."
  msgstr ""
  
-@@ -10125,8 +10625,8 @@
+@@ -10125,8 +10653,8 @@
  #: src/dialogs/layer-dialog.xml:471(para)
  msgid ""
  "This button allows you to open the dialog of the selected layer effect to "
@@ -6042,7 +6141,7 @@
  msgstr ""
  
  #: src/dialogs/layer-dialog.xml:488(phrase)
-@@ -10289,8 +10789,8 @@
+@@ -10289,8 +10817,8 @@
  
  #: src/dialogs/layer-dialog.xml:676(para)
  msgid ""
@@ -6053,7 +6152,7 @@
  msgstr ""
  
  #: src/dialogs/layer-dialog.xml:680(para)
-@@ -10305,8 +10805,8 @@
+@@ -10305,8 +10833,8 @@
  
  #: src/dialogs/layer-dialog.xml:699(para)
  msgid ""
@@ -6064,7 +6163,7 @@
  msgstr ""
  
  #: src/dialogs/layer-dialog.xml:716(phrase)
-@@ -10378,8 +10878,9 @@
+@@ -10378,8 +10906,9 @@
  
  #: src/dialogs/layer-dialog.xml:782(para)
  msgid ""
@@ -6076,7 +6175,7 @@
  msgstr ""
  
  #: src/dialogs/layer-dialog.xml:833(phrase)
-@@ -10461,8 +10962,8 @@
+@@ -10461,8 +10990,8 @@
  #: src/dialogs/layer-dialog.xml:919(para)
  msgid ""
  "By right-clicking in the Layers dialog, or by opening the "
@@ -6087,7 +6186,7 @@
  "<link linkend=\"gimp-layer-types\">layer types</link>, or when specific "
  "conditions are met."
  msgstr ""
-@@ -10486,8 +10987,8 @@
+@@ -10486,8 +11015,8 @@
  "This command only shows up for <link linkend=\"gimp-layer-type-text-"
  "layer\">Text</link> and <link linkend=\"gimp-layer-type-vector-"
  "layer\">Vector</link> layers. Using this command will active the text and "
@@ -6098,7 +6197,7 @@
  msgstr ""
  
  #: src/dialogs/layer-dialog.xml:945(term)
-@@ -10523,8 +11024,8 @@
+@@ -10523,8 +11052,8 @@
  #: src/dialogs/layer-dialog.xml:964(para)
  msgid ""
  "This shows the name of the path that is used for the current layer. If your "
@@ -6109,7 +6208,7 @@
  msgstr ""
  
  #: src/dialogs/layer-dialog.xml:974(title)
-@@ -10557,9 +11058,9 @@
+@@ -10557,9 +11086,9 @@
  
  #: src/dialogs/layer-dialog.xml:995(para)
  msgid ""
@@ -6122,7 +6221,7 @@
  msgstr ""
  
  #: src/dialogs/layer-dialog.xml:1007(term)
-@@ -10570,8 +11071,9 @@
+@@ -10570,8 +11099,9 @@
  
  #: src/dialogs/layer-dialog.xml:1009(para)
  msgid ""
@@ -6134,7 +6233,7 @@
  msgstr ""
  
  #: src/dialogs/layer-dialog.xml:1020(term)
-@@ -10602,8 +11104,8 @@
+@@ -10602,8 +11132,8 @@
  
  #: src/dialogs/layer-dialog.xml:1040(para)
  msgid ""
@@ -6145,7 +6244,7 @@
  msgstr ""
  
  #: src/dialogs/layer-dialog.xml:1047(term)
-@@ -10659,8 +11161,8 @@
+@@ -10659,8 +11189,8 @@
  
  #: src/dialogs/layer-dialog.xml:1071(para)
  msgid ""
@@ -6156,7 +6255,7 @@
  msgstr ""
  
  #: src/dialogs/layer-dialog.xml:1078(term)
-@@ -10670,9 +11172,9 @@
+@@ -10670,9 +11200,9 @@
  #: src/dialogs/layer-dialog.xml:1080(para)
  msgid ""
  "This command turns any special <link linkend=\"gimp-layer-types\">layer "
@@ -6169,7 +6268,7 @@
  "text, vector or link layer."
  msgstr ""
  
-@@ -10682,8 +11184,8 @@
+@@ -10682,8 +11212,8 @@
  
  #: src/dialogs/layer-dialog.xml:1093(para)
  msgid ""
@@ -6180,7 +6279,7 @@
  msgstr ""
  
  #: src/dialogs/layer-dialog.xml:1100(term)
-@@ -10693,8 +11195,8 @@
+@@ -10693,8 +11223,8 @@
  
  #: src/dialogs/layer-dialog.xml:1102(para)
  msgid ""
@@ -6191,7 +6290,7 @@
  msgstr ""
  
  #: src/dialogs/layer-dialog.xml:1109(term)
-@@ -10798,10 +11300,12 @@
+@@ -10798,10 +11328,12 @@
  msgstr ""
  
  #: src/dialogs/layer-dialog.xml:1164(para)
@@ -6206,7 +6305,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/keyboard-shortcuts-dialog.xml:23(None)
  msgid ""
-@@ -10809,7 +11313,8 @@
+@@ -10809,7 +11341,8 @@
  "md5=45e5b4c6f4e13ecfef7081a5509a4e27"
  msgstr ""
  
@@ -6216,7 +6315,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/keyboard-shortcuts-dialog.xml:67(None)
  msgid ""
-@@ -10817,7 +11322,8 @@
+@@ -10817,7 +11350,8 @@
  "md5=de3d0977e621d2ac837318eb702b9a0f"
  msgstr ""
  
@@ -6226,7 +6325,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/keyboard-shortcuts-dialog.xml:96(None)
  msgid ""
-@@ -10842,17 +11348,17 @@
+@@ -10842,17 +11376,17 @@
  #: src/dialogs/keyboard-shortcuts-dialog.xml:34(para)
  #, fuzzy
  msgid ""
@@ -6250,7 +6349,7 @@
  msgstr ""
  
  #: src/dialogs/keyboard-shortcuts-dialog.xml:54(title)
-@@ -10882,14 +11388,14 @@
+@@ -10882,14 +11416,14 @@
  #: src/dialogs/keyboard-shortcuts-dialog.xml:79(para)
  msgid ""
  "All actions that can be assigned a shortcut are divided into categories. "
@@ -6269,7 +6368,7 @@
  msgstr ""
  
  #: src/dialogs/keyboard-shortcuts-dialog.xml:92(title)
-@@ -10899,8 +11405,8 @@
+@@ -10899,8 +11433,8 @@
  #: src/dialogs/keyboard-shortcuts-dialog.xml:99(para)
  msgid ""
  "The <quote>New accelerator…</quote> text in the Shortcuts column shows that "
@@ -6280,7 +6379,7 @@
  msgstr ""
  
  #: src/dialogs/keyboard-shortcuts-dialog.xml:107(para)
-@@ -10932,8 +11438,8 @@
+@@ -10932,8 +11466,8 @@
  #: src/dialogs/keyboard-shortcuts-dialog.xml:129(para)
  msgid ""
  "Note that the categories themselves let you enter a shortcut. However, it "
@@ -6291,7 +6390,7 @@
  "category before trying to assign a shortcut."
  msgstr ""
  
-@@ -10941,9 +11447,9 @@
+@@ -10941,9 +11475,9 @@
  msgid ""
  "At the bottom of the dialog there is an option (checked by default) that "
  "tells GIMP whether to <guilabel>Save keyboard shortcuts on exit</guilabel>. "
@@ -6304,7 +6403,7 @@
  msgstr ""
  
  #: src/dialogs/keyboard-shortcuts-dialog.xml:146(para)
-@@ -11102,7 +11608,8 @@
+@@ -11102,7 +11636,8 @@
  "4K resolution content at 24 FPS."
  msgstr ""
  
@@ -6314,7 +6413,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/indexed-palette-dialog.xml:26(None)
  #, fuzzy
-@@ -11112,7 +11619,8 @@
+@@ -11112,7 +11647,8 @@
  msgstr ""
  "@@image: 'images/dialogs/examples/cosmos-6.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -6324,7 +6423,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/indexed-palette-dialog.xml:32(None)
  #, fuzzy
-@@ -11122,7 +11630,8 @@
+@@ -11122,7 +11658,8 @@
  msgstr ""
  "@@image: 'images/dialogs/color-dialog.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -6334,7 +6433,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/indexed-palette-dialog.xml:242(None)
  msgid ""
-@@ -11146,28 +11655,28 @@
+@@ -11146,28 +11683,28 @@
  #: src/dialogs/indexed-palette-dialog.xml:36(para)
  msgid ""
  "The Colormap (Indexed Palette is a better name) dialog allows you to edit "
@@ -6376,7 +6475,7 @@
  msgstr ""
  "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
  "flik</guimenu><guimenuitem>Verktyg</guimenuitem></menuchoice>."
-@@ -11178,8 +11687,7 @@
+@@ -11178,8 +11715,7 @@
  "linkend=\"gimp-dockable-menu\">detached windows</link> which exists only if "
  "at least one dialog remains open. In this case, you can raise the "
  "<quote>Colormap</quote> dialog from the main menu: "
@@ -6386,7 +6485,7 @@
  msgstr ""
  
  #: src/dialogs/indexed-palette-dialog.xml:95(title)
-@@ -11197,10 +11705,10 @@
+@@ -11197,10 +11733,10 @@
  msgid ""
  "To determine the color that should be shown for that pixel, GIMP looks up "
  "the index in the image's colormap. Each indexed image has its own private "
@@ -6401,7 +6500,7 @@
  msgstr ""
  
  #: src/dialogs/indexed-palette-dialog.xml:111(para)
-@@ -11218,11 +11726,11 @@
+@@ -11218,11 +11754,11 @@
  
  #: src/dialogs/indexed-palette-dialog.xml:123(para)
  msgid ""
@@ -6418,7 +6517,7 @@
  "corner, 1 to its right, etc."
  msgstr ""
  
-@@ -11240,8 +11748,8 @@
+@@ -11240,8 +11776,8 @@
  
  #: src/dialogs/indexed-palette-dialog.xml:142(para)
  msgid ""
@@ -6429,7 +6528,7 @@
  "painting operation you do."
  msgstr ""
  
-@@ -11261,8 +11769,8 @@
+@@ -11261,8 +11797,8 @@
  
  #: src/dialogs/indexed-palette-dialog.xml:162(para)
  msgid ""
@@ -6440,7 +6539,7 @@
  "color."
  msgstr ""
  
-@@ -11322,8 +11830,8 @@
+@@ -11322,8 +11858,8 @@
  "This button (at the bottom of the dialog) allows you to add new colors to "
  "the colormap. If you click on the button, the current foreground color, as "
  "shown in the Toolbox, will be added to the end of the colormap. If instead "
@@ -6451,7 +6550,7 @@
  msgstr ""
  
  #: src/dialogs/indexed-palette-dialog.xml:258(para)
-@@ -11341,16 +11849,18 @@
+@@ -11341,16 +11877,18 @@
  "This button allows you to select all pixels with this color. To add to the "
  "selection, use <keycap>Shift</keycap> buttonclick, to subtract use "
  "<keycap>Ctrl</keycap> buttonclick, and to intersect with the current "
@@ -6475,7 +6574,7 @@
  msgstr ""
  
  #: src/dialogs/indexed-palette-dialog.xml:305(para)
-@@ -11452,7 +11962,8 @@
+@@ -11452,7 +11990,8 @@
  "colormap-remap\"/>."
  msgstr ""
  
@@ -6485,7 +6584,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/import-file-formats.xml:41(None)
  #, fuzzy
-@@ -11462,7 +11973,8 @@
+@@ -11462,7 +12001,8 @@
  msgstr ""
  "@@image: 'images/dialogs/pointer-dialog.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -6495,7 +6594,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/import-file-formats.xml:159(None)
  #, fuzzy
-@@ -11480,8 +11992,8 @@
+@@ -11480,8 +12020,8 @@
  
  #: src/dialogs/import-file-formats.xml:12(para)
  msgid ""
@@ -6506,7 +6605,7 @@
  "then a new dialog will open. This section will document the dialogs for all "
  "file formats that have such an import options dialog."
  msgstr ""
-@@ -11595,9 +12107,9 @@
+@@ -11595,9 +12135,9 @@
  #: src/dialogs/import-file-formats.xml:173(para)
  msgid ""
  "If this is set to <guilabel>Images</guilabel>, then GIMP will open each of "
@@ -6519,7 +6618,7 @@
  msgstr ""
  
  #: src/dialogs/import-file-formats.xml:63(term)
-@@ -11609,9 +12121,9 @@
+@@ -11609,9 +12149,9 @@
  #: src/dialogs/import-file-formats.xml:65(para)
  #: src/dialogs/import-file-formats.xml:184(para)
  msgid ""
@@ -6532,7 +6631,7 @@
  "document."
  msgstr ""
  
-@@ -11652,13 +12164,13 @@
+@@ -11652,13 +12192,13 @@
  #: src/dialogs/import-file-formats.xml:86(para)
  #: src/dialogs/import-file-formats.xml:205(para)
  msgid ""
@@ -6553,7 +6652,7 @@
  msgstr ""
  
  #: src/dialogs/import-file-formats.xml:99(term)
-@@ -11667,8 +12179,8 @@
+@@ -11667,8 +12207,8 @@
  
  #: src/dialogs/import-file-formats.xml:101(para)
  msgid ""
@@ -6564,7 +6663,7 @@
  "become the top-most layer."
  msgstr ""
  
-@@ -11780,12 +12292,14 @@
+@@ -11780,12 +12320,14 @@
  msgid ""
  "You can choose to have GIMP apply <link linkend=\"glossary-"
  "antialiasing\">anti-aliasing</link> separately for text and for graphics in "
@@ -6583,7 +6682,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/images-dialog.xml:27(None)
  #, fuzzy
-@@ -11795,7 +12309,8 @@
+@@ -11795,7 +12337,8 @@
  msgstr ""
  "@@image: 'images/dialogs/images-dialog.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -6593,7 +6692,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/images-dialog.xml:146(None)
  msgid ""
-@@ -11826,21 +12341,21 @@
+@@ -11826,21 +12369,21 @@
  #: src/dialogs/images-dialog.xml:50(para)
  #, fuzzy
  msgid ""
@@ -6626,7 +6725,7 @@
  msgstr ""
  "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
  "flik</guimenu><guimenuitem>Bilder</guimenuitem></menuchoice>."
-@@ -11851,8 +12366,7 @@
+@@ -11851,8 +12394,7 @@
  "linkend=\"gimp-dockable-menu\">detached windows</link> which exists only if "
  "at least one dialog remains open. In this case, you can raise the "
  "<quote>Images</quote> dialog from the main menu: "
@@ -6636,7 +6735,7 @@
  msgstr ""
  
  #: src/dialogs/images-dialog.xml:91(title)
-@@ -11870,9 +12384,9 @@
+@@ -11870,9 +12412,9 @@
  msgid ""
  "At center, open images appear, as a list or a grid, according to the "
  "selected mode. The current image is highlighted in list mode, outlined in "
@@ -6649,7 +6748,7 @@
  msgstr ""
  
  #: src/dialogs/images-dialog.xml:106(term)
-@@ -11894,11 +12408,12 @@
+@@ -11894,11 +12436,12 @@
  
  #: src/dialogs/images-dialog.xml:110(para)
  msgid ""
@@ -6667,7 +6766,7 @@
  msgstr ""
  
  #: src/dialogs/images-dialog.xml:126(para)
-@@ -11930,14 +12445,15 @@
+@@ -11930,14 +12473,15 @@
  #: src/dialogs/images-dialog.xml:190(para)
  msgid ""
  "This command works only on an image which is loaded without any window. "
@@ -6686,7 +6785,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/histogram-dialog.xml:25(None)
  #, fuzzy
-@@ -11948,7 +12464,8 @@
+@@ -11948,7 +12492,8 @@
  "@@image: 'images/dialogs/histogram-basic-dialog.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -6696,7 +6795,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/histogram-dialog.xml:200(None)
  #, fuzzy
-@@ -11958,7 +12475,8 @@
+@@ -11958,7 +12503,8 @@
  msgstr ""
  "@@image: 'images/dialogs/histogram-log.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -6706,7 +6805,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/histogram-dialog.xml:220(None)
  msgid ""
-@@ -11966,7 +12484,8 @@
+@@ -11966,7 +12512,8 @@
  "md5=a04790ad39814aee1a2300a094d87855"
  msgstr ""
  
@@ -6716,7 +6815,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/histogram-dialog.xml:231(None)
  msgid ""
-@@ -11974,7 +12493,8 @@
+@@ -11974,7 +12521,8 @@
  "md5=78323d0f1819a802fbac35f7330c9ad6"
  msgstr ""
  
@@ -6726,7 +6825,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/histogram-dialog.xml:242(None)
  msgid ""
-@@ -11982,7 +12502,8 @@
+@@ -11982,7 +12530,8 @@
  "md5=443c4bae3fe223d262c5b03c9d74a684"
  msgstr ""
  
@@ -6736,7 +6835,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/histogram-dialog.xml:261(None)
  #, fuzzy
-@@ -11992,7 +12513,8 @@
+@@ -11992,7 +12541,8 @@
  msgstr ""
  "@@image: 'images/dialogs/histogram-log.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -6746,7 +6845,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/histogram-dialog.xml:272(None)
  #, fuzzy
-@@ -12002,7 +12524,8 @@
+@@ -12002,7 +12552,8 @@
  msgstr ""
  "@@image: 'images/dialogs/histogram-log.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -6756,7 +6855,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/histogram-dialog.xml:297(None)
  #, fuzzy
-@@ -12031,31 +12554,31 @@
+@@ -12031,31 +12582,31 @@
  msgid ""
  "The Histogram dialog shows you information about the statistical "
  "distribution of color values in the active layer or selection. This "
@@ -6804,7 +6903,7 @@
  msgstr ""
  "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
  "flik</guimenu><guimenuitem>Verktyg</guimenuitem></menuchoice>."
-@@ -12063,11 +12586,11 @@
+@@ -12063,11 +12614,11 @@
  #: src/dialogs/histogram-dialog.xml:79(para)
  #, fuzzy
  msgid ""
@@ -6820,7 +6919,7 @@
  
  #: src/dialogs/histogram-dialog.xml:89(para)
  msgid ""
-@@ -12075,8 +12598,7 @@
+@@ -12075,8 +12626,7 @@
  "linkend=\"gimp-dockable-menu\">detached windows</link> which exists only if "
  "at least one dialog remains open. In this case, you can raise the "
  "<quote>Histogram</quote> dialog from the main menu: "
@@ -6830,7 +6929,7 @@
  msgstr ""
  
  #: src/dialogs/histogram-dialog.xml:102(title)
-@@ -12087,8 +12609,8 @@
+@@ -12087,8 +12637,8 @@
  msgid ""
  "In GIMP, each layer of an image can be decomposed into one or more color "
  "channels: for an RGB image, into R, G, and B channels; for a grayscale "
@@ -6841,7 +6940,7 @@
  "intensity levels from 0 to 255 (integer valued). Thus, a black pixel is "
  "encoded by 0 on all color channels; a white pixel by 255 on all color "
  "channels. A transparent pixel is encoded by 0 on the alpha channel; an "
-@@ -12097,11 +12619,11 @@
+@@ -12097,11 +12647,11 @@
  
  #: src/dialogs/histogram-dialog.xml:113(para)
  msgid ""
@@ -6857,7 +6956,7 @@
  "mode."
  msgstr ""
  
-@@ -12133,9 +12655,9 @@
+@@ -12133,9 +12683,9 @@
  
  #: src/dialogs/histogram-dialog.xml:136(para)
  msgid ""
@@ -6870,7 +6969,7 @@
  msgstr ""
  
  #: src/dialogs/histogram-dialog.xml:143(term)
-@@ -12145,8 +12667,8 @@
+@@ -12145,8 +12695,8 @@
  #: src/dialogs/histogram-dialog.xml:145(para)
  msgid ""
  "For RGB and Grayscale images, this shows the distribution of brightness "
@@ -6881,7 +6980,7 @@
  "pseudochannel."
  msgstr ""
  
-@@ -12263,8 +12785,8 @@
+@@ -12263,8 +12813,8 @@
  
  #: src/dialogs/histogram-dialog.xml:301(para)
  msgid ""
@@ -6892,7 +6991,7 @@
  "one of three ways:"
  msgstr ""
  
-@@ -12307,6 +12829,8 @@
+@@ -12307,6 +12857,8 @@
  "<guilabel>Std Dev</guilabel>: Standard deviation. Gives an idea about how "
  "homogeneous the distribution of values in the interval is."
  msgstr ""
@@ -6901,7 +7000,7 @@
  
  #: src/dialogs/histogram-dialog.xml:350(para)
  msgid ""
-@@ -12329,7 +12853,8 @@
+@@ -12329,7 +12881,8 @@
  #: src/dialogs/histogram-dialog.xml:365(para)
  msgid ""
  "<guilabel>Percentile</guilabel>: The ratio between the number of pixels in "
@@ -6911,7 +7010,7 @@
  msgstr ""
  
  #: src/dialogs/histogram-dialog.xml:374(term)
-@@ -12469,7 +12994,8 @@
+@@ -12469,7 +13022,8 @@
  msgid "If checked, the XMP metadata is embedded in the exported image."
  msgstr ""
  
@@ -6921,7 +7020,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/gradient-editor-dialog.xml:23(None)
  #, fuzzy
-@@ -12480,7 +13006,8 @@
+@@ -12480,7 +13034,8 @@
  "@@image: 'images/dialogs/palette-editor-dialog.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -6931,7 +7030,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/gradient-editor-dialog.xml:700(None)
  #, fuzzy
-@@ -12488,10 +13015,11 @@
+@@ -12488,10 +13043,11 @@
  "@@image: 'images/dialogs/examples/new-gradient-1.png'; "
  "md5=017dcf3e6bf2f9852aa55df2a69fd7a6"
  msgstr ""
@@ -6946,7 +7045,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/gradient-editor-dialog.xml:716(None)
  #, fuzzy
-@@ -12499,10 +13027,11 @@
+@@ -12499,10 +13055,11 @@
  "@@image: 'images/dialogs/examples/new-gradient-2.png'; "
  "md5=4a7e9a97b91f0a7ae1b3648140d35f69"
  msgstr ""
@@ -6961,7 +7060,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/gradient-editor-dialog.xml:741(None)
  #, fuzzy
-@@ -12510,8 +13039,8 @@
+@@ -12510,8 +13067,8 @@
  "@@image: 'images/dialogs/examples/new-gradient-3.png'; "
  "md5=19c2c7362744a520dc6f6532a610a462"
  msgstr ""
@@ -6972,7 +7071,7 @@
  
  #: src/dialogs/gradient-editor-dialog.xml:10(title)
  msgid "The Gradient Editor"
-@@ -12523,8 +13052,8 @@
+@@ -12523,8 +13080,8 @@
  
  #: src/dialogs/gradient-editor-dialog.xml:27(para)
  msgid ""
@@ -6983,7 +7082,7 @@
  "gradient), not on system gradients that come pre-installed with GIMP. This "
  "is a sophisticated tool that may take a bit of effort to understand. The "
  "concept behind it is that a gradient can be decomposed into a series of "
-@@ -12594,16 +13123,17 @@
+@@ -12594,16 +13151,17 @@
  "<emphasis>Position</emphasis> is a number between 0.000 on the left and "
  "1.000 on the right side of the gradient. Below that the color values in "
  "<emphasis>RGB</emphasis> and <emphasis>HSV</emphasis> mode are shown, "
@@ -7006,7 +7105,7 @@
  msgstr ""
  
  #: src/dialogs/gradient-editor-dialog.xml:125(term)
-@@ -12612,17 +13142,17 @@
+@@ -12612,17 +13170,17 @@
  
  #: src/dialogs/gradient-editor-dialog.xml:127(para)
  msgid ""
@@ -7035,7 +7134,7 @@
  "included automatically. If <quote>Instant update</quote> is checked, the "
  "display is updated immediately after any slider movement; if it is "
  "unchecked, updates only occur when you release the mouse button."
-@@ -12630,12 +13160,12 @@
+@@ -12630,12 +13188,12 @@
  
  #: src/dialogs/gradient-editor-dialog.xml:147(para)
  msgid ""
@@ -7054,7 +7153,7 @@
  msgstr ""
  
  #: src/dialogs/gradient-editor-dialog.xml:160(term)
-@@ -12665,8 +13195,8 @@
+@@ -12665,8 +13223,8 @@
  
  #: src/dialogs/gradient-editor-dialog.xml:217(para)
  msgid ""
@@ -7065,7 +7164,7 @@
  msgstr ""
  
  #: src/dialogs/gradient-editor-dialog.xml:238(para)
-@@ -12683,8 +13213,8 @@
+@@ -12683,8 +13241,8 @@
  msgid ""
  "You can access the Gradient Editor menu either by right-clicking on the "
  "gradient display, or by choosing the top item in the dialog's tab menu. The "
@@ -7076,7 +7175,7 @@
  "This editor works only with custom gradients or a copy of a system gradient."
  msgstr ""
  
-@@ -12751,8 +13281,8 @@
+@@ -12751,8 +13309,8 @@
  
  #: src/dialogs/gradient-editor-dialog.xml:330(para)
  msgid ""
@@ -7087,7 +7186,7 @@
  "corresponding Left [Right] Color Type."
  msgstr ""
  
-@@ -12784,8 +13314,8 @@
+@@ -12784,8 +13342,8 @@
  
  #: src/dialogs/gradient-editor-dialog.xml:363(para)
  msgid ""
@@ -7098,7 +7197,7 @@
  msgstr ""
  
  #: src/dialogs/gradient-editor-dialog.xml:370(term)
-@@ -12805,9 +13335,9 @@
+@@ -12805,9 +13363,9 @@
  
  #: src/dialogs/gradient-editor-dialog.xml:383(para)
  msgid ""
@@ -7111,7 +7210,7 @@
  "endpoint."
  msgstr ""
  
-@@ -12852,9 +13382,9 @@
+@@ -12852,9 +13410,9 @@
  
  #: src/dialogs/gradient-editor-dialog.xml:436(para)
  msgid ""
@@ -7124,7 +7223,7 @@
  msgstr ""
  
  #: src/dialogs/gradient-editor-dialog.xml:444(term)
-@@ -12952,8 +13482,8 @@
+@@ -12952,8 +13510,8 @@
  
  #: src/dialogs/gradient-editor-dialog.xml:557(para)
  msgid ""
@@ -7135,7 +7234,7 @@
  msgstr ""
  
  #: src/dialogs/gradient-editor-dialog.xml:565(term)
-@@ -13003,8 +13533,8 @@
+@@ -13003,8 +13561,8 @@
  
  #: src/dialogs/gradient-editor-dialog.xml:611(para)
  msgid ""
@@ -7146,7 +7245,7 @@
  msgstr ""
  
  #: src/dialogs/gradient-editor-dialog.xml:620(title)
-@@ -13012,7 +13542,8 @@
+@@ -13012,7 +13570,8 @@
  msgstr ""
  
  #: src/dialogs/gradient-editor-dialog.xml:621(para)
@@ -7156,7 +7255,7 @@
  msgstr ""
  
  #: src/dialogs/gradient-editor-dialog.xml:626(term)
-@@ -13043,8 +13574,8 @@
+@@ -13043,8 +13602,8 @@
  #: src/dialogs/gradient-editor-dialog.xml:650(para)
  msgid ""
  "When enabled, the gradient editor will automatically load the currently "
@@ -7167,7 +7266,7 @@
  msgstr ""
  
  #: src/dialogs/gradient-editor-dialog.xml:659(para)
-@@ -13075,9 +13606,9 @@
+@@ -13075,9 +13634,9 @@
  
  #: src/dialogs/gradient-editor-dialog.xml:682(para)
  msgid ""
@@ -7180,7 +7279,7 @@
  msgstr ""
  
  #: src/dialogs/gradient-editor-dialog.xml:706(para)
-@@ -13100,8 +13631,8 @@
+@@ -13100,8 +13659,8 @@
  #: src/dialogs/gradient-editor-dialog.xml:730(para)
  msgid ""
  "In the context menu you get by right-clicking in the gradient, set "
@@ -7191,7 +7290,7 @@
  msgstr ""
  
  #: src/dialogs/gradient-editor-dialog.xml:737(title)
-@@ -13119,7 +13650,8 @@
+@@ -13119,7 +13678,8 @@
  "functions for segment</guilabel> to achieve various effects."
  msgstr ""
  
@@ -7201,7 +7300,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/gradient-dialog.xml:29(None)
  #, fuzzy
-@@ -13145,21 +13677,21 @@
+@@ -13145,21 +13705,21 @@
  msgid ""
  "The <quote>Gradients</quote> dialog offers a gradient palette which is used "
  "to select a gradient &mdash; a set of colors arranged in a linear scale "
@@ -7234,7 +7333,7 @@
  msgstr ""
  
  #: src/dialogs/gradient-dialog.xml:54(para)
-@@ -13184,28 +13716,28 @@
+@@ -13184,28 +13744,28 @@
  #: src/dialogs/gradient-dialog.xml:72(para)
  msgid ""
  "<guilabel>FG to Transparent</guilabel>: only uses one color (the Foreground "
@@ -7276,7 +7375,7 @@
  msgstr ""
  "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
  "flik</guimenu><guimenuitem>Gradienter</guimenuitem></menuchoice>."
-@@ -13214,15 +13746,15 @@
+@@ -13214,15 +13774,15 @@
  msgid ""
  "from the Toolbox, by clicking on the current gradient in the <link "
  "linkend=\"gimp-toolbox-indicator-area\">Brush/Pattern/Gradient area</link> "
@@ -7296,7 +7395,7 @@
  msgstr ""
  
  #: src/dialogs/gradient-dialog.xml:135(para)
-@@ -13231,8 +13763,7 @@
+@@ -13231,8 +13791,7 @@
  "linkend=\"gimp-dockable-menu\">detached windows</link> which exists only if "
  "at least one dialog remains open. In this case, you can raise the "
  "<quote>Gradients</quote> dialog from the main menu: "
@@ -7306,7 +7405,7 @@
  msgstr ""
  
  #: src/dialogs/gradient-dialog.xml:148(title)
-@@ -13243,33 +13774,33 @@
+@@ -13243,33 +13802,33 @@
  #: src/dialogs/gradient-dialog.xml:149(para)
  msgid ""
  "The most basic, and most commonly used, operation with the dialog is simply "
@@ -7354,7 +7453,7 @@
  msgstr ""
  
  #: src/dialogs/gradient-dialog.xml:181(para)
-@@ -13301,13 +13832,13 @@
+@@ -13301,13 +13860,13 @@
  #: src/dialogs/gradient-dialog.xml:228(para)
  msgid ""
  "Gradients that you create are automatically saved in the "
@@ -7375,7 +7474,7 @@
  msgstr ""
  
  #: src/dialogs/gradient-dialog.xml:250(phrase)
-@@ -13326,8 +13857,8 @@
+@@ -13326,8 +13885,8 @@
  
  #: src/dialogs/gradient-dialog.xml:273(para)
  msgid ""
@@ -7386,7 +7485,7 @@
  msgstr ""
  
  #: src/dialogs/gradient-dialog.xml:288(phrase)
-@@ -13369,14 +13900,14 @@
+@@ -13369,14 +13928,14 @@
  
  #: src/dialogs/gradient-dialog.xml:325(para)
  msgid ""
@@ -7405,7 +7504,7 @@
  msgstr ""
  
  #: src/dialogs/gradient-dialog.xml:341(term)
-@@ -13403,18 +13934,18 @@
+@@ -13403,18 +13962,18 @@
  msgid ""
  "The CSS (Cascading Style Sheets) language is used to format the display of "
  "HTML and XML files, for instance background color, background gradient, or "
@@ -7432,7 +7531,7 @@
  msgstr ""
  
  #: src/dialogs/gradient-dialog.xml:374(title)
-@@ -13436,9 +13967,11 @@
+@@ -13436,9 +13995,11 @@
  "linkend=\"gimp-tagging\"/>."
  msgstr ""
  
@@ -7446,7 +7545,7 @@
  #, fuzzy
  msgid ""
  "@@image: 'images/dialogs/fonts-dialog.png'; "
-@@ -13446,7 +13979,8 @@
+@@ -13446,7 +14007,8 @@
  msgstr ""
  "@@image: 'images/dialogs/fonts-dialog.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -7456,7 +7555,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/fonts-dialog.xml:116(None)
  #, fuzzy
-@@ -13481,30 +14015,31 @@
+@@ -13481,30 +14043,31 @@
  #: src/dialogs/fonts-dialog.xml:49(para)
  #, fuzzy
  msgid ""
@@ -7502,7 +7601,7 @@
  msgstr ""
  
  #: src/dialogs/fonts-dialog.xml:85(para)
-@@ -13513,8 +14048,7 @@
+@@ -13513,8 +14076,7 @@
  "linkend=\"gimp-dockable-menu\">detached windows</link> which exists only if "
  "at least one dialog remains open. In this case, you can raise the "
  "<quote>Fonts</quote> dialog from the main menu: "
@@ -7512,7 +7611,7 @@
  msgstr ""
  
  #: src/dialogs/fonts-dialog.xml:98(title)
-@@ -13527,7 +14061,8 @@
+@@ -13527,7 +14089,8 @@
  "font will then be used by the Text tool. If instead of clicking and "
  "releasing, you hold down the left mouse button with the pointer positioned "
  "over the font example (<quote>Aa</quote>), a window showing a larger text "
@@ -7522,7 +7621,7 @@
  msgstr ""
  
  #: src/dialogs/fonts-dialog.xml:119(para)
-@@ -13541,11 +14076,11 @@
+@@ -13541,11 +14104,11 @@
  #: src/dialogs/fonts-dialog.xml:139(para)
  msgid ""
  "In the Tab menu for the Fonts dialog, you can choose between "
@@ -7539,7 +7638,7 @@
  msgstr ""
  
  #: src/dialogs/fonts-dialog.xml:166(phrase)
-@@ -13554,12 +14089,12 @@
+@@ -13554,12 +14117,12 @@
  
  #: src/dialogs/fonts-dialog.xml:169(para)
  msgid ""
@@ -7556,7 +7655,7 @@
  msgstr ""
  
  #: src/dialogs/fonts-dialog.xml:179(para)
-@@ -13627,17 +14162,17 @@
+@@ -13627,17 +14190,17 @@
  
  #: src/dialogs/file-xpm-export.xml:21(para)
  msgid ""
@@ -7580,7 +7679,7 @@
  msgstr ""
  
  #: src/dialogs/file-xmc-export.xml:5(title)
-@@ -13678,8 +14213,8 @@
+@@ -13678,8 +14241,8 @@
  #: src/dialogs/file-xmc-export.xml:49(para)
  #: src/dialogs/file-xbm-export.xml:88(para)
  msgid ""
@@ -7591,7 +7690,7 @@
  msgstr ""
  
  #: src/dialogs/file-xmc-export.xml:56(term)
-@@ -13726,8 +14261,8 @@
+@@ -13726,8 +14289,8 @@
  
  #: src/dialogs/file-xmc-export.xml:85(para)
  msgid ""
@@ -7602,7 +7701,7 @@
  msgstr ""
  
  #: src/dialogs/file-xmc-export.xml:92(term)
-@@ -13777,7 +14312,8 @@
+@@ -13777,7 +14340,8 @@
  msgid "Enter an optional comment here."
  msgstr ""
  
@@ -7612,7 +7711,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-xbm-export.xml:23(None)
  #, fuzzy
-@@ -13879,7 +14415,8 @@
+@@ -13879,7 +14443,8 @@
  "image. The name with suffix will be used to write the mask file."
  msgstr ""
  
@@ -7622,7 +7721,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-webp-export.xml:25(None)
  #, fuzzy
-@@ -13918,11 +14455,11 @@
+@@ -13918,11 +14483,11 @@
  #: src/dialogs/file-webp-export.xml:42(para)
  msgid ""
  "Choices are: <guilabel>Default</guilabel>, <guilabel>Picture</guilabel> for "
@@ -7639,7 +7738,7 @@
  msgstr ""
  
  #: src/dialogs/file-webp-export.xml:56(para)
-@@ -13961,8 +14498,8 @@
+@@ -13961,8 +14526,8 @@
  "When checked, a sharper and more accurate RGB to YUV conversion method is "
  "used to export the image. This can better preserve fine details like thin "
  "lines in the final image. Setting this option can increase the export time "
@@ -7650,7 +7749,7 @@
  msgstr ""
  
  #: src/dialogs/file-webp-export.xml:92(term)
-@@ -14002,9 +14539,9 @@
+@@ -14002,9 +14567,9 @@
  #.     </figure>
  #: src/dialogs/file-tim-export.xml:30(para)
  msgid ""
@@ -7663,7 +7762,7 @@
  msgstr ""
  
  #: src/dialogs/file-tim-export.xml:43(term)
-@@ -14081,7 +14618,8 @@
+@@ -14081,7 +14646,8 @@
  "is chosen."
  msgstr ""
  
@@ -7673,7 +7772,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-tiff-export.xml:25(None)
  #, fuzzy
-@@ -14130,8 +14668,8 @@
+@@ -14130,8 +14696,8 @@
  
  #: src/dialogs/file-tiff-export.xml:55(para)
  msgid ""
@@ -7684,7 +7783,7 @@
  "information at <xref linkend=\"bibliography-online-wkpd-lzw\"/>."
  msgstr ""
  
-@@ -14148,8 +14686,8 @@
+@@ -14148,8 +14714,8 @@
  
  #: src/dialogs/file-tiff-export.xml:72(para)
  msgid ""
@@ -7695,7 +7794,7 @@
  msgstr ""
  
  #: src/dialogs/file-tiff-export.xml:80(term)
-@@ -14160,9 +14698,10 @@
+@@ -14160,9 +14726,10 @@
  
  #: src/dialogs/file-tiff-export.xml:82(para)
  msgid ""
@@ -7709,7 +7808,7 @@
  msgstr ""
  
  #: src/dialogs/file-tiff-export.xml:91(term)
-@@ -14194,11 +14733,11 @@
+@@ -14194,11 +14761,11 @@
  
  #: src/dialogs/file-tiff-export.xml:111(para)
  msgid ""
@@ -7726,7 +7825,7 @@
  msgstr ""
  
  #: src/dialogs/file-tiff-export.xml:131(term)
-@@ -14270,7 +14809,8 @@
+@@ -14270,7 +14837,8 @@
  "comment can be entered in the text box below this option."
  msgstr ""
  
@@ -7736,7 +7835,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-tga-export.xml:23(None)
  #, fuzzy
-@@ -14297,9 +14837,9 @@
+@@ -14297,9 +14865,9 @@
  
  #: src/dialogs/file-tga-export.xml:28(para)
  msgid ""
@@ -7749,7 +7848,7 @@
  msgstr ""
  
  #: src/dialogs/file-tga-export.xml:40(term)
-@@ -14310,9 +14850,9 @@
+@@ -14310,9 +14878,9 @@
  
  #: src/dialogs/file-tga-export.xml:42(para)
  msgid ""
@@ -7762,7 +7861,7 @@
  msgstr ""
  
  #: src/dialogs/file-tga-export.xml:50(term)
-@@ -14322,8 +14862,8 @@
+@@ -14322,8 +14890,8 @@
  #: src/dialogs/file-tga-export.xml:52(para)
  msgid ""
  "This setting allows you to choose what to use as origin of the image. This "
@@ -7773,7 +7872,7 @@
  msgstr ""
  
  #: src/dialogs/file-tga-export.xml:59(term)
-@@ -14332,8 +14872,8 @@
+@@ -14332,8 +14900,8 @@
  
  #: src/dialogs/file-tga-export.xml:61(para)
  msgid ""
@@ -7784,7 +7883,7 @@
  msgstr ""
  
  #: src/dialogs/file-tga-export.xml:68(term)
-@@ -14346,7 +14886,8 @@
+@@ -14346,7 +14914,8 @@
  "going down."
  msgstr ""
  
@@ -7794,7 +7893,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-svg-export.xml:23(None)
  #, fuzzy
-@@ -14415,7 +14956,8 @@
+@@ -14415,7 +14984,8 @@
  msgid "All raster layers will be ignored when exporting."
  msgstr ""
  
@@ -7804,7 +7903,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-sunras-export.xml:43(None)
  #, fuzzy
-@@ -14482,7 +15024,8 @@
+@@ -14482,7 +15052,8 @@
  "produce smaller files."
  msgstr ""
  
@@ -7814,7 +7913,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-sgi-export.xml:23(None)
  #, fuzzy
-@@ -14568,13 +15111,14 @@
+@@ -14568,13 +15139,14 @@
  msgid ""
  "The <ulink url=\"https://en.wikipedia.org/wiki/RGBE_image_format\">RGBE or "
  "Radiance HDR</ulink> image format allows you to export as a <ulink "
@@ -7834,7 +7933,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-raw-export.xml:25(None)
  #, fuzzy
-@@ -14624,7 +15168,8 @@
+@@ -14624,7 +15196,8 @@
  msgstr "Navigering"
  
  #: src/dialogs/file-raw-export.xml:47(para)
@@ -7844,7 +7943,7 @@
  msgstr ""
  
  #: src/dialogs/file-raw-export.xml:53(term)
-@@ -14700,7 +15245,8 @@
+@@ -14700,7 +15273,8 @@
  "dialog."
  msgstr ""
  
@@ -7854,7 +7953,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-psd-export.xml:48(None)
  #, fuzzy
-@@ -14736,9 +15282,9 @@
+@@ -14736,9 +15310,9 @@
  
  #: src/dialogs/file-psd-export.xml:24(para)
  msgid ""
@@ -7867,7 +7966,7 @@
  msgstr ""
  
  #: src/dialogs/file-psd-export.xml:29(para)
-@@ -14748,8 +15294,8 @@
+@@ -14748,8 +15322,8 @@
  "Photoshop. For many blending modes, the <link linkend=\"gimp-concepts-layer-"
  "modes-legacy\">legacy layer modes</link> are closer to Photoshop's "
  "equivalents. However, legacy layer modes do not support setting the <link "
@@ -7878,7 +7977,7 @@
  "mode. There it is called <quote>Blend Clipped Layers as Group</quote>. If "
  "you want to support that, you should not use legacy layer modes."
  msgstr ""
-@@ -14759,7 +15305,8 @@
+@@ -14759,7 +15333,8 @@
  msgid "The Photoshop image Export dialog"
  msgstr "Dialogrutan Bilder"
  
@@ -7888,7 +7987,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-ps-export.xml:32(None)
  #, fuzzy
-@@ -14783,8 +15330,8 @@
+@@ -14783,8 +15358,8 @@
  msgid ""
  "<quote>PostScript</quote>, is a page description language, most commonly "
  "used in electronic publishing and desktop publishing. For more information "
@@ -7899,7 +7998,7 @@
  msgstr ""
  
  #: src/dialogs/file-ps-export.xml:23(para)
-@@ -14798,7 +15345,8 @@
+@@ -14798,7 +15373,8 @@
  msgid "The PS Export dialog"
  msgstr "Dialogrutan Bilder"
  
@@ -7909,7 +8008,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-pnm-export.xml:55(None)
  #, fuzzy
-@@ -14866,9 +15414,9 @@
+@@ -14866,9 +15442,9 @@
  #: src/dialogs/file-pnm-export.xml:60(para)
  msgid ""
  "This export dialog allows you to export your image as one of the so-called "
@@ -7922,7 +8021,7 @@
  msgstr ""
  
  #: src/dialogs/file-pnm-export.xml:67(para)
-@@ -14916,7 +15464,8 @@
+@@ -14916,7 +15492,8 @@
  msgstr ""
  
  #: src/dialogs/file-pnm-export.xml:104(para)
@@ -7932,7 +8031,7 @@
  msgstr ""
  
  #: src/dialogs/file-pnm-export.xml:111(term)
-@@ -14935,11 +15484,12 @@
+@@ -14935,11 +15512,12 @@
  msgid ""
  "This setting allows you to choose whether the image should be stored as "
  "<guilabel>ASCII</guilabel> or as <guilabel>RAW</guilabel> data. The former "
@@ -7948,7 +8047,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-png-export.xml:27(None)
  #, fuzzy
-@@ -14976,19 +15526,19 @@
+@@ -14976,19 +15554,19 @@
  
  #: src/dialogs/file-png-export.xml:39(para)
  msgid ""
@@ -7975,7 +8074,7 @@
  msgstr ""
  
  #: src/dialogs/file-png-export.xml:66(term)
-@@ -15012,8 +15562,8 @@
+@@ -15012,8 +15590,8 @@
  #: src/dialogs/file-gif-export.xml:60(para)
  msgid ""
  "Checking interlace allows an image on a web page to be progressively "
@@ -7986,7 +8085,7 @@
  "interlace is of less use today with our faster connection speeds."
  msgstr ""
  
-@@ -15045,10 +15595,11 @@
+@@ -15045,10 +15623,11 @@
  #: src/dialogs/file-png-export.xml:120(para)
  msgid ""
  "PNG supports an offset value called the <quote>oFFs chunk</quote>, which "
@@ -8002,7 +8101,7 @@
  msgstr ""
  
  #: src/dialogs/file-png-export.xml:133(term)
-@@ -15085,8 +15636,8 @@
+@@ -15085,8 +15664,8 @@
  
  #: src/dialogs/file-png-export.xml:158(para)
  msgid ""
@@ -8013,7 +8112,7 @@
  msgstr ""
  
  #: src/dialogs/file-pix-export.xml:5(title)
-@@ -15102,8 +15653,8 @@
+@@ -15102,8 +15681,8 @@
  #: src/dialogs/file-pix-export.xml:18(para)
  msgid ""
  "You can export your image in Alias pix format when you choose the "
@@ -8024,7 +8123,7 @@
  msgstr ""
  
  #: src/dialogs/file-pfm-export.xml:5(title)
-@@ -15118,9 +15669,9 @@
+@@ -15118,9 +15697,9 @@
  
  #: src/dialogs/file-pfm-export.xml:18(para)
  msgid ""
@@ -8037,7 +8136,7 @@
  msgstr ""
  
  #: src/dialogs/file-pfm-export.xml:23(para)
-@@ -15130,7 +15681,8 @@
+@@ -15130,7 +15709,8 @@
  "values for each pixel."
  msgstr ""
  
@@ -8047,7 +8146,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-pdf-export.xml:22(None)
  #, fuzzy
-@@ -15153,9 +15705,9 @@
+@@ -15153,9 +15733,9 @@
  
  #: src/dialogs/file-pdf-export.xml:27(para)
  msgid ""
@@ -8060,7 +8159,7 @@
  msgstr ""
  
  #: src/dialogs/file-pdf-export.xml:39(term)
-@@ -15166,8 +15718,8 @@
+@@ -15166,8 +15746,8 @@
  
  #: src/dialogs/file-pdf-export.xml:41(para)
  msgid ""
@@ -8071,7 +8170,7 @@
  msgstr ""
  
  #: src/dialogs/file-pdf-export.xml:49(term)
-@@ -15198,8 +15750,8 @@
+@@ -15198,8 +15778,8 @@
  
  #: src/dialogs/file-pdf-export.xml:70(para)
  msgid ""
@@ -8082,7 +8181,7 @@
  msgstr ""
  
  #: src/dialogs/file-pdf-export.xml:77(term)
-@@ -15219,7 +15771,8 @@
+@@ -15219,7 +15799,8 @@
  #: src/dialogs/file-pdf-export.xml:88(para)
  msgid ""
  "When checked, layers that have visibility turned off, or where the opacity "
@@ -8092,7 +8191,7 @@
  msgstr ""
  
  #: src/dialogs/file-pdf-export.xml:96(term)
-@@ -15228,8 +15781,8 @@
+@@ -15228,8 +15809,8 @@
  
  #: src/dialogs/file-pdf-export.xml:98(para)
  msgid ""
@@ -8103,7 +8202,7 @@
  msgstr ""
  
  #: src/dialogs/file-pdf-export.xml:105(term)
-@@ -15241,8 +15794,8 @@
+@@ -15241,8 +15822,8 @@
  "When checked, text layers will be converted to raster graphics instead of "
  "including it as actual text. This can be useful if the font used for the "
  "text cannot be found by the PDF exporter and thus not included in the PDF. "
@@ -8114,7 +8213,7 @@
  msgstr ""
  
  #: src/dialogs/file-pcx-export.xml:5(title)
-@@ -15257,12 +15810,13 @@
+@@ -15257,12 +15838,13 @@
  
  #: src/dialogs/file-pcx-export.xml:18(para)
  msgid ""
@@ -8132,7 +8231,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-pat-export.xml:23(None)
  #, fuzzy
-@@ -15291,9 +15845,9 @@
+@@ -15291,9 +15873,9 @@
  
  #: src/dialogs/file-pat-export.xml:28(para)
  msgid ""
@@ -8145,7 +8244,7 @@
  msgstr ""
  
  #: src/dialogs/file-pat-export.xml:40(term)
-@@ -15327,13 +15881,14 @@
+@@ -15327,13 +15909,14 @@
  
  #: src/dialogs/file-ora-export.xml:21(para)
  msgid ""
@@ -8165,7 +8264,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-mng-export.xml:25(None)
  #, fuzzy
-@@ -15370,7 +15925,8 @@
+@@ -15370,7 +15953,8 @@
  "url=\"https://en.wikipedia.org/wiki/Multiple-image_Network_Graphics\"/>."
  msgstr ""
  
@@ -8175,7 +8274,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-jpegxl-export.xml:42(None)
  #, fuzzy
-@@ -15408,9 +15964,9 @@
+@@ -15408,9 +15992,9 @@
  
  #: src/dialogs/file-jpegxl-export.xml:31(para)
  msgid ""
@@ -8188,7 +8287,7 @@
  msgstr ""
  
  #: src/dialogs/file-jpegxl-export.xml:38(title)
-@@ -15432,8 +15988,8 @@
+@@ -15432,8 +16016,8 @@
  
  #: src/dialogs/file-jpegxl-export.xml:68(para)
  msgid ""
@@ -8199,7 +8298,7 @@
  "value of 1.0 it is visually almost the same as lossless."
  msgstr ""
  
-@@ -15444,8 +16000,8 @@
+@@ -15444,8 +16028,8 @@
  #: src/dialogs/file-jpegxl-export.xml:79(para)
  msgid ""
  "This setting determines how much effort the encoder will put into reaching "
@@ -8210,7 +8309,7 @@
  msgstr ""
  
  #: src/dialogs/file-jpegxl-export.xml:84(para)
-@@ -15462,7 +16018,8 @@
+@@ -15462,7 +16046,8 @@
  "color channel."
  msgstr ""
  
@@ -8220,7 +8319,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-jpeg-export.xml:47(None)
  #, fuzzy
-@@ -15489,8 +16046,8 @@
+@@ -15489,8 +16074,8 @@
  #: src/dialogs/file-jpeg-export.xml:27(para)
  msgid ""
  "JPEG files usually have the extension .jpg or .jpeg. It is a very widely "
@@ -8231,7 +8330,7 @@
  "animation or multiple layers."
  msgstr ""
  
-@@ -15498,8 +16055,8 @@
+@@ -15498,8 +16083,8 @@
  msgid ""
  "In the past, the jpeg format was considered the best choice when the file "
  "size was a concern due to its good compression. However, nowadays there are "
@@ -8242,7 +8341,7 @@
  "export\">HEIF</link>, <link linkend=\"file-jpegxl-export\">JPEG xl</link> "
  "and <link linkend=\"file-webp-export\">WebP</link>."
  msgstr ""
-@@ -15511,15 +16068,15 @@
+@@ -15511,15 +16096,15 @@
  
  #: src/dialogs/file-jpeg-export.xml:51(para)
  msgid ""
@@ -8262,7 +8361,7 @@
  "certain amount of loss of quality. For this reason, it is generally not a "
  "good idea to save jpeg images after altering them again and again, because "
  "each time you will loose a little more detail."
-@@ -15527,8 +16084,8 @@
+@@ -15527,8 +16112,8 @@
  
  #: src/dialogs/file-jpeg-export.xml:72(para)
  msgid ""
@@ -8273,7 +8372,7 @@
  "produces excellent results, but in many cases it is possible to set the "
  "quality substantially lower without noticeably degrading the image. You can "
  "test the effect of different quality settings by checking <guilabel>Show "
-@@ -15538,8 +16095,8 @@
+@@ -15538,8 +16123,8 @@
  #: src/dialogs/file-jpeg-export.xml:83(para)
  msgid ""
  "Please note, that the numbers for the JPEG quality level have a different "
@@ -8284,7 +8383,7 @@
  "different application."
  msgstr ""
  
-@@ -15550,8 +16107,8 @@
+@@ -15550,8 +16135,8 @@
  #: src/dialogs/file-jpeg-export.xml:98(para)
  msgid ""
  "If a particular quality setting (or <quote>quantization table</quote>) was "
@@ -8295,7 +8394,7 @@
  msgstr ""
  
  #: src/dialogs/file-jpeg-export.xml:104(para)
-@@ -15569,7 +16126,8 @@
+@@ -15569,7 +16154,8 @@
  "original image</quote> will be available but not enabled. This ensures that "
  "you always get at least the minimum quality specified in your defaults. If "
  "you did not make major changes to the image and you want to save it using "
@@ -8305,7 +8404,7 @@
  msgstr ""
  
  #: src/dialogs/file-jpeg-export.xml:125(term)
-@@ -15579,15 +16137,16 @@
+@@ -15579,15 +16165,16 @@
  #: src/dialogs/file-jpeg-export.xml:127(para)
  msgid ""
  "Checking this option causes each change in quality (or any other JPEG "
@@ -8326,7 +8425,7 @@
  "depending on the amount of metadata that was added to your image."
  msgstr ""
  
-@@ -15620,9 +16179,9 @@
+@@ -15620,9 +16207,9 @@
  
  #: src/dialogs/file-jpeg-export.xml:172(para)
  msgid ""
@@ -8339,7 +8438,7 @@
  msgstr ""
  
  #: src/dialogs/file-jpeg-export.xml:185(term)
-@@ -15633,8 +16192,8 @@
+@@ -15633,8 +16220,8 @@
  msgid ""
  "<emphasis>Arithmetic encoding</emphasis> is a form of entropy encoding (a "
  "lossless data compression scheme) that can be used in exporting as JPEG. "
@@ -8350,7 +8449,7 @@
  msgstr ""
  
  #: src/dialogs/file-jpeg-export.xml:197(term)
-@@ -15644,8 +16203,8 @@
+@@ -15644,8 +16231,8 @@
  #: src/dialogs/file-jpeg-export.xml:199(para)
  msgid ""
  "If you enable this option, the optimization of entropy encoding parameters "
@@ -8361,7 +8460,7 @@
  msgstr ""
  
  #: src/dialogs/file-jpeg-export.xml:207(term)
-@@ -15698,10 +16257,10 @@
+@@ -15698,10 +16285,10 @@
  #: src/dialogs/file-jpeg-export.xml:251(para)
  msgid ""
  "This is the standard subsampling, which usually provides a good ratio "
@@ -8376,7 +8475,7 @@
  msgstr ""
  
  #: src/dialogs/file-jpeg-export.xml:263(term)
-@@ -15729,8 +16288,8 @@
+@@ -15729,8 +16316,8 @@
  
  #: src/dialogs/file-jpeg-export.xml:286(para)
  msgid ""
@@ -8387,7 +8486,7 @@
  "choices are:"
  msgstr ""
  
-@@ -15766,7 +16325,8 @@
+@@ -15766,7 +16353,8 @@
  "while the integer methods should give the same results everywhere."
  msgstr ""
  
@@ -8397,7 +8496,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-jp2-export.xml:39(None)
  #, fuzzy
-@@ -15794,12 +16354,12 @@
+@@ -15794,12 +16382,12 @@
  
  #: src/dialogs/file-jp2-export.xml:20(para)
  msgid ""
@@ -8416,7 +8515,7 @@
  msgstr ""
  
  #: src/dialogs/file-jp2-export.xml:29(para)
-@@ -15836,7 +16396,8 @@
+@@ -15836,7 +16424,8 @@
  "Preferences</link>."
  msgstr ""
  
@@ -8426,7 +8525,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-j2k-export.xml:33(None)
  #, fuzzy
-@@ -15862,10 +16423,10 @@
+@@ -15862,10 +16451,10 @@
  
  #: src/dialogs/file-j2k-export.xml:20(para)
  msgid ""
@@ -8441,7 +8540,7 @@
  "JPEG 2000 image inside a HEIF container."
  msgstr ""
  
-@@ -15874,7 +16435,8 @@
+@@ -15874,7 +16463,8 @@
  msgid "The JPEG 2000 codestream Export dialog"
  msgstr "Dialogrutan Bilder"
  
@@ -8451,7 +8550,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-ico-export.xml:22(None)
  #, fuzzy
-@@ -15900,8 +16462,8 @@
+@@ -15900,8 +16490,8 @@
  
  #: src/dialogs/file-ico-export.xml:27(para)
  msgid ""
@@ -8462,7 +8561,7 @@
  "supports multiple icon sizes and color depths."
  msgstr ""
  
-@@ -16001,7 +16563,8 @@
+@@ -16001,7 +16591,8 @@
  "all programs support reading this type of icon."
  msgstr ""
  
@@ -8472,7 +8571,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-icns-export.xml:22(None)
  #, fuzzy
-@@ -16033,27 +16596,29 @@
+@@ -16033,27 +16624,29 @@
  
  #: src/dialogs/file-icns-export.xml:27(para)
  msgid ""
@@ -8512,7 +8611,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-html-table-export.xml:25(None)
  #, fuzzy
-@@ -16086,17 +16651,17 @@
+@@ -16086,17 +16679,17 @@
  
  #: src/dialogs/file-html-table-export.xml:30(para)
  msgid ""
@@ -8537,7 +8636,7 @@
  msgstr ""
  
  #: src/dialogs/file-html-table-export.xml:42(para)
-@@ -16142,9 +16707,9 @@
+@@ -16142,9 +16735,9 @@
  
  #: src/dialogs/file-html-table-export.xml:88(para)
  msgid ""
@@ -8550,7 +8649,7 @@
  msgstr ""
  
  #: src/dialogs/file-html-table-export.xml:96(term)
-@@ -16213,7 +16778,8 @@
+@@ -16213,7 +16806,8 @@
  msgid "The amount of cell spacing."
  msgstr ""
  
@@ -8560,7 +8659,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-heif-hej2-export.xml:34(None)
  #, fuzzy
-@@ -16240,11 +16806,12 @@
+@@ -16240,11 +16834,12 @@
  
  #: src/dialogs/file-heif-hej2-export.xml:20(para)
  msgid ""
@@ -8578,7 +8677,7 @@
  msgstr ""
  
  #: src/dialogs/file-heif-hej2-export.xml:30(title)
-@@ -16252,7 +16819,8 @@
+@@ -16252,7 +16847,8 @@
  msgid "The HEJ2 Export dialog"
  msgstr "Dialogrutan Bilder"
  
@@ -8588,7 +8687,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-heif-export.xml:31(None)
  #, fuzzy
-@@ -16287,18 +16855,19 @@
+@@ -16287,18 +16883,19 @@
  #: src/dialogs/file-heif-export.xml:22(para)
  #, fuzzy
  msgid ""
@@ -8613,7 +8712,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-heif-av1-export.xml:34(None)
  #, fuzzy
-@@ -16335,11 +16904,11 @@
+@@ -16335,11 +16932,11 @@
  #: src/dialogs/file-heif-av1-export.xml:25(para)
  #, fuzzy
  msgid ""
@@ -8629,7 +8728,7 @@
  
  #: src/dialogs/file-heif-av1-export.xml:30(title)
  #, fuzzy
-@@ -16383,12 +16952,13 @@
+@@ -16383,12 +16980,13 @@
  
  #: src/dialogs/file-gih-export.xml:18(para)
  msgid ""
@@ -8647,7 +8746,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-gif-export.xml:29(None)
  #, fuzzy
-@@ -16422,8 +16992,8 @@
+@@ -16422,8 +17020,8 @@
  #: src/dialogs/file-gif-export.xml:34(para)
  msgid ""
  "The GIF file format does not support some basic image properties such as "
@@ -8658,7 +8757,7 @@
  msgstr ""
  
  #: src/dialogs/file-gif-export.xml:39(para)
-@@ -16549,8 +17119,8 @@
+@@ -16549,8 +17147,8 @@
  
  #: src/dialogs/file-gif-export.xml:180(para)
  msgid ""
@@ -8669,7 +8768,7 @@
  msgstr ""
  
  #: src/dialogs/file-gif-export.xml:187(term)
-@@ -16577,12 +17147,13 @@
+@@ -16577,12 +17175,13 @@
  
  #: src/dialogs/file-gbr-export.xml:18(para)
  msgid ""
@@ -8687,7 +8786,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-fli-export.xml:23(None)
  #, fuzzy
-@@ -16647,11 +17218,11 @@
+@@ -16647,11 +17246,11 @@
  
  #: src/dialogs/file-fits-export.xml:21(para)
  msgid ""
@@ -8704,7 +8803,7 @@
  msgstr ""
  
  #: src/dialogs/file-farbfeld-export.xml:5(title)
-@@ -16693,14 +17264,15 @@
+@@ -16693,14 +17292,15 @@
  #: src/dialogs/file-exr-export.xml:21(para)
  msgid ""
  "The <ulink url=\"https://en.wikipedia.org/wiki/OpenEXR\">OpenEXR</ulink> "
@@ -8726,7 +8825,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-eps-export.xml:35(None)
  #, fuzzy
-@@ -16723,16 +17295,18 @@
+@@ -16723,16 +17323,18 @@
  #: src/dialogs/file-eps-export.xml:17(para)
  msgid ""
  "EPS, or <quote>Encapsulated PostScript</quote>, is, as the name suggests, a "
@@ -8751,7 +8850,7 @@
  msgstr ""
  
  #: src/dialogs/file-eps-export.xml:31(title)
-@@ -16760,14 +17334,15 @@
+@@ -16760,14 +17362,15 @@
  
  #: src/dialogs/file-dicom-export.xml:25(para)
  msgid ""
@@ -8770,7 +8869,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-dds-export.xml:23(None)
  #, fuzzy
-@@ -16794,9 +17369,10 @@
+@@ -16794,9 +17397,10 @@
  
  #: src/dialogs/file-dds-export.xml:28(para)
  msgid ""
@@ -8784,7 +8883,7 @@
  msgstr ""
  
  #: src/dialogs/file-dds-export.xml:33(para)
-@@ -16830,8 +17406,8 @@
+@@ -16830,8 +17434,8 @@
  
  #: src/dialogs/file-dds-export.xml:69(para)
  msgid ""
@@ -8795,7 +8894,7 @@
  "opaque) is stored, taking away 1 bit of green."
  msgstr ""
  
-@@ -16893,9 +17469,9 @@
+@@ -16893,9 +17497,9 @@
  
  #: src/dialogs/file-dds-export.xml:126(para)
  msgid ""
@@ -8808,7 +8907,7 @@
  msgstr ""
  
  #: src/dialogs/file-dds-export.xml:134(term)
-@@ -16904,8 +17480,8 @@
+@@ -16904,8 +17508,8 @@
  
  #: src/dialogs/file-dds-export.xml:136(para)
  msgid ""
@@ -8819,7 +8918,7 @@
  "uncompressed source."
  msgstr ""
  
-@@ -16954,8 +17530,9 @@
+@@ -16954,8 +17558,9 @@
  
  #: src/dialogs/file-dds-export.xml:187(para)
  msgid ""
@@ -8831,7 +8930,7 @@
  msgstr ""
  
  #: src/dialogs/file-dds-export.xml:195(term)
-@@ -17097,8 +17674,8 @@
+@@ -17097,8 +17702,8 @@
  
  #: src/dialogs/file-dds-export.xml:324(para)
  msgid ""
@@ -8842,7 +8941,7 @@
  msgstr ""
  
  #: src/dialogs/file-dds-export.xml:329(para)
-@@ -17154,8 +17731,8 @@
+@@ -17154,8 +17759,8 @@
  #: src/dialogs/file-dds-export.xml:382(para)
  msgid ""
  "A Cube Map requires six layers that are all the same size, with or without "
@@ -8853,7 +8952,7 @@
  msgstr ""
  
  #: src/dialogs/file-dds-export.xml:387(para)
-@@ -17221,8 +17798,8 @@
+@@ -17221,8 +17826,8 @@
  #: src/dialogs/file-dds-export.xml:450(para)
  msgid ""
  "Mipmaps are reduced size versions of the same image where each mipmap is "
@@ -8864,7 +8963,7 @@
  msgstr ""
  
  #: src/dialogs/file-dds-export.xml:458(term)
-@@ -17311,7 +17888,8 @@
+@@ -17311,7 +17916,8 @@
  msgstr ""
  
  #: src/dialogs/file-dds-export.xml:536(para)
@@ -8874,7 +8973,7 @@
  msgstr ""
  
  #: src/dialogs/file-dds-export.xml:543(term)
-@@ -17331,8 +17909,8 @@
+@@ -17331,8 +17937,8 @@
  
  #: src/dialogs/file-dds-export.xml:556(para)
  msgid ""
@@ -8885,7 +8984,7 @@
  msgstr ""
  
  #: src/dialogs/file-dds-export.xml:564(term)
-@@ -17382,10 +17960,11 @@
+@@ -17382,10 +17988,11 @@
  
  #: src/dialogs/file-dds-export.xml:611(para)
  msgid ""
@@ -8901,7 +9000,7 @@
  msgstr ""
  
  #: src/dialogs/file-dds-export.xml:625(term)
-@@ -17481,7 +18060,8 @@
+@@ -17481,7 +18088,8 @@
  "channels."
  msgstr ""
  
@@ -8911,7 +9010,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-cur-export.xml:22(None)
  #, fuzzy
-@@ -17506,9 +18086,9 @@
+@@ -17506,9 +18114,9 @@
  
  #: src/dialogs/file-cur-export.xml:27(para)
  msgid ""
@@ -8924,7 +9023,7 @@
  msgstr ""
  
  #: src/dialogs/file-cur-export.xml:33(para)
-@@ -17530,7 +18110,8 @@
+@@ -17530,7 +18138,8 @@
  msgid "These values set the location of the hot spot for this cursor."
  msgstr ""
  
@@ -8934,7 +9033,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-csource-export.xml:25(None)
  #, fuzzy
-@@ -17645,7 +18226,8 @@
+@@ -17645,7 +18254,8 @@
  msgid "This slider allows you to set the opacity of the image data."
  msgstr "Denna knapp låter dig ta bort alla fel i loggen."
  
@@ -8944,7 +9043,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-colorxhtml-export.xml:25(None)
  #, fuzzy
-@@ -17680,9 +18262,9 @@
+@@ -17680,9 +18290,9 @@
  
  #: src/dialogs/file-colorxhtml-export.xml:37(para)
  msgid ""
@@ -8957,7 +9056,7 @@
  msgstr ""
  
  #: src/dialogs/file-colorxhtml-export.xml:55(term)
-@@ -17728,7 +18310,8 @@
+@@ -17728,7 +18338,8 @@
  #: src/dialogs/file-colorxhtml-export.xml:92(para)
  msgid ""
  "If checked, a separate css file will be written containing the styles used "
@@ -8967,7 +9066,7 @@
  msgstr ""
  
  #: src/dialogs/file-cel-export.xml:5(title)
-@@ -17743,13 +18326,15 @@
+@@ -17743,13 +18354,15 @@
  
  #: src/dialogs/file-cel-export.xml:18(para)
  msgid ""
@@ -8988,7 +9087,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-bmp-export.xml:23(None)
  #, fuzzy
-@@ -17776,8 +18361,8 @@
+@@ -17776,8 +18389,8 @@
  
  #: src/dialogs/file-bmp-export.xml:28(para)
  msgid ""
@@ -8999,7 +9098,7 @@
  msgstr ""
  
  #: src/dialogs/file-bmp-export.xml:39(term)
-@@ -17809,8 +18394,8 @@
+@@ -17809,8 +18422,8 @@
  
  #: src/dialogs/file-bmp-export.xml:62(para)
  msgid ""
@@ -9010,7 +9109,7 @@
  msgstr ""
  
  #: src/dialogs/file-bmp-export.xml:69(term)
-@@ -17857,8 +18442,8 @@
+@@ -17857,8 +18470,8 @@
  
  #: src/dialogs/file-bmp-export.xml:117(para)
  msgid ""
@@ -9021,7 +9120,7 @@
  msgstr ""
  
  #: src/dialogs/file-bmp-export.xml:124(term)
-@@ -17867,11 +18452,12 @@
+@@ -17867,11 +18480,12 @@
  
  #: src/dialogs/file-bmp-export.xml:128(para)
  msgid ""
@@ -9037,7 +9136,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-ani-export.xml:22(None)
  #, fuzzy
-@@ -17898,8 +18484,8 @@
+@@ -17898,8 +18512,8 @@
  
  #: src/dialogs/file-ani-export.xml:27(para)
  msgid ""
@@ -9048,7 +9147,7 @@
  "displaying animated cursors."
  msgstr ""
  
-@@ -17907,9 +18493,9 @@
+@@ -17907,9 +18521,9 @@
  msgid ""
  "It is closely related to the non-animated <link linkend=\"file-cur-"
  "export\">Microsoft Windows Cursor</link>. The export dialog shows all the "
@@ -9061,7 +9160,7 @@
  msgstr ""
  
  #: src/dialogs/file-ani-export.xml:47(term)
-@@ -17931,8 +18517,8 @@
+@@ -17931,8 +18545,8 @@
  
  #: src/dialogs/file-ani-export.xml:62(para)
  msgid ""
@@ -9072,7 +9171,7 @@
  msgstr ""
  
  #: src/dialogs/file-ani-export.xml:69(term)
-@@ -17947,7 +18533,8 @@
+@@ -17947,7 +18561,8 @@
  "133 ms."
  msgstr ""
  
@@ -9082,7 +9181,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/file-aa-export.xml:25(None)
  #, fuzzy
-@@ -18016,7 +18603,8 @@
+@@ -18016,7 +18631,8 @@
  msgid ""
  "This exports it as an html file in Netscape (a predecessor of Mozilla "
  "Firefox) format. This can be opened in your browser. Compared to "
@@ -9092,7 +9191,7 @@
  msgstr ""
  
  #: src/dialogs/file-aa-export.xml:83(term)
-@@ -18037,8 +18625,8 @@
+@@ -18037,8 +18653,8 @@
  msgid ""
  "This exports it in a format that can be used to show documentation on your "
  "screen from the command line, as supported by the Linux programs <ulink "
@@ -9103,7 +9202,7 @@
  msgstr ""
  
  #: src/dialogs/file-aa-export.xml:106(term)
-@@ -18117,8 +18705,8 @@
+@@ -18117,8 +18733,8 @@
  #: src/dialogs/export-file-formats.xml:18(para)
  msgid ""
  "Be aware that not all formats support all kinds of images. In particular "
@@ -9114,7 +9213,7 @@
  msgstr ""
  
  #: src/dialogs/export-file-formats.xml:25(title)
-@@ -18137,20 +18725,21 @@
+@@ -18137,20 +18753,21 @@
  
  #: src/dialogs/export-file-formats.xml:35(para)
  msgid ""
@@ -9143,7 +9242,7 @@
  msgstr ""
  
  #: src/dialogs/export-file-formats.xml:49(para)
-@@ -18162,8 +18751,8 @@
+@@ -18162,8 +18779,8 @@
  #: src/dialogs/export-file-formats.xml:53(para)
  msgid ""
  "The animation command specifies how the frame is combined with the previous "
@@ -9154,7 +9253,7 @@
  msgstr ""
  
  #: src/dialogs/export-file-formats.xml:60(term)
-@@ -18184,8 +18773,8 @@
+@@ -18184,8 +18801,8 @@
  #: src/dialogs/export-file-formats.xml:71(para)
  msgid ""
  "The <literal>(combine)</literal> command means that this layer (frame) will "
@@ -9165,7 +9264,7 @@
  "reduce the size of the animation and may improve playback speed for large "
  "size animations."
  msgstr ""
-@@ -18194,19 +18783,19 @@
+@@ -18194,19 +18811,19 @@
  msgid ""
  "You can use the <link linkend=\"plug-in-animationoptimize\">optimize (for "
  "GIF)</link> command to change your <literal>(replace)</literal> layers to "
@@ -9193,7 +9292,7 @@
  msgstr ""
  
  #: src/dialogs/export-file-formats.xml:98(para)
-@@ -18216,7 +18805,8 @@
+@@ -18216,7 +18833,8 @@
  "preview your animation."
  msgstr ""
  
@@ -9203,7 +9302,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/export-file-dialog.xml:23(None)
  #, fuzzy
-@@ -18247,16 +18837,16 @@
+@@ -18247,16 +18865,16 @@
  #, fuzzy
  msgid ""
  "You can access this command in the main menu through "
@@ -9226,7 +9325,7 @@
  msgstr ""
  
  #: src/dialogs/export-file-dialog.xml:52(title)
-@@ -18268,8 +18858,8 @@
+@@ -18268,8 +18886,8 @@
  msgid ""
  "In the file browser, you can edit filename and extension directly in the "
  "<guilabel>Name</guilabel> field (default is <quote>Untitled.png</quote>) or "
@@ -9237,7 +9336,7 @@
  "folder if necessary."
  msgstr ""
  
-@@ -18292,8 +18882,9 @@
+@@ -18292,8 +18910,9 @@
  
  #: src/dialogs/export-file-dialog.xml:75(para)
  msgid ""
@@ -9249,7 +9348,7 @@
  msgstr ""
  
  #: src/dialogs/export-file-dialog.xml:82(para)
-@@ -18306,21 +18897,22 @@
+@@ -18306,21 +18925,22 @@
  
  #: src/dialogs/export-file-dialog.xml:89(para)
  msgid ""
@@ -9280,7 +9379,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/error-console.xml:71(None)
  #, fuzzy
-@@ -18330,7 +18922,8 @@
+@@ -18330,7 +18950,8 @@
  msgstr ""
  "@@image: 'images/dialogs/error-console.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -9290,7 +9389,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/error-console.xml:81(None)
  msgid ""
-@@ -18338,7 +18931,8 @@
+@@ -18338,7 +18959,8 @@
  "md5=add7f95b57385788d43d3125ac2d61b1"
  msgstr ""
  
@@ -9300,7 +9399,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/error-console.xml:104(None)
  #: src/dialogs/device-status-dialog.xml:58(None)
-@@ -18367,21 +18961,21 @@
+@@ -18367,21 +18989,21 @@
  #: src/dialogs/error-console.xml:35(para)
  #, fuzzy
  msgid ""
@@ -9333,7 +9432,7 @@
  msgstr ""
  "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
  "flik</guimenu><guimenuitem>Verktyg</guimenuitem></menuchoice>."
-@@ -18422,9 +19016,9 @@
+@@ -18422,9 +19044,9 @@
  #: src/dialogs/error-console.xml:118(para)
  msgid ""
  "You can also select a part of the log (by click-and-dragging the mouse "
@@ -9346,7 +9445,7 @@
  msgstr ""
  
  #: src/dialogs/error-console.xml:130(para)
-@@ -18497,8 +19091,8 @@
+@@ -18497,8 +19119,8 @@
  
  #: src/dialogs/eps-ps-common-options.xml:44(para)
  msgid ""
@@ -9357,7 +9456,7 @@
  msgstr ""
  
  #: src/dialogs/eps-ps-common-options.xml:54(term)
-@@ -18577,7 +19171,8 @@
+@@ -18577,7 +19199,8 @@
  "the preview image here."
  msgstr ""
  
@@ -9367,7 +9466,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/edit-template-dialog.xml:28(None)
  #, fuzzy
-@@ -18585,10 +19180,11 @@
+@@ -18585,10 +19208,11 @@
  "@@image: 'images/dialogs/dialogs-templates-edit-advanced.png'; "
  "md5=0d0fd0cc39d3e317dbad8115b2fd86ee"
  msgstr ""
@@ -9382,7 +9481,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/edit-template-dialog.xml:233(None)
  #, fuzzy
-@@ -18613,14 +19209,15 @@
+@@ -18613,14 +19237,15 @@
  msgstr "Dialogrutan Redigera mall"
  
  #: src/dialogs/edit-template-dialog.xml:33(para)
@@ -9402,7 +9501,7 @@
  msgstr ""
  
  #: src/dialogs/edit-template-dialog.xml:47(para)
-@@ -18633,9 +19230,9 @@
+@@ -18633,9 +19258,9 @@
  
  #: src/dialogs/edit-template-dialog.xml:55(para)
  msgid ""
@@ -9415,7 +9514,7 @@
  "clipboard."
  msgstr ""
  
-@@ -18643,9 +19240,9 @@
+@@ -18643,9 +19268,9 @@
  msgid ""
  "Here you set the <guilabel>Width</guilabel> and <guilabel>Height</guilabel> "
  "of the new image. The default units are pixels, but you can choose a "
@@ -9428,7 +9527,7 @@
  "<quote>Dot for Dot</quote> in the <guimenu>View</guimenu> menu."
  msgstr ""
  
-@@ -18655,11 +19252,11 @@
+@@ -18655,11 +19280,11 @@
  
  #: src/dialogs/edit-template-dialog.xml:82(para)
  msgid ""
@@ -9445,7 +9544,7 @@
  msgstr ""
  
  #: src/dialogs/edit-template-dialog.xml:96(para)
-@@ -18682,12 +19279,12 @@
+@@ -18682,12 +19307,12 @@
  #: src/dialogs/edit-template-dialog.xml:112(para)
  msgid ""
  "If you want to display the image on the screen at the correct dimensions, "
@@ -9464,7 +9563,7 @@
  "display\">Preferences</link> dialog."
  msgstr ""
  
-@@ -18699,8 +19296,8 @@
+@@ -18699,8 +19324,8 @@
  #: src/dialogs/edit-template-dialog.xml:134(para)
  msgid ""
  "You can create the new image in different <link linkend=\"gimp-image-"
@@ -9475,7 +9574,7 @@
  msgstr ""
  
  #: src/dialogs/edit-template-dialog.xml:141(term)
-@@ -18725,16 +19322,17 @@
+@@ -18725,16 +19350,17 @@
  "The image is created in black and white, with various shades of gray. Aside "
  "from your artistic interests, this type of image may be necessary for some "
  "plug-ins. Nevertheless, <acronym>GIMP</acronym> allows you to <link "
@@ -9497,7 +9596,7 @@
  msgstr ""
  
  #: src/dialogs/edit-template-dialog.xml:177(term)
-@@ -18778,8 +19376,8 @@
+@@ -18778,8 +19404,8 @@
  "If you wonder what the difference is between integer and floating point (in "
  "the graphics area): If you have an image with 16-bit integer precision per "
  "channel, then you have 65,536 shades of different red, green and blue color "
@@ -9508,7 +9607,7 @@
  "can distribute the possible color values over selected ranges. For example: "
  "if you know that you have a very dark image with many shades of dark red "
  "color tones then you would benefit from floating point because you can "
-@@ -18831,11 +19429,11 @@
+@@ -18831,11 +19457,11 @@
  msgid ""
  "You can attach a CMYK color profile to the image with this option. This "
  "profile will be used to create a soft-proofed display of the image when the "
@@ -9525,7 +9624,7 @@
  msgstr ""
  
  #: src/dialogs/edit-template-dialog.xml:292(term)
-@@ -18846,9 +19444,9 @@
+@@ -18846,9 +19472,9 @@
  msgid ""
  "This option lets you select the rendering intent that will be used to "
  "convert the colors from the soft-proofed image to your display device when "
@@ -9538,7 +9637,7 @@
  "colorimetric</quote>, <quote>Saturation</quote> and <quote>Absolute "
  "colorimetric</quote>. See <xref linkend=\"gimp-prefs-color-management\"/> "
  "and <xref linkend=\"gimp-image-color-management\"/> for more information."
-@@ -18874,8 +19472,8 @@
+@@ -18874,8 +19500,8 @@
  msgid ""
  "Here, you specify the background color that is used for your new image. It "
  "is certainly possible to change the background of an image later, too. You "
@@ -9549,7 +9648,7 @@
  msgstr ""
  
  #: src/dialogs/edit-template-dialog.xml:331(para)
-@@ -18884,20 +19482,20 @@
+@@ -18884,20 +19510,20 @@
  
  #: src/dialogs/edit-template-dialog.xml:333(para)
  msgid ""
@@ -9576,7 +9675,7 @@
  "window is open.)"
  msgstr ""
  
-@@ -18924,8 +19522,8 @@
+@@ -18924,8 +19550,8 @@
  #: src/dialogs/edit-template-dialog.xml:372(para)
  msgid ""
  "Fill the image with a <guilabel>Pattern</guilabel>. If you choose this "
@@ -9587,7 +9686,7 @@
  msgstr ""
  
  #: src/dialogs/edit-template-dialog.xml:384(para)
-@@ -18942,7 +19540,8 @@
+@@ -18942,7 +19568,8 @@
  "properties\">Image Properties</link> dialog."
  msgstr "Se <link linkend=\"gimp-palette-refresh\">Uppdatera paletter</link>."
  
@@ -9597,7 +9696,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/document-dialog.xml:25(None)
  #, fuzzy
-@@ -18950,7 +19549,8 @@
+@@ -18950,7 +19577,8 @@
  "@@image: 'images/dialogs/history.png'; md5=1c75791f5cdc2423c7204fb4e448ca70"
  msgstr "@@image: 'images/dialogs/history.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -9607,7 +9706,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/document-dialog.xml:130(None)
  msgid ""
-@@ -18958,7 +19558,8 @@
+@@ -18958,7 +19586,8 @@
  "md5=261f60f13410f4114a5d9b26fcdf4471"
  msgstr ""
  
@@ -9617,7 +9716,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/document-dialog.xml:184(None)
  #, fuzzy
-@@ -18987,19 +19588,20 @@
+@@ -18987,19 +19616,20 @@
  #: src/dialogs/document-dialog.xml:47(para)
  #, fuzzy
  msgid ""
@@ -9645,7 +9744,7 @@
  "History</guimenuitem></menuchoice>."
  msgstr ""
  "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
-@@ -19011,8 +19613,8 @@
+@@ -19011,8 +19641,8 @@
  "From the main menu: <menuchoice><guimenu>File</guimenu><guisubmenu>Open "
  "Recent</guisubmenu><guimenuitem>Document History</guimenuitem></menuchoice>."
  msgstr ""
@@ -9656,7 +9755,7 @@
  
  #: src/dialogs/document-dialog.xml:87(title)
  #, fuzzy
-@@ -19026,10 +19628,10 @@
+@@ -19026,10 +19656,10 @@
  #: src/dialogs/document-dialog.xml:91(para)
  msgid ""
  "In the Tab menu for the <quote>Document History</quote> dialog, you can "
@@ -9671,7 +9770,7 @@
  "dimensions."
  msgstr ""
  
-@@ -19038,8 +19640,8 @@
+@@ -19038,8 +19668,8 @@
  "Use the <emphasis>Open the selected entry</emphasis><placeholder-1/> button "
  "or <guimenuitem>Open Image</guimenuitem> command of the dialog's context "
  "menu, to open the image you have selected. With the <keycap>Shift</keycap> "
@@ -9682,7 +9781,7 @@
  msgstr ""
  
  #: src/dialogs/document-dialog.xml:124(para)
-@@ -19047,8 +19649,8 @@
+@@ -19047,8 +19677,8 @@
  "Use the <emphasis>Remove the selected entry</emphasis><placeholder-1/> "
  "button or <guimenuitem>Remove Entry</guimenuitem> command of the dialog's "
  "context menu, to remove an image from the History dialog. The image is "
@@ -9693,7 +9792,7 @@
  msgstr ""
  
  #: src/dialogs/document-dialog.xml:140(para)
-@@ -19075,8 +19677,8 @@
+@@ -19075,8 +19705,8 @@
  
  #: src/dialogs/document-dialog.xml:192(para)
  msgid ""
@@ -9704,7 +9803,7 @@
  "menus\">tab menu button</link><placeholder-1/> and opening the "
  "<guisubmenu>Documents Menu</guisubmenu> submenu. Several of the operations "
  "are also available through buttons at the bottom of the dialog. Those "
-@@ -19096,8 +19698,8 @@
+@@ -19096,8 +19726,8 @@
  
  #: src/dialogs/document-dialog.xml:224(para)
  msgid ""
@@ -9715,7 +9814,7 @@
  msgstr ""
  
  #: src/dialogs/dialogs_introduction.xml:8(title)
-@@ -19127,15 +19729,16 @@
+@@ -19127,15 +19757,16 @@
  msgid ""
  "The following dialogs let you control and manipulate image structures, such "
  "as <link linkend=\"gimp-concepts-layers\">layers</link>, <link "
@@ -9735,7 +9834,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/dialogs-preferences.xml:22(None)
  #, fuzzy
-@@ -19157,22 +19760,21 @@
+@@ -19157,22 +19788,21 @@
  #: src/dialogs/dialogs-preferences.xml:26(para)
  msgid ""
  "The preferences dialog can be accessed from the main menu, through "
@@ -9767,7 +9866,7 @@
  msgstr ""
  
  #: src/dialogs/dialogs-misc.xml:8(title)
-@@ -19199,7 +19801,8 @@
+@@ -19199,7 +19829,8 @@
  msgid "Image-content Related Dialogs"
  msgstr "Dialogrutor relaterade till bildinnehåll"
  
@@ -9777,7 +9876,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/device-status-dialog.xml:22(None)
  #, fuzzy
-@@ -19233,18 +19836,18 @@
+@@ -19233,18 +19864,18 @@
  
  #: src/dialogs/device-status-dialog.xml:32(para)
  msgid ""
@@ -9803,7 +9902,7 @@
  "devices\">Input devices</link> tab of the Preferences dialog."
  msgstr ""
  
-@@ -19257,8 +19860,8 @@
+@@ -19257,8 +19888,8 @@
  
  #: src/dialogs/device-status-dialog.xml:53(para)
  msgid ""
@@ -9814,7 +9913,7 @@
  "Device Settings Now</guibutton> button in the <link linkend=\"gimp-prefs-"
  "input-devices\">Input Devices</link> section of the preferences."
  msgstr ""
-@@ -19266,24 +19869,25 @@
+@@ -19266,24 +19897,25 @@
  #: src/dialogs/device-status-dialog.xml:77(para)
  #, fuzzy
  msgid ""
@@ -9852,7 +9951,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/dashboard.xml:27(None)
  msgid ""
-@@ -19291,7 +19895,8 @@
+@@ -19291,7 +19923,8 @@
  "md5=2aafb674a8c62ce316efde4571adc658"
  msgstr ""
  
@@ -9862,7 +9961,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/dashboard.xml:105(None)
  #, fuzzy
-@@ -19322,21 +19927,21 @@
+@@ -19322,21 +19955,21 @@
  #: src/dialogs/dashboard.xml:44(para)
  #, fuzzy
  msgid ""
@@ -9895,7 +9994,7 @@
  msgstr ""
  "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
  "flik</guimenu><guimenuitem>Verktyg</guimenuitem></menuchoice>."
-@@ -19348,11 +19953,11 @@
+@@ -19348,11 +19981,11 @@
  
  #: src/dialogs/dashboard.xml:76(para)
  msgid ""
@@ -9912,7 +10011,7 @@
  msgstr ""
  
  #: src/dialogs/dashboard.xml:83(para)
-@@ -19415,8 +20020,8 @@
+@@ -19415,8 +20048,8 @@
  #: src/dialogs/dashboard.xml:137(para)
  msgid ""
  "The History Duration submenu allows you to change for what period of time "
@@ -9923,7 +10022,7 @@
  msgstr ""
  
  #: src/dialogs/dashboard.xml:146(term)
-@@ -19455,8 +20060,8 @@
+@@ -19455,8 +20088,8 @@
  "If you are recording a performance log, this enables you to mark a certain "
  "point in the log. An empty marker will be added, meaning you won't be asked "
  "to give it a name. This can make it easier for developers to find the "
@@ -9934,7 +10033,7 @@
  "pressing the <keycap>Shift</keycap> key to add an empty marker."
  msgstr ""
  
-@@ -19503,9 +20108,9 @@
+@@ -19503,9 +20136,9 @@
  "maximum cache size as set in preferences. What is shown can be changed in "
  "the Cache tab menu by clicking on <placeholder-1/>. You can choose to show "
  "or hide <guilabel>Occupied</guilabel> size, <guilabel>Maximum</guilabel> "
@@ -9947,7 +10046,7 @@
  msgstr ""
  
  #: src/dialogs/dashboard.xml:247(term)
-@@ -19525,13 +20130,13 @@
+@@ -19525,13 +20158,13 @@
  "By default this shows the current Swap size and what part is occupied, as "
  "well as the Swap size limit. What is shown can be changed in the Swap tab "
  "menu by clicking on <placeholder-1/>. You can choose to show or hide the "
@@ -9968,7 +10067,7 @@
  msgstr ""
  
  #: src/dialogs/dashboard.xml:280(term)
-@@ -19544,9 +20149,9 @@
+@@ -19544,9 +20177,9 @@
  
  #: src/dialogs/dashboard.xml:285(para)
  msgid ""
@@ -9981,7 +10080,7 @@
  "has been <guilabel>Active</guilabel>."
  msgstr ""
  
-@@ -19557,7 +20162,8 @@
+@@ -19557,7 +20190,8 @@
  #: src/dialogs/dashboard.xml:305(para)
  msgid ""
  "Memory shows the current amount of memory used by GIMP, the amount of "
@@ -9991,7 +10090,7 @@
  msgstr ""
  
  #: src/dialogs/dashboard.xml:310(para)
-@@ -19585,12 +20191,13 @@
+@@ -19585,12 +20219,13 @@
  msgid ""
  "By default all settings are shown, but what is shown can be changed in the "
  "Misc tab menu by clicking on <placeholder-1/>. You can choose to show or "
@@ -10011,7 +10110,7 @@
  msgstr ""
  
  #: src/dialogs/common-metadata-settings.xml:34(term)
-@@ -19625,8 +20232,8 @@
+@@ -19625,8 +20260,8 @@
  
  #: src/dialogs/common-metadata-settings.xml:63(para)
  msgid ""
@@ -10022,7 +10121,7 @@
  msgstr ""
  
  #: src/dialogs/common-metadata-settings.xml:70(term)
-@@ -19650,9 +20257,9 @@
+@@ -19650,9 +20285,9 @@
  msgid ""
  "If you have a <link linkend=\"glossary-cmyk\">CMYK</link> profile assigned "
  "to your image as soft-proofing profile, this setting can be checked to have "
@@ -10035,7 +10134,7 @@
  msgstr ""
  
  #: src/dialogs/common-export-as-cmyk-setting.xml:19(para)
-@@ -19668,7 +20275,8 @@
+@@ -19668,7 +20303,8 @@
  "below this setting."
  msgstr ""
  
@@ -10045,7 +10144,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/color-dialog.xml:104(None)
  #, fuzzy
-@@ -19678,7 +20286,8 @@
+@@ -19678,7 +20314,8 @@
  msgstr ""
  "@@image: 'images/dialogs/color-dialog.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -10055,7 +10154,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/color-dialog.xml:126(None)
  #, fuzzy
-@@ -19687,7 +20296,8 @@
+@@ -19687,7 +20324,8 @@
  "md5=f61e10e91fdb5778c3f55e9164caab79"
  msgstr "@@image: 'images/dialogs/color-CMYK.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -10065,7 +10164,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/color-dialog.xml:165(None)
  #, fuzzy
-@@ -19697,7 +20307,8 @@
+@@ -19697,7 +20335,8 @@
  msgstr ""
  "@@image: 'images/dialogs/color-watercolor.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -10075,7 +10174,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/color-dialog.xml:193(None)
  #, fuzzy
-@@ -19707,7 +20318,8 @@
+@@ -19707,7 +20346,8 @@
  msgstr ""
  "@@image: 'images/dialogs/color-triangle.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -10085,7 +10184,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/color-dialog.xml:217(None)
  #, fuzzy
-@@ -19717,16 +20329,19 @@
+@@ -19717,16 +20357,19 @@
  msgstr ""
  "@@image: 'images/dialogs/color-palette.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -10108,7 +10207,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/color-dialog.xml:323(None)
  #, fuzzy
-@@ -19760,21 +20375,21 @@
+@@ -19760,21 +20403,21 @@
  #: src/dialogs/color-dialog.xml:45(para)
  #, fuzzy
  msgid ""
@@ -10141,7 +10240,7 @@
  msgstr ""
  "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
  "flik</guimenu><guimenuitem>Verktyg</guimenuitem></menuchoice>."
-@@ -19789,9 +20404,9 @@
+@@ -19789,9 +20432,9 @@
  msgid ""
  "In the <guimenu>Windows</guimenu> menu, there is a list of <link "
  "linkend=\"gimp-dockable-menu\">detached windows</link> which exists only if "
@@ -10154,7 +10253,7 @@
  msgstr ""
  
  #: src/dialogs/color-dialog.xml:92(title)
-@@ -19846,9 +20461,9 @@
+@@ -19846,9 +20489,9 @@
  #: src/dialogs/color-dialog.xml:140(para)
  msgid ""
  "If a CMYK profile is attached to the image, the profile will be used to "
@@ -10167,7 +10266,7 @@
  msgstr ""
  
  #: src/dialogs/color-dialog.xml:147(para)
-@@ -19873,8 +20488,8 @@
+@@ -19873,8 +20516,8 @@
  "consists in changing the current foreground color by clicking in the "
  "rectangular palette. If the current foreground color is for example white, "
  "then it turns reddish by clicking in the red color area. Repeated clicking "
@@ -10178,7 +10277,7 @@
  "control is, the more color is taken up per click."
  msgstr ""
  
-@@ -19905,10 +20520,10 @@
+@@ -19905,10 +20548,10 @@
  #: src/dialogs/color-dialog.xml:221(para)
  msgid ""
  "This color selector brings up a list of the colors from the current palette "
@@ -10193,7 +10292,7 @@
  msgstr ""
  
  #: src/dialogs/color-dialog.xml:232(term)
-@@ -19924,16 +20539,16 @@
+@@ -19924,16 +20567,16 @@
  #: src/dialogs/color-dialog.xml:243(para)
  msgid ""
  "This selector displays a global view of the R, G, B channels and either the "
@@ -10214,7 +10313,7 @@
  "that is out of gamut, the color remains set to the last in-gamut color that "
  "you selected."
  msgstr ""
-@@ -19959,8 +20574,8 @@
+@@ -19959,8 +20602,8 @@
  "The symbol consisting of two arrows allows you to exchange the foreground "
  "and background color. At the bottom left of this icon, below the foreground "
  "color block, you find a switching surface with two small, one black and the "
@@ -10225,7 +10324,7 @@
  msgstr ""
  
  #: src/dialogs/color-dialog.xml:286(term)
-@@ -19971,8 +20586,8 @@
+@@ -19971,8 +20614,8 @@
  msgid ""
  "The Color Dialog color picker has a completely different behavior than the "
  "<link linkend=\"gimp-tool-color-picker\">color picker tool</link>. Instead "
@@ -10236,7 +10335,7 @@
  msgstr ""
  
  #: src/dialogs/color-dialog.xml:295(para)
-@@ -20022,7 +20637,8 @@
+@@ -20022,7 +20665,8 @@
  "background color to this history list."
  msgstr ""
  
@@ -10246,7 +10345,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/channel-selection-mask.xml:39(None)
  #, fuzzy
-@@ -20033,7 +20649,8 @@
+@@ -20033,7 +20677,8 @@
  "@@image: 'images/dialogs/channel-masks-example.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -10256,7 +10355,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/channel-selection-mask.xml:45(None)
  #, fuzzy
-@@ -20090,11 +20707,11 @@
+@@ -20090,11 +20735,11 @@
  #: src/dialogs/channel-selection-mask.xml:69(para)
  #, fuzzy
  msgid ""
@@ -10272,7 +10371,7 @@
  
  #: src/dialogs/channel-selection-mask.xml:79(para)
  msgid ""
-@@ -20105,15 +20722,16 @@
+@@ -20105,15 +20750,16 @@
  
  #: src/dialogs/channel-selection-mask.xml:94(para)
  msgid ""
@@ -10295,7 +10394,7 @@
  msgstr ""
  
  #: src/dialogs/channel-selection-mask.xml:110(title)
-@@ -20124,8 +20742,8 @@
+@@ -20124,8 +20770,8 @@
  msgid ""
  "Once the channel is initialized, selected (highlighted in blue), visible "
  "(eye-icon in the dialog), and displayed as you want (color and opacity "
@@ -10306,7 +10405,7 @@
  "black, the color Value (luminosity) will be used to define a gray (medium, "
  "light, or dark). When your mask is painted, you can transform it to a "
  "selection by clicking on the <placeholder-1/> button (<link linkend=\"gimp-"
-@@ -20137,15 +20755,15 @@
+@@ -20137,15 +20783,15 @@
  msgid ""
  "You can work in selection masks not only with the paint tool but also with "
  "other tools. For instance, you can use the selection tools to fill areas "
@@ -10326,7 +10425,7 @@
  "masks. Don't forget also to stop displaying masks in the image by removing "
  "the eye icon. Check also that all RGB and Alpha channels are activated and "
  "displayed in the image."
-@@ -20192,10 +20810,10 @@
+@@ -20192,10 +20838,10 @@
  
  #: src/dialogs/channel-menu.xml:51(para)
  msgid ""
@@ -10341,7 +10440,7 @@
  msgstr ""
  
  #: src/dialogs/channel-menu.xml:61(term)
-@@ -20279,7 +20897,8 @@
+@@ -20279,7 +20925,8 @@
  "both are kept."
  msgstr ""
  
@@ -10351,7 +10450,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/channel-dialog.xml:26(None)
  #, fuzzy
-@@ -20289,7 +20908,8 @@
+@@ -20289,7 +20936,8 @@
  msgstr ""
  "@@image: 'images/dialogs/channels-dialog.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -10361,7 +10460,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/channel-dialog.xml:75(None)
  #, fuzzy
-@@ -20300,7 +20920,8 @@
+@@ -20300,7 +20948,8 @@
  "@@image: 'images/dialogs/wilber-channels-red.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -10371,7 +10470,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/channel-dialog.xml:84(None)
  #, fuzzy
-@@ -20311,7 +20932,8 @@
+@@ -20311,7 +20960,8 @@
  "@@image: 'images/dialogs/wilber-channels-green.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -10381,7 +10480,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/channel-dialog.xml:93(None)
  #, fuzzy
-@@ -20322,7 +20944,8 @@
+@@ -20322,7 +20972,8 @@
  "@@image: 'images/dialogs/wilber-channels-blue.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -10391,7 +10490,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/channel-dialog.xml:102(None)
  #, fuzzy
-@@ -20333,7 +20956,8 @@
+@@ -20333,7 +20984,8 @@
  "@@image: 'images/dialogs/wilber-channels-alpha.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -10401,7 +10500,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/channel-dialog.xml:111(None)
  #, fuzzy
-@@ -20363,11 +20987,11 @@
+@@ -20363,11 +21015,11 @@
  
  #: src/dialogs/channel-dialog.xml:36(para)
  msgid ""
@@ -10418,7 +10517,7 @@
  "<guilabel>Blue</guilabel> values of each pixel in your image."
  msgstr ""
  
-@@ -20375,8 +20999,8 @@
+@@ -20375,8 +21027,8 @@
  msgid ""
  "Next to the channel name is a thumbnail displaying a grayscale "
  "representation of each channel, where white is 100% and black is 0% of the "
@@ -10429,7 +10528,7 @@
  "For an Indexed image with a fixed number of known colors there is also only "
  "one primary channel called <guilabel>Indexed</guilabel>."
  msgstr ""
-@@ -20426,9 +21050,9 @@
+@@ -20426,9 +21078,9 @@
  
  #: src/dialogs/channel-dialog.xml:118(para)
  msgid ""
@@ -10442,7 +10541,7 @@
  "white because all the colors are present and black is black. The red hat is "
  "visible in the red channel but quite invisible in the other channels. This "
  "is the same for plain green and blue which are visible only in their own "
-@@ -20438,20 +21062,20 @@
+@@ -20438,20 +21090,20 @@
  #: src/dialogs/channel-dialog.xml:140(para)
  #, fuzzy
  msgid ""
@@ -10473,7 +10572,7 @@
  msgstr ""
  "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
  "flik</guimenu><guimenuitem>Verktyg</guimenuitem></menuchoice>."
-@@ -20462,8 +21086,7 @@
+@@ -20462,8 +21114,7 @@
  "linkend=\"gimp-dockable-menu\">detached windows</link> which exists only if "
  "at least one dialog remains open. In this case, you can raise the "
  "<quote>Channels</quote> dialog from the main menu: "
@@ -10483,7 +10582,7 @@
  msgstr ""
  
  #: src/dialogs/channel-dialog.xml:180(title)
-@@ -20490,7 +21113,8 @@
+@@ -20490,7 +21141,8 @@
  msgid ""
  "To select a channel, click on a color channel in the list. This toggles the "
  "selection of the channel, meaning a selected channel will become unselected "
@@ -10493,7 +10592,7 @@
  msgstr ""
  
  #: src/dialogs/channel-dialog.xml:207(para)
-@@ -20503,10 +21127,10 @@
+@@ -20503,10 +21155,10 @@
  
  #: src/dialogs/channel-dialog.xml:214(para)
  msgid ""
@@ -10508,7 +10607,7 @@
  msgstr ""
  
  #: src/dialogs/channel-dialog.xml:221(para)
-@@ -20519,8 +21143,8 @@
+@@ -20519,8 +21171,8 @@
  #: src/dialogs/channel-dialog.xml:228(para)
  msgid ""
  "The duplicate and selection commands documented below can also be used on "
@@ -10519,7 +10618,7 @@
  msgstr ""
  
  #: src/dialogs/channel-dialog.xml:239(term)
-@@ -20532,9 +21156,9 @@
+@@ -20532,9 +21184,9 @@
  "<acronym>GIMP</acronym> allows you to select multiple selection mask "
  "channels and perform actions on them. You can e.g. move them to a different "
  "location in the channels stack, and convert them to selections. Selecting "
@@ -10532,7 +10631,7 @@
  msgstr ""
  
  #: src/dialogs/channel-dialog.xml:255(term)
-@@ -20558,8 +21182,8 @@
+@@ -20558,8 +21210,8 @@
  #: src/dialogs/channel-dialog.xml:285(para)
  msgid ""
  "Every channel is shown in the list with its own attributes, which are very "
@@ -10543,7 +10642,7 @@
  msgstr ""
  
  #: src/dialogs/channel-dialog.xml:301(phrase)
-@@ -20570,9 +21194,9 @@
+@@ -20570,9 +21222,9 @@
  msgid ""
  "By default, all color channels are visible, and color mask channels are "
  "invisible. Clicking on the eye-symbol, or the empty space if the channel is "
@@ -10556,7 +10655,7 @@
  msgstr ""
  
  #: src/dialogs/channel-dialog.xml:324(phrase)
-@@ -20582,8 +21206,8 @@
+@@ -20582,8 +21234,8 @@
  
  #: src/dialogs/channel-dialog.xml:327(para)
  msgid ""
@@ -10567,7 +10666,7 @@
  msgstr ""
  
  #: src/dialogs/channel-dialog.xml:351(para)
-@@ -20603,8 +21227,8 @@
+@@ -20603,8 +21255,8 @@
  #: src/dialogs/channel-dialog.xml:394(para)
  msgid ""
  "This toggle button controls the <quote>Lock</quote> setting for the "
@@ -10578,7 +10677,7 @@
  msgstr ""
  
  #: src/dialogs/channel-dialog.xml:410(para)
-@@ -20678,22 +21302,24 @@
+@@ -20678,22 +21330,24 @@
  msgid ""
  "If you press the <keycap>Shift</keycap> key while clicking the "
  "<guibutton>New Channel</guibutton> button, the New Channel dialog will not "
@@ -10609,7 +10708,7 @@
  msgstr ""
  
  #: src/dialogs/channel-dialog.xml:554(para)
-@@ -20704,10 +21330,10 @@
+@@ -20704,10 +21358,10 @@
  
  #: src/dialogs/channel-dialog.xml:559(para)
  msgid ""
@@ -10624,7 +10723,7 @@
  msgstr ""
  
  #: src/dialogs/channel-dialog.xml:578(phrase)
-@@ -20723,8 +21349,8 @@
+@@ -20723,8 +21377,8 @@
  
  #: src/dialogs/channel-dialog.xml:589(para)
  msgid ""
@@ -10635,7 +10734,7 @@
  msgstr ""
  
  #: src/dialogs/channel-dialog.xml:597(para)
-@@ -20746,7 +21372,8 @@
+@@ -20746,7 +21400,8 @@
  msgid "This deletes the selected channels."
  msgstr "Ta bort markerad mall"
  
@@ -10645,7 +10744,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/buffers-dialog.xml:50(None)
  #, fuzzy
-@@ -20756,7 +21383,8 @@
+@@ -20756,7 +21411,8 @@
  msgstr ""
  "@@image: 'images/dialogs/buffers-dialog.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -10655,7 +10754,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/buffers-dialog.xml:225(None)
  #, fuzzy
-@@ -20767,7 +21395,8 @@
+@@ -20767,7 +21423,8 @@
  "@@image: 'images/dialogs/buffers-dialog-grid.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -10665,7 +10764,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/buffers-dialog.xml:261(None)
  msgid ""
-@@ -20775,7 +21404,8 @@
+@@ -20775,7 +21432,8 @@
  "md5=adb0f58685fb73c4dab942f1613afe6d"
  msgstr ""
  
@@ -10675,7 +10774,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/buffers-dialog.xml:292(None)
  msgid ""
-@@ -20783,7 +21413,8 @@
+@@ -20783,7 +21441,8 @@
  "md5=c185e24ff80bca4d9f1feed2f90d89f7"
  msgstr ""
  
@@ -10685,7 +10784,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/buffers-dialog.xml:323(None)
  #: src/dialogs/buffers-dialog.xml:355(None)
-@@ -20839,12 +21470,12 @@
+@@ -20839,12 +21498,12 @@
  
  #: src/dialogs/buffers-dialog.xml:63(para)
  msgid ""
@@ -10704,7 +10803,7 @@
  msgstr ""
  
  #: src/dialogs/buffers-dialog.xml:78(term)
-@@ -20853,11 +21484,11 @@
+@@ -20853,11 +21512,11 @@
  
  #: src/dialogs/buffers-dialog.xml:80(para)
  msgid ""
@@ -10721,7 +10820,7 @@
  msgstr ""
  
  #: src/dialogs/buffers-dialog.xml:94(term)
-@@ -20866,11 +21497,11 @@
+@@ -20866,11 +21525,11 @@
  
  #: src/dialogs/buffers-dialog.xml:96(para)
  msgid ""
@@ -10738,7 +10837,7 @@
  msgstr ""
  
  #: src/dialogs/buffers-dialog.xml:110(term)
-@@ -20879,17 +21510,17 @@
+@@ -20879,17 +21538,17 @@
  
  #: src/dialogs/buffers-dialog.xml:112(para)
  msgid ""
@@ -10763,7 +10862,7 @@
  "commands are available from the <guimenu>Edit</guimenu> menu to save an "
  "image to a buffer: <placeholder-1/>"
  msgstr ""
-@@ -20908,36 +21539,38 @@
+@@ -20908,36 +21567,38 @@
  #: src/dialogs/buffers-dialog.xml:136(para)
  msgid ""
  "Named buffers are not saved across sessions: they will be gone when you "
@@ -10818,7 +10917,7 @@
  msgstr ""
  "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
  "flik</guimenu><guimenuitem>Paletter</guimenuitem></menuchoice>."
-@@ -20948,8 +21581,7 @@
+@@ -20948,8 +21609,7 @@
  "linkend=\"gimp-dockable-menu\">detached windows</link> which exists only if "
  "at least one dialog remains open. In this case, you can raise the "
  "<quote>Buffers</quote> dialog from the main menu: "
@@ -10828,7 +10927,7 @@
  msgstr ""
  
  #: src/dialogs/buffers-dialog.xml:206(title)
-@@ -20961,17 +21593,22 @@
+@@ -20961,17 +21621,22 @@
  msgid ""
  "Clicking on a buffer in the display area makes it the active buffer, i.e., "
  "the one that will be used for paste commands executed from the Buffers "
@@ -10858,7 +10957,7 @@
  msgstr ""
  
  #: src/dialogs/buffers-dialog.xml:221(title)
-@@ -21029,10 +21666,10 @@
+@@ -21029,10 +21694,10 @@
  #: src/dialogs/buffers-dialog.xml:303(para)
  msgid ""
  "This command pastes the contents of the selected buffer into the active "
@@ -10873,7 +10972,7 @@
  msgstr ""
  
  #: src/dialogs/buffers-dialog.xml:312(para)
-@@ -21055,8 +21692,8 @@
+@@ -21055,8 +21720,8 @@
  #: src/dialogs/buffers-dialog.xml:335(para)
  msgid ""
  "This command creates a new layer in the active image out of the contents of "
@@ -10884,7 +10983,7 @@
  "is that it uses the selected buffer rather than the content of the global "
  "clipboard buffer."
  msgstr ""
-@@ -21102,7 +21739,8 @@
+@@ -21102,7 +21767,8 @@
  "of the dialog and are explained there."
  msgstr ""
  
@@ -10894,7 +10993,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/brushes-dialog.xml:26(None)
  #: src/dialogs/brushes-dialog.xml:215(None)
-@@ -21114,7 +21752,8 @@
+@@ -21114,7 +21780,8 @@
  msgstr ""
  "@@image: 'images/dialogs/brushes-grid-view.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -10904,7 +11003,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/brushes-dialog.xml:110(None)
  #, fuzzy
-@@ -21125,7 +21764,8 @@
+@@ -21125,7 +21792,8 @@
  "@@image: 'images/dialogs/brushes-dialog-simple.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -10914,7 +11013,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/brushes-dialog.xml:173(None)
  msgid ""
-@@ -21133,7 +21773,8 @@
+@@ -21133,7 +21801,8 @@
  "md5=af081afc7b96a6c39ac1abfa64851549"
  msgstr ""
  
@@ -10924,7 +11023,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/brushes-dialog.xml:224(None)
  #, fuzzy
-@@ -21143,7 +21784,8 @@
+@@ -21143,7 +21812,8 @@
  msgstr ""
  "@@image: 'images/dialogs/brushes-list-view.png'; md5=THIS FILE DOESN'T EXIST"
  
@@ -10934,7 +11033,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/brushes-dialog.xml:323(None)
  msgid ""
-@@ -21151,7 +21793,8 @@
+@@ -21151,7 +21821,8 @@
  "md5=9d8abdfe5ac9f04cf13253b6c44f8500"
  msgstr ""
  
@@ -10944,7 +11043,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/brushes-dialog.xml:573(None)
  #, fuzzy
-@@ -21162,7 +21805,8 @@
+@@ -21162,7 +21833,8 @@
  "@@image: 'images/dialogs/brushes-editor-dialog.png'; md5=THIS FILE DOESN'T "
  "EXIST"
  
@@ -10954,7 +11053,7 @@
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/dialogs/brushes-dialog.xml:732(None)
  #, fuzzy
-@@ -21220,21 +21864,21 @@
+@@ -21220,21 +21892,21 @@
  #: src/dialogs/brushes-dialog.xml:64(para)
  #, fuzzy
  msgid ""
@@ -10985,7 +11084,7 @@
  msgstr ""
  "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
  "flik</guimenu><guimenuitem>Verktyg</guimenuitem></menuchoice>."
-@@ -21242,9 +21886,9 @@
+@@ -21242,9 +21914,9 @@
  #: src/dialogs/brushes-dialog.xml:92(para)
  msgid ""
  "If you enabled the <quote>Show active brush, pattern &amp; gradient</quote> "
@@ -10998,7 +11097,7 @@
  msgstr ""
  
  #: src/dialogs/brushes-dialog.xml:101(para)
-@@ -21278,11 +21922,11 @@
+@@ -21278,11 +21950,11 @@
  #: src/dialogs/brushes-dialog.xml:197(para)
  msgid ""
  "In the <link linkend=\"tab-menus\">Tab menu</link>, you can choose between "
@@ -11015,7 +11114,7 @@
  msgstr ""
  
  #: src/dialogs/brushes-dialog.xml:206(para)
-@@ -21315,8 +21959,8 @@
+@@ -21315,8 +21987,8 @@
  
  #: src/dialogs/brushes-dialog.xml:252(para)
  msgid ""
@@ -11026,7 +11125,7 @@
  "names of brushes that you have created or installed yourself, not the ones "
  "that come pre-installed with GIMP. If you try to rename a pre-installed "
  "brush, you will be able to edit the name, but as soon as you hit return or "
-@@ -21379,15 +22023,15 @@
+@@ -21379,15 +22051,15 @@
  
  #: src/dialogs/brushes-dialog.xml:318(para)
  msgid ""
@@ -11046,7 +11145,7 @@
  "background color as set by your theme."
  msgstr ""
  
-@@ -21398,10 +22042,10 @@
+@@ -21398,10 +22070,10 @@
  
  #: src/dialogs/brushes-dialog.xml:340(para)
  msgid ""
@@ -11061,7 +11160,7 @@
  msgstr ""
  
  #: src/dialogs/brushes-dialog.xml:349(title)
-@@ -21422,11 +22066,11 @@
+@@ -21422,11 +22094,11 @@
  
  #: src/dialogs/brushes-dialog.xml:376(para)
  msgid ""
@@ -11078,7 +11177,7 @@
  msgstr ""
  
  #: src/dialogs/brushes-dialog.xml:397(phrase)
-@@ -21435,8 +22079,8 @@
+@@ -21435,8 +22107,8 @@
  
  #: src/dialogs/brushes-dialog.xml:401(para)
  msgid ""
@@ -11089,7 +11188,7 @@
  "is automatically saved in your personal <link linkend=\"gimp-prefs-folders-"
  "data\">Brushes Folder</link>."
  msgstr ""
-@@ -21462,8 +22106,8 @@
+@@ -21462,8 +22134,8 @@
  msgid ""
  "If you add brushes to your personal <link linkend=\"gimp-prefs-folders-"
  "data\">Brushes Folder</link> or any other folder in your brush search path, "
@@ -11100,7 +11199,7 @@
  msgstr ""
  
  #: src/dialogs/brushes-dialog.xml:486(phrase)
-@@ -21475,19 +22119,19 @@
+@@ -21475,19 +22147,19 @@
  msgid ""
  "Clicking this, opens the selected brush as a regular image that you can "
  "edit. It can be turned back into a brush by copying it and selecting "
@@ -11127,7 +11226,7 @@
  msgstr ""
  
  #: src/dialogs/brushes-dialog.xml:518(title)
-@@ -21502,15 +22146,16 @@
+@@ -21502,15 +22174,16 @@
  #: src/dialogs/brushes-dialog.xml:529(para)
  msgid ""
  "<guilabel>Copy Brush Location</guilabel> allows you to copy the brush path "
@@ -11149,7 +11248,7 @@
  msgstr ""
  
  #: src/dialogs/brushes-dialog.xml:551(term)
-@@ -21550,11 +22195,11 @@
+@@ -21550,11 +22223,11 @@
  
  #: src/dialogs/brushes-dialog.xml:582(para)
  msgid ""
@@ -11166,7 +11265,7 @@
  msgstr ""
  
  #: src/dialogs/brushes-dialog.xml:590(para)
-@@ -21636,8 +22281,8 @@
+@@ -21636,8 +22309,8 @@
  
  #: src/dialogs/brushes-dialog.xml:661(para)
  msgid ""
@@ -11177,7 +11276,7 @@
  "increases, the brush width turns clock-wise (0° to 180°)."
  msgstr ""
  
-@@ -21687,9 +22332,9 @@
+@@ -21687,9 +22360,9 @@
  #: src/dialogs/brushes-dialog.xml:721(para)
  msgid ""
  "When you use the Copy or Cut command on an image or a selection of it, a "
@@ -11190,7 +11289,7 @@
  msgstr ""
  
  #: src/dialogs/brushes-dialog.xml:728(title)
-@@ -21700,21 +22345,22 @@
+@@ -21700,21 +22373,22 @@
  #: src/dialogs/brushes-dialog.xml:737(para)
  #, fuzzy
  msgid ""
@@ -11224,7 +11323,7 @@
  #~ msgstr ""
  #~ "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
  #~ "flik</guimenu><guimenuitem>Gradienter</guimenuitem></menuchoice>."
-@@ -21722,8 +22368,8 @@
+@@ -21722,8 +22396,8 @@
  #, fuzzy
  #~ msgid ""
  #~ "from the Tab menu in any dockable dialog by clicking on "
@@ -11235,7 +11334,7 @@
  #~ "Tab</guimenu><guimenuitem>Tool Presets</guimenuitem></menuchoice>."
  #~ msgstr ""
  #~ "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
-@@ -21732,9 +22378,9 @@
+@@ -21732,9 +22406,9 @@
  #, fuzzy
  #~ msgid ""
  #~ "from the Tab menu in any dockable dialog by clicking on "
@@ -11248,7 +11347,7 @@
  #~ msgstr ""
  #~ "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
  #~ "flik</guimenu><guimenuitem>Paletter</guimenuitem></menuchoice>."
-@@ -21758,8 +22404,7 @@
+@@ -21758,8 +22432,7 @@
  #~ msgid ""
  #~ "Please refer to <xref linkend=\"gimp-view-show-all\"/> to understand this "
  #~ "option."
@@ -11258,7 +11357,7 @@
  
  #, fuzzy
  #~ msgid "Cursor mode"
-@@ -21791,9 +22436,9 @@
+@@ -21791,9 +22464,9 @@
  #, fuzzy
  #~ msgid ""
  #~ "from the Tab menu in any dockable dialog by clicking on "
@@ -11271,7 +11370,7 @@
  #~ msgstr ""
  #~ "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
  #~ "flik</guimenu><guimenuitem>Paletter</guimenuitem></menuchoice>."
-@@ -21809,20 +22454,18 @@
+@@ -21809,20 +22482,18 @@
  #~ msgid ""
  #~ "@@image: 'images/dialogs/paths-menu.png'; "
  #~ "md5=a7cebd187365371db8a513c672b76ffd"
@@ -11296,7 +11395,7 @@
  #~ "Tab</guimenu><guimenuitem>Paths</guimenuitem></menuchoice>."
  #~ msgstr ""
  #~ "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
-@@ -21836,8 +22479,8 @@
+@@ -21836,8 +22507,8 @@
  #~ "@@image: 'images/dialogs/palettes-offset-options.png'; "
  #~ "md5=3e84ea676a409a88baad273886cb1845"
  #~ msgstr ""
@@ -11307,7 +11406,7 @@
  
  #, fuzzy
  #~ msgid ""
-@@ -21850,9 +22493,9 @@
+@@ -21850,9 +22521,9 @@
  #, fuzzy
  #~ msgid ""
  #~ "from the Tab menu in any dockable dialog by clicking on "
@@ -11320,7 +11419,7 @@
  #~ msgstr ""
  #~ "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
  #~ "flik</guimenu><guimenuitem>Paletter</guimenuitem></menuchoice>."
-@@ -21880,8 +22523,7 @@
+@@ -21880,8 +22551,7 @@
  #~ msgid ""
  #~ "@@image: 'images/dialogs/navigation.png'; "
  #~ "md5=443697fd981aba0017fa5242ec4dc7f6"
@@ -11330,7 +11429,7 @@
  
  #~ msgid "The buttons"
  #~ msgstr "Knapparna"
-@@ -21897,8 +22539,8 @@
+@@ -21897,8 +22567,8 @@
  #, fuzzy
  #~ msgid ""
  #~ "From the Tab menu in any dockable dialog by clicking on "
@@ -11341,7 +11440,7 @@
  #~ "Tab</guimenu><guimenuitem>MyPaint Brushes</guimenuitem></menuchoice>."
  #~ msgstr ""
  #~ "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
-@@ -21912,8 +22554,7 @@
+@@ -21912,8 +22582,7 @@
  #~ "@@image: 'images/dialogs/layer-list-entry.png'; "
  #~ "md5=eab6486f11c5bf59dfd8b26273a3508b"
  #~ msgstr ""
@@ -11351,7 +11450,7 @@
  
  #, fuzzy
  #~ msgid ""
-@@ -21934,16 +22575,14 @@
+@@ -21934,16 +22603,14 @@
  #~ "@@image: 'images/dialogs/dialogs-icon-new.png'; "
  #~ "md5=e543a170fd2b66ece1920966e83823b0"
  #~ msgstr ""
@@ -11370,7 +11469,7 @@
  
  #, fuzzy
  #~ msgid ""
-@@ -21972,8 +22611,8 @@
+@@ -21972,8 +22639,8 @@
  #, fuzzy
  #~ msgid ""
  #~ "from the Tab menu in any dockable dialog by clicking on "
@@ -11381,7 +11480,7 @@
  #~ "Tab</guimenu><guimenuitem>Layers</guimenuitem></menuchoice>,"
  #~ msgstr ""
  #~ "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
-@@ -22001,8 +22640,8 @@
+@@ -22001,8 +22668,8 @@
  #, fuzzy
  #~ msgid ""
  #~ "from the Tab menu in any dockable dialog by clicking on "
@@ -11392,7 +11491,7 @@
  #~ "Tab</guimenu><guimenuitem>Colormap</guimenuitem></menuchoice>."
  #~ msgstr ""
  #~ "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
-@@ -22014,9 +22653,9 @@
+@@ -22014,9 +22681,9 @@
  #, fuzzy
  #~ msgid ""
  #~ "from the Tab menu in any dockable dialog by clicking on "
@@ -11405,7 +11504,7 @@
  #~ msgstr ""
  #~ "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
  #~ "flik</guimenu><guimenuitem>Bilder</guimenuitem></menuchoice>."
-@@ -22039,8 +22678,8 @@
+@@ -22039,8 +22706,8 @@
  #, fuzzy
  #~ msgid ""
  #~ "from the Tab menu in any dockable dialog by clicking on "
@@ -11416,7 +11515,7 @@
  #~ "Tab</guimenu><guimenuitem>Histogram</guimenuitem></menuchoice>,"
  #~ msgstr ""
  #~ "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
-@@ -22054,8 +22693,8 @@
+@@ -22054,8 +22721,8 @@
  #~ "@@image: 'images/dialogs/gradient-editor-dialog.png'; "
  #~ "md5=24917bba5d6cce3a3866624a16aea813"
  #~ msgstr ""
@@ -11427,7 +11526,7 @@
  
  #, fuzzy
  #~ msgid ""
-@@ -22086,24 +22725,24 @@
+@@ -22086,24 +22753,24 @@
  #~ "@@image: 'images/dialogs/gradient-editor-blend.png'; "
  #~ "md5=41bc455a12f4d7fb615b213c2dc543e5"
  #~ msgstr ""
@@ -11458,7 +11557,7 @@
  
  #, fuzzy
  #~ msgid "The <quote>Load Color From</quote> submenu"
-@@ -22112,9 +22751,9 @@
+@@ -22112,9 +22779,9 @@
  #, fuzzy
  #~ msgid ""
  #~ "from the Tab menu in any dockable dialog by clicking on "
@@ -11471,7 +11570,7 @@
  #~ msgstr ""
  #~ "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
  #~ "flik</guimenu><guimenuitem>Paletter</guimenuitem></menuchoice>."
-@@ -22124,20 +22763,20 @@
+@@ -22124,20 +22791,20 @@
  
  #, fuzzy
  #~ msgid ""
@@ -11502,7 +11601,7 @@
  #~ msgstr ""
  #~ "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
  #~ "flik</guimenu><guimenuitem>Paletter</guimenuitem></menuchoice>."
-@@ -22211,8 +22850,8 @@
+@@ -22211,8 +22878,8 @@
  #~ "@@image: 'images/dialogs/dialogs-templates-edit.png'; "
  #~ "md5=b8c20dbd695ad0fe193b2f32add89345"
  #~ msgstr ""
@@ -11513,7 +11612,7 @@
  
  #, fuzzy
  #~ msgid "The <quote>Advanced Options</quote> dialog"
-@@ -22221,8 +22860,8 @@
+@@ -22221,8 +22888,8 @@
  #, fuzzy
  #~ msgid ""
  #~ "From the Tab menu in any dockable dialog by clicking on "
@@ -11524,7 +11623,7 @@
  #~ "Tab</guimenu><guimenuitem>Document History</guimenuitem></menuchoice>."
  #~ msgstr ""
  #~ "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
-@@ -22258,19 +22897,19 @@
+@@ -22258,19 +22925,19 @@
  
  #, fuzzy
  #~ msgid ""
@@ -11553,7 +11652,7 @@
  #~ "Tab</guimenu><guimenuitem>Colors</guimenuitem></menuchoice>,"
  #~ msgstr ""
  #~ "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
-@@ -22289,8 +22928,8 @@
+@@ -22289,8 +22956,8 @@
  #~ "@@image: 'images/dialogs/channels-context-menu.png'; "
  #~ "md5=ad94930241cf9995ee9478723bf1ad68"
  #~ msgstr ""
@@ -11564,7 +11663,7 @@
  
  #~ msgid "Channel Context Menu"
  #~ msgstr "Menyn Kanalsammanhang"
-@@ -22310,8 +22949,8 @@
+@@ -22310,8 +22977,8 @@
  #, fuzzy
  #~ msgid ""
  #~ "from the Tab menu in any dockable dialog by clicking on "
@@ -11575,7 +11674,7 @@
  #~ "Tab</guimenu><guimenuitem>Channels</guimenuitem></menuchoice>."
  #~ msgstr ""
  #~ "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
-@@ -22320,8 +22959,8 @@
+@@ -22320,8 +22987,8 @@
  #, fuzzy
  #~ msgid ""
  #~ "from the Tab menu in any dockable dialog by clicking on "
@@ -11586,7 +11685,7 @@
  #~ "Tab</guimenu><guimenuitem>Buffers</guimenuitem></menuchoice>."
  #~ msgstr ""
  #~ "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
-@@ -22355,19 +22994,19 @@
+@@ -22355,19 +23022,19 @@
  
  #, fuzzy
  #~ msgid ""
@@ -11615,7 +11714,7 @@
  #~ "Tab</guimenu><guimenuitem>Brushes</guimenuitem></menuchoice>."
  #~ msgstr ""
  #~ "Från flikmenyn i en dockningsbar dialog: <menuchoice><guimenu>Lägg till "
-@@ -22377,11 +23016,11 @@
+@@ -22377,11 +23044,11 @@
  #~ msgstr "Daniel Nylander <po@danielnylander.se>, 2009"
  
  #~ msgid ""
@@ -11631,7 +11730,7 @@
  
  #~ msgid "."
  #~ msgstr "."
-@@ -22402,11 +23041,9 @@
+@@ -22402,11 +23069,9 @@
  #~ msgstr "Slingverktyg"
  
  #~ msgid ""
@@ -11645,7 +11744,7 @@
  
  #~ msgid "The <placeholder-1/> pop-menu"
  #~ msgstr "Popupmenyn <placeholder-1/>"
-@@ -22502,31 +23139,29 @@
+@@ -22502,31 +23167,29 @@
  #~ msgstr "Anropa dialogrutan"
  
  #~ msgid ""
@@ -11693,7 +11792,7 @@
  
  #~ msgid "$Revision: 2687 $"
  #~ msgstr "$Revision: 2687 $"
-@@ -22560,8 +23195,8 @@
+@@ -22560,8 +23223,8 @@
  
  #, fuzzy
  #~ msgid ""
@@ -11704,7 +11803,7 @@
  #~ msgstr ""
  #~ "@@image: '../images/dialogs/dialogs-brushes-editor.png'; md5=THIS FILE "
  #~ "DOESN'T EXIST"
-@@ -22590,11 +23225,9 @@
+@@ -22590,11 +23253,9 @@
  
  #, fuzzy
  #~ msgid ""
@@ -11718,7 +11817,7 @@
  
  #~ msgid "2007-09-27"
  #~ msgstr "2007-09-27"
-@@ -22610,16 +23243,15 @@
+@@ -22610,16 +23271,15 @@
  
  #, fuzzy
  #~ msgid ""
@@ -11738,7 +11837,7 @@
  #~ msgstr ""
  #~ "@@image: '../images/dialogs/dialogs-palettes.png'; md5=THIS FILE DOESN'T "
  #~ "EXIST"
-@@ -22635,5 +23267,5 @@
+@@ -22635,5 +23295,5 @@
  #~ "@@image: 'images/dialogs/dialogs-undo-history.png'; md5=THIS FILE DOESN'T "
  #~ "EXIST"
  #~ msgstr ""
