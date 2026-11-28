@@ -1080,3 +1080,19 @@ Bevara standardiserade namn och identifierare som `sRGB`, `Adobe RGB`, `D50`, `D
 | accessible description | hjälpmedelsbeskrivning | Beskrivning som exponeras för hjälpmedel via AT-SPI. |
 | accessibility support | hjälpmedelsstöd | Stöd i ett program för hjälpmedel och hjälpmedelsteknik. |
 | assistive technology | hjälpmedel | Använd *hjälpmedel* i naturlig användartext; välj en mer specifik term endast när tekniken behöver särskiljas. |
+## GNOME Terminal
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| terminal emulator | terminalemulator | GNOME Terminal är programnamnet; generisk funktion skrivs som ett ord. |
+| keyboard shortcut | tangentbordsgenväg | Använd i hjälptexter och beskrivningar av genvägar. |
+| accelerator | snabbtangent | GTK-tangent som utlöser meny- eller knappåtgärd. |
+| scrollback | rullningshistorik | Tidigare terminalutdata som går att rulla tillbaka till. |
+| scrollback lines | rader i rullningshistoriken | Använd i inställningar för antal sparade rader. |
+| scrollbar | rullningslist | GNOME:s etablerade gränssnittsterm. |
+| kinetic scrolling | tröghetsrullning | Rullning som fortsätter efter en svepgest. |
+| word character | ordtecken | Tecken som räknas till ett ord vid ordvis markering. |
+| file descriptor | filbeskrivare | Teknisk Unix-term; skilj från vanligt filhandtag. |
+| Backspace key | Backstegstangent | Svensk benämning på tangentens funktion. |
+| Delete key | Delete-tangent | Behåll den tryckta tangenten Delete som namn. |
+| shell | skal | Använd i terminal- och kommandosammanhang. |

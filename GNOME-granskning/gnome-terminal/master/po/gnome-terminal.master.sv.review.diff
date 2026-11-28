@@ -1,58 +1,1264 @@
 --- gnome-terminal.master.sv.original.po
 +++ gnome-terminal.master.sv.reviewed.po
-@@ -13,8 +13,8 @@
- "Project-Id-Version: gnome-terminal\n"
- "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-terminal/issues\n"
- "POT-Creation-Date: 2023-07-23 21:46+0000\n"
+@@ -16,2 +16,2 @@
 -"PO-Revision-Date: 2023-07-24 00:43+0200\n"
 -"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-23 12:00+0100\n"
++"PO-Revision-Date: 2026-11-28 15:20+0100\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
- "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
- "Language: sv\n"
- "MIME-Version: 1.0\n"
-@@ -1291,7 +1291,7 @@
- 
- #: src/preferences.ui:2254
- msgid "_Reset Compatibility Options to Defaults"
--msgstr "_Återställ kompatibilitetsalternativ till standardvärden"
-+msgstr "Återstä_ll kompatibilitetsalternativ till standardvärden"
- 
- #: src/preferences.ui:2277
- msgid "Compatibility"
-@@ -1689,7 +1689,7 @@
- 
- #: src/terminal-accels.cc:551
- msgid "_Action"
--msgstr "_Åtgärd"
-+msgstr "Åt_gärd"
- 
- #: src/terminal-accels.cc:570
- msgid "Shortcut _Key"
-@@ -1752,7 +1752,7 @@
- 
- #: src/terminal-headermenu.ui:63 src/terminal-menubar.ui.in:161
- msgid "_Reset"
+@@ -42 +42 @@
+-msgstr "skal;shell;prompt;kommando;kommandorad;cmd;"
++msgstr "skal;kommandotolk;kommandoprompt;kommando;kommandorad;cmd;"
+@@ -78,6 +78,5 @@
+-"GNOME Terminal is a terminal emulator application for accessing a UNIX shell "
+-"environment which can be used to run programs available on your system."
+-msgstr ""
+-"GNOME Terminal är en terminalemulator som gör det möjligt att använda en "
+-"UNIX-skalmiljö vilken kan användas för att köra program tillgängliga på ditt "
+-"system."
++"GNOME Terminal is a terminal emulator application for accessing a UNIX shell"
++" environment which can be used to run programs available on your system."
++msgstr ""
++"GNOME Terminal är en terminalemulator för UNIX-skal, där du kan köra program"
++" som finns på systemet."
+@@ -90,2 +89 @@
+-"Den stödjer multipla profiler, flera flikar och implementerar flertalet "
+-"tangentbordsgenvägar."
++"Den har stöd för flera profiler och flikar samt flera tangentbordsgenvägar."
+@@ -97 +95 @@
+-msgstr "console"
++msgstr "konsol"
+@@ -103 +101 @@
+-msgstr "keyboard"
++msgstr "tangentbord"
+@@ -109 +107 @@
+-msgstr "pointing"
++msgstr "pekdon"
+@@ -113,3 +111,5 @@
+-"https://help.gnome.org/users/gnome-terminal/stable/figures/gnome-terminal.png"
+-msgstr ""
+-"https://help.gnome.org/users/gnome-terminal/stable/figures/gnome-terminal.png"
++"https://help.gnome.org/users/gnome-terminal/stable/figures/gnome-"
++"terminal.png"
++msgstr ""
++"https://help.gnome.org/users/gnome-terminal/stable/figures/gnome-"
++"terminal.png"
+@@ -139 +138,0 @@
+-#, fuzzy
+@@ -144,2 +143 @@
+-msgstr ""
+-"https://help.gnome.org/users/gnome-terminal/stable/figures/gnome-terminal.png"
++msgstr "https://gitlab.gnome.org/GNOME/gnome-terminal/-/wikis/home"
+@@ -149 +146,0 @@
+-#, fuzzy
+@@ -152 +149 @@
+-msgstr "https://wiki.gnome.org/Apps/Terminal/ReportingBugs"
++msgstr "https://gitlab.gnome.org/GNOME/gnome-terminal/-/work_items"
+@@ -156 +152,0 @@
+-#, fuzzy
+@@ -159 +155 @@
+-msgstr "https://wiki.gnome.org/Apps/Terminal"
++msgstr "https://gitlab.gnome.org/GNOME/gnome-terminal/-/wikis/FAQ"
+@@ -163 +158,0 @@
+-#, fuzzy
+@@ -168,2 +163 @@
+-msgstr ""
+-"https://help.gnome.org/users/gnome-terminal/stable/figures/gnome-terminal.png"
++msgstr "https://help.gnome.org/users/gnome-terminal/stable/"
+@@ -173 +166,0 @@
+-#, fuzzy
+@@ -176 +169 @@
+-msgstr "https://wiki.gnome.org/Apps/Terminal"
++msgstr "https://l10n.gnome.org/module/gnome-terminal/"
+@@ -180 +172,0 @@
+-#, fuzzy
+@@ -183 +175 @@
+-msgstr "https://wiki.gnome.org/Apps/Terminal"
++msgstr "https://gitlab.gnome.org/GNOME/gnome-terminal"
+@@ -199 +190,0 @@
+-#, fuzzy
+@@ -222,7 +213,8 @@
+-"Open Terminal is a plugin for the Files application that adds a menu item to "
+-"the context menu to open a terminal in the currently browsed directory."
+-msgstr ""
+-"Öppna terminal är en insticksmodul för programmet Filer som lägger till ett "
+-"menyobjekt i kontextmenyn för att öppna en terminal i den öppnade katalogen."
+-
+-#. Translators: This needs to be parsed as a GVariant string, so keep the regular single quotes around the string as-is, and do not add extra quotes.
++"Open Terminal is a plugin for the Files application that adds a menu item to"
++" the context menu to open a terminal in the currently browsed directory."
++msgstr ""
++"Öppna terminal är en insticksmodul för Filer som lägger till ett menyobjekt "
++"i snabbvalsmenyn för att öppna en terminal i den aktuella katalogen."
++
++#. Translators: This needs to be parsed as a GVariant string, so keep the
++#. regular single quotes around the string as-is, and do not add extra quotes.
+@@ -248,5 +240,5 @@
+-"Default color of text in the terminal, as a color specification (can be HTML-"
+-"style hex digits, or a color name such as “red”)."
+-msgstr ""
+-"Standardfärg för texten i terminalfönstret som en färgspecifikation (kan "
+-"vara hexadecimala siffror i HTML-stil, eller ett färgnamn som ”red”)."
++"Default color of text in the terminal, as a color specification (can be "
++"HTML-style hex digits, or a color name such as “red”)."
++msgstr ""
++"Standardfärg för terminaltexten, angiven som en färgspecifikation (till "
++"exempel hexadecimala siffror i HTML-format eller ett färgnamn som ”red”)."
+@@ -263,2 +255,2 @@
+-"Standardfärg för terminalbakgrunden som en färgspecifikation (kan vara "
+-"hexadecimala siffror i HTML-stil, eller ett färgnamn som ”red”)."
++"Standardfärg för terminalbakgrunden, angiven som en färgspecifikation (till "
++"exempel hexadecimala siffror i HTML-format eller ett färgnamn som ”red”)."
+@@ -272,2 +264,2 @@
+-"Default color of bold text in the terminal, as a color specification (can be "
+-"HTML-style hex digits, or a color name such as “red”). This is ignored if "
++"Default color of bold text in the terminal, as a color specification (can be"
++" HTML-style hex digits, or a color name such as “red”). This is ignored if "
+@@ -276,3 +268,3 @@
+-"Standardfärg för fet text i terminalfönstret som en färgspecifikation (kan "
+-"vara hexadecimala siffror i HTML-stil eller ett färgnamn som ”red”). Detta "
+-"ignoreras om bold-color-same-as-fg är true (sant)."
++"Standardfärg för fet terminaltext, angiven som en färgspecifikation (till "
++"exempel hexadecimala siffror i HTML-format eller ett färgnamn som ”red”). "
++"Färgen används inte om bold-color-same-as-fg är true (sant)."
+@@ -282 +274 @@
+-msgstr "Huruvida fet text ska använda samma färg som vanlig text"
++msgstr "Anger om fet text ska ha samma färg som vanlig text"
+@@ -287,2 +279 @@
+-msgstr ""
+-"Om true (sant) kommer fet text att renderas med samma färg som normal text."
++msgstr "Om true (sant) återges fet text med samma färg som vanlig text."
+@@ -295,2 +286,2 @@
+-"Skalningsfaktor för cellhöjden för att öka radavstånd. (Ökar inte "
+-"typsnittets höjd.)"
++"Skalningsfaktor för teckencellernas höjd som ökar radavståndet. (Typsnittets"
++" höjd påverkas inte.)"
+@@ -303,2 +294,2 @@
+-"Skalningsfaktor för cellbredden för att öka bokstavsavstånd. (Ökar inte "
+-"typsnittets bredd.)"
++"Skalningsfaktor för teckencellernas bredd som ökar teckenavståndet. "
++"(Typsnittets bredd påverkas inte.)"
+@@ -308 +299 @@
+-msgstr "Huruvida anpassade markörfärger ska användas"
++msgstr "Anger om anpassade markörfärger ska användas"
+@@ -312 +303 @@
+-msgstr "Om true (sant), använd markörfärgerna från profilen."
++msgstr "Om true (sant) används profilens markörfärger."
+@@ -321,6 +312,7 @@
+-"specification (can be HTML-style hex digits, or a color name such as “red”). "
+-"This is ignored if cursor-colors-set is false."
+-msgstr ""
+-"Anpassad färg för bakgrunden till terminalens markör som en "
+-"färgspecifikation (kan vara hexadecimala siffror i HTML-stil eller ett "
+-"färgnamn som ”red”). Detta ignoreras om cursor-colors-set är false (falskt)."
++"specification (can be HTML-style hex digits, or a color name such as “red”)."
++" This is ignored if cursor-colors-set is false."
++msgstr ""
++"Anpassad bakgrundsfärg för terminalmarkören, angiven som en "
++"färgspecifikation (till exempel hexadecimala siffror i HTML-format eller ett"
++" färgnamn som ”red”). Färgen används inte om cursor-colors-set är false "
++"(falskt)."
+@@ -338,3 +330,4 @@
+-"Anpassad färg för tecknets förgrund på terminalens markörposition som en "
+-"färgspecifikation (kan vara hexadecimala siffror i HTML-stil eller ett "
+-"färgnamn som ”red”). Detta ignoreras om cursor-colors-set är false (falskt)."
++"Anpassad förgrundsfärg för tecknet vid terminalmarkören, angiven som en "
++"färgspecifikation (till exempel hexadecimala siffror i HTML-format eller ett"
++" färgnamn som ”red”). Färgen används inte om cursor-colors-set är false "
++"(falskt)."
+@@ -344 +337 @@
+-msgstr "Huruvida anpassade färgmarkeringsfärger ska användas"
++msgstr "Anger om anpassade markeringsfärger ska användas"
+@@ -348 +341 @@
+-msgstr "Om true (sant), använd färgmarkeringsfärgerna från profilen."
++msgstr "Om true (sant) används profilens markeringsfärger."
+@@ -357,6 +350,6 @@
+-"specification (can be HTML-style hex digits, or a color name such as “red”). "
+-"This is ignored if highlight-colors-set is false."
+-msgstr ""
+-"Anpassad färg för bakgrunden till terminalens färgmarkering som en "
+-"färgspecifikation (kan vara hexadecimala siffror i HTML-stil eller ett "
+-"färgnamn som ”red”). Detta ignoreras om highlight-colors-set är false "
++"specification (can be HTML-style hex digits, or a color name such as “red”)."
++" This is ignored if highlight-colors-set is false."
++msgstr ""
++"Anpassad bakgrundsfärg för markeringen i terminalen, angiven som en "
++"färgspecifikation (till exempel hexadecimala siffror i HTML-format eller ett"
++" färgnamn som ”red”). Färgen används inte om highlight-colors-set är false "
+@@ -376,3 +369,3 @@
+-"Anpassad färg för teckens förgrund på terminalens färgmarkeringsposition som "
+-"en färgspecifikation (kan vara hexadecimala siffror i HTML-stil eller ett "
+-"färgnamn som ”red”). Detta ignoreras om highlight-colors-set är false "
++"Anpassad förgrundsfärg för tecknet vid terminalens markör, angiven som en "
++"färgspecifikation (till exempel hexadecimala siffror i HTML-format eller ett"
++" färgnamn som ”red”). Färgen används inte om highlight-colors-set är false "
+@@ -383 +376 @@
+-msgstr "Huruvida dubbelriktad textrendering ska utföras"
++msgstr "Anger om dubbelriktad textåtergivning ska användas"
+@@ -387 +380 @@
+-msgstr "Om true (sant), utför dubbelriktad textrendering (”BiDi”)."
++msgstr "Om true (sant) används dubbelriktad textåtergivning (”BiDi”)."
+@@ -391 +384 @@
+-msgstr "Huruvida formning av arabisk text ska utföras"
++msgstr "Anger om arabisk textformning ska användas"
+@@ -395 +388 @@
+-msgstr "Om true (sant), forma arabisk text."
++msgstr "Om true (sant) formas arabisk text."
+@@ -399 +392 @@
+-msgstr "Huruvida SIXEL-bilder ska aktiveras"
++msgstr "Anger om SIXEL-bilder ska aktiveras"
+@@ -403 +396 @@
+-msgstr "Om true (sant) så tolkas SIXEL-sekvenser och bilder renderas."
++msgstr "Om true (sant) tolkas SIXEL-sekvenser och bilder återges."
+@@ -407 +400 @@
+-msgstr "Huruvida fet text också är ljus"
++msgstr "Anger om fet text också ska vara ljus"
+@@ -414,2 +407,2 @@
+-"Om true (sant) så växlas de första 8 färgerna till sina ljusa varianter om "
+-"de sätts till fetstil."
++"Om true (sant) växlar de första åtta färgerna till ljusa varianter när de "
++"görs feta."
+@@ -419 +412 @@
+-msgstr "Huruvida terminalljudet ska användas"
++msgstr "Anger om terminalens ljudsignal ska användas"
+@@ -422 +414,0 @@
+-#, fuzzy
+@@ -424,2 +416,2 @@
+-#| "List of ASCII punctuation characters that are not to be treated as part "
+-#| "of a word when doing word-wise selection"
++#| "List of ASCII punctuation characters that are not to be treated as part of a"
++#| " word when doing word-wise selection"
+@@ -427,3 +419 @@
+-msgstr ""
+-"Lista över skiljetecken i ASCII som inte ska behandlas som del av ett ord "
+-"när ordvis markering utförs"
++msgstr "Lista över skiljetecken som behandlas som ordtecken"
+@@ -436,0 +427,2 @@
++"Som standard delar de flesta skiljetecken upp ord vid ordvis markering. "
++"Tecknen i den här undantagslistan behandlas i stället som en del av ordet."
+@@ -467 +458,0 @@
+-#, fuzzy
+@@ -470 +461 @@
+-msgstr "Huruvida SIXEL-bilder ska aktiveras"
++msgstr "Anger om tröghetsrullning ska aktiveras"
+@@ -479,7 +470,6 @@
+-"terminal by this number of lines; lines that don’t fit in the scrollback are "
+-"discarded. If scrollback_unlimited is true, this value is ignored."
+-msgstr ""
+-"Antal rader i rullningshistoriken som ska behållas. Du kan rulla bakåt i "
+-"terminalfönstret med detta antal rader; rader som inte får plats i "
+-"rullningshistoriken förkastas. Om scrollback_unlimited är true (sant) så "
+-"ignoreras detta värde."
++"terminal by this number of lines; lines that don’t fit in the scrollback are"
++" discarded. If scrollback_unlimited is true, this value is ignored."
++msgstr ""
++"Antal rader som ska behållas i rullningshistoriken. Du kan rulla så många "
++"rader bakåt i terminalen; rader som inte ryms tas bort. Om "
++"scrollback_unlimited är true (sant) ignoreras det här värdet."
+@@ -489 +479,2 @@
+-msgstr "Huruvida ett obegränsat antal rader ska behållas i rullningshistoriken"
++msgstr ""
++"Anger om ett obegränsat antal rader ska behållas i rullningshistoriken"
+@@ -493,7 +484,7 @@
+-"If true, scrollback lines will never be discarded. The scrollback history is "
+-"stored on disk temporarily, so this may cause the system to run out of disk "
+-"space if there is a lot of output to the terminal."
+-msgstr ""
+-"Om true (sant) kommer rader i rullningshistoriken aldrig att förkastas. "
+-"Rullningshistoriken lagras temporärt på disk så detta kan orsaka att "
+-"systemet får slut på diskutrymme om det är mycket utdata i terminalfönstret."
++"If true, scrollback lines will never be discarded. The scrollback history is"
++" stored on disk temporarily, so this may cause the system to run out of disk"
++" space if there is a lot of output to the terminal."
++msgstr ""
++"Om true (sant) tas rader i rullningshistoriken aldrig bort. Historiken "
++"lagras tillfälligt på disk, så den kan fylla disken om terminalen visar "
++"mycket utdata."
+@@ -502 +492,0 @@
+-#, fuzzy
+@@ -505 +495 @@
+-msgstr "Huruvida det ska rullas till nedersta läget då en tangent trycks ned"
++msgstr "Anger om terminalen ska rulla längst ned när text klistras in"
+@@ -508 +497,0 @@
+-#, fuzzy
+@@ -513 +502 @@
+-msgstr "Huruvida det ska rullas till nedersta läget då en tangent trycks ned"
++msgstr "Om true (sant) rullar terminalen längst ned när text klistras in."
+@@ -517 +506 @@
+-msgstr "Huruvida det ska rullas till nedersta läget då en tangent trycks ned"
++msgstr "Anger om terminalen ska rulla längst ned när en tangent trycks ned"
+@@ -522,2 +511 @@
+-"Om true (sant) hoppar rullningslisten till nedersta läget då en tangent "
+-"trycks ned."
++"Om true (sant) flyttas rullningslisten längst ned när en tangent trycks ned."
+@@ -527 +515 @@
+-msgstr "Huruvida det ska rullas till nedersta läget då det finns nya utdata"
++msgstr "Anger om terminalen ska rulla längst ned när nya utdata visas"
+@@ -533,2 +521 @@
+-"Om true (sant) kommer terminalfönstret att rulla till nedersta läget så fort "
+-"det finns nya utdata."
++"Om true (sant) rullar terminalen längst ned så snart nya utdata visas."
+@@ -538 +525 @@
+-msgstr "Vad som ska göras med terminalfönstret när barnkommandot avslutar"
++msgstr "Vad som ska hända med terminalen när barnkommandot avslutas"
+@@ -543,5 +530,6 @@
+-"command, and “hold” to keep the terminal open with no command running inside."
+-msgstr ""
+-"Möjliga värden är ”close” för att stänga terminalfönstret, ”restart” för att "
+-"starta om kommandot och ”hold” för att hålla terminalfönstret öppet utan "
+-"något kommando körandes inuti."
++"command, and “hold” to keep the terminal open with no command running "
++"inside."
++msgstr ""
++"Möjliga värden är ”close” för att stänga terminalen, ”restart” för att "
++"starta om kommandot och ”hold” för att lämna terminalen öppen utan ett "
++"körande kommando."
+@@ -551,2 +539 @@
+-msgstr ""
+-"Huruvida kommandot inuti terminalfönstret ska startas som inloggningsskal"
++msgstr "Anger om kommandot i terminalen ska köras som ett inloggningsskal"
+@@ -559,2 +546,2 @@
+-"Om true (sant) kommer kommandot inuti terminalfönstret att startas som ett "
+-"inloggningsskal (argv[0] kommer att ha ett bindestreck före)."
++"Om true (sant) körs kommandot i terminalen som ett inloggningsskal (ett "
++"bindestreck läggs före argv[0])."
+@@ -564 +551 @@
+-msgstr "Huruvida arbetskatalogen ska bevaras då en ny terminal öppnas"
++msgstr "Anger om arbetskatalogen ska bevaras när en ny terminal öppnas"
+@@ -571,2 +558,2 @@
+-"Styr när öppnande av en ny terminal från en befintlig överför "
+-"arbetskatalogen från den öppnande terminalen till den nya."
++"Anger om den nya terminalen ska ärva arbetskatalogen från terminalen den "
++"öppnades från."
+@@ -576 +563 @@
+-msgstr "Huruvida ett eget kommando ska köras i stället för skalet"
++msgstr "Anger om ett anpassat kommando ska köras i stället för skalet"
+@@ -583,2 +570,2 @@
+-"Om true (sant) kommer värdet för inställningen custom_command att användas i "
+-"stället för att ett skal körs."
++"Om true (sant) används värdet för inställningen custom_command i stället för"
++" att starta ett skal."
+@@ -588 +575 @@
+-msgstr "Huruvida markören ska blinka"
++msgstr "Anger om markören ska blinka"
+@@ -592,6 +579,5 @@
+-"The possible values are “system” to use the global cursor blinking settings, "
+-"or “on” or “off” to set the mode explicitly."
+-msgstr ""
+-"Möjliga värden är ”system” för att använda globala inställningar för "
+-"markörblinkning, eller ”on” eller ”off” för att uttryckligen ställa in "
+-"önskat läge."
++"The possible values are “system” to use the global cursor blinking settings,"
++" or “on” or “off” to set the mode explicitly."
++msgstr ""
++"Möjliga värden är ”system” för att använda systemets globala inställning för"
++" markörblinkning, eller ”on” och ”off” för att välja läge uttryckligen."
+@@ -608,3 +594,3 @@
+-"Möjliga värden är att ”always” (alltid) eller ”never” (aldrig) tillåta "
+-"blinkande text, eller endast när terminalen är ”focused” (fokuserad) or "
+-"”unfocused” (ej fokuserad)."
++"Möjliga värden är ”always” eller ”never” för att tillåta blinkande text "
++"alltid respektive aldrig, eller endast när terminalen är ”focused” (har "
++"fokus) eller ”unfocused” (saknar fokus)."
+@@ -640 +626 @@
+-msgstr "Huruvida färgerna från temat ska användas för terminalkomponenten"
++msgstr "Anger om terminalkomponenten ska använda temats färger"
+@@ -644 +630 @@
+-msgstr "Huruvida systemtypsnittet för fastbredd ska användas"
++msgstr "Anger om systemets typsnitt med fast breddsteg ska användas"
+@@ -648 +634,2 @@
+-msgstr "Huruvida radbrytningar ska justeras när storleken på fönstret ändras"
++msgstr ""
++"Anger om terminalinnehållet ska radbrytas om när fönstrets storlek ändras"
+@@ -652 +639 @@
+-msgstr "Vilken kodning som ska användas"
++msgstr "Vilken teckenkodning som ska användas"
+@@ -659 +646 @@
+-"Huruvida tvetydig-bredd bokstäver är smala eller breda vid användning av "
++"Anger om tecken med tvetydig bredd ska räknas som smala eller breda vid "
+@@ -672 +659,2 @@
+-msgstr "Tangentbordsgenväg för att spara innehållet i aktuell flik till en fil"
++msgstr ""
++"Tangentbordsgenväg för att spara innehållet i aktuell flik till en fil"
+@@ -714 +702 @@
+-msgstr "Tangentbordsgenväg för att öppna inställningsdialogen"
++msgstr "Tangentbordsgenväg för att öppna inställningsdialogrutan"
+@@ -726 +714 @@
+-msgstr "Tangentbordsgenväg för att återställa terminalfönstret"
++msgstr "Tangentbordsgenväg för att återställa terminalen"
+@@ -730 +718 @@
+-msgstr "Tangentbordsgenväg för att återställa och tömma terminalfönstret"
++msgstr "Tangentbordsgenväg för att återställa och tömma terminalen"
+@@ -734 +722 @@
+-msgstr "Tangentbordsgenväg för att öppna sökdialogen"
++msgstr "Tangentbordsgenväg för att öppna sökdialogrutan"
+@@ -738 +726 @@
+-msgstr "Tangentbordsgenväg för att söka efter nästa förekomst av sökfrasen"
++msgstr "Tangentbordsgenväg för att söka efter nästa förekomst av söktexten"
+@@ -743 +731 @@
+-"Tangentbordsgenväg för att söka efter föregående förekomst av sökfrasen"
++"Tangentbordsgenväg för att söka efter föregående förekomst av söktexten"
+@@ -747 +735 @@
+-msgstr "Tangentbordsgenväg för att rensa sökmarkeringen"
++msgstr "Tangentbordsgenväg för att ta bort sökmarkeringen"
+@@ -759 +747 @@
+-msgstr "Tangentbordsgenväg för att flytta aktuell flik till vänster"
++msgstr "Tangentbordsgenväg för att flytta den aktuella fliken åt vänster"
+@@ -763 +751 @@
+-msgstr "Tangentbordsgenväg för att flytta aktuell flik till höger"
++msgstr "Tangentbordsgenväg för att flytta den aktuella fliken åt höger"
+@@ -766 +753,0 @@
+-#, fuzzy
+@@ -769 +756,2 @@
+-msgstr "Tangentbordsgenväg för att flytta aktuell flik till höger"
++msgstr ""
++"Tangentbordsgenväg för att flytta den aktuella fliken längst till vänster"
+@@ -772 +759,0 @@
+-#, fuzzy
+@@ -775 +762,2 @@
+-msgstr "Tangentbordsgenväg för att flytta aktuell flik till vänster"
++msgstr ""
++"Tangentbordsgenväg för att flytta den aktuella fliken längst till höger"
+@@ -779 +767 @@
+-msgstr "Tangentbordsgenväg för att koppla loss aktuell flik"
++msgstr "Tangentbordsgenväg för att koppla loss den aktuella fliken"
+@@ -782 +769,0 @@
+-#, fuzzy
+@@ -785 +772 @@
+-msgstr "Tangentbordsgenväg för att visa den primära menyn"
++msgstr "Tangentbordsgenväg för att visa fliköversikten"
+@@ -823 +810 @@
+-msgstr "Tangentbordsgenväg för att växla till flik med angivet nummer"
++msgstr "Tangentbordsgenväg för att växla till fliken med det angivna numret"
+@@ -835 +822 @@
+-msgstr "Tangentbordsgenväg för att göra typsnitt större"
++msgstr "Tangentbordsgenväg för att förstora texten"
+@@ -839 +826 @@
+-msgstr "Tangentbordsgenväg för att göra typsnitt mindre"
++msgstr "Tangentbordsgenväg för att förminska texten"
+@@ -843 +830 @@
+-msgstr "Tangentbordsgenväg för att göra typsnitt till normal storlek"
++msgstr "Tangentbordsgenväg för att återställa texten till normal storlek"
+@@ -847 +834 @@
+-msgstr "Tangentbordsgenväg för att visa den primära menyn"
++msgstr "Tangentbordsgenväg för att visa huvudmenyn"
+@@ -851 +838 @@
+-msgstr "Huruvida snabbtangenter är aktiverade"
++msgstr "Anger om snabbtangenter är aktiverade"
+@@ -855,5 +842,5 @@
+-"Whether shortcuts are enabled. They may interfere with some applications run "
+-"inside the terminal so it’s possible to turn them off."
+-msgstr ""
+-"Huruvida snabbtangenter är aktiverade. De kan påverka vissa program som kör "
+-"i terminalen, så det är möjligt att slå av dem."
++"Whether shortcuts are enabled. They may interfere with some applications run"
++" inside the terminal so it’s possible to turn them off."
++msgstr ""
++"Anger om snabbtangenter är aktiverade. De kan störa vissa program som körs i"
++" terminalen och kan därför inaktiveras."
+@@ -863 +850,2 @@
+-msgstr "Huruvida GTK:s standardsnabbtangent för menyradsåtkomst är aktiverad"
++msgstr ""
++"Anger om GTK:s standardsnabbtangent för att öppna menyraden är aktiverad"
+@@ -871,3 +859,3 @@
+-"Normalt kan du komma åt menyraden genom att trycka F10. Detta kan också "
+-"anpassas via gtkrc (gtk-menu-bar-accel = \"whatever\"). Detta alternativ "
+-"möjliggör att standardmenyradsgenvägen inaktiveras."
++"Vanligtvis öppnar F10 menyraden. Detta kan också anpassas via gtkrc (gtk-"
++"menu-bar-accel = \"whatever\"). Med det här alternativet kan "
++"standardsnabbtangenten för menyraden inaktiveras."
+@@ -877 +865 @@
+-msgstr "Huruvida skalets integration är aktiverad"
++msgstr "Anger om skalintegrationen är aktiverad"
+@@ -881 +869 @@
+-msgstr "Huruvida bekräftelse ska efterfrågas då terminalfönster stängs"
++msgstr "Anger om en bekräftelse ska begäras innan en terminal stängs"
+@@ -885 +873 @@
+-msgstr "Ytterligare informationssektionsobjekt som ska visas i snabbvalsmenyn"
++msgstr "Ytterligare informationsavsnitt som ska visas i snabbvalsmenyn"
+@@ -889 +877 @@
+-msgstr "Huruvida nya terminaler ska öppnas som fönster eller flikar"
++msgstr "Anger om nya terminaler ska öppnas i fönster eller flikar"
+@@ -902,3 +890 @@
+-msgstr ""
+-"Huruvida nya flikar ska öppnas intill den aktuella eller på den senaste "
+-"positionen"
++msgstr "Anger om nya flikar ska öppnas intill den aktuella fliken eller sist"
+@@ -908 +894 @@
+-msgstr ""
++msgstr "Anger om fönster ska ha rundade hörn"
+@@ -912 +898 @@
+-msgstr "Kontrollera alltid huruvida GNOME Terminal är standardterminalen"
++msgstr "Kontrollera alltid om GNOME Terminal är standardterminal"
+@@ -929 +915 @@
+-msgstr "Visa sökalternativ"
++msgstr "Växla sökalternativ"
+@@ -951 +937 @@
+-msgstr ""
++msgstr "Ange en ny genväg för att ändra <b>%s</b>."
+@@ -959 +945 @@
+-msgstr ""
++msgstr "_Ställ in"
+@@ -963,0 +950,2 @@
++"Tryck på Escape för att avbryta eller på Backsteg för att inaktivera "
++"genvägen."
+@@ -966 +953,0 @@
+-#, fuzzy
+@@ -972 +958,0 @@
+-#, fuzzy
+@@ -975 +961 @@
+-msgstr "Snabbtangenter"
++msgstr "Ställ in genväg"
+@@ -1020 +1006 @@
+-msgstr "Sök n_ästa"
++msgstr "Sök nästa"
+@@ -1024 +1010 @@
+-msgstr "Sök före_gående"
++msgstr "Sök föregående"
+@@ -1076 +1061,0 @@
+-#, fuzzy
+@@ -1082 +1066,0 @@
+-#, fuzzy
+@@ -1093 +1077 @@
+-msgstr ""
++msgstr "Visa fliköversikten"
+@@ -1151 +1135 @@
+-msgstr ""
++msgstr "Sök framåt till nästa resultat"
+@@ -1155 +1139 @@
+-msgstr ""
++msgstr "Sök bakåt till nästa resultat"
+@@ -1158 +1141,0 @@
+-#, fuzzy
+@@ -1161 +1144 @@
+-msgstr "Visa sökalternativ"
++msgstr "Sökalternativ"
+@@ -1164 +1146,0 @@
+-#, fuzzy
+@@ -1167 +1149 @@
+-msgstr "_Gör skillnad på gemener/VERSALER"
++msgstr "_Matcha skiftläge"
+@@ -1171 +1153 @@
+-msgstr ""
++msgstr "Hela _ord"
+@@ -1174 +1155,0 @@
+-#, fuzzy
+@@ -1180 +1160,0 @@
+-#, fuzzy
+@@ -1183 +1163 @@
+-msgstr "Stäng flik"
++msgstr "Stäng"
+@@ -1186 +1165,0 @@
+-#, fuzzy
+@@ -1189 +1168 @@
+-msgstr "Stäng flik"
++msgstr "Stäng sökfältet"
+@@ -1192 +1170,0 @@
+-#, fuzzy
+@@ -1195 +1173 @@
+-msgstr "Ny profil"
++msgstr "Ny flik från profil"
+@@ -1198 +1175,0 @@
+-#, fuzzy
+@@ -1201 +1178 @@
+-msgstr "Öppna _flik"
++msgstr "Visa öppna flikar"
+@@ -1208 +1184,0 @@
+-#, fuzzy
+@@ -1211 +1187 @@
+-msgstr "Återställ"
++msgstr "Återställ _zoom"
+@@ -1239 +1215 @@
 -msgstr "_Återställ"
-+msgstr "Återstä_ll"
- 
- #: src/terminal-headermenu.ui:68 src/terminal-menubar.ui.in:166
- msgid "Reset and C_lear"
-@@ -1862,7 +1862,7 @@
- 
- #: src/terminal-menubar.ui.in:125
- msgid "_Find…"
--msgstr "S_ök…"
-+msgstr "Sö_k…"
- 
- #: src/terminal-menubar.ui.in:129
- msgid "Find _Next"
-@@ -2434,7 +2434,7 @@
- 
- #: src/terminal-window.cc:1735
- msgid "_Open Link"
++msgstr "_Nollställ"
+@@ -1243 +1219 @@
+-msgstr "Återställ och t_öm"
++msgstr "Återställ och _töm"
+@@ -1263 +1239 @@
+-msgstr "_Inspekterare"
++msgstr "_Inspektör"
+@@ -1312 +1287,0 @@
+-#, fuzzy
+@@ -1315 +1290 @@
+-msgstr "_Terminal"
++msgstr "_Fäst terminal"
+@@ -1319 +1293,0 @@
+-#, fuzzy
+@@ -1322 +1296 @@
+-msgstr "Öppna _terminalfönster"
++msgstr "_Lossa terminal"
+@@ -1349 +1323,2 @@
+-#. %s is being replaced with "-- " (without quotes), which must be used literally, not translatable
++#. %s is being replaced with "-- " (without quotes), which must be used
++#. literally, not translatable
+@@ -1356,2 +1331,2 @@
+-"Använd ”%s” för att visa att inga fler flaggor kommer och få kommandoraden "
+-"att exekvera."
++"Använd ”%s” för att avsluta flaggorna och ange kommandoraden som ska köras "
++"efter det."
+@@ -1367 +1342 @@
+-msgstr ""
++msgstr "Det går inte att ange mer än ett kommando att köra"
+@@ -1376 +1351 @@
+-msgstr "Två roller angivna för ett fönster"
++msgstr "Två fönsterroller har angetts för samma fönster"
+@@ -1381 +1356 @@
+-msgstr "Kan inte skicka FD %d två gånger"
++msgstr "FD %d kan inte skickas två gånger"
+@@ -1410 +1385 @@
+-msgstr ""
++msgstr "För många argument"
+@@ -1414 +1389 @@
+-msgstr "Kan endast använda --wait en gång"
++msgstr "--wait kan bara användas en gång"
+@@ -1418 +1393 @@
+-msgstr "Inte en giltig terminalkonfigurationsfil."
++msgstr "Det här är inte en giltig terminalkonfigurationsfil."
+@@ -1422 +1397 @@
+-msgstr "Inkompatibel version för terminalkonfigurationsfil."
++msgstr "Terminalkonfigurationsfilens version är inkompatibel."
+@@ -1429 +1404,2 @@
+-"Registrera inte i aktiveringsnamnservern, återanvänd inte en aktiv terminal"
++"Registrera dig inte hos aktiveringsnamnservern och återanvänd inte en aktiv "
++"terminal"
+@@ -1449 +1425 @@
+-msgstr "Skriv ut miljövariabler som interagerar med terminalen"
++msgstr "Skriv ut miljövariabler för kommunikation med terminalen"
+@@ -1453 +1429 @@
+-msgstr "Öka diagnostisk informationsnivå"
++msgstr "Visa fler diagnostikmeddelanden"
+@@ -1457 +1433 @@
+-msgstr "Undertryck utmatning"
++msgstr "Visa inte utdata"
+@@ -1473 +1449 @@
+-msgstr "Helskärm för fönstret"
++msgstr "Visa fönstret i helskärmsläge"
+@@ -1496 +1472 @@
+-msgstr "Ställ in den senast angivna fliken som den aktiva i dess fönster"
++msgstr "Gör den senast angivna fliken aktiv i sitt fönster"
+@@ -1500 +1476 @@
+-msgstr "Kör argumentet till denna flagga inuti terminalen"
++msgstr "Kör argumentet till det här alternativet i terminalen"
+@@ -1512 +1488 @@
+-msgstr "Ställ in initial terminalstorlek"
++msgstr "Ange terminalens ursprungliga titel"
+@@ -1524 +1500 @@
+-msgstr "KATNAMN"
++msgstr "KATALOGNAMN"
+@@ -1532 +1508 @@
+-msgstr "Vidarebefordra filhandtag"
++msgstr "Vidarebefordra filbeskrivare"
+@@ -1537 +1513 @@
+-msgstr "FD"
++msgstr "FILBESKRIVARE"
+@@ -1546 +1522 @@
+-msgstr "ZOOM"
++msgstr "ZOOMFAKTOR"
+@@ -1577,2 +1553,2 @@
+-"Fönsterflaggor; om används innan första argumentet --window eller --tab, "
+-"ställer in standarden för alla fönster:"
++"Fönsteralternativ. Om de anges före det första --window- eller --tab-"
++"argumentet gäller de som standard för alla fönster:"
+@@ -1582 +1558 @@
+-msgstr "Visa flaggor för per-fönster"
++msgstr "Visa alternativ för varje fönster"
+@@ -1589,2 +1565,2 @@
+-"Terminalflaggor; om används innan första argumentet --window eller --tab, "
+-"ställer in standarden för alla terminaler:"
++"Terminalalternativ. Om de anges före det första --window- eller --tab-"
++"argumentet gäller de som standard för alla terminaler:"
+@@ -1594 +1570 @@
+-msgstr "Visa flaggor för per-terminal"
++msgstr "Visa alternativ för varje terminal"
+@@ -1601 +1576,0 @@
+-#, fuzzy
+@@ -1604 +1579 @@
+-msgstr "Ange som standard"
++msgstr "Återställ till _standard"
+@@ -1607 +1581,0 @@
+-#, fuzzy
+@@ -1610 +1584 @@
+-msgstr "Textutseende"
++msgstr "Utseende"
+@@ -1613 +1586,0 @@
+-#, fuzzy
+@@ -1616 +1589 @@
+-msgstr "Tema_variant:"
++msgstr "Temavariant"
+@@ -1625 +1597,0 @@
+-#, fuzzy
+@@ -1629 +1601 @@
+-msgstr "Mörkt"
++msgstr "Mörk"
+@@ -1632 +1603,0 @@
+-#, fuzzy
+@@ -1635 +1606 @@
+-msgstr "höjd"
++msgstr "Ljus"
+@@ -1639 +1610 @@
+-msgstr ""
++msgstr "Rundade hörn"
+@@ -1643 +1614 @@
+-msgstr ""
++msgstr "Endast upptill"
+@@ -1647 +1618 @@
+-msgstr ""
++msgstr "Ingen"
+@@ -1651 +1622 @@
+-msgstr ""
++msgstr "Beteende"
+@@ -1655 +1625,0 @@
+-#, fuzzy
+@@ -1658 +1628 @@
+-msgstr "Öppna _terminalfönster"
++msgstr "Öppna nya terminaler"
+@@ -1661 +1630,0 @@
+-#, fuzzy
+@@ -1664 +1633 @@
+-msgstr "Öppna _flik"
++msgstr "På en flik"
+@@ -1667 +1635,0 @@
+-#, fuzzy
+@@ -1670 +1638 @@
+-msgstr "Fönster"
++msgstr "I ett fönster"
+@@ -1673 +1640,0 @@
+-#, fuzzy
+@@ -1676 +1643 @@
+-msgstr "Ny flik_position:"
++msgstr "Position för nya flikar"
+@@ -1687 +1653,0 @@
+-#, fuzzy
+@@ -1690 +1656 @@
+-msgstr "Tangentbordsgenväg för att klistra in text"
++msgstr "Tangentbordsgenvägar"
+@@ -1693 +1658,0 @@
+-#, fuzzy
+@@ -1696 +1661 @@
+-msgstr "Aktivera snabbtangent för m_enyåtkomst (F10 som standard)"
++msgstr "Snabbtangent (F10 som standard)"
+@@ -1700 +1665 @@
+-msgstr ""
++msgstr "Visa och anpassa snabbtangenter"
+@@ -1707 +1671,0 @@
+-#, fuzzy
+@@ -1710 +1674 @@
+-msgstr "_Åtgärd"
++msgstr "Program"
+@@ -1714 +1678 @@
+-msgstr ""
++msgstr "Fråga om GNOME Terminal ska fortsätta vara standardterminal"
+@@ -1717 +1680,0 @@
+-#, fuzzy
+@@ -1720 +1683 @@
+-msgstr "_Ange som standardterminal"
++msgstr "Ange som standardterminal"
+@@ -1742 +1705,2 @@
+-#. Translators: "GNOME" is the name of a colour scheme, "light" can be translated
++#. Translators: "GNOME" is the name of a colour scheme, "light" can be
++#. translated
+@@ -1745,3 +1709,4 @@
+-msgstr "GNOME ljus"
+-
+-#. Translators: "GNOME" is the name of a colour scheme, "dark" can be translated
++msgstr "GNOME (ljust)"
++
++#. Translators: "GNOME" is the name of a colour scheme, "dark" can be
++#. translated
+@@ -1750,3 +1715,4 @@
+-msgstr "GNOME mörk"
+-
+-#. Translators: "Tango" is the name of a colour scheme, "light" can be translated
++msgstr "GNOME (mörkt)"
++
++#. Translators: "Tango" is the name of a colour scheme, "light" can be
++#. translated
+@@ -1755,3 +1721,4 @@
+-msgstr "Tango ljus"
+-
+-#. Translators: "Tango" is the name of a colour scheme, "dark" can be translated
++msgstr "Tango (ljust)"
++
++#. Translators: "Tango" is the name of a colour scheme, "dark" can be
++#. translated
+@@ -1760,3 +1727,4 @@
+-msgstr "Tango mörk"
+-
+-#. Translators: "Solarized" is the name of a colour scheme, "light" can be translated
++msgstr "Tango (mörkt)"
++
++#. Translators: "Solarized" is the name of a colour scheme, "light" can be
++#. translated
+@@ -1765,3 +1733,4 @@
+-msgstr "Ljus Solarized"
+-
+-#. Translators: "Solarized" is the name of a colour scheme, "dark" can be translated
++msgstr "Solarized (ljust)"
++
++#. Translators: "Solarized" is the name of a colour scheme, "dark" can be
++#. translated
+@@ -1770 +1739 @@
+-msgstr "Mörk Solarized"
++msgstr "Solarized (mörkt)"
+@@ -1779 +1748 @@
+-msgstr "Traditionell kinesisk"
++msgstr "Traditionell kinesiska"
+@@ -1783 +1752 @@
+-msgstr "Kyrillisk/Rysk"
++msgstr "Kyrilliska/ryska"
+@@ -1787 +1756 @@
+-msgstr "Japansk"
++msgstr "Japanska"
+@@ -1791 +1760 @@
+-msgstr "Koreansk"
++msgstr "Koreanska"
+@@ -1796 +1765 @@
+-msgstr "Förenklad kinesisk"
++msgstr "Förenklad kinesiska"
+@@ -1802 +1771 @@
+-msgstr "Västerländsk"
++msgstr "Västerländska"
+@@ -1807 +1776 @@
+-msgstr "Centraleuropeisk"
++msgstr "Centraleuropeiska"
+@@ -1813 +1782 @@
+-msgstr "Kyrillisk"
++msgstr "Kyrilliska"
+@@ -1818 +1787 @@
+-msgstr "Turkisk"
++msgstr "Turkiska"
+@@ -1823 +1792 @@
+-msgstr "Hebreisk"
++msgstr "Hebreiska"
+@@ -1828 +1797 @@
+-msgstr "Arabisk"
++msgstr "Arabiska"
+@@ -1832 +1801 @@
+-msgstr "Nordisk"
++msgstr "Nordiska"
+@@ -1837 +1806 @@
+-msgstr "Baltisk"
++msgstr "Baltiska"
+@@ -1841 +1810 @@
+-msgstr "Keltisk"
++msgstr "Keltiska"
+@@ -1845 +1814 @@
+-msgstr "Rumänsk"
++msgstr "Rumänska"
+@@ -1849 +1818 @@
+-msgstr "Sydeuropeisk"
++msgstr "Sydeuropeiska"
+@@ -1854 +1823 @@
+-msgstr "Grekisk"
++msgstr "Grekiska"
+@@ -1858 +1827 @@
+-msgstr "Hebreisk (visuell)"
++msgstr "Hebreiska (visuellt)"
+@@ -1862 +1831 @@
+-msgstr "Kyrillisk/Ukrainsk"
++msgstr "Kyrilliska/ukrainska"
+@@ -1866 +1835 @@
+-msgstr "Kroatisk"
++msgstr "Kroatiska"
+@@ -1870 +1839 @@
+-msgstr "Thai"
++msgstr "Thailändska"
+@@ -1889 +1857,0 @@
+-#, fuzzy
+@@ -1892 +1860 @@
+-msgstr "Markera allt"
++msgstr "Välj typsnitt"
+@@ -1895 +1862,0 @@
+-#, fuzzy
+@@ -1898 +1865 @@
+-msgstr "_Profil"
++msgstr "Redigera profil"
+@@ -1901 +1867,0 @@
+-#, fuzzy
+@@ -1904 +1870 @@
+-msgstr "_Profil"
++msgstr "Profil"
+@@ -1908 +1874 @@
+-msgstr ""
++msgstr "Namn"
+@@ -1912 +1878 @@
+-msgstr ""
++msgstr "Identifierare"
+@@ -1916 +1882 @@
+-msgstr ""
++msgstr "Typsnitt"
+@@ -1920 +1886 @@
+-msgstr ""
++msgstr "Använd systemets typsnitt"
+@@ -1923 +1888,0 @@
+-#, fuzzy
+@@ -1926 +1891 @@
+-msgstr "Anpassat t_ypsnitt:"
++msgstr "Anpassat typsnitt"
+@@ -1929 +1893,0 @@
+-#, fuzzy
+@@ -1932 +1896 @@
+-msgstr "Tillåt b_linkande text:"
++msgstr "Tillåt blinkande text"
+@@ -1957 +1920,0 @@
+-#, fuzzy
+@@ -1960 +1923 @@
+-msgstr "Använd färger från s_ystemtemat"
++msgstr "Använd färger från paletten"
+@@ -1963 +1925,0 @@
+-#, fuzzy
+@@ -1966 +1928 @@
+-msgstr "Använd färger från s_ystemtemat"
++msgstr "Använd färger från färgschemat"
+@@ -1969 +1930,0 @@
+-#, fuzzy
+@@ -1972 +1933 @@
+-msgstr "Stan_dardfärg:"
++msgstr "Åsidosätt standardfärg"
+@@ -1980 +1940,0 @@
+-#, fuzzy
+@@ -1983 +1943 @@
+-msgstr "Välj textfärg för terminalen"
++msgstr "Välj textfärg"
+@@ -1991 +1950,0 @@
+-#, fuzzy
+@@ -1994 +1953 @@
+-msgstr "Välj bakgrundsfärg för terminalen"
++msgstr "Välj bakgrundsfärg"
+@@ -1998 +1957 @@
+-msgstr ""
++msgstr "Åsidosätt färgen för fet text"
+@@ -2001 +1959,0 @@
+-#, fuzzy
+@@ -2004 +1962 @@
+-msgstr "Välj färg för fet text i terminalen"
++msgstr "Välj färg för fet text"
+@@ -2007 +1964,0 @@
+-#, fuzzy
+@@ -2010 +1967 @@
+-msgstr "Ma_rkörfärg:"
++msgstr "Åsidosätt markörfärg"
+@@ -2013 +1969,0 @@
+-#, fuzzy
+@@ -2016 +1972 @@
+-msgstr "Välj förgrundsfärg för markör i terminalen"
++msgstr "Välj markörens förgrundsfärg"
+@@ -2019 +1974,0 @@
+-#, fuzzy
+@@ -2022 +1977 @@
+-msgstr "Välj bakgrundsfärg för markör i terminalen"
++msgstr "Välj markörens bakgrundsfärg"
+@@ -2025 +1979,0 @@
+-#, fuzzy
+@@ -2028 +1982 @@
+-msgstr "_Färgmarkeringsfärg:"
++msgstr "Åsidosätt markeringsfärg"
+@@ -2031 +1984,0 @@
+-#, fuzzy
+@@ -2034 +1987 @@
+-msgstr "Välj förgrundsfärg för markering i terminalen"
++msgstr "Välj markeringens förgrundsfärg"
+@@ -2037 +1989,0 @@
+-#, fuzzy
+@@ -2040 +1992 @@
+-msgstr "Välj bakgrundsfärg för markering i terminalen"
++msgstr "Välj markeringens bakgrundsfärg"
+@@ -2047 +1998,0 @@
+-#, fuzzy
+@@ -2050 +2001 @@
+-msgstr "Visa _fet text i ljusa färger"
++msgstr "Visa fet text i ljusa färger"
+@@ -2058 +2009 @@
+-msgstr ""
++msgstr "Form"
+@@ -2074 +2025 @@
+-msgstr ""
++msgstr "Blinkning"
+@@ -2085 +2035,0 @@
+-#, fuzzy
+@@ -2088 +2038 @@
+-msgstr "Terminal"
++msgstr "Terminalstorlek"
+@@ -2091 +2040,0 @@
+-#, fuzzy
+@@ -2094 +2043 @@
+-msgstr "kolumner"
++msgstr "Kolumner"
+@@ -2098 +2047 @@
+-msgstr ""
++msgstr "Rader"
+@@ -2102 +2051 @@
+-msgstr ""
++msgstr "Skala för cellbredd"
+@@ -2106 +2055 @@
+-msgstr ""
++msgstr "Ökar teckencellernas bredd"
+@@ -2110 +2059 @@
+-msgstr ""
++msgstr "Skala för cellhöjd"
+@@ -2114 +2063 @@
+-msgstr ""
++msgstr "Öka teckencellernas höjd"
+@@ -2121 +2069,0 @@
+-#, fuzzy
+@@ -2124 +2072 @@
+-msgstr "Vi_sa rullningslist"
++msgstr "Visa rullningslist"
+@@ -2128 +2076 @@
+-msgstr ""
++msgstr "Vanlig"
+@@ -2132 +2080 @@
+-msgstr ""
++msgstr "Överlagrad"
+@@ -2135 +2082,0 @@
+-#, fuzzy
+@@ -2138 +2085 @@
+-msgstr "Rullning"
++msgstr "Tröghetsrullning"
+@@ -2142 +2089 @@
+-msgstr ""
++msgstr "Vid användning på pekskärmar"
+@@ -2145 +2091,0 @@
+-#, fuzzy
+@@ -2148 +2094 @@
+-msgstr "Ru_lla vid utdata"
++msgstr "Rulla vid utdata"
+@@ -2151 +2096,0 @@
+-#, fuzzy
+@@ -2154 +2099 @@
+-msgstr "Rulla vid _tangentnedtryckning"
++msgstr "Rulla vid tangenttryckning"
+@@ -2157 +2101,0 @@
+-#, fuzzy
+@@ -2160 +2104 @@
+-msgstr "Rulla vid _tangentnedtryckning"
++msgstr "Rulla vid inklistring"
+@@ -2163 +2106,0 @@
+-#, fuzzy
+@@ -2166 +2109 @@
+-msgstr "Begränsa ru_llningshistorik till:"
++msgstr "Begränsa rullningshistoriken till"
+@@ -2169 +2111,0 @@
+-#, fuzzy
+@@ -2172 +2114 @@
+-msgstr "Rullning"
++msgstr "Rader i rullningshistoriken"
+@@ -2176 +2118 @@
+-msgstr ""
++msgstr "Bilder"
+@@ -2179 +2120,0 @@
+-#, fuzzy
+@@ -2182 +2123 @@
+-msgstr "Aktivera _SIXEL-bilder"
++msgstr "Aktivera SIXEL-bilder"
+@@ -2189 +2129,0 @@
+-#, fuzzy
+@@ -2192 +2132 @@
+-msgstr "Terminal_ljud"
++msgstr "Terminalsignal"
+@@ -2199 +2138,0 @@
+-#, fuzzy
+@@ -2202 +2141 @@
+-msgstr "_Kör kommando som ett inloggningsskal"
++msgstr "Kör kommandot som inloggningsskal"
+@@ -2205 +2143,0 @@
+-#, fuzzy
+@@ -2208 +2146 @@
+-msgstr "Eget ko_mmando:"
++msgstr "Använd anpassat kommando"
+@@ -2211 +2148,0 @@
+-#, fuzzy
+@@ -2214 +2151 @@
+-msgstr "Eget ko_mmando:"
++msgstr "Anpassat kommando"
+@@ -2217 +2153,0 @@
+-#, fuzzy
+@@ -2220 +2156 @@
+-msgstr "_Bevara arbetskatalog:"
++msgstr "Bevara arbetskatalog"
+@@ -2223 +2158,0 @@
+-#, fuzzy
+@@ -2227 +2162 @@
+-msgstr "Huruvida arbetskatalogen ska bevaras då en ny terminal öppnas"
++msgstr "Anger om arbetskatalogen ska bevaras när en ny terminal öppnas"
+@@ -2230 +2164,0 @@
+-#, fuzzy
+@@ -2233 +2167 @@
+-msgstr "Då kommandot a_vslutar:"
++msgstr "När kommandot avslutas"
+@@ -2240 +2173,0 @@
+-#, fuzzy
+@@ -2243 +2176 @@
+-msgstr "_Backstegstangenten genererar:"
++msgstr "Backstegstangent"
+@@ -2246 +2178,0 @@
+-#, fuzzy
+@@ -2249 +2181 @@
+-msgstr "Kodsekvensen som Backstegstangenten genererar"
++msgstr "Sekvens att skicka för Backstegstangenten"
+@@ -2252 +2183,0 @@
+-#, fuzzy
+@@ -2255 +2186 @@
+-msgstr "Ta bort"
++msgstr "Delete-tangent"
+@@ -2259 +2190 @@
+-msgstr ""
++msgstr "Sekvens att skicka för Delete-tangenten"
+@@ -2262 +2192,0 @@
+-#, fuzzy
+@@ -2265 +2195 @@
+-msgstr "_Kodning"
++msgstr "Kodning"
+@@ -2268 +2197,0 @@
+-#, fuzzy
+@@ -2271 +2200 @@
+-msgstr "Tecken med tvet_ydig bredd:"
++msgstr "Tecken med tvetydig bredd"
+@@ -2294 +2222,0 @@
+-#, fuzzy
+@@ -2297 +2225 @@
+-msgstr "Kontrollsekvens"
++msgstr "Escape-sekvens"
+@@ -2310 +2237,0 @@
+-#, fuzzy
+@@ -2313 +2240 @@
+-msgstr "S_täng terminal"
++msgstr "Stäng terminal"
+@@ -2317 +2243,0 @@
+-#, fuzzy
+@@ -2324 +2249,0 @@
+-#, fuzzy
+@@ -2327 +2252 @@
+-msgstr "Håll terminalen öppen"
++msgstr "Behåll terminalen öppen"
+@@ -2334 +2258,0 @@
+-#, fuzzy
+@@ -2337 +2261 @@
+-msgstr "Klona"
++msgstr "_Klona"
+@@ -2340 +2263,0 @@
+-#, fuzzy
+@@ -2343 +2266 @@
+-msgstr "Ta bort"
++msgstr "_Ta bort"
+@@ -2346 +2268,0 @@
+-#, fuzzy
+@@ -2349 +2271 @@
+-msgstr "Ange som standard"
++msgstr "_Ange som standard"
+@@ -2353 +2275 @@
+-msgstr "Inget kommando tillhandahölls, inte heller efterfrågades ett skal"
++msgstr "Varken kommando eller skal angavs"
+@@ -2361 +2283 @@
+-msgstr "Ett fel uppstod vid skapande av barnprocessen för denna terminal"
++msgstr "Det gick inte att skapa en barnprocess för den här terminalen"
+@@ -2371 +2293 @@
+-msgstr "Barnprocessen terminerades av signal %d."
++msgstr "Barnprocessen avbröts av signal %d."
+@@ -2375 +2297 @@
+-msgstr "Barnprocessen terminerades."
++msgstr "Barnprocessen avbröts."
+@@ -2382 +2303,0 @@
+-#, fuzzy
+@@ -2385 +2306 @@
+-msgstr "Aktiv_era snabbtangenter"
++msgstr "Aktivera snabbtangenter"
+@@ -2389 +2310 @@
+-msgstr "Ett fel uppstod vid visning av hjälpen"
++msgstr "Det gick inte att visa hjälpen"
+@@ -2447,2 +2368,2 @@
+-"or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+-"more details."
++"or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for"
++" more details."
+@@ -2451,2 +2372,2 @@
+-"NÅGON SOM HELST GARANTI, även utan underförstådd garanti om SÄLJBARHET eller "
+-"LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU General Public License för "
++"NÅGON SOM HELST GARANTI, även utan underförstådd garanti om SÄLJBARHET eller"
++" LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU General Public License för "
+@@ -2456 +2376,0 @@
+-#, fuzzy
+@@ -2458,8 +2378,8 @@
+-#| "You should have received a copy of the GNU General Public License along "
+-#| "with GNOME Terminal.  If not, see <http://www.gnu.org/licenses/>."
+-msgid ""
+-"You should have received a copy of the GNU General Public License along with "
+-"GNOME Terminal.  If not, see &lt;http://www.gnu.org/licenses/&gt;."
+-msgstr ""
+-"Du bör ha fått en kopia av GNU General Public License tillsammans med detta "
+-"program. Om inte, se <http://www.gnu.org/licenses/>."
++#| "You should have received a copy of the GNU General Public License along with"
++#| " GNOME Terminal.  If not, see <http://www.gnu.org/licenses/>."
++msgid ""
++"You should have received a copy of the GNU General Public License along with"
++" GNOME Terminal.  If not, see &lt;http://www.gnu.org/licenses/&gt;."
++msgstr ""
++"Du bör ha fått en kopia av GNU General Public License tillsammans med GNOME "
++"Terminal. Om inte, se &lt;http://www.gnu.org/licenses/&gt;."
+@@ -2509 +2429 @@
 -msgstr "_Öppna länk"
-+msgstr "Öpp_na länk"
- 
- #: src/terminal-window.cc:1736
- msgid "Copy _Link"
++msgstr "Öppna _länk"
+@@ -2544 +2463,0 @@
+-#, fuzzy
+@@ -2547 +2466 @@
+-msgstr "L_ämna helskärm"
++msgstr "Avsluta helskärmsläge"
+@@ -2574,2 +2493,2 @@
+-"Det finns fortfarande processer igång i några terminaler i detta fönster. "
+-"Stängning av fönstret kommer att döda dem alla."
++"Det kör fortfarande processer i vissa terminaler i det här fönstret. Om du "
++"stänger fönstret avslutas alla dessa processer."
+@@ -2579,5 +2498,5 @@
+-"There is still a process running in this terminal. Closing the terminal will "
+-"kill it."
+-msgstr ""
+-"Det finns fortfarande en process igång i denna terminal. Stängning av "
+-"terminalen kommer att döda den."
++"There is still a process running in this terminal. Closing the terminal will"
++" kill it."
++msgstr ""
++"Det kör fortfarande en process i den här terminalen. Om du stänger "
++"terminalen avslutas processen."
+@@ -2592 +2511 @@
+-msgstr "Misslyckades med att tolka argument: %s\n"
++msgstr "Kunde inte tolka argumenten: %s\n"
+@@ -2601,3 +2520,3 @@
+-#~ "Whether to have Alt+letter access keys for the menubar. They may "
+-#~ "interfere with some applications run inside the terminal so it’s possible "
+-#~ "to turn them off."
++#~ "Whether to have Alt+letter access keys for the menubar. They may interfere "
++#~ "with some applications run inside the terminal so it’s possible to turn them"
++#~ " off."
+@@ -2605,3 +2524,3 @@
+-#~ "Huruvida det ska finnas åtkomsttangenter med Alt+bokstav för menyraden. "
+-#~ "De kan kollidera med en del program som körs inuti terminalfönstret, och "
+-#~ "det är därför möjligt att inaktivera dem."
++#~ "Huruvida det ska finnas åtkomsttangenter med Alt+bokstav för menyraden. De "
++#~ "kan kollidera med en del program som körs inuti terminalfönstret, och det är"
++#~ " därför möjligt att inaktivera dem."
+@@ -2665,2 +2584 @@
+-#~ "_Aktivera menyåtkomsttangenter (exempelvis Alt+A för att öppna Arkiv-"
+-#~ "menyn)"
++#~ "_Aktivera menyåtkomsttangenter (exempelvis Alt+A för att öppna Arkiv-menyn)"
+@@ -2908,2 +2826 @@
+-#~ msgstr ""
+-#~ "Om true (sant), tillåt program i terminalfönstret att göra text fet."
++#~ msgstr "Om true (sant), tillåt program i terminalfönstret att göra text fet."
+@@ -2967,2 +2884,2 @@
+-#~ "Öppna den för tillfället öppna mappen i den terminalbaserade "
+-#~ "filhanteraren Midnight Commander"
++#~ "Öppna den för tillfället öppna mappen i den terminalbaserade filhanteraren "
++#~ "Midnight Commander"
+@@ -3083,2 +3000,2 @@
+-#~ "A subset of possible encodings are presented in the Encoding submenu. "
+-#~ "This is a list of encodings to appear there."
++#~ "A subset of possible encodings are presented in the Encoding submenu. This "
++#~ "is a list of encodings to appear there."
+@@ -3111,2 +3028 @@
+-#~ "applications and operating systems that expect different terminal "
+-#~ "behavior."
++#~ "applications and operating systems that expect different terminal behavior."
+@@ -3114,2 +3030,2 @@
+-#~ "<b>Notera:</b> Dessa alternativ kan orsaka att en del program inte beter "
+-#~ "sig som de ska. De finns endast här för att låta dig kunna använda vissa "
++#~ "<b>Notera:</b> Dessa alternativ kan orsaka att en del program inte beter sig"
++#~ " som de ska. De finns endast här för att låta dig kunna använda vissa "
