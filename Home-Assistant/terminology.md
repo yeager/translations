@@ -67,6 +67,16 @@ källtextens sammanhang.
 
 | Switcher sensor | Switcher-sensor | Switcher är produktnamn; bindestreck tydliggör sammansättningen före den svenska böjningen. |
 
+| electric current | strömstyrka | HotSpring-spa: värdena anges i ampere; skilj den elektriska storheten från allmän ström. |
+
+| apparent power | skenbar effekt | HotSpring-spa: mätvärdet anges i voltampere (VA), inte watt. |
+
+| alder pollen | alpollen | IRM KMI: pollen från al (trädet); svensk artbenämning. |
+
+| ash pollen | askpollen | IRM KMI: pollen från ask (trädet); svensk artbenämning. |
+
+| mugwort pollen | gråbopollen | IRM KMI: mugwort benämns gråbo på svenska. |
+
 ## Status
 
 De två molnstatusetiketterna, `scanner_jams`, fem räknaretiketter, tre
