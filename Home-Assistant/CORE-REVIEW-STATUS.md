@@ -4,11 +4,11 @@ Senast uppdaterad: 2026-11-28
 Källrevision: `1d07105b760c73093145526a51758938e87cc658`
 Lokalise-projekt: `130246255a974bd3b5e8a1.51616605`
 
-## Senaste batch: 74 177–74 296
+## Senaste batch: 74 297–74 416
 
-120 direkta LIFX-temaetiketter radgranskade; en stavningsrättning sparades och API-readback-verifierades. Verktygsgranskningen hittade och rättade en felaktig landsnamnspost i swedish-foss-terminology samt lade till `Chanukka` i Hunspell-sv. Se [2026-11-28-reviewed-core-74177-74296.md](2026-11-28-reviewed-core-74177-74296.md).
+120 direkta LIFX-temaetiketter radgranskade; alla befintliga översättningar verifierades mot källan, ingen Lokalise-text behövde ändras. Hunspell-sv uppdaterades med verifierade termer. Se [2026-11-28-reviewed-core-74297-74416.md](2026-11-28-reviewed-core-74297-74416.md).
 
-Nästa position: **74 297**. **3 360** positioner återstår av aktuell nyckelinventering; granskningen pågår.
+Nästa position: **74 417**. **3 240** positioner återstår av aktuell nyckelinventering; granskningen pågår.
 
 ## Öppna uppföljningar
 
@@ -17,5 +17,6 @@ Nästa position: **74 297**. **3 360** positioner återstår av aktuell nyckelin
 - Victron `start`-status saknar aktiv källtext; Alexa äldre nyckel behöver historikkontroll.
 - Govee `Marquee`-leverantörskontext; SOFAR-dubbla mjukstartsetiketter; Teslemetry saknad källtext.
 - LIFX `Holidays > Independence`: kontrollera om det avsedda scenamnet syftar på USA:s självständighetsdag innan eventuell precisering.
+- LIFX `Archives > Old Glory`: kontrollera om namnet avser amerikanska flaggan eller en namngiven färgscen.
 
-Senaste rapport: `2026-11-28-reviewed-core-74177-74296.md`.
+Senaste rapport: `2026-11-28-reviewed-core-74297-74416.md`.
