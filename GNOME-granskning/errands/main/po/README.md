@@ -1,7 +1,7 @@
 # Errands — gränssnitt (`main`)
 
 - GNOME Damned Lies: [Errands, svensk UI](https://l10n.gnome.org/vertimus/errands/main/po/sv/)
-- Senaste POT: `Errands.main.latest.pot` (SHA-256 `750fc1f713213dc35c2cf87bf040bc7fd103f4de91f670ed81a29b953b8f313e`)
+- Senaste POT: `Errands.main.latest.pot` (SHA-256 `e65e9f8eabfdde759590a8e0e43f8cb9cb3ccf9140b7439f5132b70b04a0f2b9`)
 - Granskad: 2026-11-25
 - Last-Translator: Daniel Nylander <gnome@danielnylander.se>
 
@@ -25,9 +25,12 @@ Radgranskade de tre saknade posterna och de tre fuzzy-posterna. TM-stöd bekräf
 
 ## Filer
 
+- [Aktuell PO från GNOME](errands.main.sv.current.po) — samma POT-nycklar som granskningen; statistik-API:t visar ännu 173/3/3 trots att aktivitetssidan verifierar sammanslagningen 179/0/0.
+- [Käll- och aktivitetsbevis](source-evidence.json)
+
 - [Senaste POT](Errands.main.latest.pot)
 - [Originalfil](errands.main.sv.original.po)
 - [Granskad fil](errands.main.sv.reviewed.po)
 - [Diff](errands.main.sv.review.diff)
 
-Uppladdad 2026-11-27 kl. 00:43 UTC med kommentaren ”Granskad och klar”. Aktivitetssidan bekräftar sammanslagning 179/0/0; statistik-API:t visar ännu äldre 173/3/3.
+Uppladdad 2026-11-27 kl. 00:43 UTC med kommentaren ”Granskad och klar”. Senaste POT hämtades igen 2026-11-28; samtliga 179 källnycklar matchar den granskade filen. Aktivitetssidan bekräftar sammanslagning 179/0/0; statistik-API:t visar ännu 173/3/3, vilket är dokumenterat separat. Ingen ny granskning eller inskickning gjordes.
