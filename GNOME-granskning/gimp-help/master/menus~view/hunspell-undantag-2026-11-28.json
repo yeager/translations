@@ -1,0 +1,63 @@
+{
+  "module": "gimp-help/master/menus~view",
+  "language": "sv_SE",
+  "review_date": "2026-11-28",
+  "exceptions": [
+    {
+      "token": "Deuteranopi, protanopi, tritanopi",
+      "reason": "Medicinska namn på typer av färgseendebrist."
+    },
+    {
+      "token": "alfakomponenten, cmyk-profil, färgseendenedsättning, grönseende, ljusstyrkeuppfattning, nan-färg, nan-värden, skärmkorrekturprofil",
+      "reason": "Korrekt svensk teknisk terminologi eller sammansättning i GIMP:s färghanteringsdokumentation."
+    },
+    {
+      "token": "ACES, EXR, MD5, PSO, RRT, sRGB, TIFF, Wayland",
+      "reason": "Standardiserade färgstandarder, filformat, kontrollsumma eller displayprotokoll."
+    },
+    {
+      "token": "`backtick`, `grave accent`",
+      "reason": "Namn på tangenttecken i en källmarkerad tangentbordsgenväg."
+    },
+    {
+      "token": "`@@image`-hashar och bildsökvägar",
+      "reason": "Källmetadata om illustrationer, inte användarvisad löptext; bevarade ordagrant."
+    },
+    {
+      "token": "`visa` i menyvägar",
+      "reason": "GIMP-menynamnet Visa, återkommer avsiktligt i separata instruktioner."
+    },
+    {
+      "token": "Academy Color Encoding Specification, ACES, Reference Rendering Transform, PSO Uncoated v3",
+      "reason": "Officiella egennamn på färgstandarder/profilen; behålls enligt terminologin."
+    },
+    {
+      "token": "backtick, grave accent, F11, Tab",
+      "reason": "Tangentnamn eller tangentbeteckningar i genvägsbeskrivningar."
+    },
+    {
+      "token": "NaN, divide, cong",
+      "reason": "Källmarkerade matematiska namn/entiteter i formeln; kod och uttryck ska inte stavningskorrigeras."
+    },
+    {
+      "token": "deuteranopi, protanopi, tritanopi, färgseendenedsättning, grönseende, ljusstyrkeuppfattning",
+      "reason": "Facktermer om färgseende och synfunktion; korrekt svensk form."
+    },
+    {
+      "token": "alfakomponenten, bildvyn, bildvyns, rutstil, skärmkorrekturprofil, synsystemets",
+      "reason": "Korrekt böjning eller sammansättning i den här tekniska kontexten."
+    },
+    {
+      "token": "v3, 0,39 %, 25 600 %",
+      "reason": "Versions- och numeriska värden, inte löptext."
+    }
+  ],
+  "checks": {
+    "msgfmt_check": "passed",
+    "msgfmt_check_format": "passed",
+    "msgcmp_latest_pot": "passed",
+    "l10n_lint": "0 errors; warnings manually reviewed",
+    "hunspell_sv_SE": "all remaining signals context-reviewed; technical terms and metadata documented"
+  },
+  "hunspell_method": "Hunspell sv_SE kördes mot användarsynlig text efter borttagning av DocBook-taggar, bildmetadata, URL:er, filnamn och hashvärden. Alla kvarvarande signaler kontrollerades i sitt PO-sammanhang."
+}
