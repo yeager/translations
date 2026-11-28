@@ -1,0 +1,2762 @@
+[
+  {
+    "position": 75737,
+    "key": "component::teslemetry::issues::energy_site_not_paired::fix_flow::error::not_resolved",
+    "en": "Teslemetry still appears to be unpaired. Please complete the pairing at {link}, then try again.",
+    "source_raw": "Teslemetry still appears to be unpaired. Please complete the pairing at {link}, then try again.",
+    "resolved_source": "Teslemetry still appears to be unpaired. Please complete the pairing at {link}, then try again.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Teslemetry verkar fortfarande inte vara parkopplad. Slutför parkopplingen på {link} och försök igen.",
+    "final_sv": "Teslemetry verkar fortfarande inte vara parkopplad. Slutför parkopplingen på {link} och försök igen.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-proposals.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-541-600.md"
+    ]
+  },
+  {
+    "position": 75738,
+    "key": "component::teslemetry::issues::energy_site_not_paired::fix_flow::step::confirm::description",
+    "en": "Home Assistant cannot send battery commands, such as dispatching battery power, to {site} because Teslemetry is not paired with its Powerwall system and local control is not set up. Teslemetry can only send these commands through the cloud once its key is verified on the Powerwall gateway.\n\n1. Open {link}.\n2. Follow the prompts to pair Teslemetry with the Powerwall system.\n3. Select **Submit** below to re-check.\n\nAlternatively, set up local control for {site}.",
+    "source_raw": "Home Assistant cannot send battery commands, such as dispatching battery power, to {site} because Teslemetry is not paired with its Powerwall system and local control is not set up. Teslemetry can only send these commands through the cloud once its key is verified on the Powerwall gateway.\n\n1. Open {link}.\n2. Follow the prompts to pair Teslemetry with the Powerwall system.\n3. Select **Submit** below to re-check.\n\nAlternatively, set up local control for {site}.",
+    "resolved_source": "Home Assistant cannot send battery commands, such as dispatching battery power, to {site} because Teslemetry is not paired with its Powerwall system and local control is not set up. Teslemetry can only send these commands through the cloud once its key is verified on the Powerwall gateway.\n\n1. Open {link}.\n2. Follow the prompts to pair Teslemetry with the Powerwall system.\n3. Select **Submit** below to re-check.\n\nAlternatively, set up local control for {site}.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Home Assistant kan inte skicka batterikommandon, till exempel för att styra batteriets effekt, till {site}. Teslemetry är inte parkopplad med Powerwall-systemet och lokal styrning har inte konfigurerats. Teslemetry kan skicka kommandona via molnet först när nyckeln har verifierats i Powerwall-gatewayen.\n\n1. Öppna {link}.\n2. Följ anvisningarna för att parkoppla Powerwall-systemet.\n3. Välj **Skicka** nedan för att kontrollera igen.\n\nDu kan också konfigurera lokal styrning för {site}.",
+    "final_sv": "Home Assistant kan inte skicka batterikommandon, till exempel för att styra batteriets effekt, till {site}. Teslemetry är inte parkopplad med Powerwall-systemet och lokal styrning har inte konfigurerats. Teslemetry kan skicka kommandona via molnet först när nyckeln har verifierats i Powerwall-gatewayen.\n\n1. Öppna {link}.\n2. Följ anvisningarna för att parkoppla Teslemetry med Powerwall-systemet.\n3. Välj **Skicka** nedan för att kontrollera parkopplingen igen.\n\nDu kan också konfigurera lokal styrning för {site}.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-prior-tm-differences.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-proposals.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-541-600.md"
+    ]
+  },
+  {
+    "position": 75739,
+    "key": "component::teslemetry::issues::energy_site_not_paired::fix_flow::step::confirm::title",
+    "en": "Pair Teslemetry with the Powerwall system for {site}",
+    "source_raw": "[%key:component::teslemetry::issues::energy_site_not_paired::title%]",
+    "resolved_source": "Pair Teslemetry with the Powerwall system for {site}",
+    "source_refs": [
+      "component::teslemetry::issues::energy_site_not_paired::title"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Parkoppla Teslemetry med Powerwall-systemet för {site}",
+    "final_sv": "Parkoppla Teslemetry med Powerwall-systemet för {site}",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-proposals.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-541-600.md"
+    ]
+  },
+  {
+    "position": 75740,
+    "key": "component::teslemetry::issues::energy_site_not_paired::title",
+    "en": "Pair Teslemetry with the Powerwall system for {site}",
+    "source_raw": "Pair Teslemetry with the Powerwall system for {site}",
+    "resolved_source": "Pair Teslemetry with the Powerwall system for {site}",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Parkoppla Teslemetry med Powerwall-systemet för {site}",
+    "final_sv": "Parkoppla Teslemetry med Powerwall-systemet för {site}",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reference-targets-empty-541-600-live.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-601-641.md"
+    ]
+  },
+  {
+    "position": 75741,
+    "key": "component::bosch_shc::entity::number::comfort_temperature::name",
+    "en": "Comfort temperature",
+    "source_raw": "Comfort temperature",
+    "resolved_source": "Comfort temperature",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Komforttemperatur",
+    "final_sv": "Komforttemperatur",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75742,
+    "key": "component::bosch_shc::entity::number::eco_temperature::name",
+    "en": "Eco temperature",
+    "source_raw": "Eco temperature",
+    "resolved_source": "Eco temperature",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Ekotemperatur",
+    "final_sv": "Ekotemperatur",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75743,
+    "key": "component::cloud::issues::remote_client_certificate_error::description",
+    "en": "Remote access through Home Assistant Link is off because the client certificate authority file ({ca_file}) could not be loaded. Fix the file or update the SSL peer certificate in the network settings, then restart Home Assistant.",
+    "source_raw": "Remote access through Home Assistant Link is off because the client certificate authority file ({ca_file}) could not be loaded. Fix the file or update the SSL peer certificate in the network settings, then restart Home Assistant.",
+    "resolved_source": "Remote access through Home Assistant Link is off because the client certificate authority file ({ca_file}) could not be loaded. Fix the file or update the SSL peer certificate in the network settings, then restart Home Assistant.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Fjärråtkomst via Home Assistant Link är avstängd eftersom certifikatutfärdarfilen för klientcertifikatet ({ca_file}) inte kunde läsas in. Åtgärda filen eller uppdatera motpartens SSL-certifikat i nätverksinställningarna och starta sedan om Home Assistant.",
+    "final_sv": "Fjärråtkomst via Home Assistant Link är avstängd eftersom certifikatutfärdarfilen för klientcertifikatet ({ca_file}) inte kunde läsas in. Åtgärda filen eller uppdatera motpartens SSL-certifikat i nätverksinställningarna och starta sedan om Home Assistant.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75744,
+    "key": "component::cloud::issues::remote_client_certificate_error::title",
+    "en": "Remote access client certificate authority could not be loaded",
+    "source_raw": "Remote access client certificate authority could not be loaded",
+    "resolved_source": "Remote access client certificate authority could not be loaded",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Det gick inte att läsa in certifikatutfärdarfilen för klientcertifikatet för fjärråtkomst",
+    "final_sv": "Det gick inte att läsa in certifikatutfärdarfilen för klientcertifikatet för fjärråtkomst",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75745,
+    "key": "component::bosch_shc::entity::button::reset_energy_summation::name",
+    "en": "Reset consumption value",
+    "source_raw": "Reset consumption value",
+    "resolved_source": "Reset consumption value",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Återställ förbrukningsvärde",
+    "final_sv": "Återställ förbrukningsvärde",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75746,
+    "key": "component::matter::entity::update::release_notes_messages::non_main_net_update_source",
+    "en": "Update provided by {update_source}. Installing this update is at your own risk and you may run into unexpected problems such as the need to re-add and factory reset your device.",
+    "source_raw": "Update provided by {update_source}. Installing this update is at your own risk and you may run into unexpected problems such as the need to re-add and factory reset your device.",
+    "resolved_source": "Update provided by {update_source}. Installing this update is at your own risk and you may run into unexpected problems such as the need to re-add and factory reset your device.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Uppdateringen tillhandahålls av {update_source}. Installera den på egen risk; oväntade problem kan uppstå, till exempel att du måste lägga till enheten igen och återställa den till fabriksinställningarna.",
+    "final_sv": "Uppdateringen tillhandahålls av {update_source}. Installera den på egen risk; oväntade problem kan uppstå, till exempel att du måste lägga till enheten igen och återställa den till fabriksinställningarna.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-301-360.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-301-360-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-301-360.json"
+    ]
+  },
+  {
+    "position": 75747,
+    "key": "component::matter::entity::update::release_notes_messages::update_duration",
+    "en": "The update process can take a while, especially for battery powered devices. Please be patient and wait until the update process is fully completed. The device may restart during the update process and be unavailable for several minutes.",
+    "source_raw": "The update process can take a while, especially for battery powered devices. Please be patient and wait until the update process is fully completed. The device may restart during the update process and be unavailable for several minutes.",
+    "resolved_source": "The update process can take a while, especially for battery powered devices. Please be patient and wait until the update process is fully completed. The device may restart during the update process and be unavailable for several minutes.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Uppdateringsprocessen kan ta ett tag, särskilt för batteridrivna enheter. Vänta tills processen har slutförts helt. Enheten kan starta om under uppdateringen och vara otillgänglig i flera minuter.",
+    "final_sv": "Uppdateringsprocessen kan ta ett tag, särskilt för batteridrivna enheter. Vänta tills processen har slutförts helt. Enheten kan starta om under uppdateringen och vara otillgänglig i flera minuter.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-301-360.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-301-360-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-301-360.json"
+    ]
+  },
+  {
+    "position": 75748,
+    "key": "component::smartyplants::entity::binary_sensor::needs_attention::name",
+    "en": "Needs attention",
+    "source_raw": "Needs attention",
+    "resolved_source": "Needs attention",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Kräver uppmärksamhet",
+    "final_sv": "Kräver uppmärksamhet",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-proposals.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-541-600.md"
+    ]
+  },
+  {
+    "position": 75749,
+    "key": "component::smartyplants::entity::sensor::last_reported::name",
+    "en": "Last reported",
+    "source_raw": "Last reported",
+    "resolved_source": "Last reported",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Senast rapporterad",
+    "final_sv": "Senast rapporterad",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-proposals.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-541-600.md"
+    ]
+  },
+  {
+    "position": 75750,
+    "key": "component::skoda::entity::climate::air_conditioning::name",
+    "en": "Air conditioning",
+    "source_raw": "Air conditioning",
+    "resolved_source": "Air conditioning",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Luftkonditionering",
+    "final_sv": "Luftkonditionering",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-proposals.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-541-600.md"
+    ]
+  },
+  {
+    "position": 75751,
+    "key": "component::skoda::exceptions::invalid_hvac_mode::message",
+    "en": "HVAC mode {hvac_mode} is not supported. Supported modes are: {hvac_modes}.",
+    "source_raw": "HVAC mode {hvac_mode} is not supported. Supported modes are: {hvac_modes}.",
+    "resolved_source": "HVAC mode {hvac_mode} is not supported. Supported modes are: {hvac_modes}.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Klimatläget {hvac_mode} stöds inte. Lägen som stöds: {hvac_modes}.",
+    "final_sv": "Klimatläget {hvac_mode} stöds inte. Lägen som stöds: {hvac_modes}.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-proposals.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-541-600.md"
+    ]
+  },
+  {
+    "position": 75752,
+    "key": "component::foreca::entity::sensor::aqi_co::name",
+    "en": "Carbon monoxide index",
+    "source_raw": "Carbon monoxide index",
+    "resolved_source": "Carbon monoxide index",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Kolmonoxidindex",
+    "final_sv": "Kolmonoxidindex",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75753,
+    "key": "component::foreca::entity::sensor::aqi_no2::name",
+    "en": "Nitrogen dioxide index",
+    "source_raw": "Nitrogen dioxide index",
+    "resolved_source": "Nitrogen dioxide index",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Kvävedioxidindex",
+    "final_sv": "Kvävedioxidindex",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75754,
+    "key": "component::foreca::entity::sensor::aqi_o3::name",
+    "en": "Ozone index",
+    "source_raw": "Ozone index",
+    "resolved_source": "Ozone index",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Ozonindex",
+    "final_sv": "Ozonindex",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75755,
+    "key": "component::foreca::entity::sensor::aqi_pm10::name",
+    "en": "PM10 index",
+    "source_raw": "PM10 index",
+    "resolved_source": "PM10 index",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "PM10-index",
+    "final_sv": "PM10-index",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75756,
+    "key": "component::foreca::entity::sensor::aqi_pm25::name",
+    "en": "PM2.5 index",
+    "source_raw": "PM2.5 index",
+    "resolved_source": "PM2.5 index",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "PM2,5-index",
+    "final_sv": "PM2,5-index",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75757,
+    "key": "component::foreca::entity::sensor::aqi_so2::name",
+    "en": "Sulphur dioxide index",
+    "source_raw": "Sulphur dioxide index",
+    "resolved_source": "Sulphur dioxide index",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Svaveldioxidindex",
+    "final_sv": "Svaveldioxidindex",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75758,
+    "key": "component::foreca::entity::sensor::dominant_pollutant::name",
+    "en": "Dominant pollutant",
+    "source_raw": "Dominant pollutant",
+    "resolved_source": "Dominant pollutant",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Dominerande luftförorening",
+    "final_sv": "Dominerande luftförorening",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75759,
+    "key": "component::foreca::entity::sensor::dominant_pollutant::state::carbon_monoxide",
+    "en": "Carbon monoxide",
+    "source_raw": "[%key:component::sensor::entity_component::carbon_monoxide::name%]",
+    "resolved_source": "Carbon monoxide",
+    "source_refs": [
+      "component::sensor::entity_component::carbon_monoxide::name"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Kolmonoxid",
+    "final_sv": "Kolmonoxid",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75760,
+    "key": "component::foreca::entity::sensor::dominant_pollutant::state::nitrogen_dioxide",
+    "en": "Nitrogen dioxide",
+    "source_raw": "[%key:component::sensor::entity_component::nitrogen_dioxide::name%]",
+    "resolved_source": "Nitrogen dioxide",
+    "source_refs": [
+      "component::sensor::entity_component::nitrogen_dioxide::name"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Kvävedioxid",
+    "final_sv": "Kvävedioxid",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75761,
+    "key": "component::foreca::entity::sensor::dominant_pollutant::state::ozone",
+    "en": "Ozone",
+    "source_raw": "[%key:component::sensor::entity_component::ozone::name%]",
+    "resolved_source": "Ozone",
+    "source_refs": [
+      "component::sensor::entity_component::ozone::name"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Ozon",
+    "final_sv": "Ozon",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75762,
+    "key": "component::foreca::entity::sensor::dominant_pollutant::state::pm10",
+    "en": "PM10",
+    "source_raw": "[%key:component::sensor::entity_component::pm10::name%]",
+    "resolved_source": "PM10",
+    "source_refs": [
+      "component::sensor::entity_component::pm10::name"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "PM10",
+    "final_sv": "PM10",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75763,
+    "key": "component::foreca::entity::sensor::dominant_pollutant::state::pm25",
+    "en": "PM2.5",
+    "source_raw": "[%key:component::sensor::entity_component::pm25::name%]",
+    "resolved_source": "PM2.5",
+    "source_refs": [
+      "component::sensor::entity_component::pm25::name"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "PM2,5",
+    "final_sv": "PM2,5",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75764,
+    "key": "component::foreca::entity::sensor::dominant_pollutant::state::sulphur_dioxide",
+    "en": "Sulphur dioxide",
+    "source_raw": "[%key:component::sensor::entity_component::sulphur_dioxide::name%]",
+    "resolved_source": "Sulphur dioxide",
+    "source_refs": [
+      "component::sensor::entity_component::sulphur_dioxide::name"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Svaveldioxid",
+    "final_sv": "Svaveldioxid",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75765,
+    "key": "component::foreca::exceptions::air_quality_update_error::message",
+    "en": "Error fetching the air quality.",
+    "source_raw": "Error fetching the air quality.",
+    "resolved_source": "Error fetching the air quality.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Det gick inte att hämta luftkvaliteten.",
+    "final_sv": "Det gick inte att hämta luftkvaliteten.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75766,
+    "key": "component::bosch_smart_camera::entity::light::camera_light::name",
+    "en": "Camera light",
+    "source_raw": "Camera light",
+    "resolved_source": "Camera light",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Kamerabelysning",
+    "final_sv": "Kamerabelysning",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75767,
+    "key": "component::bosch_smart_camera::exceptions::light_failed::message",
+    "en": "Unable to switch the camera light.",
+    "source_raw": "Unable to switch the camera light.",
+    "resolved_source": "Unable to switch the camera light.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Det gick inte att ändra kamerans belysning.",
+    "final_sv": "Det gick inte att ändra kamerans belysning.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75768,
+    "key": "component::fujitsu_infrared::config::abort::already_configured",
+    "en": "Device is already configured",
+    "source_raw": "[%key:common::config_flow::abort::already_configured_device%]",
+    "resolved_source": "Device is already configured",
+    "source_refs": [
+      "common::config_flow::abort::already_configured_device"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Enheten är redan konfigurerad",
+    "final_sv": "Enheten är redan konfigurerad",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75769,
+    "key": "component::fujitsu_infrared::config::abort::no_infrared_emitters",
+    "en": "No infrared emitter entities found. Please set up an infrared device first.",
+    "source_raw": "[%key:component::infrared::common::no_infrared_emitters%]",
+    "resolved_source": "No infrared emitter entities found. Please set up an infrared device first.",
+    "source_refs": [
+      "component::infrared::common::no_infrared_emitters"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Inga entiteter för infraröda sändare hittades. Konfigurera först en infraröd enhet.",
+    "final_sv": "Inga entiteter för infraröda sändare hittades. Konfigurera först en infraröd enhet.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75770,
+    "key": "component::fujitsu_infrared::config::error::no_hvac_modes",
+    "en": "Select at least one supported mode.",
+    "source_raw": "Select at least one supported mode.",
+    "resolved_source": "Select at least one supported mode.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Välj minst ett läge som stöds.",
+    "final_sv": "Välj minst ett läge som stöds.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75771,
+    "key": "component::fujitsu_infrared::config::step::user::data::hvac_modes",
+    "en": "Supported modes",
+    "source_raw": "Supported modes",
+    "resolved_source": "Supported modes",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Lägen som stöds",
+    "final_sv": "Lägen som stöds",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75772,
+    "key": "component::fujitsu_infrared::config::step::user::data::infrared_emitter_entity_id",
+    "en": "Infrared emitter",
+    "source_raw": "[%key:component::infrared::common::infrared_entity_id%]",
+    "resolved_source": "Infrared emitter",
+    "source_refs": [
+      "component::infrared::common::infrared_entity_id"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Infraröd sändare",
+    "final_sv": "Infraröd sändare",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75773,
+    "key": "component::fujitsu_infrared::config::step::user::data::infrared_receiver_entity_id",
+    "en": "Infrared receiver",
+    "source_raw": "[%key:component::infrared::common::infrared_receiver_entity_id%]",
+    "resolved_source": "Infrared receiver",
+    "source_refs": [
+      "component::infrared::common::infrared_receiver_entity_id"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Infraröd mottagare",
+    "final_sv": "Infraröd mottagare",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75774,
+    "key": "component::fujitsu_infrared::config::step::user::data::protocol",
+    "en": "Temperature steps",
+    "source_raw": "Temperature steps",
+    "resolved_source": "Temperature steps",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Temperatursteg",
+    "final_sv": "Temperatursteg",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75775,
+    "key": "component::fujitsu_infrared::config::step::user::data_description::hvac_modes",
+    "en": "Select the operating modes your AC unit supports. Heat is not available on all models.",
+    "source_raw": "Select the operating modes your AC unit supports. Heat is not available on all models.",
+    "resolved_source": "Select the operating modes your AC unit supports. Heat is not available on all models.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Välj de driftlägen som luftkonditioneringen stöder. Värme finns inte på alla modeller.",
+    "final_sv": "Välj de driftlägen som luftkonditioneringen stöder. Värme finns inte på alla modeller.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75776,
+    "key": "component::fujitsu_infrared::config::step::user::data_description::infrared_emitter_entity_id",
+    "en": "The infrared emitter entity to use for sending commands.",
+    "source_raw": "[%key:component::infrared::common::infrared_entity_id_description%]",
+    "resolved_source": "The infrared emitter entity to use for sending commands.",
+    "source_refs": [
+      "component::infrared::common::infrared_entity_id_description"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Entiteten för den infraröda sändaren som ska användas för att skicka kommandon.",
+    "final_sv": "Entiteten för den infraröda sändaren som ska användas för att skicka kommandon.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-prior-tm-differences.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75777,
+    "key": "component::fujitsu_infrared::config::step::user::data_description::infrared_receiver_entity_id",
+    "en": "Optional — allows the integration to update state when the physical remote is used.",
+    "source_raw": "Optional — allows the integration to update state when the physical remote is used.",
+    "resolved_source": "Optional — allows the integration to update state when the physical remote is used.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Valfritt – gör att integrationen kan uppdatera status när den fysiska fjärrkontrollen används.",
+    "final_sv": "Valfritt – gör att integrationen kan uppdatera status när den fysiska fjärrkontrollen används.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75778,
+    "key": "component::fujitsu_infrared::config::step::user::data_description::protocol",
+    "en": "Half degrees are only carried by the extended message format. Select it if your remote's display shows half degrees in Celsius, such as 24.5.",
+    "source_raw": "Half degrees are only carried by the extended message format. Select it if your remote's display shows half degrees in Celsius, such as 24.5.",
+    "resolved_source": "Half degrees are only carried by the extended message format. Select it if your remote's display shows half degrees in Celsius, such as 24.5.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Halva grader överförs bara med det utökade meddelandeformatet. Välj det om fjärrkontrollens skärm visar halva grader i Celsius, till exempel 24,5.",
+    "final_sv": "Halva grader överförs bara med det utökade meddelandeformatet. Välj det om fjärrkontrollens skärm visar halva grader i Celsius, till exempel 24,5.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75779,
+    "key": "component::fujitsu_infrared::config::step::user::description",
+    "en": "Select an infrared emitter and the modes your Fujitsu AC supports.",
+    "source_raw": "Select an infrared emitter and the modes your Fujitsu AC supports.",
+    "resolved_source": "Select an infrared emitter and the modes your Fujitsu AC supports.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Välj en infraröd sändare och de lägen som din Fujitsu-luftkonditionering stöder.",
+    "final_sv": "Välj en infraröd sändare och de lägen som din Fujitsu-luftkonditionering stöder.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75780,
+    "key": "component::fujitsu_infrared::config::step::user::title",
+    "en": "Set up Fujitsu AC",
+    "source_raw": "Set up Fujitsu AC",
+    "resolved_source": "Set up Fujitsu AC",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Konfigurera Fujitsu-luftkonditionering",
+    "final_sv": "Konfigurera Fujitsu-luftkonditionering",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75781,
+    "key": "component::fujitsu_infrared::entity::climate::fujitsu_ac::state_attributes::fan_mode::state::quiet",
+    "en": "Quiet",
+    "source_raw": "Quiet",
+    "resolved_source": "Quiet",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Tyst",
+    "final_sv": "Tyst",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75782,
+    "key": "component::fujitsu_infrared::selector::hvac_modes::options::cool",
+    "en": "Cool",
+    "source_raw": "Cool",
+    "resolved_source": "Cool",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Kyla",
+    "final_sv": "Kyla",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75783,
+    "key": "component::fujitsu_infrared::selector::hvac_modes::options::dry",
+    "en": "Dry",
+    "source_raw": "Dry",
+    "resolved_source": "Dry",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Avfuktning",
+    "final_sv": "Avfuktning",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75784,
+    "key": "component::fujitsu_infrared::selector::hvac_modes::options::fan_only",
+    "en": "Fan only",
+    "source_raw": "Fan only",
+    "resolved_source": "Fan only",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Endast fläkt",
+    "final_sv": "Endast fläkt",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75785,
+    "key": "component::fujitsu_infrared::selector::hvac_modes::options::heat",
+    "en": "Heat",
+    "source_raw": "Heat",
+    "resolved_source": "Heat",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Värme",
+    "final_sv": "Värme",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75786,
+    "key": "component::fujitsu_infrared::selector::hvac_modes::options::heat_cool",
+    "en": "Heat/Cool",
+    "source_raw": "Heat/Cool",
+    "resolved_source": "Heat/Cool",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Värme/kyla",
+    "final_sv": "Värme/kyla",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75787,
+    "key": "component::fujitsu_infrared::selector::protocol::options::extended",
+    "en": "Half degrees",
+    "source_raw": "Half degrees",
+    "resolved_source": "Half degrees",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Halva grader",
+    "final_sv": "Halvgradssteg",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-prior-tm-differences.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856.md",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75788,
+    "key": "component::fujitsu_infrared::selector::protocol::options::standard",
+    "en": "Whole degrees",
+    "source_raw": "Whole degrees",
+    "resolved_source": "Whole degrees",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Hela grader",
+    "final_sv": "Helgradssteg",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-prior-tm-differences.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856.md",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75789,
+    "key": "component::tellduslive::config::step::reauth_confirm::description",
+    "en": "Home Assistant can no longer access your Telldus Live account. Select **Submit** to authorize **Home Assistant** again.",
+    "source_raw": "Home Assistant can no longer access your Telldus Live account. Select **Submit** to authorize **Home Assistant** again.",
+    "resolved_source": "Home Assistant can no longer access your Telldus Live account. Select **Submit** to authorize **Home Assistant** again.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Home Assistant har inte längre åtkomst till ditt Telldus Live-konto. Välj **Skicka** för att auktorisera **Home Assistant** på nytt.",
+    "final_sv": "Home Assistant har inte längre åtkomst till ditt Telldus Live-konto. Välj **Skicka** för att auktorisera **Home Assistant** på nytt.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-proposals.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-541-600.md"
+    ]
+  },
+  {
+    "position": 75790,
+    "key": "component::tellduslive::config::step::reauth_confirm::title",
+    "en": "Authentication expired for {name}",
+    "source_raw": "[%key:common::config_flow::title::reauth%]",
+    "resolved_source": "Authentication expired for {name}",
+    "source_refs": [
+      "common::config_flow::title::reauth"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Autentiseringen har upphört att gälla för {name}",
+    "final_sv": "Autentiseringen har upphört att gälla för {name}",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-proposals.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-541-600.md"
+    ]
+  },
+  {
+    "position": 75791,
+    "key": "component::anova::config::step::reauth_confirm::data::password",
+    "en": "Password",
+    "source_raw": "[%key:common::config_flow::data::password%]",
+    "resolved_source": "Password",
+    "source_refs": [
+      "common::config_flow::data::password"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Lösenord",
+    "final_sv": "Lösenord",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-001-120.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-001-120-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-001-120.json"
+    ]
+  },
+  {
+    "position": 75792,
+    "key": "component::anova::config::step::reauth_confirm::data_description::password",
+    "en": "The password of your Anova account.",
+    "source_raw": "The password of your Anova account.",
+    "resolved_source": "The password of your Anova account.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Lösenordet för ditt Anova-konto.",
+    "final_sv": "Lösenordet för ditt Anova-konto.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-001-120.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-001-120-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-001-120.json"
+    ]
+  },
+  {
+    "position": 75793,
+    "key": "component::anova::config::step::reauth_confirm::description",
+    "en": "The password for {username} is no longer valid. Enter the current password.",
+    "source_raw": "The password for {username} is no longer valid. Enter the current password.",
+    "resolved_source": "The password for {username} is no longer valid. Enter the current password.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Lösenordet för {username} är inte längre giltigt. Ange det aktuella lösenordet.",
+    "final_sv": "Lösenordet för {username} är inte längre giltigt. Ange det aktuella lösenordet.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-001-120.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-001-120-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-001-120.json"
+    ]
+  },
+  {
+    "position": 75794,
+    "key": "component::anova::config::step::reauth_confirm::title",
+    "en": "Authentication expired for {name}",
+    "source_raw": "[%key:common::config_flow::title::reauth%]",
+    "resolved_source": "Authentication expired for {name}",
+    "source_refs": [
+      "common::config_flow::title::reauth"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Autentiseringen har upphört att gälla för {name}",
+    "final_sv": "Autentiseringen har upphört att gälla för {name}",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-001-120.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-empty-target-reference-corrections.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-001-120-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-001-120.json"
+    ]
+  },
+  {
+    "position": 75795,
+    "key": "component::control4::config::abort::wrong_account",
+    "en": "The new credentials belong to a different Control4 controller",
+    "source_raw": "The new credentials belong to a different Control4 controller",
+    "resolved_source": "The new credentials belong to a different Control4 controller",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "De nya inloggningsuppgifterna tillhör en annan Control4-styrenhet",
+    "final_sv": "De nya inloggningsuppgifterna tillhör en annan Control4-styrenhet",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75796,
+    "key": "component::control4::config::step::reauth_confirm::data::password",
+    "en": "Password",
+    "source_raw": "[%key:common::config_flow::data::password%]",
+    "resolved_source": "Password",
+    "source_refs": [
+      "common::config_flow::data::password"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Lösenord",
+    "final_sv": "Lösenord",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75797,
+    "key": "component::control4::config::step::reauth_confirm::data_description::password",
+    "en": "The password of your Control4 account.",
+    "source_raw": "The password of your Control4 account.",
+    "resolved_source": "The password of your Control4 account.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Lösenordet till ditt Control4-konto.",
+    "final_sv": "Lösenordet till ditt Control4-konto.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75798,
+    "key": "component::control4::config::step::reauth_confirm::description",
+    "en": "Enter the new password for the Control4 account {username}.",
+    "source_raw": "Enter the new password for the Control4 account {username}.",
+    "resolved_source": "Enter the new password for the Control4 account {username}.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Ange det nya lösenordet till Control4-kontot {username}.",
+    "final_sv": "Ange det nya lösenordet till Control4-kontot {username}.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75799,
+    "key": "component::control4::config::step::reauth_confirm::title",
+    "en": "Authentication expired for {name}",
+    "source_raw": "[%key:common::config_flow::title::reauth%]",
+    "resolved_source": "Authentication expired for {name}",
+    "source_refs": [
+      "common::config_flow::title::reauth"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Autentiseringen har upphört att gälla för {name}",
+    "final_sv": "Autentiseringen har upphört att gälla för {name}",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75800,
+    "key": "component::elkm1::config::step::reauth_confirm::data::password",
+    "en": "Password",
+    "source_raw": "[%key:common::config_flow::data::password%]",
+    "resolved_source": "Password",
+    "source_refs": [
+      "common::config_flow::data::password"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Lösenord",
+    "final_sv": "Lösenord",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75801,
+    "key": "component::elkm1::config::step::reauth_confirm::data::username",
+    "en": "Username",
+    "source_raw": "[%key:common::config_flow::data::username%]",
+    "resolved_source": "Username",
+    "source_refs": [
+      "common::config_flow::data::username"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Användarnamn",
+    "final_sv": "Användarnamn",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75802,
+    "key": "component::elkm1::config::step::reauth_confirm::data_description::password",
+    "en": "The password of the Elk-M1 user.",
+    "source_raw": "The password of the Elk-M1 user.",
+    "resolved_source": "The password of the Elk-M1 user.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Lösenordet för Elk-M1-användaren.",
+    "final_sv": "Lösenordet för Elk-M1-användaren.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75803,
+    "key": "component::elkm1::config::step::reauth_confirm::data_description::username",
+    "en": "The name of the Elk-M1 user.",
+    "source_raw": "The name of the Elk-M1 user.",
+    "resolved_source": "The name of the Elk-M1 user.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Namnet på Elk-M1-användaren.",
+    "final_sv": "Namnet på Elk-M1-användaren.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75804,
+    "key": "component::elkm1::config::step::reauth_confirm::description",
+    "en": "The Elk-M1 panel rejected the credentials. Enter the current username and password.",
+    "source_raw": "The Elk-M1 panel rejected the credentials. Enter the current username and password.",
+    "resolved_source": "The Elk-M1 panel rejected the credentials. Enter the current username and password.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Elk-M1-centralapparaten avvisade inloggningsuppgifterna. Ange det aktuella användarnamnet och lösenordet.",
+    "final_sv": "Elk-M1-centralapparaten avvisade inloggningsuppgifterna. Ange det aktuella användarnamnet och lösenordet.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75805,
+    "key": "component::elkm1::config::step::reauth_confirm::title",
+    "en": "Authentication expired for {name}",
+    "source_raw": "[%key:common::config_flow::title::reauth%]",
+    "resolved_source": "Authentication expired for {name}",
+    "source_refs": [
+      "common::config_flow::title::reauth"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Autentiseringen har upphört att gälla för {name}",
+    "final_sv": "Autentiseringen har upphört att gälla för {name}",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75806,
+    "key": "component::omnilogic::config::step::reauth_confirm::data::password",
+    "en": "Password",
+    "source_raw": "[%key:common::config_flow::data::password%]",
+    "resolved_source": "Password",
+    "source_refs": [
+      "common::config_flow::data::password"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Lösenord",
+    "final_sv": "Lösenord",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-proposals.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-541-600.md"
+    ]
+  },
+  {
+    "position": 75807,
+    "key": "component::omnilogic::config::step::reauth_confirm::data_description::password",
+    "en": "The new password of your Hayward OmniLogic account.",
+    "source_raw": "The new password of your Hayward OmniLogic account.",
+    "resolved_source": "The new password of your Hayward OmniLogic account.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Det nya lösenordet för ditt Hayward OmniLogic-konto.",
+    "final_sv": "Det nya lösenordet för ditt Hayward OmniLogic-konto.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-proposals.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-541-600.md"
+    ]
+  },
+  {
+    "position": 75808,
+    "key": "component::omnilogic::config::step::reauth_confirm::description",
+    "en": "The password for {username} is no longer valid. Enter the new password.",
+    "source_raw": "The password for {username} is no longer valid. Enter the new password.",
+    "resolved_source": "The password for {username} is no longer valid. Enter the new password.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Lösenordet för {username} är inte längre giltigt. Ange det nya lösenordet.",
+    "final_sv": "Lösenordet för {username} är inte längre giltigt. Ange det nya lösenordet.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-proposals.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-541-600.md"
+    ]
+  },
+  {
+    "position": 75809,
+    "key": "component::omnilogic::config::step::reauth_confirm::title",
+    "en": "Authentication expired for {name}",
+    "source_raw": "[%key:common::config_flow::title::reauth%]",
+    "resolved_source": "Authentication expired for {name}",
+    "source_refs": [
+      "common::config_flow::title::reauth"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Autentiseringen har upphört att gälla för {name}",
+    "final_sv": "Autentiseringen har upphört att gälla för {name}",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-proposals.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-541-600.md"
+    ]
+  },
+  {
+    "position": 75810,
+    "key": "component::weatherkit::config::step::reauth_confirm::data::key_id",
+    "en": "Key ID",
+    "source_raw": "[%key:component::weatherkit::config::step::user::data::key_id%]",
+    "resolved_source": "Key ID",
+    "source_refs": [
+      "component::weatherkit::config::step::user::data::key_id"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Nyckel-ID",
+    "final_sv": "Nyckel-ID",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-601-641.md"
+    ]
+  },
+  {
+    "position": 75811,
+    "key": "component::weatherkit::config::step::reauth_confirm::data::key_pem",
+    "en": "Private key (.p8)",
+    "source_raw": "[%key:component::weatherkit::config::step::user::data::key_pem%]",
+    "resolved_source": "Private key (.p8)",
+    "source_refs": [
+      "component::weatherkit::config::step::user::data::key_pem"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Privat nyckel (.p8)",
+    "final_sv": "Privat nyckel (.p8)",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-601-641.md"
+    ]
+  },
+  {
+    "position": 75812,
+    "key": "component::weatherkit::config::step::reauth_confirm::data_description::key_id",
+    "en": "The ID of the new WeatherKit key.",
+    "source_raw": "The ID of the new WeatherKit key.",
+    "resolved_source": "The ID of the new WeatherKit key.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "ID:t för den nya WeatherKit-nyckeln.",
+    "final_sv": "ID:t för den nya WeatherKit-nyckeln.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-601-641.md"
+    ]
+  },
+  {
+    "position": 75813,
+    "key": "component::weatherkit::config::step::reauth_confirm::data_description::key_pem",
+    "en": "The contents of the new private key file (.p8).",
+    "source_raw": "The contents of the new private key file (.p8).",
+    "resolved_source": "The contents of the new private key file (.p8).",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Innehållet i den nya privata nyckelfilen (.p8).",
+    "final_sv": "Innehållet i den nya privata nyckelfilen (.p8).",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-601-641.md"
+    ]
+  },
+  {
+    "position": 75814,
+    "key": "component::weatherkit::config::step::reauth_confirm::description",
+    "en": "Your WeatherKit key is no longer valid. Enter a new key ID and private key.",
+    "source_raw": "Your WeatherKit key is no longer valid. Enter a new key ID and private key.",
+    "resolved_source": "Your WeatherKit key is no longer valid. Enter a new key ID and private key.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "WeatherKit-nyckeln är inte längre giltig. Ange ett nytt nyckel-ID och en ny privat nyckel.",
+    "final_sv": "WeatherKit-nyckeln är inte längre giltig. Ange ett nytt nyckel-ID och en ny privat nyckel.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-601-641.md"
+    ]
+  },
+  {
+    "position": 75815,
+    "key": "component::weatherkit::config::step::reauth_confirm::title",
+    "en": "Authentication expired for {name}",
+    "source_raw": "[%key:common::config_flow::title::reauth%]",
+    "resolved_source": "Authentication expired for {name}",
+    "source_refs": [
+      "common::config_flow::title::reauth"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Autentiseringen har upphört att gälla för {name}",
+    "final_sv": "Autentiseringen har upphört att gälla för {name}",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-601-641.md"
+    ]
+  },
+  {
+    "position": 75816,
+    "key": "component::ecoforest::config::abort::wrong_device",
+    "en": "The credentials belong to a different Ecoforest device than the one this entry is set up for.",
+    "source_raw": "The credentials belong to a different Ecoforest device than the one this entry is set up for.",
+    "resolved_source": "The credentials belong to a different Ecoforest device than the one this entry is set up for.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Inloggningsuppgifterna tillhör en annan Ecoforest-enhet än den som den här konfigurationen har ställts in för.",
+    "final_sv": "Inloggningsuppgifterna tillhör en annan Ecoforest-enhet än den som den här konfigurationen avser.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-prior-tm-differences.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856.md",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75817,
+    "key": "component::ecoforest::config::step::reauth_confirm::data::password",
+    "en": "Password",
+    "source_raw": "[%key:common::config_flow::data::password%]",
+    "resolved_source": "Password",
+    "source_refs": [
+      "common::config_flow::data::password"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Lösenord",
+    "final_sv": "Lösenord",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75818,
+    "key": "component::ecoforest::config::step::reauth_confirm::data::username",
+    "en": "Username",
+    "source_raw": "[%key:common::config_flow::data::username%]",
+    "resolved_source": "Username",
+    "source_refs": [
+      "common::config_flow::data::username"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Användarnamn",
+    "final_sv": "Användarnamn",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75819,
+    "key": "component::ecoforest::config::step::reauth_confirm::data_description::password",
+    "en": "The password of your Ecoforest device.",
+    "source_raw": "[%key:component::ecoforest::config::step::user::data_description::password%]",
+    "resolved_source": "The password of your Ecoforest device.",
+    "source_refs": [
+      "component::ecoforest::config::step::user::data_description::password"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Lösenordet till din Ecoforest-enhet.",
+    "final_sv": "Lösenordet för din Ecoforest-enhet.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-prior-tm-differences.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856.md",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75820,
+    "key": "component::ecoforest::config::step::reauth_confirm::data_description::username",
+    "en": "The username of your Ecoforest device.",
+    "source_raw": "[%key:component::ecoforest::config::step::user::data_description::username%]",
+    "resolved_source": "The username of your Ecoforest device.",
+    "source_refs": [
+      "component::ecoforest::config::step::user::data_description::username"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Användarnamnet till din Ecoforest-enhet.",
+    "final_sv": "Användarnamnet för din Ecoforest-enhet.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-prior-tm-differences.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856.md",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75821,
+    "key": "component::ecoforest::config::step::reauth_confirm::description",
+    "en": "Authentication on the Ecoforest device at {host} failed. Enter the credentials again.",
+    "source_raw": "Authentication on the Ecoforest device at {host} failed. Enter the credentials again.",
+    "resolved_source": "Authentication on the Ecoforest device at {host} failed. Enter the credentials again.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Autentiseringen på Ecoforest-enheten på {host} misslyckades. Ange inloggningsuppgifterna igen.",
+    "final_sv": "Det gick inte att autentisera mot Ecoforest-enheten på {host}. Ange inloggningsuppgifterna igen.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-prior-tm-differences.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856.md",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75822,
+    "key": "component::ecoforest::config::step::reauth_confirm::title",
+    "en": "Authentication expired for {name}",
+    "source_raw": "[%key:common::config_flow::title::reauth%]",
+    "resolved_source": "Authentication expired for {name}",
+    "source_refs": [
+      "common::config_flow::title::reauth"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Autentiseringen har upphört att gälla för {name}",
+    "final_sv": "Autentiseringen har upphört att gälla för {name}",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75823,
+    "key": "component::ecoforest::config::step::user::data_description::password",
+    "en": "The password of your Ecoforest device.",
+    "source_raw": "The password of your Ecoforest device.",
+    "resolved_source": "The password of your Ecoforest device.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Lösenordet till din Ecoforest-enhet.",
+    "final_sv": "Lösenordet för din Ecoforest-enhet.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-prior-tm-differences.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856.md",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75824,
+    "key": "component::ecoforest::config::step::user::data_description::username",
+    "en": "The username of your Ecoforest device.",
+    "source_raw": "The username of your Ecoforest device.",
+    "resolved_source": "The username of your Ecoforest device.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Användarnamnet till din Ecoforest-enhet.",
+    "final_sv": "Användarnamnet för din Ecoforest-enhet.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-prior-tm-differences.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856.md",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75825,
+    "key": "component::elvia::config::abort::wrong_account",
+    "en": "The API token does not give access to the metering point of this entry.",
+    "source_raw": "The API token does not give access to the metering point of this entry.",
+    "resolved_source": "The API token does not give access to the metering point of this entry.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "API-tokenen ger inte åtkomst till mätpunkten för den här konfigurationen.",
+    "final_sv": "API-tokenen ger inte åtkomst till mätpunkten för den här konfigurationen.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75826,
+    "key": "component::elvia::config::step::reauth_confirm::data::api_token",
+    "en": "API token",
+    "source_raw": "[%key:common::config_flow::data::api_token%]",
+    "resolved_source": "API token",
+    "source_refs": [
+      "common::config_flow::data::api_token"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "API-token",
+    "final_sv": "API-token",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75827,
+    "key": "component::elvia::config::step::reauth_confirm::data_description::api_token",
+    "en": "The new meter value API token from Elvia.",
+    "source_raw": "The new meter value API token from Elvia.",
+    "resolved_source": "The new meter value API token from Elvia.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Den nya API-tokenen för mätvärden från Elvia.",
+    "final_sv": "Den nya API-tokenen för mätvärden från Elvia.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75828,
+    "key": "component::elvia::config::step::reauth_confirm::description",
+    "en": "The Elvia API token is no longer valid. Enter a new one.",
+    "source_raw": "The Elvia API token is no longer valid. Enter a new one.",
+    "resolved_source": "The Elvia API token is no longer valid. Enter a new one.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Elvias API-token är inte längre giltig. Ange en ny.",
+    "final_sv": "Elvias API-token är inte längre giltig. Ange en ny.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-121-180.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-121-180.json"
+    ]
+  },
+  {
+    "position": 75829,
+    "key": "component::elvia::config::step::reauth_confirm::title",
+    "en": "Authentication expired for {name}",
+    "source_raw": "[%key:common::config_flow::title::reauth%]",
+    "resolved_source": "Authentication expired for {name}",
+    "source_refs": [
+      "common::config_flow::title::reauth"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Autentiseringen har upphört att gälla för {name}",
+    "final_sv": "Autentiseringen har upphört att gälla för {name}",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75830,
+    "key": "component::elvia::exceptions::invalid_auth::message",
+    "en": "Authentication with Elvia failed",
+    "source_raw": "Authentication with Elvia failed",
+    "resolved_source": "Authentication with Elvia failed",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Autentiseringen med Elvia misslyckades.",
+    "final_sv": "Autentiseringen med Elvia misslyckades.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-181-240.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-181-240.json"
+    ]
+  },
+  {
+    "position": 75831,
+    "key": "component::azure_data_explorer::config::step::reauth_confirm::data::authority_id",
+    "en": "Authority ID",
+    "source_raw": "[%key:component::azure_data_explorer::config::step::user::data::authority_id%]",
+    "resolved_source": "Authority ID",
+    "source_refs": [
+      "component::azure_data_explorer::config::step::user::data::authority_id"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Klientorganisations-ID",
+    "final_sv": "Klientorganisations-ID",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-001-120.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-empty-target-reference-corrections.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-001-120-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-001-120.json"
+    ]
+  },
+  {
+    "position": 75832,
+    "key": "component::azure_data_explorer::config::step::reauth_confirm::data::client_id",
+    "en": "Client ID",
+    "source_raw": "[%key:component::azure_data_explorer::config::step::user::data::client_id%]",
+    "resolved_source": "Client ID",
+    "source_refs": [
+      "component::azure_data_explorer::config::step::user::data::client_id"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Klient-ID",
+    "final_sv": "Klient-ID",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-001-120.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-001-120-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-001-120.json"
+    ]
+  },
+  {
+    "position": 75833,
+    "key": "component::azure_data_explorer::config::step::reauth_confirm::data::client_secret",
+    "en": "Client secret",
+    "source_raw": "[%key:component::azure_data_explorer::config::step::user::data::client_secret%]",
+    "resolved_source": "Client secret",
+    "source_refs": [
+      "component::azure_data_explorer::config::step::user::data::client_secret"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Klienthemlighet",
+    "final_sv": "Klienthemlighet",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-001-120.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-001-120-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-001-120.json"
+    ]
+  },
+  {
+    "position": 75834,
+    "key": "component::azure_data_explorer::config::step::reauth_confirm::data_description::authority_id",
+    "en": "In Azure portal this is also known as Directory (tenant) ID",
+    "source_raw": "[%key:component::azure_data_explorer::config::step::user::data_description::authority_id%]",
+    "resolved_source": "In Azure portal this is also known as Directory (tenant) ID",
+    "source_refs": [
+      "component::azure_data_explorer::config::step::user::data_description::authority_id"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "I Azure-portalen kallas detta även för katalog-ID (klientorganisations-ID)",
+    "final_sv": "I Azure-portalen kallas detta även för katalog-ID (klientorganisations-ID)",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-001-120.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-empty-target-reference-corrections.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-001-120-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-001-120.json"
+    ]
+  },
+  {
+    "position": 75835,
+    "key": "component::azure_data_explorer::config::step::reauth_confirm::description",
+    "en": "The app registration credentials for Azure Data Explorer are no longer valid. Enter new credentials.",
+    "source_raw": "The app registration credentials for Azure Data Explorer are no longer valid. Enter new credentials.",
+    "resolved_source": "The app registration credentials for Azure Data Explorer are no longer valid. Enter new credentials.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Autentiseringsuppgifterna för appregistreringen i Azure Data Explorer är inte längre giltiga. Ange nya autentiseringsuppgifter.",
+    "final_sv": "Autentiseringsuppgifterna för appregistreringen i Azure Data Explorer är inte längre giltiga. Ange nya autentiseringsuppgifter.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-001-120.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-001-120-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-001-120.json"
+    ]
+  },
+  {
+    "position": 75836,
+    "key": "component::azure_data_explorer::config::step::reauth_confirm::title",
+    "en": "Authentication expired for {name}",
+    "source_raw": "[%key:common::config_flow::title::reauth%]",
+    "resolved_source": "Authentication expired for {name}",
+    "source_refs": [
+      "common::config_flow::title::reauth"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Autentiseringen har upphört att gälla för {name}",
+    "final_sv": "Autentiseringen har upphört att gälla för {name}",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-001-120.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-empty-target-reference-corrections.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-001-120-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-001-120.json"
+    ]
+  },
+  {
+    "position": 75837,
+    "key": "component::poolsense::config::step::reauth_confirm::data::password",
+    "en": "Password",
+    "source_raw": "[%key:common::config_flow::data::password%]",
+    "resolved_source": "Password",
+    "source_refs": [
+      "common::config_flow::data::password"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Lösenord",
+    "final_sv": "Lösenord",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-proposals.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-541-600.md"
+    ]
+  },
+  {
+    "position": 75838,
+    "key": "component::poolsense::config::step::reauth_confirm::data_description::password",
+    "en": "The new password of your PoolSense account.",
+    "source_raw": "The new password of your PoolSense account.",
+    "resolved_source": "The new password of your PoolSense account.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Det nya lösenordet för ditt PoolSense-konto.",
+    "final_sv": "Det nya lösenordet för ditt PoolSense-konto.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-proposals.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-541-600.md"
+    ]
+  },
+  {
+    "position": 75839,
+    "key": "component::poolsense::config::step::reauth_confirm::description",
+    "en": "Enter the new password for {email}.",
+    "source_raw": "Enter the new password for {email}.",
+    "resolved_source": "Enter the new password for {email}.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Ange det nya lösenordet för {email}.",
+    "final_sv": "Ange det nya lösenordet för {email}.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-proposals.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-541-600.md"
+    ]
+  },
+  {
+    "position": 75840,
+    "key": "component::poolsense::config::step::reauth_confirm::title",
+    "en": "Authentication expired for {name}",
+    "source_raw": "[%key:common::config_flow::title::reauth%]",
+    "resolved_source": "Authentication expired for {name}",
+    "source_refs": [
+      "common::config_flow::title::reauth"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Autentiseringen har upphört att gälla för {name}",
+    "final_sv": "Autentiseringen har upphört att gälla för {name}",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-proposals.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-541-600.md"
+    ]
+  },
+  {
+    "position": 75841,
+    "key": "component::huisbaasje::config::abort::wrong_account",
+    "en": "The credentials belong to a different EnergyFlip account than the one configured.",
+    "source_raw": "The credentials belong to a different EnergyFlip account than the one configured.",
+    "resolved_source": "The credentials belong to a different EnergyFlip account than the one configured.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Inloggningsuppgifterna tillhör ett annat EnergyFlip-konto än det som har konfigurerats.",
+    "final_sv": "Inloggningsuppgifterna tillhör ett annat EnergyFlip-konto än det som har konfigurerats.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-241-300.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-241-300-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-241-300.json"
+    ]
+  },
+  {
+    "position": 75842,
+    "key": "component::huisbaasje::config::step::reauth_confirm::data::password",
+    "en": "Password",
+    "source_raw": "[%key:common::config_flow::data::password%]",
+    "resolved_source": "Password",
+    "source_refs": [
+      "common::config_flow::data::password"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Lösenord",
+    "final_sv": "Lösenord",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-241-300.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-241-300-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-241-300.json"
+    ]
+  },
+  {
+    "position": 75843,
+    "key": "component::huisbaasje::config::step::reauth_confirm::data_description::password",
+    "en": "The current password of your EnergyFlip account.",
+    "source_raw": "The current password of your EnergyFlip account.",
+    "resolved_source": "The current password of your EnergyFlip account.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Det aktuella lösenordet till ditt EnergyFlip-konto.",
+    "final_sv": "Det aktuella lösenordet till ditt EnergyFlip-konto.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-241-300.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-241-300-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-241-300.json"
+    ]
+  },
+  {
+    "position": 75844,
+    "key": "component::huisbaasje::config::step::reauth_confirm::description",
+    "en": "The password for {username} is no longer valid. Enter the current password.",
+    "source_raw": "The password for {username} is no longer valid. Enter the current password.",
+    "resolved_source": "The password for {username} is no longer valid. Enter the current password.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Lösenordet för {username} är inte längre giltigt. Ange det aktuella lösenordet.",
+    "final_sv": "Lösenordet för {username} är inte längre giltigt. Ange det aktuella lösenordet.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-241-300.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-241-300-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-241-300.json"
+    ]
+  },
+  {
+    "position": 75845,
+    "key": "component::huisbaasje::config::step::reauth_confirm::title",
+    "en": "Authentication expired for {name}",
+    "source_raw": "[%key:common::config_flow::title::reauth%]",
+    "resolved_source": "Authentication expired for {name}",
+    "source_refs": [
+      "common::config_flow::title::reauth"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Autentiseringen har upphört att gälla för {name}",
+    "final_sv": "Autentiseringen har upphört att gälla för {name}",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-19-granskning/granskning-empty-targets-241-300.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-241-300-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-241-300.json"
+    ]
+  },
+  {
+    "position": 75846,
+    "key": "component::upcloud::config::step::reauth_confirm::data::password",
+    "en": "Password",
+    "source_raw": "[%key:common::config_flow::data::password%]",
+    "resolved_source": "Password",
+    "source_refs": [
+      "common::config_flow::data::password"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Lösenord",
+    "final_sv": "Lösenord",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-601-641.md"
+    ]
+  },
+  {
+    "position": 75847,
+    "key": "component::upcloud::config::step::reauth_confirm::data_description::password",
+    "en": "The new password of the UpCloud API user.",
+    "source_raw": "The new password of the UpCloud API user.",
+    "resolved_source": "The new password of the UpCloud API user.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Det nya lösenordet för UpCloud API-användaren.",
+    "final_sv": "Det nya lösenordet för UpCloud API-användaren.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-601-641.md"
+    ]
+  },
+  {
+    "position": 75848,
+    "key": "component::upcloud::config::step::reauth_confirm::description",
+    "en": "The password for {username} is no longer valid.",
+    "source_raw": "The password for {username} is no longer valid.",
+    "resolved_source": "The password for {username} is no longer valid.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Lösenordet för {username} är inte längre giltigt.",
+    "final_sv": "Lösenordet för {username} är inte längre giltigt.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-601-641.md"
+    ]
+  },
+  {
+    "position": 75849,
+    "key": "component::upcloud::config::step::reauth_confirm::title",
+    "en": "Authentication expired for {name}",
+    "source_raw": "[%key:common::config_flow::title::reauth%]",
+    "resolved_source": "Authentication expired for {name}",
+    "source_refs": [
+      "common::config_flow::title::reauth"
+    ],
+    "source_status": "reference-unresolved",
+    "previous_sv": "Autentiseringen har upphört att gälla för {name}",
+    "final_sv": "Autentiseringen har upphört att gälla för {name}",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-601-641.md"
+    ]
+  },
+  {
+    "position": 75850,
+    "key": "component::portainer::entity::button::pull_image::name",
+    "en": "Pull image",
+    "source_raw": "Pull image",
+    "resolved_source": "Pull image",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Hämta avbildning",
+    "final_sv": "Hämta avbildning",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-proposals.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-541-600.md"
+    ]
+  },
+  {
+    "position": 75851,
+    "key": "component::portainer::exceptions::image_pull_failed::message",
+    "en": "Failed to pull image {image}. If the image is in a private registry, recreate the container instead.",
+    "source_raw": "Failed to pull image {image}. If the image is in a private registry, recreate the container instead.",
+    "resolved_source": "Failed to pull image {image}. If the image is in a private registry, recreate the container instead.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Det gick inte att hämta avbildningen {image}. Om avbildningen finns i ett privat avbildningsregister måste du återskapa containern i stället.",
+    "final_sv": "Det gick inte att hämta avbildningen {image}. Om avbildningen finns i ett privat avbildningsregister måste du återskapa containern i stället.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-proposals.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-541-600.md"
+    ]
+  },
+  {
+    "position": 75852,
+    "key": "component::portainer::exceptions::image_pull_timeout::message",
+    "en": "Pulling the image took too long.",
+    "source_raw": "Pulling the image took too long.",
+    "resolved_source": "Pulling the image took too long.",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Det tog för lång tid att hämta avbildningen.",
+    "final_sv": "Det tog för lång tid att hämta avbildningen.",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-proposals.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-541-600.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-541-600.md"
+    ]
+  },
+  {
+    "position": 75853,
+    "key": "component::unifi::device::outlet::name",
+    "en": "Outlet {index}",
+    "source_raw": "Outlet {index}",
+    "resolved_source": "Outlet {index}",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Uttag {index}",
+    "final_sv": "Uttag {index}",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-601-641.md"
+    ]
+  },
+  {
+    "position": 75854,
+    "key": "component::workday::config::step::options::sections::country_settings::data::hindu_show_estimated",
+    "en": "Mark estimated Hindu holidays",
+    "source_raw": "Mark estimated Hindu holidays",
+    "resolved_source": "Mark estimated Hindu holidays",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Markera hinduiska helgdagar med uppskattat datum",
+    "final_sv": "Markera hinduiska helgdagar med uppskattat datum",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-601-641.md"
+    ]
+  },
+  {
+    "position": 75855,
+    "key": "component::workday::config::step::options::sections::country_settings::data::include_sundays",
+    "en": "Include Sundays as holidays",
+    "source_raw": "Include Sundays as holidays",
+    "resolved_source": "Include Sundays as holidays",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Räkna söndagar som helgdagar",
+    "final_sv": "Räkna söndagar som helgdagar",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-601-641.md"
+    ]
+  },
+  {
+    "position": 75856,
+    "key": "component::workday::config::step::options::sections::country_settings::data::islamic_show_estimated",
+    "en": "Mark estimated Islamic holidays",
+    "source_raw": "Mark estimated Islamic holidays",
+    "resolved_source": "Mark estimated Islamic holidays",
+    "source_refs": [],
+    "source_status": "current-source-match",
+    "previous_sv": "Markera islamiska helgdagar med uppskattat datum",
+    "final_sv": "Markera islamiska helgdagar med uppskattat datum",
+    "previously_reported": true,
+    "previous_review_files": [
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-qa.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-readback.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-source-audit.json",
+      "translations/Home-Assistant/2026-11-28-reviewed-core-75737-75856-tmx-updates.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-full-core-missing-audit.md",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641-tm.json",
+      "translations/Home-Assistant/Lokalise/2026-11-25-reviewed-empty-targets-601-641.json",
+      "translations/Home-Assistant/Lokalise/granskning-empty-targets-601-641.md"
+    ]
+  }
+]

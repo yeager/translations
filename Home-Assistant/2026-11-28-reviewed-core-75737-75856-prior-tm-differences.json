@@ -1,0 +1,132 @@
+[
+  {
+    "position": 75738,
+    "key": "component::teslemetry::issues::energy_site_not_paired::fix_flow::step::confirm::description",
+    "translation_id": "10437523833",
+    "tm_previous": {
+      "en": "Home Assistant cannot send battery commands, such as dispatching battery power, to {site} because Teslemetry is not paired with its Powerwall system and local control is not set up. Teslemetry can only send these commands through the cloud once its key is verified on the Powerwall gateway.\n\n1. Open {link}.\n2. Follow the prompts to pair Teslemetry with the Powerwall system.\n3. Select **Submit** below to re-check.\n\nAlternatively, set up local control for {site}.",
+      "sv": "Home Assistant kan inte skicka batterikommandon, till exempel för att styra batteriets effekt, till {site}. Teslemetry är inte parkopplad med Powerwall-systemet och lokal styrning har inte konfigurerats. Teslemetry kan skicka kommandona via molnet först när nyckeln har verifierats i Powerwall-gatewayen.\n\n1. Öppna {link}.\n2. Följ anvisningarna för att parkoppla Powerwall-systemet.\n3. Välj **Skicka** nedan för att kontrollera igen.\n\nDu kan också konfigurera lokal styrning för {site}."
+    },
+    "current_en": "Home Assistant cannot send battery commands, such as dispatching battery power, to {site} because Teslemetry is not paired with its Powerwall system and local control is not set up. Teslemetry can only send these commands through the cloud once its key is verified on the Powerwall gateway.\n\n1. Open {link}.\n2. Follow the prompts to pair Teslemetry with the Powerwall system.\n3. Select **Submit** below to re-check.\n\nAlternatively, set up local control for {site}.",
+    "current_sv": "Home Assistant kan inte skicka batterikommandon, till exempel för att styra batteriets effekt, till {site}. Teslemetry är inte parkopplad med Powerwall-systemet och lokal styrning har inte konfigurerats. Teslemetry kan skicka kommandona via molnet först när nyckeln har verifierats i Powerwall-gatewayen.\n\n1. Öppna {link}.\n2. Följ anvisningarna för att parkoppla Teslemetry med Powerwall-systemet.\n3. Välj **Skicka** nedan för att kontrollera parkopplingen igen.\n\nDu kan också konfigurera lokal styrning för {site}.",
+    "reference_target": null,
+    "resolution": "updated-in-this-batch-manifest"
+  },
+  {
+    "position": 75776,
+    "key": "component::fujitsu_infrared::config::step::user::data_description::infrared_emitter_entity_id",
+    "translation_id": "10441966766",
+    "tm_previous": {
+      "en": "The infrared emitter entity to use for sending commands.",
+      "sv": "Sändarentiteten som ska användas för att skicka infraröda kommandon."
+    },
+    "current_en": "The infrared emitter entity to use for sending commands.",
+    "current_sv": "Entiteten för den infraröda sändaren som ska användas för att skicka kommandon.",
+    "reference_target": "component::infrared::common::infrared_entity_id_description",
+    "resolution": "updated-in-this-batch-manifest"
+  },
+  {
+    "position": 75787,
+    "key": "component::fujitsu_infrared::selector::protocol::options::extended",
+    "translation_id": "10441967481",
+    "tm_previous": {
+      "en": "Half degrees",
+      "sv": "Halva grader"
+    },
+    "current_en": "Half degrees",
+    "current_sv": "Halvgradssteg",
+    "reference_target": null,
+    "resolution": "updated-in-this-batch-manifest"
+  },
+  {
+    "position": 75788,
+    "key": "component::fujitsu_infrared::selector::protocol::options::standard",
+    "translation_id": "10441967546",
+    "tm_previous": {
+      "en": "Whole degrees",
+      "sv": "Hela grader"
+    },
+    "current_en": "Whole degrees",
+    "current_sv": "Helgradssteg",
+    "reference_target": null,
+    "resolution": "updated-in-this-batch-manifest"
+  },
+  {
+    "position": 75816,
+    "key": "component::ecoforest::config::abort::wrong_device",
+    "translation_id": "10443222482",
+    "tm_previous": {
+      "en": "The credentials belong to a different Ecoforest device than the one this entry is set up for.",
+      "sv": "Inloggningsuppgifterna tillhör en annan Ecoforest-enhet än den som den här konfigurationen har ställts in för."
+    },
+    "current_en": "The credentials belong to a different Ecoforest device than the one this entry is set up for.",
+    "current_sv": "Inloggningsuppgifterna tillhör en annan Ecoforest-enhet än den som den här konfigurationen avser.",
+    "reference_target": null,
+    "resolution": "updated-in-this-batch-manifest"
+  },
+  {
+    "position": 75819,
+    "key": "component::ecoforest::config::step::reauth_confirm::data_description::password",
+    "translation_id": "10443222677",
+    "tm_previous": {
+      "en": "The password of your Ecoforest device.",
+      "sv": "Lösenordet till din Ecoforest-enhet."
+    },
+    "current_en": "The password of your Ecoforest device.",
+    "current_sv": "Lösenordet för din Ecoforest-enhet.",
+    "reference_target": "component::ecoforest::config::step::user::data_description::password",
+    "resolution": "updated-in-this-batch-manifest"
+  },
+  {
+    "position": 75820,
+    "key": "component::ecoforest::config::step::reauth_confirm::data_description::username",
+    "translation_id": "10443222742",
+    "tm_previous": {
+      "en": "The username of your Ecoforest device.",
+      "sv": "Användarnamnet till din Ecoforest-enhet."
+    },
+    "current_en": "The username of your Ecoforest device.",
+    "current_sv": "Användarnamnet för din Ecoforest-enhet.",
+    "reference_target": "component::ecoforest::config::step::user::data_description::username",
+    "resolution": "updated-in-this-batch-manifest"
+  },
+  {
+    "position": 75821,
+    "key": "component::ecoforest::config::step::reauth_confirm::description",
+    "translation_id": "10443222807",
+    "tm_previous": {
+      "en": "Authentication on the Ecoforest device at {host} failed. Enter the credentials again.",
+      "sv": "Autentiseringen på Ecoforest-enheten på {host} misslyckades. Ange inloggningsuppgifterna igen."
+    },
+    "current_en": "Authentication on the Ecoforest device at {host} failed. Enter the credentials again.",
+    "current_sv": "Det gick inte att autentisera mot Ecoforest-enheten på {host}. Ange inloggningsuppgifterna igen.",
+    "reference_target": null,
+    "resolution": "updated-in-this-batch-manifest"
+  },
+  {
+    "position": 75823,
+    "key": "component::ecoforest::config::step::user::data_description::password",
+    "translation_id": "10443222937",
+    "tm_previous": {
+      "en": "The password of your Ecoforest device.",
+      "sv": "Lösenordet till din Ecoforest-enhet."
+    },
+    "current_en": "The password of your Ecoforest device.",
+    "current_sv": "Lösenordet för din Ecoforest-enhet.",
+    "reference_target": null,
+    "resolution": "updated-in-this-batch-manifest"
+  },
+  {
+    "position": 75824,
+    "key": "component::ecoforest::config::step::user::data_description::username",
+    "translation_id": "10443223002",
+    "tm_previous": {
+      "en": "The username of your Ecoforest device.",
+      "sv": "Användarnamnet till din Ecoforest-enhet."
+    },
+    "current_en": "The username of your Ecoforest device.",
+    "current_sv": "Användarnamnet för din Ecoforest-enhet.",
+    "reference_target": null,
+    "resolution": "updated-in-this-batch-manifest"
+  }
+]
