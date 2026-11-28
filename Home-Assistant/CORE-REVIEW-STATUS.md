@@ -4,11 +4,11 @@ Senast uppdaterad: 2026-11-28
 Källrevision: `1d07105b760c73093145526a51758938e87cc658`
 Lokalise-projekt: `130246255a974bd3b5e8a1.51616605`
 
-## Senaste batch: 74 417–74 536
+## Senaste batch: 74 537–74 656
 
-120 poster radgranskade: 119 direkta källträffar och en referensverifiering. En kontextfelaktig VeSync-sensoröversättning korrigerades, sparades och återlästes via API. TMX och backup uppdaterades. Se [2026-11-28-reviewed-core-74417-74536.md](2026-11-28-reviewed-core-74417-74536.md).
+120 poster radgranskade, inklusive 27 referenser. Fyra fel eller inkonsekvenser rättades och sparades via Lokalise API. Se [2026-11-28-reviewed-core-74537-74656.md](2026-11-28-reviewed-core-74537-74656.md).
 
-Nästa position: **74 537**. **3 120** positioner återstår av aktuell nyckelinventering; granskningen pågår.
+Nästa position: **74 657**. **3 000** positioner återstår av aktuell nyckelinventering; granskningen pågår.
 
 ## Öppna uppföljningar
 
