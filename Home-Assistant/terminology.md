@@ -104,6 +104,14 @@ källtextens sammanhang.
 | total discharged energy | total energi som har laddats ur | BLUETTI Modbus: ackumulerad energisensor i Wh, parallell med total laddad energi. |
 | destination folder | målmapp | WebDAV: mappen dit filer överförs; den skapas automatiskt om den saknas. |
 
+| state changes | tillståndsändringar | Recorder: ändringar i en entitets tillstånd; skilj antalet ändringar från antalet returnerade segment. |
+| entity | entitet | Home Assistant: ett övervakat objekt med tillstånd och attribut; skilj det från en fysisk enhet. |
+| truncation | avkortning | Recorder: kortar ned historik när en gräns överskrids i stället för att utlösa ett fel. |
+| country subdivision | administrativ region | Workday: omfattar delstat, territorium, provins eller region inom det valda landet. |
+| Circulate (fan mode) | cirkulation | Alexa-termostat: lägesnamn för fläktdrift, inte en instruktion. |
+| application scope | scope `application` | SmartThings: exakt behörighetsomfång som måste vara aktiverat för den personliga åtkomsttokenen. |
+| pushed updates | uppdateringar via webhook | SmartyPlants: uppdateringar som skickas till Home Assistant via webhook och verifieras med signeringshemligheten. |
+
 ## Status
 
 De två molnstatusetiketterna, `scanner_jams`, fem räknaretiketter, tre
