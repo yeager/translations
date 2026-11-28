@@ -97,6 +97,13 @@ källtextens sammanhang.
 | SMHI API | SMHI:s API | Genitivformen används i felmeddelanden om anrop till myndighetens API. |
 | polled (register) | register som systemet läser av på begäran | Nibe MODBUS: skiljer register som pumpen skickar spontant från register som systemet hämtar genom aktiv avläsning. |
 
+| polling | regelbunden hämtning | SmartyPlants: beskriver att Home Assistant hämtar mätvärden när webhook-signering inte används. |
+| signing secret | signeringshemlighet | SmartyPlants-webhook: hemlighet som används för att verifiera inkommande uppdateringar. |
+| firmware version | version av fast programvara | BLUETTI: versionsuppgift för batteriets inbyggda programvara. |
+| total charged energy | total energi som har laddats | BLUETTI Modbus: ackumulerad energisensor i Wh. |
+| total discharged energy | total energi som har laddats ur | BLUETTI Modbus: ackumulerad energisensor i Wh, parallell med total laddad energi. |
+| destination folder | målmapp | WebDAV: mappen dit filer överförs; den skapas automatiskt om den saknas. |
+
 ## Status
 
 De två molnstatusetiketterna, `scanner_jams`, fem räknaretiketter, tre

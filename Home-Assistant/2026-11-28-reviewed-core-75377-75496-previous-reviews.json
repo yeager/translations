@@ -1,0 +1,722 @@
+{
+  "component::webdav::exceptions::duplicate_destination_path::message": {
+    "previously_reported": true,
+    "previous_sv": "Flera filer skulle överföras till samma mål: {paths}",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::webdav::exceptions::filenames_do_not_exist::message": {
+    "previously_reported": true,
+    "previous_sv": "Följande filer finns inte: {filenames}",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::webdav::exceptions::invalid_destination_path::message": {
+    "previously_reported": true,
+    "previous_sv": "Ogiltig målsökväg `{destination_path}`",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::webdav::exceptions::no_access_to_path::message": {
+    "previously_reported": true,
+    "previous_sv": "Det går inte att läsa {filename}; saknar åtkomst till sökvägen. `allowlist_external_dirs` kan behöva justeras i `configuration.yaml`.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::webdav::exceptions::no_files_match_pattern::message": {
+    "previously_reported": true,
+    "previous_sv": "Inga filer matchar följande mönster: {patterns}",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::webdav::exceptions::upload_error::message": {
+    "previously_reported": true,
+    "previous_sv": "Det gick inte att överföra till WebDAV-servern: {message}",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::webdav::services::upload::description": {
+    "previously_reported": true,
+    "previous_sv": "Överför en eller flera filer till en WebDAV-server.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::webdav::services::upload::fields::config_entry_id::description": {
+    "previously_reported": true,
+    "previous_sv": "Konfigurationsposten som representerar WebDAV-servern som du vill överföra till.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::webdav::services::upload::fields::config_entry_id::name": {
+    "previously_reported": true,
+    "previous_sv": "Konfigurationspost-id",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::webdav::services::upload::fields::destination_folder::description": {
+    "previously_reported": true,
+    "previous_sv": "Mapp på WebDAV-servern, relativt den konfigurerade URL:en, som du vill överföra till.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::webdav::services::upload::fields::destination_folder::example": {
+    "previously_reported": true,
+    "previous_sv": "foton/ögonblicksbilder",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::webdav::services::upload::fields::destination_folder::name": {
+    "previously_reported": true,
+    "previous_sv": "Målmapp",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::webdav::services::upload::fields::filename::description": {
+    "previously_reported": true,
+    "previous_sv": "En eller flera sökvägar till filer som ska överföras. Jokertecken stöds, till exempel `/config/www/*.jpg` för att överföra alla JPG-filer i en mapp eller `/config/www/**/*.jpg` för att även inkludera undermappar. Undermappar som matchas av ett jokertecken återskapas i målmappen. Tecknen `*`, `?` och `[` behandlas som jokertecken. Om du vill överföra en fil vars namn bokstavligen innehåller något av dessa tecken måste filen finnas under exakt det namnet.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::webdav::services::upload::fields::filename::example": {
+    "previously_reported": true,
+    "previous_sv": "{example_image_path}",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::webdav::services::upload::fields::filename::name": {
+    "previously_reported": true,
+    "previous_sv": "Filnamn",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::webdav::services::upload::name": {
+    "previously_reported": true,
+    "previous_sv": "Överför filer",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::bluetti_modbus::device::built_in_battery::name": {
+    "previously_reported": true,
+    "previous_sv": "Inbyggt batteri",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::bluetti_modbus::entity::sensor::cycle_count::name": {
+    "previously_reported": true,
+    "previous_sv": "Antal cykler",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::bluetti_modbus::entity::sensor::soc::name": {
+    "previously_reported": true,
+    "previous_sv": "SoC",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::bluetti_modbus::entity::sensor::soh::name": {
+    "previously_reported": true,
+    "previous_sv": "SoH",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::bluetti_modbus::entity::sensor::total_charged_energy::name": {
+    "previously_reported": true,
+    "previous_sv": "Total laddad energi",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::bluetti_modbus::entity::sensor::total_discharged_energy::name": {
+    "previously_reported": true,
+    "previous_sv": "Total urladdad energi",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::bluetti_modbus::exceptions::battery_firmware_unreadable::message": {
+    "previously_reported": true,
+    "previous_sv": "Det gick inte att läsa inbyggda batteriets inbyggda programvaruversion från BLUETTI-kraftstationen.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::jellyfin::exceptions::server_unreachable::message": {
+    "previously_reported": true,
+    "previous_sv": "Det gick inte att nå Jellyfin-servern",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::jellyfin::exceptions::update_failed::message": {
+    "previously_reported": true,
+    "previous_sv": "Fel vid kommunikation med Jellyfin-servern: {error}",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::seafile::issues::library_deleted::fix_flow::step::confirm::description": {
+    "previously_reported": true,
+    "previous_sv": "Biblioteket ”{name}” finns inte längre på Seafile-servern eller så har det här kontot inte längre åtkomst till det. Dess entiteter är inte tillgängliga och det kan inte längre användas som säkerhetskopieringsplats.\n\nVälj **Skicka** för att ta bort biblioteket och dess enhet från Home Assistant. Om biblioteket kommer tillbaka, till exempel för att det delas igen, löses problemet automatiskt.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::seafile::issues::library_deleted::fix_flow::step::confirm::title": {
+    "previously_reported": true,
+    "previous_sv": "Seafile-biblioteket ”{name}” hittades inte",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::seafile::issues::library_deleted::title": {
+    "previously_reported": true,
+    "previous_sv": "Seafile-biblioteket ”{name}” hittades inte",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::irm_kmi::exceptions::no_radar_forecast::message": {
+    "previously_reported": true,
+    "previous_sv": "Regnradarn rapporterade ingen prognos för den här platsen.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::irm_kmi::services::get_forecasts_radar::description": {
+    "previously_reported": true,
+    "previous_sv": "Hämtar tillgänglig regnradarprognos.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::irm_kmi::services::get_forecasts_radar::fields::include_past_forecasts::description": {
+    "previously_reported": true,
+    "previous_sv": "Anger om tidigare radarbildrutor också ska returneras. Den aktuella bildrutan returneras alltid.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::irm_kmi::services::get_forecasts_radar::fields::include_past_forecasts::name": {
+    "previously_reported": true,
+    "previous_sv": "Inkludera tidigare prognoser",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::irm_kmi::services::get_forecasts_radar::name": {
+    "previously_reported": true,
+    "previous_sv": "Hämta radarprognoser",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::fritz::entity::update::release_notes_messages::internet_interruption": {
+    "previously_reported": true,
+    "previous_sv": "Om denna FRITZ!Box är din huvudsakliga internetrouter avbryts internetanslutningen under uppdateringen. Beroende på modell och anslutningstyp kan det ta upp till 10 minuter.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::shelly::entity::update::release_notes_messages::do_not_unplug": {
+    "previously_reported": true,
+    "previous_sv": "Koppla inte ur eller stäng av enheten under uppdateringen.",
+    "source_status": "source-absent",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::velbus::config::error::invalid_access_token": {
+    "previously_reported": true,
+    "previous_sv": "Ogiltig åtkomsttoken",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::velbus::config::step::manager::data::access_token": {
+    "previously_reported": true,
+    "previous_sv": "Åtkomsttoken",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::velbus::config::step::manager::data::host": {
+    "previously_reported": true,
+    "previous_sv": "Värd",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::velbus::config::step::manager::data::port": {
+    "previously_reported": true,
+    "previous_sv": "Port",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::velbus::config::step::manager::data_description::access_token": {
+    "previously_reported": true,
+    "previous_sv": "Bearer-token när autentisering i Velbus Manager är aktiverad.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::velbus::config::step::manager::data_description::host": {
+    "previously_reported": true,
+    "previous_sv": "Värdnamn eller IP-adress för Velbus Manager (använd manager för Home Assistant-appen på samma värd).",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::velbus::config::step::manager::data_description::port": {
+    "previously_reported": true,
+    "previous_sv": "HTTP-port för Velbus Manager (standard är 4201).",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::velbus::config::step::manager::description": {
+    "previously_reported": true,
+    "previous_sv": "Anslut via Velbus Manager REST och WebSocket i stället för Velbus TCP-bussen.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::velbus::config::step::manager::title": {
+    "previously_reported": true,
+    "previous_sv": "Velbus Manager",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::velbus::config::step::reauth_confirm::data::access_token": {
+    "previously_reported": true,
+    "previous_sv": "Åtkomsttoken",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::velbus::config::step::reauth_confirm::data_description::access_token": {
+    "previously_reported": true,
+    "previous_sv": "Bearer-token när autentisering i Velbus Manager är aktiverad.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::velbus::config::step::reauth_confirm::description": {
+    "previously_reported": true,
+    "previous_sv": "Velbus Manager avvisade åtkomsttokenen. Ange en ny token.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::velbus::config::step::reauth_confirm::title": {
+    "previously_reported": true,
+    "previous_sv": "Autentisera Velbus Manager igen",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::velbus::config::step::user::menu_options::manager": {
+    "previously_reported": true,
+    "previous_sv": "Via Velbus Manager",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::velbus::exceptions::invalid_access_token::message": {
+    "previously_reported": true,
+    "previous_sv": "Ogiltig åtkomsttoken",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::adguard::services::pause_protection::description": {
+    "previously_reported": true,
+    "previous_sv": "Pausar skyddet i AdGuard Home under en tidsperiod, varefter AdGuard Home aktiverar det igen.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::adguard::services::pause_protection::fields::duration::description": {
+    "previously_reported": true,
+    "previous_sv": "Hur länge skyddet ska pausas.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::adguard::services::pause_protection::fields::duration::name": {
+    "previously_reported": true,
+    "previous_sv": "Varaktighet",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::adguard::services::pause_protection::name": {
+    "previously_reported": true,
+    "previous_sv": "Pausa skydd",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::holiday::config::step::options::data::hindu_show_estimated": {
+    "previously_reported": true,
+    "previous_sv": "Markera uppskattade hinduiska helgdagar",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::holiday::config::step::options::data::include_sundays": {
+    "previously_reported": true,
+    "previous_sv": "Inkludera söndagar som helgdagar",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::holiday::config::step::options::data::islamic_show_estimated": {
+    "previously_reported": true,
+    "previous_sv": "Markera uppskattade islamiska helgdagar",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::holiday::config::step::options::data_description::hindu_show_estimated": {
+    "previously_reported": true,
+    "previous_sv": "Lägg till ”uppskattad” i namnet på hinduiska helgdagar med uppskattat datum",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::holiday::config::step::options::data_description::include_sundays": {
+    "previously_reported": true,
+    "previous_sv": "Lägg till alla söndagar bland landets helgdagar",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::holiday::config::step::options::data_description::islamic_show_estimated": {
+    "previously_reported": true,
+    "previous_sv": "Lägg till ”uppskattad” i namnet på islamiska helgdagar med uppskattat datum",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::holiday::config::step::reconfigure::data::hindu_show_estimated": {
+    "previously_reported": true,
+    "previous_sv": "Markera uppskattade hinduiska helgdagar",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::holiday::config::step::reconfigure::data::include_sundays": {
+    "previously_reported": true,
+    "previous_sv": "Inkludera söndagar som helgdagar",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::holiday::config::step::reconfigure::data::islamic_show_estimated": {
+    "previously_reported": true,
+    "previous_sv": "Markera uppskattade islamiska helgdagar",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::holiday::config::step::reconfigure::data_description::hindu_show_estimated": {
+    "previously_reported": true,
+    "previous_sv": "Lägg till ”uppskattad” i namnet på hinduiska helgdagar med uppskattat datum",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::holiday::config::step::reconfigure::data_description::include_sundays": {
+    "previously_reported": true,
+    "previous_sv": "Lägg till alla söndagar bland landets helgdagar",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::holiday::config::step::reconfigure::data_description::islamic_show_estimated": {
+    "previously_reported": true,
+    "previous_sv": "Lägg till ”uppskattad” i namnet på islamiska helgdagar med uppskattat datum",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::holiday::options::step::init::data::hindu_show_estimated": {
+    "previously_reported": true,
+    "previous_sv": "Markera uppskattade hinduiska helgdagar",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::holiday::options::step::init::data::include_sundays": {
+    "previously_reported": true,
+    "previous_sv": "Inkludera söndagar som helgdagar",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::holiday::options::step::init::data::islamic_show_estimated": {
+    "previously_reported": true,
+    "previous_sv": "Markera uppskattade islamiska helgdagar",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::holiday::options::step::init::data_description::hindu_show_estimated": {
+    "previously_reported": true,
+    "previous_sv": "Lägg till ”uppskattad” i namnet på hinduiska helgdagar med uppskattat datum",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::holiday::options::step::init::data_description::include_sundays": {
+    "previously_reported": true,
+    "previous_sv": "Lägg till alla söndagar bland landets helgdagar",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::holiday::options::step::init::data_description::islamic_show_estimated": {
+    "previously_reported": true,
+    "previous_sv": "Lägg till ”uppskattad” i namnet på islamiska helgdagar med uppskattat datum",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::accuweather::config::step::reconfigure::data::api_key": {
+    "previously_reported": true,
+    "previous_sv": "API-nyckel",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::accuweather::config::step::reconfigure::data_description::api_key": {
+    "previously_reported": true,
+    "previous_sv": "API-nyckel som skapats i AccuWeather API-portalen.",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::rainbowminer::config::step::reauth_confirm::data::password": {
+    "previously_reported": true,
+    "previous_sv": "Lösenord",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::rainbowminer::config::step::reauth_confirm::data::username": {
+    "previously_reported": true,
+    "previous_sv": "Användarnamn",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::rainbowminer::config::step::reauth_confirm::data_description::password": {
+    "previously_reported": true,
+    "previous_sv": "API-lösenordet.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::rainbowminer::config::step::reauth_confirm::data_description::username": {
+    "previously_reported": true,
+    "previous_sv": "API-användarnamnet.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::rainbowminer::config::step::reauth_confirm::description": {
+    "previously_reported": true,
+    "previous_sv": "RainbowMiner API för {name} avvisade inloggningsuppgifterna. Ange API-användarnamnet och lösenordet.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::rainbowminer::config::step::reauth_confirm::title": {
+    "previously_reported": true,
+    "previous_sv": "Autentiseringen har upphört att gälla för {name}",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::solyx_energy_cloud::config::step::reauth_confirm::data::nymo_client_secret": {
+    "previously_reported": true,
+    "previous_sv": "Klienthemlighet",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::solyx_energy_cloud::config::step::reauth_confirm::data_description::nymo_client_secret": {
+    "previously_reported": true,
+    "previous_sv": "Klienthemligheten som kopieras från Solyx Energy-appen.",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::solyx_energy_cloud::config::step::reauth_confirm::description": {
+    "previously_reported": true,
+    "previous_sv": "Solyx Energy Cloud avvisade klienthemligheten för klient-id {client_id}. Ange en ny klienthemlighet från Solyx Energy-appen.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::solyx_energy_cloud::config::step::reauth_confirm::title": {
+    "previously_reported": true,
+    "previous_sv": "Autentiseringen har upphört att gälla för {name}",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::any_list::config::abort::wrong_account": {
+    "previously_reported": true,
+    "previous_sv": "Du måste logga in med samma AnyList-konto som ursprungligen konfigurerades.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::any_list::config::step::reauth_confirm::data::password": {
+    "previously_reported": true,
+    "previous_sv": "Lösenord",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::any_list::config::step::reauth_confirm::data_description::password": {
+    "previously_reported": true,
+    "previous_sv": "Lösenordet som används för att logga in på ditt AnyList-konto.",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::any_list::config::step::reauth_confirm::description": {
+    "previously_reported": true,
+    "previous_sv": "Ange lösenordet för AnyList-kontot {email}.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::any_list::config::step::reauth_confirm::title": {
+    "previously_reported": true,
+    "previous_sv": "Autentiseringen har upphört att gälla för {name}",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::ephember::config::abort::unique_id_mismatch": {
+    "previously_reported": true,
+    "previous_sv": "Det här lösenordet tillhör ett annat EPH Ember-konto. Logga in med kontot som ursprungligen konfigurerades.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::ephember::config::step::reauth_confirm::data::password": {
+    "previously_reported": true,
+    "previous_sv": "Lösenord",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::ephember::config::step::reauth_confirm::data_description::password": {
+    "previously_reported": true,
+    "previous_sv": "Lösenordet du använder i EPH Ember-appen.",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::ephember::config::step::reauth_confirm::description": {
+    "previously_reported": true,
+    "previous_sv": "EPH Ember-lösenordet för {username} avvisades. Ange lösenordet som du nu använder i EPH Ember-appen.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::ephember::config::step::reauth_confirm::title": {
+    "previously_reported": true,
+    "previous_sv": "Autentiseringen har upphört att gälla för {name}",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::livisi::config::step::reauth_confirm::data::password": {
+    "previously_reported": true,
+    "previous_sv": "Lösenord",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::livisi::config::step::reauth_confirm::description": {
+    "previously_reported": true,
+    "previous_sv": "Ange SHC:ns nya (lokala) lösenord.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::livisi::config::step::reauth_confirm::title": {
+    "previously_reported": true,
+    "previous_sv": "Autentiseringen har upphört att gälla för {name}",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::wiim::config::abort::ipv6_not_supported": {
+    "previously_reported": true,
+    "previous_sv": "IPv6 stöds inte.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::foreca::config::step::reauth_confirm::data::api_key": {
+    "previously_reported": true,
+    "previous_sv": "API-nyckel",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::foreca::config::step::reauth_confirm::data_description::api_key": {
+    "previously_reported": true,
+    "previous_sv": "Din Foreca Weather API-nyckel från sidan My API",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::foreca::config::step::reauth_confirm::description": {
+    "previously_reported": true,
+    "previous_sv": "Foreca API avvisade API-nyckeln. Ange en ny nyckel från sidan My API.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::foreca::config::step::reauth_confirm::title": {
+    "previously_reported": true,
+    "previous_sv": "Autentiseringen har upphört att gälla för {name}",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::aemet::config::error::cannot_connect": {
+    "previously_reported": true,
+    "previous_sv": "Det gick inte att ansluta",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::aemet::config::step::reauth_confirm::data::api_key": {
+    "previously_reported": true,
+    "previous_sv": "API-nyckel",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::aemet::config::step::reauth_confirm::description": {
+    "previously_reported": true,
+    "previous_sv": "AEMET OpenData API-nyckeln är inte längre giltig. AEMET API-nycklar upphör regelbundet att gälla, så du måste generera en ny på {api_key_url}.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::aemet::exceptions::invalid_api_key::message": {
+    "previously_reported": true,
+    "previous_sv": "AEMET OpenData API-nyckeln är ogiltig eller har upphört att gälla.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::smartyplants::config::step::reconfigure::data::api_key": {
+    "previously_reported": true,
+    "previous_sv": "API-nyckel",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::smartyplants::config::step::reconfigure::data::webhook_secret": {
+    "previously_reported": true,
+    "previous_sv": "Webhook-hemlighet",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::smartyplants::config::step::reconfigure::data_description::api_key": {
+    "previously_reported": true,
+    "previous_sv": "Skapa API-nyckeln i SmartyPlants-appen under Inställningar. Den identifierar ditt konto för Home Assistant.",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::smartyplants::config::step::reconfigure::data_description::webhook_secret": {
+    "previously_reported": true,
+    "previous_sv": "Signeringshemligheten från SmartyPlants-appen. Lämna den tom om du endast vill använda avsökning.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::smartyplants::config::step::reconfigure::description": {
+    "previously_reported": true,
+    "previous_sv": "Uppdatera API-nyckeln eller signeringshemligheten som används för att verifiera skickade uppdateringar. Webhook-URL:en är oförändrad, så det finns inget att uppdatera i SmartyPlants-appen.\n\n`{webhook_url}`\n\nLämna hemligheten tom om du endast vill använda avsökning.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::smartyplants::config::step::reconfigure::title": {
+    "previously_reported": true,
+    "previous_sv": "Konfigurera om SmartyPlants",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::smartyplants::config::step::reconfigure_key::data::api_key": {
+    "previously_reported": true,
+    "previous_sv": "API-nyckel",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::smartyplants::config::step::reconfigure_key::data_description::api_key": {
+    "previously_reported": true,
+    "previous_sv": "Skapa API-nyckeln i SmartyPlants-appen under Inställningar. Den identifierar ditt konto för Home Assistant.",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::smartyplants::config::step::reconfigure_key::description": {
+    "previously_reported": true,
+    "previous_sv": "Uppdatera API-nyckeln. Integrationen konfigurerades utan en webhook, så det finns ingen signeringshemlighet att ändra och avläsningar hämtas med avsökning.",
+    "source_status": "current-source-match",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::smartyplants::config::step::reconfigure_key::title": {
+    "previously_reported": true,
+    "previous_sv": "Konfigurera om SmartyPlants",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::smartyplants::config::step::reconfigure_secret::data::api_key": {
+    "previously_reported": true,
+    "previous_sv": "API-nyckel",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::smartyplants::config::step::reconfigure_secret::data::webhook_secret": {
+    "previously_reported": true,
+    "previous_sv": "Webhook-hemlighet",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::smartyplants::config::step::reconfigure_secret::data_description::api_key": {
+    "previously_reported": true,
+    "previous_sv": "Skapa API-nyckeln i SmartyPlants-appen under Inställningar. Den identifierar ditt konto för Home Assistant.",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  },
+  "component::smartyplants::config::step::reconfigure_secret::data_description::webhook_secret": {
+    "previously_reported": true,
+    "previous_sv": "Signeringshemligheten från SmartyPlants-appen. Lämna den tom om du endast vill använda avsökning.",
+    "source_status": "reference-unresolved",
+    "previous_artifact": "Reviewed history checked in translations/Home-Assistant reports on 2026-11-28"
+  }
+}
