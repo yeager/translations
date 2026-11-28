@@ -88,6 +88,15 @@ källtextens sammanhang.
 | Start battery level | batterinivå för generatorstart | Enphase Envoy-generator: laddningsnivå i procent som utlöser start. |
 | Stop battery level | batterinivå för generatorstopp | Enphase Envoy-generator: laddningsnivå i procent som utlöser stopp. |
 
+| Routing | routning | KNXnet/IP: svensk nätverksterm för vidarebefordran mellan KNX-nät. |
+| Secure routing | säker routning | KNX IP Secure: krypterad routing; behåll skillnaden mot säker tunnling. |
+| Backbone key | stamnätsnyckel | KNX IP Secure: nyckel för KNX-stamnätet; visas i ETS-projektets säkerhetsrapport. |
+| Keyring file | nyckelringsfil | KNX: exporterad `.knxkeys`-fil med nycklar. |
+| Plugged in | inkopplad | A Better Routeplanner: bilen är fysiskt ansluten till laddaren men behöver inte ladda. |
+| Relay switched | reläet har växlat läge | UniFi Protect: händelseetikett när ett relä växlar tillstånd. |
+| SMHI API | SMHI:s API | Genitivformen används i felmeddelanden om anrop till myndighetens API. |
+| polled (register) | avfrågade register | Nibe MODBUS: register som värmepumpen läser efter en aktiv förfrågan. |
+
 ## Status
 
 De två molnstatusetiketterna, `scanner_jams`, fem räknaretiketter, tre
