@@ -1,0 +1,492 @@
+Xach-effekt
+Filter
+Ljus och skugga
+Översikt
+Exempel på filtret  Xach-Effect 
+Ursprunglig bild
+ Xach-effekt  tillämpad
+Detta filter lägger till en diskret halvgenomskinlig 3D-effekt i det valda området eller alfakanalen. 3D-effekten åstadkoms genom att
+Framhäva markeringen: ett nytt lager ( Framhävning ) skapas ovanför det aktiva lagret och fylls med framhävningsfärgen. Därefter läggs en  lagermask  till på lagret, vilket gör den omaskerade bildpunkten delvis genomskinlig.
+Framhävningslager med lagermask
+Måla markeringens vänstra och övre kanter med framhävningsfärgen: lagret  Framhävning  utökas då med en bildpunkt åt vänster och uppåt. Dessa små områden blir ogenomskinliga.
+Skapa en  skugga  på markeringens nedre högra sida.
+Du kan ändra dessa standardinställningar, till exempel välja andra färger för framhävning eller skugga och ändra förskjutningarnas storlek och riktning.
+Det här menyalternativet är inaktiverat när bilden är i indexerat läge.
+Aktivera filtret
+Det här filtret finns i huvudmenyn under   Filter  Ljus och skugga  Xach-Effect…  .
+Alternativ
+Det finns två grupper av alternativ, som styr framhävningen respektive skuggan, samt en kryssruta för markeringens beteende.
+Alternativ för filtret  Xach-Effect 
+Högdagerområdets X-förskjutning
+Högdagerområdets Y-förskjutning
+Markeringens vänstra och övre kant målas med framhävningsfärgen. Framhävningsförskjutningen är storleken (bredd eller höjd) på motsvarande område. Om förskjutningen är mindre än 0 (standardvärdet) färgas det vänstra området (X-förskjutning < 0) eller övre området (Y-förskjutning < 0). Om förskjutningen är större än 0 målas det högra området (X-förskjutning > 0) eller nedre området (Y-förskjutning > 0).
+Framhävningsfärg
+Detta är färgen som används för att framhäva det valda området. Standard är vitt, men genom att klicka på färgrutans knapp öppnas en färgväljare där du kan välja vilken annan färg som helst.
+Framhävningsopacitet
+Markeringen täcks av ett delvis genomskinligt område fyllt med framhävningsfärgen. Med alternativet kan du ange graden av transparens. Eftersom en  lagermask  används går värdet från 0 (helt genomskinligt) till 255 (helt ogenomskinligt).
+Standardvärdet för framhävningsopacitet är 66, vilket motsvarar 26 %.
+Alternativ för skugga
+Dessa alternativ fungerar som motsvarande alternativ för  Skugga  (utan storleksändring). Kort sagt:
+Skuggfärg
+Klicka på knappen för att öppna en färgväljare.
+Skuggopacitet
+Opaciteten (0 %–100 %) för lagret som innehåller skuggan.
+Oskärperadie för skugga
+Radien som används av filtret  Gaussisk oskärpa  och som tillämpas på skuggan.
+Skuggans X-förskjutning
+Skuggans Y-förskjutning
+Riktningen och storleken på förskjutningen av skuggan från markeringen.
+Behåll markering
+Om alternativet är ikryssat förblir den aktiva markeringen aktiv när filtret har tillämpats.
+Vinjett
+Inom fotografi är  vinjettering  en minskning av bildens ljusstyrka mot kanterna. Den orsakas ofta oavsiktligt av kamerainställningar eller objektivets begränsningar, men kan också användas medvetet för att dra uppmärksamheten till bildens mitt.  Vinjett  kan skapa den här effekten.
+Originalbilder som används i exemplen
+Filtret har tillämpats
+Vinjett med standardalternativ och kontroller på arbetsytan
+GIMP har som standard kontroller på arbetsytan: två gränslinjer med vita handtag som blir orange och aktiva när muspekaren förs över dem. Det svarta (standard) området är  vinjetten .  Den yttre gränsen  avgränsar vinjetten.  Den inre gränsen  avgränsar det  mjuka området , som lämnas oförändrat. Mellan den yttre och den inre gränsen finns  övergångsområdet , där vinjetten tonas ut gradvis. En prickad linje markerar  mittlinjen .  
+Klicka på en gränslinje och dra den för att flytta gränsen och mittpunkten (Radie och Mjukhet).
+Klicka på ett handtag och dra det för att flytta båda gränserna (Radie och Hoptryckning).
+Klicka på mittlinjen och dra den för att flytta den.
+I alla tre fallen ändras endast Radie när du håller ned  Skift .
+Klicka och dra fungerar olika på linjer och handtag:  
+Det här filtret finns i huvudmenyn under   Filter  Ljus och skugga  Vinjett…  .
+Alternativ för filtret  Vinjett 
+Förinställningar
+Indatatyp
+Klippning
+Toningsalternativ
+Förhandsvisning
+Sammanfoga filter
+Delad vy
+Vinjettform
+Du kan välja mellan följande former:  Cirkel ,  Kvadrat ,  Romb ,  Vågrät  och  Lodrät .
+ Vågrät  och  Lodrät : gränserna och linjen är vågräta respektive lodräta.
+Vinjettens form (till exempel ellips eller cirkel) beror på inställningen  Proportion .
+Radie
+Vinjettstorlek: hur långt ut från mitten som vinjetteringen sträcker sig, uttryckt som en del av halva bildens diagonal.
+Radie = 0,700
+Mjukhet
+Storleken på det mjuka, oförändrade området.
+Mjukhet = 0,100
+Gamma
+Toningens linjäritet styr hur vinjetten tonas ut från mitten mot kanterna: den anger hur snabbt ljusstyrkan minskar mot vinjettens kant (övergångsområdets storlek).
+Gamma = 1,00
+Proportion
+Proportion fungerar lite särskilt: med standardvärdet (max) 1,00 blir vinjetten en cirkel på en kvadratisk bild och en ellips på en rektangulär bild. Om du minskar proportionen blir ellipsen mer cirkelformad.
+Hoptryckning
+0,0 = 1:1
+0,5 = 2:1
+Rombform, proportion = 0,0 och hoptryckning = 0,5
+1,0 = helt hoptryckt på höjden
+-0,5 = 1:2
+-1,0 = helt hoptryckt på bredden
+Bildförhållande:  
+Om du vill använda hoptryckningsfaktorn direkt som proportion ställer du in Proportion på 0,0.
+Centrum X
+Centrum Y
+Koordinater för vinjettens mittpunkt. Origo är bildens övre vänstra hörn. Värdet 1,00 motsvarar bildens högra kant. Mittpunkten kan placeras utanför bilden.
+Rotation
+Vinjettens rotation. Formen ändras inte.
+Du kan också rotera vinjetten genom att klicka utanför den yttre gränsen och dra.
+Kontroller på arbetsytan
+Avmarkera det här alternativet om du vill ta bort kontrollerna på arbetsytan.
+Supernova
+Exempel på att tillämpa filtret Supernova
+Det här filtret skapar en stor stjärna som påminner om en supernova. Det fungerar med RGB- och gråskalebilder. Ljuseffekten avtar enligt 1/r, där r är avståndet från stjärnans mittpunkt.
+Det här filtret finns i huvudmenyn under   Filter  Ljus och skugga  Supernova…  .
+Alternativ för filtret  Supernova 
+Du kan ange supernovans vågräta (X) och lodräta (Y) mittpunktskoordinater i inmatningsfälten. Du kan också klicka på supernovans mittpunkt i förhandsgranskningen och dra den.
+Det här är radien från supernovans mittpunkt: den övre gränsen verkar vara obegränsad. När du ökar värdet ökar antalet vita pixlar i mitten enligt r*r (1, 4, 9, …).
+Radien visas som en vågrät linje i förhandsgranskningen med ett kors i änden. Klicka på korset och dra det för att ändra radien.
+Antal strålar
+Detta är antalet strålar (1–1024). Varje bildpunkt i novans centrum avger strålar som är en bildpunkt breda. Alla dessa strålar överlagras mer eller mindre, vilket ger den glittrande effekt du får när du flyttar reglaget.
+Slumpmässig nyans
+Strålarnas färger väljs slumpmässigt. Värdet (0–360) verkar ange ett intervall på HSV-färghjulet.
+Färg
+När du klickar på färgrutan öppnas den vanliga färgväljaren.
+Du kan också använda färgväljaren. När den är vald följer muspekaren en ruta över bilden: den visar färgprovet, vars storlek du kan ändra i GEGL-åtgärdsfönstret under Verktygslåda.
+Slumpfrö
+Nytt frö
+Det här alternativet styr filtrets slumpmässighet. I rutan  Slumpfrö  kan du ange ett startvärde för slumptalsgeneratorn. Du kan också skapa ett slumpmässigt startvärde med knappen  Nytt frö . Om filtret används med samma inställningar och samma startvärde blir resultatet alltid detsamma. Ett annat startvärde ger ett annat resultat.
+Glitter
+Exempel på att tillämpa filtret Glitter
+Det här filtret förvandlar ljusa punkter till stjärnglitter. Det utgår från de ljusaste punkterna enligt  Luminansgräns . Det kan vara svårt att förutsäga var glittret hamnar. Du kan lägga till vita punkter där du vill att det ska synas.
+Det här filtret finns i huvudmenyn under   Filter  Ljus och skugga  Glittra…  .
+Alternativ för filtret  Glittra 
+Om alternativet är markerat uppdateras inställningarna direkt i förhandsgranskningen. Rullningslister låter dig flytta bilden, men du kan också dra det synliga området med pekdonet.
+Luminansgräns
+Ju högre gränsvärde, desto fler områden får glitter.
+Ljusreflexens styrka
+Det här justerar ljusreflexens styrka.
+Strållängd
+Anger strålarnas längd. Om värdet minskas blir de korta strålarna kortare först.
+Antal strålspetsar
+Antalet startpunkter för strålarna. Värdet anger både antalet stora och små strålar. Vid ett udda värde hamnar de små strålarna mitt emot de stora. Vid ett jämnt värde hamnar de stora strålarna mitt emot varandra.
+Strålvinkel
+Anger vinkeln för den första stora strålen. Om värdet är −1 väljs vinkeln slumpmässigt. Om flera pixlar i en punkt ligger över  Luminansgräns  skapar varje pixel en ljusglimt. Vid en positiv vinkel överlappar glimtarna. Med värdet −1 får glimtarna slumpmässig rotation, vilket ger många tunna strålar.
+Stråltäthet
+Anger hur många glittrande stjärnor som skapas i bilden, uttryckt som en procentandel av alla möjliga stjärnor.
+Transparens
+När genomskinligheten ökas blir stjärnorna mer genomskinliga och lagret under syns. Om det inte finns något annat lager minskar stjärnornas färgmättnad.
+Anger hur mycket nyansen på stjärnorna ska ändras slumpmässigt.
+Slumpmässig färgmättnad
+Anger hur mycket färgmättnaden på stjärnorna ska ändras slumpmässigt.
+Ytterligare alternativ
+Bevara luminans
+Om alternativet är markerat behåller stjärnans mittpixlar den ljusaste pixelns luminans. Det gör stjärnan mindre ljus.
+Invertera
+I stället för att välja bildens ljusaste pixlar väljer Glittra de mörkaste, vilket skapar mörka stjärnor.
+Lägg till kant
+När alternativet är aktiverat skapas en bildkant av stjärnor i stället för att stjärnor läggs till på de ljusaste pixlarna.
+Färgtyp
+Naturlig färg
+Förgrundsfärg
+Bakgrundsfärg
+Väljer färgen för stjärnornas mittpixlar. Färgen läggs till i läget Skärm (Multiplicera om  Invertera  är markerat).  Naturlig färg  använder bildens pixelvärde.
+Perspektiv
+Exempel på filtret  Perspektiv 
+Detta filter lägger till en perspektivskugga i det valda området eller alfakanalen som ett lager under det aktiva lagret. Du kan välja skuggans färg, längd och riktning samt horisontens avstånd.
+Filtret kan vid behov ändra bildens storlek, men lägger inte till någon bakgrund för att göra skuggan synlig.
+Det här filtret finns i huvudmenyn under   Filter  Ljus och skugga  Perspektiv…  .
+Alternativ för  Perspektiv 
+Vinkel
+Vinkeln bestämmer skuggans riktning, eller motsvarande den imaginära ljuskällans riktning. Värdet går från 0° till 180°, där 90° representerar en ljuskälla precis framför markeringen eller lagret. Vid vinklar mindre än 90° ligger skuggan till höger, så ljuskällan ligger till vänster. Vid vinklar över 90° är det tvärtom. Tips: se reglagets handtag som ljuskällan.
+Exempel på  Vinkel 
+Vinkel 15°
+Vinkel 45° (standard)
+Vinkel 105° (90° + 15°)
+Relativt horisontavstånd
+Alternativet anger hur långt bort den imaginära horisonten är. Det  relativa avståndet  är avståndet från markeringens eller lagrets baslinje, och måttenhetens  enhet  är markeringens eller lagrets höjd.
+Värdet går från 0,1 till 24,1, där 24,1 betyder (nästan)  oändligt . Observera att  relativ skugglängd  inte får överskrida horisontavståndet.
+Exempel på  Avstånd till horisonten 
+Vinkel = 45°. Avstånd = 2,4. Längd = 1,8.
+I exemplet ovan är det gula området den markering som filtret tillämpas på. Den blå linjen upptill representerar den imaginära horisonten. Vinkeln mellan markeringens baslinje och den röda linjen är 45°. Den röda linjens längd är 1,8 gånger den gula markeringens höjd. Utsträckt till horisonten är längden 2,4 gånger markeringens höjd.
+Relativ skugglängd
+Med alternativet kan du ange skuggans längd i förhållande till markeringens eller lagrets höjd. I exemplet ovan representerar den röda linjen skuggans längd, som är 1,8 i förhållande till den gula markeringens höjd.
+Värdet går från 0,1 till 24,1, men skugglängden får inte överskrida  relativt horisontavstånd  – du kan inte gå bortom horisonten.
+Exempel på  Skugglängd 
+Längd = 1,0 (standard)
+Längd = 1,5
+Oskärperadie
+Efter att skuggan har skapats tillämpas  Gaussisk oskärpa  med angiven radie på skugglagret, så att skuggan ser realistisk ut.
+Exempel på oskärpa
+Oskärperadie = 3 (standard)
+Utan oskärpa (oskärperadie = 0)
+Skuggans standardfärg är naturligtvis svart. Klicka på knappen för att öppna färgväljaren, där du kan välja vilken annan färg som helst.
+Opacitet
+Skuggans opacitet är samma som opaciteten för det nya lagret som innehåller skuggan (se  ). Standardvärdet är 80 %, men du kan ange ett annat värde mellan 0 (helt genomskinligt) och 100 (helt ogenomskinligt). När filtret har tillämpats på en bild kan du ändra opaciteten i  dialogrutan Lager .
+Interpolation
+Med denna listruta kan du välja den  interpoleringsmetod  som används när skugglagret transformeras, till exempel roteras med den angivna vinkeln.  Ingen  ger vanligen kantutjämningsfel, och en interpoleringsmetod kan ändra skuggans färg i vissa områden.  Linjär  är ett bra val.
+Tillåt storleksändring
+Om alternativet är aktiverat ändrar filtret bildens storlek om det behövs för att ge plats åt skuggan.
+I exemplet nedan är det gula området den aktiva markeringen och bakgrunden är ljusblå. Det vita området har lagts till efter storleksändringen för att göra skuggan synlig.
+Exempel på  Tillåt storleksändring 
+Tillåt inte storleksändring
+Lång skugga
+Det här GEGL-baserade filtret förenklar skapandet av långa skuggor i flera olika stilar.
+Filtret är tillgängligt om det markerade lagret har en alfakanal (se  ). Annars är det inaktiverat.
+Det här filtret finns i huvudmenyn under   Filter  Ljus och skugga  Lång skugga…  .
+Alternativ för filtret  Lång skugga 
+Stil
+Ursprunglig bild.
+Bildens lager. Textlagret skapades med funktionen ”Lager till bildstorlek” på menyn ”Lager”.
+ Begränsad  är standardstilen. Du kan också välja  Oändlig ,  Avtonande  eller  Avtonande (fast längd) .
+Exempel på alternativet  Stil 
+Begränsad (standard)
+Oändlig
+Avtonande
+Avtonande (fast längd); längd = 30
+Skuggans vinkel i grader.
+Vinkel = 110°
+Längd
+Skuggans längd i pixlar. Bara tillgängligt när  Stil  är inställt på  Begränsad  eller  Avtonande (fast längd) .
+Längd = 30
+Mittpunkt
+Skuggans toningsmittpunkt. Bara tillgängligt när  Stil  är inställt på  Avtonande  eller  Avtonande (fast längd) .
+Här kan du välja skuggans färg. Klicka på färgrutan och välj en färg i färgväljaren som visas, eller använd pipetten för att hämta en färg från bilden.
+Sammansättning
+ Utdata  anger hur filtret sätter samman resultatet. Det finns tre alternativ:
+ Skugga och bild  ger både indata-bilden och den skapade skuggan. Det här är standardalternativet.
+ Endast skugga  ger bara den skapade skuggan.
+ Skugga minus bild  ger den skapade skuggan, men tar bort området som döljs av bilden.
+Exempel på alternativet  Sammansättning 
+Endast skugga
+Skugga minus bild
+Ljuseffekter
+Ljuseffekter
+Samma bild före och efter att filtret Ljuseffekter har tillämpats
+Detta filter simulerar effekten av att lysa upp en vägg med en strålkastare. Det ger inga skuggor och avslöjar naturligtvis inga nya detaljer i mörka zoner.
+Det här menyalternativet är inaktiverat när bilden är i gråskaleläge eller indexerat läge.
+Det här filtret finns i huvudmenyn under   Filter  Ljus och skugga  Ljuseffekter…  .
+Alternativ för filtret  Ljuseffekter 
+När  Interaktiv  är ikryssat visas resultaten av parameterinställningarna interaktivt i förhandsvisningen utan att bilden ändras förrän du klickar på  OK .
+Om  Interaktiv  inte är markerat visas ändringarna i förhandsgranskningen först när du klickar på knappen  Uppdatera . Alternativet är användbart på långsamma datorer.
+Övriga alternativ är ordnade på flikar:
+Allmänna alternativ
+Alternativ för filtret  Ljuseffekter  (allmänna alternativ)
+Genomskinlig bakgrund
+Gör målbilden genomskinlig när höjden i bumpmappningen är noll (höjden är noll i bumpmappningsbildens svarta områden).
+Skapa ny bild
+Skapar en ny bild när filtret tillämpas.
+Kantutjämning
+Med den här inställningen kan du ta bort eller minska trappstegseffekten som kan uppstå längs kanterna.
+Mer information finns i ordlisteartikeln  Kantutjämning .
+Avstånd
+Med detta reglage kan du ange ljuskällans avstånd från bildens centrum. Värdet går från 0,0 till 2,0.
+Ljusinställningar
+Alternativ för filtret  Ljuseffekter  (ljusinställningar)
+På den här fliken kan du ställa in ljusparametrar. Med  Ljus 1  till  Ljus 6  kan du skapa sex ljuskällor och arbeta med var och en separat.
+Typ
+I listrutan finns flera  ljustyper :
+Ingen
+Tar bort ljuskällan (ljuset kan finnas kvar).
+Riktat
+En blå punkt är förbunden med förhandsgranskningens mittpunkt med en linje som visar ljusets riktning.
+Punkt
+Visar en blå punkt mitt i förhandsgranskningen. Klicka på punkten och dra den för att flytta ljuset över förhandsgranskningen.
+Spotljus
+Visar en blå punkt som inte kan flyttas. Ljuset har en fast riktning.
+När du klickar på färgrutan öppnas en dialogruta där du kan välja ljuskällans färg.
+Intensitet
+Med detta alternativ kan du ange ljusets intensitet.
+Position
+Anger ljuspunktens position enligt tre koordinater: X för vågrät position, Y för lodrät position och Z för källans avstånd (ljuset blir mörkare när avståndet ökar). Värdena går från -1 till +1.
+Riktning
+Alternativet låter dig låsa ljusets riktning med koordinaterna  X ,  Y  och  Z .
+Isolera
+Med detta alternativ kan du välja om alla ljuskällor ska visas i förhandsvisningen, eller endast den källa du arbetar med.
+Förinställningar för ljuseffekter
+Du kan spara inställningarna med  Spara  och hämta dem senare med  Öppna .
+Materialegenskaper
+Alternativ för filtret  Ljuseffekter  (materialegenskaper)
+Dessa alternativ gäller inte själva ljuset, utan ljus som reflekteras av objekt.
+De små kloten i inmatningsrutornas båda ändar representerar varje alternativs verkan, från minimivärdet (till vänster) till maximivärdet (till höger). Hjälprutorna är mer användbara.
+Omgivande intensitet
+Det här alternativet, även kallat glöd, styr hur mycket av originalfärgen som visas där inget direkt ljus faller.
+Diffus intensitet
+Det här alternativet, även kallat ljusstyrka, styr intensiteten hos originalfärgen när den träffas direkt av en ljuskälla.
+Diffus reflexivitet
+Det här alternativet styr hur mycket ljus som reflekteras från originalfärgen.
+Speglande reflexivitet
+Alternativet styr hur intensiv framhävningen blir.
+Glans
+Alternativet justerar glansen eller högdagern. Högre värden gör högdagern mer fokuserad.
+Metallisk
+När detta alternativ är ikryssat ser ytorna metalliska ut.
+Bumpmappning
+Alternativ för filtret  Ljuseffekter  (reliefkarta)
+På den här fliken kan du ställa in filteralternativ som ger bilden relief. Se  .
+Aktivera reliefkartläggning
+Med detta alternativ ser bildens ljusa delar upphöjda ut och de mörka delarna nedsänkta. Utseendet beror på ljuskällans position.
+Reliefkarta
+Välj en gråskalebild att använda som reliefkarta. Mer information finns i filtret  Reliefkarta .
+Kurva
+Alternativet anger vilken metod som används för reliefkartan. Reliefhöjden är en funktion av den angivna kurvan. Du kan välja mellan fyra kurvtyper:  Linjär ,  Logaritmisk ,  Sinusformad  och  Sfärisk .
+Maxhöjd
+Detta är den maximala höjden för upphöjningarna.
+Miljömappning
+Alternativ för filtret  Ljuseffekter  (miljökarta)
+Aktivera miljökartläggning
+När du kryssar i denna ruta aktiveras följande alternativ:
+Miljökarta
+Välj en RGB-bild som miljökarta. För att alternativet ska fungera måste du läsa in en annan bild i  GIMP  innan  du använder det.
+Ett exempel finns i  .
+Linsöverstrålning
+Exempel på filtret Linsöverstrålning
+Det här filtret ger intrycket av att solen träffade objektivet när bilden togs. Det har inte lika många möjligheter som filtret  Gradientöverstrålning .
+Det här filtret finns i huvudmenyn under   Filter  Ljus och skugga  Linsöverstrålning  .
+Alternativ för filtret  Linsöverstrålning 
+X-position
+Y-position
+Du kan ange reflexens  X - och  Y -koordinater i inmatningsfältet. Origo ligger i det övre vänstra hörnet. Positionen anges som en andel av bildens mått (0,500 är mitten och 1,000 den högra eller nedre kanten; värdet kan även ligga utanför arbetsytan).
+Introduktion
+Ljusfilter återger olika ljuseffekter i bilden.
+Skuggfilter skapar olika slags skuggor.
+I den här kategorin beskrivs följande filter:
+Gradientöverstrålning
+Exempel på filtret Gradientöverstrålning
+Effekten Gradientöverstrålning påminner om effekten när du fotograferar en bländande ljuskälla, med en halo och strålning kring källan. Bilden för Gradientöverstrålning har tre komponenter:  Glöd , det stora centrala eldklotet,  Strålar  och  Sekundära överstrålningar 
+Det här filtret finns i huvudmenyn under   Filter  Ljus och skugga  Gradientöverstrålning…  .
+På fliken  Inställningar  kan du ange parametrarna manuellt. På fliken  Väljare  väljer du bland förinställningar i en lista.
+När  Uppdatera förhandsgranskning automatiskt  är markerat visas resultatet av parameterändringarna direkt i förhandsgranskningen utan att bilden ändras, tills du klickar på knappen  OK .
+Inställningar
+Alternativ för filtret  Gradientöverstrålning  (inställningar)
+Centrum
+Du kan ange koordinaterna  X  och  Y  i pixlar i inmatningsfältet eller genom att klicka i förhandsgranskningen. Origo ligger i det övre vänstra hörnet.
+Parametrar
+Effektens radie. Reglaget begränsar värdeintervallet, men i inmatningsfältet kan du ange högre värden.
+Vrid effekten.
+Nyansrotation
+Ändra effektens nyans (färg).
+Vektorvinkel
+Rotera de sekundära överstrålningarna.
+Vektorlängd
+Variera avståndet för de sekundära överstrålningarna.
+Adaptiv översampling
+När detta är aktiverat används adaptiv översampling, en kantutjämningsmetod, vid bildrendering. Mer information finns i  .
+När inställningen aktiveras blir följande alternativ tillgängliga för att justera översamplingen.
+Max djup
+Anger det maximala djupet för översampling. Det avgör antalet prover som används. Högre värden kan ge bättre resultat, men också göra beräkningen långsammare.
+Tröskelvärde
+Anger den lägre gränsen för pixelskillnad som gör att översamplingen avbryts.
+Väljare
+Filteralternativ för  Gradientöverstrålning  (väljare)
+Fliken Väljare låter dig välja, ändra och spara ett mönster för Gradientöverstrålning.
+New
+När du klickar på knappen skapar du ett nytt mönster för Gradientöverstrålning. Ge det ett valfritt namn.
+Redigera
+Den här knappen öppnar  redigeraren för gradientöverstrålning  (se nedan).
+Kopiera
+Denna knapp låter dig duplicera det valda mönstret för Gradientöverstrålning. Du kan redigera kopian utan att ändra originalet.
+Ta bort
+Denna knapp tar bort det valda mönstret för Gradientöverstrålning.
+Redigerare för Gradientöverstrålning
+Redigeraren för gradientöverstrålning är också indelad i flikar:
+Allmänt
+Alternativ för  redigeraren för gradientöverstrålning  (allmänt)
+Målningsalternativ för glöd
+Med skjutreglaget och inmatningsrutan kan du minska skenet opacitet (0–100).
+Målningsläge
+Du kan välja mellan fyra lägen:
+Normal
+I det här läget täcker skenet bilden utan hänsyn till det som finns under.
+Addition
+Skenets RGB-värden adderas till RGB-värdena för motsvarande bildpixlar. Färgerna blir ljusare och vita områden kan uppstå.
+Överlagring
+Ljusa och mörka områden i skenet förstärker motsvarande ljusa och mörka områden i bilden.
+Skärm
+Bildens mörka områden ljusas upp av motsvarande ljusa områden i skenet. Tänk dig två diabildsprojektorer riktade mot samma duk.
+Målningsalternativ för strålar
+Alternativen är desamma som för  Alternativ för skenglimt .
+Målningsalternativ för sekundär överstrålning
+Glöd
+Alternativ för  redigeraren för gradientöverstrålning  (sken)
+Gradienter
+Klicka på de rektangulära knapparna för att visa en lång lista med gradienter. Gradienter med  %  tillhör redigeraren.
+Radiell gradient
+Den valda gradienten ritas radiellt från mitten och ut mot kanten.
+Vinkelgradient
+Den valda gradienten breder ut sig runt mitten moturs och börjar vid klockan tre om parametern  Rotation  är 0. Radiella gradienter och vinkelgradienter kombineras med blandningsläget Multiplicera: ljusa områden förstärks och färger blandas enligt CMYK-färgsystemet (det som används av skrivare).
+Vinkelgradient för storlek
+Det här är en gradient vars radie varierar vinkelformat. Radien styrs av gradientens luminans: vid noll luminans (svart) är radien 0 %. Vid 100 % luminans (vitt) är radien också 100 %.
+Storlek (%)
+Anger skenets storlek i procent (0–200).
+Anger vinkelgradientens startpunkt (−180 till +180).
+Anger skenets färg enligt HSV-färghjulet (−180 till +180). (Se  Den triangulära färgväljaren .)
+Strålar
+Alternativ för  redigeraren för gradientöverstrålning  (strålar)
+Alternativen är desamma som för  Sken .
+De tre första alternativen är desamma som för  Sken . Två är nya:
+Antal uddar
+Det här alternativet anger antalet uddar (1–300) och även deras struktur.
+Uddarnas tjocklek
+När uddarna blir bredare (1–100) liknar de blomblad.
+Sekundära överstrålningar
+Alternativ för  redigeraren för gradientöverstrålning  (sekundära överstrålningar)
+Form på sekundära överstrålningar
+Sekundära överstrålningar är satelliter till huvudöverstrålningen och kan ha två former:  Cirkel  och  Polygon . Du kan ange polygonens  antal  sidor. Alternativet godtar 1 sida (!), inte 2.
+Slumpa
+När du klickar på den här knappen skapas ett slumptalsfrö som används av slumptalsgeneratorn. Det blir olika varje gång.
+Innersken
+Exempel på användning av filtret Innersken
+Innersken med vit färg på ett duplicerat lager
+Det här filtret ersätter lagrets innehåll med ett innersken längs objektets kanter. Filtret kräver ett lager med alfakanal. Resultatet blir bäst om du först duplicerar lagret och sedan använder innerskenet på det översta lagret.
+Filtret finns i huvudmenyn under   Filter  Ljus och skugga  Innersken…  .
+Filteralternativ för  Innersken 
+Utökningsform
+Formen som används för att utöka skuggan. Du kan välja  Fyrkant ,  Cirkel  (standard) eller  Romb .
+X
+Y
+De här värdena anger koordinaterna där skenet börjar. Om du ändrar dem kan skenet göras tjockare på ena sidan.
+Detta avgör storleken på oskärpan.
+Utökningsradie
+Avståndet som skuggan utökas innan den görs oskarp. Negativa värden drar i stället ihop skuggan.
+Anger hur genomskinlig eller ogenomskinlig den inre glöden är.
+Färgen som används för glöden. Som standard används den aktuella förgrundsfärgen, men du kan ändra den med färgknappen eller färgväljaren.
+Medianfilter för opåverkade kantpixlar
+Medianoskärpan täcker opåverkade bildpunkter. Om reglaget ställs för högt blir effekten lik en kontur. Dra upp det så mycket som behövs för att täcka tunna hörn i formen.
+Fasning
+Exempel på hur filtret Fasning används
+Uppifrån och ned: ingen fasning, en  avfasad  fasning och en  upphöjd  fasning.
+Det här filtret fasar lagret. Resultatet blir bäst när det finns genomskinliga områden runt en färgad form.
+Filtret finns i huvudmenyn under   Filter  Ljus och skugga  Fasning…  .
+Filteralternativ för  Fasning 
+Fasningstyp
+Du kan välja mellan följande fasningstyper:  Avfasning  (standard) och  Upphöjning .
+Avfasning
+Simulerar ljussättning på fasade 3D-kanter. En fasad kant lutar mellan två av objektets ytor.
+Bula
+Skapar en tredimensionell effekt genom att lägga en relief ovanpå en oskärpa.
+Blandningsläge
+Här kan du välja blandningsläge för att justera effekten. Det första alternativet,  Ingen , används när du vill ställa in ett blandningsläge för lagret i  GIMP .
+Inställning för avståndskarta
+Endast tillgängligt för  Avfasning . Det finns tre alternativ som ändrar avfasningens struktur. Prova dig fram för att se vad som passar bilden bäst.
+Endast tillgängligt för  Upphöjning . Anger hur stor oskärpa upphöjningen får.
+Höjdvinkel
+Anger avfasningens höjdvinkel.
+Djup
+Anger reliefens djup och detaljrikedom.
+Ljusvinkel
+Anger vinkeln på ljuskällan som belyser och skuggar avfasningen.
+Skugga
+Exempel på filtret  Skuggkastning 
+Använda GEGL-filtret  Skuggkastning 
+Med det här GEGL-filtret kan du lägga till en skuggkastning på en bild, markering eller text. Du kan välja skuggans färg, position och storlek.
+Filtret är tillgängligt om bilden har en alfakanal (se  ). Annars är det inaktiverat.
+Filtret finns i huvudmenyn under   Filter  Ljus och skugga  Skuggkastning…  .
+Filteralternativ för  Skuggkastning 
+Lagret som innehåller skuggan flyttas horisontellt med X bildpunkter och vertikalt med Y bildpunkter. X- och Y-förskjutningen bestämmer alltså var skuggan placeras i förhållande till bilden. Höga värden gör att den imaginära ljuskällan verkar vara långt bort horisontellt eller vertikalt, medan låga värden gör att den verkar närmare bilden.
+Förskjutningarna kan vara negativa, vilket ger en skugga till vänster om markeringen om X-förskjutning < 0, eller ovanför markeringen om Y-förskjutning < 0.
+Om du vill se skugglagret tydligt kan du sätta oskärperadien till 0 och flytta skuggan med X och Y.
+När skuggan har skapats används  gaussisk oskärpa  med angiven radie på skugglagret, vilket ger skuggkastningen ett realistiskt utseende.
+Du kan välja vilken form som ska användas för att utöka eller dra ihop skuggan. Alternativen är självförklarande:  Cirkel  (standard),  Fyrkant  eller  Romb .
+Avståndet som skuggan utökas innan den görs oskarp. Ett negativt värde drar i stället ihop skuggan.
+Skuggans opacitet. Standardvärdet är 0.500, men du kan välja ett annat värde från 0 (helt genomskinlig) till 2.00 (helt opak).
+Använda filtret Skuggkastning
+GEGL-filtret Skuggkastning fungerar lite oväntat: om du använder det direkt på bilden, som med det äldre filtret, händer inget såvida bilden inte innehåller genomskinliga områden.
+Öppna originalbilden.
+Skapa en ny bild som är något större än originalbilden och fyll den med  genomskinlighet .
+Kopiera originalbilden och klistra in den i den nya bilden. En flytande markering skapas i dialogen Lager.
+Förankra den flytande markeringen.
+Välj   Lager  Beskär lager till innehåll  .
+Välj   Lager  Lagrets gränsstorlek…  : ställ in lagrets storlek så att den motsvarar bildens och fyll det med genomskinlighet. Klicka på knappen  Centrera  och sedan på  Ändra storlek .
+Öppna dialogen Skuggkastning: skuggan visas i förhandsvisningen på arbetsytan. Du kan ändra alternativens standardvärden.
+Lägg till sist till ett nytt lager, lika stort som bilden, och fyll det med den bakgrundsfärg du vill ha. Flytta lagret längst ned i lagerhögen.
+Klicka på  OK  för att använda filtret.
+ Så får du samma resultat som med det äldre filtret :  
+Skapa en ny bild som är lika stor som originalbilden och fyll den med  genomskinlighet .
+Skapa markeringen
+Kopiera markeringen och klistra in den i den nya bilden. En flytande markering skapas i dialogen Lager.
+Välj   Lager  Lager till bildstorlek   (med genomskinlighet).
+Du kan också använda originalbilden som bakgrund: ångra markeringen, kopiera bilden och klistra in den som ett nytt lager i den nya bilden. Flytta det nya lagret längst ned i lagerhögen.
+ Använda filtret på en markering :  
+ Använda filtret på text :
+Det är enklare att skapa en skuggkastning för text: skapa texten och använd filtret Skuggkastning direkt.
+Skuggkastning (äldre)
+Exempel på det äldre filtret  Skuggkastning 
+ Skuggkastning (äldre)  använd (vitt bakgrundslager tillagt manuellt)
+Detta filter lägger till en skugga i den aktuella markeringen, eller i bilden om det inte finns någon aktiv markering. Filtret kan också ändra bildens storlek om det behövs för att visa skuggan.
+Du kan välja skuggans färg, position och storlek.
+Observera att filtret inte lägger till ett bakgrundslager för att göra skuggan synlig. Skuggans bakgrund är genomskinlig. Den vita bakgrunden i exemplet ovan har inte skapats av filtret, utan lades till senare för att du ska kunna se skuggan.
+Filtret finns i huvudmenyn under   Filter  Ljus och skugga  Skuggkastning (äldre)…  .
+Filteralternativ för  Skuggkastning (äldre) 
+X-förskjutning
+Y-förskjutning
+Om det inte finns någon aktiv markering måste  Tillåt storleksändring  vara aktiverat för att du ska se någon effekt.
+När skuggan har skapats används  gaussisk oskärpa  med angiven radie på skugglagret, vilket ger skuggkastningen ett realistiskt utseende. Du kan behöva aktivera  Tillåt storleksändring , eftersom oskärpan utökar skuggan.
+Skuggan kan ha vilken färg som helst. Klicka på knappen och välj en färg när färgväljaren öppnas.
+Färgexempel med  Skuggkastning 
+Skuggans opacitet är helt enkelt opaciteten för det nya lagret som innehåller skuggan (se  ). Standardvärdet är 80 %, men du kan här välja vilket annat värde som helst från 0 (helt genomskinligt) till 100 (helt ogenomskinligt). När filtret har tillämpats på en bild kan du ändra opaciteten i  dialogrutan Lager .
+Om alternativet är aktiverat ändrar filtret bildens storlek om det behövs för att ge plats åt skuggan. Den nya storleken beror på markeringens storlek, oskärperadien och skuggförskjutningarna.
+Överstrålning
+Exempel på hur filtret Överstrålning används
+Det här filtret skapar ett sken runt ljusa områden.
+Filtret finns i huvudmenyn under   Filter  Ljus och skugga  Överstrålning…  .
+Filteralternativ för  Överstrålning 
+Ljusstyrketröskel för skenområdet.
+Kantmjukhet för skenområdet.
+Skenets radie.
+Styrka
+Skenets styrka.
+Begränsa exponering
+När detta är aktiverat begränsas exponeringen i högdagrarna. Det kan användas för att minska skenet i överexponerade områden.
