@@ -4,15 +4,17 @@ Senast uppdaterad: 2026-11-28
 Källrevision: `1d07105b760c73093145526a51758938e87cc658`
 Lokalise-projekt: `130246255a974bd3b5e8a1.51616605`
 
-## Senaste batch: 75 977–76 096
+## Senaste batch: 76 097–76 216
 
-120 strängar radgranskade: samtliga 120 direkta källmatchningar och tidigare granskningsspår. 27 Lokalise-ID ändrades och lästes tillbaka; alla 33 Azure-regionnamn kontrollerades. Se [2026-11-28-reviewed-core-75977-76096.md](2026-11-28-reviewed-core-75977-76096.md). TM-manifestet innehåller 120 poster och uppdaterar 37 äldre TM-enheter. Canonical TMX valideras efter uppdateringen med **41 006 poster**: 40 775 Lokalise-ID och 231 äldre källnycklar.
+120 strängar radgranskade: 65 direkta källmatchningar och 55 referensnycklar till 21 mål. Tidigare granskningsspår fanns för 120/120. Tre Lokalise-ID ändrades och lästes tillbaka; 55/55 referenser stämmer. Se [2026-11-28-reviewed-core-76097-76216.md](2026-11-28-reviewed-core-76097-76216.md). TM-manifestet innehåller 124 ägar-/referensmålposter och uppdaterar tre avvikande TM-värden. Canonical TMX valideras efter uppdateringen.
 
-Nästa position: **76 097**. **1 560** positioner återstår av aktuell nyckelinventering; granskningen pågår.
+Nästa position: **76 217**. **1 440** positioner återstår av aktuell nyckelinventering; granskningen pågår.
 
 ## Öppna uppföljningar
 
-- Batch 75 137–75 256, 75 257–75 376, 75 377–75 496, 75 497–75 616, 75 617–75 736, 75 737–75 856, 75 857–75 976 och 75 977–76 096: Lokalise-flaggan `Reviewed` kunde inte sättas med tillgänglig API-token (HTTP 403: `No permission to update translation status`); editorns massåtgärd visar bara `Unverified`. Innehållsgranskning och text-readback är genomförda; flaggan kräver en behörig reviewer.
+- Foreca `icing`: API-dokumentationen anger nederbördstypen men definierar inte undergruppen; översatt brett som ”underkyld nederbörd”. Bekräfta exakt leverantörsbetydelse om dokumentationen kompletteras.
+
+- Batch 75 137–75 256, 75 257–75 376, 75 377–75 496, 75 497–75 616, 75 617–75 736, 75 737–75 856, 75 857–75 976, 75 977–76 096 och 76 097–76 216: Lokalise-flaggan `Reviewed` kunde inte sättas med tillgänglig API-token (HTTP 403: `No permission to update translation status`); editorns massåtgärd visar bara `Unverified`. Innehållsgranskning och text-readback är genomförda; flaggan kräver en behörig reviewer.
 
 - UniFi Protect batch 75 257–75 376: `entry_opened`, `entry_closed` och `tamper` behölls men behöver produkttext för att avgöra om svenska etiketter ska precisera dörr/port respektive sabotage/fysisk påverkan.
 - Shelly `component::shelly::entity::update::release_notes_messages::do_not_unplug` saknas i pinnad källsnapshot; se batchrapporten innan källverifiering.
