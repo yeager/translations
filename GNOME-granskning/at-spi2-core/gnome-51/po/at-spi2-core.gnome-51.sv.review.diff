@@ -40,7 +40,12 @@
  
  #: atk/atkhyperlink.c:143
  msgid "End index"
-@@ -68,7 +52,7 @@
+@@ -64,117 +48,119 @@
+ 
+ #: atk/atkobject.c:273
+ msgid "Accessible Name"
+-msgstr "Tillgängligt namn"
++msgstr "Hjälpmedelsnamn"
  
  #: atk/atkobject.c:274
  msgid "Object instance’s name formatted for assistive technology access"
@@ -49,7 +54,8 @@
  
  #: atk/atkobject.c:280
  msgid "Accessible Description"
-@@ -76,16 +60,17 @@
+-msgstr "Tillgänglig beskrivning"
++msgstr "Hjälpmedelsbeskrivning"
  
  #: atk/atkobject.c:281
  msgid "Description of an object, formatted for assistive technology access"
@@ -59,7 +65,7 @@
  #: atk/atkobject.c:287
  msgid "Accessible Parent"
 -msgstr "Tillgänglig förälder"
-+msgstr "Tillgängligt föräldraobjekt"
++msgstr "Hjälpmedelsförälder"
  
  #: atk/atkobject.c:288
 -msgid "Parent of the current accessible as returned by atk_object_get_parent()"
@@ -67,11 +73,13 @@
 +"Parent of the current accessible as returned by atk_object_get_parent()"
  msgstr ""
 -"Förälder för den aktuella tillgängliga som returnerades av "
-+"Föräldern till det aktuella tillgängliga objektet, som returneras av "
++"Förälder till det aktuella hjälpmedelsobjektet, som returneras av "
  "atk_object_get_parent()"
  
  #: atk/atkobject.c:304
-@@ -94,7 +79,7 @@
+ msgid "Accessible Value"
+-msgstr "Tillgängligt värde"
++msgstr "Hjälpmedelsvärde"
  
  #: atk/atkobject.c:305
  msgid "Is used to notify that the value has changed"
@@ -80,46 +88,53 @@
  
  #: atk/atkobject.c:313
  msgid "Accessible Role"
-@@ -102,7 +87,7 @@
+-msgstr "Tillgänglig roll"
++msgstr "Hjälpmedelsroll"
  
  #: atk/atkobject.c:314
  msgid "The accessible role of this object"
 -msgstr "Den tillgängliga rollen för detta objekt"
-+msgstr "Tillgänglighetsrollen för det här objektet"
++msgstr "Hjälpmedelsrollen för det här objektet"
  
  #: atk/atkobject.c:321
  msgid "Accessible Layer"
-@@ -110,7 +95,7 @@
+-msgstr "Tillgängligt lager"
++msgstr "Hjälpmedelslager"
  
  #: atk/atkobject.c:322
  msgid "The accessible layer of this object"
 -msgstr "Det tillgängliga lagret för detta objekt"
-+msgstr "Tillgänglighetslagret för det här objektet"
++msgstr "Hjälpmedelslagret för det här objektet"
  
  #: atk/atkobject.c:330
  msgid "Accessible MDI Value"
-@@ -118,7 +103,7 @@
+-msgstr "Tillgängligt MDI-värde"
++msgstr "Hjälpmedelsvärde för MDI"
  
  #: atk/atkobject.c:331
  msgid "The accessible MDI value of this object"
 -msgstr "Det tillgängliga MDI-värdet för detta objekt"
-+msgstr "Det tillgängliga MDI-värdet för det här objektet"
++msgstr "Hjälpmedelsvärdet för MDI för det här objektet"
  
  #: atk/atkobject.c:347
  msgid "Accessible Table Caption"
-@@ -129,40 +114,41 @@
+-msgstr "Tillgänglig tabellrubrik"
++msgstr "Bildtext för hjälpmedelstabellen"
+ 
+ #: atk/atkobject.c:348
+ msgid ""
  "Is used to notify that the table caption has changed; this property should "
  "not be used. accessible-table-caption-object should be used instead"
  msgstr ""
 -"Används för att meddela att tabellrubriken har ändrats; denna egenskap ska "
 -"inte användas. accessible-table-caption-object ska användas i stället"
-+"Används för att signalera att tabellrubriken har ändrats. Använd inte den "
++"Används för att meddela att tabellens bildtext har ändrats. Använd inte den "
 +"här egenskapen; använd i stället accessible-table-caption-object"
  
  #: atk/atkobject.c:362
  msgid "Accessible Table Column Header"
 -msgstr "Tillgängligt tabellkolumnhuvud"
-+msgstr "Tillgänglig kolumnrubrik i tabellen"
++msgstr "Kolumnrubrik i hjälpmedelstabellen"
  
  #: atk/atkobject.c:363
  msgid "Is used to notify that the table column header has changed"
@@ -129,7 +144,7 @@
  #: atk/atkobject.c:378
  msgid "Accessible Table Column Description"
 -msgstr "Tillgänglig tabellkolumnbeskrivning"
-+msgstr "Tillgänglig kolumnbeskrivning i tabellen"
++msgstr "Kolumnbeskrivning i hjälpmedelstabellen"
  
  #: atk/atkobject.c:379
  msgid "Is used to notify that the table column description has changed"
@@ -140,7 +155,7 @@
  #: atk/atkobject.c:394
  msgid "Accessible Table Row Header"
 -msgstr "Tillgängligt tabellradshuvud"
-+msgstr "Tillgänglig radrubrik i tabellen"
++msgstr "Radrubrik i hjälpmedelstabellen"
  
  #: atk/atkobject.c:395
  msgid "Is used to notify that the table row header has changed"
@@ -150,7 +165,7 @@
  #: atk/atkobject.c:409
  msgid "Accessible Table Row Description"
 -msgstr "Tillgänglig tabellradsbeskrivning"
-+msgstr "Tillgänglig radbeskrivning i tabellen"
++msgstr "Radbeskrivning i hjälpmedelstabellen"
  
  #: atk/atkobject.c:410
  msgid "Is used to notify that the table row description has changed"
@@ -159,7 +174,8 @@
  
  #: atk/atkobject.c:416
  msgid "Accessible Table Summary"
-@@ -170,11 +156,11 @@
+-msgstr "Tillgänglig tabellsammanfattning"
++msgstr "Sammanfattning av hjälpmedelstabellen"
  
  #: atk/atkobject.c:417
  msgid "Is used to notify that the table summary has changed"
@@ -169,26 +185,39 @@
  #: atk/atkobject.c:423
  msgid "Accessible Table Caption Object"
 -msgstr "Tillgängligt tabellrubriksobjekt"
-+msgstr "Objekt för tillgänglig tabellrubrik"
++msgstr "Objekt för bildtexten i hjälpmedelstabellen"
  
  #: atk/atkobject.c:424
  msgid "Is used to notify that the table caption has changed"
-@@ -194,7 +180,8 @@
+@@ -182,7 +168,7 @@
+ 
+ #: atk/atkobject.c:430
+ msgid "Number of Accessible Hypertext Links"
+-msgstr "Antal tillgängliga hypertextlänkar"
++msgstr "Antal hypertextlänkar i hjälpmedelsobjektet"
+ 
+ #: atk/atkobject.c:431
+ msgid "The number of links which the current AtkHypertext has"
+@@ -190,11 +176,11 @@
+ 
+ #: atk/atkobject.c:440
+ msgid "Accessible ID"
+-msgstr "Tillgängligt ID"
++msgstr "Hjälpmedels-ID"
  
  #: atk/atkobject.c:441
  msgid "ID for the accessible; useful for automated testing"
 -msgstr "ID för den tillgängliga; användbart för automatisk testning"
-+msgstr ""
-+"ID för det tillgängliga objektet; användbart vid automatiserad testning"
++msgstr "ID för hjälpmedelsobjektet; användbart vid automatiserad testning"
  
  #: atk/atkobject.c:447
  msgid "Help text"
-@@ -202,14 +189,13 @@
+@@ -202,14 +188,13 @@
  
  #: atk/atkobject.c:448
  msgid "Help text associated with the accessible"
 -msgstr "Hjälptext som är associerad med den tillgängliga"
-+msgstr "Hjälptext som hör till det tillgängliga objektet"
++msgstr "Hjälptext som hör till hjälpmedelsobjektet"
  
  #. Translators: This string describes a range within value-related
  #. * widgets such as a password-strength meter. Note that what such a
@@ -199,7 +228,7 @@
  #: atk/atkvalue.c:193
  msgid "very weak"
  msgstr "mycket svagt"
-@@ -219,7 +205,6 @@
+@@ -219,7 +204,6 @@
  #. * widget presents is controlled by application developers. Thus
  #. * assistive technologies such as screen readers are expected to
  #. * present this string alone or as a token in a list.
@@ -207,7 +236,7 @@
  #: atk/atkvalue.c:200
  msgid "weak"
  msgstr "svagt"
-@@ -229,7 +214,6 @@
+@@ -229,7 +213,6 @@
  #. * widget presents is controlled by application developers. Thus
  #. * assistive technologies such as screen readers are expected to
  #. * present this string alone or as a token in a list.
@@ -215,7 +244,7 @@
  #: atk/atkvalue.c:207
  msgid "acceptable"
  msgstr "acceptabelt"
-@@ -239,7 +223,6 @@
+@@ -239,7 +222,6 @@
  #. * widget presents is controlled by application developers. Thus
  #. * assistive technologies such as screen readers are expected to
  #. * present this string alone or as a token in a list.
@@ -223,7 +252,7 @@
  #: atk/atkvalue.c:214
  msgid "strong"
  msgstr "starkt"
-@@ -249,7 +232,6 @@
+@@ -249,7 +231,6 @@
  #. * widget presents is controlled by application developers. Thus
  #. * assistive technologies such as screen readers are expected to
  #. * present this string alone or as a token in a list.
@@ -231,7 +260,7 @@
  #: atk/atkvalue.c:221
  msgid "very strong"
  msgstr "mycket starkt"
-@@ -260,7 +242,6 @@
+@@ -260,7 +241,6 @@
  #. * application developers. Thus assistive technologies such as screen
  #. * readers are expected to present this string alone or as a token in
  #. * a list.
@@ -239,7 +268,7 @@
  #: atk/atkvalue.c:229
  msgid "very low"
  msgstr "mycket lågt"
-@@ -271,7 +252,6 @@
+@@ -271,7 +251,6 @@
  #. * application developers. Thus assistive technologies such as screen
  #. * readers are expected to present this string alone or as a token in
  #. * a list.
@@ -247,7 +276,7 @@
  #: atk/atkvalue.c:237
  msgid "medium"
  msgstr "medel"
-@@ -282,7 +262,6 @@
+@@ -282,7 +261,6 @@
  #. * application developers. Thus assistive technologies such as screen
  #. * readers are expected to present this string alone or as a token in
  #. * a list.
@@ -255,7 +284,7 @@
  #: atk/atkvalue.c:245
  msgid "high"
  msgstr "högt"
-@@ -293,7 +272,6 @@
+@@ -293,7 +271,6 @@
  #. * application developers. Thus assistive technologies such as screen
  #. * readers are expected to present this string alone or as a token in
  #. * a list.
@@ -263,7 +292,7 @@
  #: atk/atkvalue.c:253
  msgid "very high"
  msgstr "mycket högt"
-@@ -304,7 +282,6 @@
+@@ -304,7 +281,6 @@
  #. * application developers. Thus assistive technologies such as screen
  #. * readers are expected to present this string alone or as a token in
  #. * a list.
@@ -271,7 +300,7 @@
  #: atk/atkvalue.c:261
  msgid "very bad"
  msgstr "mycket dåligt"
-@@ -315,7 +292,6 @@
+@@ -315,7 +291,6 @@
  #. * application developers. Thus assistive technologies such as screen
  #. * readers are expected to present this string alone or as a token in
  #. * a list.
@@ -279,7 +308,7 @@
  #: atk/atkvalue.c:269
  msgid "bad"
  msgstr "dåligt"
-@@ -326,7 +302,6 @@
+@@ -326,7 +301,6 @@
  #. * application developers. Thus assistive technologies such as screen
  #. * readers are expected to present this string alone or as a token in
  #. * a list.
@@ -287,7 +316,7 @@
  #: atk/atkvalue.c:277
  msgid "good"
  msgstr "bra"
-@@ -337,7 +312,6 @@
+@@ -337,7 +311,6 @@
  #. * application developers. Thus assistive technologies such as screen
  #. * readers are expected to present this string alone or as a token in
  #. * a list.
@@ -295,7 +324,7 @@
  #: atk/atkvalue.c:285
  msgid "very good"
  msgstr "mycket bra"
-@@ -348,7 +322,6 @@
+@@ -348,7 +321,6 @@
  #. * application developers. Thus assistive technologies such as screen
  #. * readers are expected to present this string alone or as a token in
  #. * a list.
@@ -303,7 +332,7 @@
  #: atk/atkvalue.c:293
  msgid "best"
  msgstr "bäst"
-@@ -391,7 +364,7 @@
+@@ -391,7 +363,7 @@
  
  #: atspi/atspi-misc.c:59
  msgid "check menu item"
@@ -312,7 +341,7 @@
  
  #: atspi/atspi-misc.c:60
  msgid "color chooser"
-@@ -403,7 +376,7 @@
+@@ -403,7 +375,7 @@
  
  #: atspi/atspi-misc.c:62
  msgid "combo box"
@@ -321,7 +350,7 @@
  
  #: atspi/atspi-misc.c:63
  msgid "dateeditor"
-@@ -439,7 +412,7 @@
+@@ -439,7 +411,7 @@
  
  #: atspi/atspi-misc.c:71
  msgid "filler"
@@ -330,7 +359,7 @@
  
  #. I know it looks wrong but that is what Java returns
  #: atspi/atspi-misc.c:73
-@@ -484,7 +457,7 @@
+@@ -484,7 +456,7 @@
  
  #: atspi/atspi-misc.c:83
  msgid "list item"
@@ -339,7 +368,7 @@
  
  #: atspi/atspi-misc.c:84
  msgid "menu"
-@@ -512,7 +485,7 @@
+@@ -512,7 +484,7 @@
  
  #: atspi/atspi-misc.c:90
  msgid "page tab list"
@@ -348,7 +377,7 @@
  
  #: atspi/atspi-misc.c:91
  msgid "panel"
-@@ -524,7 +497,7 @@
+@@ -524,7 +496,7 @@
  
  #: atspi/atspi-misc.c:93
  msgid "popup menu"
@@ -357,7 +386,7 @@
  
  #: atspi/atspi-misc.c:94
  msgid "progress bar"
-@@ -540,7 +513,7 @@
+@@ -540,7 +512,7 @@
  
  #: atspi/atspi-misc.c:97
  msgid "radio menu item"
@@ -366,7 +395,7 @@
  
  #: atspi/atspi-misc.c:98
  msgid "root pane"
-@@ -592,11 +565,11 @@
+@@ -592,11 +564,11 @@
  
  #: atspi/atspi-misc.c:110
  msgid "table column header"
@@ -380,7 +409,7 @@
  
  #: atspi/atspi-misc.c:112
  msgid "tear off menu item"
-@@ -636,7 +609,7 @@
+@@ -636,7 +608,7 @@
  
  #: atspi/atspi-misc.c:121
  msgid "viewport"
@@ -389,7 +418,7 @@
  
  #: atspi/atspi-misc.c:122
  msgid "window"
-@@ -644,7 +617,7 @@
+@@ -644,7 +616,7 @@
  
  #: atspi/atspi-misc.c:123
  msgid "header"
@@ -398,7 +427,7 @@
  
  #: atspi/atspi-misc.c:124
  msgid "footer"
-@@ -664,13 +637,12 @@
+@@ -664,13 +636,12 @@
  
  #: atspi/atspi-misc.c:128
  msgid "autocomplete"
@@ -413,7 +442,7 @@
  #: atspi/atspi-misc.c:130
  msgid "embedded component"
  msgstr "inbyggd komponent"
-@@ -681,11 +653,11 @@
+@@ -681,11 +652,11 @@
  
  #: atspi/atspi-misc.c:132
  msgid "chart"
@@ -427,7 +456,7 @@
  
  #: atspi/atspi-misc.c:134
  msgid "document frame"
-@@ -693,7 +665,7 @@
+@@ -693,7 +664,7 @@
  
  #: atspi/atspi-misc.c:135
  msgid "heading"
@@ -436,7 +465,7 @@
  
  #: atspi/atspi-misc.c:136
  msgid "page"
-@@ -717,7 +689,7 @@
+@@ -717,7 +688,7 @@
  
  #: atspi/atspi-misc.c:141
  msgid "input method window"
@@ -445,7 +474,7 @@
  
  #: atspi/atspi-misc.c:142
  msgid "table row"
-@@ -729,23 +701,23 @@
+@@ -729,23 +700,23 @@
  
  #: atspi/atspi-misc.c:144
  msgid "document spreadsheet"
@@ -474,7 +503,7 @@
  
  #: atspi/atspi-misc.c:149
  msgid "comment"
-@@ -773,7 +745,7 @@
+@@ -773,7 +744,7 @@
  
  #: atspi/atspi-misc.c:155
  msgid "level bar"
@@ -483,7 +512,7 @@
  
  #: atspi/atspi-misc.c:156
  msgid "title bar"
-@@ -809,7 +781,7 @@
+@@ -809,7 +780,7 @@
  
  #: atspi/atspi-misc.c:164
  msgid "marquee"
@@ -492,7 +521,7 @@
  
  #: atspi/atspi-misc.c:165
  msgid "math"
-@@ -817,7 +789,7 @@
+@@ -817,7 +788,7 @@
  
  #: atspi/atspi-misc.c:166
  msgid "rating"

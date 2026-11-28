@@ -13,3 +13,7 @@
 - Översättningsminne: `swedish-tm/sv-gnome.po` användes som stöd; exakta kandidatträffar för ändrade källsträngar dokumenteras i `tm-lookups.json` och granskades manuellt.
 - Last-Translator: Daniel Nylander <gnome@danielnylander.se>.
 - GNOME-inskick: uppladdad via Damned Lies API 2026-11-27 12:53 UTC med kommentaren ”Granskad och klar”. Aktivitetssidan och den sammanslagna filen bekräftar 1 830/0/0; samtliga 1 830 översättningar matchar den granskade filen exakt. Statistik-endpointen visar fortfarande den äldre baslinjen 1 792/16/22, vilket dokumenteras i `submission.json`.
+
+## A11y-terminologi, 2026-11-28
+
+`Show Accessibility warnings` korrigerades från *Visa tillgänglighetsvarningar* till *Visa hjälpmedelsvarningar* i den lokalt granskade filen. Ingen annan befintlig a11y-etikett kräver ändring. l10n-lint: 0 fel/varningar; inga Hunspell-anmärkningar. `msgfmt` kördes inte eftersom den aktuella katalogen inte är komplett. Aktivitetssidan visar 1 792/16/22, men den nedladdade aktuella PO-filen mot samma 1 830-strängars POT ger 1 789/16/25. Rapporten behåller därför statusen *Behöver arbete* och markerar inte katalogen klar. Se `gtk-main-a11y-terminology-2026-11-28.diff`.

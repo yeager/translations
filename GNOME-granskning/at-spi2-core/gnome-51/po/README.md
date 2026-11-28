@@ -9,3 +9,7 @@
 - `hunspell-sv`: samtliga okända ord granskades; inga stavfel. Dokumenterade tekniska namn och ordlisteundantag finns i `hunspell-undantag.md`.
 - Inskickad via Damned Lies API 2026-11-27 med kommentaren `Granskad och klar`. API-statistik och aktivitetssidan bekräftar 176/0/0. Den nedladdade sammanfogade PO-filen är identisk med den granskade katalogen.
 - Last-Translator: Daniel Nylander <gnome@danielnylander.se>.
+
+## A11y-terminologi, 2026-11-28
+
+23 befintliga strängar korrigerades med samma granskade huvudöversättning som `main`; källnycklarna är identiska. `Accessible Role` heter *hjälpmedelsroll*. l10n-lint: 0 fel/varningar. Hunspell-undantag: `MDI`, `atk_object_get_parent()` och `accessible-table-caption-object`. `msgfmt --check --check-format` och `msgcmp --use-fuzzy` godkändes mot aktuell POT. Den tidigare inskickade versionen har inte uppdaterats; den lokala terminologikorrigeringen är oskickad. Se `at-spi2-core-gnome-51-a11y-terminology-2026-11-28.diff`.

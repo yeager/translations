@@ -9,3 +9,7 @@
 - Hunspell-sv: kontrollerad. Rimliga tekniska undantag: `AtkHyperlink`, `AtkHypertext`, `atk_object_get_parent()`, `accessible-table-caption-object`, `MDI`, `rityta`, `sidflik`, `sidflikar` och `namnlist`.
 - Last-Translator: Daniel Nylander <gnome@danielnylander.se>.
 - Upstream visar 176 översatta, 0 fuzzy, 0 oöversatta. Inget har skickats till GNOME.
+
+## A11y-terminologi, 2026-11-28
+
+23 befintliga strängar korrigerades i den fullständiga `main`-katalogen. `Accessible Role` heter nu *hjälpmedelsroll*; relaterade roller, namn, beskrivningar, värden och tabellfält använder konsekvent förleden *hjälpmedels-*. l10n-lint: 0 fel/varningar. Hunspell-undantag: `MDI`, `atk_object_get_parent()` och `accessible-table-caption-object` (tekniska förkortningar/identifierare). `msgfmt --check --check-format` och `msgcmp --use-fuzzy` godkändes mot den aktuella POT-filen. Ingen inskickning. Se `at-spi2-core-main-a11y-terminology-2026-11-28.diff`.

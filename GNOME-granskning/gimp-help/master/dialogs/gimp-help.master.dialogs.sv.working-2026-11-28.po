@@ -3492,9 +3492,8 @@ msgstr ""
 
 #: src/dialogs/prefs-tool-options.xml:8(title)
 #: src/dialogs/prefs-tool-options.xml:13(tertiary)
-#, fuzzy
 msgid "Tool Options"
-msgstr "Alternativ"
+msgstr "Verktygsalternativ"
 
 #: src/dialogs/prefs-tool-options.xml:16(primary)
 msgid "Tools"
@@ -3502,11 +3501,11 @@ msgstr "Verktyg"
 
 #: src/dialogs/prefs-tool-options.xml:21(title)
 msgid "Tool Options Preferences"
-msgstr ""
+msgstr "Inställningar för verktygsalternativ"
 
 #: src/dialogs/prefs-tool-options.xml:29(para)
 msgid "This page lets you customize several aspects of the behavior of tools."
-msgstr ""
+msgstr "På den här sidan kan du anpassa flera delar av verktygens funktion."
 
 #: src/dialogs/prefs-tool-options.xml:48(title)
 #: src/dialogs/prefs-input-controllers.xml:73(term)
@@ -3517,48 +3516,51 @@ msgstr "Allmänt"
 
 #: src/dialogs/prefs-tool-options.xml:50(term)
 msgid "Allow editing on non-visible layers"
-msgstr ""
+msgstr "Tillåt redigering av osynliga lager"
 
 #: src/dialogs/prefs-tool-options.xml:52(para)
 msgid ""
 "You can edit layers with disabled visibility (the eye icon in the layer "
 "dock)."
 msgstr ""
+"Du kan redigera lager vars synlighet är avstängd (ögonikonen i lagerdockan)."
 
 #: src/dialogs/prefs-tool-options.xml:59(term)
 msgid "Save tool options on exit"
-msgstr ""
+msgstr "Spara verktygsalternativ när GIMP avslutas"
 
 #: src/dialogs/prefs-tool-options.xml:61(para)
 msgid ""
 "When enabled, the Tool Options of all tools will be saved when closing "
 "<acronym>GIMP</acronym>."
 msgstr ""
+"När detta är aktiverat sparas alla verktygsalternativ när "
+"<acronym>GIMP</acronym> avslutas."
 
 #: src/dialogs/prefs-tool-options.xml:68(term)
 msgid "Save Tool Options Now"
-msgstr ""
+msgstr "Spara verktygsalternativ nu"
 
 #: src/dialogs/prefs-tool-options.xml:70(para)
 msgid "This immediately saves the current Tool Options of all tools."
-msgstr ""
+msgstr "Då sparas verktygsalternativen för alla verktyg direkt."
 
 #: src/dialogs/prefs-tool-options.xml:76(term)
 msgid "Reset Saved Tool Options To Default Values"
-msgstr ""
+msgstr "Återställ sparade verktygsalternativ till standardvärden"
 
 #: src/dialogs/prefs-tool-options.xml:78(para)
 msgid "This resets the Tool Options of all tools to their default values."
 msgstr ""
+"Då återställs verktygsalternativen för alla verktyg till standardvärdena."
 
 #: src/dialogs/prefs-tool-options.xml:86(title)
 msgid "Scaling"
-msgstr ""
+msgstr "Skalning"
 
 #: src/dialogs/prefs-tool-options.xml:88(term)
-#, fuzzy
 msgid "Default interpolation"
-msgstr "Introduktion till dialogrutor"
+msgstr "Standardinterpolering"
 
 #: src/dialogs/prefs-tool-options.xml:90(para)
 msgid ""
@@ -3568,6 +3570,11 @@ msgid ""
 "always be changed, though, in the Interpolation settings of the Transform "
 "Tool Options."
 msgstr ""
+"När du skalar något beräknas varje bildpunkt i resultatet genom att <link "
+"linkend=\"glossary-interpolation\">interpolera</link> flera bildpunkter i "
+"källbilden. Det här alternativet anger standardmetoden för interpolering: du"
+" kan dock alltid ändra den under Interpolering i verktygsalternativen för "
+"transformeringsverktygen."
 
 #: src/dialogs/prefs-tool-options.xml:97(para)
 msgid ""
@@ -3575,23 +3582,24 @@ msgid ""
 "linkend=\"gimp-tool-interpolation-methods\">Interpolation</link> "
 "documentation of the Transform tools."
 msgstr ""
+"De tillgängliga interpoleringsmetoderna beskrivs närmare i dokumentationen "
+"om <link linkend=\"gimp-tool-interpolation-methods\">interpolering</link> "
+"för transformeringsverktygen."
 
 #: src/dialogs/prefs-tool-options.xml:107(title)
 msgid "Paint Options Shared Between Tools"
-msgstr ""
+msgstr "Målningsalternativ som delas av verktyg"
 
 #: src/dialogs/prefs-tool-options.xml:109(term)
-#, fuzzy
 #| msgid "Brushes"
 msgid "Brush"
-msgstr "Penslar"
+msgstr "Pensel"
 
 #: src/dialogs/prefs-tool-options.xml:110(term)
 msgid "Dynamics"
-msgstr ""
+msgstr "Dynamik"
 
 #: src/dialogs/prefs-tool-options.xml:111(term)
-#, fuzzy
 #| msgid "Patterns"
 msgid "Pattern"
 msgstr "Mönster"
@@ -3605,10 +3613,9 @@ msgid "Gradient"
 msgstr "Gradient"
 
 #: src/dialogs/prefs-tool-options.xml:113(term)
-#, fuzzy
 #| msgid "Layers"
 msgid "Expand Layers"
-msgstr "Lager"
+msgstr "Expandera lager"
 
 #: src/dialogs/prefs-tool-options.xml:115(para)
 msgid ""
@@ -3617,14 +3624,18 @@ msgid ""
 "(pencil, paintbrush, airbrush, etc) should remember the item that was last "
 "used for it specifically."
 msgstr ""
+"Här kan du välja om ett byte av pensel och liknande för ett verktyg ska "
+"gälla för alla verktyg, eller om varje verktyg (penna, målarpensel, "
+"färgspruta och så vidare) ska komma ihåg det objekt som senast användes för "
+"just det verktyget."
 
 #: src/dialogs/prefs-tool-options.xml:126(title)
 msgid "Move Tool"
-msgstr ""
+msgstr "Flyttningsverktyg"
 
 #: src/dialogs/prefs-tool-options.xml:128(term)
 msgid "Set layer or path as active"
-msgstr ""
+msgstr "Ange lager eller bana som aktiv"
 
 #: src/dialogs/prefs-tool-options.xml:130(para)
 msgid ""
@@ -3632,6 +3643,10 @@ msgid ""
 "change which layers or paths are selected. When you enable this setting, the"
 " layer or path you are moving is set as the active layer or path."
 msgstr ""
+"Som standard ändrar <link linkend=\"gimp-tool-"
+"move\">flyttningsverktyget</link> inte vilka lager eller banor som är "
+"markerade. Om du aktiverar den här inställningen blir lagret eller banan du "
+"flyttar aktiv."
 
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.

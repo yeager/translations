@@ -369,8 +369,6 @@ argumentet betyder i just det programmet.
 
 | Engelska | Rekommenderad svenska | Anmärkning |
 |---|---|---|
-| accessible object | tillgängligt objekt | Skriv inte bara *den tillgängliga*; avser AT-SPI-objektet. |
-| accessible role | tillgänglighetsroll | |
 | header / heading | rubrik | Använd inte *huvud* i den här betydelsen. |
 | chart | diagram | |
 | viewport | visningsområde | |
@@ -1052,3 +1050,33 @@ Bevara standardiserade namn och identifierare som `sRGB`, `Adobe RGB`, `D50`, `D
 | tool group | verktygsgrupp | Grupp av verktyg i verktygslådan. |
 | drag-and-drop | dra och släpp | Beskriver hur en bild eller ett objekt flyttas med pekaren. |
 | long-click | långklicka | Håll musknappen nedtryckt en stund, till exempel för att välja ett verktyg i en grupp. |
+
+## GIMP Help — verktygsalternativ
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| Tool Options | Verktygsalternativ | Etablerad svensk GIMP-etikett för verktygens inställningar. |
+| Tool Options Preferences | Inställningar för verktygsalternativ | Rubrik för GIMP-sidan med dessa inställningar. |
+| Scaling | Skalning | Avsnittsrubrik för skalningsinställningar. |
+| Default interpolation | Standardinterpolering | Inställningen som väljer metod för bildpunkter vid skalning. |
+| interpolation | interpolering | Beräkning av värden mellan befintliga bildpunkter. |
+| Paint Options Shared Between Tools | Målningsalternativ som delas av verktyg | Använd samma formulering som i GIMP-gränssnittet. |
+| Brush | Pensel | Singular när en enskild penselresurs avses; pluralformen är *Penslar* för dialogrubriken. |
+| Dynamics | Dynamik | GIMP-inställning/resurs som påverkar hur penseldrag varierar. |
+| Expand Layers | Expandera lager | GIMP-inställning; använd den etablerade imperativformen från gränssnittet. |
+| Move Tool | Flyttningsverktyg | Etablerad svensk GIMP-term; skriv *flyttningsverktyget* i löptext. |
+| airbrush | färgspruta | GIMP:s svenska UI-term; använd den även när verktyget nämns i hjälptext. |
+| layer dock | lagerdocka | Dockningsområdet med lagerdialogen; böj *lagerdockan*. |
+
+## GNOME — hjälpmedel och a11y
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| accessibility (a11y) | hjälpmedel | Använd denna term när källan avser stöd för personer som använder hjälpmedel. Skriv inte *tillgänglighet* i den här betydelsen; behåll *tillgänglig* när det betyder att något kan nås eller användas. |
+| accessible (a11y) | hjälpmedels- | Använd som förled i tekniska termer, till exempel *hjälpmedelsroll* och *hjälpmedelsnamn*. I löptext kan *hjälpmedelsobjekt* vara tydligare. |
+| accessible role | hjälpmedelsroll | AT-SPI-egenskap; använd samma term i UI, dokumentation och API-beskrivningar. |
+| accessible object | hjälpmedelsobjekt | Objekt som representeras i hjälpmedelsträdet; använd detta i stället för *tillgänglighetsobjekt* eller *åtkomlig komponent*. |
+| accessible name | hjälpmedelsnamn | Namn som exponeras för hjälpmedel via AT-SPI. |
+| accessible description | hjälpmedelsbeskrivning | Beskrivning som exponeras för hjälpmedel via AT-SPI. |
+| accessibility support | hjälpmedelsstöd | Stöd i ett program för hjälpmedel och hjälpmedelsteknik. |
+| assistive technology | hjälpmedel | Använd *hjälpmedel* i naturlig användartext; välj en mer specifik term endast när tekniken behöver särskiljas. |

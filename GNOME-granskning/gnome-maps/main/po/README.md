@@ -9,3 +9,7 @@
 - **TM-stöd:** GNOME TM användes för att kontrollera bland annat `Timezone` → `Tidszon`, `Current timezone` → `Aktuell tidszon`, `Map color scheme` → `Kartans färgschema` och `Plus Code` → `Plus Code`. Tidigare dåliga träffar rättades där sammanhanget visade att de var fel, exempelvis `Light` → `Ljust` (inte `Flyg`) och `Imperial` → `Brittiskt`.
 - **Inskickning:** ingen. Den här granskningen är lokal; inget har skickats till Damned Lies.
 - **Översättarmetadata:** Daniel Nylander <gnome@danielnylander.se>, 2026-11-27 12:00+0100.
+
+## A11y-terminologi, 2026-11-28
+
+`Accessibility` ändrades från *Åtkomlighet* till *Hjälpmedel*. Den aktuella POT-filen har 561 poster. Aktuell nedladdad PO: 527 översatta, 8 fuzzy och 26 tomma; aktivitetsidan visar 535/8/18. l10n-lint: 0 fel/varningar; Hunspell: inga anmärkningar. Katalogen är ofullständig mot senaste POT, därför kördes inte `msgfmt`. Ändringen skickades inte till GNOME. Se `gnome-maps-main-a11y-terminology-2026-11-28.diff`.

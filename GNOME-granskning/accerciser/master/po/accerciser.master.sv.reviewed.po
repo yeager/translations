@@ -26,13 +26,13 @@ msgstr "Accerciser"
 
 #: accerciser.desktop.in:3
 msgid "Give your application an accessibility workout"
-msgstr "Testa tillgängligheten i ditt program"
+msgstr "Sätt programmets hjälpmedelsstöd på prov"
 
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
 #: accerciser.desktop.in:5
 msgid "accessibility;development;test;"
-msgstr "hjälpmedel;tillgänglighet;utveckling;test;"
+msgstr "hjälpmedel;utveckling;test;"
 
 #: org.a11y.Accerciser.gschema.xml:6
 msgid "A list of plugins that are disabled by default"
@@ -48,7 +48,8 @@ msgstr "Markeringslängd"
 
 #: org.a11y.Accerciser.gschema.xml:12
 msgid "The duration of the highlight box when selecting accessible nodes."
-msgstr "Hur länge markeringsrutan visas när tillgänglighetsobjekt markeras."
+msgstr ""
+"Hur länge markeringsrutan visas när du markerar noder i hjälpmedelsträdet."
 
 #: org.a11y.Accerciser.gschema.xml:16
 msgid "Highlight fill color"
@@ -178,9 +179,9 @@ msgid ""
 "technologies and automated test frameworks."
 msgstr ""
 "Accerciser är en interaktiv Python-hjälpmedelsutforskare för GNOME-"
-"skrivbordet. Det använder AT-SPI för att inspektera och kontrollera "
-"gränssnittskomponenter, vilket låter dig se om ett program tillhandahåller "
-"riktig information till hjälpmedelstekniker och automatiserade testramverk."
+"skrivbordet. Det använder AT-SPI för att inspektera och styra "
+"gränssnittskomponenter, så att du kan kontrollera om ett program ger korrekt"
+" information till hjälpmedel och automatiserade testramverk."
 
 #: org.gtk.accerciser.metainfo.xml.in:20
 msgid ""
@@ -196,7 +197,7 @@ msgstr "API-bläddrare"
 
 #: plugins/api_view.py:35
 msgid "Browse the various methods of the current accessible"
-msgstr "Bläddra bland metoderna för det aktuella tillgänglighetsobjektet"
+msgstr "Bläddra bland olika metoder för det aktuella hjälpmedelsobjektet"
 
 #: plugins/api_view.py:66
 msgid "Hide private attributes"
@@ -221,7 +222,7 @@ msgstr "IPython-konsol"
 #: plugins/console.py:35
 msgid "Interactive console for manipulating currently selected accessible"
 msgstr ""
-"Interaktiv konsol för att arbeta med det markerade tillgänglighetsobjektet"
+"Interaktiv konsol för att arbeta med det markerade hjälpmedelsobjektet"
 
 #: plugins/event_monitor.ui:57
 msgid "Event monitor"
@@ -258,7 +259,7 @@ msgstr "Markerat program"
 
 #: plugins/event_monitor.ui:386
 msgid "Selected accessible"
-msgstr "Markerad åtkomlig komponent"
+msgstr "Markerat hjälpmedelsobjekt"
 
 #: plugins/event_monitor.ui:407
 msgid "Source"
@@ -379,7 +380,7 @@ msgstr "Relationer"
 
 #: plugins/interface_view.ui:665
 msgid "_Accessible"
-msgstr "_Tillgänglighetsobjekt"
+msgstr "_Hjälpmedelsobjekt"
 
 #: plugins/interface_view.ui:726
 msgid "Key binding"
@@ -730,16 +731,15 @@ msgstr "Snabbväljare"
 
 #: plugins/quick_select.py:18
 msgid "Plugin with various methods of selecting accessibles quickly."
-msgstr ""
-"Insticksmodul med olika metoder för att snabbt välja tillgänglighetsobjekt."
+msgstr "Instick med olika metoder för att snabbt välja hjälpmedelsobjekt."
 
 #: plugins/quick_select.py:24
 msgid "Inspect last focused accessible"
-msgstr "Inspektera det senast fokuserade tillgänglighetsobjektet"
+msgstr "Inspektera det senast fokuserade hjälpmedelsobjektet"
 
 #: plugins/quick_select.py:28
 msgid "Inspect accessible under mouse"
-msgstr "Inspektera tillgänglighetsobjektet under muspekaren"
+msgstr "Inspektera hjälpmedelsobjektet under muspekaren"
 
 #: plugins/validate.ui:43
 msgid "Sche_ma:"
@@ -767,7 +767,7 @@ msgstr "AT-SPI-validerare"
 
 #: plugins/validate.py:171
 msgid "Validates application accessibility"
-msgstr "Validerar programmets tillgänglighet"
+msgstr "Kontrollerar programmets hjälpmedelsstöd"
 
 #. log level column
 #. add level to buffer
@@ -818,7 +818,7 @@ msgstr "Grundläggande"
 
 #: plugindata/validate/basic.py:9
 msgid "Tests fundamental GUI application accessibility"
-msgstr "Testar grundläggande tillgänglighet i grafiska program"
+msgstr "Testar grundläggande hjälpmedelsstöd i grafiska program"
 
 #: plugindata/validate/basic.py:28
 #, python-format
@@ -972,7 +972,7 @@ msgstr "Skift"
 
 #: src/lib/accerciser/main_window.py:44
 msgid "Accerciser Accessibility Explorer"
-msgstr "Accerciser – tillgänglighetsutforskare"
+msgstr "Accerciser – hjälpmedelsutforskare"
 
 #: src/lib/accerciser/main_window.py:74
 msgid "Top panel"

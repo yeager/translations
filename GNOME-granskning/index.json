@@ -5,14 +5,14 @@
       "branch": "master",
       "kind": "Gränssnitt",
       "status": "Klar lokalt",
-      "date": "2026-11-26",
+      "date": "2026-11-28",
       "path": "accerciser/master/po",
       "original": "accerciser.master.sv.original.po",
       "reviewed": "accerciser.master.sv.reviewed.po",
       "diff": "accerciser.master.sv.review.diff",
       "report": "README.md",
       "activity": "https://l10n.gnome.org/vertimus/accerciser/master/po/sv/",
-      "note": "Alla 255 strängar radgranskade mot senaste POT (2026-11-25): 0 oöversatta och 0 fuzzy. 59 befintliga översättningar rättade, inga nya strängar. msgfmt, msgcmp och l10n-lint utan fel eller varningar; Hunspell-undantag och formatkontroller dokumenterade. Ingen GNOME-inskickning har gjorts."
+      "note": "Alla 255 poster är fortfarande 100 % mot senaste POT. Den 2026-11-28 granskades och rättades dessutom 14 a11y-strängar: accessibility-termer använder hjälpmedel, och accessible-objekt/roller benämns hjälpmedelsobjekt/hjälpmedelsroll. l10n-lint 0 fel/varningar; Hunspell flaggade endast produkt-/protokollnamnen Accerciser och AT-SPI. msgfmt och msgcmp godkända. Ingen ny GNOME-inskickning."
     },
     {
       "module": "accountsservice — AccountsService",
@@ -148,29 +148,29 @@
       "module": "at-spi2-core",
       "branch": "gnome-51",
       "kind": "Gränssnitt",
-      "status": "Klar och inskickad",
-      "date": "2026-11-27",
+      "status": "Terminologiuppdatering lokalt; ej inskickad",
+      "date": "2026-11-28",
       "path": "at-spi2-core/gnome-51/po",
       "original": "at-spi2-core.gnome-51.sv.original.po",
       "reviewed": "at-spi2-core.gnome-51.sv.reviewed.po",
       "diff": "at-spi2-core.gnome-51.sv.review.diff",
       "report": "README.md",
       "activity": "https://l10n.gnome.org/vertimus/at-spi2-core/gnome-51/po/sv/",
-      "note": "Alla 176 strängar radgranskade mot senaste POT; 0 oöversatta och 0 fuzzy. 46 befintliga översättningar korrigerade; inga nya strängar. msgcmp, msgfmt, l10n-lint, Hunspell-sv och egen formatkontroll godkända. Inskickad 2026-11-27 med ”Granskad och klar”; aktivitetssidan och sammanfogad PO bekräftar 176/0/0."
+      "note": "Alla 176 poster är 100 % mot senaste POT. Den tidigare inskickade filen behöver uppdateras med 23 lokala a11y-terminologikorrigeringar, bland annat Accessible Role → Hjälpmedelsroll. l10n-lint 0 fel/varningar; MDI är dokumenterad Hunspell-förkortning. msgfmt och msgcmp godkända. Ingen uppdatering har skickats till GNOME."
     },
     {
       "module": "at-spi2-core",
       "branch": "main",
       "kind": "Gränssnitt",
       "status": "Klar lokalt",
-      "date": "2026-11-24",
+      "date": "2026-11-28",
       "path": "at-spi2-core/main/po",
       "original": "at-spi2-core.main.sv.original.po",
       "reviewed": "at-spi2-core.main.sv.reviewed.po",
       "diff": "at-spi2-core.main.sv.review.diff",
       "report": "README.md",
       "activity": "https://l10n.gnome.org/vertimus/at-spi2-core/main/po/sv/",
-      "note": "Senaste POT har 176 poster; alla är radgranskade, 0 oöversatta och 0 fuzzy. 46 befintliga översättningar har rättats. msgfmt, msgcmp, l10n-lint och Hunspell-sv är godkända; egen formatkontroll passerar. Ingen GNOME-inskickning har gjorts."
+      "note": "Alla 176 poster är 100 % mot senaste POT. Den 2026-11-28 rättades terminologin i 23 befintliga a11y-strängar, bland annat Accessible Role → Hjälpmedelsroll. l10n-lint 0 fel/varningar; MDI är dokumenterad Hunspell-förkortning. msgfmt och msgcmp godkända. Inget skickat till GNOME."
     },
     {
       "module": "atk",
@@ -2646,14 +2646,20 @@
       "module": "gnome-control-center",
       "branch": "main",
       "kind": "Gränssnitt",
-      "status": "Klar lokalt",
-      "date": "2026-11-23",
+      "status": "Behöver arbete",
+      "date": "2026-11-28",
       "path": "gnome-control-center/main/po",
       "original": "gnome-control-center.main.sv.original.po",
       "reviewed": "gnome-control-center.main.sv.reviewed.po",
       "diff": "gnome-control-center.main.sv.review.diff",
       "report": "README.md",
-      "note": "Aktuell GNOME Git-katalog har 2 149 aktiva strängar, 0 oöversatta och 0 fuzzy. Nordiska acceleratorer, procentformat och PIN-intervall är rättade; msgfmt och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts."
+      "note": "Aktuell POT har 2 172 poster. Nedladdad aktuell PO visar 2 115 översatta, 27 fuzzy och 31 tomma; aktivitetssidan visar 2 140/27/5. A11y-sökorden förenklades till hjälpmedel och Tillgänglighet/Accessibility togs bort som a11y-synonymer. l10n-lint 0 fel/varningar; Hunspell-undantag dokumenterar AccessX, a11y och Mustangenter. Katalogen är inte komplett mot senaste POT; msgfmt kördes inte och inget skickades.",
+      "activity": "https://l10n.gnome.org/vertimus/gnome-control-center/main/po/sv/",
+      "latest_pot": {
+        "path": "live-main-latest.pot",
+        "sha256": "bc67e3677a3be684b9679f8808d34c703cfe1be1183377d6649ef201ceba5cbb",
+        "creation_date": "2026-11-27 15:50+0000"
+      }
     },
     {
       "module": "gnome-desktop",
@@ -2905,18 +2911,18 @@
       "module": "gnome-maps",
       "branch": "main",
       "kind": "Gränssnitt",
-      "status": "Klar lokalt",
-      "date": "2026-11-27",
+      "status": "Behöver arbete",
+      "date": "2026-11-28",
       "path": "gnome-maps/main/po",
       "original": "gnome-maps.main.sv.original.po",
       "reviewed": "gnome-maps.main.sv.reviewed.po",
       "diff": "gnome-maps.main.sv.review.diff",
       "report": "README.md",
-      "note": "Radgranskad mot senaste POT (2026-11-24 08:49+0000): 558/558 översatta, 0 fuzzy och 0 oöversatta. 16 nya översättningar, 7 fuzzy-strängar omarbetade och 89 befintliga rättningar (112 ändrade PO-poster). msgcmp, msgfmt, platshållar- och acceleratorjämförelse godkända; l10n-lint-varningarna för fm/em är dokumenterade. Inte inskickad till GNOME.",
+      "note": "Aktuell POT (2026-11-28) har 561 poster. Den nedladdade aktuella PO-filen visar 527 översatta, 8 fuzzy och 26 tomma; aktivitetssidan visar 535/8/18. A11y-etiketten Accessibility rättades lokalt till Hjälpmedel. l10n-lint 0 fel/varningar; Hunspell utan anmärkningar. Katalogen är inte komplett mot senaste POT; msgfmt kördes inte och inget skickades.",
       "latest_pot": {
-        "path": "gnome-maps/main/po/gnome-maps.main.pot",
-        "sha256": "3c32757ef658f156b0cbf089a9ba3802dd692d0dd4ea79b494d3602cf1b3ef31",
-        "creation_date": "2026-11-24 08:49+0000"
+        "path": "live-main-latest.pot",
+        "sha256": "65105a2be7e7ebacc6e52975c15c86ab5c422eecf0af68f068f48a079aea64b4",
+        "creation_date": "2026-11-27 21:31+0000"
       },
       "activity": "https://l10n.gnome.org/vertimus/gnome-maps/main/po/sv/"
     },
@@ -3725,14 +3731,14 @@
       "module": "gtk",
       "branch": "main",
       "kind": "Gränssnitt",
-      "status": "Klar och inskickad",
-      "date": "2026-11-27",
+      "status": "Behöver arbete; a11y-term korrigerad lokalt",
+      "date": "2026-11-28",
       "path": "gtk/main/po",
       "original": "gtk.main.sv.original.po",
       "reviewed": "gtk.main.sv.reviewed.po",
       "diff": "gtk.main.sv.review.diff",
       "report": "README.md",
-      "note": "1 830/1 830 strängar radgranskade mot senaste POT. 22 nya översättningar, 188 befintliga strängar rättade (16 fuzzy), 0 fuzzy och 0 oöversatta. msgcmp, msgfmt, l10n-lint och kontroller av platshållare, pluralformer, markup, radbrytningar och acceleratorer godkända; Hunspell-undantag dokumenterade. Inskickad via Damned Lies API 2026-11-27 12:53 UTC med kommentaren ”Granskad och klar”; aktivitetsfilens sammanslagna katalog verifierad 1 830/0/0. Statistik-endpointen visar tillfälligt den äldre baslinjen 1 792/16/22.",
+      "note": "A11y-terminologin i den lokala granskade filen rättades 2026-11-28 (Show Accessibility warnings → Visa hjälpmedelsvarningar). Den nedladdade aktuella PO-filen har 1 789 översatta, 16 fuzzy och 25 tomma av 1 830; aktivitetssidan visar 1 792/16/22. Statusskillnaden är dokumenterad; katalogen är inte markerad klar. Ingen ny inskickning.",
       "activity": "https://l10n.gnome.org/vertimus/gtk/main/po/sv/"
     },
     {
@@ -5960,7 +5966,7 @@
       "diff": "progress.diff",
       "report": "README.md",
       "activity": "https://l10n.gnome.org/vertimus/gimp-help/master/dialogs/sv/",
-      "note": "285 poster radgranskade mot senaste POT (2026-11-28): 250 tidigare tomma strängar översatta och 35 fuzzy-poster granskade/rättade. Arbetsfilen har 556 översatta, 799 fuzzy och 2 052 tomma poster; 1 990 användarsynliga strängar samt 62 icke-översättbara @@image-poster återstår. Batch 8–10 har 0 l10n-lint-fel/varningar och 0 markup-/platshållaravvikelser. Katalogen är inte färdig och har inte skickats in."
+      "note": "309 poster radgranskade mot senaste POT (2026-11-28): 269 tidigare tomma strängar översatta och 40 fuzzy-poster granskade (39 rättade, 1 behölls). Arbetsfilen har 580 översatta, 794 fuzzy och 2 033 tomma poster; 1 971 användarsynliga strängar samt 62 icke-översättbara @@image-poster återstår. Batch 8–11 har 0 l10n-lint-fel/varningar och 0 markup-/platshållaravvikelser. Katalogen är inte färdig och har inte skickats in."
     },
     {
       "module": "swell-foop",

@@ -1,5 +1,5 @@
---- a/accerciser.master.sv.original.po
-+++ b/accerciser.master.sv.reviewed.po
+--- accerciser.master.sv.original.po
++++ accerciser.master.sv.reviewed.po
 @@ -10,8 +10,8 @@
  "Project-Id-Version: accerciser\n"
  "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/accerciser/issues/\n"
@@ -16,14 +16,16 @@
  #: accerciser.desktop.in:3
  msgid "Give your application an accessibility workout"
 -msgstr "Ge ditt program en omgång hjälpmedelsfunktioner"
-+msgstr "Testa tillgängligheten i ditt program"
- 
+-
 -#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
++msgstr "Sätt programmets hjälpmedelsstöd på prov"
++
 +#. Translators: Search terms to find this application. Do NOT translate or
 +#. localize the semicolons! The list MUST also end with a semicolon!
  #: accerciser.desktop.in:5
  msgid "accessibility;development;test;"
- msgstr "hjälpmedel;tillgänglighet;utveckling;test;"
+-msgstr "hjälpmedel;tillgänglighet;utveckling;test;"
++msgstr "hjälpmedel;utveckling;test;"
  
  #: org.a11y.Accerciser.gschema.xml:6
  msgid "A list of plugins that are disabled by default"
@@ -37,12 +39,13 @@
  
  #: org.a11y.Accerciser.gschema.xml:11
  msgid "Highlight duration"
-@@ -47,15 +48,15 @@
+@@ -47,15 +48,16 @@
  
  #: org.a11y.Accerciser.gschema.xml:12
  msgid "The duration of the highlight box when selecting accessible nodes."
 -msgstr "Tidslängden för markeringsrutan när åtkomliga noder markeras."
-+msgstr "Hur länge markeringsrutan visas när tillgänglighetsobjekt markeras."
++msgstr ""
++"Hur länge markeringsrutan visas när du markerar noder i hjälpmedelsträdet."
  
  #: org.a11y.Accerciser.gschema.xml:16
  msgid "Highlight fill color"
@@ -56,7 +59,7 @@
  
  #: org.a11y.Accerciser.gschema.xml:21
  msgid "Highlight border color"
-@@ -71,7 +72,7 @@
+@@ -71,7 +73,7 @@
  
  #: org.a11y.Accerciser.gschema.xml:27
  msgid "Position of the horizontal split of the main window."
@@ -65,7 +68,7 @@
  
  #: org.a11y.Accerciser.gschema.xml:31
  msgid "Vertical split"
-@@ -79,7 +80,7 @@
+@@ -79,7 +81,7 @@
  
  #: org.a11y.Accerciser.gschema.xml:32
  msgid "Position of the vertical split of the main window."
@@ -74,7 +77,7 @@
  
  #: org.a11y.Accerciser.gschema.xml:36
  msgid "Default window height"
-@@ -103,7 +104,7 @@
+@@ -103,7 +105,7 @@
  
  #: org.a11y.Accerciser.gschema.xml:52
  msgid "The layout for the bottom panel pluginview."
@@ -83,7 +86,7 @@
  
  #: org.a11y.Accerciser.gschema.xml:56
  msgid "The layout for the top panel"
-@@ -111,31 +112,31 @@
+@@ -111,31 +113,31 @@
  
  #: org.a11y.Accerciser.gschema.xml:57
  msgid "The layout for the top panel pluginview."
@@ -122,7 +125,7 @@
  
  #: org.a11y.Accerciser.gschema.xml:78
  msgid "Window height"
-@@ -155,11 +156,11 @@
+@@ -155,11 +157,11 @@
  
  #: org.a11y.Accerciser.gschema.xml:90
  msgid "Hotkey combination"
@@ -136,25 +139,38 @@
  
  #: org.gtk.accerciser.metainfo.xml.in:9 org.gtk.accerciser.metainfo.xml.in:11
  msgid "The GNOME Project"
-@@ -195,7 +196,7 @@
+@@ -177,9 +179,9 @@
+ "technologies and automated test frameworks."
+ msgstr ""
+ "Accerciser är en interaktiv Python-hjälpmedelsutforskare för GNOME-"
+-"skrivbordet. Det använder AT-SPI för att inspektera och kontrollera "
+-"gränssnittskomponenter, vilket låter dig se om ett program tillhandahåller "
+-"riktig information till hjälpmedelstekniker och automatiserade testramverk."
++"skrivbordet. Det använder AT-SPI för att inspektera och styra "
++"gränssnittskomponenter, så att du kan kontrollera om ett program ger korrekt"
++" information till hjälpmedel och automatiserade testramverk."
+ 
+ #: org.gtk.accerciser.metainfo.xml.in:20
+ msgid ""
+@@ -195,7 +197,7 @@
  
  #: plugins/api_view.py:35
  msgid "Browse the various methods of the current accessible"
 -msgstr "Bläddra bland olika metoder för aktuell åtkomlig komponent"
-+msgstr "Bläddra bland metoderna för det aktuella tillgänglighetsobjektet"
++msgstr "Bläddra bland olika metoder för det aktuella hjälpmedelsobjektet"
  
  #: plugins/api_view.py:66
  msgid "Hide private attributes"
-@@ -220,7 +221,7 @@
+@@ -220,7 +222,7 @@
  #: plugins/console.py:35
  msgid "Interactive console for manipulating currently selected accessible"
  msgstr ""
 -"Interaktiv konsol för manipulering av aktuell markerad åtkomlig komponent"
-+"Interaktiv konsol för att arbeta med det markerade tillgänglighetsobjektet"
++"Interaktiv konsol för att arbeta med det markerade hjälpmedelsobjektet"
  
  #: plugins/event_monitor.ui:57
  msgid "Event monitor"
-@@ -228,7 +229,7 @@
+@@ -228,7 +230,7 @@
  
  #: plugins/event_monitor.ui:114
  msgid "_Monitor Events"
@@ -163,7 +179,16 @@
  
  #: plugins/event_monitor.ui:161 plugins/interface_view.ui:2005
  #: plugins/validate.ui:199 src/lib/accerciser/plugin/message.py:293
-@@ -281,7 +282,7 @@
+@@ -257,7 +259,7 @@
+ 
+ #: plugins/event_monitor.ui:386
+ msgid "Selected accessible"
+-msgstr "Markerad åtkomlig komponent"
++msgstr "Markerat hjälpmedelsobjekt"
+ 
+ #: plugins/event_monitor.ui:407
+ msgid "Source"
+@@ -281,7 +283,7 @@
  
  #: plugins/event_monitor.py:55
  msgid "Shows events as they occur from selected types and sources"
@@ -172,7 +197,7 @@
  
  #: plugins/event_monitor.py:65
  msgid "Highlight last event entry"
-@@ -297,7 +298,7 @@
+@@ -297,7 +299,7 @@
  
  #: plugins/event_monitor.py:477
  msgid "Save monitor output"
@@ -181,7 +206,7 @@
  
  #: plugins/event_monitor.py:480 plugins/validate.py:318
  #: src/lib/accerciser/plugin/view.py:1135
-@@ -310,7 +311,7 @@
+@@ -310,7 +312,7 @@
  
  #: plugins/interface_view.ui:116
  msgid "Child count"
@@ -190,16 +215,16 @@
  
  #: plugins/interface_view.ui:135 plugins/interface_view.ui:367
  #: plugins/interface_view.ui:1177 plugins/interface_view.ui:1430
-@@ -378,7 +379,7 @@
+@@ -378,7 +380,7 @@
  
  #: plugins/interface_view.ui:665
  msgid "_Accessible"
 -msgstr "_Åtkomlig komponent"
-+msgstr "_Tillgänglighetsobjekt"
++msgstr "_Hjälpmedelsobjekt"
  
  #: plugins/interface_view.ui:726
  msgid "Key binding"
-@@ -386,7 +387,7 @@
+@@ -386,7 +388,7 @@
  
  #: plugins/interface_view.ui:780
  msgid "Perform action"
@@ -208,7 +233,7 @@
  
  #: plugins/interface_view.ui:811
  msgid "Acti_on"
-@@ -432,7 +433,7 @@
+@@ -432,7 +434,7 @@
  
  #: plugins/interface_view.ui:1069
  msgid "Parent relative position"
@@ -217,7 +242,7 @@
  
  #: plugins/interface_view.ui:1100 plugins/interface_view.ui:1784
  msgid "Size"
-@@ -530,11 +531,11 @@
+@@ -530,11 +532,11 @@
  
  #: plugins/interface_view.ui:2136
  msgid "Caption:"
@@ -231,7 +256,7 @@
  
  #: plugins/interface_view.ui:2247
  msgid "Rows"
-@@ -572,7 +573,7 @@
+@@ -572,7 +574,7 @@
  #. How many columns the cell spans.
  #: plugins/interface_view.ui:2515 plugins/interface_view.ui:2628
  msgid "Extents:"
@@ -240,7 +265,7 @@
  
  #: plugins/interface_view.ui:2553 plugins/interface_view.ui:2737
  msgid "Row"
-@@ -592,11 +593,11 @@
+@@ -592,11 +594,11 @@
  
  #: plugins/interface_view.ui:2797
  msgid "Row span"
@@ -254,7 +279,7 @@
  
  #: plugins/interface_view.ui:2858
  msgid "Row headers"
-@@ -620,7 +621,7 @@
+@@ -620,7 +622,7 @@
  
  #: plugins/interface_view.ui:3140
  msgid "Caret Offset"
@@ -263,7 +288,7 @@
  
  #: plugins/interface_view.ui:3199
  msgid "Offset"
-@@ -650,15 +651,15 @@
+@@ -650,15 +652,15 @@
  
  #: plugins/interface_view.ui:3446
  msgid "Minimum value"
@@ -282,7 +307,7 @@
  
  #: plugins/interface_view.ui:3548
  msgid "Val_ue"
-@@ -676,7 +677,7 @@
+@@ -676,7 +678,7 @@
  #. Translators: this is a plugin description
  #: plugins/interface_view.py:49
  msgid "Allows viewing of various interface properties"
@@ -291,7 +316,7 @@
  
  #: plugins/interface_view.py:245
  msgid "(not implemented)"
-@@ -697,7 +698,7 @@
+@@ -697,7 +699,7 @@
  
  #: plugins/interface_view.py:1079
  msgid "Too many selectable children"
@@ -300,23 +325,22 @@
  
  #: plugins/interface_view.py:1548 plugins/interface_view.py:1551
  msgid "(Editable)"
-@@ -729,15 +730,16 @@
+@@ -729,15 +731,15 @@
  
  #: plugins/quick_select.py:18
  msgid "Plugin with various methods of selecting accessibles quickly."
 -msgstr "Instick med olika metoder för att välja åtkomliga komponenter snabbt."
-+msgstr ""
-+"Insticksmodul med olika metoder för att snabbt välja tillgänglighetsobjekt."
++msgstr "Instick med olika metoder för att snabbt välja hjälpmedelsobjekt."
  
  #: plugins/quick_select.py:24
  msgid "Inspect last focused accessible"
 -msgstr "Inspektera senaste fokuserad åtkomlig komponent"
-+msgstr "Inspektera det senast fokuserade tillgänglighetsobjektet"
++msgstr "Inspektera det senast fokuserade hjälpmedelsobjektet"
  
  #: plugins/quick_select.py:28
  msgid "Inspect accessible under mouse"
 -msgstr "Inspektera åtkomlig komponent under muspekare"
-+msgstr "Inspektera tillgänglighetsobjektet under muspekaren"
++msgstr "Inspektera hjälpmedelsobjektet under muspekaren"
  
  #: plugins/validate.ui:43
  msgid "Sche_ma:"
@@ -325,7 +349,7 @@
  #: plugins/validate.py:171
  msgid "Validates application accessibility"
 -msgstr "Validerar hjälpmedel i program"
-+msgstr "Validerar programmets tillgänglighet"
++msgstr "Kontrollerar programmets hjälpmedelsstöd"
  
  #. log level column
  #. add level to buffer
@@ -334,7 +358,7 @@
  #: plugindata/validate/basic.py:9
  msgid "Tests fundamental GUI application accessibility"
 -msgstr "Testar grundläggande hjälpmedel i grafiska program"
-+msgstr "Testar grundläggande tillgänglighet i grafiska program"
++msgstr "Testar grundläggande hjälpmedelsstöd i grafiska program"
  
  #: plugindata/validate/basic.py:28
  #, python-format
@@ -368,9 +392,10 @@
  #, python-format
  msgid "Missing reciprocal for %s relation"
 -msgstr "Saknar mottagare för %s-förhållande"
-+msgstr "Den omvända relationen saknas för %s"
- 
+-
 -#. Translators: The first variable is the role name of the object that is missing
++msgstr "Den omvända relationen saknas för %s"
++
 +#. Translators: The first variable is the role name of the object that is
 +#. missing
  #. the name or label.
@@ -445,7 +470,7 @@
  #: src/lib/accerciser/main_window.py:44
  msgid "Accerciser Accessibility Explorer"
 -msgstr "Accerciser hjälpmedelsutforskare"
-+msgstr "Accerciser – tillgänglighetsutforskare"
++msgstr "Accerciser – hjälpmedelsutforskare"
  
  #: src/lib/accerciser/main_window.py:74
  msgid "Top panel"

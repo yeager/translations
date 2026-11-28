@@ -10,3 +10,7 @@
 - Hunspell-svenska: inga uppenbara stavfel i ändringarna. Ordboken markerar produktnamnet `Accerciser`, projektets fackterm `insticksmodul` med böjningar, `nederpanelen` och acceleratorordet `vervaka`; dessa är rimliga undantag.
 - Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-26.
 - GNOME-inskick: inget — enligt arbetsinstruktionen.
+
+## A11y-terminologi, 2026-11-28
+
+Efter den fullständiga granskningen rättades 14 strängar mot aktuell svensk terminologi: *accessibility* återges med *hjälpmedel*, och *accessible object* med *hjälpmedelsobjekt*. `Accessible Role` i relaterade AT-SPI-kataloger är *hjälpmedelsroll*. l10n-lint rapporterade 0 fel/varningar; Hunspell flaggade endast produktnamnet `Accerciser` och protokollnamnet `AT-SPI`. `msgfmt --check --check-format` och `msgcmp --use-fuzzy` godkändes mot aktuell POT. Inget skickades till GNOME. Korrigeringsdiff: `accerciser-master-a11y-terminology-2026-11-28.diff`; den tidigare granskade PO-versionen finns i Git-historiken (dd0a70a52205).
