@@ -2131,7 +2131,7 @@ msgstr ""
 
 #: src/dialogs/symmetry-painting.xml:169(term)
 msgid "Tiling"
-msgstr ""
+msgstr "Plattläggning"
 
 #: src/dialogs/symmetry-painting.xml:171(para)
 msgid ""
@@ -2139,16 +2139,21 @@ msgid ""
 " a maximum of strokes) or infinite. In the latter case, it is the perfect "
 "tool to create patterns or seamless tiles."
 msgstr ""
+"<quote>Plattläggning</quote> är en translationssymmetri som kan vara ändlig "
+"(med ett högsta antal penseldrag) eller oändlig. Det senare är ett utmärkt "
+"sätt att skapa mönster eller sömlösa plattor."
 
 #: src/dialogs/symmetry-painting.xml:178(title)
 msgid "The Symmetry Tiling Dialog"
-msgstr ""
+msgstr "Dialogrutan Symmetriplattläggning"
 
 #: src/dialogs/symmetry-painting.xml:186(para)
 msgid ""
 "This mode covers the image with strokes at regular distances on the X and Y "
 "axis."
 msgstr ""
+"Det här läget täcker bilden med penseldrag med jämna mellanrum längs X- och "
+"Y-axeln."
 
 #: src/dialogs/symmetry-painting.xml:191(title)
 #, fuzzy
@@ -2203,11 +2208,11 @@ msgstr ""
 
 #: src/dialogs/symmetry-painting.xml:231(term)
 msgid "Mandala"
-msgstr ""
+msgstr "Mandala"
 
 #: src/dialogs/symmetry-painting.xml:234(title)
 msgid "The Symmetry Mandala Dialog"
-msgstr ""
+msgstr "Dialogrutan Symmetrimandala"
 
 #: src/dialogs/symmetry-painting.xml:242(para)
 msgid "Strokes are drawn around the center determined by the options below."
@@ -2267,26 +2272,26 @@ msgstr "Exempel"
 
 #: src/dialogs/symmetry-painting.xml:301(para)
 msgid "Pepper brush is selected. Pencil is used."
-msgstr ""
+msgstr "Penseln Pepper är markerad. Pennan används."
 
 #: src/dialogs/symmetry-painting.xml:306(term)
 msgid "Example for Mirror"
-msgstr ""
+msgstr "Exempel på spegling"
 
 #: src/dialogs/symmetry-painting.xml:309(title)
 msgid "Vertical Symmetry"
-msgstr ""
+msgstr "Vertikal symmetri"
 
 #: src/dialogs/symmetry-painting.xml:316(para)
 #: src/dialogs/symmetry-painting.xml:376(para)
 msgid "A single click"
-msgstr ""
+msgstr "Ett enstaka klick"
 
 #: src/dialogs/symmetry-painting.xml:327(para)
 #: src/dialogs/symmetry-painting.xml:357(para)
 #: src/dialogs/symmetry-painting.xml:387(para)
 msgid "A stroke"
-msgstr ""
+msgstr "Ett penseldrag"
 
 #: src/dialogs/symmetry-painting.xml:336(term)
 #, fuzzy
@@ -2295,11 +2300,11 @@ msgstr "Samplingspunkt"
 
 #: src/dialogs/symmetry-painting.xml:346(para)
 msgid "A single click. Shift = 20."
-msgstr ""
+msgstr "Ett enstaka klick. Skift = 20."
 
 #: src/dialogs/symmetry-painting.xml:366(term)
 msgid "Example for Mandala"
-msgstr ""
+msgstr "Exempel på mandala"
 
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
@@ -2344,6 +2349,12 @@ msgid ""
 "a link that opens the <guilabel>Export Image</guilabel> dialog. Please see "
 "<xref linkend=\"save-export-image\"/>."
 msgstr ""
+"Kommandot <guimenuitem>Spara</guimenuitem> sparar bilden på disk i XCF-"
+"format. Använd kommandot <guimenuitem>Exportera</guimenuitem> för andra "
+"bildfilformat. Om du försöker spara i ett annat format än XCF visas ett "
+"felmeddelande. Dialogrutan med felmeddelandet innehåller en länk som öppnar "
+"dialogrutan <guilabel>Exportera bild</guilabel>. Se <xref linkend=\"save-"
+"export-image\"/>."
 
 #: src/dialogs/save-file-dialog.xml:25(para)
 msgid ""
@@ -2351,6 +2362,9 @@ msgid ""
 "with the current version. If you have not already saved the image, the "
 "<guimenuitem>Save</guimenuitem> command opens the Save Image dialog."
 msgstr ""
+"Om du redan har sparat bilden ersätts den tidigare bildfilen med den "
+"aktuella versionen. Om du inte har sparat bilden tidigare öppnar kommandot "
+"<guimenuitem>Spara</guimenuitem> dialogrutan Spara bild."
 
 #: src/dialogs/save-file-dialog.xml:32(para)
 msgid ""
@@ -2378,6 +2392,8 @@ msgid ""
 "or from the keyboard by using the shortcut "
 "<keycombo><keycap>Ctrl</keycap><keycap>S</keycap></keycombo>."
 msgstr ""
+"eller med kortkommandot "
+"<keycombo><keycap>Ctrl</keycap><keycap>S</keycap></keycombo>."
 
 #: src/dialogs/save-file-dialog.xml:65(para)
 msgid ""
@@ -2385,6 +2401,8 @@ msgid ""
 "<keycombo><keycap>Ctrl</keycap><keycap>Shift</keycap><keycap>S</keycap></keycombo>"
 " to save the opened image with a different name."
 msgstr ""
+"Spara den öppnade bilden med ett annat namn genom att trycka på "
+"<keycombo><keycap>Ctrl</keycap><keycap>Shift</keycap><keycap>S</keycap></keycombo>."
 
 #: src/dialogs/save-file-dialog.xml:75(title)
 #, fuzzy
@@ -2408,7 +2426,7 @@ msgstr ""
 #: src/dialogs/save-file-dialog.xml:84(title)
 #: src/dialogs/export-file-dialog.xml:61(title)
 msgid "Select File Type"
-msgstr ""
+msgstr "Välj filtyp"
 
 #: src/dialogs/save-file-dialog.xml:85(para)
 msgid ""
@@ -2459,6 +2477,11 @@ msgid ""
 " at the same time. Another important difference is that the values of these "
 "points are changed in real time as you are working on the image."
 msgstr ""
+"Verktyget <link linkend=\"gimp-tool-color-picker\">Färgväljare</link> visar "
+"färginformation för en pixel, medan dialogrutan "
+"<quote>Samplingspunkter</quote> samtidigt kan visa data för fyra pixlar i "
+"det aktiva lagret eller bilden. En annan viktig skillnad är att värdena för "
+"punkterna uppdateras medan du arbetar med bilden."
 
 #: src/dialogs/sample-points.xml:40(para)
 #, fuzzy
@@ -2494,6 +2517,11 @@ msgid ""
 "intersect. You can see its coordinates in the lower left corner of the "
 "status area at the bottom. Release the mouse button."
 msgstr ""
+"Håll ned <keycap>Ctrl</keycap> om du vill skapa en samplingspunkt, klicka på"
+" en av bildfönstrets två måttlinjaler och dra muspekaren. Två vinkelräta "
+"hjälplinjer visas. Samplingspunkten hamnar där hjälplinjerna korsas. "
+"Koordinaterna visas längst ned till vänster i statusområdet. Släpp "
+"musknappen."
 
 #: src/dialogs/sample-points.xml:84(para)
 msgid ""

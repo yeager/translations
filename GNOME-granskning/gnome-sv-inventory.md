@@ -1,13 +1,13 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-28 10:41 UTC. Endast grenarna `main`, `master` och `gnome-51` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-28 10:46 UTC. Endast grenarna `main`, `master` och `gnome-51` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
 - Kataloger: 575
-- Behöver arbete enligt GNOME: 118
-- Oöversatta strängar: 20,024
-- Fuzzy-strängar: 3,617
+- Behöver arbete enligt GNOME: 119
+- Oöversatta strängar: 20,027
+- Fuzzy-strängar: 3,630
 
 **GNOME-status (uppströms)** visar den aktuella externa Damned Lies-statusen och kan därför stå kvar på **Behöver arbete** tills en inskickad uppdatering har behandlats. **Klar lokalt** visar `X` endast när den arkiverade, mot senaste POT kontrollerade filen är helt översatt och fuzzy-fri. **Ändringar** är antalet ändrade aktiva PO-poster i den arkiverade granskningen; uppströmsstatistiken kan dröja tills uppladdningen har behandlats av Damned Lies.
 
@@ -373,7 +373,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Typ | Kategori | Modul | Gren | Översatta | Fuzzy | Oöversatta | GNOME-status (uppströms) | Klar lokalt | Ändringar | Lokal granskning |
 |---|---|---|---|---:|---:|---:|---|:---:|---:|---|
 | Dokumentation | Default (71% translated) | [gtkmm-documentation](https://l10n.gnome.org/vertimus/gtkmm-documentation/master/tutorial/sv/) | master | 0 | 0 | 2303 | Behöver arbete |  | — | Ej granskad |
-| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/dialogs/sv/) | master | 271 | 834 | 2302 | Behöver arbete |  | 175 | Granskning pågår (2026-11-28): 175 strängar radgranskade mot senaste POT; 156 tomma översatta och 19 fuzzy granskade. Fortsatt arbete: 2 084 synliga strängar återstår (samt 62 @@image-metadata). Inte färdig och inte inskickad. [original](gimp-help/master/dialogs/gimp-help.master.dialogs.sv.original-current-2026-11-28.po), [granskad](gimp-help/master/dialogs/gimp-help.master.dialogs.sv.reviewed-current-2026-11-28.po), [diff](gimp-help/master/dialogs/progress.diff), [notering](gimp-help/master/dialogs/README.md) |
+| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/dialogs/sv/) | master | 271 | 834 | 2302 | Behöver arbete |  | 195 | Granskning pågår (2026-11-28): 195 strängar radgranskade mot senaste POT; 176 tomma översatta och 19 fuzzy granskade. Fortsatt arbete: 2 064 synliga strängar återstår (samt 62 @@image-metadata). Inte färdig och inte inskickad. [original](gimp-help/master/dialogs/gimp-help.master.dialogs.sv.original-current-2026-11-28.po), [granskad](gimp-help/master/dialogs/gimp-help.master.dialogs.sv.reviewed-current-2026-11-28.po), [diff](gimp-help/master/dialogs/progress.diff), [notering](gimp-help/master/dialogs/README.md) |
 | Dokumentation | Default (71% translated) | [orca](https://l10n.gnome.org/vertimus/orca/main/help/sv/) | main | 21 | 490 | 723 | Behöver arbete |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/menus~colors/sv/) | master | 16 | 42 | 534 | Behöver arbete |  | 147 | Klar lokalt (2026-11-22): Alla användarvisade färgmenyposter är lokalt översatta och fuzzy-fria; endast uttryckligen icke-översättbara bildhashar återstår. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/menus~colors/gimp-help.master.menus-colors.sv.original.po), [granskad](gimp-help/master/menus~colors/gimp-help.master.menus-colors.sv.reviewed.po), [diff](gimp-help/master/menus~colors/gimp-help.master.menus-colors.sv.review.diff), [notering](gimp-help/master/menus~colors/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/filters~map/sv/) | master | 14 | 65 | 483 | Behöver arbete |  | 275 | Klar lokalt (2026-11-22): Alla användarvisade kartfilterposter är lokalt översatta och fuzzy-fria. Bildhashar och den historiska revisionsmarkören är icke-användarvisade undantag. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/filters~map/gimp-help.master.filters-map.sv.original.po), [granskad](gimp-help/master/filters~map/gimp-help.master.filters-map.sv.reviewed.po), [diff](gimp-help/master/filters~map/gimp-help.master.filters-map.sv.review.diff), [notering](gimp-help/master/filters~map/README.md) |
@@ -401,6 +401,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [xkeyboard-config — XKeyboard-Config](https://l10n.gnome.org/vertimus/xkeyboard-config/master/po/sv/) | master | 1312 | 3 | 4 | Behöver arbete |  | — | Blockerad (2026-11-26): Damned Lies markerar modulen som skrivskyddad och anger att översättning inte kan skickas in via DL. Modulen hanteras externt (freedesktop.org); DL-sidan ber plattformskoordinatorerna uppdatera arkivets URL. |
 | Gränssnitt | Default (99% translated) | [nautilus](https://l10n.gnome.org/vertimus/nautilus/main/po/sv/) | main | 1149 | 26 | 3 | Behöver arbete |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [orca](https://l10n.gnome.org/vertimus/orca/main/po/sv/) | main | 1878 | 14 | 3 | Behöver arbete |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [papers](https://l10n.gnome.org/vertimus/papers/main/po/sv/) | main | 477 | 13 | 3 | Behöver arbete |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-music](https://l10n.gnome.org/vertimus/gnome-music/main/help/sv/) | main | 69 | 3 | 3 | Behöver arbete |  | 4 | Klar och inskickad (2026-11-23): Aktuell 73-strängarskatalog: två oöversatta och två fuzzy-poster är rättade. msgfmt och msgcmp är felfria; l10n-lint har 0 fel och en produktnamnsvarning. Inskickad till DL 2026-11-23 med kommentaren ”Granskad och klar”. Tidigare uppladdning med kommentaren ”Granskad och klar” verifierades på Damned Lies aktivitetssida 2026-11-23; filen skickas inte om. [original](gnome-music/main/help/gnome-music.main.help.sv.original.po), [granskad](gnome-music/main/help/gnome-music.main.help.sv.reviewed.po), [diff](gnome-music/main/help/gnome-music.main.help.sv.review.diff), [notering](gnome-music/main/help/README.md) |
 | Gränssnitt | Default (99% translated) | [niepce](https://l10n.gnome.org/module/niepce/) | main | 55 | 0 | 3 | Behöver arbete |  | 7 | Blockerad (2026-11-28): Damned Lies säger att modulen är arkiverad, endast behålls för statistik och uttryckligen inte längre ska översättas. Aktuell statistik 55/0/3 av 58. Ingen komplettering eller omgranskning gjord. Se blocker-2026-11-28.json. |
 | Gränssnitt | Default (99% translated) | [gstreamer](https://l10n.gnome.org/vertimus/gstreamer/main/plugins-base/sv/) | main | 236 | 1 | 1 | Behöver arbete |  | — | Blockerad (2026-11-28): Damned Lies markerar komponenten skrivskyddad: översättningar kan inte skickas via DL och hanteras externt. Aktivitetssidan ber plattformskoordinatorerna uppdatera arkivets URL men namnger inte den externa plattformen. Statistik 236/1/1 av 238. Ingen översättning markerad färdig. Se blocker-2026-11-28.json. |
@@ -569,7 +570,6 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [orca](https://l10n.gnome.org/vertimus/orca/gnome-51/po/sv/) | gnome-51 | 1878 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [orca](https://l10n.gnome.org/vertimus/orca/gnome-51/help/sv/) | gnome-51 | 1031 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [pan](https://l10n.gnome.org/vertimus/pan/master/help/sv/) | master | 442 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [papers](https://l10n.gnome.org/vertimus/papers/main/po/sv/) | main | 472 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [papers](https://l10n.gnome.org/vertimus/papers/gnome-51/po/sv/) | gnome-51 | 472 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [papers](https://l10n.gnome.org/vertimus/papers/gnome-51/help/sv/) | gnome-51 | 486 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [papers](https://l10n.gnome.org/vertimus/papers/main/help/sv/) | main | 486 | 0 | 0 | Klar |  | — | Ej granskad |
