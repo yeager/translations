@@ -4,11 +4,11 @@ Senast uppdaterad: 2026-11-28
 Källrevision: `1d07105b760c73093145526a51758938e87cc658`
 Lokalise-projekt: `130246255a974bd3b5e8a1.51616605`
 
-## Senaste batch: 75 497–75 616
+## Senaste batch: 75 617–75 736
 
-120 strängar radgranskade (71 direkta källmatchningar, 49 verifierade referenser); 111 tidigare rapporterade, 9 nyare nycklar granskade nu. 20 unika nycklar i intervallet ändrades (17 API-sparningar, inklusive två förfiningar, och 5 automatiskt uppdaterade referenser) samt ett Glances-referensmål retroaktivt. Se [2026-11-28-reviewed-core-75497-75616.md](2026-11-28-reviewed-core-75497-75616.md). HA-TM uppdaterades för 121 Lokalise-ID.
+120 strängar radgranskade (110 direkta källmatchningar, 10 verifierade referenser); 46 hade tidigare granskningsspår och 74 var nya/utan tidigare rapportspår. 21 unika nycklar ändrades via API och lästes tillbaka; fyra formuleringar förfinades efter första readback. Se [2026-11-28-reviewed-core-75617-75736.md](2026-11-28-reviewed-core-75617-75736.md). HA-TM manifest innehåller 126 ägar-/referensmålposter; canonical har 40 994 poster, varav 40 763 Lokalise-ID och 231 äldre källnycklar.
 
-Nästa position: **75 617**. **2 040** positioner återstår av aktuell nyckelinventering; granskningen pågår.
+Nästa position: **75 737**. **1 920** positioner återstår av aktuell nyckelinventering; granskningen pågår.
 
 ## Öppna uppföljningar
 
