@@ -1,0 +1,68 @@
+{
+  "language": "sv_SE",
+  "review_date": "2026-11-28",
+  "module": "gimp-help/master/filters~distort",
+  "method": "Hunspell kördes på användarsynlig text efter borttagning av DocBook-taggar, bildmetadata, URL:er, filnamn, hashvärden och standardiserade färg-/filformatnamn. Samtliga kvarvarande signaler kontrollerades i PO-kontext.",
+  "unknown_tokens": [
+    "-100",
+    "-25",
+    "-60",
+    "-läge",
+    "-punkt",
+    "-simulering",
+    "bend",
+    "bild-",
+    "cirkularitet",
+    "curve",
+    "fiskögeobjektiv",
+    "förgrunds-",
+    "gråkanalen",
+    "hexa",
+    "indatans",
+    "indatatyp",
+    "kalejdoskopeffekt",
+    "kurvböjning",
+    "kurvtyp",
+    "layer",
+    "linsdistortion",
+    "mörkheten",
+    "nypmängd",
+    "nypmängden",
+    "okta",
+    "omsamplingsmetod",
+    "posterisera",
+    "ritytan.",
+    "sfärkalottens",
+    "sidkrusning",
+    "sömlösheten",
+    "värdepropagering",
+    "översamplingsfaktor"
+  ],
+  "exceptions": [
+    {
+      "tokens": "Curve_bend_dummy_layer_b",
+      "reason": "Källmarkerat internt lager-ID; bevarat exakt."
+    },
+    {
+      "tokens": "-100, -25, -60, tal- och enhetsfragment",
+      "reason": "Talvärden och uppdelningar i samband med tekniska exempel."
+    },
+    {
+      "tokens": "bild-, förgrunds-",
+      "reason": "Avstavade svenska sammansättningar vid PO-radbrytning."
+    },
+    {
+      "tokens": "cirkularitet, fiskögeobjektiv, indatans, indatatyp, kalejdoskopeffekt, kurvböjning, linsdistortion, mörkheten, nypmängd/nypmängden, omsamplingsmetod, posterisera, ritytan, sfärkalottens, sidkrusning, sömlösheten, värdepropagering, översamplingsfaktor",
+      "reason": "Korrekt svensk fackterminologi, böjning eller sammansättning i GIMP:s filterdokumentation."
+    },
+    {
+      "tokens": "hexa, okta",
+      "reason": "Grekrötter i källans förklaring av hexagoner och oktagoner."
+    },
+    {
+      "tokens": "CMY, PSSquare, bend/curve/layer",
+      "reason": "Färgmodell, rastermönster och oförändrat tekniskt namn i internt identifierarvärde."
+    }
+  ],
+  "unresolved_spelling_errors": 0
+}
