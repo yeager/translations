@@ -4,11 +4,11 @@ Senast uppdaterad: 2026-11-28
 Källrevision: `1d07105b760c73093145526a51758938e87cc658`
 Lokalise-projekt: `130246255a974bd3b5e8a1.51616605`
 
-## Senaste batch: 73 457–73 576
+## Senaste batch: 73 577–73 696
 
-120 poster radgranskade; samtliga är LIFX-referenser till 120 mål. Alla engelska och svenska värden matchar; inga textändringar behövdes. En uppföljning kvarstår kring om `Holidays > Independence` ska preciseras till självständighetsdagen. Se [batchrapporten](2026-11-28-reviewed-core-73457-73576.md).
+120 poster radgranskade; samtliga är LIFX-referenser till 120 mål. 13 initiala avvikelser synkroniserades genom 12 ägartexter och tre gemensamma mål; alla engelska och svenska värden matchar efter API-readback. Se [batchrapporten](2026-11-28-reviewed-core-73577-73696.md).
 
-Nästa position: **73 577**. **4 080** positioner återstår av aktuell nyckelinventering; granskningen pågår.
+Nästa position: **73 697**. **3 960** positioner återstår av aktuell nyckelinventering; granskningen pågår.
 
 ## Öppna uppföljningar
 
@@ -18,4 +18,4 @@ Nästa position: **73 577**. **4 080** positioner återstår av aktuell nyckelin
 - Govee `Marquee`-leverantörskontext; SOFAR-dubbla mjukstartsetiketter; Teslemetry saknad källtext.
 - LIFX `Holidays > Independence`: kontrollera om det avsedda scenamnet syftar på USA:s självständighetsdag innan eventuell precisering.
 
-Senaste rapport: `2026-11-28-reviewed-core-73457-73576.md`.
+Senaste rapport: `2026-11-28-reviewed-core-73577-73696.md`.
