@@ -1,0 +1,707 @@
+--- evolution-data-server.gnome-51.sv.original.po
++++ evolution-data-server.gnome-51.sv.reviewed.po
+@@ -17,8 +17,8 @@
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/evolution-data-server/"
+ "issues/\n"
+ "POT-Creation-Date: 2026-11-27 09:00+0000\n"
+-"PO-Revision-Date: 2026-08-23 23:45+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-28 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -27,35 +27,47 @@
+ "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+ "X-Generator: Poedit 3.9\n"
+ 
+-#. Translators: The first “%s” is replaced with an account name and the second “%s”
+-#. is replaced with a full path name. The spaces around “:” are intentional, as
++#. Translators: The first “%s” is replaced with an account name and the second
++#. “%s”
++#. is replaced with a full path name. The spaces around “:” are intentional,
++#. as
+ #. the whole “%s : %s” is meant as an absolute identification of the folder.
+ #: src/camel/camel-folder.c:509
+ #, c-format
+ msgid "Learning new spam message in “%s : %s”"
+ msgid_plural "Learning new spam messages in “%s : %s”"
+-msgstr[0] "Lär om nytt skräppostmeddelande i ”%s : %s”"
+-msgstr[1] "Lär om nya skräppostmeddelanden i ”%s : %s”"
+-
+-#. Translators: The first “%s” is replaced with an account name and the second “%s”
+-#. is replaced with a full path name. The spaces around “:” are intentional, as
++msgstr[0] ""
++"Tränar skräppostfiltret på det nya skräppostmeddelandet i ”%s : %s”"
++msgstr[1] ""
++"Tränar skräppostfiltret på de nya skräppostmeddelandena i ”%s : %s”"
++
++#. Translators: The first “%s” is replaced with an account name and the second
++#. “%s”
++#. is replaced with a full path name. The spaces around “:” are intentional,
++#. as
+ #. the whole “%s : %s” is meant as an absolute identification of the folder.
+ #: src/camel/camel-folder.c:552
+ #, c-format
+ msgid "Learning new ham message in “%s : %s”"
+ msgid_plural "Learning new ham messages in “%s : %s”"
+-msgstr[0] "Lär om nytt icke-skräppostmeddelande i ”%s : %s”"
+-msgstr[1] "Lär om nya icke-skräppostmeddelanden i ”%s : %s”"
+-
+-#. Translators: The first “%s” is replaced with an account name and the second “%s”
+-#. is replaced with a full path name. The spaces around “:” are intentional, as
++msgstr[0] ""
++"Tränar skräppostfiltret på det nya meddelandet som inte är skräppost i ”%s :"
++" %s”"
++msgstr[1] ""
++"Tränar skräppostfiltret på de nya meddelandena som inte är skräppost i ”%s :"
++" %s”"
++
++#. Translators: The first “%s” is replaced with an account name and the second
++#. “%s”
++#. is replaced with a full path name. The spaces around “:” are intentional,
++#. as
+ #. the whole “%s : %s” is meant as an absolute identification of the folder.
+ #: src/camel/camel-folder.c:600
+ #, c-format
+ msgid "Filtering new message in “%s : %s”"
+ msgid_plural "Filtering new messages in “%s : %s”"
+-msgstr[0] "Filtrerar nytt meddelande i ”%s : %s”"
+-msgstr[1] "Filtrerar nya meddelanden i ”%s : %s”"
++msgstr[0] "Filtrerar det nya meddelandet i ”%s : %s”"
++msgstr[1] "Filtrerar de nya meddelandena i ”%s : %s”"
+ 
+ #: data/org.gnome.evolution-data-server.addressbook.gschema.xml.in:5
+ msgid "Contact UID of a user"
+@@ -63,59 +75,62 @@
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:13
+ msgid "Birthday and anniversary reminder"
+-msgstr "Påminnelser för födelsedagar och jubileum"
++msgstr "Påminnelse om födelsedagar och jubileer"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:14
+ msgid "Whether to set a reminder for birthdays and anniversaries"
+-msgstr "Huruvida en påminnelse ska sättas för födelsedagar och jubileum"
++msgstr "Om en påminnelse ska ställas in för födelsedagar och jubileer"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:18
+ msgid "Birthday and anniversary reminder value"
+-msgstr "Påminnelsevärde för födelsedagar och jubileum"
++msgstr "Värde för påminnelser om födelsedagar och jubileer"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:19
+ msgid "Number of units for determining a birthday or anniversary reminder"
+ msgstr ""
+-"Antal enheter för att avgöra en påminnelse för födelsedagar eller jubileum"
++"Antal enheter för att bestämma påminnelsetid för en födelsedag eller ett "
++"jubileum"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:23
+ msgid "Birthday and anniversary reminder units"
+-msgstr "Påminnelseenhet för födelsedagar och jubileum"
++msgstr "Enheter för påminnelser om födelsedagar och jubileer"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:24
+ msgid ""
+ "Units for a birthday or anniversary reminder, “minutes”, “hours” or “days”"
+ msgstr ""
+-"Enhet för påminnelse för födelsedagar och jubileum, ”minutes” (minuter), "
++"Enheter för påminnelser om födelsedagar och jubileer: ”minutes” (minuter), "
+ "”hours” (timmar) eller ”days” (dagar)"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:28
+ msgid "Default reminder for all events in chosen calendars"
+-msgstr "Standardpåminnelse för alla evenemang i valda kalendrar"
++msgstr "Standardpåminnelse för alla händelser i valda kalendrar"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:29
+-msgid "Whether to show a specified reminder for all events in chosen calendars"
++msgid ""
++"Whether to show a specified reminder for all events in chosen calendars"
+ msgstr ""
+-"Huruvida en angiven påminnelse ska visas för alla evenemang i valda kalendrar"
++"Om en angiven påminnelse ska visas för alla händelser i valda kalendrar"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:33
+ msgid "Interval of the default reminder for all events in chosen calendars"
+-msgstr "Intervall för standardpåminnelsen för alla evenemang i valda kalendrar"
++msgstr ""
++"Intervall för standardpåminnelsen för alla händelser i valda kalendrar"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:34
+ msgid "Number of units for determining the reminder"
+-msgstr "Antal enheter för att avgöra påminnelsen"
++msgstr "Antal enheter för att bestämma påminnelsetiden"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:38
+ msgid "Units of the default reminder for all events in chosen calendars"
+-msgstr "Enheter för standardpåminnelsen för alla evenemang i valda kalendrar"
++msgstr "Enheter för standardpåminnelsen för alla händelser i valda kalendrar"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:39
+ msgid ""
+ "Units for the default reminder for all events in chosen calendars, "
+ "“minutes”, “hours” or “days”"
+ msgstr ""
+-"Enhet för standardpåminnelsen för alla evenemang i valda kalendrar, "
++"Enheter för standardpåminnelsen för alla händelser i valda kalendrar: "
+ "”minutes” (minuter), ”hours” (timmar) eller ”days” (dagar)"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:44
+@@ -124,7 +139,7 @@
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:48
+ msgid "Snoozed reminders for EReminderWatcher"
+-msgstr "Slumrade påminnelser för EReminderWatcher"
++msgstr "Uppskjutna påminnelser för EReminderWatcher"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:52
+ msgid ""
+@@ -132,9 +147,9 @@
+ "days are automatically removed from the list of the past reminders. Use '0' "
+ "to not remove old reminders."
+ msgstr ""
+-"Hur många dagar som reminders-past kan behållas. Påminnelser äldre än detta "
+-"antal dagar tas automatiskt bort från listan över tidigare påminnelser. "
+-"Använd ”0” för att inte ta bort gamla påminnelser."
++"Hur många dagar påminnelserna i reminders-past ska sparas. Äldre påminnelser"
++" tas automatiskt bort från listan. Ange '0' om gamla påminnelser inte ska "
++"tas bort."
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:57
+ msgid "Reminder programs"
+@@ -142,7 +157,7 @@
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:58
+ msgid "Programs that are allowed to be run by reminders"
+-msgstr "Program som tillåts att köras av påminnelser"
++msgstr "Program som påminnelser får starta"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:62
+ msgid "Enable desktop notifications"
+@@ -150,7 +165,8 @@
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:63
+ msgid "When set to true, the desktop/system notifications are shown"
+-msgstr "När satt till true (sant) visas skrivbords/systemaviseringarna"
++msgstr ""
++"När värdet är true (sant) visas aviseringar på skrivbordet och i systemet"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:67
+ msgid "Enable audio notifications"
+@@ -161,62 +177,60 @@
+ "When set to true, the audio reminders will be played, otherwise audio "
+ "reminders will be silently ignored"
+ msgstr ""
+-"När inställt till true (sant), kommer ljudpåminnelser spelas, annars kommer "
+-"ljudpåminnelser tyst ignoreras"
++"När värdet är true (sant) spelas ljudpåminnelser upp. Annars ignoreras de "
++"utan ljud."
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:72
+ msgid "Show reminders in notification tray only"
+-msgstr "Visa påminnelser endast i aviseringsytan"
++msgstr "Visa endast påminnelser i aviseringsfältet"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:73
+ msgid ""
+ "When set to true, the reminders are shown only in the notification tray, "
+ "otherwise the reminders dialog is shown immediately"
+ msgstr ""
+-"När satt till true (sant), visas påminnelserna bara i aviseringsytan, i "
+-"annat fall visas påminnelsedialogen omedelbart"
++"När värdet är true (sant) visas påminnelser endast i aviseringsfältet. "
++"Annars visas påminnelsedialogen direkt."
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:77
+ msgid "Show reminder notification dialog always on top"
+-msgstr "Visa alltid aviseringsdialog för påminnelser överst"
++msgstr "Visa alltid påminnelsedialogen överst"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:78
+ msgid ""
+-"Whether or not to show reminder notification dialog always on top. Note this "
+-"works only as a hint for the window manager, which may or may not obey it."
++"Whether or not to show reminder notification dialog always on top. Note this"
++" works only as a hint for the window manager, which may or may not obey it."
+ msgstr ""
+-"Huruvida aviseringsdialog för påminnelser alltid ska visas överst. Observera "
+-"att detta endast är ett förslag till fönsterhanteraren, som kan välja att "
+-"följa detta eller inte."
++"Om påminnelsedialogen alltid ska visas överst. Detta är bara en anvisning "
++"till fönsterhanteraren, som kan välja att följa den eller inte."
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:82
+ msgid "X position of the reminder notification dialog"
+-msgstr "X-positionen för påminnelseaviseringsdialogen"
++msgstr "Påminnelsedialogens X-position"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:86
+ msgid "Y position of the reminder notification dialog"
+-msgstr "Y-positionen för påminnelseaviseringsdialogen"
++msgstr "Påminnelsedialogens Y-position"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:90
+ msgid "Width of the reminder notification dialog"
+-msgstr "Bredden på påminnelseaviseringsdialogen"
++msgstr "Påminnelsedialogens bredd"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:94
+ msgid "Height of the reminder notification dialog"
+-msgstr "Höjden på påminnelseaviseringsdialogen"
++msgstr "Påminnelsedialogens höjd"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:98
+ msgid "Size in pixels of the event list in the reminder notification dialog"
+-msgstr ""
+-"Storlek i bildpunkter för evenemangslistan i påminnelseaviseringsdialogen"
++msgstr "Händelselistan i påminnelsedialogens storlek i bildpunkter"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:102
+ msgid "Show reminder notification for completed tasks"
+-msgstr "Visa påminnelseaviseringar för färdiga uppgifter"
++msgstr "Visa påminnelser för slutförda uppgifter"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:106
+ msgid "Show reminder notification for past events"
+-msgstr "Visa påminnelseaviseringar för redan inträffade evenemang"
++msgstr "Visa påminnelser för passerade händelser"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:110
+ msgid ""
+@@ -224,17 +238,17 @@
+ "start, otherwise the actual value is used in conjunction with “notify-last-"
+ "snooze-from-start”"
+ msgstr ""
+-"Den senast använda slumringstiden i minuter. Negativa tal betyder alltid "
+-"innan start, annars används det faktiska värdet tillsammans med ”notify-last-"
+-"snooze-from-start”"
++"Senast använda uppskjutningstid i minuter. Ett negativt värde betyder alltid"
++" före start. Annars används värdet tillsammans med ”notify-last-snooze-from-"
++"start”."
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:114
+ msgid ""
+-"Whether the last snooze time is calculated relative to the event/task start; "
+-"false to count relative to the current time"
++"Whether the last snooze time is calculated relative to the event/task start;"
++" false to count relative to the current time"
+ msgstr ""
+-"Huruvida den senaste slumringstiden beräknas relativt till evenemangets/"
+-"uppgiftens start. Falskt för att räkna relativt till aktuell tid"
++"Om den senaste uppskjutningstiden räknas från händelsens eller uppgiftens "
++"start. Värdet false innebär att tiden räknas från nu."
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:118
+ msgid ""
+@@ -243,18 +257,18 @@
+ "with a star, then it means after start, otherwise the time is relative to "
+ "the current time, aka “snooze for N minutes”"
+ msgstr ""
+-"Användardefinierade slumringstider i minuter, kodat i sträng som ett tal, "
+-"där noll eller negativa tal betyder ”innan start”. När talet föregås av en "
+-"stjärna betyder det efter start, annars är tiden relativ till aktuell tid, "
+-"d.v.s. ”slumra i N minuter”"
++"Användardefinierade uppskjutningstider i minuter, lagrade som tal i en "
++"sträng. Noll eller negativa värden betyder ”före start”. Om talet inleds med"
++" en asterisk betyder det efter start. Annars räknas tiden från nu, alltså "
++"”skjut upp i N minuter”."
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:122
+ msgid "Delete meeting from calendar on Decline"
+-msgstr "Ta bort sammanträde från kalender vid avslag"
++msgstr "Ta bort mötet från kalendern när det avböjs"
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:5
+ msgid "An absolute path where the gpg (or gpg2) binary is"
+-msgstr "En absolut sökväg där gpg-binären (eller gpg2-binären) finns"
++msgstr "Absolut sökväg till den körbara filen gpg (eller gpg2)"
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:6
+ msgid ""
+@@ -262,52 +276,53 @@
+ "is set, then it will be searched for. Change requires restart of the "
+ "application."
+ msgstr ""
+-"Ett exempel är ”/usr/bin/gpg”; om det inte fylls i eller har ett felaktigt "
+-"värde, så letas det efter. Ändring kräver omstart av programmet."
++"Exempel: ”/usr/bin/gpg”. Om fältet lämnas tomt eller innehåller en ogiltig "
++"sökväg söks filen efter automatiskt. Ändringen kräver att programmet startas"
++" om."
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:10
+ msgid "Whether to load photos of signers/encrypters"
+-msgstr "Huruvida foton för signerare/krypterare ska läsas in"
++msgstr "Om foton på undertecknare och krypterare ska läsas in"
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:11
+ msgid ""
+ "When set to “true”, tries to load also photo of the signers/encrypters, if "
+ "available in the key/certificate."
+ msgstr ""
+-"När satt till ”true” (sant) kommer även foto för signerarna/krypterarna "
+-"försöka läsas in, om tillgängligt i nyckeln/certifikatet."
++"Om värdet är ”true” försöker programmet även läsa in foton på undertecknare "
++"och krypterare, om de finns i nyckeln eller certifikatet."
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:15
+ msgid "Override SMTP HELO/EHLO argument"
+-msgstr "Åsidosätt SMTP HELO/EHLO-argument"
++msgstr "Åsidosätt SMTP-argumentet HELO/EHLO"
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:16
+ msgid ""
+ "When not empty, it's used as the SMTP HELO/EHLO argument, instead of the "
+ "local host name/IP."
+ msgstr ""
+-"När inte tom används den som SMTP HELO/EHLO-argument, i stället för det "
+-"lokala värdnamnet/IP."
++"Om fältet inte är tomt används värdet som SMTP-argument för HELO/EHLO i "
++"stället för det lokala värdnamnet eller IP-adressen."
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:20
+ msgid "Array of user header names"
+-msgstr "Vektor av användarrubriknamn"
++msgstr "Lista över användardefinierade rubriknamn"
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:21
+ msgid ""
+-"These headers can be stored in the folder summary, possibly being visible in "
+-"the GUI. The value can contain a pipe character ('|'), which delimits the "
++"These headers can be stored in the folder summary, possibly being visible in"
++" the GUI. The value can contain a pipe character ('|'), which delimits the "
+ "display name from the header name. Example: 'Spam Score|X-Spam-Score'"
+ msgstr ""
+-"Dessa rubriker kan lagras i mappsammanfattningen, eventuellt synliga i det "
+-"grafiska användargränssnittet. Värdet kan innehålla ett rörtecken (”|”), "
+-"vilket skiljer visningsnamnet från rubriknamnet. Exempel: 'Spam Score|X-Spam-"
+-"Score'"
++"Rubrikerna kan lagras i mappöversikten och eventuellt visas i det grafiska "
++"gränssnittet. Värdet kan innehålla ett lodstreck ('|') som skiljer "
++"visningsnamnet från rubriknamnet. Exempel: 'Spam Score|X-Spam-Score'"
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:25
+ msgid "GIO name of the GNetworkMonitor to use for an ENetworkMonitor instance"
+ msgstr ""
+-"GIO-namn för GNetworkMonitor som ska användas för en ENetworkMonitor-instans"
++"GIO-namn på den GNetworkMonitor som ska användas för en ENetworkMonitor-"
++"instans"
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:26
+ msgid ""
+@@ -315,9 +330,8 @@
+ "the background. A special value “always-online” is used for no network "
+ "monitoring."
+ msgstr ""
+-"När satt till ett okänt värde används den GNetworkMonitor som är standard i "
+-"backgrunden. Specialvärdet ”always-online” används för ingen "
+-"nätverksövervakning."
++"Om värdet är okänt används standardinstansen av GNetworkMonitor i "
++"bakgrunden. Specialvärdet ”always-online” stänger av nätverksövervakningen."
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:30
+ msgid ""
+@@ -332,27 +346,26 @@
+ "This directory, if filled with an existing path, is checked additionally to "
+ "XDG configure directories."
+ msgstr ""
+-"Om denna katalog innehåller en existerande sökväg kontrolleras även denna "
+-"utöver XDG-kataloger för konfiguration."
++"Om katalogen anges med en befintlig sökväg kontrolleras den också, utöver "
++"XDG:s konfigurationskataloger."
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:35
+ msgid "A list of variables which can be part of the autoconfig .source files"
+-msgstr ""
+-"En lista över variabler som kan vara del av .source-filerna för autoconfig"
++msgstr "Lista över variabler som kan ingå i autoconfig-.source-filer"
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:36
+ msgid ""
+ "Each item of the array is expected to be of the form: name=value. These "
+-"variables are checked before environment variables, but after the predefined "
+-"USER, REALNAME and HOST variables."
++"variables are checked before environment variables, but after the predefined"
++" USER, REALNAME and HOST variables."
+ msgstr ""
+-"Varje post i vektorn förväntas vara på formen namn=värde. Dessa variabler "
+-"kontrolleras före miljövariabler, men efter de fördefinierade variablerna "
++"Varje post i listan ska ha följande format: name=value. Variablerna "
++"kontrolleras före miljövariablerna, men efter de fördefinierade variablerna "
+ "USER, REALNAME och HOST."
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:40
+ msgid "A list of hints for OAuth2 services"
+-msgstr "En lista med tips för OAuth2-tjänster"
++msgstr "Lista över tips för OAuth2-tjänster"
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:41
+ msgid ""
+@@ -366,8 +379,8 @@
+ "provided multiple lines for one OAuth2 service. Note that the actual URL "
+ "where the token is requested and refreshed cannot be changed here, the "
+ "hostname is to allow other servers, where the OAuth2 service can be used. "
+-"Examples: Company:mail.company.com — enables “Company” OAuth2 authentication "
+-"for “mail.company.com” host Company-CalDAV:caldav.company.com — enables "
++"Examples: Company:mail.company.com — enables “Company” OAuth2 authentication"
++" for “mail.company.com” host Company-CalDAV:caldav.company.com — enables "
+ "“Company” OAuth2 authentication for any “CalDAV” source, which reads data "
+ "from “caldav.company.com” host"
+ msgstr ""
+@@ -375,118 +388,112 @@
+ "definierade OAuth2-tjänster utöver de hårdkodade. Varje rad kan vara på "
+ "formen: tjänstenamn[-protokoll]:värdnamn1,värdnamn2,… där ”tjänstenamn” är "
+ "namnet på den faktiska tjänsten; ”-protokoll” är valfri, och om den skrivs "
+-"så kan tjänsten endast användas om både ”protokoll” och ”värdnamnX” matchar; "
+-"”värdnamnX” är det faktiska värdnamnet att jämföra med, ej "
++"så kan tjänsten endast användas om både ”protokoll” och ”värdnamnX” matchar;"
++" ”värdnamnX” är det faktiska värdnamnet att jämföra med, ej "
+ "skiftlägeskänsligt. Varje rad kan innehålla flera värden, separerade av "
+-"kommatecken. Flera rader kan tillhandahållas för en OAuth2-tjänst. Observera "
+-"att den faktiska URL:en där åtkomstelementet begärs och uppdateras inte kan "
+-"ändras här, värdnamnet är till för att tillåta andra servrar, där OAuth2-"
+-"tjänsten kan användas. Exempel: Company:mail.company.com — aktiverar en "
+-"OAuth2-autentisering ”Company” för värden ”mail.company.com” Company-"
++"kommatecken. Flera rader kan tillhandahållas för en OAuth2-tjänst. Observera"
++" att den faktiska URL:en där åtkomstelementet begärs och uppdateras inte kan"
++" ändras här, värdnamnet är till för att tillåta andra servrar, där "
++"OAuth2-tjänsten kan användas. Exempel: Company:mail.company.com — aktiverar "
++"en OAuth2-autentisering ”Company” för värden ”mail.company.com” Company-"
+ "CalDAV:caldav.company.com — aktiverar en OAuth2-autentisering ”Company” för "
+-"valfri ”CalDAV”-källa, som läser data från värden ”caldav.company.com”"
++"källa av typen ”CalDAV”, som läser data från värden ”caldav.company.com”"
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:57
+ msgid ""
+ "An OAuth2 client ID to use to connect to Google servers, instead of the one "
+ "provided during build time"
+ msgstr ""
+-"Ett OAuth2-klient-ID att använda för att ansluta till Google-servrar, i "
+-"stället för det som tillhandahålls under byggtid"
++"OAuth2-klient-ID som används för att ansluta till Googles servrar i stället "
++"för det som angavs vid bygget"
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:58
+ msgid ""
+ "User-specified OAuth2 client ID for Google servers. Empty string means to "
+ "use the one provided during build time. Change of this requires restart."
+ msgstr ""
+-"Användarangivet OAuth2-klient-ID för Google-servrar. En tom sträng betyder "
+-"att använda det som tillhandahålls under byggtid. Att ändra detta kräver "
+-"omstart."
++"Användarangivet OAuth2-klient-ID för Googles servrar. Om strängen är tom "
++"används det ID som angavs vid bygget. Ändringen kräver omstart."
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:62
+ msgid ""
+ "An OAuth2 client secret to use to connect to Google servers, instead of the "
+ "one provided during build time"
+ msgstr ""
+-"En OAuth2-klienthemlighet att använda för att ansluta till Google-servrar, i "
+-"stället för den som tillhandahålls under byggtid"
++"OAuth2-klienthemlighet som används för att ansluta till Googles servrar i "
++"stället för den som angavs vid bygget"
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:63
+ msgid ""
+ "User-specified OAuth2 client secret for Google servers. Empty string means "
+ "to use the one provided during build time. Change of this requires restart."
+ msgstr ""
+-"Användarangiven OAuth2-klienthemlighet för Google-servrar. En tom sträng "
+-"betyder att använda den som tillhandahålls under byggtid. Att ändra detta "
+-"kräver omstart."
++"Användarangiven OAuth2-klienthemlighet för Googles servrar. Om strängen är "
++"tom används den hemlighet som angavs vid bygget. Ändringen kräver omstart."
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:67
+ msgid ""
+-"An OAuth2 client ID to use to connect to Outlook servers, instead of the one "
+-"provided during build time"
++"An OAuth2 client ID to use to connect to Outlook servers, instead of the one"
++" provided during build time"
+ msgstr ""
+-"Ett OAuth2-klient-ID att använda för att ansluta till Outlook-servrar, i "
+-"stället för det som tillhandahålls under byggtid"
++"OAuth2-klient-ID som används för att ansluta till Outlook-servrar i stället "
++"för det som angavs vid bygget"
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:68
+ msgid ""
+ "User-specified OAuth2 client ID for Outlook servers. Empty string means to "
+ "use the one provided during build time. Change of this requires restart."
+ msgstr ""
+-"Användarangivet OAuth2-klient-ID för Outlook-servrar. En tom sträng betyder "
+-"att använda det som tillhandahålls under byggtid. Att ändra detta kräver "
+-"omstart."
++"Användarangivet OAuth2-klient-ID för Outlook-servrar. Om strängen är tom "
++"används det ID som angavs vid bygget. Ändringen kräver omstart."
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:72
+ msgid ""
+-"An OAuth2 client secret to use to connect to Outlook servers, instead of the "
+-"one provided during build time"
++"An OAuth2 client secret to use to connect to Outlook servers, instead of the"
++" one provided during build time"
+ msgstr ""
+-"En OAuth2-klienthemlighet att använda för att ansluta till Outlook-servrar, "
+-"i stället för den som tillhandahålls under byggtid"
++"OAuth2-klienthemlighet som används för att ansluta till Outlook-servrar i "
++"stället för den som angavs vid bygget"
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:73
+ msgid ""
+ "User-specified OAuth2 client secret for Outlook servers. Empty string means "
+ "to use the one provided during build time. Change of this requires restart."
+ msgstr ""
+-"Användarangiven OAuth2-klienthemlighet för Outlook-servrar. En tom sträng "
+-"betyder att använda den som tillhandahålls under byggtid. Att ändra detta "
+-"kräver omstart."
++"Användarangiven OAuth2-klienthemlighet för Outlook-servrar. Om strängen är "
++"tom används den hemlighet som angavs vid bygget. Ändringen kräver omstart."
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:77
+ msgid ""
+ "An OAuth2 client ID to use to connect to Yahoo! servers, instead of the one "
+ "provided during build time"
+ msgstr ""
+-"Ett OAuth2-klient-ID att använda för att ansluta till Yahoo!-servrar, i "
+-"stället för det som tillhandahålls under byggtid"
++"OAuth2-klient-ID som används för att ansluta till Yahoo!-servrar i stället "
++"för det som angavs vid bygget"
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:78
+ msgid ""
+ "User-specified OAuth2 client ID for Yahoo! servers. Empty string means to "
+ "use the one provided during build time. Change of this requires restart."
+ msgstr ""
+-"Användarangivet OAuth2-klient-ID för Yahoo!-servrar. En tom sträng betyder "
+-"att använda det som tillhandahålls under byggtid. Att ändra detta kräver "
+-"omstart."
++"Användarangivet OAuth2-klient-ID för Yahoo!-servrar. Om strängen är tom "
++"används det ID som angavs vid bygget. Ändringen kräver omstart."
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:82
+ msgid ""
+ "An OAuth2 client secret to use to connect to Yahoo! servers, instead of the "
+ "one provided during build time"
+ msgstr ""
+-"En OAuth2-klienthemlighet att använda för att ansluta till Yahoo!-servrar, i "
+-"stället för den som tillhandahålls under byggtid"
++"OAuth2-klienthemlighet som används för att ansluta till Yahoo!-servrar i "
++"stället för den som angavs vid bygget"
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:83
+ msgid ""
+ "User-specified OAuth2 client secret for Yahoo! servers. Empty string means "
+ "to use the one provided during build time. Change of this requires restart."
+ msgstr ""
+-"Användarangiven OAuth2-klienthemlighet för Yahoo!-servrar. En tom sträng "
+-"betyder att använda den som tillhandahålls under byggtid. Att ändra detta "
+-"kräver omstart."
++"Användarangiven OAuth2-klienthemlighet för Yahoo!-servrar. Om strängen är "
++"tom används den hemlighet som angavs vid bygget. Ändringen kräver omstart."
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:87
+ msgid "Whether to limit operations in Power Saver mode"
+@@ -494,13 +501,13 @@
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:88
+ msgid ""
+-"When set to “true”, possibly expensive operations required to refresh books/"
+-"calendars/mail accounts/... are skipped when the machine is in the Power "
+-"Saver mode."
+-msgstr ""
+-"När satt till ”true” (sant), kommer möjligen dyra åtgärder som krävs för att "
+-"uppdatera böcker/kalendrar/e-postkonton… att hoppas över när maskinen är i "
+-"strömsparläge."
++"When set to “true”, possibly expensive operations required to refresh "
++"books/calendars/mail accounts/... are skipped when the machine is in the "
++"Power Saver mode."
++msgstr ""
++"Om värdet är ”true” hoppas resurskrävande åtgärder över när datorn är i "
++"strömsparläge. Det gäller uppdatering av adressböcker, kalendrar, "
++"e-postkonton med mera."
+ 
+ #: data/org.gnome.evolution.shell.network-config.gschema.xml.in:11
+ msgid "(Deprecated) Proxy type to use"
+@@ -530,19 +537,19 @@
+ 
+ #: data/org.gnome.evolution.shell.network-config.gschema.xml.in:16
+ msgid "(Deprecated) Whether to use http-proxy"
+-msgstr "(Föråldrad) Huruvida http-proxyserver ska användas"
++msgstr "(Föråldrad) Om http-proxy ska användas"
+ 
+ #: data/org.gnome.evolution.shell.network-config.gschema.xml.in:21
+ msgid "(Deprecated) Whether proxy server requires authentication"
+-msgstr "(Föråldrad) Huruvida proxyservern kräver autentisering"
++msgstr "(Föråldrad) Om proxyservern kräver autentisering"
+ 
+ #: data/org.gnome.evolution.shell.network-config.gschema.xml.in:26
+ msgid "(Deprecated) Host name for HTTP requests"
+-msgstr "(Föråldrad) Värdnamn för HTTP-begäran"
++msgstr "(Föråldrad) Värdnamn för HTTP-begäranden"
+ 
+ #: data/org.gnome.evolution.shell.network-config.gschema.xml.in:31
+ msgid "(Deprecated) Port number for HTTP requests"
+-msgstr "(Föråldrad) Portnummer för HTTP-begäran"
++msgstr "(Föråldrad) Portnummer för HTTP-begäranden"
+ 
+ #: data/org.gnome.evolution.shell.network-config.gschema.xml.in:36
+ msgid "(Deprecated) Proxy authentication user name"
+@@ -554,23 +561,23 @@
+ 
+ #: data/org.gnome.evolution.shell.network-config.gschema.xml.in:46
+ msgid "(Deprecated) List of hosts to connect to without proxy"
+-msgstr "(Föråldrad) Lista över värdar att ansluta till utan proxyserver"
++msgstr "(Föråldrad) Lista över värdar som ska nås utan proxy"
+ 
+ #: data/org.gnome.evolution.shell.network-config.gschema.xml.in:51
+ msgid "(Deprecated) Host name for HTTPS requests"
+-msgstr "(Föråldrad) Värdnamn för HTTPS-begäran"
++msgstr "(Föråldrad) Värdnamn för HTTPS-begäranden"
+ 
+ #: data/org.gnome.evolution.shell.network-config.gschema.xml.in:56
+ msgid "(Deprecated) Port number for HTTPS requests"
+-msgstr "(Föråldrad) Portnummer för HTTPS-begäran"
++msgstr "(Föråldrad) Portnummer för HTTPS-begäranden"
+ 
+ #: data/org.gnome.evolution.shell.network-config.gschema.xml.in:61
+ msgid "(Deprecated) Host name for SOCKS requests"
+-msgstr "(Föråldrad) Värdnamn för SOCKS-begäran"
++msgstr "(Föråldrad) Värdnamn för SOCKS-begäranden"
+ 
+ #: data/org.gnome.evolution.shell.network-config.gschema.xml.in:66
+ msgid "(Deprecated) Port number for SOCKS requests"
+-msgstr "(Föråldrad) Portnummer för SOCKS-begäran"
++msgstr "(Föråldrad) Portnummer för SOCKS-begäranden"
+ 
+ #: data/org.gnome.evolution.shell.network-config.gschema.xml.in:71
+ msgid "(Deprecated) Automatic proxy configuration URL"
+@@ -578,21 +585,22 @@
+ 
+ #: data/org.gnome.Evolution-alarm-notify.desktop.in.in:3
+ msgid "Events and Tasks Reminders"
+-msgstr "Evenemangs- och uppgiftspåminnelser"
++msgstr "Påminnelser om händelser och uppgifter"
+ 
+ #: data/org.gnome.Evolution-alarm-notify.desktop.in.in:4
+ msgid "Event and task notifications"
+-msgstr "Evenemangs- och uppgiftsaviseringar"
++msgstr "Aviseringar om händelser och uppgifter"
+ 
+ #: data/org.gnome.evolution-data-server.OAuth2-handler.desktop.in:3
+ msgid "Evolution Data Server OAuth2 Handler"
+-msgstr "Evolution Data Servers OAuth2-hanterare"
++msgstr "OAuth2-hanterare för Evolution Data Server"
+ 
+ #: data/org.gnome.evolution-data-server.OAuth2-handler.desktop.in:4
+ msgid ""
+ "Handles OAuth2 responses and passes them to the OAuth2 prompter "
+ "implementation"
+-msgstr "Hanterar OAuth2-svar och skickar dem till OAuth2-frågeimplementationen"
++msgstr ""
++"Hanterar OAuth2-svar och skickar dem vidare till OAuth2-frågefunktionen"
+ 
+ #~ msgid "Anniversary"
+ #~ msgstr "Jubileum"
