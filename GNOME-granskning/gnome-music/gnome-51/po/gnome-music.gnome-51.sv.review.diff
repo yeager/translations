@@ -1,0 +1,214 @@
+--- GNOME-granskning/gnome-music/gnome-51/po/gnome-music.gnome-51.sv.original.po	2026-11-28 12:36:58.950611891 +0100
++++ GNOME-granskning/gnome-music/gnome-51/po/gnome-music.gnome-51.sv.reviewed.po	2026-11-28 12:36:59.003789892 +0100
+@@ -11,8 +11,8 @@
+ "Project-Id-Version: gnome-music\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-music/issues\n"
+ "POT-Creation-Date: 2026-11-22 11:54+0000\n"
+-"PO-Revision-Date: 2026-11-01 20:50+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-28 12:36+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -22,8 +22,9 @@
+ "X-Generator: Poedit 3.10\n"
+
+ #: data/org.gnome.Music.desktop.in.in:2
+-#: data/org.gnome.Music.metainfo.xml.in.in:9 data/ui/StatusNavigationPage.blp:5
+-#: gnomemusic/about.py:143 gnomemusic/application.py:43 gnomemusic/window.py:48
++#: data/org.gnome.Music.metainfo.xml.in.in:9
++#: data/ui/StatusNavigationPage.blp:5 gnomemusic/about.py:143
++#: gnomemusic/application.py:43 gnomemusic/window.py:48
+ msgid "Music"
+ msgstr "Musik"
+
+@@ -36,7 +37,8 @@
+ msgid "Play and organize your music collection"
+ msgstr "Spela och organisera din musiksamling"
+
+-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
++#. Translators: Search terms to find this application. Do NOT translate or
++#. localize the semicolons! The list MUST also end with a semicolon!
+ #: data/org.gnome.Music.desktop.in.in:12
+ msgid "Music;Player;"
+ msgstr "Musik;Spelare;"
+@@ -77,7 +79,8 @@
+ msgid "Playback repeat mode"
+ msgstr "Upprepningsläge för uppspelning"
+
+-#. Translators: Don't translate allowed values, just the description in the brackets
++#. Translators: Don't translate allowed values, just the description in the
++#. brackets
+ #: data/org.gnome.Music.gschema.xml:29
+ msgid ""
+ "Value identifies whether to repeat or randomize playback through the "
+@@ -86,16 +89,17 @@
+ "(shuffle playlist, presumes repeat all)."
+ msgstr ""
+ "Värdet avgör om uppspelning av samlingen ska upprepas eller vara i "
+-"slumpmässig ordning. Tillåtna värden är ”none” (låtar spelas i ordning utan "
+-"att upprepas), ”song” (aktuell låt upprepas), ”all” (spellistan spelas i "
+-"ordning och börjar sedan om), ”shuffle” (låtar spelas i slumpmässig ordning, "
+-"detta medför upprepning av alla)."
++"slumpmässig ordning. Tillåtna värden är: ”none” (låtar spelas i ordning utan"
++" att upprepas), ”song” (aktuell låt upprepas), ”all” (spellistan spelas i "
++"ordning och börjar sedan om), ”shuffle” (låtar spelas i slumpmässig ordning,"
++" detta medför upprepning av alla)."
+
+ #: data/org.gnome.Music.gschema.xml:33
+ msgid "Enable ReplayGain"
+ msgstr "Aktivera uppspelningsförstärkning"
+
+-#. Translators: Don't translate allowed values, just the description in the brackets
++#. Translators: Don't translate allowed values, just the description in the
++#. brackets
+ #: data/org.gnome.Music.gschema.xml:35
+ msgid ""
+ "Enables or disables ReplayGain for albums or track. Allowed values are: "
+@@ -124,11 +128,11 @@
+
+ #: data/ui/AlbumWidget.blp:47 data/ui/AlbumWidget.blp:56
+ msgid "Go to album page"
+-msgstr "Gå till albumsida"
++msgstr "Gå till albumsidan"
+
+ #: data/ui/AlbumWidget.blp:79 data/ui/AlbumWidget.blp:87
+ msgid "Go to artist page"
+-msgstr "Gå till artistsida"
++msgstr "Gå till artistsidan"
+
+ #: data/ui/AlbumWidget.blp:123 data/ui/PlayerToolbar.blp:83
+ #: data/ui/PlaylistControls.blp:99 gnomemusic/widgets/playertoolbar.py:127
+@@ -350,7 +354,7 @@
+ #: data/ui/shortcuts-dialog.blp:53
+ msgctxt "shortcut window"
+ msgid "Toggle repeat"
+-msgstr "Växla repetera"
++msgstr "Växla upprepning"
+
+ #: data/ui/shortcuts-dialog.blp:58
+ msgctxt "shortcut window"
+@@ -608,7 +612,7 @@
+
+ #: gnomemusic/widgets/statusnavigationpage.py:115
+ msgid "Try a Different Search"
+-msgstr "Försök med en annan sökning"
++msgstr "Prova en annan sökning"
+
+ #: gnomemusic/widgets/statusnavigationpage.py:119
+ msgid "GNOME Music could not connect to Tracker."
+@@ -620,11 +624,11 @@
+
+ #: gnomemusic/widgets/statusnavigationpage.py:127
+ msgid "Your system Tracker version seems outdated."
+-msgstr "Ditt systems version av Tracker verkar gammal."
++msgstr "Versionen av Tracker på systemet verkar vara för gammal."
+
+ #: gnomemusic/widgets/statusnavigationpage.py:129
+ msgid "Music needs Tracker version 3.0.0 or higher."
+-msgstr "Musik kräver version 3.0.0 eller högre av Tracker."
++msgstr "Musik kräver Tracker version 3.0.0 eller senare."
+
+ #~ msgctxt "shortcut window"
+ #~ msgid "Shortcuts"
+@@ -709,8 +713,8 @@
+ #~ "Last.fm is a music discovery service that gives you personalised "
+ #~ "recommendations based on the music you listen to."
+ #~ msgstr ""
+-#~ "Last.fm är en musikupptäcktstjänst som ger dig personliga "
+-#~ "rekommendationer beroende på musiken du lyssnar på."
++#~ "Last.fm är en musikupptäcktstjänst som ger dig personliga rekommendationer "
++#~ "beroende på musiken du lyssnar på."
+
+ #~ msgid "Music Reporting Not Setup"
+ #~ msgstr "Musikrapportering ej konfigurerad"
+@@ -747,49 +751,21 @@
+ #~ msgstr "Besök webbplatsen för GNOME Musik"
+
+ #~ msgid ""
+-#~ "GNOME Music is free software; you can redistribute it and/or modify it "
+-#~ "under the terms of the GNU General Public License as published by the "
+-#~ "Free Software Foundation; either version 2 of the License, or (at your "
+-#~ "option) any later version.\n"
++#~ "GNOME Music is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\n"
+ #~ "\n"
+-#~ "GNOME Music is distributed in the hope that it will be useful, but "
+-#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
+-#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
+-#~ "Public License for more details.\n"
++#~ "GNOME Music is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n"
+ #~ "\n"
+-#~ "You should have received a copy of the GNU General Public License along "
+-#~ "with GNOME Music; if not, write to the Free Software Foundation, Inc., 51 "
+-#~ "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
++#~ "You should have received a copy of the GNU General Public License along with GNOME Music; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
+ #~ "\n"
+-#~ "The GNOME Music authors hereby grant permission for non-GPL compatible "
+-#~ "GStreamer plugins to be used and distributed together with GStreamer and "
+-#~ "GNOME Music.  This permission is above and beyond the permissions granted "
+-#~ "by the GPL license by which GNOME Music is covered.  If you modify this "
+-#~ "code, you may extend this exception to your version of the code, but you "
+-#~ "are not obligated to do so.  If you do not wish to do so, delete this "
+-#~ "exception statement from your version."
++#~ "The GNOME Music authors hereby grant permission for non-GPL compatible GStreamer plugins to be used and distributed together with GStreamer and GNOME Music.  This permission is above and beyond the permissions granted by the GPL license by which GNOME Music is covered.  If you modify this code, you may extend this exception to your version of the code, but you are not obligated to do so.  If you do not wish to do so, delete this exception statement from your version."
+ #~ msgstr ""
+-#~ "GNOME Musik är fri programvara. Du kan distribuera det och/eller "
+-#~ "modifiera det under villkoren i GNU General Public License, publicerad av "
+-#~ "Free Software Foundation, antingen version 2 eller (om du så vill) någon "
+-#~ "senare version.\n"
++#~ "GNOME Musik är fri programvara. Du kan distribuera det och/eller modifiera det under villkoren i GNU General Public License, publicerad av Free Software Foundation, antingen version 2 eller (om du så vill) någon senare version.\n"
+ #~ "\n"
+-#~ "GNOME Musik distribueras i hopp om att det ska vara användbart, men UTAN "
+-#~ "NÅGON SOM HELST GARANTI, även utan underförstådd garanti om SÄLJBARHET "
+-#~ "eller LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU General Public "
+-#~ "License för ytterligare information.\n"
++#~ "GNOME Musik distribueras i hopp om att det ska vara användbart, men UTAN NÅGON SOM HELST GARANTI, även utan underförstådd garanti om SÄLJBARHET eller LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU General Public License för ytterligare information.\n"
+ #~ "\n"
+-#~ "Du bör ha fått en kopia av GNU General Public License tillsammans med "
+-#~ "GNOME Musik. Om inte, skriv till Free Software Foundation, Inc., 51 "
+-#~ "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
++#~ "Du bör ha fått en kopia av GNU General Public License tillsammans med GNOME Musik. Om inte, skriv till Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n"
+ #~ "\n"
+-#~ "Upphovsmännen för GNOME Musik ger härmed tillåtelse för användning och "
+-#~ "distribution av ej GPL-kompatibla GStreamer-insticksmoduler tillsammans "
+-#~ "med GStreamer och GNOME Musik. Denna tillåtelse är bortom tillåtelserna "
+-#~ "som ges av GPL-licensen, vilken täcker GNOME Musik. Om du ändrar denna "
+-#~ "kod kan du om du vill överföra detta undantag till din version av koden, "
+-#~ "men du är inte tvungen att göra det. Ta bort detta undantag från din "
+-#~ "version om du inte vill använda det."
++#~ "Upphovsmännen för GNOME Musik ger härmed tillåtelse för användning och distribution av ej GPL-kompatibla GStreamer-insticksmoduler tillsammans med GStreamer och GNOME Musik. Denna tillåtelse är bortom tillåtelserna som ges av GPL-licensen, vilken täcker GNOME Musik. Om du ändrar denna kod kan du om du vill överföra detta undantag till din version av koden, men du är inte tvungen att göra det. Ta bort detta undantag från din version om du inte vill använda det."
+
+ #~ msgid "The contents of your Music Folder will appear here"
+ #~ msgstr "Innehållet i din Musikmapp kommer att visas här"
+@@ -813,15 +789,15 @@
+ #~ "An easy way to play your music. Automatically discover music on your "
+ #~ "computer, the local network and internet services."
+ #~ msgstr ""
+-#~ "Ett lätt sätt att spela din musik. Upptäck automatiskt musik på din "
+-#~ "dator, det lokala nätverket samt på internettjänster."
++#~ "Ett lätt sätt att spela din musik. Upptäck automatiskt musik på din dator, "
++#~ "det lokala nätverket samt på internettjänster."
+
+ #~ msgid ""
+ #~ "Find tracks in your local collection, get music from DLNA servers or try "
+ #~ "something new with the Jamendo and Magnatune services."
+ #~ msgstr ""
+-#~ "Hitta spår i din lokala samling, erhåll musik från DLNA-servrar eller "
+-#~ "pröva någonting nytt med Jamendo och Magnatune-tjänsterna."
++#~ "Hitta spår i din lokala samling, erhåll musik från DLNA-servrar eller pröva "
++#~ "någonting nytt med Jamendo och Magnatune-tjänsterna."
+
+ #~ msgid "Inital state has been displayed"
+ #~ msgstr "Initialtillstånd har visats"
+@@ -902,8 +878,8 @@
+ #~ "This setting modifies the amount of chars for track title on Artist view "
+ #~ "before its been ellipsized. Set this to -1 to disable"
+ #~ msgstr ""
+-#~ "Denna inställning modifierar antalet tecken för spårtiteln i artistvyn "
+-#~ "innan den blir elliptiserad. Sätt denna till -1 för att inaktivera"
++#~ "Denna inställning modifierar antalet tecken för spårtiteln i artistvyn innan"
++#~ " den blir elliptiserad. Sätt denna till -1 för att inaktivera"
+
+ #~ msgid "the a an"
+ #~ msgstr "the"
