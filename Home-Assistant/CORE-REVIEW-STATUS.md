@@ -4,11 +4,11 @@ Senast uppdaterad: 2026-11-28
 Källrevision: `1d07105b760c73093145526a51758938e87cc658`
 Lokalise-projekt: `130246255a974bd3b5e8a1.51616605`
 
-## Senaste batch: 74 057–74 176
+## Senaste batch: 74 177–74 296
 
-120 poster radgranskade: 35 direkta strängar och 85 LIFX-referenser. Sju svenska avvikelser synkroniserades och sparades i Lokalise; samtliga referenser matchar efter API-readback. Se [2026-11-28-reviewed-core-74057-74176.md](2026-11-28-reviewed-core-74057-74176.md).
+120 direkta LIFX-temaetiketter radgranskade; en stavningsrättning sparades och API-readback-verifierades. Verktygsgranskningen hittade och rättade en felaktig landsnamnspost i swedish-foss-terminology samt lade till `Chanukka` i Hunspell-sv. Se [2026-11-28-reviewed-core-74177-74296.md](2026-11-28-reviewed-core-74177-74296.md).
 
-Nästa position: **74 177**. **3 480** positioner återstår av aktuell nyckelinventering; granskningen pågår.
+Nästa position: **74 297**. **3 360** positioner återstår av aktuell nyckelinventering; granskningen pågår.
 
 ## Öppna uppföljningar
 
@@ -18,4 +18,4 @@ Nästa position: **74 177**. **3 480** positioner återstår av aktuell nyckelin
 - Govee `Marquee`-leverantörskontext; SOFAR-dubbla mjukstartsetiketter; Teslemetry saknad källtext.
 - LIFX `Holidays > Independence`: kontrollera om det avsedda scenamnet syftar på USA:s självständighetsdag innan eventuell precisering.
 
-Senaste rapport: `2026-11-28-reviewed-core-74057-74176.md`.
+Senaste rapport: `2026-11-28-reviewed-core-74177-74296.md`.
