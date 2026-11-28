@@ -1030,3 +1030,12 @@ Bevara standardiserade namn och identifierare som `sRGB`, `Adobe RGB`, `D50`, `D
 | move (Swell Foop) | drag | Spelhandling, inte fysisk förflyttning. |
 | clear the board | tömma brädet | När alla spelobjekt tas bort. |
 | score | poäng | Använd *poäng* för resultatet och *poängsättning* om beräkningssättet. |
+
+
+## GIMP Help — masker och markeringar
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| Quick Mask | snabbmask | GIMP-funktion för att skapa och redigera markeringar tillfälligt i en kanal. Skriv *snabbmasken* i bestämd form. |
+| Selection Mask | markeringsmask | Skilj från *lagermask*; gäller en mask för en markering. |
+| feathering (selection) | luddning | GIMP-term för mjuka övergångar vid markeringskanter. |

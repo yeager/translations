@@ -158,9 +158,8 @@ msgstr "Välkomstdialogen"
 #: src/dialogs/channel-dialog.xml:129(title)
 #: src/dialogs/buffers-dialog.xml:144(title)
 #: src/dialogs/brushes-dialog.xml:56(title)
-#, fuzzy
 msgid "Activating the Dialog"
-msgstr "Aktivera dialogrutan"
+msgstr "Öppna dialogrutan"
 
 #: src/dialogs/welcome-dialog.xml:37(para)
 #: src/dialogs/undo-history-dialog.xml:47(para)
@@ -2806,31 +2805,41 @@ msgid ""
 " as progressive. In this case, using the Quick Mask is a good idea which can"
 " give very good results."
 msgstr ""
+"En <guilabel>snabbmask</guilabel> är en <link linkend=\"gimp-channel-"
+"mask\">markeringsmask</link> som används tillfälligt för att måla fram en "
+"markering. Till skillnad från en vanlig markeringsmask tas den bort från "
+"kanallistan när den omvandlas till en markering. <link linkend=\"gimp-tools-"
+"selection\">Markeringsverktygen</link> räcker inte alltid till när du vill "
+"skapa en komplex markering, till exempel en med mjuka kanter. Då kan "
+"snabbmasken ge mycket bra resultat."
 
 #: src/dialogs/qmask.xml:38(para)
 msgid "The Quick Mask can be activated in different ways:"
-msgstr ""
+msgstr "Snabbmasken kan aktiveras på flera sätt:"
 
 #: src/dialogs/qmask.xml:43(para)
-#, fuzzy
 msgid ""
 "From the main menu: <menuchoice><guimenu>Select</guimenu><guimenuitem>Toggle"
 " Quick Mask</guimenuitem></menuchoice>."
 msgstr ""
-"Från en bildmeny: "
-"<menuchoice><guimenu>Redigera</guimenu><guimenuitem>Ångringshistorik</guimenuitem></menuchoice>."
+"Från huvudmenyn: <menuchoice><guimenu>Välj</guimenu><guimenuitem>Visa "
+"snabbmask</guimenuitem></menuchoice>."
 
 #: src/dialogs/qmask.xml:52(para)
 msgid ""
 "By clicking the bottom-left <placeholder-1/> button highlighted in the "
 "screenshot."
 msgstr ""
+"Klicka på knappen <placeholder-1/> nere till vänster, som är markerad på "
+"skärmbilden."
 
 #: src/dialogs/qmask.xml:65(para)
 msgid ""
 "By using the <keycombo><keycap>Shift</keycap><keycap>Q</keycap></keycombo> "
 "shortcut."
 msgstr ""
+"Använd kortkommandot "
+"<keycombo><keycap>Skift</keycap><keycap>Q</keycap></keycombo>."
 
 #: src/dialogs/qmask.xml:77(title)
 msgid "Creating a Quick Mask"
@@ -2845,6 +2854,12 @@ msgid ""
 "is covered with a translucent red color. Another click on the bottom-left "
 "button will deactivate the quick mask."
 msgstr ""
+"Så här startar du en <guilabel>snabbmask</guilabel>: klicka på knappen "
+"<placeholder-1/> längst ned till vänster i bildfönstret. Om bilden redan har"
+" en markering visas den som vanligt, men konturen täcks av ett "
+"halvgenomskinligt rött skikt. Om ingen markering finns täcks hela bilden av "
+"ett halvgenomskinligt rött skikt. Klicka en gång till på knappen längst ned "
+"till vänster för att inaktivera snabbmasken."
 
 #: src/dialogs/qmask.xml:94(para)
 msgid ""
@@ -2854,6 +2869,11 @@ msgid ""
 "hide the mask by clicking on the eye icon <placeholder-1/> in front of the "
 "<guilabel>QMask</guilabel>."
 msgstr ""
+"Dubbelklicka på namnet eller miniatyrbilden i dialogrutan Kanaler för att "
+"redigera egenskaperna för <guilabel>snabbmasken</guilabel>. Därefter kan du "
+"ändra <guilabel>Opacitet</guilabel> och fyllningsfärg. Du kan när som helst "
+"dölja masken genom att klicka på ögonikonen <placeholder-1/> framför "
+"<guilabel>snabbmasken</guilabel>."
 
 #: src/dialogs/qmask.xml:108(para)
 msgid ""
@@ -2864,6 +2884,12 @@ msgid ""
 "in the image window and the quick mask will be removed from the channel list"
 " and converted to a selection."
 msgstr ""
+"Masken kodas i gråtoner. Använd därför vitt eller grått för att minska det "
+"maskerade området och svart för att öka det. Områden som målas i ljusare "
+"eller mörkare gråton blir övergångsområden i markeringen, ungefär som vid "
+"luddning. När masken är klar klickar du på knappen längst ned till vänster i"
+" bildfönstret igen. Då tas snabbmasken bort från kanallistan och omvandlas "
+"till en markering."
 
 #: src/dialogs/qmask.xml:116(para)
 msgid ""
@@ -2873,11 +2899,15 @@ msgid ""
 "only have to remove its content (or inverse if the subject is in the "
 "selection)."
 msgstr ""
+"Med snabbmasken målar du fram en markering och dess övergångar med "
+"målarverktygen utan att behöva hantera markeringsmasker. Den är ett bra sätt"
+" att frilägga ett motiv i en bild. När markeringen är klar behöver du bara "
+"ta bort det markerade innehållet, eller invertera markeringen om motivet är "
+"markerat."
 
 #: src/dialogs/qmask.xml:126(title)
-#, fuzzy
 msgid "Using Quick Mask with a gradient"
-msgstr "Använda snabbmasker"
+msgstr "Använda snabbmask med en toning"
 
 #: src/dialogs/qmask.xml:134(para)
 msgid ""
@@ -2885,6 +2915,9 @@ msgid ""
 "Quick Mask is activated, all operations are done on it. A gradient from "
 "black (left) to white (right) has been applied to the mask."
 msgstr ""
+"Skärmbilden visar bildfönstret med snabbmasken aktiverad. Så länge "
+"snabbmasken är aktiverad utförs alla åtgärder på den. En toning från svart "
+"(vänster) till vitt (höger) har lagts på masken."
 
 #: src/dialogs/qmask.xml:148(para)
 msgid ""
@@ -2892,6 +2925,9 @@ msgid ""
 "of the image (<link linkend=\"glossary-marching-ants\">marching ants</link>)"
 " because the limit of the selection is at the middle of the gradient."
 msgstr ""
+"Snabbmasken är nu inaktiverad. Markeringen täcker bildens högra halva (<link"
+" linkend=\"glossary-marching-ants\">markeringskonturen</link>), eftersom "
+"markeringens gräns ligger mitt i toningen."
 
 #: src/dialogs/qmask.xml:162(para)
 msgid ""
@@ -2899,6 +2935,9 @@ msgid ""
 "although not visible, remains active all over the image, in selected and non"
 " selected areas!"
 msgstr ""
+"Ett penseldrag läggs till trots att markeringen är aktiv. Märkligt! "
+"Toningens övergång syns inte, men finns fortfarande över hela bilden, både i"
+" markerade och omarkerade områden!"
 
 #: src/dialogs/qmask.xml:169(para)
 msgid ""
@@ -2913,16 +2952,25 @@ msgid ""
 "selected place. The selection will be displayed as soon as the Quick Mask "
 "will be toggled but its temporary channel will not be available anymore."
 msgstr ""
+"När du trycker på snabbmaskknappen skapas en tillfällig 8-bitarskanal "
+"(0–255) där den gradvisa övergången i markeringen lagras. Om det redan finns"
+" en markering initieras masken med den. När snabbmasken aktiveras täcks "
+"bilden av ett halvgenomskinligt rött skikt som visar de omarkerade pixlarna."
+" Du kan använda valfritt <link linkend=\"gimp-tools-"
+"paint\">målarverktyg</link> för att skapa en markering i snabbmasken. Använd"
+" gråskalefärger i enlighet med kanalens egenskaper; vitt anger det område "
+"som ska markeras. Markeringen visas när du växlar snabbmasken, men den "
+"tillfälliga kanalen är då inte längre tillgänglig."
 
 #: src/dialogs/qmask.xml:184(para)
-#, fuzzy
 msgid ""
 "To save in a channel the selection done with the Quick Mask select in the "
 "main menu <menuchoice><guimenu>Select</guimenu><guimenuitem>Save to "
 "Channel</guimenuitem></menuchoice>."
 msgstr ""
-"Från en bildmeny: "
-"<menuchoice><guimenu>Redigera</guimenu><guimenuitem>Ångringshistorik</guimenuitem></menuchoice>."
+"Om du vill spara snabbmaskens markering i en kanal väljer du "
+"<menuchoice><guimenu>Välj</guimenu><guimenuitem>Spara till "
+"kanal</guimenuitem></menuchoice> på huvudmenyn."
 
 #: src/dialogs/qmask.xml:196(title)
 msgid "Usage"
@@ -2933,9 +2981,10 @@ msgid ""
 "<link linkend=\"gimp-file-open\">Open</link> an image or begin a <link "
 "linkend=\"gimp-file-new\">new document</link>."
 msgstr ""
+"<link linkend=\"gimp-file-open\">Öppna</link> en bild eller skapa ett <link "
+"linkend=\"gimp-file-new\">nytt dokument</link>."
 
 #: src/dialogs/qmask.xml:205(para)
-#, fuzzy
 #| msgid ""
 #| "Activate the Quickmask using the left-bottom button in the image window. If "
 #| "a selection is present the mask is initialized with the content of the "
@@ -2945,18 +2994,18 @@ msgid ""
 " a selection is present the mask is initialized with the content of the "
 "selection."
 msgstr ""
-"Aktivera snabbmask genom att klicka på ikonen för snabbmask i bildfönstret. "
-"Om det redan finns en markering kommer snabbmask att följa denna och inte "
-"lägga någon mask i markeringen;"
+"Aktivera snabbmasken med knappen längst ned till vänster i bildfönstret. Om "
+"en markering finns initieras masken med markeringens innehåll."
 
 #: src/dialogs/qmask.xml:212(para)
 msgid ""
 "Choose a <link linkend=\"gimp-tools-paint\">drawing tool</link> and use it "
 "with grayscale colors on the Quick Mask."
 msgstr ""
+"Välj ett <link linkend=\"gimp-tools-paint\">målarverktyg</link> och använd "
+"det med gråskalefärger i snabbmasken."
 
 #: src/dialogs/qmask.xml:218(para)
-#, fuzzy
 #| msgid ""
 #| "Activate the Quickmask using the left-bottom button in the image window. If "
 #| "a selection is present the mask is initialized with the content of the "
@@ -2964,9 +3013,7 @@ msgstr ""
 msgid ""
 "Deactivate the Quick Mask using the left-bottom button in the image window."
 msgstr ""
-"Aktivera snabbmask genom att klicka på ikonen för snabbmask i bildfönstret. "
-"Om det redan finns en markering kommer snabbmask att följa denna och inte "
-"lägga någon mask i markeringen;"
+"Inaktivera snabbmasken med knappen längst ned till vänster i bildfönstret."
 
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
