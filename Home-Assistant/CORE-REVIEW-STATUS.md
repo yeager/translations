@@ -4,11 +4,11 @@ Senast uppdaterad: 2026-11-28
 Källrevision: `1d07105b760c73093145526a51758938e87cc658`
 Lokalise-projekt: `130246255a974bd3b5e8a1.51616605`
 
-## Senaste batch: 73 217–73 336
+## Senaste batch: 73 337–73 456
 
-120 poster radgranskade: 96 direkta källsträngar och 24 referenser till 18 mål. Alla referenser matchar efter korrigering av skrivarintegrationens gemensamma feltext. 27 textändringar sparades och API-verifierades. Platshållare och pluralformer kontrollerades utan fel. Se [batchrapporten](2026-11-28-reviewed-core-73217-73336.md).
+120 poster radgranskade: 36 direkta källsträngar och 84 referenser till 82 mål. Alla referenser matchar efter att ett LIFX-referensmål samordnats. Sju ändringar i intervallet och ett gemensamt mål utanför det sparades och API-verifierades. Platshållare och pluralformer kontrollerades utan fel. Se [batchrapporten](2026-11-28-reviewed-core-73337-73456.md).
 
-Nästa position: **73 337**. **4 320** positioner återstår av aktuell nyckelinventering; granskningen pågår.
+Nästa position: **73 457**. **4 200** positioner återstår av aktuell nyckelinventering; granskningen pågår.
 
 ## Öppna uppföljningar
 
@@ -17,4 +17,4 @@ Nästa position: **73 337**. **4 320** positioner återstår av aktuell nyckelin
 - Victron `start`-status saknar aktiv källtext; Alexa äldre nyckel behöver historikkontroll.
 - Govee `Marquee`-leverantörskontext; SOFAR-dubbla mjukstartsetiketter; Teslemetry saknad källtext.
 
-Senaste rapport: `2026-11-28-reviewed-core-73217-73336.md`.
+Senaste rapport: `2026-11-28-reviewed-core-73337-73456.md`.

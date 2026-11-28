@@ -1,0 +1,99 @@
+[
+  {
+    "position": 73354,
+    "key": "component::silvercrest_infrared::entity::event::received_command::state_attributes::event_type::state::power",
+    "key_id": "980126466",
+    "translation_id": "10332582979",
+    "en": "Power",
+    "before": "Ström",
+    "after": "På/av",
+    "rationale": "Detta är namnet på fjärrkontrollens strömknapp och ska matcha referensnyckeln `button::power::name`.",
+    "readback": "På/av",
+    "status": "saved-and-read-back"
+  },
+  {
+    "position": 73358,
+    "key": "component::energy::issues::battery_from_grid_without_grid_import::title",
+    "key_id": "980138975",
+    "translation_id": "10332666460",
+    "en": "Battery charging from the grid without grid import",
+    "before": "Batteriladdning från elnätet utan elnätsimport",
+    "after": "Batteriladdning från elnätet utan importmätare",
+    "rationale": "Källtexten gäller avsaknad av en importmätare, inte avsaknad av elnätsimport.",
+    "readback": "Batteriladdning från elnätet utan importmätare",
+    "status": "saved-and-read-back"
+  },
+  {
+    "position": 73362,
+    "key": "component::energy::issues::battery_to_grid_without_grid_export::title",
+    "key_id": "980138979",
+    "translation_id": "10332666720",
+    "en": "Battery discharging to the grid without grid export",
+    "before": "Batteriurladdning till elnätet utan elnätsexport",
+    "after": "Batteriurladdning till elnätet utan exportmätare",
+    "rationale": "Källtexten gäller avsaknad av en exportmätare, inte avsaknad av elnätsexport.",
+    "readback": "Batteriurladdning till elnätet utan exportmätare",
+    "status": "saved-and-read-back"
+  },
+  {
+    "position": 73373,
+    "key": "component::plugwise::entity::sensor::failed_burner_flame_ignitions::name",
+    "key_id": "980139313",
+    "translation_id": "10332672022",
+    "en": "Failed burner flame ignitions",
+    "before": "Misslyckade tändningar av brännarflamma",
+    "after": "Misslyckade tändningsförsök för brännaren",
+    "rationale": "Gör det tydligt att sensorn räknar misslyckade försök att tända brännaren.",
+    "readback": "Misslyckade tändningsförsök för brännaren",
+    "status": "saved-and-read-back"
+  },
+  {
+    "position": 73369,
+    "key": "component::plugwise::entity::sensor::dhw_burner_starts::name",
+    "key_id": "980139309",
+    "translation_id": "10332671762",
+    "en": "DHW burner starts",
+    "before": "Varmvattenbrännarens starter",
+    "after": "Starter av varmvattenbrännaren",
+    "rationale": "Använder en naturligare svensk formulering för antalet starter.",
+    "readback": "Starter av varmvattenbrännaren",
+    "status": "saved-and-read-back"
+  },
+  {
+    "position": 73372,
+    "key": "component::plugwise::entity::sensor::dhw_pump_starts::name",
+    "key_id": "980139312",
+    "translation_id": "10332671957",
+    "en": "DHW pump starts",
+    "before": "Varmvattenpumpens starter",
+    "after": "Starter av varmvattenpumpen",
+    "rationale": "Använder en naturligare svensk formulering för antalet starter.",
+    "readback": "Starter av varmvattenpumpen",
+    "status": "saved-and-read-back"
+  },
+  {
+    "position": 73414,
+    "key": "component::lifx::entity::select::mood::state::blissful",
+    "key_id": "980139404",
+    "translation_id": "10332674883",
+    "en": "Moods > Blissful",
+    "before": "Stämningar > Ljuvlig",
+    "after": "Stämningar > Lycksalig",
+    "rationale": "Översätter känslotillståndet blissful mer precist än ”ljuvlig”.",
+    "readback": "Stämningar > Lycksalig",
+    "status": "saved-and-read-back"
+  },
+  {
+    "position": null,
+    "outside_range": true,
+    "key": "component::lifx::selector::theme::options::blissful",
+    "key_id": "980140163",
+    "translation_id": "10332724976",
+    "en": "Moods > Blissful",
+    "before": "Stämningar > Ljuvlig",
+    "after": "Stämningar > Lycksalig",
+    "rationale": "Synkroniseras med den granskade Blissful-scenens svenska text så att referensmålet och ägaren blir identiska.",
+    "readback": "Stämningar > Lycksalig",
+    "status": "saved-and-read-back"
+  }
+]
