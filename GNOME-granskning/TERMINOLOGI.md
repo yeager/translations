@@ -1006,3 +1006,14 @@ Bevara standardiserade namn och identifierare som `sRGB`, `Adobe RGB`, `D50`, `D
 | preview (noun) | förhandsvisning | Substantiv; verbet är *förhandsvisa*. |
 | full screen | helskärmsläge | `Toggle Fullscreen` → *Växla helskärmsläge*. |
 | remote content | fjärrinnehåll | |
+
+## GNOME Commander — filhantering och handbok
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| file manager | filhanterare | |
+| quick menu / context menu | snabbmeny | Menyn som öppnas med högerklick. |
+| file size unit | storleksenhet / enhet | I inställningen för visning av filstorlek: `Powered` → *Med enheter*. |
+| select all | markera alla | Menyobjekt under menyn *Markera*. |
+| backreference (regular expression) | bakåtreferens (reguljärt uttryck) | Exempelsträngen `\number` är kodsyntax och ska stå kvar exakt. |
+| tilde | tilde (~) | Filnamnssuffix som markerar en säkerhetskopia. |
