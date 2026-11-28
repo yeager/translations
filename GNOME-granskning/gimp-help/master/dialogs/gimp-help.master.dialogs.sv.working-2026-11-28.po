@@ -184,7 +184,7 @@ msgstr "Aktivera dialogrutan"
 #: src/dialogs/channel-dialog.xml:135(para)
 #: src/dialogs/buffers-dialog.xml:150(para)
 msgid "You can access it:"
-msgstr ""
+msgstr "Du kommer åt den via:"
 
 #: src/dialogs/welcome-dialog.xml:42(para)
 msgid ""
@@ -493,7 +493,7 @@ msgstr ""
 #: src/dialogs/welcome-dialog.xml:278(term)
 #: src/dialogs/prefs-toolbox.xml:106(term)
 msgid "Use tool groups"
-msgstr ""
+msgstr "Använd verktygsgrupper"
 
 #: src/dialogs/welcome-dialog.xml:280(para)
 msgid ""
@@ -720,6 +720,12 @@ msgid ""
 "GIMP's Undo mechanism and how it works, see the section on <link "
 "linkend=\"gimp-concepts-undo\">Undoing</link>."
 msgstr ""
+"Dialogrutan visar vilka åtgärder du senast har utfört på en bild, "
+"tillsammans med en liten skiss som försöker visa resultatet av varje åtgärd."
+" Du kan återställa bilden till vilken punkt som helst i ångringshistoriken "
+"genom att klicka på motsvarande post i listan. Mer information om GIMP:s "
+"ångermekanism finns i avsnittet <link linkend=\"gimp-concepts-"
+"undo\">Ångra</link>."
 
 #: src/dialogs/undo-history-dialog.xml:42(para)
 #: src/dialogs/tool-presets-dialog.xml:33(para)
@@ -748,6 +754,8 @@ msgid ""
 "This dialog is a dockable dialog; see the section <xref linkend=\"gimp-"
 "concepts-docks\"/> for help on manipulating it."
 msgstr ""
+"Dialogrutan kan dockas. Läs avsnittet <xref linkend=\"gimp-concepts-"
+"docks\"/> om hur du hanterar dockningar."
 
 #: src/dialogs/undo-history-dialog.xml:52(para)
 #, fuzzy
@@ -782,6 +790,10 @@ msgid ""
 " way as much as you please, without losing any information or consuming any "
 "resources. In most cases, the changes are very fast."
 msgstr ""
+"Det enklaste är att klicka på en punkt i ångringshistoriken. Du kan växla "
+"fram och tillbaka mellan tillstånden hur många gånger du vill utan att "
+"förlora information eller förbruka resurser. I de flesta fall går "
+"ändringarna mycket snabbt."
 
 #: src/dialogs/undo-history-dialog.xml:91(para)
 #: src/dialogs/images-dialog.xml:120(para)
@@ -792,6 +804,9 @@ msgid ""
 "<keycombo><keycap>Ctrl</keycap><keycap>F</keycap></keycombo> opens a search "
 "field. See <xref linkend=\"gimp-dock-view-as-list\"/>"
 msgstr ""
+"Öppna ett sökfält med "
+"<keycombo><keycap>Ctrl</keycap><keycap>F</keycap></keycombo>. Se <xref "
+"linkend=\"gimp-dock-view-as-list\"/>."
 
 #: src/dialogs/undo-history-dialog.xml:97(para)
 #: src/dialogs/templates-dialog.xml:120(para)
@@ -811,7 +826,7 @@ msgstr ""
 #: src/dialogs/brushes-dialog.xml:117(para)
 #: src/dialogs/brushes-dialog.xml:359(para)
 msgid "The button bar at the bottom offers the following functionality:"
-msgstr ""
+msgstr "Knappraden längst ned har följande funktioner:"
 
 #: src/dialogs/undo-history-dialog.xml:110(phrase)
 msgid "Undo"
@@ -825,6 +840,11 @@ msgid ""
 "<keycombo><keycap>Ctrl</keycap><keycap>Z</keycap></keycombo>; it reverts the"
 " image to the next state back in the undo history."
 msgstr ""
+"Den här knappen gör samma sak som "
+"<menuchoice><guimenu>Redigera</guimenu><guimenuitem>Ångra</guimenuitem></menuchoice>"
+" på menyn eller kortkommandot "
+"<keycombo><keycap>Ctrl</keycap><keycap>Z</keycap></keycombo>. Bilden "
+"återställs då till föregående tillstånd i ångringshistoriken."
 
 #: src/dialogs/undo-history-dialog.xml:134(phrase)
 msgid "Redo"
@@ -838,6 +858,11 @@ msgid ""
 "<keycombo><keycap>Ctrl</keycap><keycap>Y</keycap></keycombo>; it advances "
 "the image to the next state forward in the Undo History."
 msgstr ""
+"Den här knappen gör samma sak som "
+"<menuchoice><guimenu>Redigera</guimenu><guimenuitem>Gör "
+"om</guimenuitem></menuchoice> på menyn eller kortkommandot "
+"<keycombo><keycap>Ctrl</keycap><keycap>Y</keycap></keycombo>. Bilden förs då"
+" framåt till nästa tillstånd i ångringshistoriken."
 
 #: src/dialogs/undo-history-dialog.xml:158(phrase)
 msgid "Clear Undo History"
@@ -850,6 +875,9 @@ msgid ""
 "this. The only reason for doing it would be if you are very constrained for "
 "memory."
 msgstr ""
+"Den här knappen rensar ångringshistoriken och behåller bara det aktuella "
+"tillståndet. Du får bekräfta åtgärden innan den utförs. Rensa historiken om "
+"datorns minne är mycket begränsat."
 
 #: src/dialogs/undo-history-dialog.xml:169(para)
 #, fuzzy
@@ -861,6 +889,8 @@ msgid ""
 "You can set the number of undo levels in <link linkend=\"gimp-prefs-system-"
 "resources\">System Resources</link>."
 msgstr ""
+"Du kan ange antalet ångringsnivåer under <link linkend=\"gimp-prefs-system-"
+"resources\">Systemresurser</link>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
@@ -997,6 +1027,9 @@ msgid ""
 "The Tool Presets Dialog shows a list of all saved tool presets. Clicking on "
 "a preset opens the corresponding tool with its saved presets."
 msgstr ""
+"Dialogrutan Verktygsförinställningar visar alla sparade "
+"verktygsförinställningar. Klicka på en förinställning för att öppna "
+"motsvarande verktyg med de sparade alternativen."
 
 #: src/dialogs/tool-presets-dialog.xml:22(title)
 #, fuzzy
@@ -1041,6 +1074,8 @@ msgid ""
 "This dialog comes with a list of predefined presets. Each of them has an "
 "icon representing the tool presets will be applied to and a name."
 msgstr ""
+"Dialogrutan innehåller en lista med fördefinierade förinställningar. Varje "
+"förinställning har ett namn och en ikon som visar vilket verktyg den gäller."
 
 #: src/dialogs/tool-presets-dialog.xml:79(para)
 msgid ""
@@ -1048,14 +1083,18 @@ msgid ""
 "Please see <xref linkend=\"gimp-tagging\"/> for more information about "
 "tagging."
 msgstr ""
+"Du kan förse förinställningarna med taggar och ordna visningen efter "
+"önskemål. Mer information finns i <xref linkend=\"gimp-tagging\"/>."
 
 #: src/dialogs/tool-presets-dialog.xml:84(para)
 msgid "Double-clicking on a preset icon opens the Tool Preset Editor."
 msgstr ""
+"Dubbelklicka på en förinställningsikon för att öppna redigeraren för "
+"verktygsförinställningar."
 
 #: src/dialogs/tool-presets-dialog.xml:87(para)
 msgid "Double-clicking on preset name allows you to edit this name."
-msgstr ""
+msgstr "Dubbelklicka på namnet för en förinställning om du vill ändra det."
 
 #: src/dialogs/tool-presets-dialog.xml:95(para)
 msgid ""
@@ -1064,6 +1103,10 @@ msgid ""
 "Preset Editor is described in <xref linkend=\"gimp-tool-preset-editor-"
 "dialog\"/>."
 msgstr ""
+"<placeholder-1/><guilabel>Redigera den här "
+"verktygsförinställningen</guilabel>: klicka på knappen för att öppna "
+"redigeraren för den markerade förinställningen. Mer information finns i "
+"<xref linkend=\"gimp-tool-preset-editor-dialog\"/>."
 
 #: src/dialogs/tool-presets-dialog.xml:112(para)
 msgid ""
@@ -1074,6 +1117,12 @@ msgid ""
 "Editor is opened. Please see <xref linkend=\"gimp-tool-preset-editor-"
 "dialog\"/>."
 msgstr ""
+"<placeholder-1/><guilabel>Skapa en ny verktygsförinställning</guilabel>: "
+"innan du klickar på knappen kan du markera en befintlig förinställning eller"
+" välja ett verktyg i verktygslådan, till exempel Läkningsverktyget som inte "
+"finns i listan. En ny förinställning skapas högst upp i dialogrutan och "
+"redigeraren för verktygsförinställningar öppnas. Se <xref linkend=\"gimp-"
+"tool-preset-editor-dialog\"/>."
 
 #: src/dialogs/tool-presets-dialog.xml:130(para)
 msgid ""
@@ -1081,12 +1130,18 @@ msgid ""
 "preset</guilabel>: this saves the current tool settings to the selected "
 "preset."
 msgstr ""
+"<placeholder-1/><guilabel>Spara de aktiva verktygsalternativen i den här "
+"förinställningen</guilabel>: sparar verktygets aktuella inställningar i den "
+"markerade förinställningen."
 
 #: src/dialogs/tool-presets-dialog.xml:144(para)
 msgid ""
 "<placeholder-1/><guilabel>Restore this tool preset</guilabel>: this restores"
 " the tool settings to the values saved in the selected preset."
 msgstr ""
+"<placeholder-1/><guilabel>Återställ den här "
+"verktygsförinställningen</guilabel>: återställer verktygsinställningarna "
+"till värdena i den markerade förinställningen."
 
 #: src/dialogs/tool-presets-dialog.xml:158(para)
 msgid ""
@@ -1094,6 +1149,10 @@ msgid ""
 "the currently selected preset. Note that this button is disabled for the "
 "default presets that come with GIMP."
 msgstr ""
+"<placeholder-1/><guilabel>Ta bort den här "
+"verktygsförinställningen</guilabel>: tar bort den markerade "
+"förinställningen. Knappen är inaktiverad för standardförinställningarna som "
+"följer med GIMP."
 
 #: src/dialogs/tool-presets-dialog.xml:173(para)
 msgid ""
@@ -1103,17 +1162,22 @@ msgid ""
 "Preferences</link>, you have to click on this button to include it in the "
 "presets list."
 msgstr ""
+"<placeholder-1/><guilabel>Uppdatera verktygsförinställningar</guilabel>: om "
+"du har lagt till en förinställning manuellt i mappen "
+"<guilabel>Verktygsförinställningar</guilabel> som anges under <link "
+"linkend=\"gimp-prefs-folders-tool-presets\">Mappinställningar</link> måste "
+"du klicka på knappen för att lägga till den i listan."
 
 #: src/dialogs/tool-presets-dialog.xml:90(para)
 #: src/dialogs/tool-preset-editor.xml:101(para)
 msgid ""
 "The button bar at the bottom offers the following functionality: "
 "<placeholder-1/>"
-msgstr ""
+msgstr "Knappraden längst ned har följande funktioner: <placeholder-1/>"
 
 #: src/dialogs/tool-presets-dialog.xml:193(title)
 msgid "The Tool Presets Dialog Context Menu"
-msgstr ""
+msgstr "Snabbmenyn i dialogrutan Verktygsförinställningar"
 
 #: src/dialogs/tool-presets-dialog.xml:201(term)
 #, fuzzy
@@ -1126,16 +1190,21 @@ msgid ""
 " It is not necessary since, as we saw above, a duplicate is automatically "
 "created when you create a new preset from an existing preset."
 msgstr ""
+"<guilabel>Duplicera verktygsförinställning</guilabel>: kommandot är alltid "
+"inaktiverat. Det behövs inte eftersom en kopia skapas automatiskt när du "
+"skapar en ny förinställning från en befintlig."
 
 #: src/dialogs/tool-presets-dialog.xml:213(term)
 msgid "Copy Tool Preset Location"
-msgstr ""
+msgstr "Kopiera sökväg till verktygsförinställning"
 
 #: src/dialogs/tool-presets-dialog.xml:216(para)
 msgid ""
 "<guilabel>Copy Tool Preset Location</guilabel> allows you to copy the path "
 "of the selected tool preset to the clipboard."
 msgstr ""
+"Med <guilabel>Kopiera sökväg till verktygsförinställning</guilabel> kopierar"
+" du sökvägen till den markerade verktygsförinställningen till urklipp."
 
 #: src/dialogs/tool-presets-dialog.xml:223(term)
 #: src/dialogs/patterns-dialog.xml:350(term)
@@ -1145,13 +1214,15 @@ msgstr ""
 #: src/dialogs/document-dialog.xml:221(term)
 #: src/dialogs/brushes-dialog.xml:541(term)
 msgid "Show in File Manager"
-msgstr ""
+msgstr "Visa i filhanteraren"
 
 #: src/dialogs/tool-presets-dialog.xml:226(para)
 msgid ""
 "<guilabel>Show in File Manager</guilabel> opens the location of the tool "
 "preset in the default File Manager on your system."
 msgstr ""
+"<guilabel>Visa i filhanteraren</guilabel> öppnar platsen för "
+"verktygsförinställningen i systemets standardfilhanterare."
 
 #: src/dialogs/tool-presets-dialog.xml:194(para)
 msgid ""
@@ -1160,6 +1231,11 @@ msgid ""
 "preset, Save tool options to preset, Restore tool preset, Refresh tool "
 "presets. Additional commands are: <placeholder-1/>"
 msgstr ""
+"Högerklicka i dialogrutan Verktygsförinställningar för att öppna en "
+"snabbmeny. Där finns kommandona Redigera verktygsförinställning, Ny "
+"verktygsförinställning, Spara verktygsalternativ i förinställning, Återställ"
+" verktygsförinställning och Uppdatera verktygsförinställningar, som också "
+"finns som knappar. Ytterligare kommandon är: <placeholder-1/>"
 
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
@@ -1189,26 +1265,37 @@ msgid ""
 "button in the button bar of the <link linkend=\"gimp-tool-preset-"
 "dialog\">Tool Presets Dialog</link>."
 msgstr ""
+"ett klick på knappen <placeholder-1/><guibutton>Redigera den här "
+"verktygsförinställningen</guibutton> i knappraden i <link linkend=\"gimp-"
+"tool-preset-dialog\">dialogrutan Verktygsförinställningar</link>."
 
 #: src/dialogs/tool-preset-editor.xml:48(para)
 msgid "a double-click on a preset icon in the Tool Presets Dialog."
 msgstr ""
+"ett dubbelklick på en förinställningsikon i dialogrutan "
+"Verktygsförinställningar."
 
 #: src/dialogs/tool-preset-editor.xml:53(para)
 msgid ""
 "a right-click on a preset in the Tool Presets Dialog to open a context menu "
 "and then click on the <guilabel>Edit Tool Preset</guilabel> command."
 msgstr ""
+"ett högerklick på en förinställning i dialogrutan Verktygsförinställningar "
+"för att öppna snabbmenyn. Klicka sedan på kommandot <guilabel>Redigera "
+"verktygsförinställning</guilabel>."
 
 #: src/dialogs/tool-preset-editor.xml:60(para)
 msgid ""
 "a click on the <guilabel>Save Tool Preset…</guilabel> button from the <link "
 "linkend=\"gimp-tool-options-dialog\">Tool Options Dialog</link>."
 msgstr ""
+"ett klick på knappen <guilabel>Spara verktygsförinställning…</guilabel> i "
+"<link linkend=\"gimp-tool-options-dialog\">dialogrutan "
+"Verktygsalternativ</link>."
 
 #: src/dialogs/tool-preset-editor.xml:28(para)
 msgid "You can access this dialog through: <placeholder-1/>"
-msgstr ""
+msgstr "Du kan öppna dialogrutan så här: <placeholder-1/>"
 
 #: src/dialogs/tool-preset-editor.xml:71(title)
 #, fuzzy
