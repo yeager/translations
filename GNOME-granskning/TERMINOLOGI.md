@@ -1096,3 +1096,19 @@ Bevara standardiserade namn och identifierare som `sRGB`, `Adobe RGB`, `D50`, `D
 | Backspace key | Backstegstangent | Svensk benämning på tangentens funktion. |
 | Delete key | Delete-tangent | Behåll den tryckta tangenten Delete som namn. |
 | shell | skal | Använd i terminal- och kommandosammanhang. |
+
+## WirePlumber — ljudrouting
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| sink (audio) | ljudutgång | Ljudmål i PipeWire/WirePlumber; skilj från vanlig avloppsbetydelse. |
+| source (audio) | ljudkälla | Ljudkälla, exempelvis mikrofon eller programström. |
+| audio stream | ljudström | En ström med ljuddata. |
+| ducking | automatisk volymsänkning | Sänkning av annan ljudvolym när en prioriterad ström spelas. |
+| headset mode | headsetläge | Profil med headsetets mikrofon och hörlurar. |
+| device route | ljudrutt | Vald väg mellan en ljudenhet och dess portar. |
+| capture stream | inspelningsström | Ström som tar emot ljud, till exempel från en mikrofon. |
+| monitor port | övervakningsport | Port för att lyssna på en ljudsignal. |
+| control port | styrport | Port som används för styrning. |
+| latency | fördröjning | Använd *latens* endast när den tekniska mätstorheten uttryckligen avses. |
+| Loopback | Loopback | Etablerat namn på modul/profil; behåll som teknisk identifierare. |

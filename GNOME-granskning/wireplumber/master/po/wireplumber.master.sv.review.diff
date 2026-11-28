@@ -1,24 +1,226 @@
 --- wireplumber.master.sv.original.po
 +++ wireplumber.master.sv.reviewed.po
-@@ -20,8 +20,8 @@
- "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/pipewire/wireplumber/-/"
- "issues\n"
- "POT-Creation-Date: 2025-12-23 17:57+0000\n"
+@@ -20,2 +20 @@
+-"Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/pipewire/wireplumber/-/"
+-"issues\n"
++"Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/pipewire/wireplumber/-/issues\n"
+@@ -23,2 +22,2 @@
 -"PO-Revision-Date: 2026-02-24 01:32+0100\n"
 -"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-23 10:41+0100\n"
++"PO-Revision-Date: 2026-11-28 15:33+0100\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
- "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
- "Language: sv\n"
- "MIME-Version: 1.0\n"
-@@ -277,8 +277,8 @@
- "The volume level to apply when ducking (= reducing volume for a higher "
- "priority stream to be audible) in the role-based linking policy"
- msgstr ""
+@@ -34 +32,0 @@
+-#.
+@@ -37 +34,0 @@
+-#.
+@@ -43 +40,2 @@
+-#. This makes sure channels are only added when using UCM as ACP already has them
++#. This makes sure channels are only added when using UCM as ACP already has
++#. them
+@@ -116 +114,2 @@
+-#. handle object-removed to destroy device reservations and recycle device name
++#. handle object-removed to destroy device reservations and recycle device
++#. name
+@@ -126 +124,0 @@
+-#.
+@@ -129 +126,0 @@
+-#.
+@@ -151 +147,0 @@
+-#.
+@@ -154 +149,0 @@
+-#.
+@@ -170 +165,2 @@
+-#. /wireplumber.settings.schema/bluetooth.autoswitch-restore-timeout/description
++#. /wireplumber.settings.schema/bluetooth.autoswitch-restore-
++#. timeout/description
+@@ -175,0 +172,2 @@
++"Väntetid i millisekunder innan den föregående profilen återställs när "
++"inspelningen stoppas"
+@@ -179 +176,0 @@
+-#, fuzzy
+@@ -182,3 +179,4 @@
+-msgstr "Växla automatiskt till headset-profil"
+-
+-#. /wireplumber.settings.schema/bluetooth.autoswitch-switch-timeout/description
++msgstr "Väntetid för återställning efter automatiskt lägesbyte"
++
++#. /wireplumber.settings.schema/bluetooth.autoswitch-switch-
++#. timeout/description
+@@ -189,0 +188,2 @@
++"Väntetid i millisekunder innan headsetläget aktiveras när inspelningen "
++"startar"
+@@ -193 +192,0 @@
+-#, fuzzy
+@@ -196,3 +195,4 @@
+-msgstr "Växla automatiskt till headset-profil"
+-
+-#. /wireplumber.settings.schema/bluetooth.autoswitch-to-headset-profile/description
++msgstr "Väntetid för automatiskt lägesbyte"
++
++#. /wireplumber.settings.schema/bluetooth.autoswitch-to-headset-
++#. profile/description
+@@ -204 +204 @@
+-"Visa alltid mikrofon för Bluetooth-headsets, och växla till headset-läge vid "
++"Visa alltid mikrofonen för Bluetooth-headset och växla till headsetläge vid "
+@@ -210 +210 @@
+-msgstr "Växla automatiskt till headset-profil"
++msgstr "Växla automatiskt till headsetprofil"
+@@ -217,0 +218,2 @@
++"Prioritera hög ljudkvalitet eller låg fördröjning när profiler väljs "
++"automatiskt (endast värdena 'quality' och 'latency' godtas)"
+@@ -222 +224 @@
+-msgstr ""
++msgstr "Prioritering av Bluetooth-profiler"
+@@ -227 +229 @@
+-msgstr "Kom ihåg och återställ lägesstatus för Bluetooth-headset"
++msgstr "Kom ihåg och återställ Bluetooth-headsetets läge"
+@@ -247 +249 @@
+-msgstr "Kom ihåg och återställ enhetsrutter"
++msgstr "Kom ihåg och återställ enheternas ljudrutter"
+@@ -252 +254 @@
+-msgstr "Återställ rutter"
++msgstr "Återställ ljudrutter"
+@@ -262,3 +264,4 @@
+-msgstr "Standardvolym för utgångar"
+-
+-#. /wireplumber.settings.schema/device.routes.default-source-volume/description
++msgstr "Standardvolym för ljudutgångar"
++
++#. /wireplumber.settings.schema/device.routes.default-source-
++#. volume/description
+@@ -272,3 +275,4 @@
+-msgstr "Standardkällvolym"
+-
+-#. /wireplumber.settings.schema/device.routes.mute-on-alsa-playback-removed/description
++msgstr "Standardvolym för ljudkällor"
++
++#. /wireplumber.settings.schema/device.routes.mute-on-alsa-playback-
++#. removed/description
+@@ -280,4 +284,5 @@
+-"Tysta automatiskt alla ljudenheter då aktiva trådbundna hörlurar/högtalare "
+-"kopplas från för att förhindra oavsiktlig ljudutmatning"
+-
+-#. /wireplumber.settings.schema/device.routes.mute-on-alsa-playback-removed/name
++"Stäng automatiskt av ljudet på alla ljudenheter när anslutna trådbundna "
++"hörlurar eller högtalare kopplas från, så att oönskat ljud inte spelas upp"
++
++#. /wireplumber.settings.schema/device.routes.mute-on-alsa-playback-
++#. removed/name
+@@ -286,12 +291,14 @@
+-msgstr "Tysta automatiskt vid frånkoppling av trådbundet ljud"
+-
+-#. /wireplumber.settings.schema/device.routes.mute-on-bluetooth-playback-removed/description
+-#: wireplumber.conf
+-msgid ""
+-"Automatically mute all audio devices when active Bluetooth headphones/"
+-"speakers are disconnected to prevent unintended sound output"
+-msgstr ""
+-"Tysta automatiskt alla ljudenheter då aktiva Bluetooth-hörlurar/högtalare "
+-"kopplas från för att förhindra oavsiktlig ljudutmatning"
+-
+-#. /wireplumber.settings.schema/device.routes.mute-on-bluetooth-playback-removed/name
++msgstr "Stäng av ljudet automatiskt när trådbundna ljudenheter kopplas från"
++
++#. /wireplumber.settings.schema/device.routes.mute-on-bluetooth-playback-
++#. removed/description
++#: wireplumber.conf
++msgid ""
++"Automatically mute all audio devices when active Bluetooth "
++"headphones/speakers are disconnected to prevent unintended sound output"
++msgstr ""
++"Stäng automatiskt av ljudet på alla ljudenheter när anslutna Bluetooth-"
++"hörlurar eller högtalare kopplas från, så att oönskat ljud inte spelas upp"
++
++#. /wireplumber.settings.schema/device.routes.mute-on-bluetooth-playback-
++#. removed/name
+@@ -300 +307 @@
+-msgstr "Tysta automatiskt vid frånkoppling av Bluetooth-ljud"
++msgstr "Stäng av ljudet automatiskt när Bluetooth-ljudenheter kopplas från"
+@@ -317 +324,2 @@
+-"Strömmar anslutna till standardenheten följer när standardvärdet ändras"
++"Strömmar som är anslutna till standardenheten följer med när standardenheten"
++" ändras"
+@@ -322 +330 @@
+-msgstr "Följ standardmål"
++msgstr "Följ standardmålet"
+@@ -332 +340 @@
+-msgstr "Pausa uppspelning om utgången tas bort"
++msgstr "Pausa uppspelning om ljudutgången tas bort"
+@@ -340,2 +348,3 @@
 -"Volymnivån att tillämpa vid duckande (=reducera volymen så en högre "
 -"prioriterad ström ska vara hörbar) i den rollbaserade länkpolicyn"
-+"Volymnivån att tillämpa vid duckning (dvs. minska volymen så att en ström "
-+"med högre prioritet hörs) i den rollbaserade länkpolicyn"
- 
- #. /wireplumber.settings.schema/linking.role-based.duck-level/name
- #: wireplumber.conf
++"Volymnivån som ska användas vid automatisk volymsänkning (när volymen sänks "
++"för att en ström med högre prioritet ska höras) i den rollbaserade "
++"länkningspolicyn"
+@@ -346,3 +355,4 @@
+-msgstr "Ducknivå"
+-
+-#. /wireplumber.settings.schema/monitor.alsa.autodetect-hdmi-channels/description
++msgstr "Nivå för volymsänkning"
++
++#. /wireplumber.settings.schema/monitor.alsa.autodetect-hdmi-
++#. channels/description
+@@ -354,2 +364,2 @@
+-"Upptäck automatiskt kanalantal och positioner för HDMI-enheter "
+-"(experimentellt)"
++"Identifiera automatiskt antalet kanaler och deras positioner för HDMI-"
++"enheter (experimentellt)"
+@@ -360 +370 @@
+-msgstr "Upptäck automatiskt HDMI-kanaler (experimentellt)"
++msgstr "Identifiera automatiskt HDMI-kanaler (experimentellt)"
+@@ -365 +375 @@
+-msgstr "Kamerans tidsgräns för upptäckt i millisekunder"
++msgstr "Tidsgräns för att upptäcka kameror, i millisekunder"
+@@ -374 +383,0 @@
+-#, fuzzy
+@@ -377 +386 @@
+-msgstr "Standardvolymen för inspelningsnoder"
++msgstr "Standardvolymen för inspelningsströmmar"
+@@ -382 +391 @@
+-msgstr "Standardinspelningsvolym"
++msgstr "Standardvolym för inspelningsströmmar"
+@@ -387 +396 @@
+-msgstr "media.role att tilldela som standard på strömmar som inte anger den"
++msgstr "Standardvärde för media.role för strömmar som inte anger någon roll"
+@@ -392 +401 @@
+-msgstr "Standardmediaroll"
++msgstr "Standardroll för media"
+@@ -396 +404,0 @@
+-#, fuzzy
+@@ -399 +407 @@
+-msgstr "Standardvolymen för uppspelningsnoder"
++msgstr "Standardvolymen för uppspelningsströmmar"
+@@ -404 +412 @@
+-msgstr "Standarduppspelningsvolym"
++msgstr "Standardvolym för uppspelningsströmmar"
+@@ -408 +415,0 @@
+-#, fuzzy
+@@ -411 +418 @@
+-msgstr "Aktivera styrportar på ljudnoder"
++msgstr "Aktivera styrportar för ljudströmmar"
+@@ -418,3 +425,3 @@
+-#. /wireplumber.settings.schema/stream.features.audio.monitor-ports/description
+-#: wireplumber.conf
+-#, fuzzy
++#. /wireplumber.settings.schema/stream.features.audio.monitor-
++#. ports/description
++#: wireplumber.conf
+@@ -423 +430 @@
+-msgstr "Aktivera övervakningsportar på ljudnoder"
++msgstr "Aktivera övervakningsportar för ljudströmmar"
+@@ -432 +438,0 @@
+-#, fuzzy
+@@ -435 +441 @@
+-msgstr "Konfigurera alla ljudenheters utgångsnoder i MONO"
++msgstr "Ställ in alla ljudutgångsströmmar på mono"
+@@ -456,2 +462,2 @@
+-"Kom ihåg och återställ ljud/videoenheter att använda som ingångar/utgångar "
+-"som standard"
++"Kom ihåg och återställ standardenheter för ljud- och videoingångar och "
++"-utgångar"
+@@ -467 +473 @@
+-msgstr "Kom ihåg och återställ egenskaper för strömmar"
++msgstr "Kom ihåg och återställ strömmarnas egenskaper"
+@@ -477 +483 @@
+-msgstr "Kom ihåg och återställ mål för strömmar"
++msgstr "Kom ihåg och återställ strömmarnas mål"
