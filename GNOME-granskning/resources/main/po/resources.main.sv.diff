@@ -1,0 +1,346 @@
+--- resources.main.sv.original.po
++++ resources.main.sv.reviewed.po
+@@ -6,11 +6,10 @@
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: resources main\n"
+-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/Incubator/resources/"
+-"issues/\n"
++"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/Incubator/resources/issues/\n"
+ "POT-Creation-Date: 2026-11-28 00:29+0000\n"
+-"PO-Revision-Date: 2026-11-03 21:49+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-28 14:20+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -20,29 +19,33 @@
+ "X-Generator: Poedit 3.10\n"
+ 
+ #: data/org.gnome.Resources.desktop.in.in:2
+-#: data/org.gnome.Resources.metainfo.xml.in.in:4 data/resources/ui/window.ui:22
+-#: src/application.rs:296
++#: data/org.gnome.Resources.metainfo.xml.in.in:4
++#: data/resources/ui/window.ui:22 src/application.rs:296
+ msgid "Resources"
+ msgstr "Resurser"
+ 
+-#. Translators: The summary should be 35 characters or less according to Flathub appstream guidelines
++#. Translators: The summary should be 35 characters or less according to
++#. Flathub appstream guidelines
+ #: data/org.gnome.Resources.desktop.in.in:3
+ #: data/org.gnome.Resources.metainfo.xml.in.in:5
+ msgid "Keep an eye on system resources"
+ msgstr "Håll ett öga på systemresurser"
+ 
+-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
++#. Translators: Search terms to find this application. Do NOT translate or
++#. localize the semicolons! The list MUST also end with a semicolon!
+ #: data/org.gnome.Resources.desktop.in.in:9
+-msgid "System;Resources;Monitor;Processes;Usage;Task;Manager;CPU;RAM;Memory;GPU;Performance;Power;Battery;"
+-msgstr "System;Resurser;Övervaka;Processer;Användning;Uppgift;Hanterare;CPU;Processor;RAM;Minne;GPU;Prestanda;Ström;Batteri;"
++msgid ""
++"System;Resources;Monitor;Processes;Usage;Task;Manager;CPU;RAM;Memory;GPU;Performance;Power;Battery;"
++msgstr ""
++"System;Resurser;Övervaka;Processer;Användning;Uppgift;Hanterare;CPU;Processor;RAM;Minne;GPU;Prestanda;Ström;Batteri;"
+ 
+ #: data/org.gnome.Resources.metainfo.xml.in.in:17
+ msgid ""
+ "Resources allows you to check the utilization of your system resources and "
+ "control your running processes and apps."
+ msgstr ""
+-"Resurser låter dig kontrollera användandet av ditt system och styra dina "
+-"körande processer och program."
++"Med Resurser kan du se hur systemresurserna används och styra program och "
++"processer som körs."
+ 
+ #: data/org.gnome.Resources.metainfo.xml.in.in:20
+ msgid "Resources supports monitoring the following components:"
+@@ -120,7 +123,7 @@
+ 
+ #: data/org.gnome.Resources.policy.in.in:9
+ msgid "Control Process"
+-msgstr "Styrprocess"
++msgstr "Styr process"
+ 
+ #: data/org.gnome.Resources.policy.in.in:10
+ msgid ""
+@@ -444,7 +447,7 @@
+ 
+ #: data/resources/ui/dialogs/settings_dialog.ui:92
+ msgid "Bar"
+-msgstr "Stolpe"
++msgstr "Stapel"
+ 
+ #: data/resources/ui/dialogs/settings_dialog.ui:93
+ msgid "Graph"
+@@ -459,8 +462,8 @@
+ "If enabled, the total usage of all cores will be divided by the amount of "
+ "cores"
+ msgstr ""
+-"Om aktiverat kommer den totala användningen för alla kärnor delas med "
+-"antalet kärnor"
++"Om det här är aktiverat divideras den totala användningen för alla kärnor "
++"med antalet kärnor"
+ 
+ #: data/resources/ui/dialogs/settings_dialog.ui:112
+ #: data/resources/ui/window.ui:64 data/resources/ui/window.ui:71
+@@ -498,8 +501,7 @@
+ #: data/resources/ui/dialogs/settings_dialog.ui:190
+ msgid ""
+ "Display priorities as niceness to allow for more fine-grained adjustments"
+-msgstr ""
+-"Visa prioriteter som nice-värde för att tillåta mer finkornig justering"
++msgstr "Visa prioriteter som nice-värden för mer detaljerad justering"
+ 
+ #: data/resources/ui/dialogs/settings_dialog.ui:300
+ msgid "Devices"
+@@ -541,7 +543,7 @@
+ #: data/resources/ui/pages/applications.ui:34
+ #: src/ui/pages/applications/mod.rs:1044
+ msgid "Continue App"
+-msgstr "Fortsätt program"
++msgstr "Återuppta program"
+ 
+ #: data/resources/ui/pages/applications.ui:22
+ #: data/resources/ui/pages/applications.ui:101
+@@ -572,7 +574,7 @@
+ 
+ #: data/resources/ui/pages/battery.ui:63
+ msgid "Technology"
+-msgstr "Teknologi"
++msgstr "Teknik"
+ 
+ #: data/resources/ui/pages/battery.ui:72 data/resources/ui/pages/gpu.ui:81
+ #: data/resources/ui/pages/network.ui:58 data/resources/ui/pages/npu.ui:84
+@@ -614,7 +616,7 @@
+ 
+ #: data/resources/ui/pages/cpu.ui:126
+ msgid "Uptime"
+-msgstr "Upptid"
++msgstr "Drifttid"
+ 
+ #: data/resources/ui/pages/cpu.ui:135
+ msgid "Virtualization"
+@@ -761,7 +763,7 @@
+ #: data/resources/ui/pages/processes.ui:14
+ #: data/resources/ui/pages/processes.ui:50 src/ui/pages/processes/mod.rs:1345
+ msgid "Continue Process"
+-msgstr "Fortsätt process"
++msgstr "Återuppta process"
+ 
+ #: data/resources/ui/pages/processes.ui:22
+ #: data/resources/ui/pages/processes.ui:74
+@@ -820,7 +822,7 @@
+ #: data/resources/ui/shortcuts.ui:33
+ msgctxt "shortcut window"
+ msgid "Open Context Menu"
+-msgstr ""
++msgstr "Öppna snabbvalsmeny"
+ 
+ #: data/resources/ui/shortcuts.ui:41
+ msgctxt "shortcut window"
+@@ -850,7 +852,7 @@
+ #: data/resources/ui/shortcuts.ui:68
+ msgctxt "shortcut window"
+ msgid "Continue App/Process"
+-msgstr "Fortsätt program/process"
++msgstr "Återuppta program/process"
+ 
+ #: data/resources/ui/shortcuts.ui:74
+ msgctxt "shortcut window"
+@@ -868,7 +870,7 @@
+ 
+ #: data/resources/ui/window.ui:10
+ msgid "_Keyboard Shortcuts"
+-msgstr "_Tangentbordsgenvägar"
++msgstr "_Kortkommandon"
+ 
+ #: data/resources/ui/window.ui:14
+ msgid "_About Resources"
+@@ -886,7 +888,8 @@
+ msgid "Toggle search field"
+ msgstr "Växla sökfält"
+ 
+-#. Translator credits. Replace "translator-credits" with your name/username, and optionally an email or URL.
++#. Translator credits. Replace "translator-credits" with your name/username,
++#. and optionally an email or URL.
+ #. One name per line, please do not remove previous names.
+ #: src/application.rs:309
+ msgid "translator-credits"
+@@ -938,7 +941,7 @@
+ 
+ #: src/devices/battery.rs:146
+ msgid "Lithium-Ion"
+-msgstr "Litium-jon"
++msgstr "Litiumjon"
+ 
+ #: src/devices/battery.rs:147
+ msgid "Lithium Iron Phosphate"
+@@ -950,7 +953,7 @@
+ 
+ #: src/devices/battery.rs:149
+ msgid "Rechargeable Alkaline Managanese"
+-msgstr "Uppladdningsbar alkalisk mangan"
++msgstr "Uppladdningsbart alkaliskt manganbatteri"
+ 
+ #: src/devices/battery.rs:150 src/devices/drive.rs:136
+ #: src/devices/gpu/mod.rs:279 src/devices/gpu/mod.rs:289
+@@ -1008,7 +1011,7 @@
+ 
+ #: src/devices/drive.rs:131 src/devices/drive.rs:208
+ msgid "Floppy Drive"
+-msgstr "Diskett"
++msgstr "Diskettstation"
+ 
+ #: src/devices/drive.rs:132
+ msgid "Hard Disk Drive"
+@@ -1069,7 +1072,7 @@
+ #: src/devices/drive.rs:213
+ #, rust-format
+ msgid "{} zram Device"
+-msgstr "{} zram-Enheter"
++msgstr "{} zram-enhet"
+ 
+ #: src/devices/drive.rs:214
+ #, rust-format
+@@ -1084,12 +1087,12 @@
+ #: src/devices/link/wifi.rs:156
+ #, rust-format
+ msgid "Receive: {}"
+-msgstr "Ta emot: {}"
++msgstr "Mottagning: {}"
+ 
+ #: src/devices/link/wifi.rs:157
+ #, rust-format
+ msgid "Send: {}"
+-msgstr "Skicka: {}"
++msgstr "Sändning: {}"
+ 
+ #: src/devices/network.rs:131
+ msgid "Bluetooth Tether"
+@@ -1180,11 +1183,12 @@
+ msgid "Yes (Flatpak)"
+ msgstr "Ja (Flatpak)"
+ 
+-#. Translators: "Portable" is the name of the containerization method used, please keep it as is
++#. Translators: "Portable" is the name of the containerization method used,
++#. please keep it as is
+ #: src/ui/pages/applications/application_entry.rs:192
+ #: src/ui/pages/processes/process_entry.rs:215
+ msgid "Yes (Portable)"
+-msgstr "Ja (Portable)"
++msgstr "Ja (portabel)"
+ 
+ #: src/ui/pages/applications/application_entry.rs:193
+ #: src/ui/pages/processes/process_entry.rs:216
+@@ -1222,7 +1226,7 @@
+ #: src/ui/pages/applications/mod.rs:1022 src/ui/pages/processes/mod.rs:1294
+ #, rust-format
+ msgid "Continue {}?"
+-msgstr "Fortsätt {}?"
++msgstr "Återuppta {}?"
+ 
+ #: src/ui/pages/applications/mod.rs:1028 src/ui/pages/processes/mod.rs:1329
+ msgid "Unsaved work might be lost"
+@@ -1233,16 +1237,16 @@
+ "Halting an app can come with serious risks such as losing data and security "
+ "implications. Use with caution."
+ msgstr ""
+-"Att stoppa ett program kan komma med allvarliga risker såsom att förlora "
+-"data och säkerhetsföljder. Använd med varsamhet."
++"Att stoppa ett program kan medföra allvarliga risker, till exempel "
++"dataförlust och säkerhetsproblem. Var försiktig."
+ 
+ #: src/ui/pages/applications/mod.rs:1033
+ msgid ""
+ "Killing an app can come with serious risks such as losing data and security "
+ "implications. Use with caution."
+ msgstr ""
+-"Att döda ett program kan komma med allvarliga risker såsom att förlora data "
+-"och säkerhetsföljder. Använd med varsamhet."
++"Att döda ett program kan medföra allvarliga risker, till exempel dataförlust"
++" och säkerhetsproblem. Var försiktig."
+ 
+ #: src/ui/pages/battery.rs:213 src/ui/pages/battery.rs:259
+ msgid "Battery Charge"
+@@ -1354,16 +1358,16 @@
+ "Halting a process can come with serious risks such as losing data and "
+ "security implications. Use with caution."
+ msgstr ""
+-"Att stoppa en process kan komma med allvarliga risker såsom att förlora data "
+-"och säkerhetsföljder. Använd med varsamhet."
++"Att stoppa en process kan medföra allvarliga risker, till exempel "
++"dataförlust och säkerhetsproblem. Var försiktig."
+ 
+ #: src/ui/pages/processes/mod.rs:1334
+ msgid ""
+ "Killing a process can come with serious risks such as losing data and "
+ "security implications. Use with caution."
+ msgstr ""
+-"Att döda en process kan komma med allvarliga risker såsom att förlora data "
+-"och säkerhetsföljder. Använd med varsamhet."
++"Att döda en process kan medföra allvarliga risker, till exempel dataförlust "
++"och säkerhetsproblem. Var försiktig."
+ 
+ #: src/ui/window.rs:483
+ #, rust-format
+@@ -1434,36 +1438,36 @@
+ #, rust-format
+ msgid "Successfully continued the process"
+ msgid_plural "Successfully continued {} processes"
+-msgstr[0] "Fortsatte processen"
+-msgstr[1] "Fortsatte {} processer"
++msgstr[0] "Återupptog processen"
++msgstr[1] "Återupptog {} processer"
+ 
+ #: src/ui/window.rs:1334
+ #, rust-format
+ msgid "There was a problem ending a process"
+ msgid_plural "There were problems ending {} processes"
+-msgstr[0] "Ett problem uppstod då en process skulle avslutas"
+-msgstr[1] "Ett problem uppstod då {} processer skulle avslutas"
++msgstr[0] "Det gick inte att avsluta processen"
++msgstr[1] "Det gick inte att avsluta {} processer"
+ 
+ #: src/ui/window.rs:1340
+ #, rust-format
+ msgid "There was a problem halting a process"
+ msgid_plural "There were problems halting {} processes"
+-msgstr[0] "Ett problem uppstod då en process skulle stoppas"
+-msgstr[1] "Ett problem uppstod då {} processer skulle stoppas"
++msgstr[0] "Det gick inte att stoppa processen"
++msgstr[1] "Det gick inte att stoppa {} processer"
+ 
+ #: src/ui/window.rs:1346
+ #, rust-format
+ msgid "There was a problem killing a process"
+ msgid_plural "There were problems killing {} processes"
+-msgstr[0] "Ett problem uppstod då en process skulle dödas"
+-msgstr[1] "Ett problem uppstod då {} processer skulle dödas"
++msgstr[0] "Det gick inte att döda processen"
++msgstr[1] "Det gick inte att döda {} processer"
+ 
+ #: src/ui/window.rs:1352
+ #, rust-format
+ msgid "There was a problem continuing a process"
+ msgid_plural "There were problems continuing {} processes"
+-msgstr[0] "Ett problem uppstod då en process skulle fortsättas"
+-msgstr[1] "Ett problem uppstod då {} processer skulle fortsättas"
++msgstr[0] "Det gick inte att återuppta processen"
++msgstr[1] "Det gick inte att återuppta {} processer"
+ 
+ #: src/ui/window.rs:1362
+ #, rust-format
+@@ -2001,8 +2005,8 @@
+ #~ "If enabled, a device identifier like its name or device type will be "
+ #~ "displayed"
+ #~ msgstr ""
+-#~ "Om aktiverat kommer en enhetsidentifierare som dess namn eller enhetstyp "
+-#~ "att visas"
++#~ "Om aktiverat kommer en enhetsidentifierare som dess namn eller enhetstyp att"
++#~ " visas"
+ 
+ #, rust-format
+ #~ msgid "R: {} · W: {}"
