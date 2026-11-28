@@ -77,6 +77,17 @@ källtextens sammanhang.
 
 | mugwort pollen | gråbopollen | IRM KMI: mugwort benämns gråbo på svenska. |
 
+| sleeping device | vilande enhet | Shelly: en batteridriven enhet som vaknar periodiskt och därför inte kan ta emot kommandon hela tiden. |
+| AC input strength | AC-ingångens styrka | Victron GX: val med lägena Strong och Weak för växelströmsingången. |
+| High current | hög strömstyrka | Victron GX: batteriets strömlarm; strömstyrka avser den elektriska storheten. |
+| Disable PV | inaktivera solcellsproduktionen | Victron GX: PV återges som solcellsproduktion enligt svensk produktterminologi. |
+| Disable PV inverters | inaktivera solcellsväxelriktare | Victron GX: PV-inverters är växelriktare för solceller. |
+| Disable all PV | inaktivera all solcellsproduktion | Victron GX: skiljer avstängning av all solcellsproduktion från en enskild PV-växelriktare. |
+| Maximum continuous current | maximal kontinuerlig strömstyrka | Enphase Envoy-generator: mätvärdet anges i ampere. |
+| Nameplate rating | märkeffekt | Enphase Envoy-generator: källkoden anger en effektklass i kilowatt. |
+| Start battery level | batterinivå för generatorstart | Enphase Envoy-generator: laddningsnivå i procent som utlöser start. |
+| Stop battery level | batterinivå för generatorstopp | Enphase Envoy-generator: laddningsnivå i procent som utlöser stopp. |
+
 ## Status
 
 De två molnstatusetiketterna, `scanner_jams`, fem räknaretiketter, tre

@@ -1,0 +1,602 @@
+{
+  "component::victron_gx::common::blinking": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-5.json",
+    "source": "Blinking",
+    "target": "Blinkar"
+  },
+  "component::victron_gx::common::blinking_inverted": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-5.json",
+    "source": "Blinking inverted",
+    "target": "Blinkar inverterat"
+  },
+  "component::victron_gx::common::microgrid_operation": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-5.json",
+    "source": "Microgrid operation",
+    "target": "Mikronätsdrift"
+  },
+  "component::victron_gx::common::standard_operation": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-5.json",
+    "source": "Standard operation",
+    "target": "Standarddrift"
+  },
+  "component::victron_gx::entity::binary_sensor::vebus_device_device_number_relay_test_ok::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-5.json",
+    "source": "{device_number} relay test OK",
+    "target": "Relätest OK för {device_number}"
+  },
+  "component::victron_gx::entity::binary_sensor::vebus_microgrid_allow_black_start::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-5.json",
+    "source": "Microgrid black start allowed",
+    "target": "Mikronätets svartstart tillåts"
+  },
+  "component::victron_gx::entity::binary_sensor::vebus_microgrid_operation_reset_pending::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-5.json",
+    "source": "Microgrid operation change pending reset",
+    "target": "Ändring av mikronätsdrift väntar på återställning"
+  },
+  "component::victron_gx::entity::select::vebus_microgrid_operation::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-5.json",
+    "source": "Microgrid operation",
+    "target": "Mikronätsdrift"
+  },
+  "component::victron_gx::entity::select::vebus_microgrid_operation::state::microgrid": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-5.json",
+    "source": "Microgrid operation",
+    "target": "Mikronätsdrift"
+  },
+  "component::victron_gx::entity::select::vebus_microgrid_operation::state::standard": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-5.json",
+    "source": "Standard operation",
+    "target": "Standarddrift"
+  },
+  "component::victron_gx::entity::select::vebus_weak_ac_input::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-5.json",
+    "source": "AC input strength",
+    "target": "AC-ingångsstyrka"
+  },
+  "component::victron_gx::entity::select::vebus_weak_ac_input::state::strong": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-5.json",
+    "source": "Strong",
+    "target": "Stark"
+  },
+  "component::victron_gx::entity::select::vebus_weak_ac_input::state::weak": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-5.json",
+    "source": "Weak",
+    "target": "Svag"
+  },
+  "component::victron_gx::entity::sensor::battery_contactor::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-5.json",
+    "source": "Contactor",
+    "target": "Kontaktor"
+  },
+  "component::victron_gx::entity::sensor::battery_contactor::state::alarm": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-5.json",
+    "source": "Alarm",
+    "target": "Larm"
+  },
+  "component::victron_gx::entity::sensor::battery_contactor::state::no_alarm": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-5.json",
+    "source": "No alarm",
+    "target": "Inget larm"
+  },
+  "component::victron_gx::entity::sensor::battery_contactor::state::warning": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-5.json",
+    "source": "Warning",
+    "target": "Varning"
+  },
+  "component::victron_gx::entity::sensor::battery_high_current::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-5.json",
+    "source": "High current",
+    "target": "Hög ström"
+  },
+  "component::victron_gx::entity::sensor::battery_high_current::state::alarm": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-5.json",
+    "source": "Alarm",
+    "target": "Larm"
+  },
+  "component::victron_gx::entity::sensor::battery_high_current::state::no_alarm": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-5.json",
+    "source": "No alarm",
+    "target": "Inget larm"
+  },
+  "component::victron_gx::entity::sensor::battery_high_current::state::warning": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-5.json",
+    "source": "Warning",
+    "target": "Varning"
+  },
+  "component::victron_gx::entity::sensor::evcharger_session_saved_cost::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-5.json",
+    "source": "Session saved cost",
+    "target": "Sparad sessionskostnad"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_absorption::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Absorption LED",
+    "target": "Absorptions-LED"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_absorption::state::blinking": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Blinking",
+    "target": "Blinkar"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_absorption::state::blinking_inverted": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Blinking inverted",
+    "target": "Blinkar inverterat"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_absorption::state::off": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Off",
+    "target": "Av"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_absorption::state::on": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "On",
+    "target": "På"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_bulk::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Bulk LED",
+    "target": "Bulk-LED"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_bulk::state::blinking": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Blinking",
+    "target": "Blinkar"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_bulk::state::blinking_inverted": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Blinking inverted",
+    "target": "Blinkar inverterat"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_bulk::state::off": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Off",
+    "target": "Av"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_bulk::state::on": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "On",
+    "target": "På"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_float::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Float LED",
+    "target": "Underhållsladdnings-LED"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_float::state::blinking": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Blinking",
+    "target": "Blinkar"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_float::state::blinking_inverted": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Blinking inverted",
+    "target": "Blinkar inverterat"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_float::state::off": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Off",
+    "target": "Av"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_float::state::on": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "On",
+    "target": "På"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_inverter::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Inverter LED",
+    "target": "Växelriktar-LED"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_inverter::state::blinking": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Blinking",
+    "target": "Blinkar"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_inverter::state::blinking_inverted": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Blinking inverted",
+    "target": "Blinkar inverterat"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_inverter::state::off": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Off",
+    "target": "Av"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_inverter::state::on": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "On",
+    "target": "På"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_low_battery::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Low battery LED",
+    "target": "LED för låg batterinivå"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_low_battery::state::blinking": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Blinking",
+    "target": "Blinkar"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_low_battery::state::blinking_inverted": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Blinking inverted",
+    "target": "Blinkar inverterat"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_low_battery::state::off": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Off",
+    "target": "Av"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_low_battery::state::on": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "On",
+    "target": "På"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_mains::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Mains LED",
+    "target": "Nät-LED"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_mains::state::blinking": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Blinking",
+    "target": "Blinkar"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_mains::state::blinking_inverted": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Blinking inverted",
+    "target": "Blinkar inverterat"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_mains::state::off": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Off",
+    "target": "Av"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_mains::state::on": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "On",
+    "target": "På"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_overload::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Overload LED",
+    "target": "Överbelastnings-LED"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_overload::state::blinking": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Blinking",
+    "target": "Blinkar"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_overload::state::blinking_inverted": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Blinking inverted",
+    "target": "Blinkar inverterat"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_overload::state::off": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Off",
+    "target": "Av"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_overload::state::on": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "On",
+    "target": "På"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_temperature::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Temperature LED",
+    "target": "Temperatur-LED"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_temperature::state::blinking": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Blinking",
+    "target": "Blinkar"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_temperature::state::blinking_inverted": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Blinking inverted",
+    "target": "Blinkar inverterat"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_temperature::state::off": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "Off",
+    "target": "Av"
+  },
+  "component::victron_gx::entity::sensor::vebus_inverter_led_temperature::state::on": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-6.json",
+    "source": "On",
+    "target": "På"
+  },
+  "component::victron_gx::entity::sensor::vebus_microgrid_direct_drive_p_ref::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-7.json",
+    "source": "Microgrid grid-following active power reference",
+    "target": "Referens för aktiv effekt vid nätdrift i mikronät"
+  },
+  "component::victron_gx::entity::sensor::vebus_microgrid_direct_drive_q_ref::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-7.json",
+    "source": "Microgrid grid-following reactive power reference",
+    "target": "Referens för reaktiv effekt vid nätdrift i mikronät"
+  },
+  "component::victron_gx::entity::sensor::vebus_microgrid_droop_p_ref::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-7.json",
+    "source": "Microgrid droop active power reference",
+    "target": "Referens för aktiv effekt vid droop-reglering i mikronät"
+  },
+  "component::victron_gx::entity::sensor::vebus_microgrid_droop_q_ref::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-7.json",
+    "source": "Microgrid droop reactive power reference",
+    "target": "Referens för reaktiv effekt vid droop-reglering i mikronät"
+  },
+  "component::victron_gx::entity::sensor::vebus_microgrid_operation::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-7.json",
+    "source": "Microgrid operation",
+    "target": "Mikronätsdrift"
+  },
+  "component::victron_gx::entity::sensor::vebus_microgrid_operation::state::microgrid": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-7.json",
+    "source": "Microgrid operation",
+    "target": "Mikronätsdrift"
+  },
+  "component::victron_gx::entity::sensor::vebus_microgrid_operation::state::standard": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-7.json",
+    "source": "Standard operation",
+    "target": "Standarddrift"
+  },
+  "component::victron_gx::entity::sensor::vebus_nominal_inverter_power::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-7.json",
+    "source": "Nominal inverter power",
+    "target": "Nominell växelriktareffekt"
+  },
+  "component::victron_gx::entity::sensor::vebus_nominal_inverter_power_phase::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-7.json",
+    "source": "Nominal inverter power {phase}",
+    "target": "Nominell växelriktareffekt {phase}"
+  },
+  "component::victron_gx::entity::switch::acsystem_pv_disable::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-7.json",
+    "source": "Disable PV",
+    "target": "Inaktivera PV"
+  },
+  "component::victron_gx::entity::switch::hub4_pv_disable::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-7.json",
+    "source": "Disable PV inverters",
+    "target": "Inaktivera PV-växelriktare"
+  },
+  "component::victron_gx::entity::switch::system_pv_disable::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-7.json",
+    "source": "Disable all PV",
+    "target": "Inaktivera all PV"
+  },
+  "component::libresync::config::abort::unsupported_hub": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-8.json",
+    "source": "This hub is built on Libre's newer {module} module, like the Stereo Hub HT and the Surround Hub, which this integration does not support yet.",
+    "target": "Den här hubben bygger på Libres nyare {module}-modul, såsom Stereo Hub HT och Surround Hub, som den här integrationen ännu inte stöder."
+  },
+  "component::libresync::exceptions::unsupported_hub::message": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-8.json",
+    "source": "The hub at {host} is built on Libre's newer {module} module, which this integration does not support yet.",
+    "target": "Hubben på {host} bygger på Libres nyare {module}-modul, som den här integrationen ännu inte stöder."
+  },
+  "component::enphase_envoy::entity::binary_sensor::generator_present::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-8.json",
+    "source": "Present",
+    "target": "Närvarande"
+  },
+  "component::enphase_envoy::entity::binary_sensor::generator_schedule_enabled::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-8.json",
+    "source": "Schedule enabled",
+    "target": "Schema aktiverat"
+  },
+  "component::enphase_envoy::entity::sensor::generator_admin_state::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-8.json",
+    "source": "Admin state",
+    "target": "Administrationsstatus"
+  },
+  "component::enphase_envoy::entity::sensor::generator_cool_down_mins::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-8.json",
+    "source": "Cool-down time",
+    "target": "Avsvalningstid"
+  },
+  "component::enphase_envoy::entity::sensor::generator_gen_type::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-8.json",
+    "source": "Generator type",
+    "target": "Generatortyp"
+  },
+  "component::enphase_envoy::entity::sensor::generator_max_continuous_current::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-8.json",
+    "source": "Maximum continuous current",
+    "target": "Högsta kontinuerliga ström"
+  },
+  "component::enphase_envoy::entity::sensor::generator_nameplate_rating::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-8.json",
+    "source": "Nameplate rating",
+    "target": "Märkskyltens märkdata"
+  },
+  "component::enphase_envoy::entity::sensor::generator_oper_state::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-8.json",
+    "source": "Operating state",
+    "target": "Driftstatus"
+  },
+  "component::enphase_envoy::entity::sensor::generator_requested_mode::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-8.json",
+    "source": "Requested mode",
+    "target": "Begärt läge"
+  },
+  "component::enphase_envoy::entity::sensor::generator_start_method::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-8.json",
+    "source": "Start method",
+    "target": "Startmetod"
+  },
+  "component::enphase_envoy::entity::sensor::generator_start_soc::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-8.json",
+    "source": "Start battery level",
+    "target": "Startbatterinivå"
+  },
+  "component::enphase_envoy::entity::sensor::generator_stop_soc::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-8.json",
+    "source": "Stop battery level",
+    "target": "Stoppbatterinivå"
+  },
+  "component::enphase_envoy::entity::sensor::generator_warm_up_mins::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-8.json",
+    "source": "Warm-up time",
+    "target": "Uppvärmningstid"
+  },
+  "component::rainforest_eagle::entity::binary_sensor::meter_connectivity::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-8.json",
+    "source": "Meter connectivity",
+    "target": "Mätaranslutning"
+  },
+  "component::fronius::entity::sensor::ac_power_limit_reference::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-8.json",
+    "source": "AC power limit reference",
+    "target": "Referens för AC-effektgräns"
+  },
+  "component::fronius::entity::sensor::battery_power_limit_reference::name": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-8.json",
+    "source": "Battery power limit reference",
+    "target": "Referens för batterieffektgräns"
+  },
+  "component::husqvarna_automower_ble::exceptions::reconnect_failed::message": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-9.json",
+    "source": "Unable to reconnect to device {address}",
+    "target": "Det gick inte att återansluta till enheten {address}"
+  },
+  "component::unifiprotect::entity::event::alarm_hub::state_attributes::event_type::state::battery_connected": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-9.json",
+    "source": "Battery connected",
+    "target": "Batteri anslutet"
+  },
+  "component::unifiprotect::entity::event::alarm_hub::state_attributes::event_type::state::battery_low": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-9.json",
+    "source": "Battery low",
+    "target": "Låg batterinivå"
+  },
+  "component::unifiprotect::entity::event::alarm_hub::state_attributes::event_type::state::button_press": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-9.json",
+    "source": "Button pressed",
+    "target": "Knapp nedtryckt"
+  },
+  "component::unifiprotect::entity::event::alarm_hub::state_attributes::event_type::state::device_tamper": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-9.json",
+    "source": "Hub tampered",
+    "target": "Hubben har manipulerats"
+  },
+  "component::unifiprotect::entity::event::alarm_hub::state_attributes::event_type::state::entry_closed": {
+    "artifact": "tools/swedish-tm/Home-Assistant/2026-11-23-live-new-core-batch-9.json",
+    "source": "Entry closed",
+    "target": "Ingång stängd"
+  },
+  "component::irm_kmi::entity::sensor::pollen_oak::state::purple": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-20/granskning-irm-kmi.md",
+    "source": null,
+    "target": null
+  },
+  "component::irm_kmi::entity::sensor::pollen_oak::state::red": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-20/granskning-irm-kmi.md",
+    "source": null,
+    "target": null
+  },
+  "component::irm_kmi::entity::sensor::pollen_oak::state::yellow": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-20/granskning-irm-kmi.md",
+    "source": null,
+    "target": null
+  },
+  "component::shelly::exceptions::command_http_error::message": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-21-core-shelly-empty-targets.md",
+    "source": null,
+    "target": null
+  },
+  "component::shelly::exceptions::command_invalid_params::message": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-21-core-shelly-empty-targets.md",
+    "source": null,
+    "target": null
+  },
+  "component::shelly::exceptions::command_not_allowed::message": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-21-core-shelly-empty-targets.md",
+    "source": null,
+    "target": null
+  },
+  "component::shelly::exceptions::command_rpc_error::message": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-21-core-shelly-empty-targets.md",
+    "source": null,
+    "target": null
+  },
+  "component::shelly::exceptions::command_sleeping_device::message": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-21-core-shelly-empty-targets.md",
+    "source": null,
+    "target": null
+  },
+  "component::shelly::services::command::description": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-21-core-shelly-empty-targets.md",
+    "source": null,
+    "target": null
+  },
+  "component::shelly::services::command::fields::command::description": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-21-core-shelly-empty-targets.md",
+    "source": null,
+    "target": null
+  },
+  "component::shelly::services::command::fields::command::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-21-core-shelly-empty-targets.md",
+    "source": null,
+    "target": null
+  },
+  "component::shelly::services::command::fields::device_id::description": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-21-core-shelly-empty-targets.md",
+    "source": null,
+    "target": null
+  },
+  "component::shelly::services::command::fields::device_id::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-21-core-shelly-empty-targets.md",
+    "source": null,
+    "target": null
+  },
+  "component::shelly::services::command::fields::params::description": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-21-core-shelly-empty-targets.md",
+    "source": null,
+    "target": null
+  },
+  "component::shelly::services::command::fields::params::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-21-core-shelly-empty-targets.md",
+    "source": null,
+    "target": null
+  },
+  "component::shelly::services::command::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-21-core-shelly-empty-targets.md",
+    "source": null,
+    "target": null
+  },
+  "component::shelly::entity::number::display_brightness::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-21-core-shelly-empty-targets.md",
+    "source": null,
+    "target": null
+  },
+  "component::shelly::entity::number::min_auto_display_brightness::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-21-core-shelly-empty-targets.md",
+    "source": null,
+    "target": null
+  },
+  "component::shelly::entity::switch::auto_brightness::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-21-core-shelly-empty-targets.md",
+    "source": null,
+    "target": null
+  },
+  "component::irm_kmi::entity::binary_sensor::warning::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-21-ha-current-empty-targets.md",
+    "source": null,
+    "target": null
+  },
+  "component::irm_kmi::entity::binary_sensor::warning::state_attributes::warnings::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-21-ha-current-empty-targets.md",
+    "source": null,
+    "target": null
+  },
+  "component::irm_kmi::entity::sensor::next_warning::name": {
+    "artifact": "translations/Home-Assistant/Lokalise/2026-11-21-ha-current-empty-targets.md",
+    "source": null,
+    "target": null
+  }
+}
