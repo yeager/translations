@@ -11,7 +11,8 @@ Färdiggranskade kataloger som verifierats på Damned Lies. Uppladdningar kontro
 
 | snapshot | gnome-51 | po | 7 | Uppladdad och verifierad, 97/0/0; ”Granskad och klar” synlig. |
 | gnome-taquin | master | help | 42 | Uppladdad 2026-11-28 med ”Granskad och klar”; API, aktivitetssida och statistik bekräftar 66/0/0. |
+| gnome-nibbles | master | help | 36 | Uppladdad 2026-11-28 med ”Granskad och klar”; API, aktivitetssida och statistik bekräftar 71/0/0. |
 
 ## Status
 
-- Uppladdat och verifierat i denna logg: **6**.
+- Uppladdat och verifierat i denna logg: **7**.

@@ -1,0 +1,514 @@
+--- gnome-nibbles.master.help.sv.original.po
++++ gnome-nibbles.master.help.sv.reviewed.po
+@@ -5,8 +5,8 @@
+ msgstr ""
+ "Project-Id-Version: nibbles doc\n"
+ "POT-Creation-Date: 2026-11-22 09:22+0000\n"
+-"PO-Revision-Date: 2026-08-16 12:49+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-28 10:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -27,8 +27,8 @@
+ 
+ #. (itstool) path: credit/name
+ #: C/basics.page:17 C/controls-change.page:19 C/controls-default.page:16
+-#: C/fake-bonus.page:16 C/index.page:17 C/multi-player.page:17 C/scores.page:15
+-#: C/sound-change.page:16 C/speed-change.page:16
++#: C/fake-bonus.page:16 C/index.page:17 C/multi-player.page:17
++#: C/scores.page:15 C/sound-change.page:16 C/speed-change.page:16
+ msgid "Aruna Sankaranarayanan"
+ msgstr "Aruna Sankaranarayanan"
+ 
+@@ -61,7 +61,7 @@
+ "new game when being in a game."
+ msgstr ""
+ "Tryck på knappen <gui style=\"button\">➕</gui> i rubrikraden för att starta "
+-"ett nytt spel under tiden du spelar."
++"ett nytt spel medan du spelar."
+ 
+ #. (itstool) path: section/p
+ #: C/basics.page:35
+@@ -69,20 +69,20 @@
+ "Press the <gui style=\"button\">Done</gui> button when you have finished a "
+ "game."
+ msgstr ""
+-"Tryck på knappen <gui style=\"button\">Färdig</gui> när du har slutfört ett "
+-"spel."
++"Tryck på knappen <gui style=\"button\">Klar</gui> när du har avslutat en "
++"spelomgång."
+ 
+ #. (itstool) path: section/title
+ #: C/basics.page:40
+ msgid "Pause and resume your game"
+-msgstr "Pausa och återuppta ditt spel"
++msgstr "Pausa och återuppta spelet"
+ 
+ #. (itstool) path: section/p
+ #: C/basics.page:42
+ msgid ""
+ "Press the <gui style=\"button\">⏸</gui> button in the header bar to pause "
+-"your game. You can resume your game by pressing the <gui style=\"button\">▶</"
+-"gui> button."
++"your game. You can resume your game by pressing the <gui "
++"style=\"button\">▶</gui> button."
+ msgstr ""
+ "Tryck på knappen <gui style=\"button\">⏸</gui> i rubrikraden för att pausa "
+ "spelet. Du kan återuppta ditt spel genom att trycka på knappen <gui "
+@@ -100,9 +100,9 @@
+ "<keyseq><key>Ctrl</key><key>Q</key></keyseq> to quit <app>Nibbles</app> at "
+ "any time."
+ msgstr ""
+-"Tryck på knappen <gui style=\"button\">✖️</gui> i rubrikraden eller tryck "
+-"<keyseq><key>Ctrl</key><key>Q</key></keyseq> för att avsluta <app>Nibbles</"
+-"app> när som helst."
++"Tryck på knappen <gui style=\"button\">✖️</gui> i rubrikraden eller på "
++"<keyseq><key>Ctrl</key><key>Q</key></keyseq> för att avsluta "
++"<app>Nibbles</app> när som helst."
+ 
+ #. (itstool) path: credit/name
+ #: C/controls-change.page:27 C/fake-bonus.page:24 C/multi-player.page:25
+@@ -113,12 +113,12 @@
+ #. (itstool) path: info/desc
+ #: C/controls-change.page:31
+ msgid "Set custom control keys."
+-msgstr "Välj anpassade kontrolltangenter."
++msgstr "Välj egna styrtangenter."
+ 
+ #. (itstool) path: page/title
+ #: C/controls-change.page:34
+ msgid "Change the default controls"
+-msgstr "Ändra standardtangenter"
++msgstr "Ändra standardtangenterna"
+ 
+ #. (itstool) path: page/p
+ #: C/controls-change.page:36
+@@ -128,10 +128,10 @@
+ "player\">multi-player</link> games, when having more than one set of "
+ "controls becomes necessary. To change the default controls:"
+ msgstr ""
+-"<link xref=\"controls-default\">Standardkontrolltangenterna</link> kan "
+-"ändras i <app>Nibbles</app> för att passa dina önskemål eller för spel för "
+-"<link xref=\"multi-player\">flera spelare</link>, när mer än en uppsättning "
+-"kontroller behövs. För att ändra standardtangenterna:"
++"Standardtangenterna kan <link xref=\"controls-default\">ändras</link> i "
++"<app>Nibbles</app> så att de passar dig eller för <link xref=\"multi-"
++"player\">spel med flera spelare</link>, där det behövs mer än en uppsättning"
++" tangenter. Gör så här för att ändra standardtangenterna:"
+ 
+ #. (itstool) path: item/p
+ #: C/controls-change.page:43 C/fake-bonus.page:41 C/multi-player.page:49
+@@ -145,8 +145,8 @@
+ "On the <gui>Controls</gui> screen, press the arrow for the direction you "
+ "want to redefine the key."
+ msgstr ""
+-"På skärmen <gui>Styrning</gui>, tryck på pilen för riktningen som du vill "
+-"definiera om tangenten för."
++"På skärmen <gui>Styrning</gui> trycker du på pilen för den riktning vars "
++"tangent du vill ändra."
+ 
+ #. (itstool) path: item/p
+ #: C/controls-change.page:50
+@@ -160,23 +160,23 @@
+ "Any arrow that appears red must have the key redefined otherwise you will "
+ "not be able to start the game."
+ msgstr ""
+-"Alla pilar som är röda måste få sin tangent omdefinierad, annars kommer du "
+-"inte komma starta spelet."
++"Du måste tilldela tangenter till alla röda pilar. Annars kan du inte starta "
++"spelet."
+ 
+ #. (itstool) path: item/p
+ #: C/controls-change.page:57
+ msgid "Repeat the above step to change the other default keys."
+-msgstr "Upprepa steget ovan för att ändra de andra standardtangenterna."
++msgstr "Upprepa steget ovan om du vill ändra de andra standardtangenterna."
+ 
+ #. (itstool) path: info/desc
+ #: C/controls-default.page:25
+ msgid "Default keys for <app>Nibbles.</app>"
+-msgstr "Standardstyrtangenter i <app>Nibbles</app>."
++msgstr "Standardtangenter för <app>Nibbles.</app>"
+ 
+ #. (itstool) path: page/title
+ #: C/controls-default.page:28
+ msgid "Keyboard Controls"
+-msgstr "Tangentbordskontroller"
++msgstr "Tangentbordsstyrning"
+ 
+ #. (itstool) path: page/p
+ #: C/controls-default.page:30
+@@ -184,13 +184,12 @@
+ "For controlling the movements of your worm in a single-player mode, use the "
+ "following default keys:"
+ msgstr ""
+-"För att styra din masks rörelser i ett enspelarläge, använd följande "
+-"standardknappar:"
++"Använd följande standardtangenter för att styra masken i enspelarläget:"
+ 
+ #. (itstool) path: item/p
+ #: C/controls-default.page:35
+ msgid "<key>Up</key> to move the worm up"
+-msgstr "<key>↑</key> för att styra masken upp"
++msgstr "<key>↑</key> för att flytta masken uppåt"
+ 
+ #. (itstool) path: item/p
+ #: C/controls-default.page:38
+@@ -200,26 +199,24 @@
+ #. (itstool) path: item/p
+ #: C/controls-default.page:41
+ msgid "<key>Left</key> to move the worm left"
+-msgstr "<key>←</key> för att flytta masken till vänster"
++msgstr "<key>←</key> för att flytta masken åt vänster"
+ 
+ #. (itstool) path: item/p
+ #: C/controls-default.page:44
+ msgid "<key>Right</key> to move the worm right"
+-msgstr "<key>→</key> för att flytta masken till höger"
++msgstr "<key>→</key> för att flytta masken åt höger"
+ 
+ #. (itstool) path: note/p
+ #: C/controls-default.page:49
+-msgid ""
+-"You can <link xref=\"controls-change\">change</link> the default controls."
+-msgstr ""
+-"Du kan <link xref=\"controls-change\">ändra</link> standardtangenterna."
++msgid "You can <link xref=\"controls-change\">change</link> the default controls."
++msgstr "Du kan <link xref=\"controls-change\">ändra</link> standardtangenterna."
+ 
+ #. (itstool) path: info/desc
+ #: C/fake-bonus.page:28
+ msgid ""
+ "Use fake bonuses in a <app>Nibbles</app> game to make it more challenging."
+ msgstr ""
+-"Använd falska bonusar i <app>Nibbles</app> för att göra det mer utmanande."
++"Använd falska bonusar i <app>Nibbles</app> för att göra spelet svårare."
+ 
+ #. (itstool) path: page/title
+ #: C/fake-bonus.page:32
+@@ -233,9 +230,8 @@
+ "when your worm swallows them. They cause a reversal in the movement of your "
+ "worm."
+ msgstr ""
+-"Falska bonusar ser ut som vanliga bonusar till formen, men kommer inte att "
+-"ge dig några poäng när din mask sväljer dem. De orsakar en ändring av "
+-"rörelseriktningen på din mask."
++"Falska bonusar ser ut som vanliga bonusar men ger inga poäng när masken äter"
++" dem. I stället får de masken att byta riktning."
+ 
+ #. (itstool) path: page/p
+ #: C/fake-bonus.page:38
+@@ -248,8 +244,8 @@
+ "On the <gui>Preferences</gui> screen, check the <gui "
+ "style=\"checkbox\">Enable fake bonuses</gui> checkbox if it is unchecked."
+ msgstr ""
+-"På skärmen <gui>Inställningar</gui>, kryssa i kryssrutan <gui "
+-"style=\"checkbox\">Aktivera falska bonusar</gui> om den är omarkerad."
++"Markera kryssrutan <gui style=\"checkbox\">Aktivera falska bonusar</gui> på "
++"skärmen <gui>Inställningar</gui> om den inte redan är markerad."
+ 
+ #. (itstool) path: note/p
+ #: C/fake-bonus.page:50 C/speed-change.page:44
+@@ -291,9 +287,9 @@
+ "swallow as many objects as you can while avoiding maze walls and other "
+ "worms. You have to complete 26 levels to finish the game."
+ msgstr ""
+-"<app>Nibbles</app> är ett maskspel för GNOME. Målet med spelet är att svälja "
+-"så många objekt som möjligt, samtidigt som man undviker labyrintens väggar "
+-"och andra maskar. Du måste klara 26 nivåer för att avsluta spelet."
++"<app>Nibbles</app> är ett maskspel för GNOME. Målet är att äta så många "
++"objekt som möjligt utan att träffa labyrintens väggar eller andra maskar. Du"
++" måste klara 26 nivåer för att slutföra spelet."
+ 
+ #. (itstool) path: section/title
+ #: C/index.page:31
+@@ -319,18 +315,17 @@
+ #: C/multi-player.page:34
+ msgid ""
+ "<app>Nibbles</app> can be played by up to six players. While a player "
+-"controls <gui>Worm 1</gui> in a single-player game, players can additionally "
+-"control <gui>Worm 2</gui> to <gui>Worm 6</gui> in a multi-player game. A two-"
+-"player game allows you to control <gui>Worm 1</gui> and <gui>Worm 2</gui>, a "
+-"three player game allows you to control <gui>Worm 1</gui>, <gui>Worm 2</gui> "
+-"and <gui>Worm 3</gui> and so on."
+-msgstr ""
+-"<app>Nibbles</app> kan spelas av upp till sex deltagare. Medan en spelare "
+-"kontrollerar <gui>Mask 1</gui> i ett ensamspel, kan spelare dessutom "
+-"kontrollera <gui>Mask 2</gui> till <gui>Mask 6</gui> i ett flerspelarspel. "
+-"Med två deltagare kan du kontrollera <gui>Mask 1</gui> och <gui>Mask 2</"
+-"gui>, vid tre deltagare kan du kontrollera <gui>Mask 1</gui>, <gui>Mask 2</"
+-"gui> och <gui>Mask 3</gui> och så vidare."
++"controls <gui>Worm 1</gui> in a single-player game, players can additionally"
++" control <gui>Worm 2</gui> to <gui>Worm 6</gui> in a multi-player game. A "
++"two-player game allows you to control <gui>Worm 1</gui> and <gui>Worm "
++"2</gui>, a three player game allows you to control <gui>Worm 1</gui>, "
++"<gui>Worm 2</gui> and <gui>Worm 3</gui> and so on."
++msgstr ""
++"<app>Nibbles</app> kan spelas av upp till sex spelare. I ett enspelarspel "
++"styr spelaren <gui>Mask 1</gui>. I flerspelarläge kan spelarna även styra "
++"<gui>Mask 2</gui> till <gui>Mask 6</gui>. I ett spel med två spelare styr ni"
++" <gui>Mask 1</gui> och <gui>Mask 2</gui>; med tre spelare styr ni <gui>Mask "
++"1</gui>, <gui>Mask 2</gui> och <gui>Mask 3</gui>, och så vidare."
+ 
+ #. (itstool) path: section/title
+ #: C/multi-player.page:42
+@@ -343,8 +338,8 @@
+ "<app>Nibbles</app> can be played by up to six players. Up to four of them "
+ "can be humans. To set the number of players:"
+ msgstr ""
+-"<app>Nibbles</app> kan spelas av upp till sex spelare. Upp till fyra av dem "
+-"kan vara mänskliga. För att ställa in antalet spelare:"
++"<app>Nibbles</app> kan spelas av upp till sex spelare, varav högst fyra kan "
++"vara människor. Gör så här för att välja antal spelare:"
+ 
+ #. (itstool) path: item/p
+ #: C/multi-player.page:52
+@@ -352,13 +347,13 @@
+ "On the <gui>Number of players</gui> screen, set the number of human players "
+ "to the required number, a maximum of 4."
+ msgstr ""
+-"På skärmen <gui>Antal spelare</gui>, ställ in antalet mänskliga spelare till "
+-"antalet som behövs, max 4."
++"Ange önskat antal mänskliga spelare, högst fyra, på skärmen <gui>Antal "
++"spelare</gui>."
+ 
+ #. (itstool) path: item/p
+ #: C/multi-player.page:56
+ msgid "Set the number of computer players."
+-msgstr "Ställ in antal datorspelare."
++msgstr "Ange antalet datorspelare."
+ 
+ #. (itstool) path: credit/name
+ #: C/scores.page:19
+@@ -368,7 +363,7 @@
+ #. (itstool) path: info/desc
+ #: C/scores.page:23
+ msgid "Swallow different bonuses to score points."
+-msgstr "Svälj olika bonusar för att få poäng."
++msgstr "Ät olika bonusar för att få poäng."
+ 
+ #. (itstool) path: page/title
+ #: C/scores.page:26
+@@ -381,8 +376,8 @@
+ "You can score points in <app>Nibbles</app> by eating bonuses. There are 5 "
+ "different kinds of bonuses in Nibbles:"
+ msgstr ""
+-"Du kan samla poäng i <app>Nibbles</app> genom att äta bonusar. Det finns 5 "
+-"olika typer av bonusar i Nibbles:"
++"Du får poäng i <app>Nibbles</app> genom att äta bonusar. Det finns fem olika"
++" sorters bonusar i Nibbles:"
+ 
+ #. (itstool) path: item/p
+ #: C/scores.page:32
+@@ -396,13 +391,12 @@
+ "will give you 6 points and so on. In level 26, therefore, the first apple "
+ "will give you 26 points, the second apple will give you 52 points and so on."
+ msgstr ""
+-"Den äppelformade bonusen <_:media-1/> : Bonusen skapar en ökning av längden "
+-"på masken. Den poäng du får för att äta äpplet varierar från nivå till nivå "
+-"och multipliceras med nivån. På nivå 1 kommer det första äpplet ge dig 1 "
+-"poäng, det andra äpplet 2 poäng, det tredje äpplet 3 poäng och så vidare. På "
+-"nivå 2 kommer det första äpplet ge dig 2 poäng, det andra äpplet 4 poäng, "
+-"det tredje äpplet 6 poäng och så vidare. På nivå 26 kommer därför det första "
+-"äpplet ge dig 26 poäng, det andra äpplet 52 poäng och så vidare."
++"Den äppelformade bonusen <_:media-1/> gör masken längre. Poängen för ett "
++"äpple varierar mellan nivåerna och är en multipel av nivånumret. På nivå 1 "
++"ger det första äpplet 1 poäng, det andra 2 poäng, det tredje 3 poäng och så "
++"vidare. På nivå 2 ger det första äpplet 2 poäng, det andra 4 poäng, det "
++"tredje 6 poäng och så vidare. På nivå 26 ger det första äpplet alltså 26 "
++"poäng, det andra 52 poäng och så vidare."
+ 
+ #. (itstool) path: note/p
+ #: C/scores.page:44
+@@ -410,23 +404,23 @@
+ "The apple order count does not depend on the number of apples already eaten "
+ "by a worm. If the game is in level 1 and if player 1 eats the first apple, "
+ "he scores 1 point, if player 2 eats the second apple, he scores 2 points; a "
+-"third player may choose to not eat any apples till the tenth apple and score "
+-"10 points at once."
+-msgstr ""
+-"Äpplenas ordning beror inte på antalet äpplen som redan ätits av en mask. Om "
+-"spelet är på nivå 1 och om spelare 1 äter det första äpplet, får han 1 "
+-"poäng, om spelaren 2 äter det andra äpplet, får han 2 poäng; en tredje "
+-"spelare kan välja att inte äta några äpplen tills det tionde äpplet och får "
+-"då 10 poäng på en gång."
++"third player may choose to not eat any apples till the tenth apple and score"
++" 10 points at once."
++msgstr ""
++"Äpplenas ordning beror inte på hur många äpplen en mask redan har ätit. Om "
++"spelet är på nivå 1 och spelare 1 äter det första äpplet får spelaren 1 "
++"poäng. Om spelare 2 äter det andra äpplet får spelaren 2 poäng. En tredje "
++"spelare kan vänta med att äta äpplen fram till det tionde och då få 10 poäng"
++" på en gång."
+ 
+ #. (itstool) path: item/p
+ #: C/scores.page:52
+ msgid ""
+-"The heart-shaped bonus <_:media-1/> : This bonus gives you an extra life and "
+-"does not cause an increase in the length of your worm."
+-msgstr ""
+-"Den hjärtformade bonusen <_:media-1/> : Bonusen ger dig ett extra liv och "
+-"skapar inte en ökning i längden av din mask."
++"The heart-shaped bonus <_:media-1/> : This bonus gives you an extra life and"
++" does not cause an increase in the length of your worm."
++msgstr ""
++"Den hjärtformade bonusen <_:media-1/> ger dig ett extra liv utan att masken "
++"blir längre."
+ 
+ #. (itstool) path: item/p
+ #: C/scores.page:58
+@@ -435,9 +429,9 @@
+ "increase in the length of the worm and does not give you any points. It "
+ "causes a reversal in the movement of all the other worms in the game."
+ msgstr ""
+-"Den diamantformade bonusen <_:media-1/> : Bonusen skapar inte en ökning av "
+-"längden på masken och ger dig inte några poäng. Den ger en ändrad riktning "
+-"för alla andra maskar i spelet."
++"Den diamantformade bonusen <_:media-1/> ger inga poäng och gör inte masken "
++"längre. I stället vänder den rörelseriktningen för alla andra maskar i "
++"spelet."
+ 
+ #. (itstool) path: item/p
+ #: C/scores.page:65
+@@ -445,14 +439,12 @@
+ "The banana-shaped bonus <_:media-1/> : This bonus causes a greater increase "
+ "in the length of the worm than the apple-shaped bonus. The points given by "
+ "this bonus vary depending on the level number and the length of the worm. "
+-"The higher the level number and the longer the worm, the more the points are "
+-"scored on eating this bonus."
+-msgstr ""
+-"Den bananformade bonusen <_:media-1/> : Bonusen skapar en större ökning av "
+-"längden på masken än den äppelformade bonusen. Poängen som fås av denna "
+-"bonus varierar beroende på vilken nivå du är på och längden på masken. Ju "
+-"högre nivånummer och ju längre mask, desto mer poäng blir det för att äta "
+-"denna bonus."
++"The higher the level number and the longer the worm, the more the points are"
++" scored on eating this bonus."
++msgstr ""
++"Den bananformade bonusen <_:media-1/> gör masken längre än den äppelformade "
++"bonusen. Poängen den ger beror på nivån och maskens längd. Ju högre nivå och"
++" ju längre masken är, desto fler poäng ger bonusen."
+ 
+ #. (itstool) path: item/p
+ #: C/scores.page:74
+@@ -462,10 +454,9 @@
+ "number and the length of the worm. The higher the level number and the "
+ "longer the worm, the more the points are scored on eating this bonus."
+ msgstr ""
+-"Den körsbärsformade bonusen <_:media-1/> : Bonusen skapar en minskning av "
+-"längden på masken. Poängen som fås av denna bonus beror på vilken nivå du är "
+-"på och längden på masken. Ju högre nivånummer och ju längre mask, desto mer "
+-"poäng blir det för att äta denna bonus."
++"Den körsbärsformade bonusen <_:media-1/> gör masken kortare. Poängen den ger"
++" beror på nivån och maskens längd. Ju högre nivå och ju längre masken är, "
++"desto fler poäng ger bonusen."
+ 
+ #. (itstool) path: info/desc
+ #: C/sound-change.page:28
+@@ -480,7 +471,7 @@
+ #. (itstool) path: page/p
+ #: C/sound-change.page:33
+ msgid "To enable or disable sounds:"
+-msgstr "För att aktivera eller inaktivera ljud:"
++msgstr "Så här aktiverar eller inaktiverar du ljud:"
+ 
+ #. (itstool) path: item/p
+ #: C/sound-change.page:36
+@@ -490,7 +481,7 @@
+ #. (itstool) path: item/p
+ #: C/sound-change.page:39
+ msgid "Check or uncheck <gui style=\"checkbox\">Sound</gui>."
+-msgstr "Kryssa i eller avmarkera <gui style=\"checkbox\">Ljud</gui>."
++msgstr "Markera eller avmarkera <gui style=\"checkbox\">Ljud</gui>."
+ 
+ #. (itstool) path: info/desc
+ #: C/speed-change.page:28
+@@ -511,9 +502,7 @@
+ #: C/speed-change.page:39
+ msgid ""
+ "On the <gui>Preferences</gui> screen, select one of the four speed choices."
+-msgstr ""
+-"Välj på skärmen <gui>Inställningar</gui> ett av de fyra "
+-"hastighetsalternativen."
++msgstr "Välj en av de fyra hastigheterna på skärmen <gui>Inställningar</gui>."
+ 
+ #. (itstool) path: p/link
+ #: C/legal.xml:4
+@@ -523,7 +512,7 @@
+ #. (itstool) path: license/p
+ #: C/legal.xml:3
+ msgid "This work is licensed under a <_:link-1/>."
+-msgstr "Det här verket är licensierat under licensen <_:link-1/>."
++msgstr "Verket är licensierat under <_:link-1/>."
+ 
+ #~ msgid "settings"
+ #~ msgstr "inställningar"
+@@ -532,49 +521,49 @@
+ #~ "Player 1 controls <gui>Worm 1</gui>, player 2 controls <gui>Worm 2</gui>, "
+ #~ "player 3 controls <gui>Worm 3</gui> and so on."
+ #~ msgstr ""
+-#~ "Spelare 1 kontrollerar <gui>Mask 1</gui>, spelare 2 kontrollerar "
+-#~ "<gui>Mask 2</gui>, spelare 3 kontrollerar <gui>Mask 3</gui> och så vidare."
++#~ "Spelare 1 kontrollerar <gui>Mask 1</gui>, spelare 2 kontrollerar <gui>Mask "
++#~ "2</gui>, spelare 3 kontrollerar <gui>Mask 3</gui> och så vidare."
+ 
+ #~ msgid ""
+ #~ "In the <gui style=\"group\">Controls</gui> list, select the line of the "
+ #~ "<gui>Action</gui>. This highlights the line."
+ #~ msgstr ""
+-#~ "Välj i listan <gui style=\"group\">Styrning</gui> raden för <gui>Åtgärd</"
+-#~ "gui>en. Det kommer att markera raden."
++#~ "Välj i listan <gui style=\"group\">Styrning</gui> raden för "
++#~ "<gui>Åtgärd</gui>en. Det kommer att markera raden."
+ 
+ #~ msgid ""
+-#~ "Select the <gui>Key</gui> on the control. The words <gui>New accelerator…"
+-#~ "</gui> are now present in place of the old control."
++#~ "Select the <gui>Key</gui> on the control. The words <gui>New "
++#~ "accelerator…</gui> are now present in place of the old control."
+ #~ msgstr ""
+ #~ "Välj kontrollens <gui>Tangent</gui>. Texten <gui>Ny snabbtangent…</gui> "
+ #~ "visas nu istället för den gamla kontrollen."
+ 
+ #~ msgid ""
+-#~ "To keep the old setting click <gui>New accelerator…</gui> again, right "
+-#~ "click on <gui>New accelerator…</gui>, press <key>Esc</key> or click "
+-#~ "anywhere else inside the <gui>Nibbles Preferences</gui> box."
++#~ "To keep the old setting click <gui>New accelerator…</gui> again, right click"
++#~ " on <gui>New accelerator…</gui>, press <key>Esc</key> or click anywhere else"
++#~ " inside the <gui>Nibbles Preferences</gui> box."
+ #~ msgstr ""
+ #~ "För att behålla den gamla inställningen, klicka åter på <gui>Ny "
+ #~ "snabbtangent…</gui>, högerklicka på <gui>Ny snabbtangent…</gui>, tryck "
+-#~ "<key>Esc</key> eller klicka inuti rutan <gui>Inställningar för Nibbles</"
+-#~ "gui>."
++#~ "<key>Esc</key> eller klicka inuti rutan <gui>Inställningar för "
++#~ "Nibbles</gui>."
+ 
+ #~ msgid ""
+ #~ "Repeat the above step to change the other default keys for the current "
+-#~ "player, then select the tab for the next player whose controls you want "
+-#~ "to change and repeat the process."
++#~ "player, then select the tab for the next player whose controls you want to "
++#~ "change and repeat the process."
+ #~ msgstr ""
+ #~ "Upprepa ovanstående steg för att ändra andra standardtangenter för den "
+ #~ "aktuella spelaren, välj sedan fliken för nästa spelare vars kontroller du "
+ #~ "vill ändra och upprepa processen."
+ 
+ #~ msgid ""
+-#~ "For example, to use <key>A</key> to move left, select the <gui>Action</"
+-#~ "gui> <gui>Move left</gui>, then select its <gui>Key</gui>, then press "
++#~ "For example, to use <key>A</key> to move left, select the <gui>Action</gui> "
++#~ "<gui>Move left</gui>, then select its <gui>Key</gui>, then press "
+ #~ "<key>A</key> on your keyboard when you see <gui>New accelerator…</gui> on "
+ #~ "the line."
+ #~ msgstr ""
+ #~ "För att exempelvis använda <key>A</key> för att flytta vänster, välj "
+ #~ "<gui>Åtgärd</gui> <gui>Flytta vänster</gui>, välj sedan dess "
+-#~ "<gui>Tangent</gui>, tryck sedan på <key>A</key> på ditt tangentbord när "
+-#~ "du ser <gui>Ny snabbtangent…</gui> på raden."
++#~ "<gui>Tangent</gui>, tryck sedan på <key>A</key> på ditt tangentbord när du "
++#~ "ser <gui>Ny snabbtangent…</gui> på raden."
