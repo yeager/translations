@@ -111,7 +111,7 @@
 <tr data-product="Home Assistant Core"><td>Home Assistant Core</td><td lang="en">Plugged in</td><td lang="sv">inkopplad</td><td>A Better Routeplanner: bilen är fysiskt ansluten till laddaren men behöver inte ladda.</td></tr>
 <tr data-product="Home Assistant Core"><td>Home Assistant Core</td><td lang="en">Relay switched</td><td lang="sv">reläet har växlat läge</td><td>UniFi Protect: händelseetikett när ett relä växlar tillstånd.</td></tr>
 <tr data-product="Home Assistant Core"><td>Home Assistant Core</td><td lang="en">SMHI API</td><td lang="sv">SMHI:s API</td><td>Genitivformen används i felmeddelanden om anrop till myndighetens API.</td></tr>
-<tr data-product="Home Assistant Core"><td>Home Assistant Core</td><td lang="en">polled (register)</td><td lang="sv">avfrågade register</td><td>Nibe MODBUS: register som värmepumpen läser efter en aktiv förfrågan.</td></tr>
+<tr data-product="Home Assistant Core"><td>Home Assistant Core</td><td lang="en">polled (register)</td><td lang="sv">register som systemet läser av på begäran</td><td>Nibe MODBUS: skiljer register som pumpen skickar spontant från register som systemet hämtar genom aktiv avläsning.</td></tr>
 </tbody></table></div>
 <script>const q=document.querySelector('#q'),p=document.querySelector('#product'),rows=[...document.querySelectorAll('#rows tr')],count=document.querySelector('#count');function filter(){let n=0;for(const r of rows){const ok=(!p.value||r.dataset.product===p.value)&&(!q.value||r.textContent.toLocaleLowerCase('sv').includes(q.value.toLocaleLowerCase('sv')));r.hidden=!ok;if(ok)n++}count.textContent=n+' av '+rows.length+' termer'}q.addEventListener('input',filter);p.addEventListener('change',filter);filter();</script>
 </main></body></html>

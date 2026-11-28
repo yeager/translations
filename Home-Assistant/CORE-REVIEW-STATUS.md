@@ -6,7 +6,7 @@ Lokalise-projekt: `130246255a974bd3b5e8a1.51616605`
 
 ## Senaste batch: 75 257–75 376
 
-120 strängar radgranskade (84 direkta källtexter, 36 verifierade referenser); 18 rättelser sparades och lästes tillbaka, 102 befintliga mål verifierades. Alla platshållare ja, alla pluralposter (0) granskade, tidigare granskningsspår hittades för alla 120. Se [2026-11-28-reviewed-core-75257-75376.md](2026-11-28-reviewed-core-75257-75376.md). HA-TM och HTML-terminologirapport uppdaterades.
+120 strängar radgranskade (84 direkta källtexter, 36 verifierade referenser); 19 rättelser sparades och lästes tillbaka, 102 befintliga mål verifierades. Alla platshållare ja, alla pluralposter (0) granskade, tidigare granskningsspår hittades för alla 120. Se [2026-11-28-reviewed-core-75257-75376.md](2026-11-28-reviewed-core-75257-75376.md). HA-TM och HTML-terminologirapport uppdaterades.
 
 Nästa position: **75 377**. **2 280** positioner återstår av aktuell nyckelinventering; granskningen pågår.
 

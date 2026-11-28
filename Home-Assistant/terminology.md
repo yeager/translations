@@ -95,7 +95,7 @@ källtextens sammanhang.
 | Plugged in | inkopplad | A Better Routeplanner: bilen är fysiskt ansluten till laddaren men behöver inte ladda. |
 | Relay switched | reläet har växlat läge | UniFi Protect: händelseetikett när ett relä växlar tillstånd. |
 | SMHI API | SMHI:s API | Genitivformen används i felmeddelanden om anrop till myndighetens API. |
-| polled (register) | avfrågade register | Nibe MODBUS: register som värmepumpen läser efter en aktiv förfrågan. |
+| polled (register) | register som systemet läser av på begäran | Nibe MODBUS: skiljer register som pumpen skickar spontant från register som systemet hämtar genom aktiv avläsning. |
 
 ## Status
 
