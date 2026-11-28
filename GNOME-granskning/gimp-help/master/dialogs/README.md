@@ -4,12 +4,12 @@
 - **Gren:** `master`
 - **Senaste POT:** hämtad 2026-11-28; 3 407 aktiva poster; SHA-256 `c5aec982c9e18537036ffab48274bd10e8991e844cda46c00e298bf506665d71`
 - **Damned Lies före arbetet:** 271 översatta, 834 fuzzy, 2 302 oöversatta
-- **Lokal arbetskopia efter två batcher:** 387 översatta, 815 fuzzy, 2 205 tomma poster; 2 143 synliga strängar och 62 `@@image`-metadata återstår.
-- **Radgranskat hittills:** 116 poster: 97 tidigare tomma översatta, 19 fuzzy granskade, 0 skarpa befintliga översättningar ändrade.
+- **Lokal arbetskopia efter två batcher:** 409 översatta, 815 fuzzy, 2 183 tomma poster; 2 121 synliga strängar och 62 `@@image`-metadata återstår.
+- **Radgranskat hittills:** 138 poster: 119 tidigare tomma översatta, 19 fuzzy granskade, 0 skarpa befintliga översättningar ändrade.
 
 Original aktuell PO, POT, aktivitetssida, granskad PO och unified diff finns i denna katalog. Arbetsfilen är `gimp-help.master.dialogs.sv.working-2026-11-28.po`; detaljer per batch finns i arkivet `reviews/gnome-progress/`.
 
-Batch 1 omfattade välkomstdialogen, symmetrimålning, sparadialogen och `%x`-variabeln. Batch 2 omfattade välkomstdialogen, ångringshistorik och verktygsförinställningar. Granskade poster förs löpande in i `swedish-tm`.
+Batch 1 omfattade välkomstdialogen, symmetrimålning, sparadialogen och `%x`-variabeln. Batch 2 omfattade välkomstdialogen, ångringshistorik och verktygsförinställningar. Batch 3 omfattade verktygsförinställningsredigeraren och mallar. Granskade poster förs löpande in i `swedish-tm`.
 
 - `l10n-lint`: 0 fel, 146 varningar när tomma och fuzzy poster undantas; batch 2 tillför inga rapporterade fel. Varningarna gäller katalogens befintliga DocBook-/interpunktionstillstånd och ett skyddat kortkommando.
 - DocBook-taggar, skyddade attribut och formatplatshållare jämfördes i batcherna utan avvikelser.

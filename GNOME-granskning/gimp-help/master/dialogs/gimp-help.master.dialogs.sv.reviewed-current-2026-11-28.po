@@ -1310,22 +1310,33 @@ msgid ""
 "<link linkend=\"gimp-prefs-folders-tool-presets\">Folders "
 "Preferences</link>."
 msgstr ""
+"Du kan bara redigera förinställningar som du har skapat. Alla alternativ för"
+" fördefinierade förinställningar är inaktiverade. När du sparar en "
+"förinställning lagras den i den första skrivbara mappen som har angetts "
+"under <guilabel>Verktygsförinställningar</guilabel> i <link linkend=\"gimp-"
+"prefs-folders-tool-presets\">Mappinställningar</link>."
 
 #: src/dialogs/tool-preset-editor.xml:83(para)
 msgid "<emphasis role=\"bold\">edit preset name</emphasis> in text box,"
 msgstr ""
+"<emphasis role=\"bold\">redigera förinställningens namn</emphasis> i "
+"textrutan,"
 
 #: src/dialogs/tool-preset-editor.xml:88(para)
 msgid ""
 "<emphasis role=\"bold\">change preset icon</emphasis> by clicking on preset "
 "icon. This opens a window where you can choose a new icon."
 msgstr ""
+"<emphasis role=\"bold\">ändra förinställningens ikon</emphasis> genom att "
+"klicka på ikonen. Då öppnas ett fönster där du kan välja en ny ikon."
 
 #: src/dialogs/tool-preset-editor.xml:94(para)
 msgid ""
 "<emphasis role=\"bold\">select resources to be saved</emphasis> by clicking "
 "on check boxes."
 msgstr ""
+"<emphasis role=\"bold\">välj resurser som ska sparas</emphasis> genom att "
+"markera kryssrutorna."
 
 #: src/dialogs/tool-preset-editor.xml:79(para)
 #, fuzzy
@@ -1335,14 +1346,16 @@ msgstr "En ny <placeholder-1/>"
 #: src/dialogs/tool-preset-editor.xml:105(para)
 msgid "<placeholder-1/> Save the settings of the current tool preset."
 msgstr ""
+"<placeholder-1/> Spara inställningarna för den aktuella "
+"verktygsförinställningen."
 
 #: src/dialogs/tool-preset-editor.xml:117(para)
 msgid "<placeholder-1/> Reset if you want to undo your changes."
-msgstr ""
+msgstr "<placeholder-1/> Återställ om du vill ångra ändringarna."
 
 #: src/dialogs/tool-preset-editor.xml:133(title)
 msgid "Tool Preset Editor Context Menu"
-msgstr ""
+msgstr "Snabbmenyn i redigeraren för verktygsförinställningar"
 
 #: src/dialogs/tool-preset-editor.xml:134(para)
 msgid ""
@@ -1352,6 +1365,12 @@ msgid ""
 "items that do the same as the save and restore buttons mentioned above, it "
 "only has one other option."
 msgstr ""
+"Redigeraren för verktygsförinställningar har en snabbmeny. Öppna den genom "
+"att klicka på <link linkend=\"tab-"
+"menus\">flikmenyknappen</link><placeholder-1/> och sedan välja "
+"<guisubmenu>Menyn Redigeraren för verktygsförinställningar</guisubmenu>. "
+"Förutom två kommandon som motsvarar knapparna för att spara och återställa "
+"ovan finns bara ett annat alternativ."
 
 #: src/dialogs/tool-preset-editor.xml:151(term)
 #, fuzzy
@@ -1364,6 +1383,9 @@ msgid ""
 "active tool preset. If it is disabled, the tool preset editor will not "
 "change when the active tool preset changes."
 msgstr ""
+"När alternativet är aktiverat läser redigeraren för verktygsförinställningar"
+" automatiskt in den aktiva verktygsförinställningen. Om det är inaktiverat "
+"ändras inte redigeraren när den aktiva verktygsförinställningen ändras."
 
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
@@ -1430,6 +1452,11 @@ msgid ""
 "one to be used as base for your new image. The <quote>Templates</quote> "
 "dialog allows you to manage these templates."
 msgstr ""
+"Mallar är fördefinierade bildinställningar som du kan använda för att snabbt"
+" skapa en ny bild med önskade mått, upplösning med mera. Många mallar följer"
+" med GIMP, men du kan också skapa egna. När du skapar en ny bild kan du "
+"välja en befintlig mall som grund. I dialogrutan <quote>Mallar</quote> "
+"hanterar du mallarna."
 
 #: src/dialogs/templates-dialog.xml:56(para)
 #, fuzzy
@@ -1463,6 +1490,8 @@ msgid ""
 "You select a template by clicking on its icon. Right clicking reveals a "
 "local menu that offers the same functions as the buttons."
 msgstr ""
+"Markera en mall genom att klicka på dess ikon. Högerklicka för att öppna en "
+"snabbmeny med samma funktioner som knapparna."
 
 #: src/dialogs/templates-dialog.xml:94(title)
 #: src/dialogs/patterns-dialog.xml:116(term)
@@ -1470,7 +1499,7 @@ msgstr ""
 #: src/dialogs/gradient-dialog.xml:169(term)
 #: src/dialogs/fonts-dialog.xml:109(term)
 msgid "Grid/List modes"
-msgstr ""
+msgstr "Rutnätsläge och listläge"
 
 #: src/dialogs/templates-dialog.xml:95(para)
 msgid ""
@@ -1482,35 +1511,48 @@ msgid ""
 "mode, they are lined up vertically; icons are identical too; all names are "
 "displayed."
 msgstr ""
+"På flikmenyn i dialogrutan <quote>Mallar</quote> kan du välja mellan "
+"<guimenuitem>Visa som rutnät</guimenuitem> och <guimenuitem>Visa som "
+"lista</guimenuitem>. I rutnätsläget visas mallarna i ett rektangulärt rutnät"
+" med likadana ikoner, om du inte har gett dem egna ikoner, vilket vi "
+"återkommer till. Bara namnet på den markerade mallen visas. I listläget "
+"visas mallarna lodrätt med likadana ikoner och alla namn synliga."
 
 #: src/dialogs/templates-dialog.xml:105(para)
 msgid ""
 "In this Tab menu, the <guilabel>Preview Size</guilabel> option allows you to"
 " change the size of thumbnails."
 msgstr ""
+"Med alternativet <guilabel>Förhandsvisningsstorlek</guilabel> på flikmenyn "
+"kan du ändra miniatyrbildernas storlek."
 
 #: src/dialogs/templates-dialog.xml:110(para)
 msgid ""
 "<keycombo><keycap>Ctrl</keycap><keycap>F</keycap></keycombo> in a list view "
 "opens a search field. See <xref linkend=\"gimp-dock-view-as-list\"/>"
 msgstr ""
+"Öppna ett sökfält i listvyn med "
+"<keycombo><keycap>Ctrl</keycap><keycap>F</keycap></keycombo>. Se <xref "
+"linkend=\"gimp-dock-view-as-list\"/>"
 
 #: src/dialogs/templates-dialog.xml:119(title)
 #: src/dialogs/mypaint-brushes-dialog.xml:233(title)
 #: src/dialogs/buffers-dialog.xml:251(title)
 #: src/dialogs/brushes-dialog.xml:358(title)
 msgid "Buttons at the bottom"
-msgstr ""
+msgstr "Knapparna längst ned"
 
 #: src/dialogs/templates-dialog.xml:133(phrase)
 msgid "Create a new image from the selected template"
-msgstr ""
+msgstr "Skapa en ny bild från den markerade mallen"
 
 #: src/dialogs/templates-dialog.xml:138(para)
 msgid ""
 "Clicking on this button creates a new image with the settings defined in the"
 " selected template."
 msgstr ""
+"Klicka på knappen för att skapa en ny bild med inställningarna i den "
+"markerade mallen."
 
 #: src/dialogs/templates-dialog.xml:153(phrase)
 msgid "Create a new template"
@@ -1522,6 +1564,9 @@ msgid ""
 " template</link> dialog, identical to the Edit Template dialog, that we will"
 " see below."
 msgstr ""
+"Klicka på knappen för att öppna dialogrutan <link linkend=\"edit-template-"
+"dialog\">Ny mall</link>. Den fungerar som dialogrutan Redigera mall som "
+"beskrivs nedan."
 
 #: src/dialogs/templates-dialog.xml:175(phrase)
 msgid "Duplicate the selected template"
@@ -1532,6 +1577,8 @@ msgid ""
 "Clicking on this button opens the Edit Template dialog that is documented "
 "next."
 msgstr ""
+"Klicka på knappen för att öppna dialogrutan Redigera mall, som beskrivs "
+"härnäst."
 
 #: src/dialogs/templates-dialog.xml:195(phrase)
 msgid "Edit the selected template"
@@ -1543,6 +1590,9 @@ msgid ""
 "dialog\">Edit Template</link> dialog where you can adjust the image related "
 "settings for the selected template."
 msgstr ""
+"Klicka på knappen för att öppna dialogrutan <link linkend=\"edit-template-"
+"dialog\">Redigera mall</link>, där du kan justera bildinställningarna för "
+"den markerade mallen."
 
 #: src/dialogs/templates-dialog.xml:217(phrase)
 msgid "Delete the selected template"
@@ -1550,7 +1600,7 @@ msgstr "Ta bort markerad mall"
 
 #: src/dialogs/templates-dialog.xml:220(para)
 msgid "This deletes the selected template after asking for confirmation."
-msgstr ""
+msgstr "Den markerade mallen tas bort efter att du har bekräftat åtgärden."
 
 #: src/dialogs/templates-dialog.xml:224(para)
 msgid ""
